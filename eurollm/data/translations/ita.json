@@ -1,0 +1,5600 @@
+[
+  {
+    "id": "Q1",
+    "text": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti. Lavoro",
+    "stem": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti.",
+    "item": "Lavoro",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti. Famiglia",
+    "stem": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti.",
+    "item": "Famiglia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti. Amici e conoscenti",
+    "stem": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti.",
+    "item": "Amici e conoscenti",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti. Tempo libero",
+    "stem": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti.",
+    "item": "Tempo libero",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti. Politica",
+    "stem": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti.",
+    "item": "Politica",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti. Religione",
+    "stem": "Mi dica, per favore, quanto nella Sua vita è importante ciascuno dei seguenti ambiti.",
+    "item": "Religione",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Nella Sua situazione attuale, Lei direbbe di essere:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto felice"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza felice"
+      },
+      {
+        "value": 3,
+        "label": "Non molto felice"
+      },
+      {
+        "value": 4,
+        "label": "Per niente felice"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "Tutto sommato, come descriverebbe le Sue condizioni di salute, oggi come oggi? Pensa di stare:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto bene"
+      },
+      {
+        "value": 2,
+        "label": "Bene"
+      },
+      {
+        "value": 3,
+        "label": "Discretamente"
+      },
+      {
+        "value": 4,
+        "label": "Male"
+      },
+      {
+        "value": 5,
+        "label": "Molto male"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v9",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Organizzazioni religiose o ecclesiali",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Organizzazioni religiose o ecclesiali",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v10",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Attività educative, artistiche, musicali o culturali",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Attività educative, artistiche, musicali o culturali",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v11",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Sindacati",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Sindacati",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v12",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Gruppi o partiti politici",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Gruppi o partiti politici",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v13",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Associazioni o gruppi per la conservazione della natura, l'ambiente, l'ecologia, i diritti degli animali",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Associazioni o gruppi per la conservazione della natura, l'ambiente, l'ecologia, i diritti degli animali",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v14",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Associazioni professionali",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Associazioni professionali",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v15",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Associazioni o gruppi sportivi o di attività ricreativa",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Associazioni o gruppi sportivi o di attività ricreativa",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v16",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Organizzazioni umanitarie o di beneficenza",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Organizzazioni umanitarie o di beneficenza",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v17",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Organizzazioni di consumatori",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Organizzazioni di consumatori",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v18",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Gruppi di auto/mutuo aiuto",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Gruppi di auto/mutuo aiuto",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v19",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Altri gruppi",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Altri gruppi",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v20",
+    "text": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste? Nessuna (spontaneo)",
+    "stem": "Esamini attentamente la seguente lista di associazioni volontarie: Lei fa parte di qualcuna di queste?",
+    "item": "Nessuna (spontaneo)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q5",
+    "text": "Ha fatto volontariato negli ultimi 6 mesi?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sì"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v22",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Persone di razza diversa",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Persone di razza diversa",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v23",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Alcoolisti",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Alcoolisti",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v24",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Immigrati/lavoratori stranieri",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Immigrati/lavoratori stranieri",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v24",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Lavoratori stranieri",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Lavoratori stranieri",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v24",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Immigrati",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Immigrati",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v25",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Tossicodipendenti",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Tossicodipendenti",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v26",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Omosessuali",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Omosessuali",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v28",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Musulmani",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Musulmani",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v29",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Ebrei",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Ebrei",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v30",
+    "text": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa? Zingari",
+    "stem": "Su questo cartellino sono elencati diversi tipi di persone. Può indicarmi se c'è qualcuno fra questi che non vorrebbe avere come vicini di casa?",
+    "item": "Zingari",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato (non leggere)"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato (non leggere)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "In generale Lei direbbe che si può avere fiducia nella maggior parte delle persone o che non si è mai troppo attenti quando si ha a che fare con le persone?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Si può avere fiducia nella maggior parte delle persone"
+      },
+      {
+        "value": 2,
+        "label": "Non si è mai troppo attenti quando si ha a che fare con le persone"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v32",
+    "text": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente? La Sua famiglia",
+    "stem": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente?",
+    "item": "La Sua famiglia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mi fido completamente"
+      },
+      {
+        "value": 2,
+        "label": "Mi fido abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Mi fido poco"
+      },
+      {
+        "value": 4,
+        "label": "Non mi fido per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v33",
+    "text": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente? I Suoi vicini di casa",
+    "stem": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente?",
+    "item": "I Suoi vicini di casa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mi fido completamente"
+      },
+      {
+        "value": 2,
+        "label": "Mi fido abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Mi fido poco"
+      },
+      {
+        "value": 4,
+        "label": "Non mi fido per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v34",
+    "text": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente? I Suoi conoscenti",
+    "stem": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente?",
+    "item": "I Suoi conoscenti",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mi fido completamente"
+      },
+      {
+        "value": 2,
+        "label": "Mi fido abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Mi fido poco"
+      },
+      {
+        "value": 4,
+        "label": "Non mi fido per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v35",
+    "text": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente? Persone che incontra per la prima volta",
+    "stem": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente?",
+    "item": "Persone che incontra per la prima volta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mi fido completamente"
+      },
+      {
+        "value": 2,
+        "label": "Mi fido abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Mi fido poco"
+      },
+      {
+        "value": 4,
+        "label": "Non mi fido per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v36",
+    "text": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente? Persone di altra religione",
+    "stem": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente?",
+    "item": "Persone di altra religione",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mi fido completamente"
+      },
+      {
+        "value": 2,
+        "label": "Mi fido abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Mi fido poco"
+      },
+      {
+        "value": 4,
+        "label": "Non mi fido per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v37",
+    "text": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente? Persone di altra nazionalità",
+    "stem": "Vorrei chiederLe quanto si fida delle persone appartenenti ad alcuni gruppi. Per ciascun gruppo, può dirmi se si fida completamente, abbastanza, poco o non si fida per niente?",
+    "item": "Persone di altra nazionalità",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mi fido completamente"
+      },
+      {
+        "value": 2,
+        "label": "Mi fido abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Mi fido poco"
+      },
+      {
+        "value": 4,
+        "label": "Non mi fido per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Alcune persone pensano di avere piena libertà di scelta e un controllo totale sulla propria vita, mentre altre pensano che le loro azioni non abbiano alcun effetto reale su quello che succede loro. Usando questa scala, mi direbbe quanta libertà di scelta e quanto controllo pensa di avere sull'andamento della Sua vita?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Per niente"
+      },
+      {
+        "value": 10,
+        "label": "Moltissimo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Tutto sommato, Lei è soddisfatto o insoddisfatto della vita che fa ora? La prego di usare il cartellino per indicare la risposta.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Insoddisfatto"
+      },
+      {
+        "value": 10,
+        "label": "Soddisfatto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v40",
+    "text": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro Buon guadagno",
+    "stem": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro",
+    "item": "Buon guadagno",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v41",
+    "text": "Buon orario di lavoro",
+    "stem": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v42",
+    "text": "Possibilità di prendere iniziative",
+    "stem": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v43",
+    "text": "Avere molti giorni di ferie",
+    "stem": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v44",
+    "text": "Un lavoro con il quale si sente di poter realizzare qualcosa",
+    "stem": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v45",
+    "text": "Lavoro di responsabilità",
+    "stem": "Su questo cartellino sono elencati alcuni aspetti del lavoro che le persone giudicano importanti. La prego di leggerli e di dirmi quali aspetti per Lei, personalmente, sono importanti in un lavoro",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v46",
+    "text": "E' necessario un lavoro per sviluppare pienamente le proprie doti",
+    "stem": "E' d'accordo o contrario con le seguenti affermazioni?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v47",
+    "text": "E' umiliante ricevere denaro senza averlo guadagnato col proprio lavoro",
+    "stem": "E' d'accordo o contrario con le seguenti affermazioni?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v48",
+    "text": "Chi non lavora diventa pigro",
+    "stem": "E' d'accordo o contrario con le seguenti affermazioni?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v49",
+    "text": "Lavorare è un dovere verso la società",
+    "stem": "E' d'accordo o contrario con le seguenti affermazioni?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v50",
+    "text": "Il lavoro deve essere sempre messo al primo posto, anche se ciò significa avere meno tempo libero",
+    "stem": "E' d'accordo o contrario con le seguenti affermazioni?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v51",
+    "text": "Attualmente Lei si riconosce in una fede religiosa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sì"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v52",
+    "text": "In quale fede religiosa si riconosce?",
+    "stem": "MOSTRARE IL CARTELLINO 13a",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Cattolica"
+      },
+      {
+        "value": 2,
+        "label": "Protestante"
+      },
+      {
+        "value": 3,
+        "label": "Ortodossa"
+      },
+      {
+        "value": 4,
+        "label": "Altre religioni cristiane (Testimoni di Geova, Mormoni, etc.)"
+      },
+      {
+        "value": 5,
+        "label": "Ebraica"
+      },
+      {
+        "value": 6,
+        "label": "Musulmana"
+      },
+      {
+        "value": 7,
+        "label": "Induista"
+      },
+      {
+        "value": 8,
+        "label": "Buddista"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v53",
+    "text": "In passato si è riconosciuto in una fede religiosa?",
+    "stem": "ISTRUZIONE PER L'INTERVISTATORE: - SE L'INTERVISTATO NON SI RICONOSCE ATTUALMENTE IN UNA FEDE RELIGIOSA (D13≠1) CHIEDERE:",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sì"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v54",
+    "text": "Escludendo alcuni riti religiosi come i matrimoni, i funerali e i battesimi, ogni quanto frequenta le funzioni religiose attualmente?",
+    "stem": "MOSTRARE IL CARTELLINO 15 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Più di una volta la settimana"
+      },
+      {
+        "value": 2,
+        "label": "Una volta la settimana"
+      },
+      {
+        "value": 3,
+        "label": "Una volta al mese"
+      },
+      {
+        "value": 4,
+        "label": "Solo in specifiche festività religiose"
+      },
+      {
+        "value": 5,
+        "label": "Una volta l'anno"
+      },
+      {
+        "value": 6,
+        "label": "Meno di una volta l'anno"
+      },
+      {
+        "value": 7,
+        "label": "Mai, praticamente mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v55",
+    "text": "A parte alcuni riti religiosi come i matrimoni, i funerali e i battesimi, ogni quanto frequentava le funzioni religiose quando aveva circa 12 anni di età?",
+    "stem": "MOSTRARE IL CARTELLINO 16 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Più di una volta la settimana"
+      },
+      {
+        "value": 2,
+        "label": "Una volta la settimana"
+      },
+      {
+        "value": 3,
+        "label": "Una volta al mese"
+      },
+      {
+        "value": 4,
+        "label": "Solo in specifiche festività religiose"
+      },
+      {
+        "value": 5,
+        "label": "Una volta l'anno"
+      },
+      {
+        "value": 6,
+        "label": "Meno di una volta l'anno"
+      },
+      {
+        "value": 7,
+        "label": "Mai, praticamente mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v56",
+    "text": "Indipendentemente dal fatto che Lei vada o non vada in chiesa (alla moschea, al tempio...), Lei si considera:",
+    "stem": "ISTRUZIONE PER L'INTERVISTATORE: - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Una persona religiosa"
+      },
+      {
+        "value": 2,
+        "label": "Una persona non religiosa"
+      },
+      {
+        "value": 3,
+        "label": "Un ateo convinto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v57",
+    "text": "Dio",
+    "stem": "Lei crede che esista...",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Si"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v58",
+    "text": "La vita dopo la morte",
+    "stem": "Lei crede che esista...",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Si"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v59",
+    "text": "L'Inferno",
+    "stem": "Lei crede che esista...",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Si"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v60",
+    "text": "II Paradiso",
+    "stem": "Lei crede che esista...",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Si"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v61",
+    "text": "Lei crede nella reincarnazione, cioè che abbiamo avuto vite precedenti e che nasceremo di nuovo in questo mondo?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sì"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v62",
+    "text": "Quale di queste affermazioni si avvicina di più alle Sue credenze?",
+    "stem": "MOSTRARE IL CARTELLINO 20 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Esiste un Dio che è persona"
+      },
+      {
+        "value": 2,
+        "label": "Esiste una qualche forma di spirito o di forza vitale"
+      },
+      {
+        "value": 3,
+        "label": "Non so proprio cosa pensare a questo proposito"
+      },
+      {
+        "value": 4,
+        "label": "Penso che in realtà non esista alcun tipo di spirito, Dio o forza vitale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v63",
+    "text": "Quanto è importante Dio nella Sua vita?",
+    "stem": "MOSTRARE IL CARTELLINO 21",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Per niente importante"
+      },
+      {
+        "value": 10,
+        "label": "Molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v64",
+    "text": "Con quale frequenza prega al di fuori delle funzioni religiose?",
+    "stem": "MOSTRARE IL CARTELLINO 22 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ogni giorno"
+      },
+      {
+        "value": 2,
+        "label": "Più di una volta la settimana"
+      },
+      {
+        "value": 3,
+        "label": "Una volta la settimana"
+      },
+      {
+        "value": 4,
+        "label": "Almeno una volta al mese"
+      },
+      {
+        "value": 5,
+        "label": "Più volte l'anno"
+      },
+      {
+        "value": 6,
+        "label": "Meno spesso"
+      },
+      {
+        "value": 7,
+        "label": "Mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v65",
+    "text": "Fedeltà",
+    "stem": "Le mostro un elenco di cose che, secondo alcuni, favoriscono la riuscita di un matrimonio o di una convivenza. Mi dica, per ciascuna, se secondo Lei è molto importante, piuttosto importante o non molto importante.",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Piuttosto importante"
+      },
+      {
+        "value": 3,
+        "label": "Non molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v66",
+    "text": "Reddito adeguato",
+    "stem": "Le mostro un elenco di cose che, secondo alcuni, favoriscono la riuscita di un matrimonio o di una convivenza. Mi dica, per ciascuna, se secondo Lei è molto importante, piuttosto importante o non molto importante.",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Piuttosto importante"
+      },
+      {
+        "value": 3,
+        "label": "Non molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v67",
+    "text": "Abitazione confortevole",
+    "stem": "Le mostro un elenco di cose che, secondo alcuni, favoriscono la riuscita di un matrimonio o di una convivenza. Mi dica, per ciascuna, se secondo Lei è molto importante, piuttosto importante o non molto importante.",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Piuttosto importante"
+      },
+      {
+        "value": 3,
+        "label": "Non molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v68",
+    "text": "Condividere i lavori e le faccende di casa",
+    "stem": "Le mostro un elenco di cose che, secondo alcuni, favoriscono la riuscita di un matrimonio o di una convivenza. Mi dica, per ciascuna, se secondo Lei è molto importante, piuttosto importante o non molto importante.",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Piuttosto importante"
+      },
+      {
+        "value": 3,
+        "label": "Non molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v69",
+    "text": "I figli",
+    "stem": "Le mostro un elenco di cose che, secondo alcuni, favoriscono la riuscita di un matrimonio o di una convivenza. Mi dica, per ciascuna, se secondo Lei è molto importante, piuttosto importante o non molto importante.",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Piuttosto importante"
+      },
+      {
+        "value": 3,
+        "label": "Non molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v70",
+    "text": "Avere del tempo per i propri amici e per le attività personali o hobby",
+    "stem": "Le mostro un elenco di cose che, secondo alcuni, favoriscono la riuscita di un matrimonio o di una convivenza. Mi dica, per ciascuna, se secondo Lei è molto importante, piuttosto importante o non molto importante.",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Piuttosto importante"
+      },
+      {
+        "value": 3,
+        "label": "Non molto importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v71",
+    "text": "Lei è d'accordo o in disaccordo con la seguente affermazione: “il matrimonio è un'istituzione sorpassata\"?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "D'accordo"
+      },
+      {
+        "value": 2,
+        "label": "In disaccordo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v72",
+    "text": "Quando una madre ha un lavoro, i figli ne soffrono",
+    "stem": "Potrebbe dirmi se è d'accordo o contrario con ciascuna delle affermazioni che le leggerò? Lei è molto d'accordo, d'accordo, contrario o molto contrario?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v73",
+    "text": "Va bene lavorare, ma ciò che la maggior parte delle donne vuole veramente è una casa e dei figli",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v74",
+    "text": "Nel complesso, se la donna ha un lavoro a tempo pieno, la vita familiare ne risente.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v75",
+    "text": "Il compito dell'uomo è di guadagnare denaro; il compito della donna è di prendersi cura della casa e della famiglia",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v76",
+    "text": "In generale, gli uomini sono leader politici migliori delle donne.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v77",
+    "text": "Una formazione universitaria è più importante per un ragazzo che per una ragazza",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v78",
+    "text": "In generale, gli uomini sono dirigenti d'azienda migliori delle donne.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v79",
+    "text": "Uno degli obiettivi principali della mia vita è stato rendere orgogliosi i miei genitori",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v80",
+    "text": "In condizioni di scarsità di lavoro, i datori di lavoro dovrebbero dare la precedenza agli italiani rispetto agli immigrati",
+    "stem": "Potrebbe dirmi se è d'accordo o contrario con ciascuna di queste affermazioni? Lei è molto d'accordo, d'accordo, né d'accordo né contrario, contrario, molto contrario?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "In condizioni di scarsità di lavoro, gli uomini dovrebbero aver maggior diritto a un'occupazione rispetto alle donne",
+    "stem": "Potrebbe dirmi se è d'accordo o contrario con ciascuna di queste affermazioni? Lei è molto d'accordo, d'accordo, né d'accordo né contrario, contrario, molto contrario?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v82",
+    "text": "Le coppie omosessuali sono bravi genitori al pari delle altre coppie",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v83",
+    "text": "Avere figli è un dovere verso la società",
+    "stem": "Potrebbe dirmi se è d'accordo o contrario con ciascuna delle affermazioni che le leggerò? Lei è molto d'accordo, d'accordo, contrario o molto contrario?",
+    "item": "Avere figli è un dovere verso la società",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v84",
+    "text": "È dovere dei figli adulti provvedere all'assistenza a lungo termine dei genitori",
+    "stem": "Potrebbe dirmi se è d'accordo o contrario con ciascuna delle affermazioni che le leggerò? Lei è molto d'accordo, d'accordo, contrario o molto contrario?",
+    "item": "È dovere dei figli adulti provvedere all'assistenza a lungo termine dei genitori",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Contrario"
+      },
+      {
+        "value": 4,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "Buone maniere",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Buone maniere",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "Indipendenza",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Indipendenza",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Capacità di lavorare sodo",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Capacità di lavorare sodo",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Senso di responsabilità",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Senso di responsabilità",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Immaginazione",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Immaginazione",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Tolleranza e rispetto degli altri",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Tolleranza e rispetto degli altri",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Parsimonia, capacità di risparmiare denaro e cose",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Parsimonia, capacità di risparmiare denaro e cose",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v92",
+    "text": "Determinazione, perseveranza",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Determinazione, perseveranza",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v93",
+    "text": "Fede religiosa",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Fede religiosa",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v94",
+    "text": "Altruismo",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Altruismo",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v95",
+    "text": "Obbedienza",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Obbedienza",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v96",
+    "text": "Nessuna (spontaneo)",
+    "stem": "Questo è un elenco di qualità che i figli possono essere incoraggiati ad imparare in famiglia. Quali sono le cinque qualità più desiderabili in un bambino? La prego di sceglierne non più di cinque.",
+    "item": "Nessuna (spontaneo)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menzionato"
+      },
+      {
+        "value": 2,
+        "label": "Non menzionato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v97",
+    "text": "Quanto è interessato alla politica?",
+    "stem": "Quanto è interessato alla politica?",
+    "item": "Quanto è interessato alla politica?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto interessato"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza interessato"
+      },
+      {
+        "value": 3,
+        "label": "Non molto interessato"
+      },
+      {
+        "value": 4,
+        "label": "Per niente interessato"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Firmare una petizione (se l'intervistato lo richiede, precisare: partecipare a una raccolta di firme)",
+    "stem": "La prego di prestare attenzione a questo cartellino. Le leggerò alcune azioni che una persona può fare per sostenere politicamente le proprie idee. Per ciascuna di esse La invito a dirmi se Lei l'ha già fatta, se pensa di poterla fare, oppure se non la farebbe mai, in nessun caso.",
+    "item": "Firmare una petizione (se l'intervistato lo richiede, precisare: partecipare a una raccolta di firme)",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Già fatto"
+      },
+      {
+        "value": 2,
+        "label": "Potrei fare"
+      },
+      {
+        "value": 3,
+        "label": "Non farei mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v99",
+    "text": "Partecipare a un boicottaggio (se l'intervistato lo richiede, precisare: come ad esempio non usare un servizio pubblico o un prodotto per protesta)",
+    "stem": "La prego di prestare attenzione a questo cartellino. Le leggerò alcune azioni che una persona può fare per sostenere politicamente le proprie idee. Per ciascuna di esse La invito a dirmi se Lei l'ha già fatta, se pensa di poterla fare, oppure se non la farebbe mai, in nessun caso.",
+    "item": "Partecipare a un boicottaggio (se l'intervistato lo richiede, precisare: come ad esempio non usare un servizio pubblico o un prodotto per protesta)",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Già fatto"
+      },
+      {
+        "value": 2,
+        "label": "Potrei fare"
+      },
+      {
+        "value": 3,
+        "label": "Non farei mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v100",
+    "text": "Partecipare a una manifestazione autorizzata",
+    "stem": "La prego di prestare attenzione a questo cartellino. Le leggerò alcune azioni che una persona può fare per sostenere politicamente le proprie idee. Per ciascuna di esse La invito a dirmi se Lei l'ha già fatta, se pensa di poterla fare, oppure se non la farebbe mai, in nessun caso.",
+    "item": "Partecipare a una manifestazione autorizzata",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Già fatto"
+      },
+      {
+        "value": 2,
+        "label": "Potrei fare"
+      },
+      {
+        "value": 3,
+        "label": "Non farei mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v101",
+    "text": "Partecipare a scioperi non autorizzati",
+    "stem": "La prego di prestare attenzione a questo cartellino. Le leggerò alcune azioni che una persona può fare per sostenere politicamente le proprie idee. Per ciascuna di esse La invito a dirmi se Lei l'ha già fatta, se pensa di poterla fare, oppure se non la farebbe mai, in nessun caso.",
+    "item": "Partecipare a scioperi non autorizzati",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Già fatto"
+      },
+      {
+        "value": 2,
+        "label": "Potrei fare"
+      },
+      {
+        "value": 3,
+        "label": "Non farei mai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v102",
+    "text": "In politica di solito si parla di “sinistra” e di “destra”. In generale, Lei dove collocherebbe la Sua posizione politica?",
+    "stem": "In politica di solito si parla di “sinistra” e di “destra”. In generale, Lei dove collocherebbe la Sua posizione politica?",
+    "item": "In politica di solito si parla di “sinistra” e di “destra”. In generale, Lei dove collocherebbe la Sua posizione politica?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sinistra"
+      },
+      {
+        "value": 10,
+        "label": "Destra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "Gli individui dovrebbero assumersi più responsabilità nel provvedere a loro stessi",
+    "stem": "Su questo cartellino vi sono alcune opinioni opposte su diversi temi. Dove collocherebbe la Sua posizione su questa scala?",
+    "item": "Gli individui dovrebbero assumersi più responsabilità nel provvedere a loro stessi",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Gli individui dovrebbero assumersi più responsabilità nel provvedere a loro stessi"
+      },
+      {
+        "value": 10,
+        "label": "Lo Stato dovrebbe assumersi più responsabilità per provvedere a ognuno dei suoi cittadini"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "Chi è disoccupato dovrebbe accettare qualsiasi impiego disponibile o altrimenti perdere i sussidi di disoccupazione",
+    "stem": "Su questo cartellino vi sono alcune opinioni opposte su diversi temi. Dove collocherebbe la Sua posizione su questa scala?",
+    "item": "Chi è disoccupato dovrebbe accettare qualsiasi impiego disponibile o altrimenti perdere i sussidi di disoccupazione",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Chi è disoccupato dovrebbe accettare qualsiasi impiego disponibile o altrimenti perdere i sussidi di disoccupazione"
+      },
+      {
+        "value": 10,
+        "label": "Chi è disoccupato dovrebbe avere il diritto di rifiutare un impiego che non desidera senza perdere i sussidi di disoccupazione"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "La competizione è positiva",
+    "stem": "Su questo cartellino vi sono alcune opinioni opposte su diversi temi. Dove collocherebbe la Sua posizione su questa scala?",
+    "item": "La competizione è positiva",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "La competizione è positiva"
+      },
+      {
+        "value": 10,
+        "label": "La competizione è negativa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "Bisognerebbe rendere più uguali i redditi",
+    "stem": "Su questo cartellino vi sono alcune opinioni opposte su diversi temi. Dove collocherebbe la Sua posizione su questa scala?",
+    "item": "Bisognerebbe rendere più uguali i redditi",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bisognerebbe rendere più uguali i redditi"
+      },
+      {
+        "value": 10,
+        "label": "Ci dovrebbero essere più incentivi per l'impegno individuale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "Bisognerebbe aumentare la proprietà privata negli affari e nell'industria",
+    "stem": "Su questo cartellino vi sono alcune opinioni opposte su diversi temi. Dove collocherebbe la Sua posizione su questa scala?",
+    "item": "Bisognerebbe aumentare la proprietà privata negli affari e nell'industria",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bisognerebbe aumentare la proprietà privata negli affari e nell'industria"
+      },
+      {
+        "value": 10,
+        "label": "Bisognerebbe aumentare la proprietà dello Stato negli affari e nell'industria"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v108",
+    "text": "Un alto livello di crescita economica",
+    "stem": "A volte le persone parlano di quali dovrebbero essere gli obiettivi dell'Italia per i prossimi dieci anni. Su questo cartellino sono elencati alcuni degli obiettivi a cui varie persone darebbero la massima priorità. Potrebbe dirmi quale di questi obiettivi lei considera personalmente il più importante?",
+    "item": "Un alto livello di crescita economica",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Un alto livello di crescita economica"
+      },
+      {
+        "value": 2,
+        "label": "Assicurarsi che questo Paese abbia valide forze di difesa"
+      },
+      {
+        "value": 3,
+        "label": "Far sì che le persone abbiano più voce in capitolo sul posto di lavoro e nella propria comunità"
+      },
+      {
+        "value": 4,
+        "label": "Tentare di rendere più belle le nostre città e le nostre campagne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v109",
+    "text": "Un alto livello di crescita economica",
+    "stem": "E quale sarebbe il secondo in ordine di importanza?",
+    "item": "Un alto livello di crescita economica",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Un alto livello di crescita economica"
+      },
+      {
+        "value": 2,
+        "label": "Assicurarsi che questo Paese abbia valide forze di difesa"
+      },
+      {
+        "value": 3,
+        "label": "Far sì che le persone abbiano più voce in capitolo sul posto di lavoro e nella propria comunità"
+      },
+      {
+        "value": 4,
+        "label": "Tentare di rendere più belle le nostre città e le nostre campagne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v110",
+    "text": "Mantenere l'ordine nella nazione",
+    "stem": "Se dovesse scegliere, quale delle cose elencate su questo cartellino indicherebbe come la più importante?",
+    "item": "Mantenere l'ordine nella nazione",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mantenere l'ordine nella nazione"
+      },
+      {
+        "value": 2,
+        "label": "Dare alle persone più voce in capitolo nelle decisioni governative importanti"
+      },
+      {
+        "value": 3,
+        "label": "Combattere l'aumento dei prezzi"
+      },
+      {
+        "value": 4,
+        "label": "Salvaguardare la libertà di parola"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v111",
+    "text": "Mantenere l'ordine nella nazione",
+    "stem": "E quale sarebbe la seconda per ordine di importanza?",
+    "item": "Mantenere l'ordine nella nazione",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mantenere l'ordine nella nazione"
+      },
+      {
+        "value": 2,
+        "label": "Dare alle persone più voce in capitolo nelle decisioni governative importanti"
+      },
+      {
+        "value": 3,
+        "label": "Combattere l'aumento dei prezzi"
+      },
+      {
+        "value": 4,
+        "label": "Salvaguardare la libertà di parola"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v112",
+    "text": "Ovviamente tutti speriamo che non scoppi un'altra guerra, ma se così fosse, sarebbe disposto a combattere per il Suo Paese?",
+    "stem": "Ovviamente tutti speriamo che non scoppi un'altra guerra, ma se così fosse, sarebbe disposto a combattere per il Suo Paese?",
+    "item": "Ovviamente tutti speriamo che non scoppi un'altra guerra, ma se così fosse, sarebbe disposto a combattere per il Suo Paese?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sì"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "Meno importanza data al lavoro nelle nostre vite",
+    "stem": "Ecco due cambiamenti che potrebbero accadere nel nostro modo di vivere in un prossimo futuro. La prego di dirmi, per ciascuno di questi, se Lei lo considera un bene o un male oppure se per Lei è lo stesso.",
+    "item": "Meno importanza data al lavoro nelle nostre vite",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Un bene"
+      },
+      {
+        "value": 2,
+        "label": "Un male"
+      },
+      {
+        "value": 3,
+        "label": "É lo stesso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "Maggiore rispetto per l'autorità",
+    "stem": "Ecco due cambiamenti che potrebbero accadere nel nostro modo di vivere in un prossimo futuro. La prego di dirmi, per ciascuno di questi, se Lei lo considera un bene o un male oppure se per Lei è lo stesso.",
+    "item": "Maggiore rispetto per l'autorità",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Un bene"
+      },
+      {
+        "value": 2,
+        "label": "Un male"
+      },
+      {
+        "value": 3,
+        "label": "É lo stesso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "La Chiesa",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "La Chiesa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v116",
+    "text": "Le forze armate",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Le forze armate",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v117",
+    "text": "Il sistema scolastico",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Il sistema scolastico",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v118",
+    "text": "La stampa",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "La stampa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v119",
+    "text": "I sindacati",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "I sindacati",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v120",
+    "text": "La polizia",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "La polizia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v121",
+    "text": "Il parlamento",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Il parlamento",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v122",
+    "text": "La pubblica amministrazione",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "La pubblica amministrazione",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v123",
+    "text": "Il sistema di previdenza sociale",
+    "stem": "Guardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta fiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Il sistema di previdenza sociale",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v124",
+    "text": "L'Unione Europea",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "L'Unione Europea",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v125",
+    "text": "L'Organizzazione delle Nazioni Unite (ONU)",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "L'Organizzazione delle Nazioni Unite (ONU)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v126",
+    "text": "Il sistema sanitario",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Il sistema sanitario",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v127",
+    "text": "Il sistema giudiziario",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Il sistema giudiziario",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v128",
+    "text": "Le grandi aziende",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Le grandi aziende",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v129",
+    "text": "Le organizzazioni ambientaliste",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Le organizzazioni ambientaliste",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v130",
+    "text": "I partiti politici",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "I partiti politici",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v131",
+    "text": "Il governo",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "Il governo",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v132",
+    "text": "I social media",
+    "stem": "MOSTRARE IL CARTELLINO 38 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nGuardi questo cartellino e mi dica, per ogni istituzione elencata, quanta fiducia Lei ha in essa: molta\nfiducia, abbastanza fiducia, poca fiducia o nessuna fiducia.",
+    "item": "I social media",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molta"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza"
+      },
+      {
+        "value": 3,
+        "label": "Poca"
+      },
+      {
+        "value": 4,
+        "label": "Nessuna"
+      }
+    ],
+    "answer_cue": "fiducia"
+  },
+  {
+    "id": "v133",
+    "text": "Che lo Stato tassi i ricchi e dia sussidi ai poveri.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che lo Stato tassi i ricchi e dia sussidi ai poveri.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v134",
+    "text": "Che le autorità religiose abbiano l'ultima parola sull'interpretazione delle leggi.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che le autorità religiose abbiano l'ultima parola sull'interpretazione delle leggi.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v135",
+    "text": "Che le persone scelgano i propri leader in elezioni libere.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che le persone scelgano i propri leader in elezioni libere.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v136",
+    "text": "Che lo Stato eroghi sussidi in caso di disoccupazione.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che lo Stato eroghi sussidi in caso di disoccupazione.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v137",
+    "text": "Che l'esercito prenda il potere quando il governo è incompetente.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che l'esercito prenda il potere quando il governo è incompetente.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v138",
+    "text": "Che i diritti civili proteggano le persone dall'oppressione dello Stato.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che i diritti civili proteggano le persone dall'oppressione dello Stato.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v139",
+    "text": "Che lo Stato renda equi i redditi delle persone.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che lo Stato renda equi i redditi delle persone.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v140",
+    "text": "Che le persone obbediscano a chi li governa.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che le persone obbediscano a chi li governa.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v141",
+    "text": "Che le donne abbiano gli stessi diritti degli uomini.",
+    "stem": "MOSTRARE IL CARTELLINO 39 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nMolte cose sono desiderabili, ma non tutte sono caratteristiche essenziali di una democrazia. Per ciascuna\ndelle seguenti cose, mi dica quanto la ritiene una caratteristica essenziale per una democrazia. Usi questa\nscala, dove 1 significa \"caratteristica per niente essenziale della democrazia\" e 10 significa \"caratteristica\ndecisamente essenziale della democrazia\".",
+    "item": "Che le donne abbiano gli stessi diritti degli uomini.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "caratteristica essenziale per una democrazia"
+  },
+  {
+    "id": "v142",
+    "text": "Quanto è importante per Lei vivere in un paese governato democraticamente?",
+    "stem": "MOSTRARE IL CARTELLINO 40",
+    "item": "Quanto è importante per Lei vivere in un paese governato democraticamente?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "per niente importante ... decisamente importante"
+  },
+  {
+    "id": "v143",
+    "text": "E quanto democraticamente è governata l'Italia oggi?",
+    "stem": "MOSTRARE IL CARTELLINO 41",
+    "item": "E quanto democraticamente è governata l'Italia oggi?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "per niente democratico ... del tutto democratico"
+  },
+  {
+    "id": "v144",
+    "text": "quanto è soddisfatto del modo in cui sta funzionando il sistema politico dell'Italia in questo periodo?",
+    "stem": "MOSTRARE IL CARTELLINO 42",
+    "item": "quanto è soddisfatto del modo in cui sta funzionando il sistema politico dell'Italia in questo periodo?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "per niente soddisfatto ... completamente soddisfatto"
+  },
+  {
+    "id": "v145",
+    "text": "Avere un capo forte che non debba tener conto di parlamento ed elezioni",
+    "stem": "MOSTRARE IL CARTELLINO 43 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nLe descrivo ora vari modi di governare. Per ciascuno di essi mi dica quanto lo ritiene buono o cattivo per\ngovernare l'Italia.",
+    "item": "Avere un capo forte che non debba tener conto di parlamento ed elezioni",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto buono"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza buono"
+      },
+      {
+        "value": 3,
+        "label": "Abbastanza cattivo"
+      },
+      {
+        "value": 4,
+        "label": "Molto cattivo"
+      }
+    ],
+    "answer_cue": "buono o cattivo per governare l'Italia"
+  },
+  {
+    "id": "v146",
+    "text": "Non avere un governo che prende le decisioni, ma degli esperti, che decidono secondo ciò che essi ritengono sia meglio per il Paese",
+    "stem": "MOSTRARE IL CARTELLINO 43 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nLe descrivo ora vari modi di governare. Per ciascuno di essi mi dica quanto lo ritiene buono o cattivo per\ngovernare l'Italia.",
+    "item": "Non avere un governo che prende le decisioni, ma degli esperti, che decidono secondo ciò che essi ritengono sia meglio per il Paese",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto buono"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza buono"
+      },
+      {
+        "value": 3,
+        "label": "Abbastanza cattivo"
+      },
+      {
+        "value": 4,
+        "label": "Molto cattivo"
+      }
+    ],
+    "answer_cue": "buono o cattivo per governare l'Italia"
+  },
+  {
+    "id": "v147",
+    "text": "Far governare il Paese dalle Forze armate",
+    "stem": "MOSTRARE IL CARTELLINO 43 - LEGGERE AD ALTA VOCE E CODIFICARE UNA SOLA RISPOSTA PER RIGA\nLe descrivo ora vari modi di governare. Per ciascuno di essi mi dica quanto lo ritiene buono o cattivo per\ngovernare l'Italia.",
+    "item": "Far governare il Paese dalle Forze armate",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto buono"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza buono"
+      },
+      {
+        "value": 3,
+        "label": "Abbastanza cattivo"
+      },
+      {
+        "value": 4,
+        "label": "Molto cattivo"
+      }
+    ],
+    "answer_cue": "buono o cattivo per governare l'Italia"
+  },
+  {
+    "id": "v148",
+    "text": "Avere un sistema politico democratico",
+    "stem": "Le descrivo ora vari modi di governare. Per ciascuno di essi mi dica quanto lo ritiene buono o cattivo per governare l'Italia.",
+    "item": "Avere un sistema politico democratico",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto buono"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza buono"
+      },
+      {
+        "value": 3,
+        "label": "Abbastanza cattivo"
+      },
+      {
+        "value": 4,
+        "label": "Molto cattivo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Cercare di ottenere dallo Stato benefici ai quali non si ha diritto",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Cercare di ottenere dallo Stato benefici ai quali non si ha diritto",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v150",
+    "text": "Non pagare le tasse (o pagarle meno del dovuto) se si ha la possibilità",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Non pagare le tasse (o pagarle meno del dovuto) se si ha la possibilità",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v151",
+    "text": "Usare marijuana o hashish",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Usare marijuana o hashish",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v152",
+    "text": "Accettare una mazzetta nell'adempimento del proprio dovere",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Accettare una mazzetta nell'adempimento del proprio dovere",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v153",
+    "text": "L'omosessualità",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "L'omosessualità",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v154",
+    "text": "L'aborto",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "L'aborto",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v155",
+    "text": "Il divorzio",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Il divorzio",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v156",
+    "text": "L'eutanasia (porre fine alla vita di un malato inguaribile)",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "L'eutanasia (porre fine alla vita di un malato inguaribile)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v157",
+    "text": "Il suicidio",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Il suicidio",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v158",
+    "text": "Avere relazioni sessuali con partner occasionali",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Avere relazioni sessuali con partner occasionali",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v159",
+    "text": "Non pagare il biglietto sui mezzi di trasporto",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "Non pagare il biglietto sui mezzi di trasporto",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v160",
+    "text": "La prostituzione",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "La prostituzione",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v161",
+    "text": "L'inseminazione artificiale o la fertilizzazione in provetta",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "L'inseminazione artificiale o la fertilizzazione in provetta",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v162",
+    "text": "La violenza politica",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "La violenza politica",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v163",
+    "text": "La pena di morte",
+    "stem": "Usando questo cartellino mi dica, per favore, quanto per Lei le seguenti cose sono giustificate.",
+    "item": "La pena di morte",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "Mai giustificato ... Sempre giustificato"
+  },
+  {
+    "id": "v164",
+    "text": "La Sua città o il Suo paese",
+    "stem": "Le persone hanno punti di vista diversi su se stessi e sul modo in cui si relazionano al mondo. Usando questo cartellino, mi direbbe quanto si sente vicino a...?",
+    "item": "La Sua città o il Suo paese",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto vicino"
+      },
+      {
+        "value": 2,
+        "label": "Vicino"
+      },
+      {
+        "value": 3,
+        "label": "Poco vicino"
+      },
+      {
+        "value": 4,
+        "label": "Per niente vicino"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "La Sua regione",
+    "stem": "Le persone hanno punti di vista diversi su se stessi e sul modo in cui si relazionano al mondo. Usando questo cartellino, mi direbbe quanto si sente vicino a...?",
+    "item": "La Sua regione",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto vicino"
+      },
+      {
+        "value": 2,
+        "label": "Vicino"
+      },
+      {
+        "value": 3,
+        "label": "Poco vicino"
+      },
+      {
+        "value": 4,
+        "label": "Per niente vicino"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "L'Italia",
+    "stem": "Le persone hanno punti di vista diversi su se stessi e sul modo in cui si relazionano al mondo. Usando questo cartellino, mi direbbe quanto si sente vicino a...?",
+    "item": "L'Italia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto vicino"
+      },
+      {
+        "value": 2,
+        "label": "Vicino"
+      },
+      {
+        "value": 3,
+        "label": "Poco vicino"
+      },
+      {
+        "value": 4,
+        "label": "Per niente vicino"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "L'Europa",
+    "stem": "Le persone hanno punti di vista diversi su se stessi e sul modo in cui si relazionano al mondo. Usando questo cartellino, mi direbbe quanto si sente vicino a...?",
+    "item": "L'Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto vicino"
+      },
+      {
+        "value": 2,
+        "label": "Vicino"
+      },
+      {
+        "value": 3,
+        "label": "Poco vicino"
+      },
+      {
+        "value": 4,
+        "label": "Per niente vicino"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Il mondo",
+    "stem": "Le persone hanno punti di vista diversi su se stessi e sul modo in cui si relazionano al mondo. Usando questo cartellino, mi direbbe quanto si sente vicino a...?",
+    "item": "Il mondo",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto vicino"
+      },
+      {
+        "value": 2,
+        "label": "Vicino"
+      },
+      {
+        "value": 3,
+        "label": "Poco vicino"
+      },
+      {
+        "value": 4,
+        "label": "Per niente vicino"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v189",
+    "text": "Essere nati in Italia",
+    "stem": "Alcuni dicono che le cose che seguono sono importanti per essere un vero italiano. Altri dicono che non sono importanti. Quanto giudica importante ciascuna di esse?",
+    "item": "Essere nati in Italia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Rispettare le istituzioni politiche e le leggi italiane",
+    "stem": "Alcuni dicono che le cose che seguono sono importanti per essere un vero italiano. Altri dicono che non sono importanti. Quanto giudica importante ciascuna di esse?",
+    "item": "Rispettare le istituzioni politiche e le leggi italiane",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Avere antenati (nonni, bisnonni, ...) italiani",
+    "stem": "Alcuni dicono che le cose che seguono sono importanti per essere un vero italiano. Altri dicono che non sono importanti. Quanto giudica importante ciascuna di esse?",
+    "item": "Avere antenati (nonni, bisnonni, ...) italiani",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Saper parlare l'italiano",
+    "stem": "Alcuni dicono che le cose che seguono sono importanti per essere un vero italiano. Altri dicono che non sono importanti. Quanto giudica importante ciascuna di esse?",
+    "item": "Saper parlare l'italiano",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Condividere la cultura italiana",
+    "stem": "Alcuni dicono che le cose che seguono sono importanti per essere un vero italiano. Altri dicono che non sono importanti. Quanto giudica importante ciascuna di esse?",
+    "item": "Condividere la cultura italiana",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "Essere nati in Europa",
+    "stem": "Le persone hanno idee diverse su cosa significhi essere europei. Secondo Lei, quanto è importante ciascuno dei seguenti aspetti per essere europei?",
+    "item": "Essere nati in Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Avere origini europee",
+    "stem": "Le persone hanno idee diverse su cosa significhi essere europei. Secondo Lei, quanto è importante ciascuno dei seguenti aspetti per essere europei?",
+    "item": "Avere origini europee",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "Essere cristiani",
+    "stem": "Le persone hanno idee diverse su cosa significhi essere europei. Secondo Lei, quanto è importante ciascuno dei seguenti aspetti per essere europei?",
+    "item": "Essere cristiani",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v197",
+    "text": "Condividere la cultura europea",
+    "stem": "Le persone hanno idee diverse su cosa significhi essere europei. Secondo Lei, quanto è importante ciascuno dei seguenti aspetti per essere europei?",
+    "item": "Condividere la cultura europea",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v199",
+    "text": "Darei parte del mio reddito se fossi certo che il denaro venisse usato per prevenire l'inquinamento ambientale",
+    "stem": "Quanto è d'accordo o in disaccordo con ciascuna delle seguenti affermazioni?",
+    "item": "Darei parte del mio reddito se fossi certo che il denaro venisse usato per prevenire l'inquinamento ambientale",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      }
+    ],
+    "answer_cue": "Molto d'accordo ... Molto contrario"
+  },
+  {
+    "id": "v200",
+    "text": "É troppo difficile per una persona come me fare davvero qualcosa per l'ambiente.",
+    "stem": "Quanto è d'accordo o in disaccordo con ciascuna delle seguenti affermazioni?",
+    "item": "É troppo difficile per una persona come me fare davvero qualcosa per l'ambiente.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "Nella vita ci sono cose più importanti da fare che proteggere l'ambiente",
+    "stem": "Quanto è d'accordo o in disaccordo con ciascuna delle seguenti affermazioni?",
+    "item": "Nella vita ci sono cose più importanti da fare che proteggere l'ambiente",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "Non ha senso fare quel che posso per l'ambiente se gli altri non fanno lo stesso.",
+    "stem": "Quanto è d'accordo o in disaccordo con ciascuna delle seguenti affermazioni?",
+    "item": "Non ha senso fare quel che posso per l'ambiente se gli altri non fanno lo stesso.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Molte dichiarazioni sui pericoli ambientali sono esagerate",
+    "stem": "Quanto è d'accordo o in disaccordo con ciascuna delle seguenti affermazioni?",
+    "item": "Molte dichiarazioni sui pericoli ambientali sono esagerate",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto d'accordo"
+      },
+      {
+        "value": 2,
+        "label": "D'accordo"
+      },
+      {
+        "value": 3,
+        "label": "Né d'accordo né contrario"
+      },
+      {
+        "value": 4,
+        "label": "Contrario"
+      },
+      {
+        "value": 5,
+        "label": "Molto contrario"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Proteggere l'ambiente dovrebbe avere la priorità, anche se può causare una crescita economica più lenta e la perdita di qualche posto di lavoro.",
+    "stem": "Qui ci sono due affermazioni che le persone a volte fanno quando discutono sull'ambiente e sulla crescita economica. Quale di queste si avvicina di più al Suo punto di vista?",
+    "item": "Proteggere l'ambiente dovrebbe avere la priorità, anche se può causare una crescita economica più lenta e la perdita di qualche posto di lavoro.",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Proteggere l'ambiente dovrebbe avere la priorità, anche se può causare una crescita economica più lenta e la perdita di qualche posto di lavoro."
+      },
+      {
+        "value": 2,
+        "label": "La crescita economica e la creazione di posti di lavoro dovrebbero avere la priorità, anche se l'ambiente può soffrirne in qualche misura."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Tenere le persone sotto videosorveglianza nelle aree pubbliche",
+    "stem": "Lei pensa che il governo italiano dovrebbe o non dovrebbe avere il diritto di fare le seguenti cose?",
+    "item": "Tenere le persone sotto videosorveglianza nelle aree pubbliche",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Certamente dovrebbe avere il diritto"
+      },
+      {
+        "value": 2,
+        "label": "Probabilmente dovrebbe avere il diritto"
+      },
+      {
+        "value": 3,
+        "label": "Probabilmente non dovrebbe avere il diritto"
+      },
+      {
+        "value": 4,
+        "label": "Certamente non dovrebbe avere il diritto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Monitorare tutte le e-mail e qualsiasi altra informazione scambiata su internet",
+    "stem": "Lei pensa che il governo italiano dovrebbe o non dovrebbe avere il diritto di fare le seguenti cose?",
+    "item": "Monitorare tutte le e-mail e qualsiasi altra informazione scambiata su internet",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Certamente dovrebbe avere il diritto"
+      },
+      {
+        "value": 2,
+        "label": "Probabilmente dovrebbe avere il diritto"
+      },
+      {
+        "value": 3,
+        "label": "Probabilmente non dovrebbe avere il diritto"
+      },
+      {
+        "value": 4,
+        "label": "Certamente non dovrebbe avere il diritto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Raccogliere informazioni su chiunque viva in Italia senza che l'interessato lo sappia",
+    "stem": "Lei pensa che il governo italiano dovrebbe o non dovrebbe avere il diritto di fare le seguenti cose?",
+    "item": "Raccogliere informazioni su chiunque viva in Italia senza che l'interessato lo sappia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Certamente dovrebbe avere il diritto"
+      },
+      {
+        "value": 2,
+        "label": "Probabilmente dovrebbe avere il diritto"
+      },
+      {
+        "value": 3,
+        "label": "Probabilmente non dovrebbe avere il diritto"
+      },
+      {
+        "value": 4,
+        "label": "Certamente non dovrebbe avere il diritto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "Della gente del Suo vicinato",
+    "stem": "In che misura si sente interessato alle condizioni di vita:",
+    "item": "Della gente del Suo vicinato",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "Della gente della regione nella quale Lei vive",
+    "stem": "In che misura si sente interessato alle condizioni di vita:",
+    "item": "Della gente della regione nella quale Lei vive",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "Dei Suoi connazionali",
+    "stem": "In che misura si sente interessato alle condizioni di vita:",
+    "item": "Dei Suoi connazionali",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "Degli europei",
+    "stem": "In che misura si sente interessato alle condizioni di vita:",
+    "item": "Degli europei",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "Di tutto il genere umano",
+    "stem": "In che misura si sente interessato alle condizioni di vita:",
+    "item": "Di tutto il genere umano",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "Anziani",
+    "stem": "In che misura si sente interessato alle condizioni di vita dei seguenti gruppi di persone che vivono in Italia?",
+    "item": "Anziani",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "Disoccupati",
+    "stem": "In che misura si sente interessato alle condizioni di vita dei seguenti gruppi di persone che vivono in Italia?",
+    "item": "Disoccupati",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "Immigrati",
+    "stem": "In che misura si sente interessato alle condizioni di vita dei seguenti gruppi di persone che vivono in Italia?",
+    "item": "Immigrati",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "Malati e disabili",
+    "stem": "In che misura si sente interessato alle condizioni di vita dei seguenti gruppi di persone che vivono in Italia?",
+    "item": "Malati e disabili",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Moltissimo"
+      },
+      {
+        "value": 2,
+        "label": "Molto"
+      },
+      {
+        "value": 3,
+        "label": "In qualche misura"
+      },
+      {
+        "value": 4,
+        "label": "Poco"
+      },
+      {
+        "value": 5,
+        "label": "Per niente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "All'eliminazione delle grandi disuguaglianze di reddito fra i cittadini",
+    "stem": "A che cosa una società dovrebbe provvedere? Per favore mi dica per ciascuna affermazione se è importante o meno per Lei.",
+    "item": "All'eliminazione delle grandi disuguaglianze di reddito fra i cittadini",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Alla soddisfazione garantita dei bisogni di base per tutti gli abitanti: cibo, casa, vestiti, istruzione, salute",
+    "stem": "A che cosa una società dovrebbe provvedere? Per favore mi dica per ciascuna affermazione se è importante o meno per Lei.",
+    "item": "Alla soddisfazione garantita dei bisogni di base per tutti gli abitanti: cibo, casa, vestiti, istruzione, salute",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Al riconoscimento dei meriti di ciascuno",
+    "stem": "A che cosa una società dovrebbe provvedere? Per favore mi dica per ciascuna affermazione se è importante o meno per Lei.",
+    "item": "Al riconoscimento dei meriti di ciascuno",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Alla protezione dal terrorismo",
+    "stem": "A che cosa una società dovrebbe provvedere? Per favore mi dica per ciascuna affermazione se è importante o meno per Lei.",
+    "item": "Alla protezione dal terrorismo",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Come valuta l'impatto di queste persone sullo sviluppo dell'Italia?",
+    "stem": "Ora vorremmo sapere la Sua opinione sulle persone di altri Paesi che vengono a vivere in Italia, gli immigrati.",
+    "item": "Come valuta l'impatto di queste persone sullo sviluppo dell'Italia?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 5,
+        "label": "Molto positivo"
+      },
+      {
+        "value": 4,
+        "label": "Abbastanza positivo"
+      },
+      {
+        "value": 3,
+        "label": "Né positivo né negativo"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza negativo"
+      },
+      {
+        "value": 1,
+        "label": "Molto negativo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Gli immigrati portano via il lavoro agli italiani",
+    "stem": "La prego di leggere le affermazioni elencate sul cartellino e di indicare dove collocherebbe la Sua posizione su questa scala, dove 1 indica il massimo accordo con la prima affermazione e 10 indica il massimo accordo con la seconda affermazione.",
+    "item": "Gli immigrati portano via il lavoro agli italiani",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Gli immigrati portano via il lavoro agli italiani"
+      },
+      {
+        "value": 10,
+        "label": "Gli immigrati non portano via il lavoro agli italiani"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v186",
+    "text": "Gli immigrati aggravano i problemi di criminalità",
+    "stem": "La prego di leggere le affermazioni elencate sul cartellino e di indicare dove collocherebbe la Sua posizione su questa scala, dove 1 indica il massimo accordo con la prima affermazione e 10 indica il massimo accordo con la seconda affermazione.",
+    "item": "Gli immigrati aggravano i problemi di criminalità",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Gli immigrati aggravano i problemi di criminalità"
+      },
+      {
+        "value": 10,
+        "label": "Gli immigrati non aggravano i problemi di criminalità"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v187",
+    "text": "Gli immigrati costituiscono un peso per il sistema di welfare di un paese",
+    "stem": "La prego di leggere le affermazioni elencate sul cartellino e di indicare dove collocherebbe la Sua posizione su questa scala, dove 1 indica il massimo accordo con la prima affermazione e 10 indica il massimo accordo con la seconda affermazione.",
+    "item": "Gli immigrati costituiscono un peso per il sistema di welfare di un paese",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Gli immigrati costituiscono un peso per il sistema di welfare di un paese"
+      },
+      {
+        "value": 10,
+        "label": "Gli immigrati non costituiscono un peso per il sistema di welfare di un paese"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v188",
+    "text": "È meglio se gli immigrati mantengono i loro specifici costumi e le loro tradizioni",
+    "stem": "La prego di leggere le affermazioni elencate sul cartellino e di indicare dove collocherebbe la Sua posizione su questa scala, dove 1 indica il massimo accordo con la prima affermazione e 10 indica il massimo accordo con la seconda affermazione.",
+    "item": "È meglio se gli immigrati mantengono i loro specifici costumi e le loro tradizioni",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "È meglio se gli immigrati mantengono i loro specifici costumi e le loro tradizioni"
+      },
+      {
+        "value": 10,
+        "label": "È meglio se gli immigrati non mantengono i loro specifici costumi e le loro tradizioni"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Avere origini europee (se l'intervistato lo richiede, precisare: genitori, nonni, bisnonni europei)",
+    "stem": "Le persone hanno idee diverse su cosa significhi essere europei. Secondo Lei, quanto è importante ciascuno dei seguenti aspetti per essere europei?",
+    "item": "Avere origini europee (se l'intervistato lo richiede, precisare: genitori, nonni, bisnonni europei)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Molto importante"
+      },
+      {
+        "value": 2,
+        "label": "Abbastanza importante"
+      },
+      {
+        "value": 3,
+        "label": "Non importante"
+      },
+      {
+        "value": 4,
+        "label": "Per niente importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "L'allargamento dell'Unione Europea dovrebbe proseguire ancora",
+    "stem": "Alcuni dicono che l'allargamento dell'Unione Europea dovrebbe proseguire ancora, altri dicono che sia già andato troppo oltre. Usando questo cartellino, quale numero descrive meglio la Sua posizione, dove 1 significa che \"Dovrebbe proseguire ancora\" e 10 che \"È già andato troppo oltre\"?",
+    "item": "L'allargamento dell'Unione Europea dovrebbe proseguire ancora",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dovrebbe proseguire ancora"
+      },
+      {
+        "value": 10,
+        "label": "È già andato troppo oltre"
+      }
+    ],
+    "answer_cue": null
+  }
+]

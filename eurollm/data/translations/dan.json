@@ -1,0 +1,6043 @@
+[
+  {
+    "id": "28",
+    "text": "Hvor vigtigt i dit liv er ... Arbejde",
+    "stem": "Hvor vigtigt i dit liv er ...",
+    "item": "Arbejde",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "29",
+    "text": "Hvor vigtigt i dit liv er ... Familie",
+    "stem": "Hvor vigtigt i dit liv er ...",
+    "item": "Familie",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "30",
+    "text": "Hvor vigtigt i dit liv er ... Venner og bekendte",
+    "stem": "Hvor vigtigt i dit liv er ...",
+    "item": "Venner og bekendte",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "31",
+    "text": "Hvor vigtigt i dit liv er ...Fritid",
+    "stem": "Hvor vigtigt i dit liv er ...",
+    "item": "Fritid",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "32",
+    "text": "Hvor vigtigt i dit liv er ...Politik",
+    "stem": "Hvor vigtigt i dit liv er ...",
+    "item": "Politik",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "33",
+    "text": "Hvor vigtigt i dit liv er ...Religion",
+    "stem": "Hvor vigtigt i dit liv er ...",
+    "item": "Religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "34",
+    "text": "Alt taget i betragtning - hvor lykkelig eller ulykkelig føler du dig?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget lykkelig"
+      },
+      {
+        "value": 2,
+        "label": "Ret lykkelig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig lykkelig"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke lykkelig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "35",
+    "text": "Mener du at dit nuværende helbred alt i alt er:",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget godt"
+      },
+      {
+        "value": 2,
+        "label": "Godt"
+      },
+      {
+        "value": 3,
+        "label": "Nogenlunde"
+      },
+      {
+        "value": 4,
+        "label": "Dårligt"
+      },
+      {
+        "value": 5,
+        "label": "Meget dårligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "37",
+    "text": "Har du udført frivilligt arbejde i de seneste 6 måneder?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "38",
+    "text": "På denne liste er angivet forskellige grupper af mennesker. Er der nogen, du ikke ville synes om at have som nabo?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Personer af anden race"
+      },
+      {
+        "value": 2,
+        "label": "Alkoholikere"
+      },
+      {
+        "value": 3,
+        "label": "Indvandrere/udenlandske arbejdstagere"
+      },
+      {
+        "value": 4,
+        "label": "Narkomaner"
+      },
+      {
+        "value": 5,
+        "label": "Homoseksuelle"
+      },
+      {
+        "value": 6,
+        "label": "Kristne"
+      },
+      {
+        "value": 7,
+        "label": "Muslimer"
+      },
+      {
+        "value": 8,
+        "label": "Jøder"
+      },
+      {
+        "value": 9,
+        "label": "Romaer"
+      },
+      {
+        "value": 10,
+        "label": "Nej, har ikke noget imod at have disse personer som nabo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "39",
+    "text": "Alt i alt - mener du, at folk er til at stole på eller mener du, at man ikke kan være for forsigtig, når man har med mennesker at gøre?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "De fleste er til at stole på"
+      },
+      {
+        "value": 2,
+        "label": "Man kan ikke være for forsigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "40",
+    "text": "Hvor stor tillid har du til ... Din familie",
+    "stem": "Hvor stor tillid har du til ...",
+    "item": "Din familie",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Nogen tillid"
+      },
+      {
+        "value": 3,
+        "label": "Næsten ingen tillid"
+      },
+      {
+        "value": 4,
+        "label": "Ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "41",
+    "text": "Hvor stor tillid har du til ... Mennesker i dit nabolag",
+    "stem": "Hvor stor tillid har du til ...",
+    "item": "Mennesker i dit nabolag",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Nogen tillid"
+      },
+      {
+        "value": 3,
+        "label": "Næsten ingen tillid"
+      },
+      {
+        "value": 4,
+        "label": "Ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "42",
+    "text": "Hvor stor tillid har du til ... Mennesker, du kender personligt",
+    "stem": "Hvor stor tillid har du til ...",
+    "item": "Mennesker, du kender personligt",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Nogen tillid"
+      },
+      {
+        "value": 3,
+        "label": "Næsten ingen tillid"
+      },
+      {
+        "value": 4,
+        "label": "Ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "43",
+    "text": "Hvor stor tillid har du til ... Mennesker, du møder for første gang",
+    "stem": "Hvor stor tillid har du til ...",
+    "item": "Mennesker, du møder for første gang",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Nogen tillid"
+      },
+      {
+        "value": 3,
+        "label": "Næsten ingen tillid"
+      },
+      {
+        "value": 4,
+        "label": "Ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "44",
+    "text": "Hvor stor tillid har du til ...Mennesker med en anden religion",
+    "stem": "Hvor stor tillid har du til ...",
+    "item": "Mennesker med en anden religion",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Nogen tillid"
+      },
+      {
+        "value": 3,
+        "label": "Næsten ingen tillid"
+      },
+      {
+        "value": 4,
+        "label": "Ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "45",
+    "text": "Hvor stor tillid har du til ... Mennesker af en anden nationalitet",
+    "stem": "Hvor stor tillid har du til ...",
+    "item": "Mennesker af en anden nationalitet",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Nogen tillid"
+      },
+      {
+        "value": 3,
+        "label": "Næsten ingen tillid"
+      },
+      {
+        "value": 4,
+        "label": "Ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "46",
+    "text": "Nogle mener, at de har det fulde herredømme over den måde deres tilværelse udvikler sig på, mens andre føler, at deres egne handlinger ingen indflydelse har på, hvordan det går dem.\nHvor på skalaen vil du placere dig selv, når 1 betyder overhovedet ingen indflydelse og 10 betyder overordentlig megen indflydelse?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1. Overhovedet ingen indflydelse"
+      },
+      {
+        "value": 2,
+        "label": "2."
+      },
+      {
+        "value": 3,
+        "label": "3."
+      },
+      {
+        "value": 4,
+        "label": "4."
+      },
+      {
+        "value": 5,
+        "label": "5."
+      },
+      {
+        "value": 6,
+        "label": "6."
+      },
+      {
+        "value": 7,
+        "label": "7."
+      },
+      {
+        "value": 8,
+        "label": "8."
+      },
+      {
+        "value": 9,
+        "label": "9."
+      },
+      {
+        "value": 10,
+        "label": "10. Overordentlig megen indflydelse"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "47",
+    "text": "Alt taget i betragtning - hvor tilfreds eller utilfreds er du med livet for tiden?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1. Meget utilfreds"
+      },
+      {
+        "value": 2,
+        "label": "2."
+      },
+      {
+        "value": 3,
+        "label": "3."
+      },
+      {
+        "value": 4,
+        "label": "4."
+      },
+      {
+        "value": 5,
+        "label": "5."
+      },
+      {
+        "value": 6,
+        "label": "6."
+      },
+      {
+        "value": 7,
+        "label": "7."
+      },
+      {
+        "value": 8,
+        "label": "8."
+      },
+      {
+        "value": 9,
+        "label": "9."
+      },
+      {
+        "value": 10,
+        "label": "10. Meget tilfreds"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "48",
+    "text": "Hvilke er vigtige for dig i forbindelse med et job?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "God løn"
+      },
+      {
+        "value": 2,
+        "label": "Gode arbejdstider"
+      },
+      {
+        "value": 3,
+        "label": "Mulighed for at tage initiativ"
+      },
+      {
+        "value": 4,
+        "label": "Gode ferieforhold"
+      },
+      {
+        "value": 5,
+        "label": "Et job, hvor man føler, man kan udrette noget"
+      },
+      {
+        "value": 6,
+        "label": "Et ansvarsfuldt job"
+      },
+      {
+        "value": 7,
+        "label": "Ingen af ovennævnte"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "49",
+    "text": "Et arbejde er nødvendigt for at udvikle sine evner.\nHvor enig eller uenig er du i det?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "50",
+    "text": "Det er ydmygende at modtage penge, hvis man ikke har arbejdet for dem.\nHvor enig eller uenig er du i det?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "51",
+    "text": "Man bliver doven af ikke at arbejde.\nHvor enig eller uenig er du i det?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "52",
+    "text": "Det er ens pligt over for samfundet at arbejde.\nHvor enig eller uenig er du i det?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "53",
+    "text": "Arbejde kommer først, også selv om det betyder mindre fritid.\nHvor enig eller uenig er du i det?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "54",
+    "text": "Er du medlem af folkekirken eller et andet trossamfund?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "55",
+    "text": "Hvilket trossamfund er du medlem af?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Folkekirken"
+      },
+      {
+        "value": 2,
+        "label": "Islamisk trossamfund"
+      },
+      {
+        "value": 3,
+        "label": "Buddhistisk trossamfund"
+      },
+      {
+        "value": 4,
+        "label": "Hinduistisk trossamfund"
+      },
+      {
+        "value": 5,
+        "label": "Mosaisk trossamfund"
+      },
+      {
+        "value": 6,
+        "label": "Asatro"
+      },
+      {
+        "value": 7,
+        "label": "Andet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "56",
+    "text": "Har du nogensinde været medlem af et trossamfund?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "57",
+    "text": "Hvor ofte går du i kirke (eller lign.: moske, synagoge)?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Oftere end 1 gang om ugen"
+      },
+      {
+        "value": 2,
+        "label": "Ca. 1 gang om ugen"
+      },
+      {
+        "value": 3,
+        "label": "Ca. 1 gang om måneden"
+      },
+      {
+        "value": 4,
+        "label": "Ved særlige højtider (herunder jul og påske)"
+      },
+      {
+        "value": 5,
+        "label": "Ca. 1 gang om året"
+      },
+      {
+        "value": 6,
+        "label": "Sjældnere end 1 gang om året"
+      },
+      {
+        "value": 7,
+        "label": "Aldrig, næsten aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "59",
+    "text": "Uanset om du går i kirke eller ej, vil du så mene du er ...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Et troende menneske"
+      },
+      {
+        "value": 2,
+        "label": "Et ikke troende menneske"
+      },
+      {
+        "value": 3,
+        "label": "Overbevist ateist"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "60",
+    "text": "Tror du på ...Gud",
+    "stem": "Tror du på ...",
+    "item": "Gud",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "61",
+    "text": "Tror du på ...Et liv efter døden",
+    "stem": "Tror du på ...",
+    "item": "Et liv efter døden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "62",
+    "text": "Tror du på ... Helvede",
+    "stem": "Tror du på ...",
+    "item": "Helvede",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "63",
+    "text": "Tror du på ...Paradis",
+    "stem": "Tror du på ...",
+    "item": "Paradis",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "64",
+    "text": "Tror du på reinkarnation, det vil sige at sjælen efter døden får et nyt liv i et andet legeme?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "65",
+    "text": "Hvilket af disse udsagn kommer nærmest din tro?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Der er en personlig Gud"
+      },
+      {
+        "value": 2,
+        "label": "Der er en særlig åndelig kraft"
+      },
+      {
+        "value": 3,
+        "label": "Jeg ved ikke, hvad jeg skal tro"
+      },
+      {
+        "value": 4,
+        "label": "Jeg tror ikke der er nogen åndelig kraft eller personlig Gud"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "66",
+    "text": "Hvor stor en rolle spiller Gud i dit liv?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1. Slet ingen rolle"
+      },
+      {
+        "value": 2,
+        "label": "2."
+      },
+      {
+        "value": 3,
+        "label": "3."
+      },
+      {
+        "value": 4,
+        "label": "4."
+      },
+      {
+        "value": 5,
+        "label": "5."
+      },
+      {
+        "value": 6,
+        "label": "6."
+      },
+      {
+        "value": 7,
+        "label": "7."
+      },
+      {
+        "value": 8,
+        "label": "8."
+      },
+      {
+        "value": 9,
+        "label": "9."
+      },
+      {
+        "value": 10,
+        "label": "10. Meget stor rolle"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "67",
+    "text": "Hvor ofte beder du, bortset fra ved religiøse ritualer og gudstjenester?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hver dag"
+      },
+      {
+        "value": 2,
+        "label": "Mere end 1 gang om ugen"
+      },
+      {
+        "value": 3,
+        "label": "1 gang om ugen"
+      },
+      {
+        "value": 4,
+        "label": "Mindst 1 gang om måneden"
+      },
+      {
+        "value": 5,
+        "label": "Flere gange om året"
+      },
+      {
+        "value": 6,
+        "label": "Sjældnere"
+      },
+      {
+        "value": 7,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "68",
+    "text": "Troskab\nHvor vigtigt er det for et lykkeligt ægteskab eller parforhold?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtig"
+      },
+      {
+        "value": 2,
+        "label": "Ret vigtig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "69",
+    "text": "En tilstrækkelig stor indkomst\nHvor vigtigt er det for et lykkeligt ægteskab eller parforhold?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtig"
+      },
+      {
+        "value": 2,
+        "label": "Ret vigtig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "70",
+    "text": "Gode boligforhold",
+    "stem": "Hvor vigtigt er det for et lykkeligt ægteskab eller parforhold?",
+    "item": "Gode boligforhold",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtig"
+      },
+      {
+        "value": 2,
+        "label": "Ret vigtig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtig"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "71",
+    "text": "At være fælles om det huslige arbejde",
+    "stem": "Hvor vigtigt er det for et lykkeligt ægteskab eller parforhold?",
+    "item": "At være fælles om det huslige arbejde",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtig"
+      },
+      {
+        "value": 2,
+        "label": "Ret vigtig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtig"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "72",
+    "text": "At der er børn",
+    "stem": "Hvor vigtigt er det for et lykkeligt ægteskab eller parforhold?",
+    "item": "At der er børn",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtig"
+      },
+      {
+        "value": 2,
+        "label": "Ret vigtig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtig"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "73",
+    "text": "At have tid til egne venner og personlige hobbyer/aktiviteter",
+    "stem": "Hvor vigtigt er det for et lykkeligt ægteskab eller parforhold?",
+    "item": "At have tid til egne venner og personlige hobbyer/aktiviteter",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtig"
+      },
+      {
+        "value": 2,
+        "label": "Ret vigtig"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtig"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "74",
+    "text": "Ægteskabet er en forældet institution.",
+    "stem": "Er du enig eller uenig i følgende udsagn.",
+    "item": "Ægteskabet er en forældet institution.",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Enig"
+      },
+      {
+        "value": 2,
+        "label": "Uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "75",
+    "text": "Det skader et før-skole barn, hvis moderen arbejder.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Det skader et før-skole barn, hvis moderen arbejder.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "76",
+    "text": "Der er i orden at have et job, men de fleste kvinder vil i virkeligheden helst gå hjemme.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Der er i orden at have et job, men de fleste kvinder vil i virkeligheden helst gå hjemme.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "77",
+    "text": "Generelt går det ud over familielivet, hvis kvinden har fuldtidsjob.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Generelt går det ud over familielivet, hvis kvinden har fuldtidsjob.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "78",
+    "text": "Det er mandens opgave at tjene penge; det er kvindens opgave at passe hjemmet og familien.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Det er mandens opgave at tjene penge; det er kvindens opgave at passe hjemmet og familien.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "79",
+    "text": "Generelt er mænd bedre politiske ledere end kvinder.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Generelt er mænd bedre politiske ledere end kvinder.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "80",
+    "text": "En universitetsuddannelse er vigtigere for en dreng end for en pige.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "En universitetsuddannelse er vigtigere for en dreng end for en pige.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "81",
+    "text": "Generelt er mænd bedre erhvervsledere end kvinder.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Generelt er mænd bedre erhvervsledere end kvinder.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "82",
+    "text": "Et af mine vigtigste mål i livet er at gøre mine forældre stolte.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Et af mine vigtigste mål i livet er at gøre mine forældre stolte.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Uenig"
+      },
+      {
+        "value": 4,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "83",
+    "text": "Hvis der er få jobs, bør arbejdsgiverne prioritere danskere frem for indvandrere.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Hvis der er få jobs, bør arbejdsgiverne prioritere danskere frem for indvandrere.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "84",
+    "text": "Hvis der er få jobs, har mænd mere ret til arbejde end kvinder.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Hvis der er få jobs, har mænd mere ret til arbejde end kvinder.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "85",
+    "text": "Homoseksuelle par er lige så gode forældre som andre par.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Homoseksuelle par er lige så gode forældre som andre par.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "86",
+    "text": "Det er en samfundspligt at få børn.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Det er en samfundspligt at få børn.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "87",
+    "text": "Voksne børn har pligt til at sørge for pleje af deres forældre.",
+    "stem": "I hvilken grad du er enig eller uenig i det?",
+    "item": "Voksne børn har pligt til at sørge for pleje af deres forældre.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Gode manerer",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Gode manerer",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Selvstændighed",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Selvstændighed",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Hårdt arbejde",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Hårdt arbejde",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Ansvarsfølelse",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Ansvarsfølelse",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Fantasi",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Fantasi",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Tolerance og respekt for andre",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Tolerance og respekt for andre",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Sparsommelighed",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Sparsommelighed",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Beslutsomhed/udholdenhed",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Beslutsomhed/udholdenhed",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Opdragelse i den kristne tro",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Opdragelse i den kristne tro",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Tænker på andre",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Tænker på andre",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "88",
+    "text": "Lydighed",
+    "stem": "Hvilke anser du for at være vigtigst for et barn? Du må vælge op til fem.",
+    "item": "Lydighed",
+    "response_type": "action",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "89",
+    "text": "Hvor interesseret er du i politik?",
+    "stem": null,
+    "item": "Hvor interesseret er du i politik?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget interesseret"
+      },
+      {
+        "value": 2,
+        "label": "Noget interesseret"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig interesseret"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke interesseret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "90",
+    "text": "Underskriftsindsamling",
+    "stem": "Har du deltaget i det?",
+    "item": "Underskriftsindsamling",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har deltaget"
+      },
+      {
+        "value": 2,
+        "label": "Ville muligvis deltage"
+      },
+      {
+        "value": 3,
+        "label": "Ville aldrig deltage"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "91",
+    "text": "Boykot",
+    "stem": "Har du deltaget i det?",
+    "item": "Boykot",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har deltaget"
+      },
+      {
+        "value": 2,
+        "label": "Ville muligvis deltage"
+      },
+      {
+        "value": 3,
+        "label": "Ville aldrig deltage"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "92",
+    "text": "Lovlig demonstration",
+    "stem": "Har du deltaget i det?",
+    "item": "Lovlig demonstration",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har deltaget"
+      },
+      {
+        "value": 2,
+        "label": "Ville muligvis deltage"
+      },
+      {
+        "value": 3,
+        "label": "Ville aldrig deltage"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "93",
+    "text": "Overenskomststridig strejke",
+    "stem": "Har du deltaget i det?",
+    "item": "Overenskomststridig strejke",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har deltaget"
+      },
+      {
+        "value": 2,
+        "label": "Ville muligvis deltage"
+      },
+      {
+        "value": 3,
+        "label": "Ville aldrig deltage"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "94",
+    "text": "Når det drejer sig om politik taler man om 'venstreorienteret' og 'højreorienteret'.",
+    "stem": "Hvor på skalaen vil du placere dig selv, hvis 1 betyder venstreorienteret og 10 betyder højreorienteret?",
+    "item": "Når det drejer sig om politik taler man om 'venstreorienteret' og 'højreorienteret'.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Venstreorienteret"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Højreorienteret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "95",
+    "text": "Den enkelte skal tage mere ansvar for at forsørge sig selv",
+    "stem": "Læs følgende udsagn, og angiv, hvor på skalaen du vil placere dine egne holdninger:",
+    "item": "Den enkelte skal tage mere ansvar for at forsørge sig selv",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Staten skal tage mere ansvar for at sikre forsørgelse af alle"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "96",
+    "text": "Arbejdsløse skal tage et hvilket som helst ledigt job for at bevare retten til understøttelse",
+    "stem": "Læs følgende udsagn, og angiv, hvor på skalaen du vil placere dine egne holdninger:",
+    "item": "Arbejdsløse skal tage et hvilket som helst ledigt job for at bevare retten til understøttelse",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Arbejdsløse skal have ret til at nægte at tage et job, de ikke ønsker"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "97",
+    "text": "Konkurrence er godt",
+    "stem": "Læs følgende udsagn, og angiv, hvor på skalaen du vil placere dine egne holdninger:",
+    "item": "Konkurrence er godt",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Konkurrence er skadeligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "98",
+    "text": "Der skal være større indkomstmæssig lighed",
+    "stem": "Læs følgende udsagn, og angiv, hvor på skalaen du vil placere dine egne holdninger:",
+    "item": "Der skal være større indkomstmæssig lighed",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Der skal være større økonomisk tilskyndelse til at gøre en indsats for den enkelte"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "99",
+    "text": "Privatisering skal øges",
+    "stem": "Læs følgende udsagn, og angiv, hvor på skalaen du vil placere dine egne holdninger:",
+    "item": "Privatisering skal øges",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Virksomheder skal i højere grad være statsejede"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "100",
+    "text": "Høj økonomisk vækst",
+    "stem": "Hvilket af målene anser du for at være vigtigst?",
+    "item": "Høj økonomisk vækst",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Høj økonomisk vækst"
+      },
+      {
+        "value": 2,
+        "label": "At sikre et stærkt forsvar"
+      },
+      {
+        "value": 3,
+        "label": "At give folk større indflydelse på deres job og lokalsamfund"
+      },
+      {
+        "value": 4,
+        "label": "At forsøge at forskønne vores byer og landområder"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "101",
+    "text": "Høj økonomisk vækst",
+    "stem": "Og hvilket er det næst vigtigste?",
+    "item": "Høj økonomisk vækst",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Høj økonomisk vækst"
+      },
+      {
+        "value": 2,
+        "label": "At sikre et stærkt forsvar"
+      },
+      {
+        "value": 3,
+        "label": "At give folk større indflydelse på deres job og lokalsamfund"
+      },
+      {
+        "value": 4,
+        "label": "At forsøge at forskønne vores byer og landområder"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "102",
+    "text": "Hvis du skulle vælge, hvilken af tingene på dette kort anser du så for at være vigtigst?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "At opretholde lov og orden i landet"
+      },
+      {
+        "value": 2,
+        "label": "At lade folk bestemme mere i vigtige regeringsbeslutninger"
+      },
+      {
+        "value": 3,
+        "label": "At bekæmpe stigende priser"
+      },
+      {
+        "value": 4,
+        "label": "At beskytte ytringsfriheden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "103",
+    "text": "Og hvad er næst vigtigst?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "At opretholde lov og orden i landet"
+      },
+      {
+        "value": 2,
+        "label": "At lade folk bestemme mere i vigtige regeringsbeslutninger"
+      },
+      {
+        "value": 3,
+        "label": "At bekæmpe stigende priser"
+      },
+      {
+        "value": 4,
+        "label": "At beskytte ytringsfriheden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "104",
+    "text": "Ingen håber selvfølgelig, at der bliver krig, men hvis det skete, ville du så være parat til at kæmpe for dit land?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "105",
+    "text": "Arbejde får mindre betydning i vores liv.",
+    "stem": "Hvor godt er det?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Godt"
+      },
+      {
+        "value": 2,
+        "label": "Dårligt"
+      },
+      {
+        "value": 3,
+        "label": "Ligegyldigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "106",
+    "text": "At der i fremtiden vises mere respekt for autoriteter.",
+    "stem": "Hvor godt er det?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Godt"
+      },
+      {
+        "value": 2,
+        "label": "Dårligt"
+      },
+      {
+        "value": 3,
+        "label": "Ligegyldigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "107",
+    "text": "Hvor stor tillid har du til ... Den danske folkekirke?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "108",
+    "text": "Hvor stor tillid har du til ... Forsvaret?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "109",
+    "text": "Hvor stor tillid har du til ... Uddannelsessystemet?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "110",
+    "text": "Hvor stor tillid har du til ... Medierne?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "111",
+    "text": "Hvor stor tillid har du til ... Fagforeningerne?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "112",
+    "text": "Hvor stor tillid har du til ... Politiet?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "113",
+    "text": "Hvor stor tillid har du til ... Folketinget?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "114",
+    "text": "Hvor stor tillid har du til ... Det offentlige?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "115",
+    "text": "Hvor stor tillid har du til ... Det sociale sikringssystem?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "116",
+    "text": "Hvor stor tillid har du til ... EU?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "117",
+    "text": "Hvor stor tillid har du til ... FN?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "118",
+    "text": "Hvor stor tillid har du til ... Sundhedssystemet?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "119",
+    "text": "Hvor stor tillid har du til ... Retsvæsnet?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "120",
+    "text": "Hvor stor tillid har du til ... Store virksomheder?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "121",
+    "text": "Hvor stor tillid har du til ... Miljøorganisationer?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "122",
+    "text": "Hvor stor tillid har du til ... Politiske partier?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "123",
+    "text": "Hvor stor tillid har du til ... Regeringen?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "124",
+    "text": "Hvor stor tillid har du til ... Sociale medier?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stor tillid"
+      },
+      {
+        "value": 2,
+        "label": "Ret stor tillid"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stor tillid"
+      },
+      {
+        "value": 4,
+        "label": "Slet ingen tillid"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "125",
+    "text": "Staten beskatter de rige og understøtter de fattige.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "126",
+    "text": "Religiøse autoriteter fortolker loven i sidste ende.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "127",
+    "text": "Folk vælger deres ledere ved frie valg.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "128",
+    "text": "Borgerne understøttes økonomisk af staten ved arbejdsløshed.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "129",
+    "text": "Militæret overtager magten, hvis regeringen er inkompetent.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "130",
+    "text": "Borgerrettigheder beskytter borgerne mod statslig undertrykkelse.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "131",
+    "text": "Staten gør borgernes indkomster mere lige.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "132",
+    "text": "Borgerne adlyder magthaverne.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "133",
+    "text": "Kvinder har samme rettigheder som mænd.",
+    "stem": "I hvor høj grad kendetegner det et demokrati?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ikke et vigtigt kendetegn for demokrati"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Vigtigt kendetegn for demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "134",
+    "text": "Hvor vigtigt er det for dig at bo i et land med demokrati?",
+    "stem": "Vis det på skalaen, hvor 1 betyder 'slet ikke vigtigt' og 10 betyder 'meget vigtigt'?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Meget vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "135",
+    "text": "Hvor demokratisk er dit land i dag?",
+    "stem": "Skalaen går fra 1 til 10, hvor 1 betyder 'slet ikke demokratisk', og 10 betyder 'fuldt demokratisk'.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke demokratisk"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Fuldt demokratisk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "136",
+    "text": "Hvor tilfreds er du med måden, det politiske system i dit land fungerer i dag?",
+    "stem": "Skalaen går fra 1 til 10, hvor 1 betyder 'slet ikke tilfreds', og 10 betyder 'meget tilfreds'.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke tilfreds"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Meget tilfreds"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "137",
+    "text": "At landet har en stærk leder, der ikke behøver bekymre sig om folketing og valg.",
+    "stem": "Hvor godt eller dårligt synes du om den måde at regere vores land på?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget godt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig godt"
+      },
+      {
+        "value": 3,
+        "label": "Temmelig dårligt"
+      },
+      {
+        "value": 4,
+        "label": "Meget dårligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "138",
+    "text": "At eksperter og ikke regeringen træffer beslutninger efter, hvad de mener er bedst for landet.",
+    "stem": "Hvor godt eller dårligt synes du om den måde at regere vores land på?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget godt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig godt"
+      },
+      {
+        "value": 3,
+        "label": "Temmelig dårligt"
+      },
+      {
+        "value": 4,
+        "label": "Meget dårligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "139",
+    "text": "At militæret styrer landet.",
+    "stem": "Hvor godt eller dårligt synes du om den måde at regere vores land på?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget godt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig godt"
+      },
+      {
+        "value": 3,
+        "label": "Temmelig dårligt"
+      },
+      {
+        "value": 4,
+        "label": "Meget dårligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "140",
+    "text": "At man har et demokratisk politisk system.",
+    "stem": "Hvor godt eller dårligt synes du om den måde at regere vores land på?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget godt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig godt"
+      },
+      {
+        "value": 3,
+        "label": "Temmelig dårligt"
+      },
+      {
+        "value": 4,
+        "label": "Meget dårligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "141",
+    "text": "At modtage sociale ydelser, man ikke har krav på?",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "142",
+    "text": "At snyde i skat, hvis man kan?",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "143",
+    "text": "At bruge marihuana eller hash som rusmiddel?",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "144",
+    "text": "At modtage bestikkelse i forbindelse med job eller tillidshverv?",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "145",
+    "text": "Homoseksualitet",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "146",
+    "text": "Abort",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "147",
+    "text": "Skilsmisse",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "148",
+    "text": "Aktiv dødshjælp",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "149",
+    "text": "Selvmord",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "150",
+    "text": "Uforpligtende sex",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "151",
+    "text": "At køre med offentlig transport uden billet?",
+    "stem": "I hvilken grad synes du det er",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "152",
+    "text": "Prostitution",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "153",
+    "text": "Kunstig befrugtning (reagensglasbefrugtning)",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "154",
+    "text": "Politisk vold",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "155",
+    "text": "Dødsstraf",
+    "stem": "I hvilken grad synes du det er acceptabelt",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Slet ikke"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "I høj grad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "156",
+    "text": "Din by?",
+    "stem": "Hvor tæt føler du dig knyttet til",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget tæt"
+      },
+      {
+        "value": 2,
+        "label": "Tæt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig tæt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke tæt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "157",
+    "text": "Den egn eller den landsdel du bor i?",
+    "stem": "Hvor tæt føler du dig knyttet til",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget tæt"
+      },
+      {
+        "value": 2,
+        "label": "Tæt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig tæt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke tæt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "158",
+    "text": "Danmark?",
+    "stem": "Hvor tæt føler du dig knyttet til",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget tæt"
+      },
+      {
+        "value": 2,
+        "label": "Tæt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig tæt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke tæt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "159",
+    "text": "Europa?",
+    "stem": "Hvor tæt føler du dig knyttet til",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget tæt"
+      },
+      {
+        "value": 2,
+        "label": "Tæt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig tæt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke tæt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "160",
+    "text": "Verden?",
+    "stem": "Hvor tæt føler du dig knyttet til",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget tæt"
+      },
+      {
+        "value": 2,
+        "label": "Tæt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig tæt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke tæt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "162",
+    "text": null,
+    "stem": "Hvor stolt er du over at være dansker?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget stolt"
+      },
+      {
+        "value": 2,
+        "label": "Ret stolt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig stolt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke stolt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "163",
+    "text": "Kommunalvalg?",
+    "stem": "Hvor ofte stemmer du til",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Altid"
+      },
+      {
+        "value": 2,
+        "label": "Sædvanligvis"
+      },
+      {
+        "value": 3,
+        "label": "Aldrig"
+      },
+      {
+        "value": 7,
+        "label": "Har ikke stemmeret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "164",
+    "text": "Folketingsvalg?",
+    "stem": "Hvor ofte stemmer du til",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Altid"
+      },
+      {
+        "value": 2,
+        "label": "Sædvanligvis"
+      },
+      {
+        "value": 3,
+        "label": "Aldrig"
+      },
+      {
+        "value": 7,
+        "label": "Har ikke stemmeret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "165",
+    "text": "Valg på EU-niveau?",
+    "stem": "Hvor ofte stemmer du til",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Altid"
+      },
+      {
+        "value": 2,
+        "label": "Sædvanligvis"
+      },
+      {
+        "value": 3,
+        "label": "Aldrig"
+      },
+      {
+        "value": 7,
+        "label": "Har ikke stemmeret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "166",
+    "text": null,
+    "stem": "Hvilket (politisk) parti repræsenterer bedst dine holdninger??",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Socialdemokraterne"
+      },
+      {
+        "value": 2,
+        "label": "Det Radikale Venstre"
+      },
+      {
+        "value": 3,
+        "label": "Det Konservative Folkeparti"
+      },
+      {
+        "value": 4,
+        "label": "Socialistisk Folkeparti"
+      },
+      {
+        "value": 5,
+        "label": "Dansk Folkeparti"
+      },
+      {
+        "value": 6,
+        "label": "Nye Borgerlige"
+      },
+      {
+        "value": 7,
+        "label": "Venstre, Danmarks Liberale Parti"
+      },
+      {
+        "value": 8,
+        "label": "Liberal alliance"
+      },
+      {
+        "value": 9,
+        "label": "Enhedslisten"
+      },
+      {
+        "value": 10,
+        "label": "Alternativet"
+      },
+      {
+        "value": 11,
+        "label": "Vil stemme blankt"
+      },
+      {
+        "value": 12,
+        "label": "Ved ikke"
+      },
+      {
+        "value": 13,
+        "label": "Uoplyst"
+      },
+      {
+        "value": 14,
+        "label": "Irrelevant"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "167",
+    "text": null,
+    "stem": "Er der et andet parti, der appellerer til dig?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Socialdemokraterne"
+      },
+      {
+        "value": 2,
+        "label": "Det Radikale Venstre"
+      },
+      {
+        "value": 3,
+        "label": "Det Konservative Folkeparti"
+      },
+      {
+        "value": 4,
+        "label": "Socialistisk Folkeparti"
+      },
+      {
+        "value": 5,
+        "label": "Dansk Folkeparti"
+      },
+      {
+        "value": 6,
+        "label": "Nye Borgerlige"
+      },
+      {
+        "value": 7,
+        "label": "Venstre, Danmarks Liberale Parti"
+      },
+      {
+        "value": 8,
+        "label": "Liberal alliance"
+      },
+      {
+        "value": 9,
+        "label": "Enhedslisten"
+      },
+      {
+        "value": 10,
+        "label": "Alternativet"
+      },
+      {
+        "value": 11,
+        "label": "Vil stemme blankt"
+      },
+      {
+        "value": 12,
+        "label": "Ved ikke"
+      },
+      {
+        "value": 13,
+        "label": "Uoplyst"
+      },
+      {
+        "value": 14,
+        "label": "Irrelevant"
+      },
+      {
+        "value": 15,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "168",
+    "text": "Stemmeoptællingen foregår korrekt",
+    "stem": "Hvor ofte vurderer du det sker?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "169",
+    "text": "Kandidater fra oppositionen forhindres i at stille op ...Hvor ofte vurderer du det sker?",
+    "stem": "Kandidater fra oppositionen forhindres i at stille op",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "170",
+    "text": "Tv-nyhederne favoriserer regeringspartiet ...Hvor ofte vurderer du det sker?",
+    "stem": "Tv-nyhederne favoriserer regeringspartiet",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "171",
+    "text": "Vælgere bestikkes ...Hvor ofte vurderer du det sker?",
+    "stem": "Vælgere bestikkes",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "172",
+    "text": "Den journalistiske dækning af valget er fair ...Hvor ofte vurderer du det sker?",
+    "stem": "Den journalistiske dækning af valget er fair",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "173",
+    "text": "De valgtilforordnede er fair ...Hvor ofte vurderer du det sker?",
+    "stem": "De valgtilforordnede er fair",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "174",
+    "text": "Rige mennesker køber stemmer ...Hvor ofte vurderer du det sker?",
+    "stem": "Rige mennesker køber stemmer",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "175",
+    "text": "Vælgerne trues med vold ved valgstederne ...Hvor ofte vurderer du det sker?",
+    "stem": "Vælgerne trues med vold ved valgstederne",
+    "item": "Hvor ofte vurderer du det sker?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget ofte"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig ofte"
+      },
+      {
+        "value": 3,
+        "label": "Sjældent"
+      },
+      {
+        "value": 4,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "176",
+    "text": "Nu vil vi gerne høre din mening om mennesker fra andre lande, der kommer til Danmark for at slå sig ned - indvandrere. Hvordan påvirker disse mennesker udviklingen i Danmark efter din opfattelse?",
+    "stem": "Hvordan påvirker disse mennesker udviklingen i Danmark efter din opfattelse?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget dårligt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig dårligt"
+      },
+      {
+        "value": 3,
+        "label": "Hverken godt eller dårligt"
+      },
+      {
+        "value": 4,
+        "label": "Temmelig godt"
+      },
+      {
+        "value": 5,
+        "label": "Meget godt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "177",
+    "text": "Hvor på skalaen vil du placere dine synspunkter?",
+    "stem": "Indvandrere tager jobs fra danskere",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Indvandrere tager ikke jobs fra danskere"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "178",
+    "text": "Hvor på skalaen vil du placere dine synspunkter?",
+    "stem": "Indvandrere gør problemerne med kriminalitet værre",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Indvandrere gør ikke problemerne med kriminalitet værre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "179",
+    "text": "Hvor på skalaen vil du placere dine synspunkter?",
+    "stem": "Indvandrere belaster velfærdssystemet",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Indvandrere belaster ikke velfærdssystemet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "180",
+    "text": "Hvor på skalaen vil du placere dine synspunkter?",
+    "stem": "Samfundet er bedst tjent med at indvandrere fastholder deres egne skikke og traditioner",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Samfundet er bedst tjent med, at indvandrere ikke fastholder deres skikke og traditioner"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "181",
+    "text": "At være født i Danmark ...Hvor vigtigt er det for at være rigtig dansk?",
+    "stem": "At være født i Danmark",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "182",
+    "text": "At respektere Danmarks politiske institutioner og love ...Hvor vigtigt er det for at være rigtig dansk?",
+    "stem": "At respektere Danmarks politiske institutioner og love",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "183",
+    "text": "At have dansk familiebaggrund ...Hvor vigtigt er det for at være rigtig dansk?",
+    "stem": "At have dansk familiebaggrund",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "184",
+    "text": "At kunne tale dansk ...Hvor vigtigt er det for at være rigtig dansk?",
+    "stem": "At kunne tale dansk",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "185",
+    "text": "At være en del af dansk kultur ...Hvor vigtigt er det for at være rigtig dansk?",
+    "stem": "At være en del af dansk kultur",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "186",
+    "text": "At være født i Europa ...I hvilken grad er det vigtigt for at være europæer?",
+    "stem": "At være født i Europa",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "187",
+    "text": "At have europæisk familiebaggrund ...I hvilken grad er det vigtigt for at være europæer?",
+    "stem": "At have europæisk familiebaggrund",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "188",
+    "text": "At være kristen ...I hvilken grad er det vigtigt for at være europæer?",
+    "stem": "At være kristen",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "189",
+    "text": "At være en del af europæisk kultur ...I hvilken grad er det vigtigt for at være europæer?",
+    "stem": "At være en del af europæisk kultur",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "190",
+    "text": "Nogle mener, at udvidelsen af EU skal fortsætte, mens andre mener, at den allerede er gået for vidt. Hvilket tal på skalaen beskriver bedst din holdning?",
+    "stem": "Hvilket tal på skalaen beskriver bedst din holdning?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Udvidelsen skal fortsætte"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Udvidelsen er gået for vidt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "191",
+    "text": "Jeg vil give en del af min indtægt, hvis jeg kunne være sikker på, at pengene blev brugt til at forhindre forurening af miljøet. Hvor enig eller uenig er du i det?",
+    "stem": "Jeg vil give en del af min indtægt, hvis jeg kunne være sikker på, at pengene blev brugt til at forhindre forurening af miljøet.",
+    "item": "Hvor enig eller uenig er du i det?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "192",
+    "text": "Det er bare for svært for én som mig at gøre ret meget ved miljøet. Hvor enig eller uenig er du i det?",
+    "stem": "Det er bare for svært for én som mig at gøre ret meget ved miljøet.",
+    "item": "Hvor enig eller uenig er du i det?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "193",
+    "text": "Der er vigtigere ting i livet end at beskytte miljøet. Hvor enig eller uenig er du i det?",
+    "stem": "Der er vigtigere ting i livet end at beskytte miljøet.",
+    "item": "Hvor enig eller uenig er du i det?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "194",
+    "text": "Det giver ingen mening, at jeg gør noget for miljøet, hvis andre ikke også gør det. Hvor enig eller uenig er du i det?",
+    "stem": "Det giver ingen mening, at jeg gør noget for miljøet, hvis andre ikke også gør det.",
+    "item": "Hvor enig eller uenig er du i det?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "195",
+    "text": "Mange af de påstande, man hører om trusler mod miljøet, er overdrevne. Hvor enig eller uenig er du i det?",
+    "stem": "Mange af de påstande, man hører om trusler mod miljøet, er overdrevne.",
+    "item": "Hvor enig eller uenig er du i det?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helt enig"
+      },
+      {
+        "value": 2,
+        "label": "Enig"
+      },
+      {
+        "value": 3,
+        "label": "Hverken enig eller uenig"
+      },
+      {
+        "value": 4,
+        "label": "Uenig"
+      },
+      {
+        "value": 5,
+        "label": "Helt uenig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "196",
+    "text": "Her er to udsagn, man af og til hører i debatten om miljø og økonomisk vækst. Hvilket af udsagnene er tættest på din holdning?",
+    "stem": "Hvilket af udsagnene er tættest på din holdning?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Beskyttelse af miljøet bør prioriteres, selv hvis det betyder lavere økonomisk vækst og tab af jobs."
+      },
+      {
+        "value": 2,
+        "label": "Økonomisk vækst og jobskabelse bør have førsteprioritet, selv hvis det i nogen grad går ud over miljøet"
+      },
+      {
+        "value": 3,
+        "label": "Andet spontant svar"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "197",
+    "text": "Synes du, at den danske stat skal have ret til at ...Videoovervåge folk på offentlige steder?",
+    "stem": "Synes du, at den danske stat skal have ret til at",
+    "item": "Videoovervåge folk på offentlige steder?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Skal helt sikkert have denne ret"
+      },
+      {
+        "value": 2,
+        "label": "Skal formentlig have denne ret"
+      },
+      {
+        "value": 3,
+        "label": "Skal formentlig ikke have denne ret"
+      },
+      {
+        "value": 4,
+        "label": "Skal helt sikkert ikke have denne ret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "198",
+    "text": "Synes du, at den danske stat skal have ret til at ...Overvåge alle e-mails og anden information, der udveksles på internettet?",
+    "stem": "Synes du, at den danske stat skal have ret til at",
+    "item": "Overvåge alle e-mails og anden information, der udveksles på internettet?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Skal helt sikkert have denne ret"
+      },
+      {
+        "value": 2,
+        "label": "Skal formentlig have denne ret"
+      },
+      {
+        "value": 3,
+        "label": "Skal formentlig ikke have denne ret"
+      },
+      {
+        "value": 4,
+        "label": "Skal helt sikkert ikke have denne ret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "199",
+    "text": "Synes du, at den danske stat skal have ret til at ...Indsamle informationer om alle, der bor i Danmark, uden deres viden?",
+    "stem": "Synes du, at den danske stat skal have ret til at",
+    "item": "Indsamle informationer om alle, der bor i Danmark, uden deres viden?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Skal helt sikkert have denne ret"
+      },
+      {
+        "value": 2,
+        "label": "Skal formentlig have denne ret"
+      },
+      {
+        "value": 3,
+        "label": "Skal formentlig ikke have denne ret"
+      },
+      {
+        "value": 4,
+        "label": "Skal helt sikkert ikke have denne ret"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "200",
+    "text": "Hvor ofte følger du med i politik ... i tv?",
+    "stem": "Hvor ofte følger du med i politik",
+    "item": "i tv?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hver dag"
+      },
+      {
+        "value": 2,
+        "label": "Flere gange om ugen"
+      },
+      {
+        "value": 3,
+        "label": "En eller to gange om ugen"
+      },
+      {
+        "value": 4,
+        "label": "Sjældent"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "201",
+    "text": "Hvor ofte følger du med i politik ... i radioen?",
+    "stem": "Hvor ofte følger du med i politik",
+    "item": "i radioen?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hver dag"
+      },
+      {
+        "value": 2,
+        "label": "Flere gange om ugen"
+      },
+      {
+        "value": 3,
+        "label": "En eller to gange om ugen"
+      },
+      {
+        "value": 4,
+        "label": "Sjældent"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "202",
+    "text": "Hvor ofte følger du med i politik... i avisen?",
+    "stem": "Hvor ofte følger du med i politik",
+    "item": "i avisen?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hver dag"
+      },
+      {
+        "value": 2,
+        "label": "Flere gange om ugen"
+      },
+      {
+        "value": 3,
+        "label": "En eller to gange om ugen"
+      },
+      {
+        "value": 4,
+        "label": "Sjældent"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "203",
+    "text": "Hvor ofte følger du med i politik... på sociale medier?",
+    "stem": "Hvor ofte følger du med i politik...",
+    "item": "på sociale medier?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hver dag"
+      },
+      {
+        "value": 2,
+        "label": "Flere gange om ugen"
+      },
+      {
+        "value": 3,
+        "label": "En eller to gange om ugen"
+      },
+      {
+        "value": 4,
+        "label": "Sjældent"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "204",
+    "text": "Folk i dit nabolag...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Folk i dit nabolag...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "205",
+    "text": "Folk i det område du bor...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Folk i det område du bor...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "206",
+    "text": "Dine landsmænd...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Dine landsmænd...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "207",
+    "text": "Europæere...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Europæere...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "208",
+    "text": "Menneskeheden...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Menneskeheden...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "209",
+    "text": "Ældre mennesker...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Ældre mennesker...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "210",
+    "text": "Arbejdsløse...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Arbejdsløse...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "211",
+    "text": "Indvandrere...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Indvandrere...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "212",
+    "text": "Syge og handicappede...I hvor høj grad kommer deres levevilkår dig ved?",
+    "stem": "I hvor høj grad kommer deres levevilkår dig ved?",
+    "item": "Syge og handicappede...",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "I høj grad"
+      },
+      {
+        "value": 2,
+        "label": "I nogen grad"
+      },
+      {
+        "value": 3,
+        "label": "Til en vis grad"
+      },
+      {
+        "value": 4,
+        "label": "I mindre grad"
+      },
+      {
+        "value": 5,
+        "label": "Slet ikke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "213",
+    "text": "At udjævne store indkomstforskelle i befolkningen.",
+    "stem": "Er det vigtigt eller ikke vigtigt for dig?",
+    "item": "At udjævne store indkomstforskelle i befolkningen.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "214",
+    "text": "At alle får dækket basale behov, dvs. mad, bolig, tøj, uddannelse og sundhed.",
+    "stem": "Er det vigtigt eller ikke vigtigt for dig?",
+    "item": "At alle får dækket basale behov, dvs. mad, bolig, tøj, uddannelse og sundhed.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "215",
+    "text": "At anerkende den enkeltes præstationer.",
+    "stem": "Er det vigtigt eller ikke vigtigt for dig?",
+    "item": "At anerkende den enkeltes præstationer.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "216",
+    "text": "At beskytte mod terror.",
+    "stem": "Er det vigtigt eller ikke vigtigt for dig?",
+    "item": "At beskytte mod terror.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Meget vigtigt"
+      },
+      {
+        "value": 2,
+        "label": "Temmelig vigtigt"
+      },
+      {
+        "value": 3,
+        "label": "Ikke særlig vigtigt"
+      },
+      {
+        "value": 4,
+        "label": "Slet ikke vigtigt"
+      }
+    ],
+    "answer_cue": null
+  }
+]

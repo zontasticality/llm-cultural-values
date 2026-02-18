@@ -1,0 +1,5377 @@
+[
+  {
+    "id": "Q1",
+    "text": "Prašau pasakyti, kiek svarbu Jūsų gyvenime: Darbas",
+    "stem": "Prašau pasakyti, kiek svarbu Jūsų gyvenime:",
+    "item": "Darbas",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      },
+      {
+        "value": 4,
+        "label": "visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prašau pasakyti, kiek svarbu Jūsų gyvenime: Šeima",
+    "stem": "Prašau pasakyti, kiek svarbu Jūsų gyvenime:",
+    "item": "Šeima",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      },
+      {
+        "value": 4,
+        "label": "visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prašau pasakyti, kiek svarbu Jūsų gyvenime: Draugai, pažįstami",
+    "stem": "Prašau pasakyti, kiek svarbu Jūsų gyvenime:",
+    "item": "Draugai, pažįstami",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      },
+      {
+        "value": 4,
+        "label": "visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prašau pasakyti, kiek svarbu Jūsų gyvenime: Laisvalaikis",
+    "stem": "Prašau pasakyti, kiek svarbu Jūsų gyvenime:",
+    "item": "Laisvalaikis",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      },
+      {
+        "value": 4,
+        "label": "visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prašau pasakyti, kiek svarbu Jūsų gyvenime: Politika",
+    "stem": "Prašau pasakyti, kiek svarbu Jūsų gyvenime:",
+    "item": "Politika",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      },
+      {
+        "value": 4,
+        "label": "visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prašau pasakyti, kiek svarbu Jūsų gyvenime: Religija",
+    "stem": "Prašau pasakyti, kiek svarbu Jūsų gyvenime:",
+    "item": "Religija",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      },
+      {
+        "value": 4,
+        "label": "visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Ar Jūs galėtumėte apie save pasakyti, kad Jūs:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai laimingas"
+      },
+      {
+        "value": 2,
+        "label": "laimingas"
+      },
+      {
+        "value": 3,
+        "label": "nelaimingas"
+      },
+      {
+        "value": 4,
+        "label": "labai nelaimingas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "Apskritai kalbant, kaip Jūs apibūdintumėte savo sveikatą dabartiniu metu? Jūsų sveikata...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai gera"
+      },
+      {
+        "value": 2,
+        "label": "gera"
+      },
+      {
+        "value": 3,
+        "label": "vidutinė"
+      },
+      {
+        "value": 4,
+        "label": "bloga"
+      },
+      {
+        "value": 5,
+        "label": "labai bloga"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? A Religinės ar bažnytinės organizacijos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "A Religinės ar bažnytinės organizacijos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? B Švietimo, dailės, muzikos ar kultūrinės veiklos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "B Švietimo, dailės, muzikos ar kultūrinės veiklos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? C Profsąjungos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "C Profsąjungos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? D Politinės partijos ir grupės",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "D Politinės partijos ir grupės",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? E Aplinkos išsaugojimo, ekologijos, gyvūnų teisių apsaugos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "E Aplinkos išsaugojimo, ekologijos, gyvūnų teisių apsaugos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? F Profesinės asociacijos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "F Profesinės asociacijos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? G Sporto ar aktyvaus poilsio",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "G Sporto ar aktyvaus poilsio",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? H Humanitarinės, labdaros ar karitatyvinės organizacijos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "H Humanitarinės, labdaros ar karitatyvinės organizacijos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? I Vartotojų organizacijos (pavyzdžiui, Lietuvos vartotojų asociacija ir pan.)",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "I Vartotojų organizacijos (pavyzdžiui, Lietuvos vartotojų asociacija ir pan.)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? J Savipagalbos, tarpusavio pagalbos ir palaikymo grupės",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "J Savipagalbos, tarpusavio pagalbos ir palaikymo grupės",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote? K Kitos organizacijos",
+    "stem": "Įdėmiai perskaitykite sąrašą įvairių visuomeninių organizacijų ir pasakykite, kurioms iš jų Jūs priklausote?",
+    "item": "K Kitos organizacijos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "priklauso"
+      },
+      {
+        "value": 2,
+        "label": "nepriklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? A Kitos tautybės žmonės",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "A Kitos tautybės žmonės",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? B Piktnaudžiaujantys alkoholiu",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "B Piktnaudžiaujantys alkoholiu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? C Imigrantai/darbininkai užsieniečiai",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "C Imigrantai/darbininkai užsieniečiai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? D Narkomanai",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "D Narkomanai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? E Homoseksualai",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "E Homoseksualai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? G Musulmonai",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "G Musulmonai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? H Žydai",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "H Žydai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje? I Čigonai",
+    "stem": "Čia išvardintos įvairios žmonių grupės. Prašome pasakyti, su kuo nenorėtumėte gyventi kaimynystėje?",
+    "item": "I Čigonai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "nenori"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "Kaip Jūs manote, ar apskritai žmonėmis galima pasitikėti, ar su žmonėmis reikia būti labai atsargiam?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "dauguma žmonių galima pasitikėti"
+      },
+      {
+        "value": 2,
+        "label": "su žmonėmis reikia būti labai atsargiam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių... Savo šeima",
+    "stem": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių...",
+    "item": "Savo šeima",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių... Kaimynais",
+    "stem": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių...",
+    "item": "Kaimynais",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių... Žmonėmis, kuriuos Jūs asmeniškai pažįstate",
+    "stem": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių...",
+    "item": "Žmonėmis, kuriuos Jūs asmeniškai pažįstate",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių... Žmonėmis, kuriuos sutikote pirmą kartą",
+    "stem": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių...",
+    "item": "Žmonėmis, kuriuos sutikote pirmą kartą",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių... Kito tikėjimo žmonėmis",
+    "stem": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių...",
+    "item": "Kito tikėjimo žmonėmis",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių... Kitos tautybės žmonėmis",
+    "stem": "Norėčiau jūsų paklausti, ar Jūs pasitikite įvairiomis žmonių grupėmis. Pasakykite ar jūs visiškai pasitikite, pasitikite, nepasitikite, ar visiškai nepasitikite žmonėmis iš šių grupių...",
+    "item": "Kitos tautybės žmonėmis",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Vieni žmonės mano, kad jie turi visišką pasirinkimo laisvę ir patys sprendžia, kaip jiems gyventi. Kiti mano, kad gyvenime mažai kas priklauso nuo jų pačių. Prašom įvertinti 10 - ties balų skalėje, kiek Jūsų gyvenimas priklauso nuo Jūsų paties.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "visai nepriklauso"
+      },
+      {
+        "value": 10,
+        "label": "labai priklauso"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Ar Jūs dabartiniu metu patenkintas savo gyvenimu apskritai? Įvertinkite 10 -ties balų skalėje, kur 1 - reiškia „nepatenkintas/-a“, o 10 – „patenkintas/-a“.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nepatenkintas/-a"
+      },
+      {
+        "value": 10,
+        "label": "patenkintas/-a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Žmonės darbe vertina skirtingus dalykus. Perskaitykite sąrašą ir pasakykite, kas, Jūsų nuomone, darbe yra svarbu? A Geras užmokestis",
+    "stem": "Žmonės darbe vertina skirtingus dalykus. Perskaitykite sąrašą ir pasakykite, kas, Jūsų nuomone, darbe yra svarbu?",
+    "item": "A Geras užmokestis",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "svarbu"
+      },
+      {
+        "value": 2,
+        "label": "nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Prašau pasakyti, ar Jūs sutinkate, ar nesutinkate su šiais teiginiais?",
+    "stem": "Reikia dirbti, kad galima būtų pilnai išreikšti savo sugebėjimus",
+    "item": "v46",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Prašau pasakyti, ar Jūs sutinkate, ar nesutinkate su šiais teiginiais?",
+    "stem": "Negarbinga gauti pinigus jų neuždirbant",
+    "item": "v47",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Prašau pasakyti, ar Jūs sutinkate, ar nesutinkate su šiais teiginiais?",
+    "stem": "Žmonės, kurie nedirba, tampa tinginiais",
+    "item": "v48",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Prašau pasakyti, ar Jūs sutinkate, ar nesutinkate su šiais teiginiais?",
+    "stem": "Darbas - tai pareiga visuomenei",
+    "item": "v49",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Prašau pasakyti, ar Jūs sutinkate, ar nesutinkate su šiais teiginiais?",
+    "stem": "Pirmenybė visuomet turėtų būti skiriama darbui, net jei ir lieka mažiau laisvo laiko",
+    "item": "v50",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q13",
+    "text": "Ar Jūs išpažįstate kurį nors religinį tikėjimą?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": "v51"
+  },
+  {
+    "id": "Q14",
+    "text": "Ar Jūs anksčiau išpažinote kurį nors religinį tikėjimą?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": "v53"
+  },
+  {
+    "id": "Q15",
+    "text": "Ar dažnai paskutiniu metu Jūs einate į bažnyčią arba religinius susirinkimus, neskaitant vestuvių, laidotuvių ir krikštynų?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "dažniau nei kartą per savaitę"
+      },
+      {
+        "value": 2,
+        "label": "kartą per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "kartą per mėnesį"
+      },
+      {
+        "value": 4,
+        "label": "tik per kai kurias religines šventes"
+      },
+      {
+        "value": 5,
+        "label": "kartą per metus"
+      },
+      {
+        "value": 6,
+        "label": "rečiau nei kartą per metus"
+      },
+      {
+        "value": 7,
+        "label": "niekada, beveik niekada"
+      }
+    ],
+    "answer_cue": "v54"
+  },
+  {
+    "id": "Q16",
+    "text": "Kai buvote 12 metų, ar dažnai Jūs ėjote į bažnyčią, neskaitant vestuvių, laidotuvių ir krikštynų?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "dažniau nei kartą per savaitę"
+      },
+      {
+        "value": 2,
+        "label": "kartą per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "kartą per mėnesį"
+      },
+      {
+        "value": 4,
+        "label": "tik per kai kurias religines šventes"
+      },
+      {
+        "value": 5,
+        "label": "kartą per metus"
+      },
+      {
+        "value": 6,
+        "label": "rečiau nei kartą per metus"
+      },
+      {
+        "value": 7,
+        "label": "niekada, beveik niekada"
+      }
+    ],
+    "answer_cue": "v55"
+  },
+  {
+    "id": "Q17",
+    "text": "Nepriklausomai nuo to, ar Jūs einate į bažnyčią ar ne, kaip Jūs save apibūdintumėte...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "tikintis/-i"
+      },
+      {
+        "value": 2,
+        "label": "netikintis/-i"
+      },
+      {
+        "value": 3,
+        "label": "įsitikinęs/-usi ateistas/ė"
+      }
+    ],
+    "answer_cue": "v56"
+  },
+  {
+    "id": "Q18",
+    "text": "Ar Jūs tikite, kad yra?",
+    "stem": "Dievas",
+    "item": "v57",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Ar Jūs tikite, kad yra?",
+    "stem": "Pomirtinis gyvenimas",
+    "item": "v58",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Ar Jūs tikite, kad yra?",
+    "stem": "Pragaras",
+    "item": "v59",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Ar Jūs tikite, kad yra?",
+    "stem": "Dangus (Rojus)",
+    "item": "v60",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Ar Jūs tikite į reinkarnaciją, t.y. kad po mirties vėl gimstama šiame pasaulyje, tik persikūnijus (priėmus kitą kūną)?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "taip"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": "v61"
+  },
+  {
+    "id": "Q20",
+    "text": "Kuris iš šių teiginių labiausiai atitinka Jūsų nuomonę?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "egzistuoja gyvasis triasmenis Dievas"
+      },
+      {
+        "value": 2,
+        "label": "egzistuoja kažkokia Aukščiausioji dvasia arba gyvybinė galia"
+      },
+      {
+        "value": 3,
+        "label": "Iš tikro aš nežinau, ką ir galvoti, kas tai yra.."
+      },
+      {
+        "value": 4,
+        "label": "aš nemanau, kad egzistuoja kokia nors Aukščiausioji dvasia, Dievas arba gyvybinė galia"
+      }
+    ],
+    "answer_cue": "v62"
+  },
+  {
+    "id": "Q21",
+    "text": "Ar Dievas Jūsų gyvenime yra svarbus? Vertinimui naudokite šią kortelę, kur 10 reiškia, kad labai svarbus, o 1 - visiškai nesvarbus.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "v63"
+  },
+  {
+    "id": "Q22",
+    "text": "Ar dažnai Jūs meldžiatės ne religinių apeigų metu? Ar Jūs meldžiatės ...",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "kiekvieną dieną"
+      },
+      {
+        "value": 2,
+        "label": "dažniau nei kartą per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "kartą per savaitę"
+      },
+      {
+        "value": 4,
+        "label": "nors kartą per mėnesį"
+      },
+      {
+        "value": 5,
+        "label": "keletą kartų per metus"
+      },
+      {
+        "value": 6,
+        "label": "rečiau nei kartą per metus"
+      },
+      {
+        "value": 7,
+        "label": "niekada"
+      }
+    ],
+    "answer_cue": "v64"
+  },
+  {
+    "id": "Q23",
+    "text": "Manoma, kad sėkminga santuoka ar partnerystė priklauso nuo įvairių dalykų. Prašau pasakyti apie kiekvieną dalyką, ar, Jūsų manymu, tai yra labai svarbu, greičiau svarbu ar nelabai svarbu.",
+    "stem": "Ištikimybė",
+    "item": "v65",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "greičiau svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23",
+    "text": "Manoma, kad sėkminga santuoka ar partnerystė priklauso nuo įvairių dalykų. Prašau pasakyti apie kiekvieną dalyką, ar, Jūsų manymu, tai yra labai svarbu, greičiau svarbu ar nelabai svarbu.",
+    "stem": "Pakankamos pajamos",
+    "item": "v66",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "greičiau svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23",
+    "text": "Manoma, kad sėkminga santuoka ar partnerystė priklauso nuo įvairių dalykų. Prašau pasakyti apie kiekvieną dalyką, ar, Jūsų manymu, tai yra labai svarbu, greičiau svarbu ar nelabai svarbu.",
+    "stem": "Geros gyvenimo sąlygos",
+    "item": "v67",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "greičiau svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23",
+    "text": "Manoma, kad sėkminga santuoka ar partnerystė priklauso nuo įvairių dalykų. Prašau pasakyti apie kiekvieną dalyką, ar, Jūsų manymu, tai yra labai svarbu, greičiau svarbu ar nelabai svarbu.",
+    "stem": "Buitinių rūpesčių pasidalinimas",
+    "item": "v68",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "greičiau svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23",
+    "text": "Manoma, kad sėkminga santuoka ar partnerystė priklauso nuo įvairių dalykų. Prašau pasakyti apie kiekvieną dalyką, ar, Jūsų manymu, tai yra labai svarbu, greičiau svarbu ar nelabai svarbu.",
+    "stem": "Vaikai",
+    "item": "v69",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "greičiau svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23",
+    "text": "Manoma, kad sėkminga santuoka ar partnerystė priklauso nuo įvairių dalykų. Prašau pasakyti apie kiekvieną dalyką, ar, Jūsų manymu, tai yra labai svarbu, greičiau svarbu ar nelabai svarbu.",
+    "stem": "Turėti laiko savo paties draugams ir asmeniniams pomėgiams bei veiklai",
+    "item": "v70",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "greičiau svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nelabai svarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Ar Jūs sutinkate, ar nesutinkate su teiginiu, kad: Santuoka yra atgyvenęs dalykas?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sutinku"
+      },
+      {
+        "value": 2,
+        "label": "nesutinku"
+      }
+    ],
+    "answer_cue": "v71"
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Dirbančių motinų vaikai nukenčia",
+    "item": "v72",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Darbas yra svarbu, tačiau dauguma moterų nori turėti šeimą ir vaikus",
+    "item": "v73",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Apskritai kalbant, šeimos gyvenimas nukenčia, jei moteris dirba visą darbo dieną",
+    "item": "v74",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Vyras turi uždirbti pinigus, moteris – rūpintis namais ir šeima",
+    "item": "v75",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Apskritai kalbant, vyrai yra geresni politiniai lyderiai nei moterys",
+    "item": "v76",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Baigti aukštuosius mokslus svarbiau yra berniukui nei mergaitei",
+    "item": "v77",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Apskritai kalbant, vyrai geriau vadovauja verslui nei moterys",
+    "item": "v78",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Vienas pagrindinių mano gyvenimo tikslų – kad tėvai manimi didžiuotųsi",
+    "item": "v79",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nesutinku"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Didėjant nedarbui, pirmiausia turi būti aprūpinami darbu nuolatiniai Lietuvos gyventojai, o ne imigrantai",
+    "item": "v80",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26",
+    "text": "Prašome pasakyti, ar Jūs visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate ar visiškai nesutinkate su teiginiais, kuriuos aš Jums perskaitysiu.",
+    "stem": "Didėjant nedarbui, vyrai turi turėti daugiau teisių į darbą nei moterys",
+    "item": "v81",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27",
+    "text": "Ką Jūs manote apie šiuos teiginius? Ar Jūs sutinkate, ar nesutinkate su jais?",
+    "stem": "Homoseksualios poros yra tokie pat geri tėvai kaip ir kitos poros",
+    "item": "v82",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27",
+    "text": "Ką Jūs manote apie šiuos teiginius? Ar Jūs sutinkate, ar nesutinkate su jais?",
+    "stem": "Turėti vaikų yra pareiga visuomenei",
+    "item": "v83",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27",
+    "text": "Ką Jūs manote apie šiuos teiginius? Ar Jūs sutinkate, ar nesutinkate su jais?",
+    "stem": "Suaugusių vaikų pareiga – suteikti savo tėvams ilgalaikę priežiūrą",
+    "item": "v84",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "sutinku"
+      },
+      {
+        "value": 3,
+        "label": "nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "A Geros manieros",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "B Savarankiškumas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "C Darbštumas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "D Atsakomybės jausmas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "E Vaizduotė",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "F Tolerancija ir pagarba kitiems žmonėms",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "G Taupumas, rūpestingumas pinigų ir daiktų atžvilgiu",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v92",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "H Ryžtingumas, atkaklumas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v93",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "I Religinis tikėjimas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v94",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "J Nesavanaudiškumas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v95",
+    "text": "Q28 Pateiksiu Jums sąrašą savybių, kurios gali būti ugdomos vaikams namuose. Kurias penkias iš išvardintų savybių, Jūsų nuomone, vaikui itin svarbu įgyti? Prašom pasirinkti ne daugiau kaip penkias savybes!",
+    "stem": "K Paklusnumas",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "paminėjo"
+      },
+      {
+        "value": 2,
+        "label": "nepaminėjo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v29",
+    "text": "Q29 Ar Jūs domitės politika?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai domiuosi"
+      },
+      {
+        "value": 2,
+        "label": "greičiau domiuosi"
+      },
+      {
+        "value": 3,
+        "label": "beveik nesidomiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesidomiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Q30 Pažiūrėkite į šią kortelę. Aš Jums vardinsiu skirtingas politinės veiklos formas. Prašau pasakyti, apie kiekvieną, ar Jūs tai esate daręs, galėtumėte padaryti ar niekada jokiomis aplinkybėmis to nedarytumėte.",
+    "stem": "Peticijos pasirašymas",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "darė"
+      },
+      {
+        "value": 2,
+        "label": "galėtų padaryti"
+      },
+      {
+        "value": 3,
+        "label": "niekada nedarytų"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v99",
+    "text": "Q30 Pažiūrėkite į šią kortelę. Aš Jums vardinsiu skirtingas politinės veiklos formas. Prašau pasakyti, apie kiekvieną, ar Jūs tai esate daręs, galėtumėte padaryti ar niekada jokiomis aplinkybėmis to nedarytumėte.",
+    "stem": "Dalyvavimas boikote",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "darė"
+      },
+      {
+        "value": 2,
+        "label": "galėtų padaryti"
+      },
+      {
+        "value": 3,
+        "label": "niekada nedarytų"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v100",
+    "text": "Q30 Pažiūrėkite į šią kortelę. Aš Jums vardinsiu skirtingas politinės veiklos formas. Prašau pasakyti, apie kiekvieną, ar Jūs tai esate daręs, galėtumėte padaryti ar niekada jokiomis aplinkybėmis to nedarytumėte.",
+    "stem": "Dalyvavimas legalioje demonstracijoje",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "darė"
+      },
+      {
+        "value": 2,
+        "label": "galėtų padaryti"
+      },
+      {
+        "value": 3,
+        "label": "niekada nedarytų"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v101",
+    "text": "Q30 Pažiūrėkite į šią kortelę. Aš Jums vardinsiu skirtingas politinės veiklos formas. Prašau pasakyti, apie kiekvieną, ar Jūs tai esate daręs, galėtumėte padaryti ar niekada jokiomis aplinkybėmis to nedarytumėte.",
+    "stem": "Dalyvavimas nesankcionuotame streike",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "darė"
+      },
+      {
+        "value": 2,
+        "label": "galėtų padaryti"
+      },
+      {
+        "value": 3,
+        "label": "niekada nedarytų"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v102",
+    "text": "Q31 Politikoje kalbama apie “kairiuosius” ir “dešiniuosius”. Kaip Jūs įvertintumėte savo pažiūras šioje skalėje?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "kairiosios"
+      },
+      {
+        "value": 10,
+        "label": "dešiniosios"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "Q32 Dabar aš norėčiau sužinoti Jūsų nuomonę įvairiais klausimais. Kaip Jūs įvertintumėte savo pažiūras šioje skalėje?",
+    "stem": "Žmonės pirmiausia privalo patys rūpintis savo gerbūviu",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Valstybė privalo labiau rūpintis, kad kiekvienas žmogus būtų aprūpintas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "Q32 Dabar aš norėčiau sužinoti Jūsų nuomonę įvairiais klausimais. Kaip Jūs įvertintumėte savo pažiūras šioje skalėje?",
+    "stem": "Bedarbiai turi imtis bet kokio siūlomo darbo arba netekti pašalpos",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Bedarbiai turi turėti teisę atsisakyti siūlomo darbo, kuris jų netenkina"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "Q32 Dabar aš norėčiau sužinoti Jūsų nuomonę įvairiais klausimais. Kaip Jūs įvertintumėte savo pažiūras šioje skalėje?",
+    "stem": "Konkurencija yra geras dalykas",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Konkurencija yra pražūtinga"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "Q32 Dabar aš norėčiau sužinoti Jūsų nuomonę įvairiais klausimais. Kaip Jūs įvertintumėte savo pažiūras šioje skalėje?",
+    "stem": "Pajamos turėtų būti paskirstomos vienodžiau",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Turėtų būti labiau skatinamos individualios pastangos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "Q32 Dabar aš norėčiau sužinoti Jūsų nuomonę įvairiais klausimais. Kaip Jūs įvertintumėte savo pažiūras šioje skalėje?",
+    "stem": "Būtina plėsti privačią nuosavybę komercijoje ir pramonėje",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Būtina plėsti valstybinę nuosavybę komercijoje ir pramonėje"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "Q37 Įsivaizduokite, kad artimiausiu metu mūsų gyvenime gali įvykti šie du pokyčiai. Prašau pasakyti, jeigu jie įvyktų, tai būtų gerai, blogai ar Jums vis tiek?",
+    "stem": "Sumažėtų darbo svarba mūsų gyvenime",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "gerai"
+      },
+      {
+        "value": 2,
+        "label": "blogai"
+      },
+      {
+        "value": 3,
+        "label": "vis tiek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "Q37 Įsivaizduokite, kad artimiausiu metu mūsų gyvenime gali įvykti šie du pokyčiai. Prašau pasakyti, jeigu jie įvyktų, tai būtų gerai, blogai ar Jums vis tiek?",
+    "stem": "Būtų labiau gerbiama valdžia",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "gerai"
+      },
+      {
+        "value": 2,
+        "label": "blogai"
+      },
+      {
+        "value": 3,
+        "label": "vis tiek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Bažnyčia",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v116",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Kariuomene",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v117",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Švietimo sistema",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v118",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Spauda",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v119",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Profsąjungomis",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v120",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Policija",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v121",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Seimu",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v122",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Valstybės tarnautojais",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v123",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Socialinės apsaugos sistema",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v124",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Europos Sąjunga",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v125",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Jungtinių Tautų Organizacija",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v126",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Sveikatos apsaugos sistema",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v127",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Teisėsaugos sistema",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v128",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Didžiosiomis kompanijomis",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v129",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiškai nepasitikite kiekviena iš čia išvardytų institucijų ir organizacijų?",
+    "stem": "Aplinkosaugos organizacijomis",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v130",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiš",
+    "stem": "Politinėmis partijomis",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v131",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiš",
+    "stem": "Vyriausybe",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v132",
+    "text": "Q38 Prašome pasakyti, ar Jūs labai pasitikite, pasitikite, nepasitikite ar visiš",
+    "stem": "Internetiniais socialiniais tinklais ir kitomis socialinėmis medijomis",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai pasitikiu"
+      },
+      {
+        "value": 2,
+        "label": "pasitikiu"
+      },
+      {
+        "value": 3,
+        "label": "nepasitikiu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nepasitikiu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v133",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Vyriausybė apmokestina turtinguosius ir subsidijuoja nepasiturinčius",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v134",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Religiniai lyderiai pateikia savą valstybės įstatymų aiškinimą ir jų nuomonė yra lemianti",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v135",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Žmonės išrenka savo lyderius laisvuose rinkimuose",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v136",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Žmonės gauna valstybės paramą nedarbo atveju",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v137",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Kai valdžia yra nekompetentinga, valdymą perima kariuomenė",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v138",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Pilietinės teisės saugo žmones nuo valstybės priespaudos",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v139",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Valstybė užtikrina žmonėms lygias pajamas",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v140",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Žmonės paklūsta valdžiai",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v141",
+    "text": "Q39 Mes galime pageidauti daugelio dalykų, tačiau ne visi jie yra būtini demokratijos bruožai. Prašom pasakyti apie kiekvieną iš išvardintų dalykų, kiek jis yra būtinas demokratijos bruožas? Atsakykite naudodamas šią skalę, kurioje 1 reiškia „visiškai nebūtinas demokratijos bruožas“, o 10 – „būtinas demokratijos bruožas“.",
+    "stem": "Moterys turi tas pačias teises kaip vyrai",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v142",
+    "text": "Q40 Kiek Jums yra svarbu gyventi šalyje, kuri yra valdoma demokratiškai? Įvertinkite naudodami 10 balų skalę, kurioje 1 reiškia „visiškai nesvarbu“, o 10 „labai svarbu“.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v143",
+    "text": "Q41 Kiek demokratiškai Lietuva yra valdoma šiandien? Įvertinkite naudodami 10 balų skalę, kurioje 1 reiškia „visiškai nedemokratiškai“, o 10 „visiškai demokratiškai“.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v144",
+    "text": "Q42 Naudodami dešimties balų skalę, kurioje 1 reiškia „visiškai nepatenkintas/-a“, o 10 – „visiškai patenkintas/ -a“, pasakykite, kiek Jūs esate patenkintas tuo, kaip dabar veikia politinė sistema mūsų šalyje?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v145",
+    "text": "Q43 Aš jums išvardysiu kai kuriuos politinės sistemos tipus. Prašome pasakyti apie kiekvieną iš išvardytų politinės sistemos tipų, ar jis, Jūsų nuomone, yra labai tinkamas, tinkamas, netinkamas ar visiškai netinkamas mūsų šaliai valdyti?",
+    "stem": "Stiprus lyderis, kurio nevaržo nei parlamentas, nei rinkimai",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai tinkamas"
+      },
+      {
+        "value": 2,
+        "label": "tinkamas"
+      },
+      {
+        "value": 3,
+        "label": "netinkamas"
+      },
+      {
+        "value": 4,
+        "label": "labai netinkamas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Q43 Aš jums išvardysiu kai kuriuos politinės sistemos tipus. Prašome pasakyti apie kiekvieną iš išvardytų politinės sistemos tipų, ar jis, Jūsų nuomone, yra labai tinkamas, tinkamas, netinkamas ar visiškai netinkamas mūsų šaliai valdyti?",
+    "stem": "Ne vyriausybė, bet nepriklausomi ekspertai priima šaliai tinkamiausius sprendimus",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai tinkamas"
+      },
+      {
+        "value": 2,
+        "label": "tinkamas"
+      },
+      {
+        "value": 3,
+        "label": "netinkamas"
+      },
+      {
+        "value": 4,
+        "label": "labai netinkamas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "Q43 Aš jums išvardysiu kai kuriuos politinės sistemos tipus. Prašome pasakyti apie kiekvieną iš išvardytų politinės sistemos tipų, ar jis, Jūsų nuomone, yra labai tinkamas, tinkamas, netinkamas ar visiškai netinkamas mūsų šaliai valdyti?",
+    "stem": "Kariškių valdymas",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai tinkamas"
+      },
+      {
+        "value": 2,
+        "label": "tinkamas"
+      },
+      {
+        "value": 3,
+        "label": "netinkamas"
+      },
+      {
+        "value": 4,
+        "label": "labai netinkamas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Q43 Aš jums išvardysiu kai kuriuos politinės sistemos tipus. Prašome pasakyti apie kiekvieną iš išvardytų politinės sistemos tipų, ar jis, Jūsų nuomone, yra labai tinkamas, tinkamas, netinkamas ar visiškai netinkamas mūsų šaliai valdyti?",
+    "stem": "Demokratinė politinė sistema",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai tinkamas"
+      },
+      {
+        "value": 2,
+        "label": "tinkamas"
+      },
+      {
+        "value": 3,
+        "label": "netinkamas"
+      },
+      {
+        "value": 4,
+        "label": "labai netinkamas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Pretenduoti į valstybės pašalpą, neturint tam teisės",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v150",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Nemokėti mokesčių, jei yra tokia galimybė",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v151",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Vartoti marihuaną ar hašišą",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v152",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Imti kyšį naudojantis tarnybine padėtimi",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v153",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Homoseksualizmas",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v154",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Abortai",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v155",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Skyrybos",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v156",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Eutanazija (beviltiško ligonio mirties pagreitinimas)",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v157",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Savižudybė",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v158",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Atsitiktiniai seksualiniai ryšiai",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v159",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Važiuoti viešuoju transportu be bilieto",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v160",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Prostitucija",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v161",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Dirbtinis apvaisinimas arba apvaisinimas mėgintuvėlyje",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v162",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Politinė prievarta",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v163",
+    "text": "Q44 Prašau pasakyti apie kiekvieną iš šių dalykų: ar juos visada galima pateisinti, ar niekada negalima pateisinti.",
+    "stem": "Mirties bausmė",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "niekada"
+      },
+      {
+        "value": 10,
+        "label": "visada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v164",
+    "text": "Q45 Žmonės skiriasi požiūriu į save ir savo santykiu su pasauliu. Pasinaudodami kortele, pasakykite, kaip artimai Jūs jaučiatės susijęs su...?",
+    "stem": "savo miestu ar gyvenviete",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai artimai"
+      },
+      {
+        "value": 2,
+        "label": "artimai"
+      },
+      {
+        "value": 3,
+        "label": "neartimai"
+      },
+      {
+        "value": 4,
+        "label": "visiškai neartimai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "Q45 Žmonės skiriasi požiūriu į save ir savo santykiu su pasauliu. Pasinaudodami kortele, pasakykite, kaip artimai Jūs jaučiatės susijęs su...?",
+    "stem": "savo regionu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai artimai"
+      },
+      {
+        "value": 2,
+        "label": "artimai"
+      },
+      {
+        "value": 3,
+        "label": "neartimai"
+      },
+      {
+        "value": 4,
+        "label": "visiškai neartimai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "Q45 Žmonės skiriasi požiūriu į save ir savo santykiu su pasauliu. Pasinaudodami kortele, pasakykite, kaip artimai Jūs jaučiatės susijęs su...?",
+    "stem": "Lietuva",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai artimai"
+      },
+      {
+        "value": 2,
+        "label": "artimai"
+      },
+      {
+        "value": 3,
+        "label": "neartimai"
+      },
+      {
+        "value": 4,
+        "label": "visiškai neartimai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Q45 Žmonės skiriasi požiūriu į save ir savo santykiu su pasauliu. Pasinaudodami kortele, pasakykite, kaip artimai Jūs jaučiatės susijęs su...?",
+    "stem": "Europa",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai artimai"
+      },
+      {
+        "value": 2,
+        "label": "artimai"
+      },
+      {
+        "value": 3,
+        "label": "neartimai"
+      },
+      {
+        "value": 4,
+        "label": "visiškai neartimai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Q45 Žmonės skiriasi požiūriu į save ir savo santykiu su pasauliu. Pasinaudodami kortele, pasakykite, kaip artimai Jūs jaučiatės susijęs su...?",
+    "stem": "visu pasauliu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai artimai"
+      },
+      {
+        "value": 2,
+        "label": "artimai"
+      },
+      {
+        "value": 3,
+        "label": "neartimai"
+      },
+      {
+        "value": 4,
+        "label": "visiškai neartimai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v170",
+    "text": "Q47 Ar Jūs didžiuojatės, kad esate Lietuvos pilietis/ė?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai didžiuojuosi"
+      },
+      {
+        "value": 2,
+        "label": "greičiau didžiuojuosi"
+      },
+      {
+        "value": 3,
+        "label": "nelabai didžiuojuosi"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesididžiuoju"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174",
+    "text": "Q49 Kuri partija Jums patinka labiausiai?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Darbo partija"
+      },
+      {
+        "value": 2,
+        "label": "Lietuvos centro partija"
+      },
+      {
+        "value": 3,
+        "label": "Lietuvos laisvės sąjunga (liberalai)"
+      },
+      {
+        "value": 4,
+        "label": "Lietuvos lenkų rinkimų akcija - krikščioniškų šeimų sąjunga"
+      },
+      {
+        "value": 5,
+        "label": "Lietuvos Respublikos liberalų sąjūdis"
+      },
+      {
+        "value": 6,
+        "label": "Lietuvos socialdemokratų partija"
+      },
+      {
+        "value": 7,
+        "label": "Lietuvos valstiečių ir žaliųjų sąjunga"
+      },
+      {
+        "value": 8,
+        "label": "Partija „Tvarka ir teisingumas“"
+      },
+      {
+        "value": 9,
+        "label": "Politinė partija „Lietuvos sąrašas“"
+      },
+      {
+        "value": 10,
+        "label": "Tėvynės Sąjunga - Lietuvos krikščionys-demokratai"
+      },
+      {
+        "value": 11,
+        "label": "Lietuvos žaliųjų partija"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v175",
+    "text": "Q49a Ar Jums patinka dar kuri nors partija? Kurią partiją paminėtumėte antroje vietoje?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Darbo partija"
+      },
+      {
+        "value": 2,
+        "label": "Lietuvos centro partija"
+      },
+      {
+        "value": 3,
+        "label": "Lietuvos laisvės sąjunga (liberalai)"
+      },
+      {
+        "value": 4,
+        "label": "Lietuvos lenkų rinkimų akcija - krikščioniškų šeimų sąjunga"
+      },
+      {
+        "value": 5,
+        "label": "Lietuvos Respublikos liberalų sąjūdis"
+      },
+      {
+        "value": 6,
+        "label": "Lietuvos socialdemokratų partija"
+      },
+      {
+        "value": 7,
+        "label": "Lietuvos valstiečių ir žaliųjų sąjunga"
+      },
+      {
+        "value": 8,
+        "label": "Partija „Tvarka ir teisingumas“"
+      },
+      {
+        "value": 9,
+        "label": "Politinė partija „Lietuvos sąrašas\""
+      },
+      {
+        "value": 10,
+        "label": "Tėvynės Sąjunga – Lietuvos krikščionys-demokratai"
+      },
+      {
+        "value": 11,
+        "label": "Lietuvos žaliųjų partija"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v176",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Balsai skaičiuojami sąžiningai",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v177",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Opozicijos kandidatams neleidžiama dalyvauti rinkimuose",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v178",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "TV naujienose palaikoma valdančioji partija",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v179",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Papirkinėjami rinkėjai",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v180",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Žurnalistai nešališkai nušviečia rinkimus",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v181",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Rinkimų komisija yra nešališka",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v182",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Turtingieji nuperka rinkimų rezultatus",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v183",
+    "text": "Q50 Jūsų nuomone, kaip dažnai mūsų šalyje rinkimų metu vyksta šie dalykai?",
+    "stem": "Balsavimo vietose rinkėjams grasinama",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai dažnai"
+      },
+      {
+        "value": 2,
+        "label": "Dažnai"
+      },
+      {
+        "value": 3,
+        "label": "Kartais"
+      },
+      {
+        "value": 4,
+        "label": "Labai retai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Q51 Dabar norėtume sužinoti Jūsų nuomonę apie žmones iš kitų šalių, kurie atvyksta gyventi į Lietuvą - imigrantus. Kaip Jūs vertinate šių žmonių įtaką Lietuvos vystymuisi?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 5,
+        "label": "labai gerai"
+      },
+      {
+        "value": 4,
+        "label": "gerai"
+      },
+      {
+        "value": 3,
+        "label": "nei gerai, nei blogai"
+      },
+      {
+        "value": 2,
+        "label": "blogai"
+      },
+      {
+        "value": 1,
+        "label": "labai blogai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Q52 Perskaitykite kortelėje pateiktas teiginių poras ir pasakykite skaičių, kuris geriausiai atspindi Jūsų nuomonę?",
+    "stem": "Imigrantai atima iš Lietuvos piliečių darbo vietas",
+    "item": "Imigrantai neatima iš Lietuvos piliečių darbo vietų",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v186",
+    "text": "Q52 Perskaitykite kortelėje pateiktas teiginių poras ir pasakykite skaičių, kuris geriausiai atspindi Jūsų nuomonę?",
+    "stem": "Imigrantai didina nusikalstamumo problemas",
+    "item": "Imigrantai nedidina nusikalstamumo problemų",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v187",
+    "text": "Q52 Perskaitykite kortelėje pateiktas teiginių poras ir pasakykite skaičių, kuris geriausiai atspindi Jūsų nuomonę?",
+    "stem": "Imigrantai yra našta šalies socialinės apsaugos sistemai",
+    "item": "Imigrantai nėra našta šalies socialinės apsaugos sistemai",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v188",
+    "text": "Q52 Perskaitykite kortelėje pateiktas teiginių poras ir pasakykite skaičių, kuris geriausiai atspindi Jūsų nuomonę?",
+    "stem": "Būtų geriau, jei imigrantai laikytųsi savo papročių ir tradicijų",
+    "item": "Būtų geriau, jei imigrantai nesilaikytų savo papročių ir tradicijų",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v189",
+    "text": "Q53 Kai kurie žmonės mano, kad šie dalykai yra svarbūs, kad būtum tikras lietuvis. Kiti sako, kad jie nėra svarbūs. Pasakykite apie kiekvieną dalyką, ar jis yra svarbus?",
+    "stem": "Gimti Lietuvoje",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Q53 Kai kurie žmonės mano, kad šie dalykai yra svarbūs, kad būtum tikras lietuvis. Kiti sako, kad jie nėra svarbūs. Pasakykite apie kiekvieną dalyką, ar jis yra svarbus?",
+    "stem": "Gerbti Lietuvos politines institucijas ir įstatymus",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Q53 Kai kurie žmonės mano, kad šie dalykai yra svarbūs, kad būtum tikras lietuvis. Kiti sako, kad jie nėra svarbūs. Pasakykite apie kiekvieną dalyką, ar jis yra svarbus?",
+    "stem": "Turėti protėvių iš Lietuvos",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Q53 Kai kurie žmonės mano, kad šie dalykai yra svarbūs, kad būtum tikras lietuvis. Kiti sako, kad jie nėra svarbūs. Pasakykite apie kiekvieną dalyką, ar jis yra svarbus?",
+    "stem": "Mokėti kalbėti lietuviškai",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Q53 Kai kurie žmonės mano, kad šie dalykai yra svarbūs, kad būtum tikras lietuvis. Kiti sako, kad jie nėra svarbūs. Pasakykite apie kiekvieną dalyką, ar jis yra svarbus?",
+    "stem": "Jaustis priklausančiu Lietuvos kultūrai",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "Q54 Žmonės skirtingai supranta ką reiškia būti europiečiu. Jūsų nuomone, kiek svarbus yra kiekvienas iš šių dalykų tam, kad būtum europiečiu?",
+    "stem": "Gimti Europoje",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Q54 Žmonės skirtingai supranta ką reiškia būti europiečiu. Jūsų nuomone, kiek svarbus yra kiekvienas iš šių dalykų tam, kad būtum europiečiu?",
+    "stem": "Turėti protėvių iš Europos",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "Q54 Žmonės skirtingai supranta ką reiškia būti europiečiu. Jūsų nuomone, kiek svarbus yra kiekvienas iš šių dalykų tam, kad būtum europiečiu?",
+    "stem": "Būti krikščioniu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "svarbu"
+      },
+      {
+        "value": 3,
+        "label": "nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "visiškai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "Q55 Vieni žmonės sako, kad Europos Sąjungos plėtra turi tęstis. Kiti sako, kad ji jau ir taip per didelė. Naudodami šią kortelę pasakykite, kuris skaičius 10-ties balų skalėje, kurioje 1 reiškia, kad plėtra turi tęstis, o 10 - kad ji jau ir taip per didelė, labiausiai atitinka jūsų nuomonę šiuo klausimu?",
+    "stem": "plėtra turi tęstis",
+    "item": "ji jau ir taip per didelė",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v199",
+    "text": "Q56 Aš perskaitysiu keletą teiginių apie aplinkos apsaugą. Prašom pasakyti apie kiekvieną, ar Jūs su juo visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate, ar visiškai nesutinkate?",
+    "stem": "Aš atiduočiau dalį savo pajamų, jei būčiau įsitikinęs, kad šie pinigai bus panaudoti aplinkos apsaugai",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "Sutinku"
+      },
+      {
+        "value": 3,
+        "label": "Nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "Nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "Visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v200",
+    "text": "Q56 Aš perskaitysiu keletą teiginių apie aplinkos apsaugą. Prašom pasakyti apie kiekvieną, ar Jūs su juo visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate, ar visiškai nesutinkate?",
+    "stem": "Tokiam žmogui kaip aš pernelyg sunku daug nuveikti saugant aplinką",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "Sutinku"
+      },
+      {
+        "value": 3,
+        "label": "Nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "Nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "Visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "Q56 Aš perskaitysiu keletą teiginių apie aplinkos apsaugą. Prašom pasakyti apie kiekvieną, ar Jūs su juo visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate, ar visiškai nesutinkate?",
+    "stem": "Gyvenime yra svarbesnių dalykų nei aplinkos apsauga",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "Sutinku"
+      },
+      {
+        "value": 3,
+        "label": "Nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "Nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "Visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "Q56 Aš perskaitysiu keletą teiginių apie aplinkos apsaugą. Prašom pasakyti apie kiekvieną, ar Jūs su juo visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate, ar visiškai nesutinkate?",
+    "stem": "Nėra prasmės daryti tai, ką galėčiau, dėl aplinkos, jei to nedaro ir kiti",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "Sutinku"
+      },
+      {
+        "value": 3,
+        "label": "Nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "Nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "Visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Q56 Aš perskaitysiu keletą teiginių apie aplinkos apsaugą. Prašom pasakyti apie kiekvieną, ar Jūs su juo visiškai sutinkate, sutinkate, nei taip, nei ne, nesutinkate, ar visiškai nesutinkate?",
+    "stem": "Daugelis teiginių apie grėsmes aplinkai yra perdėti",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Visiškai sutinku"
+      },
+      {
+        "value": 2,
+        "label": "Sutinku"
+      },
+      {
+        "value": 3,
+        "label": "Nei taip, nei ne"
+      },
+      {
+        "value": 4,
+        "label": "Nesutinku"
+      },
+      {
+        "value": 5,
+        "label": "Visiškai nesutinku"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Q57 Aš perskaitysiu Jums du teiginius, kuriuos kartais žmonės mini, aptardami gamtos apsaugą ir ekonominį augimą. Kuris iš šių teiginių labiausiai atitinka Jūsų nuomonę?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pirmaeilis dėmesys turi būti skiriamas gamtos apsaugai, net jei tai gali sąlygoti ekonomikos vystymosi sulėtėjimą ir darbo vietų praradimą"
+      },
+      {
+        "value": 2,
+        "label": "Pirmaeilis dėmesys turi būti skiriamas ekonomikos vystymui ir naujų darbo vietų kūrimui, nors tai ir turėtų neigiamų pasekmių gamtos apsaugai"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Q58 Jūsų nuomone, ar Lietuvos valdžia turėtų, ar neturėtų turėti teisės atlikti šiuos veiksmus?",
+    "stem": "Stebėti žmones vaizdo kameromis viešose vietose",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Turėtų turėti teisę"
+      },
+      {
+        "value": 2,
+        "label": "Greičiausiai turėtų turėti teisę"
+      },
+      {
+        "value": 3,
+        "label": "Greičiausiai neturėtų turėti teisės"
+      },
+      {
+        "value": 4,
+        "label": "Neturėtų turėti teisės"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Q58 Jūsų nuomone, ar Lietuvos valdžia turėtų, ar neturėtų turėti teisės atlikti šiuos veiksmus?",
+    "stem": "Stebėti visus elektroninius laiškus ir bet kokią kitą informaciją, kuria keičiamasi internete",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Turėtų turėti teisę"
+      },
+      {
+        "value": 2,
+        "label": "Greičiausiai turėtų turėti teisę"
+      },
+      {
+        "value": 3,
+        "label": "Greičiausiai neturėtų turėti teisės"
+      },
+      {
+        "value": 4,
+        "label": "Neturėtų turėti teisės"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Q58 Jūsų nuomone, ar Lietuvos valdžia turėtų, ar neturėtų turėti teisės atlikti šiuos veiksmus?",
+    "stem": "Rinkti informaciją apie bet kuriuos Lietuvoje gyvenančius žmones be jų žinios",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Turėtų turėti teisę"
+      },
+      {
+        "value": 2,
+        "label": "Greičiausiai turėtų turėti teisę"
+      },
+      {
+        "value": 3,
+        "label": "Greičiausiai neturėtų turėti teisės"
+      },
+      {
+        "value": 4,
+        "label": "Neturėtų turėti teisės"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v208",
+    "text": "Q59 Kaip dažnai Jūs sekate politikos naujienas...",
+    "stem": "...televizijoje",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kiekvieną dieną"
+      },
+      {
+        "value": 2,
+        "label": "Keletą kartų per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "Kartą ar du per savaitę"
+      },
+      {
+        "value": 4,
+        "label": "Rečiau"
+      },
+      {
+        "value": 5,
+        "label": "Niekada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v209",
+    "text": "Q59 Kaip dažnai Jūs sekate politikos naujienas...",
+    "stem": "..radijuje",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kiekvieną dieną"
+      },
+      {
+        "value": 2,
+        "label": "Keletą kartų per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "Kartą ar du per savaitę"
+      },
+      {
+        "value": 4,
+        "label": "Rečiau"
+      },
+      {
+        "value": 5,
+        "label": "Niekada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v210",
+    "text": "Q59 Kaip dažnai Jūs sekate politikos naujienas...",
+    "stem": ".dienraščiuose",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kiekvieną dieną"
+      },
+      {
+        "value": 2,
+        "label": "Keletą kartų per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "Kartą ar du per savaitę"
+      },
+      {
+        "value": 4,
+        "label": "Rečiau"
+      },
+      {
+        "value": 5,
+        "label": "Niekada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v211",
+    "text": "Q59 Kaip dažnai Jūs sekate politikos naujienas...",
+    "stem": ".internetiniuose socialiniuose tinkluose, kitose socialinėse medijose",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kiekvieną dieną"
+      },
+      {
+        "value": 2,
+        "label": "Keletą kartų per savaitę"
+      },
+      {
+        "value": 3,
+        "label": "Kartą ar du per savaitę"
+      },
+      {
+        "value": 4,
+        "label": "Rečiau"
+      },
+      {
+        "value": 5,
+        "label": "Niekada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "Q60 Ar Jums rūpi šių grupių gyvenimo sąlygos:",
+    "stem": "Žmonių, gyvenančių kaimynystėje",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "Q60 Ar Jums rūpi šių grupių gyvenimo sąlygos:",
+    "stem": "Žmonių, gyvenančių Jūsų gyvenamoje vietovėje",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "Q60 Ar Jums rūpi šių grupių gyvenimo sąlygos:",
+    "stem": "Jūsų tautiečių",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "Q60 Ar Jums rūpi šių grupių gyvenimo sąlygos:",
+    "stem": "Europiečių",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "Q60 Ar Jums rūpi šių grupių gyvenimo sąlygos:",
+    "stem": "Visos žmonijos",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "Q61 Ar Jums rūpi šių grupių gyvenimo sąlygos Lietuvoje:",
+    "stem": "Senų žmonių",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "Q61 Ar Jums rūpi šių grupių gyvenimo sąlygos Lietuvoje:",
+    "stem": "Bedarbių",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "Q61 Ar Jums rūpi šių grupių gyvenimo sąlygos Lietuvoje:",
+    "stem": "Imigrantų",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "Q61 Ar Jums rūpi šių grupių gyvenimo sąlygos Lietuvoje:",
+    "stem": "Ligonių ir neįgalių žmonių",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "labai rūpi"
+      },
+      {
+        "value": 2,
+        "label": "rūpi"
+      },
+      {
+        "value": 3,
+        "label": "šiek tiek rūpi"
+      },
+      {
+        "value": 4,
+        "label": "nelabai rūpi"
+      },
+      {
+        "value": 5,
+        "label": "visiškai nerūpi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "Q62 Kas turėtų būti daroma visuomenėje? Prašome pasakyti apie kiekvieną išvardintą dalyką, ar Jums tai svarbu, ar nesvarbu?",
+    "stem": "Mažinami gyventojų pajamų skirtumai",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "Svarbu"
+      },
+      {
+        "value": 3,
+        "label": "Nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "Visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Q62 Kas turėtų būti daroma visuomenėje? Prašome pasakyti apie kiekvieną išvardintą dalyką, ar Jums tai svarbu, ar nesvarbu?",
+    "stem": "Užtikrinamas pagrindinių poreikių (t.y. maisto, aprangos, gyvenamojo ploto, išsimokslininimo, sveikatos apsaugos) patenkinimas",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "Svarbu"
+      },
+      {
+        "value": 3,
+        "label": "Nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "Visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Q62 Kas turėtų būti daroma visuomenėje? Prašome pasakyti apie kiekvieną išvardintą dalyką, ar Jums tai svarbu, ar nesvarbu?",
+    "stem": "Žmogaus padėtis visuomenėje turėtų priklausyti nuo jo nuopelnų",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "Svarbu"
+      },
+      {
+        "value": 3,
+        "label": "Nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "Visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Q62 Kas turėtų būti daroma visuomenėje? Prašome pasakyti apie kiekvieną išvardintą dalyką, ar Jums tai svarbu, ar nesvarbu?",
+    "stem": "Saugoma nuo terorizmo",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Labai svarbu"
+      },
+      {
+        "value": 2,
+        "label": "Svarbu"
+      },
+      {
+        "value": 3,
+        "label": "Nesvarbu"
+      },
+      {
+        "value": 4,
+        "label": "Visai nesvarbu"
+      }
+    ],
+    "answer_cue": null
+  }
+]

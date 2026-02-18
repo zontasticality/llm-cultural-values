@@ -1,0 +1,677 @@
+{
+  "v1": {
+    "id": "28",
+    "item": "Arbejde",
+    "text": "Hvor vigtigt i dit liv er ... Arbejde"
+  },
+  "v2": {
+    "id": "29",
+    "item": "Familie",
+    "text": "Hvor vigtigt i dit liv er ... Familie"
+  },
+  "v3": {
+    "id": "30",
+    "item": "Venner og bekendte",
+    "text": "Hvor vigtigt i dit liv er ... Venner og bekendte"
+  },
+  "v4": {
+    "id": "31",
+    "item": "Fritid",
+    "text": "Hvor vigtigt i dit liv er ...Fritid"
+  },
+  "v5": {
+    "id": "32",
+    "item": "Politik",
+    "text": "Hvor vigtigt i dit liv er ...Politik"
+  },
+  "v6": {
+    "id": "33",
+    "item": "Religion",
+    "text": "Hvor vigtigt i dit liv er ...Religion"
+  },
+  "v7": {
+    "id": "34",
+    "item": null,
+    "text": "Alt taget i betragtning - hvor lykkelig eller ulykkelig føler du dig?"
+  },
+  "v8": {
+    "id": "35",
+    "item": null,
+    "text": "Mener du at dit nuværende helbred alt i alt er:"
+  },
+  "v31": {
+    "id": "39",
+    "item": null,
+    "text": "Alt i alt - mener du, at folk er til at stole på eller mener du, at man ikke kan være for forsigtig,"
+  },
+  "v32": {
+    "id": "40",
+    "item": "Din familie",
+    "text": "Hvor stor tillid har du til ... Din familie"
+  },
+  "v33": {
+    "id": "41",
+    "item": "Mennesker i dit nabolag",
+    "text": "Hvor stor tillid har du til ... Mennesker i dit nabolag"
+  },
+  "v34": {
+    "id": "42",
+    "item": "Mennesker, du kender personligt",
+    "text": "Hvor stor tillid har du til ... Mennesker, du kender personligt"
+  },
+  "v35": {
+    "id": "43",
+    "item": "Mennesker, du møder for første gang",
+    "text": "Hvor stor tillid har du til ... Mennesker, du møder for første gang"
+  },
+  "v36": {
+    "id": "44",
+    "item": "Mennesker med en anden religion",
+    "text": "Hvor stor tillid har du til ...Mennesker med en anden religion"
+  },
+  "v37": {
+    "id": "45",
+    "item": "Mennesker af en anden nationalitet",
+    "text": "Hvor stor tillid har du til ... Mennesker af en anden nationalitet"
+  },
+  "v38": {
+    "id": "46",
+    "item": null,
+    "text": "Nogle mener, at de har det fulde herredømme over den måde deres tilværelse udvikler sig på, mens and"
+  },
+  "v39": {
+    "id": "47",
+    "item": null,
+    "text": "Alt taget i betragtning - hvor tilfreds eller utilfreds er du med livet for tiden?"
+  },
+  "v46": {
+    "id": "49",
+    "item": null,
+    "text": "Et arbejde er nødvendigt for at udvikle sine evner.\nHvor enig eller uenig er du i det?"
+  },
+  "v47": {
+    "id": "50",
+    "item": null,
+    "text": "Det er ydmygende at modtage penge, hvis man ikke har arbejdet for dem.\nHvor enig eller uenig er du i"
+  },
+  "v48": {
+    "id": "51",
+    "item": null,
+    "text": "Man bliver doven af ikke at arbejde.\nHvor enig eller uenig er du i det?"
+  },
+  "v49": {
+    "id": "52",
+    "item": null,
+    "text": "Det er ens pligt over for samfundet at arbejde.\nHvor enig eller uenig er du i det?"
+  },
+  "v50": {
+    "id": "53",
+    "item": null,
+    "text": "Arbejde kommer først, også selv om det betyder mindre fritid.\nHvor enig eller uenig er du i det?"
+  },
+  "v56": {
+    "id": "59",
+    "item": null,
+    "text": "Uanset om du går i kirke eller ej, vil du så mene du er ..."
+  },
+  "v57": {
+    "id": "60",
+    "item": "Gud",
+    "text": "Tror du på ...Gud"
+  },
+  "v58": {
+    "id": "61",
+    "item": "Et liv efter døden",
+    "text": "Tror du på ...Et liv efter døden"
+  },
+  "v59": {
+    "id": "62",
+    "item": "Helvede",
+    "text": "Tror du på ... Helvede"
+  },
+  "v60": {
+    "id": "63",
+    "item": "Paradis",
+    "text": "Tror du på ...Paradis"
+  },
+  "v61": {
+    "id": "64",
+    "item": null,
+    "text": "Tror du på reinkarnation, det vil sige at sjælen efter døden får et nyt liv i et andet legeme?"
+  },
+  "v62": {
+    "id": "65",
+    "item": null,
+    "text": "Hvilket af disse udsagn kommer nærmest din tro?"
+  },
+  "v63": {
+    "id": "66",
+    "item": null,
+    "text": "Hvor stor en rolle spiller Gud i dit liv?"
+  },
+  "v64": {
+    "id": "67",
+    "item": null,
+    "text": "Hvor ofte beder du, bortset fra ved religiøse ritualer og gudstjenester?"
+  },
+  "v65": {
+    "id": "68",
+    "item": null,
+    "text": "Troskab\nHvor vigtigt er det for et lykkeligt ægteskab eller parforhold?"
+  },
+  "v66": {
+    "id": "69",
+    "item": null,
+    "text": "En tilstrækkelig stor indkomst\nHvor vigtigt er det for et lykkeligt ægteskab eller parforhold?"
+  },
+  "v67": {
+    "id": "70",
+    "item": "Gode boligforhold",
+    "text": "Gode boligforhold"
+  },
+  "v68": {
+    "id": "71",
+    "item": "At være fælles om det huslige arbejde",
+    "text": "At være fælles om det huslige arbejde"
+  },
+  "v69": {
+    "id": "72",
+    "item": "At der er børn",
+    "text": "At der er børn"
+  },
+  "v70": {
+    "id": "73",
+    "item": "At have tid til egne venner og personlige hobbyer/aktiviteter",
+    "text": "At have tid til egne venner og personlige hobbyer/aktiviteter"
+  },
+  "v71": {
+    "id": "74",
+    "item": "Ægteskabet er en forældet institution.",
+    "text": "Ægteskabet er en forældet institution."
+  },
+  "v72": {
+    "id": "75",
+    "item": "Det skader et før-skole barn, hvis moderen arbejder.",
+    "text": "Det skader et før-skole barn, hvis moderen arbejder."
+  },
+  "v73": {
+    "id": "76",
+    "item": "Der er i orden at have et job, men de fleste kvinder vil i virkeligheden helst gå hjemme.",
+    "text": "Der er i orden at have et job, men de fleste kvinder vil i virkeligheden helst gå hjemme."
+  },
+  "v74": {
+    "id": "77",
+    "item": "Generelt går det ud over familielivet, hvis kvinden har fuldtidsjob.",
+    "text": "Generelt går det ud over familielivet, hvis kvinden har fuldtidsjob."
+  },
+  "v75": {
+    "id": "78",
+    "item": "Det er mandens opgave at tjene penge; det er kvindens opgave at passe hjemmet og familien.",
+    "text": "Det er mandens opgave at tjene penge; det er kvindens opgave at passe hjemmet og familien."
+  },
+  "v76": {
+    "id": "79",
+    "item": "Generelt er mænd bedre politiske ledere end kvinder.",
+    "text": "Generelt er mænd bedre politiske ledere end kvinder."
+  },
+  "v77": {
+    "id": "80",
+    "item": "En universitetsuddannelse er vigtigere for en dreng end for en pige.",
+    "text": "En universitetsuddannelse er vigtigere for en dreng end for en pige."
+  },
+  "v78": {
+    "id": "81",
+    "item": "Generelt er mænd bedre erhvervsledere end kvinder.",
+    "text": "Generelt er mænd bedre erhvervsledere end kvinder."
+  },
+  "v79": {
+    "id": "82",
+    "item": "Et af mine vigtigste mål i livet er at gøre mine forældre stolte.",
+    "text": "Et af mine vigtigste mål i livet er at gøre mine forældre stolte."
+  },
+  "v80": {
+    "id": "83",
+    "item": "Hvis der er få jobs, bør arbejdsgiverne prioritere danskere frem for indvandrere.",
+    "text": "Hvis der er få jobs, bør arbejdsgiverne prioritere danskere frem for indvandrere."
+  },
+  "v81": {
+    "id": "84",
+    "item": "Hvis der er få jobs, har mænd mere ret til arbejde end kvinder.",
+    "text": "Hvis der er få jobs, har mænd mere ret til arbejde end kvinder."
+  },
+  "v82": {
+    "id": "85",
+    "item": "Homoseksuelle par er lige så gode forældre som andre par.",
+    "text": "Homoseksuelle par er lige så gode forældre som andre par."
+  },
+  "v83": {
+    "id": "86",
+    "item": "Det er en samfundspligt at få børn.",
+    "text": "Det er en samfundspligt at få børn."
+  },
+  "v84": {
+    "id": "87",
+    "item": "Voksne børn har pligt til at sørge for pleje af deres forældre.",
+    "text": "Voksne børn har pligt til at sørge for pleje af deres forældre."
+  },
+  "v85": {
+    "id": "88",
+    "item": "Gode manerer",
+    "text": "Gode manerer"
+  },
+  "v86": {
+    "id": "88",
+    "item": "Selvstændighed",
+    "text": "Selvstændighed"
+  },
+  "v87": {
+    "id": "88",
+    "item": "Hårdt arbejde",
+    "text": "Hårdt arbejde"
+  },
+  "v88": {
+    "id": "88",
+    "item": "Ansvarsfølelse",
+    "text": "Ansvarsfølelse"
+  },
+  "v89": {
+    "id": "88",
+    "item": "Fantasi",
+    "text": "Fantasi"
+  },
+  "v90": {
+    "id": "88",
+    "item": "Tolerance og respekt for andre",
+    "text": "Tolerance og respekt for andre"
+  },
+  "v91": {
+    "id": "88",
+    "item": "Sparsommelighed",
+    "text": "Sparsommelighed"
+  },
+  "v92": {
+    "id": "88",
+    "item": "Beslutsomhed/udholdenhed",
+    "text": "Beslutsomhed/udholdenhed"
+  },
+  "v93": {
+    "id": "88",
+    "item": "Opdragelse i den kristne tro",
+    "text": "Opdragelse i den kristne tro"
+  },
+  "v94": {
+    "id": "88",
+    "item": "Tænker på andre",
+    "text": "Tænker på andre"
+  },
+  "v95": {
+    "id": "88",
+    "item": "Lydighed",
+    "text": "Lydighed"
+  },
+  "v97": {
+    "id": "89",
+    "item": "Hvor interesseret er du i politik?",
+    "text": "Hvor interesseret er du i politik?"
+  },
+  "v98": {
+    "id": "90",
+    "item": "Underskriftsindsamling",
+    "text": "Underskriftsindsamling"
+  },
+  "v99": {
+    "id": "91",
+    "item": "Boykot",
+    "text": "Boykot"
+  },
+  "v100": {
+    "id": "92",
+    "item": "Lovlig demonstration",
+    "text": "Lovlig demonstration"
+  },
+  "v101": {
+    "id": "93",
+    "item": "Overenskomststridig strejke",
+    "text": "Overenskomststridig strejke"
+  },
+  "v102": {
+    "id": "94",
+    "item": "Når det drejer sig om politik taler man om 'venstreorienteret' og 'højreorienteret'.",
+    "text": "Når det drejer sig om politik taler man om 'venstreorienteret' og 'højreorienteret'."
+  },
+  "v103": {
+    "id": "95",
+    "item": "Den enkelte skal tage mere ansvar for at forsørge sig selv",
+    "text": "Den enkelte skal tage mere ansvar for at forsørge sig selv"
+  },
+  "v104": {
+    "id": "96",
+    "item": "Arbejdsløse skal tage et hvilket som helst ledigt job for at bevare retten til understøttelse",
+    "text": "Arbejdsløse skal tage et hvilket som helst ledigt job for at bevare retten til understøttelse"
+  },
+  "v105": {
+    "id": "97",
+    "item": "Konkurrence er godt",
+    "text": "Konkurrence er godt"
+  },
+  "v106": {
+    "id": "98",
+    "item": "Der skal være større indkomstmæssig lighed",
+    "text": "Der skal være større indkomstmæssig lighed"
+  },
+  "v107": {
+    "id": "99",
+    "item": "Privatisering skal øges",
+    "text": "Privatisering skal øges"
+  },
+  "v108": {
+    "id": "100",
+    "item": "Høj økonomisk vækst",
+    "text": "Høj økonomisk vækst"
+  },
+  "v109": {
+    "id": "101",
+    "item": "Høj økonomisk vækst",
+    "text": "Høj økonomisk vækst"
+  },
+  "v110": {
+    "id": "102",
+    "item": null,
+    "text": "Hvis du skulle vælge, hvilken af tingene på dette kort anser du så for at være vigtigst?"
+  },
+  "v111": {
+    "id": "103",
+    "item": null,
+    "text": "Og hvad er næst vigtigst?"
+  },
+  "v112": {
+    "id": "104",
+    "item": null,
+    "text": "Ingen håber selvfølgelig, at der bliver krig, men hvis det skete, ville du så være parat til at kæmp"
+  },
+  "v113": {
+    "id": "105",
+    "item": null,
+    "text": "Arbejde får mindre betydning i vores liv."
+  },
+  "v114": {
+    "id": "106",
+    "item": null,
+    "text": "At der i fremtiden vises mere respekt for autoriteter."
+  },
+  "v115": {
+    "id": "107",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Den danske folkekirke?"
+  },
+  "v116": {
+    "id": "108",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Forsvaret?"
+  },
+  "v117": {
+    "id": "109",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Uddannelsessystemet?"
+  },
+  "v118": {
+    "id": "110",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Medierne?"
+  },
+  "v119": {
+    "id": "111",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Fagforeningerne?"
+  },
+  "v120": {
+    "id": "112",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Politiet?"
+  },
+  "v121": {
+    "id": "113",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Folketinget?"
+  },
+  "v122": {
+    "id": "114",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Det offentlige?"
+  },
+  "v123": {
+    "id": "115",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Det sociale sikringssystem?"
+  },
+  "v124": {
+    "id": "116",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... EU?"
+  },
+  "v125": {
+    "id": "117",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... FN?"
+  },
+  "v126": {
+    "id": "118",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Sundhedssystemet?"
+  },
+  "v127": {
+    "id": "119",
+    "item": null,
+    "text": "Hvor stor tillid har du til ... Retsvæsnet?"
+  },
+  "v179": {
+    "id": "171",
+    "item": "Hvor ofte vurderer du det sker?",
+    "text": "Vælgere bestikkes ...Hvor ofte vurderer du det sker?"
+  },
+  "v180": {
+    "id": "172",
+    "item": "Hvor ofte vurderer du det sker?",
+    "text": "Den journalistiske dækning af valget er fair ...Hvor ofte vurderer du det sker?"
+  },
+  "v181": {
+    "id": "173",
+    "item": "Hvor ofte vurderer du det sker?",
+    "text": "De valgtilforordnede er fair ...Hvor ofte vurderer du det sker?"
+  },
+  "v182": {
+    "id": "174",
+    "item": "Hvor ofte vurderer du det sker?",
+    "text": "Rige mennesker køber stemmer ...Hvor ofte vurderer du det sker?"
+  },
+  "v183": {
+    "id": "175",
+    "item": "Hvor ofte vurderer du det sker?",
+    "text": "Vælgerne trues med vold ved valgstederne ...Hvor ofte vurderer du det sker?"
+  },
+  "v184": {
+    "id": "176",
+    "item": null,
+    "text": "Nu vil vi gerne høre din mening om mennesker fra andre lande, der kommer til Danmark for at slå sig "
+  },
+  "v189": {
+    "id": "181",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "text": "At være født i Danmark ...Hvor vigtigt er det for at være rigtig dansk?"
+  },
+  "v190": {
+    "id": "182",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "text": "At respektere Danmarks politiske institutioner og love ...Hvor vigtigt er det for at være rigtig dan"
+  },
+  "v191": {
+    "id": "183",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "text": "At have dansk familiebaggrund ...Hvor vigtigt er det for at være rigtig dansk?"
+  },
+  "v192": {
+    "id": "184",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "text": "At kunne tale dansk ...Hvor vigtigt er det for at være rigtig dansk?"
+  },
+  "v193": {
+    "id": "185",
+    "item": "Hvor vigtigt er det for at være rigtig dansk?",
+    "text": "At være en del af dansk kultur ...Hvor vigtigt er det for at være rigtig dansk?"
+  },
+  "v194": {
+    "id": "186",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "text": "At være født i Europa ...I hvilken grad er det vigtigt for at være europæer?"
+  },
+  "v195": {
+    "id": "187",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "text": "At have europæisk familiebaggrund ...I hvilken grad er det vigtigt for at være europæer?"
+  },
+  "v196": {
+    "id": "188",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "text": "At være kristen ...I hvilken grad er det vigtigt for at være europæer?"
+  },
+  "v197": {
+    "id": "189",
+    "item": "I hvilken grad er det vigtigt for at være europæer?",
+    "text": "At være en del af europæisk kultur ...I hvilken grad er det vigtigt for at være europæer?"
+  },
+  "v198": {
+    "id": "190",
+    "item": null,
+    "text": "Nogle mener, at udvidelsen af EU skal fortsætte, mens andre mener, at den allerede er gået for vidt."
+  },
+  "v199": {
+    "id": "191",
+    "item": "Hvor enig eller uenig er du i det?",
+    "text": "Jeg vil give en del af min indtægt, hvis jeg kunne være sikker på, at pengene blev brugt til at forh"
+  },
+  "v200": {
+    "id": "192",
+    "item": "Hvor enig eller uenig er du i det?",
+    "text": "Det er bare for svært for én som mig at gøre ret meget ved miljøet. Hvor enig eller uenig er du i de"
+  },
+  "v201": {
+    "id": "193",
+    "item": "Hvor enig eller uenig er du i det?",
+    "text": "Der er vigtigere ting i livet end at beskytte miljøet. Hvor enig eller uenig er du i det?"
+  },
+  "v202": {
+    "id": "194",
+    "item": "Hvor enig eller uenig er du i det?",
+    "text": "Det giver ingen mening, at jeg gør noget for miljøet, hvis andre ikke også gør det. Hvor enig eller "
+  },
+  "v203": {
+    "id": "195",
+    "item": "Hvor enig eller uenig er du i det?",
+    "text": "Mange af de påstande, man hører om trusler mod miljøet, er overdrevne. Hvor enig eller uenig er du i"
+  },
+  "v204": {
+    "id": "196",
+    "item": null,
+    "text": "Her er to udsagn, man af og til hører i debatten om miljø og økonomisk vækst. Hvilket af udsagnene e"
+  },
+  "v205": {
+    "id": "197",
+    "item": "Videoovervåge folk på offentlige steder?",
+    "text": "Synes du, at den danske stat skal have ret til at ...Videoovervåge folk på offentlige steder?"
+  },
+  "v206": {
+    "id": "198",
+    "item": "Overvåge alle e-mails og anden information, der udveksles på internettet?",
+    "text": "Synes du, at den danske stat skal have ret til at ...Overvåge alle e-mails og anden information, der"
+  },
+  "v207": {
+    "id": "199",
+    "item": "Indsamle informationer om alle, der bor i Danmark, uden deres viden?",
+    "text": "Synes du, at den danske stat skal have ret til at ...Indsamle informationer om alle, der bor i Danma"
+  },
+  "v208": {
+    "id": "200",
+    "item": "i tv?",
+    "text": "Hvor ofte følger du med i politik ... i tv?"
+  },
+  "v209": {
+    "id": "201",
+    "item": "i radioen?",
+    "text": "Hvor ofte følger du med i politik ... i radioen?"
+  },
+  "v210": {
+    "id": "202",
+    "item": "i avisen?",
+    "text": "Hvor ofte følger du med i politik... i avisen?"
+  },
+  "v211": {
+    "id": "203",
+    "item": "på sociale medier?",
+    "text": "Hvor ofte følger du med i politik... på sociale medier?"
+  },
+  "v212": {
+    "id": "204",
+    "item": "Folk i dit nabolag...",
+    "text": "Folk i dit nabolag...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v213": {
+    "id": "205",
+    "item": "Folk i det område du bor...",
+    "text": "Folk i det område du bor...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v214": {
+    "id": "206",
+    "item": "Dine landsmænd...",
+    "text": "Dine landsmænd...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v215": {
+    "id": "207",
+    "item": "Europæere...",
+    "text": "Europæere...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v216": {
+    "id": "208",
+    "item": "Menneskeheden...",
+    "text": "Menneskeheden...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v217": {
+    "id": "209",
+    "item": "Ældre mennesker...",
+    "text": "Ældre mennesker...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v218": {
+    "id": "210",
+    "item": "Arbejdsløse...",
+    "text": "Arbejdsløse...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v219": {
+    "id": "211",
+    "item": "Indvandrere...",
+    "text": "Indvandrere...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v220": {
+    "id": "212",
+    "item": "Syge og handicappede...",
+    "text": "Syge og handicappede...I hvor høj grad kommer deres levevilkår dig ved?"
+  },
+  "v221": {
+    "id": "213",
+    "item": "At udjævne store indkomstforskelle i befolkningen.",
+    "text": "At udjævne store indkomstforskelle i befolkningen."
+  },
+  "v222": {
+    "id": "214",
+    "item": "At alle får dækket basale behov, dvs. mad, bolig, tøj, uddannelse og sundhed.",
+    "text": "At alle får dækket basale behov, dvs. mad, bolig, tøj, uddannelse og sundhed."
+  },
+  "v223": {
+    "id": "215",
+    "item": "At anerkende den enkeltes præstationer.",
+    "text": "At anerkende den enkeltes præstationer."
+  },
+  "v224": {
+    "id": "216",
+    "item": "At beskytte mod terror.",
+    "text": "At beskytte mod terror."
+  }
+}

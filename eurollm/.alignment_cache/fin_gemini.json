@@ -1,0 +1,782 @@
+{
+  "v1": {
+    "id": "4",
+    "item": "Työ",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Työ"
+  },
+  "v2": {
+    "id": "4",
+    "item": "Perhe",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Perhe"
+  },
+  "v3": {
+    "id": "4",
+    "item": "Ystävät ja tuttavat",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Ystävät ja tuttavat"
+  },
+  "v4": {
+    "id": "4",
+    "item": "Vapaa-aika",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Vapaa-aika"
+  },
+  "v5": {
+    "id": "4",
+    "item": "Politiikka",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Politiikka"
+  },
+  "v6": {
+    "id": "4",
+    "item": "Uskonto",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Uskonto"
+  },
+  "v7": {
+    "id": "4",
+    "item": null,
+    "text": "Kaiken kaikkiaan, oletko nykyisin...?"
+  },
+  "v33": {
+    "id": "4",
+    "item": "Naapurustosi ihmiset",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Naapurustosi ihmiset"
+  },
+  "v34": {
+    "id": "4",
+    "item": "Henkilökohtaisesti tuntemasi ihmiset",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Henkilökohtaisesti tuntemasi ihmiset"
+  },
+  "v35": {
+    "id": "4",
+    "item": "Ihmiset, jotka tapaat ensimmäistä kertaa",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Ihmiset, jotka tapaat ensimmäistä kertaa"
+  },
+  "v36": {
+    "id": "4",
+    "item": "Toiseen uskontoon kuuluvat ihmiset",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Toiseen uskontoon kuuluvat ihmiset"
+  },
+  "v37": {
+    "id": "4",
+    "item": "Toiseen kansallisuuteen kuuluvat ihmiset",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Toiseen kansallisuuteen kuuluvat ihmiset"
+  },
+  "v46": {
+    "id": "q6",
+    "item": null,
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v47": {
+    "id": "q7",
+    "item": null,
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v48": {
+    "id": "q9",
+    "item": null,
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v49": {
+    "id": "q10",
+    "item": null,
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v58": {
+    "id": "q11",
+    "item": null,
+    "text": "Seuraavat kysymykset käsittelevät uskontoa ja uskomuksia"
+  },
+  "v64": {
+    "id": "q14",
+    "item": null,
+    "text": "Jos ei huomioida häitä, hautajaisia ja ristiäisiä, kuinka usein käyt kirkossa/uskonnollisissa tilais"
+  },
+  "v59": {
+    "id": "q17_2",
+    "item": null,
+    "text": "Mihin seuraavista, jos mihinkään, uskot?"
+  },
+  "v63": {
+    "id": "q46",
+    "item": null,
+    "text": "Entä kuinka tärkeä Jumala on elämässäsi? Asteikolla 10 tarkoittaa \"erittäin tärkeä\" ja 1 tarkoittaa "
+  },
+  "v65": {
+    "id": "q48a",
+    "item": null,
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onn"
+  },
+  "v66": {
+    "id": "q48b",
+    "item": null,
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onn"
+  },
+  "v67": {
+    "id": "q48c",
+    "item": null,
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onn"
+  },
+  "v50": {
+    "id": "q30",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?"
+  },
+  "v71": {
+    "id": "q31",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?"
+  },
+  "v73": {
+    "id": "q32",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?"
+  },
+  "v74": {
+    "id": "q50",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Kun äiti käy töissä, lapset kärsivät"
+  },
+  "v75": {
+    "id": "q34",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?"
+  },
+  "v76": {
+    "id": "q35",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?"
+  },
+  "v77": {
+    "id": "q55",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Yliopistokoulutus on tärkeämpi pojalle kui"
+  },
+  "v60": {
+    "id": "q43a",
+    "item": null,
+    "text": "Mihin seuraavista, jos mihinkään, uskot? Jumalaan"
+  },
+  "v62": {
+    "id": "q45",
+    "item": null,
+    "text": "Mikä seuraavista väittämistä vastaa eniten uskomuksiasi"
+  },
+  "v68": {
+    "id": "q48d",
+    "item": null,
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onn"
+  },
+  "v69": {
+    "id": "q48e",
+    "item": null,
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onn"
+  },
+  "v70": {
+    "id": "q48f",
+    "item": null,
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onn"
+  },
+  "v79": {
+    "id": "q57",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Yksi elämäni päätavoitteista on ollut tehd"
+  },
+  "v81": {
+    "id": "q58",
+    "item": null,
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Kun työpaikkoja on niukasti, työnantajien "
+  },
+  "v86": {
+    "id": "q63",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v87": {
+    "id": "q64",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v88": {
+    "id": "q65",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v89": {
+    "id": "q66",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v90": {
+    "id": "q67",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v91": {
+    "id": "q68",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v92": {
+    "id": "q69",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v93": {
+    "id": "q70",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v94": {
+    "id": "q71",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v95": {
+    "id": "q72",
+    "item": null,
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraa"
+  },
+  "v102": {
+    "id": "q76",
+    "item": null,
+    "text": "Politiikasta keskusteltaessa puhutaan usein vasemmistosta ja oikeistosta. Mihin kohtaan sijoittaisit"
+  },
+  "v103": {
+    "id": "q77",
+    "item": null,
+    "text": "Lue seuraavat väitteet ja kerro, mihin kohtaan sijoittaisit omat mielipiteesi asteikolla:"
+  },
+  "v104": {
+    "id": "q78",
+    "item": null,
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?"
+  },
+  "v105": {
+    "id": "q79",
+    "item": null,
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?"
+  },
+  "v106": {
+    "id": "q80",
+    "item": null,
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?"
+  },
+  "v107": {
+    "id": "q81",
+    "item": null,
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?"
+  },
+  "v108": {
+    "id": "q82",
+    "item": null,
+    "text": "Ihmiset keskustelevat joskus siitä, mitä maamme pitäisi tavoitella seuraavien kymmenen vuoden aikana"
+  },
+  "v109": {
+    "id": "q83",
+    "item": null,
+    "text": "Entä mitä pidät toiseksi tärkeimpänä?"
+  },
+  "v110": {
+    "id": "q84",
+    "item": null,
+    "text": "Jos sinun pitäisi valita, mitä tällä kortilla olevista asioista pitäisit tärkeimpänä?"
+  },
+  "v111": {
+    "id": "q85",
+    "item": null,
+    "text": "Entä mitä pitäisit toiseksi tärkeimpänä?"
+  },
+  "v112": {
+    "id": "q86",
+    "item": null,
+    "text": "Luonnollisesti me kaikki toivomme, ettei sotaa syty, mutta jos niin kävisi, olisitko halukas taistel"
+  },
+  "v114": {
+    "id": "q88",
+    "item": null,
+    "text": "Olisiko tällainen muutos mielestäsi hyvä asia vai huono asia, vai olisiko asia yhdentekevä?"
+  },
+  "v115": {
+    "id": "q115",
+    "item": null,
+    "text": "Kansalaisoikeudet suojelevat ihmisiä valtion sorrolta."
+  },
+  "v116": {
+    "id": "q90",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v117": {
+    "id": "q91",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v118": {
+    "id": "q92",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v119": {
+    "id": "q93",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v120": {
+    "id": "q94",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v121": {
+    "id": "q95",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v122": {
+    "id": "q96",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v123": {
+    "id": "q97",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v124": {
+    "id": "q98",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v125": {
+    "id": "q99",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v126": {
+    "id": "q100",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v127": {
+    "id": "q101",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v128": {
+    "id": "q102",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v129": {
+    "id": "q103",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v130": {
+    "id": "q104",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v131": {
+    "id": "q105",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v132": {
+    "id": "q106",
+    "item": null,
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan p"
+  },
+  "v133": {
+    "id": "q107",
+    "item": null,
+    "text": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuk"
+  },
+  "v134": {
+    "id": "q108",
+    "item": null,
+    "text": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuk"
+  },
+  "v135": {
+    "id": "q109",
+    "item": null,
+    "text": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuk"
+  },
+  "v136": {
+    "id": "q116",
+    "item": null,
+    "text": "Valtio tasaa ihmisten tuloja."
+  },
+  "v137": {
+    "id": "q117",
+    "item": null,
+    "text": "Ihmiset tottelevat johtajiaan."
+  },
+  "v138": {
+    "id": "q118",
+    "item": null,
+    "text": "Naisilla on samat oikeudet kuin miehilläkin."
+  },
+  "v139": {
+    "id": "q113",
+    "item": null,
+    "text": "Ihmiset saavat valtiolta työttömyysavustusta."
+  },
+  "v140": {
+    "id": "q114",
+    "item": null,
+    "text": "Hallituksen ollessa kykenemätön armeija ottaa vallan."
+  },
+  "v142": {
+    "id": "q119",
+    "item": null,
+    "text": "Miten tärkeää sinulle on elää demokraattisesti hallitussa maassa?"
+  },
+  "v143": {
+    "id": "q120",
+    "item": null,
+    "text": "Entä miten demokraattisesti tätä maata hallitaan tällä hetkellä?"
+  },
+  "v144": {
+    "id": "q121",
+    "item": null,
+    "text": "Asteikolla 1-10, jossa 1 tarkoittaa \"en lainkaan tyytyväinen\" ja 10 \"täysin tyytyväinen\", kuinka tyy"
+  },
+  "v145": {
+    "id": "q122",
+    "item": null,
+    "text": "Vahva johtaja, jonka ei tarvitse välittää eduskunnasta ja vaaleista"
+  },
+  "v146": {
+    "id": "q123",
+    "item": null,
+    "text": "Asiantuntijat, ei hallitus, tekevät päätöksiä sen mukaan, mitä pitävät maalle parhaana"
+  },
+  "v147": {
+    "id": "q124",
+    "item": null,
+    "text": "Puolustusvoimat vallassa eli sotilasvalta"
+  },
+  "v148": {
+    "id": "q125",
+    "item": null,
+    "text": "Demokraattinen poliittinen järjestelmä"
+  },
+  "v149": {
+    "id": "q126",
+    "item": null,
+    "text": "Vaatia sairausvakuutuskorvaus tai sosiaaliturvaetu, johon ei ole oikeutta"
+  },
+  "v150": {
+    "id": "q127",
+    "item": null,
+    "text": "Tehdä verovilppiä, jos tilaisuus sallii"
+  },
+  "v151": {
+    "id": "q128",
+    "item": null,
+    "text": "Marihuanan tai hasiksen käyttö"
+  },
+  "v152": {
+    "id": "q129",
+    "item": null,
+    "text": "Lahjusten vastaanottaminen virkatehtävien hoidossa"
+  },
+  "v153": {
+    "id": "q130",
+    "item": null,
+    "text": "Homoseksuaalisuus"
+  },
+  "v154": {
+    "id": "q131",
+    "item": null,
+    "text": "Abortti"
+  },
+  "v155": {
+    "id": "q132",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v156": {
+    "id": "q133",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v157": {
+    "id": "q134",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v158": {
+    "id": "q135",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v159": {
+    "id": "q136",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v160": {
+    "id": "q137",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v161": {
+    "id": "q138",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v162": {
+    "id": "q139",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v163": {
+    "id": "q140",
+    "item": null,
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väli"
+  },
+  "v164": {
+    "id": "q141",
+    "item": null,
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi ko"
+  },
+  "v165": {
+    "id": "q142",
+    "item": null,
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi ko"
+  },
+  "v166": {
+    "id": "q143",
+    "item": null,
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi ko"
+  },
+  "v167": {
+    "id": "q144",
+    "item": null,
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi ko"
+  },
+  "v168": {
+    "id": "q145",
+    "item": null,
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi ko"
+  },
+  "v170": {
+    "id": "q147",
+    "item": null,
+    "text": "Kuinka ylpeä olet Suomen kansalaisuudesta?"
+  },
+  "v171": {
+    "id": "q148",
+    "item": null,
+    "text": "Äänestätkö vaaleissa aina, useimmiten vai et koskaan? Mainitse kunkin vaalin kohdalla kuinka usein ä"
+  },
+  "v172": {
+    "id": "q149",
+    "item": null,
+    "text": "Äänestätkö vaaleissa aina, useimmiten vai et koskaan? Mainitse kunkin vaalin kohdalla kuinka usein ä"
+  },
+  "v173": {
+    "id": "q150",
+    "item": null,
+    "text": "Äänestätkö vaaleissa aina, useimmiten vai et koskaan? Mainitse kunkin vaalin kohdalla kuinka usein ä"
+  },
+  "v174": {
+    "id": "q151",
+    "item": null,
+    "text": "Mikä puolue on sinulle mieluisin?"
+  },
+  "v176": {
+    "id": "q153",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v177": {
+    "id": "q154",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v178": {
+    "id": "q155",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v179": {
+    "id": "q156",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v180": {
+    "id": "q157",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v181": {
+    "id": "q158",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v182": {
+    "id": "q159",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v183": {
+    "id": "q160",
+    "item": null,
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?"
+  },
+  "v185": {
+    "id": "q161",
+    "item": null,
+    "text": "Seuraavaksi haluaisimme tietää mielipiteesi maahanmuuttajista eli ihmisistä, jotka tulevat asumaan S"
+  },
+  "v190": {
+    "id": "q164",
+    "item": null,
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pi"
+  },
+  "v191": {
+    "id": "q165",
+    "item": null,
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pi"
+  },
+  "v192": {
+    "id": "q166",
+    "item": null,
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pi"
+  },
+  "v193": {
+    "id": "q167",
+    "item": null,
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pi"
+  },
+  "v195": {
+    "id": "q169",
+    "item": null,
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asia"
+  },
+  "v196": {
+    "id": "q170",
+    "item": null,
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asia"
+  },
+  "v197": {
+    "id": "q171",
+    "item": null,
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asia"
+  },
+  "v198": {
+    "id": "q173",
+    "item": null,
+    "text": "Jotkut ihmiset ovat sitä mieltä, että Euroopan unionin tulisi jatkaa laajentumistaan, toisten mieles"
+  },
+  "v200": {
+    "id": "q174",
+    "item": null,
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v201": {
+    "id": "q175",
+    "item": null,
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v202": {
+    "id": "q176",
+    "item": null,
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v203": {
+    "id": "q177",
+    "item": null,
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?"
+  },
+  "v204": {
+    "id": "q179",
+    "item": null,
+    "text": "Seuraavaksi kaksi väitettä, jotka ihmiset joskus esittävät keskustellessaan ympäristöstä ja talouska"
+  },
+  "v205": {
+    "id": "q180",
+    "item": null,
+    "text": "Tulisiko Suomen viranomaisilla mielestäsi olla oikeus tehdä seuraavaa vai ei:"
+  },
+  "v206": {
+    "id": "q181",
+    "item": null,
+    "text": "Tulisiko Suomen viranomaisilla mielestäsi olla oikeus tehdä seuraavaa vai ei:"
+  },
+  "v207": {
+    "id": "q182",
+    "item": null,
+    "text": "Tulisiko Suomen viranomaisilla mielestäsi olla oikeus tehdä seuraavaa vai ei:"
+  },
+  "v208": {
+    "id": "q183",
+    "item": null,
+    "text": "Kuinka usein seuraat politiikkaa..."
+  },
+  "v209": {
+    "id": "q184",
+    "item": null,
+    "text": "Kuinka usein seuraat politiikkaa..."
+  },
+  "v210": {
+    "id": "q185",
+    "item": null,
+    "text": "Kuinka usein seuraat politiikkaa..."
+  },
+  "v211": {
+    "id": "q186",
+    "item": null,
+    "text": "Kuinka usein seuraat politiikkaa..."
+  },
+  "v218": {
+    "id": "q187",
+    "item": null,
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?"
+  },
+  "v219": {
+    "id": "q188",
+    "item": null,
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?"
+  },
+  "v220": {
+    "id": "q189",
+    "item": null,
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?"
+  },
+  "v213": {
+    "id": "q190",
+    "item": null,
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?"
+  },
+  "v214": {
+    "id": "q191",
+    "item": null,
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?"
+  },
+  "v215": {
+    "id": "q192",
+    "item": null,
+    "text": "Entä missä määrin kannat huolta seuraavassa lueteltujen tahojen elinoloista Suomessa?"
+  },
+  "v216": {
+    "id": "q193",
+    "item": null,
+    "text": "Entä missä määrin kannat huolta seuraavassa lueteltujen tahojen elinoloista Suomessa?"
+  },
+  "v222": {
+    "id": "q196",
+    "item": null,
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeä"
+  },
+  "v223": {
+    "id": "q197",
+    "item": null,
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeä"
+  },
+  "v224": {
+    "id": "q198",
+    "item": null,
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeä"
+  }
+}

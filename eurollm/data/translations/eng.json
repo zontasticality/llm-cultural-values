@@ -1,0 +1,5791 @@
+[
+  {
+    "id": "Q1",
+    "text": "Please say, for each of the following, how important it is in your life. Work",
+    "stem": "Please say, for each of the following, how important it is in your life.",
+    "item": "Work",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q1",
+    "text": "Please say, for each of the following, how important it is in your life. Family",
+    "stem": "Please say, for each of the following, how important it is in your life.",
+    "item": "Family",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q1",
+    "text": "Please say, for each of the following, how important it is in your life. Friends and acquaintances",
+    "stem": "Please say, for each of the following, how important it is in your life.",
+    "item": "Friends and acquaintances",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q1",
+    "text": "Please say, for each of the following, how important it is in your life. Leisure time",
+    "stem": "Please say, for each of the following, how important it is in your life.",
+    "item": "Leisure time",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q1",
+    "text": "Please say, for each of the following, how important it is in your life. Politics",
+    "stem": "Please say, for each of the following, how important it is in your life.",
+    "item": "Politics",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q1",
+    "text": "Please say, for each of the following, how important it is in your life. Religion",
+    "stem": "Please say, for each of the following, how important it is in your life.",
+    "item": "Religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q2",
+    "text": "Taking all things together, would you say you are...READ OUT...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "very happy"
+      },
+      {
+        "value": 2,
+        "label": "quite happy"
+      },
+      {
+        "value": 3,
+        "label": "not very happy"
+      },
+      {
+        "value": 4,
+        "label": "not at all happy?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "All in all, how would you describe your state of health these days? Would you say it is...READ OUT...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "very good"
+      },
+      {
+        "value": 2,
+        "label": "good"
+      },
+      {
+        "value": 3,
+        "label": "fair"
+      },
+      {
+        "value": 4,
+        "label": "poor"
+      },
+      {
+        "value": 5,
+        "label": "very poor?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours? People of a different race",
+    "stem": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours?",
+    "item": "People of a different race",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours? Heavy drinkers",
+    "stem": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours?",
+    "item": "Heavy drinkers",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours? Immigrants/foreign workers",
+    "stem": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours?",
+    "item": "Immigrants/foreign workers",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours? Drug addicts",
+    "stem": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours?",
+    "item": "Drug addicts",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours? Homosexuals",
+    "stem": "On this list are various groups of people. Could you identify any that you would not like to have as neighbours?",
+    "item": "Homosexuals",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "most people can be trusted"
+      },
+      {
+        "value": 2,
+        "label": "can't be too careful"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? Your family",
+    "stem": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all?",
+    "item": "Your family",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Trust completely"
+      },
+      {
+        "value": 2,
+        "label": "Trust somewhat"
+      },
+      {
+        "value": 3,
+        "label": "Do not trust very much"
+      },
+      {
+        "value": 4,
+        "label": "Do not trust at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? People in your neighbourhood",
+    "stem": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all?",
+    "item": "People in your neighbourhood",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Trust completely"
+      },
+      {
+        "value": 2,
+        "label": "Trust somewhat"
+      },
+      {
+        "value": 3,
+        "label": "Do not trust very much"
+      },
+      {
+        "value": 4,
+        "label": "Do not trust at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? People you know personally",
+    "stem": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all?",
+    "item": "People you know personally",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Trust completely"
+      },
+      {
+        "value": 2,
+        "label": "Trust somewhat"
+      },
+      {
+        "value": 3,
+        "label": "Do not trust very much"
+      },
+      {
+        "value": 4,
+        "label": "Do not trust at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? People you meet for the first time",
+    "stem": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all?",
+    "item": "People you meet for the first time",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Trust completely"
+      },
+      {
+        "value": 2,
+        "label": "Trust somewhat"
+      },
+      {
+        "value": 3,
+        "label": "Do not trust very much"
+      },
+      {
+        "value": 4,
+        "label": "Do not trust at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? People of another religion",
+    "stem": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all?",
+    "item": "People of another religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Trust completely"
+      },
+      {
+        "value": 2,
+        "label": "Trust somewhat"
+      },
+      {
+        "value": 3,
+        "label": "Do not trust very much"
+      },
+      {
+        "value": 4,
+        "label": "Do not trust at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? People of another nationality",
+    "stem": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all?",
+    "item": "People of another nationality",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Trust completely"
+      },
+      {
+        "value": 2,
+        "label": "Trust somewhat"
+      },
+      {
+        "value": 3,
+        "label": "Do not trust very much"
+      },
+      {
+        "value": 4,
+        "label": "Do not trust at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Some people feel they have completely free choice and control over their lives, and other people feel that what they do has no real effect on what happens to them. Please use the scale to indicate how much freedom of choice and control you feel you have over the way your life turns out?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "All things considered, how satisfied are you with your life as a whole these days? Please use this card to help with your answer.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? Good pay",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "Good pay",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? Good hours",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "Good hours",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? An opportunity to use initiative",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "An opportunity to use initiative",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? Generous holidays",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "Generous holidays",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? A job in which you feel you can achieve something",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "A job in which you feel you can achieve something",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? A responsible job",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "A responsible job",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Do you agree or disagree with the following statements? To fully develop your talents, you need to have a job",
+    "stem": "Do you agree or disagree with the following statements?",
+    "item": "To fully develop your talents, you need to have a job",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q12",
+    "text": "Do you agree or disagree with the following statements? It is humiliating to receive money without having to work for it",
+    "stem": "Do you agree or disagree with the following statements?",
+    "item": "It is humiliating to receive money without having to work for it",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q12",
+    "text": "Do you agree or disagree with the following statements? People who don't work turn lazy",
+    "stem": "Do you agree or disagree with the following statements?",
+    "item": "People who don't work turn lazy",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q12",
+    "text": "Do you agree or disagree with the following statements? Work is a duty towards society",
+    "stem": "Do you agree or disagree with the following statements?",
+    "item": "Work is a duty towards society",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q12",
+    "text": "Do you agree or disagree with the following statements? Work should always come first, even if it means less spare time",
+    "stem": "Do you agree or disagree with the following statements?",
+    "item": "Work should always come first, even if it means less spare time",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": "ANSWER"
+  },
+  {
+    "id": "Q15",
+    "text": "Apart from weddings, funerals and christenings, about how often do you attend religious services these days?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "more than once week"
+      },
+      {
+        "value": 2,
+        "label": "once a week"
+      },
+      {
+        "value": 3,
+        "label": "once a month"
+      },
+      {
+        "value": 4,
+        "label": "only on specific holy days"
+      },
+      {
+        "value": 5,
+        "label": "once a year"
+      },
+      {
+        "value": 6,
+        "label": "less often"
+      },
+      {
+        "value": 7,
+        "label": "never, practically never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q16",
+    "text": "Apart from weddings, funerals and christenings, about how often did you attend religious services when you were 12 years old?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "more than once week"
+      },
+      {
+        "value": 2,
+        "label": "once a week"
+      },
+      {
+        "value": 3,
+        "label": "once a month"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q17",
+    "text": "Independently of whether you go to church or not, would you say you are ...READ OUT...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "a religious person"
+      },
+      {
+        "value": 2,
+        "label": "not a religious person"
+      },
+      {
+        "value": 3,
+        "label": "a convinced atheist?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Which, if any, of the following do you believe in ...READ OUT... God",
+    "stem": "Which, if any, of the following do you believe in ...READ OUT...",
+    "item": "God",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "yes"
+      },
+      {
+        "value": 2,
+        "label": "no"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Which, if any, of the following do you believe in ...READ OUT... Life after death",
+    "stem": "Which, if any, of the following do you believe in ...READ OUT...",
+    "item": "Life after death",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "yes"
+      },
+      {
+        "value": 2,
+        "label": "no"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Which, if any, of the following do you believe in ...READ OUT... Hell",
+    "stem": "Which, if any, of the following do you believe in ...READ OUT...",
+    "item": "Hell",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "yes"
+      },
+      {
+        "value": 2,
+        "label": "no"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Which, if any, of the following do you believe in ...READ OUT... Heaven?",
+    "stem": "Which, if any, of the following do you believe in ...READ OUT...",
+    "item": "Heaven?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "yes"
+      },
+      {
+        "value": 2,
+        "label": "no"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Do you believe in re-incarnation, that is, that we had past lives and will be born into this world again?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "yes"
+      },
+      {
+        "value": 2,
+        "label": "no"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q20",
+    "text": "Which of these statements comes closest to your beliefs?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "there is a personal God."
+      },
+      {
+        "value": 2,
+        "label": "there is some sort of spirit or life force"
+      },
+      {
+        "value": 3,
+        "label": "I don't really know what to think"
+      },
+      {
+        "value": 4,
+        "label": "I don't really think there is any sort of spirit, God or life force"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q21",
+    "text": "And how important is God in your life? Please use this card to indicate - 10 means very important and 1 means not at all important.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "Q22",
+    "text": "How often do you pray outside of religious services?",
+    "stem": "Would you say...READ OUT ...",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "every day"
+      },
+      {
+        "value": 2,
+        "label": "more than once a week"
+      },
+      {
+        "value": 3,
+        "label": "once a week"
+      },
+      {
+        "value": 4,
+        "label": "at least once a month"
+      },
+      {
+        "value": 5,
+        "label": "several times a year"
+      },
+      {
+        "value": 6,
+        "label": "less often"
+      },
+      {
+        "value": 7,
+        "label": "never?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v65",
+    "text": "Here is a list of things which some people think make for a successful marriage or partnership. Please tell me, for each one, whether you think it is very important, rather important or not very important?",
+    "stem": null,
+    "item": "Faithfulness",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "rather important"
+      },
+      {
+        "value": 3,
+        "label": "not very important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v66",
+    "text": "Here is a list of things which some people think make for a successful marriage or partnership. Please tell me, for each one, whether you think it is very important, rather important or not very important?",
+    "stem": null,
+    "item": "An adequate income",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "rather important"
+      },
+      {
+        "value": 3,
+        "label": "not very important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v67",
+    "text": "Here is a list of things which some people think make for a successful marriage or partnership. Please tell me, for each one, whether you think it is very important, rather important or not very important?",
+    "stem": null,
+    "item": "Good housing",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "rather important"
+      },
+      {
+        "value": 3,
+        "label": "not very important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v68",
+    "text": "Here is a list of things which some people think make for a successful marriage or partnership. Please tell me, for each one, whether you think it is very important, rather important or not very important?",
+    "stem": null,
+    "item": "Sharing household chores",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "rather important"
+      },
+      {
+        "value": 3,
+        "label": "not very important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v69",
+    "text": "Here is a list of things which some people think make for a successful marriage or partnership. Please tell me, for each one, whether you think it is very important, rather important or not very important?",
+    "stem": null,
+    "item": "Children",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "rather important"
+      },
+      {
+        "value": 3,
+        "label": "not very important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v70",
+    "text": "Here is a list of things which some people think make for a successful marriage or partnership. Please tell me, for each one, whether you think it is very important, rather important or not very important?",
+    "stem": null,
+    "item": "Having some time for one's own friends and for personal hobbies/activities",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "rather important"
+      },
+      {
+        "value": 3,
+        "label": "not very important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Do you agree or disagree with the following statement:",
+    "stem": "Marriage is an outdated institution?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree"
+      },
+      {
+        "value": 2,
+        "label": "disagree"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v72",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "When a mother works for pay, the children suffer",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v73",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "A job is alright but what most women really want is a home and children",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v74",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "All in all, family life suffers when the woman has a full-time job",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v75",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "A man's job is to earn money; a woman's job is to look after the home and family",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v76",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "On the whole, men make better political leaders than women do",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v77",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "A university education is more important for a boy than for a girl",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v78",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "On the whole, men make better business executives than women do",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v79",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "One of my main goals in life has been to make my parents proud",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v80",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "When jobs are scarce, employers should give priority to British people over immigrants",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "For each of the following statements I read out, can you tell me how strongly you agree or disagree with each. Do you strongly agree, agree, disagree, or strongly disagree?",
+    "stem": null,
+    "item": "When jobs are scarce, men have more right to a job than women",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v82",
+    "text": "How would you feel about the following statements? Do you agree or disagree with them?",
+    "stem": null,
+    "item": "Homosexual couples are as good parents as other couples",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v83",
+    "text": "How would you feel about the following statements? Do you agree or disagree with them?",
+    "stem": null,
+    "item": "It is a duty towards society to have children",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v84",
+    "text": "How would you feel about the following statements? Do you agree or disagree with them?",
+    "stem": null,
+    "item": "Adult children have the duty to provide long-term care for their parents",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Good manners",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Independence",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Hard work",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Feeling of responsibility",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Imagination",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Tolerance and respect for other people",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Thrift, saving money and things",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v92",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Determination, perseverance",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v93",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Religious faith",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v94",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Unselfishness",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v95",
+    "text": "Here is a list of qualities which children can be encouraged to learn at home. Which five would you say are the most desirable for a child to have? Please choose up to five!",
+    "stem": null,
+    "item": "Obedience",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentioned"
+      },
+      {
+        "value": 2,
+        "label": "not mentioned"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q29",
+    "text": "How interested would you say you are in politics?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very interested"
+      },
+      {
+        "value": 2,
+        "label": "somewhat interested"
+      },
+      {
+        "value": 3,
+        "label": "not very interested"
+      },
+      {
+        "value": 4,
+        "label": "not at all interested"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Now I'd like you to look at this card. I'm going to read out some different forms of political action that people can take, and I'd like you to tell me, for each one, whether you have actually done any of these things, whether you might do it or would never, under any circumstances, do it.",
+    "stem": null,
+    "item": "Signing a petition",
+    "response_type": "action",
+    "options": [
+      {
+        "value": 1,
+        "label": "have done"
+      },
+      {
+        "value": 2,
+        "label": "might do"
+      },
+      {
+        "value": 3,
+        "label": "would never do"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v99",
+    "text": "Now I'd like you to look at this card. I'm going to read out some different forms of political action that people can take, and I'd like you to tell me, for each one, whether you have actually done any of these things, whether you might do it or would never, under any circumstances, do it.",
+    "stem": null,
+    "item": "Joining in boycotts",
+    "response_type": "action",
+    "options": [
+      {
+        "value": 1,
+        "label": "have done"
+      },
+      {
+        "value": 2,
+        "label": "might do"
+      },
+      {
+        "value": 3,
+        "label": "would never do"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v100",
+    "text": "Now I'd like you to look at this card. I'm going to read out some different forms of political action that people can take, and I'd like you to tell me, for each one, whether you have actually done any of these things, whether you might do it or would never, under any circumstances, do it.",
+    "stem": null,
+    "item": "Attending lawful demonstrations",
+    "response_type": "action",
+    "options": [
+      {
+        "value": 1,
+        "label": "have done"
+      },
+      {
+        "value": 2,
+        "label": "might do"
+      },
+      {
+        "value": 3,
+        "label": "would never do"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v101",
+    "text": "Now I'd like you to look at this card. I'm going to read out some different forms of political action that people can take, and I'd like you to tell me, for each one, whether you have actually done any of these things, whether you might do it or would never, under any circumstances, do it.",
+    "stem": null,
+    "item": "Joining unofficial strikes",
+    "response_type": "action",
+    "options": [
+      {
+        "value": 1,
+        "label": "have done"
+      },
+      {
+        "value": 2,
+        "label": "might do"
+      },
+      {
+        "value": 3,
+        "label": "would never do"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q31",
+    "text": "In political matters, people talk of 'the left' and 'the right'.",
+    "stem": "How would you place your views on this scale, generally speaking?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "the left"
+      },
+      {
+        "value": 10,
+        "label": "the right"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "On this card you see a number of opposite views on various issues. How would you place your views on this scale?",
+    "stem": null,
+    "item": "Individuals should take more responsibility for providing for themselves",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Individuals should take more responsibility for providing for themselves"
+      },
+      {
+        "value": 10,
+        "label": "The state should take more responsibility to ensure that everyone is provided for"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "On this card you see a number of opposite views on various issues. How would you place your views on this scale?",
+    "stem": null,
+    "item": "People who are unemployed should have to take any job available or lose their unemployment benefits",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "People who are unemployed should have to take any job available or lose their unemployment benefits"
+      },
+      {
+        "value": 10,
+        "label": "People who are unemployed should have the right to refuse a job they do not want"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "On this card you see a number of opposite views on various issues. How would you place your views on this scale?",
+    "stem": null,
+    "item": "Competition is good",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Competition is good"
+      },
+      {
+        "value": 10,
+        "label": "Competition is harmful"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "On this card you see a number of opposite views on various issues. How would you place your views on this scale?",
+    "stem": null,
+    "item": "Incomes should be made more equal",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Incomes should be made more equal"
+      },
+      {
+        "value": 10,
+        "label": "There should be greater incentives for individual effort"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "On this card you see a number of opposite views on various issues. How would you place your views on this scale?",
+    "stem": null,
+    "item": "Private ownership of business and industry should be increased",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Private ownership of business and industry should be increased"
+      },
+      {
+        "value": 10,
+        "label": "Government ownership of business and industry should be increased"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v108",
+    "text": "People sometimes talk about what the aims of this country should be for the next ten years. Would you please say which one of these you, yourself, consider the most important?",
+    "stem": null,
+    "item": "A high level of economic growth",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A high level of economic growth"
+      },
+      {
+        "value": 2,
+        "label": "Making sure this country has strong defence forces"
+      },
+      {
+        "value": 3,
+        "label": "Seeing that people have more say about how things are done at their jobs and in their communities"
+      },
+      {
+        "value": 4,
+        "label": "Trying to make our cities and countryside more beautiful"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v109",
+    "text": "Q33a And which would be the next most important?",
+    "stem": "A high level of economic growth",
+    "item": "Making sure this country has strong defence forces",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A high level of economic growth"
+      },
+      {
+        "value": 2,
+        "label": "Making sure this country has strong defence forces"
+      },
+      {
+        "value": 3,
+        "label": "Seeing that people have more say about how things are done at their jobs and in their communities"
+      },
+      {
+        "value": 4,
+        "label": "Trying to make our cities and countryside more beautiful"
+      }
+    ],
+    "answer_cue": "Second choice"
+  },
+  {
+    "id": "v110",
+    "text": "Q34 If you had to choose, which one of the things on this card would you say is most important?",
+    "stem": "maintaining order in the nation",
+    "item": "giving people more say in important government decisions",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "maintaining order in the nation"
+      },
+      {
+        "value": 2,
+        "label": "giving people more say in important government decisions"
+      },
+      {
+        "value": 3,
+        "label": "fighting rising prices"
+      },
+      {
+        "value": 4,
+        "label": "protecting freedom of speech"
+      }
+    ],
+    "answer_cue": "First choice"
+  },
+  {
+    "id": "v111",
+    "text": "Q35 And which would be the next most important?",
+    "stem": "maintaining order in the nation",
+    "item": "giving people more say in important government decisions",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "maintaining order in the nation"
+      },
+      {
+        "value": 2,
+        "label": "giving people more say in important government decisions"
+      },
+      {
+        "value": 3,
+        "label": "fighting rising prices"
+      },
+      {
+        "value": 4,
+        "label": "protecting freedom of speech"
+      }
+    ],
+    "answer_cue": "Second choice"
+  },
+  {
+    "id": "v112",
+    "text": "Q36. Of course, we all hope that there will not be another war, but if it were to come to that, would you be willing to fight for your country?",
+    "stem": "would you be willing to fight for your country?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 2,
+        "label": "No"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "Q37 Here are two changes in our way of life that might take place in the near future. Please tell me for each one, if it were to happen whether you think it would be a good thing, a bad thing, or you do not mind.",
+    "stem": "Less importance placed on work in our lives",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Good"
+      },
+      {
+        "value": 2,
+        "label": "Bad"
+      },
+      {
+        "value": 3,
+        "label": "Don't mind"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "Q37 Here are two changes in our way of life that might take place in the near future. Please tell me for each one, if it were to happen whether you think it would be a good thing, a bad thing, or you do not mind.",
+    "stem": "Greater respect for authority",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Good"
+      },
+      {
+        "value": 2,
+        "label": "Bad"
+      },
+      {
+        "value": 3,
+        "label": "Don't mind"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The church",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v116",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The armed forces",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v117",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The education system",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v118",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The press",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v119",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Trade unions",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v120",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The police",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v121",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Parliament",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v122",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Civil service",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v123",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The social security system",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v124",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The European Union",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v125",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "United Nations Organisation",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v126",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Health care system",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v127",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "The justice system",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v128",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Major companies",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v129",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Environmental organisations",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v130",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Political parties",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v131",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Government",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v132",
+    "text": "Q38 Please look at this card and tell me, for each item listed, how much confidence you have in them, is it a great deal, quite a lot, not very much or none at all?",
+    "stem": "Social media",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "a great deal"
+      },
+      {
+        "value": 2,
+        "label": "quite a lot"
+      },
+      {
+        "value": 3,
+        "label": "not very much"
+      },
+      {
+        "value": 4,
+        "label": "none at all"
+      }
+    ],
+    "answer_cue": "confidence"
+  },
+  {
+    "id": "v133",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "Governments tax the rich and subsidise the poor",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v134",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "Religious authorities ultimately interpret the laws",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v135",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "People choose their leaders in free elections",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v136",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "People receive state aid for unemployment",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v137",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "The army takes over when government is incompetent",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v138",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "Civil rights protect people from state oppression",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v139",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "The state makes people's incomes equal",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v140",
+    "text": "Q39 Many things are desirable, but not all of them are essential characteristics of democracy. Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"",
+    "stem": "People obey their rulers.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all an essential characteristic of democracy"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "An essential characteristic of democracy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v142",
+    "text": "Q40 How important is it for you to live in a country that is governed democratically? On this scale where 1 means it is \"not at all important\" and 10 means \"absolutely important\" what position would you choose?",
+    "stem": "How important is it for you to live in a country that is governed democratically?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all important"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Absolutely important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v143",
+    "text": "Q41 And how democratically is this country being governed today? Again using a scale from 1 to 10, where 1 means that it is \"not at all democratic\" and 10 means that it is \"completely democratic,” what position would you choose?",
+    "stem": "And how democratically is this country being governed today?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not at all democratic"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Completely democratic"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v144",
+    "text": "Q42 On a scale from 1 to 10 where \"1\" is \"not satisfied at all\" and \"10\" is \"completely satisfied\", how satisfied are you with how the political system is functioning in your country these days?",
+    "stem": "how satisfied are you with how the political system is functioning in your country these days?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Not satisfied at all"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Completely satisfied"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v145",
+    "text": "Q43 I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+    "stem": "Having a strong leader who does not have to bother with parliament and elections",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very good"
+      },
+      {
+        "value": 2,
+        "label": "fairly good"
+      },
+      {
+        "value": 3,
+        "label": "fairly bad"
+      },
+      {
+        "value": 4,
+        "label": "very bad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Q43 I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+    "stem": "Having experts, not government, make decisions according to what they think is best for the country",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very good"
+      },
+      {
+        "value": 2,
+        "label": "fairly good"
+      },
+      {
+        "value": 3,
+        "label": "fairly bad"
+      },
+      {
+        "value": 4,
+        "label": "very bad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "Q43 I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+    "stem": "Having the army rule the country",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very good"
+      },
+      {
+        "value": 2,
+        "label": "fairly good"
+      },
+      {
+        "value": 3,
+        "label": "fairly bad"
+      },
+      {
+        "value": 4,
+        "label": "very bad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Q43 I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?",
+    "stem": "Having a democratic political system",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very good"
+      },
+      {
+        "value": 2,
+        "label": "fairly good"
+      },
+      {
+        "value": 3,
+        "label": "fairly bad"
+      },
+      {
+        "value": 4,
+        "label": "very bad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Claiming state benefits which you are not entitled to",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v150",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Cheating on tax if you have the chance",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v151",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Taking the drugs marijuana or hashish",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v152",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Someone accepting a bribe in the course of their duties",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v153",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Homosexuality",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v154",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Abortion",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v155",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Divorce",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v156",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Euthanasia (terminating the life of the incurably sick)",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v157",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Suicide",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v158",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Having casual sex",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v159",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Avoiding a fare on public transport",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v160",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Prostitution",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v161",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Artificial insemination or in-vitro fertilization",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v162",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Political violence",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v163",
+    "text": "Q44 Please tell me for each of the following whether you think it can always be justified, never be justified, or something in between, using this card.",
+    "stem": "Death penalty",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "never"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "always"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v164",
+    "text": "Q45 People have different views about themselves and how they relate to the world. Using this card, would you tell me how close do you feel to...?",
+    "stem": "your town or city",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very close"
+      },
+      {
+        "value": 2,
+        "label": "Close"
+      },
+      {
+        "value": 3,
+        "label": "Not very close"
+      },
+      {
+        "value": 4,
+        "label": "Not close at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "Q45 People have different views about themselves and how they relate to the world. Using this card, would you tell me how close do you feel to...?",
+    "stem": "your [county,]",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very close"
+      },
+      {
+        "value": 2,
+        "label": "Close"
+      },
+      {
+        "value": 3,
+        "label": "Not very close"
+      },
+      {
+        "value": 4,
+        "label": "Not close at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "Q45 People have different views about themselves and how they relate to the world. Using this card, would you tell me how close do you feel to...?",
+    "stem": "[Britain]",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very close"
+      },
+      {
+        "value": 2,
+        "label": "Close"
+      },
+      {
+        "value": 3,
+        "label": "Not very close"
+      },
+      {
+        "value": 4,
+        "label": "Not close at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Q45 People have different views about themselves and how they relate to the world. Using this card, would you tell me how close do you feel to...?",
+    "stem": "[Europe]",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very close"
+      },
+      {
+        "value": 2,
+        "label": "Close"
+      },
+      {
+        "value": 3,
+        "label": "Not very close"
+      },
+      {
+        "value": 4,
+        "label": "Not close at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Q45 People have different views about themselves and how they relate to the world. Using this card, would you tell me how close do you feel to...?",
+    "stem": "the World",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very close"
+      },
+      {
+        "value": 2,
+        "label": "Close"
+      },
+      {
+        "value": 3,
+        "label": "Not very close"
+      },
+      {
+        "value": 4,
+        "label": "Not close at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v170",
+    "text": "Q47 How proud are you to be a British citizen...READ OUT...",
+    "stem": "How proud are you to be a British citizen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very proud"
+      },
+      {
+        "value": 2,
+        "label": "quite proud"
+      },
+      {
+        "value": 3,
+        "label": "not very proud"
+      },
+      {
+        "value": 4,
+        "label": "not at all proud"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v171",
+    "text": "Do you vote always, usually or never at the Local level?",
+    "stem": "When elections take place, do you vote always, usually or never? Please tell me separately for local elections, national general elections and elections to the European Parliament",
+    "item": "Do you vote always, usually or never at the Local level?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Always"
+      },
+      {
+        "value": 2,
+        "label": "Usually"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v172",
+    "text": "Do you vote always, usually or never at the National level?",
+    "stem": "When elections take place, do you vote always, usually or never? Please tell me separately for local elections, national general elections and elections to the European Parliament",
+    "item": "Do you vote always, usually or never at the National level?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Always"
+      },
+      {
+        "value": 2,
+        "label": "Usually"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v173",
+    "text": "Do you vote always, usually or never at the European level ?",
+    "stem": "When elections take place, do you vote always, usually or never? Please tell me separately for local elections, national general elections and elections to the European Parliament",
+    "item": "Do you vote always, usually or never at the European level ?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Always"
+      },
+      {
+        "value": 2,
+        "label": "Usually"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174",
+    "text": "Which (political) party appeals to you most?",
+    "stem": "Which (political) party appeals to you most?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Conservative"
+      },
+      {
+        "value": 2,
+        "label": "Labour"
+      },
+      {
+        "value": 3,
+        "label": "Liberal Democrat"
+      },
+      {
+        "value": 4,
+        "label": "Scottish National Party"
+      },
+      {
+        "value": 5,
+        "label": "Plaid Cymru"
+      },
+      {
+        "value": 6,
+        "label": "Green Party"
+      },
+      {
+        "value": 7,
+        "label": "UK Independence Party (UKIP)"
+      },
+      {
+        "value": 8,
+        "label": "British National Party (BNP)/ National Front"
+      },
+      {
+        "value": 9,
+        "label": "Other party"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174a",
+    "text": "Is there another party that appeals to you?",
+    "stem": "Is there another party that appeals to you?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Conservative"
+      },
+      {
+        "value": 2,
+        "label": "Labour"
+      },
+      {
+        "value": 3,
+        "label": "Liberal Democrat"
+      },
+      {
+        "value": 4,
+        "label": "Scottish National Party"
+      },
+      {
+        "value": 5,
+        "label": "Plaid Cymru"
+      },
+      {
+        "value": 6,
+        "label": "Green Party"
+      },
+      {
+        "value": 7,
+        "label": "UK Independence Party (UKIP)"
+      },
+      {
+        "value": 8,
+        "label": "British National Party (BNP)/ National Front"
+      },
+      {
+        "value": 9,
+        "label": "Other party"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v176",
+    "text": "Votes are counted fairly",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Votes are counted fairly",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v177",
+    "text": "Opposition candidates are prevented from running",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Opposition candidates are prevented from running",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v178",
+    "text": "TV news favours the governing party",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "TV news favours the governing party",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v179",
+    "text": "Voters are bribed",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Voters are bribed",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v180",
+    "text": "Journalists provide fair coverage of elections",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Journalists provide fair coverage of elections",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v181",
+    "text": "Election officials are fair",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Election officials are fair",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v182",
+    "text": "Rich people buy elections",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Rich people buy elections",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v183",
+    "text": "Voters are threatened with violence at the polls",
+    "stem": "In your view, how often do the following things occur in this country's elections?",
+    "item": "Voters are threatened with violence at the polls",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Very often"
+      },
+      {
+        "value": 2,
+        "label": "Fairly often"
+      },
+      {
+        "value": 3,
+        "label": "Not often"
+      },
+      {
+        "value": 4,
+        "label": "Not at all often"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "How would you evaluate the impact of these people on the development of [Britain]?",
+    "stem": "Now we would like to know your opinion about the people from other countries who come to live in Britain - the immigrants.",
+    "item": "How would you evaluate the impact of these people on the development of [Britain]?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 5,
+        "label": "Very good"
+      },
+      {
+        "value": 4,
+        "label": "Quite good"
+      },
+      {
+        "value": 3,
+        "label": "Neither good, nor bad"
+      },
+      {
+        "value": 2,
+        "label": "Quite bad"
+      },
+      {
+        "value": 1,
+        "label": "Very bad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Immigrants take jobs away from the British",
+    "stem": "Please look at the following statements and indicate where you would place your views on this scale?",
+    "item": "Immigrants take jobs away from the British",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Immigrants do not take jobs away from the British"
+  },
+  {
+    "id": "v186",
+    "text": "Immigrants make crime problems worse",
+    "stem": "Please look at the following statements and indicate where you would place your views on this scale?",
+    "item": "Immigrants make crime problems worse",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Immigrants do not make crime problems worse"
+  },
+  {
+    "id": "v187",
+    "text": "Immigrants are a strain on a country's welfare system",
+    "stem": "Please look at the following statements and indicate where you would place your views on this scale?",
+    "item": "Immigrants are a strain on a country's welfare system",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Immigrants are not a strain on a country's welfare system"
+  },
+  {
+    "id": "v188",
+    "text": "It is better if immigrants maintain their distinct customs and traditions",
+    "stem": "Please look at the following statements and indicate where you would place your views on this scale?",
+    "item": "It is better if immigrants maintain their distinct customs and traditions",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "It is better if immigrants do not maintain their distinct customs and traditions"
+  },
+  {
+    "id": "v189",
+    "text": "To have been born in Britain",
+    "stem": "Some people say the following things are important for being truly British. Others say they are not important.",
+    "item": "To have been born in Britain",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "To respect Britain's political institutions and laws",
+    "stem": "Some people say the following things are important for being truly British. Others say they are not important.",
+    "item": "To respect Britain's political institutions and laws",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "To have British ancestry",
+    "stem": "Some people say the following things are important for being truly British. Others say they are not important.",
+    "item": "To have British ancestry",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "To be able to speak English",
+    "stem": "Some people say the following things are important for being truly British. Others say they are not important.",
+    "item": "To be able to speak English",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "To share British culture",
+    "stem": "Some people say the following things are important for being truly British. Others say they are not important.",
+    "item": "To share British culture",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "To be born in Europe",
+    "stem": "People differ in what they think it means to be European.",
+    "item": "To be born in Europe",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "To have European ancestry",
+    "stem": "People differ in what they think it means to be European.",
+    "item": "To have European ancestry",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "To be a Christian",
+    "stem": "People differ in what they think it means to be European.",
+    "item": "To be a Christian",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v197",
+    "text": "To share European culture",
+    "stem": "People differ in what they think it means to be European.",
+    "item": "To share European culture",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "Some say that the European Union enlargement should go further. Others say it has already gone too far.",
+    "stem": "Some say that the European Union enlargement should go further. Others say it has already gone too far.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "has already gone too far"
+  },
+  {
+    "id": "v199",
+    "text": "I would give part of my income if I were certain that the money would be used to prevent environmental pollution",
+    "stem": "How much do you agree or disagree with each of these statements?",
+    "item": "I would give part of my income if I were certain that the money would be used to prevent environmental pollution",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v200",
+    "text": "It is just too difficult for someone like me to do much about the environment",
+    "stem": "How much do you agree or disagree with each of these statements?",
+    "item": "It is just too difficult for someone like me to do much about the environment",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "There are more important things to do in life than protect the environment",
+    "stem": "How much do you agree or disagree with each of these statements?",
+    "item": "There are more important things to do in life than protect the environment",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "There is no point in doing what I can for the environment unless others do the same",
+    "stem": "How much do you agree or disagree with each of these statements?",
+    "item": "There is no point in doing what I can for the environment unless others do the same",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Many of the claims about environmental threats are exaggerated",
+    "stem": "How much do you agree or disagree with each of these statements?",
+    "item": "Many of the claims about environmental threats are exaggerated",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "agree strongly"
+      },
+      {
+        "value": 2,
+        "label": "agree"
+      },
+      {
+        "value": 3,
+        "label": "neither agree nor disagree"
+      },
+      {
+        "value": 4,
+        "label": "disagree"
+      },
+      {
+        "value": 5,
+        "label": "disagree strongly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Here are two statements people sometimes make when discussing the environment and economic growth. Which of them comes closer to your own point of view?",
+    "stem": "Here are two statements people sometimes make when discussing the environment and economic growth.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Protecting the environment should be given priority, even if it causes slower economic growth and some loss of jobs."
+      },
+      {
+        "value": 2,
+        "label": "Economic growth and creating jobs should be the top priority, even if the environment suffers to some extent."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Keep people under video surveillance in public areas",
+    "stem": "Do you think that the British government should or should not have the right to do the following:",
+    "item": "Keep people under video surveillance in public areas",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Definitely should have the right"
+      },
+      {
+        "value": 2,
+        "label": "Probably should have the right"
+      },
+      {
+        "value": 3,
+        "label": "Probably should not have the right"
+      },
+      {
+        "value": 4,
+        "label": "Definitely should not have the right"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Monitor all e-mails and any other information exchanged on the Internet",
+    "stem": "Do you think that the British government should or should not have the right to do the following:",
+    "item": "Monitor all e-mails and any other information exchanged on the Internet",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Definitely should have the right"
+      },
+      {
+        "value": 2,
+        "label": "Probably should have the right"
+      },
+      {
+        "value": 3,
+        "label": "Probably should not have the right"
+      },
+      {
+        "value": 4,
+        "label": "Definitely should not have the right"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Collect information about anyone living in Britain without their knowledge",
+    "stem": "Do you think that the British government should or should not have the right to do the following:",
+    "item": "Collect information about anyone living in Britain without their knowledge",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Definitely should have the right"
+      },
+      {
+        "value": 2,
+        "label": "Probably should have the right"
+      },
+      {
+        "value": 3,
+        "label": "Probably should not have the right"
+      },
+      {
+        "value": 4,
+        "label": "Definitely should not have the right"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v208",
+    "text": "on television?",
+    "stem": "How often do you follow politics...",
+    "item": "on television?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Every day"
+      },
+      {
+        "value": 2,
+        "label": "Several times a week"
+      },
+      {
+        "value": 3,
+        "label": "Once or twice a week"
+      },
+      {
+        "value": 4,
+        "label": "Less often"
+      },
+      {
+        "value": 5,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v209",
+    "text": "on the radio?",
+    "stem": "How often do you follow politics...",
+    "item": "on the radio?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Every day"
+      },
+      {
+        "value": 2,
+        "label": "Several times a week"
+      },
+      {
+        "value": 3,
+        "label": "Once or twice a week"
+      },
+      {
+        "value": 4,
+        "label": "Less often"
+      },
+      {
+        "value": 5,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v210",
+    "text": "in the daily papers?",
+    "stem": "How often do you follow politics...",
+    "item": "in the daily papers?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Every day"
+      },
+      {
+        "value": 2,
+        "label": "Several times a week"
+      },
+      {
+        "value": 3,
+        "label": "Once or twice a week"
+      },
+      {
+        "value": 4,
+        "label": "Less often"
+      },
+      {
+        "value": 5,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v211",
+    "text": "... on social media ?",
+    "stem": "How often do you follow politics...",
+    "item": "... on social media ?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Every day"
+      },
+      {
+        "value": 2,
+        "label": "Several times a week"
+      },
+      {
+        "value": 3,
+        "label": "Once or twice a week"
+      },
+      {
+        "value": 4,
+        "label": "Less often"
+      },
+      {
+        "value": 5,
+        "label": "Never"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "People in your neighbourhood",
+    "stem": "To what extent do you feel concerned about the living conditions of:",
+    "item": "People in your neighbourhood",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "very much"
+      },
+      {
+        "value": 2,
+        "label": "much"
+      },
+      {
+        "value": 3,
+        "label": "to a certain extent"
+      },
+      {
+        "value": 4,
+        "label": "not so much"
+      },
+      {
+        "value": 5,
+        "label": "not at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "The people of the region you live in",
+    "stem": "To what extent do you care about:",
+    "item": "The people of the region you live in",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "Your fellow countrymen",
+    "stem": "To what extent do you care about:",
+    "item": "Your fellow countrymen",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "Europeans",
+    "stem": "To what extent do you care about:",
+    "item": "Europeans",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "All humans all over the world",
+    "stem": "To what extent do you care about:",
+    "item": "All humans all over the world",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "elderly people",
+    "stem": "To what extent do you feel concerned about the living conditions of the following groups living in your country:",
+    "item": "elderly people",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "very much"
+      },
+      {
+        "value": 2,
+        "label": "much"
+      },
+      {
+        "value": 3,
+        "label": "to a certain extent"
+      },
+      {
+        "value": 4,
+        "label": "not so much"
+      },
+      {
+        "value": 5,
+        "label": "not at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "unemployed people",
+    "stem": "To what extent do you feel concerned about the living conditions of the following groups living in your country:",
+    "item": "unemployed people",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "very much"
+      },
+      {
+        "value": 2,
+        "label": "much"
+      },
+      {
+        "value": 3,
+        "label": "to a certain extent"
+      },
+      {
+        "value": 4,
+        "label": "not so much"
+      },
+      {
+        "value": 5,
+        "label": "not at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "immigrants",
+    "stem": "To what extent do you feel concerned about the living conditions of the following groups living in your country:",
+    "item": "immigrants",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "very much"
+      },
+      {
+        "value": 2,
+        "label": "much"
+      },
+      {
+        "value": 3,
+        "label": "to a certain extent"
+      },
+      {
+        "value": 4,
+        "label": "not so much"
+      },
+      {
+        "value": 5,
+        "label": "not at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "sick and disabled people",
+    "stem": "To what extent do you feel concerned about the living conditions of the following groups living in your country:",
+    "item": "sick and disabled people",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "very much"
+      },
+      {
+        "value": 2,
+        "label": "much"
+      },
+      {
+        "value": 3,
+        "label": "to a certain extent"
+      },
+      {
+        "value": 4,
+        "label": "not so much"
+      },
+      {
+        "value": 5,
+        "label": "not at all"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "Eliminating big inequalities in income between citizens",
+    "stem": "What should a society provide? Please tell me for each statement if it is important or unimportant to you:",
+    "item": "Eliminating big inequalities in income between citizens",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Guaranteeing that basic needs are met for all, in terms of food, housing, clothing, education, health",
+    "stem": "What should a society provide? Please tell me for each statement if it is important or unimportant to you:",
+    "item": "Guaranteeing that basic needs are met for all, in terms of food, housing, clothing, education, health",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Recognizing people on their merits",
+    "stem": "What should a society provide? Please tell me for each statement if it is important or unimportant to you:",
+    "item": "Recognizing people on their merits",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Protecting against terrorism",
+    "stem": "What should a society provide? Please tell me for each statement if it is important or unimportant to you:",
+    "item": "Protecting against terrorism",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "very important"
+      },
+      {
+        "value": 2,
+        "label": "quite important"
+      },
+      {
+        "value": 3,
+        "label": "not important"
+      },
+      {
+        "value": 4,
+        "label": "not at all important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62a",
+    "text": "How happy or how disappointed are you that the UK voted to leave the European Union?",
+    "stem": "How happy or how disappointed are you that the UK voted to leave the European Union?",
+    "item": "How happy or how disappointed are you that the UK voted to leave the European Union?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Extremely disappointed"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Extremely happy"
+      }
+    ],
+    "answer_cue": null
+  }
+]

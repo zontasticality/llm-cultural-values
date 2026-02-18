@@ -1,0 +1,6374 @@
+[
+  {
+    "id": "q1",
+    "text": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir... Darbs",
+    "stem": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir...",
+    "item": "Darbs",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q1",
+    "text": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir... Ģimene",
+    "stem": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir...",
+    "item": "Ģimene",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q1",
+    "text": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir... Draugi un paziņas",
+    "stem": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir...",
+    "item": "Draugi un paziņas",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q1",
+    "text": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir... Brīvais laiks",
+    "stem": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir...",
+    "item": "Brīvais laiks",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q1",
+    "text": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir... Politika",
+    "stem": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir...",
+    "item": "Politika",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q1",
+    "text": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir... Reliģija",
+    "stem": "Sakiet, lūdzu, cik svarīgi Jūsu dzīvē ir...",
+    "item": "Reliģija",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q2v7",
+    "text": "Kopumā ņemot, vai Jūs par sevi varat teikt, ka esat ...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti laimīgs/a"
+      },
+      {
+        "value": 2,
+        "label": "diezgan laimīgs/a"
+      },
+      {
+        "value": 3,
+        "label": "ne visai laimīgs/a"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nelaimīgs/a"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q3v8",
+    "text": "Kopumā ņemot, kā Jūs novērtētu savu veselības stāvokli pēdējā laikā? Vai tas ir...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti labs"
+      },
+      {
+        "value": 2,
+        "label": "labs"
+      },
+      {
+        "value": 3,
+        "label": "vidējs"
+      },
+      {
+        "value": 4,
+        "label": "slikts"
+      },
+      {
+        "value": 5,
+        "label": "ļoti slikts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). A - Reliģiskās vai baznīcas organizācijas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "A - Reliģiskās vai baznīcas organizācijas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). B - Izglītības, mākslas, mūzikas vai kultūras aktivitātes",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "B - Izglītības, mākslas, mūzikas vai kultūras aktivitātes",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). C - Arodbiedrības",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "C - Arodbiedrības",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). D - Politiskās partijas vai grupas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "D - Politiskās partijas vai grupas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). E - Vide, ekoloģija, dzīvnieku tiesības",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "E - Vide, ekoloģija, dzīvnieku tiesības",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). F - Profesionālās asociācijas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "F - Profesionālās asociācijas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). G - Sports vai atpūta",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "G - Sports vai atpūta",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). H - Palīdzības vai labdarības organizācijas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "H - Palīdzības vai labdarības organizācijas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). I - Patērētāju interešu aizstāvības organizācijas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "I - Patērētāju interešu aizstāvības organizācijas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). J - Pašpalīdzības vai savstarpējās palīdzības grupas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "J - Pašpalīdzības vai savstarpējās palīdzības grupas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q4",
+    "text": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat). K - Citas grupas",
+    "stem": "Lūdzu, uzmanīgi izlasiet šo brīvprātīgo organizāciju veidu sarakstu un sakiet, kurās no tām Jūs esat biedrs (ja esat).",
+    "item": "K - Citas grupas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q5v21",
+    "text": "Vai pēdējo 6 mēnešu laikā Jūs esat veicis/kusi brīvprātīgo darbu (bez atalgojuma)?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 0,
+        "label": "Nē"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? A - Citas rases cilvēki",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "A - Citas rases cilvēki",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? B - Dzērāji",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "B - Dzērāji",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? C - Imigranti/ viesstrādnieki",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "C - Imigranti/ viesstrādnieki",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? D - Narkomāni",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "D - Narkomāni",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? E - Homoseksuāļi",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "E - Homoseksuāļi",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? F - Kristieši",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "F - Kristieši",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? G - Musulmaņi",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "G - Musulmaņi",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? H - Ebreji",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "H - Ebreji",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q6",
+    "text": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos? I - Čigāni",
+    "stem": "Šajā sarakstā minētas dažādas cilvēku grupas. Ar kuriem cilvēkiem Jūs nevēlētos dzīvot kaimiņos?",
+    "item": "I - Čigāni",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 0,
+        "label": "Netika minēts"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q7v31",
+    "text": "Vai, kopumā ņemot, vairākumam cilvēku var uzticēties, vai arī saskarsmē ar cilvēkiem jābūt piesardzīgam?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "vairākumam cilvēku var uzticēties"
+      },
+      {
+        "value": 2,
+        "label": "saskarsmē ar cilvēkiem jābūt piesardzīgam"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q8",
+    "text": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties? Savai ģimenei",
+    "stem": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties?",
+    "item": "Savai ģimenei",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "Zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "Ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz neuzticos"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q8",
+    "text": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties? Cilvēkiem Jūsu apkaimē",
+    "stem": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties?",
+    "item": "Cilvēkiem Jūsu apkaimē",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "Zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "Ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz neuzticos"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q8",
+    "text": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties? Jums personīgi pazīstamiem cilvēkiem",
+    "stem": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties?",
+    "item": "Jums personīgi pazīstamiem cilvēkiem",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "Zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "Ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz neuzticos"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q8",
+    "text": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties? Cilvēkiem, kurus satiekat pirmoreiz",
+    "stem": "Nākamais jautājums ir par to, cik lielā mērā Jūs uzticaties dažādām cilvēku grupām. Sakiet, lūdzu, par katru, vai Jūs šīs grupas cilvēkiem pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai nemaz neuzticaties?",
+    "item": "Cilvēkiem, kurus satiekat pirmoreiz",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "Zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "Ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz neuzticos"
+      }
+    ],
+    "answer_cue": "Nezinu"
+  },
+  {
+    "id": "q9v38",
+    "text": "PARĀDIET KARTĪTI 9",
+    "stem": "Dažiem cilvēkiem šķiet, ka viņiem ir pilnīga izvēles brīvība un kontrole pār savu dzīvi. Citiem cilvēkiem šķiet, ka viņi nespēj ietekmēt to, kas ar viņiem notiek. Lūdzu, izmantojot skalu, novērtējiet, cik lielā mērā, Jūsuprāt, Jūs spējat ietekmēt to, kas ar Jums notiek?",
+    "item": "Nemaz nevaru ietekmēt",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": "Lielā mērā ietekmēt"
+  },
+  {
+    "id": "q10v39",
+    "text": "PARĀDIET KARTĪTI 10",
+    "stem": "Kopumā ņemot, cik apmierināts/a Jūs esat ar savu dzīvi šobrīd? Lūdzu, atbildiet, izmantojot šo kartīti.",
+    "item": "1 Neapmierināts",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Neapmierināts"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Apmierināts"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": "10 Apmierināts"
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Laba alga",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Labs darba laiks",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Iespēja izrādīt iniciatīvu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Garš atvaļinājums",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Darbs, kurā Jūs jūtat, ka varat kaut ko sasniegt",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Atbildīgs darbs",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "PARĀDIET KARTĪTI 11 - ATZĪMĒJIET VISUS MINĒTOS",
+    "stem": "Zemāk minēti dažādi darba aspekti, kurus cilvēki mēdz vērtēt kā svarīgus. Sakiet, lūdzu, kuri no tiem Jums šķiet svarīgi?",
+    "item": "Neviens no minētajiem",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q12",
+    "text": "PARĀDIET KARTĪTI 12 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Darbs ir vajadzīgs, lai pilnveidotu savas spējas",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q12",
+    "text": "PARĀDIET KARTĪTI 12 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Saņemt naudu nestrādājot ir pazemojoši",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q12",
+    "text": "PARĀDIET KARTĪTI 12 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Cilvēki, kas nestrādā, kļūst slinki",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q12",
+    "text": "PARĀDIET KARTĪTI 12 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Darbs ir pienākums pret sabiedrību",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q12",
+    "text": "PARĀDIET KARTĪTI 12 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Darbam jābūt pirmajā vietā, pat ja tas samazina brīvo laiku",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q13v51",
+    "text": "Sakiet, lūdzu, vai Jūs piederat kādai reliģiskajai ticībai (konfesijai)?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q13av52",
+    "text": "PARĀDIET KARTĪTI 13a",
+    "stem": "Pie kādas ticības Jūs piederat?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Katoļu"
+      },
+      {
+        "value": 2,
+        "label": "Luterāņu"
+      },
+      {
+        "value": 3,
+        "label": "Pareizticīgo"
+      },
+      {
+        "value": 4,
+        "label": "Baptistu"
+      },
+      {
+        "value": 5,
+        "label": "Vecticībnieku"
+      },
+      {
+        "value": 6,
+        "label": "Vasarassvētku"
+      },
+      {
+        "value": 7,
+        "label": "Septītās dienas adventistu"
+      },
+      {
+        "value": 8,
+        "label": "Metodistu"
+      },
+      {
+        "value": 9,
+        "label": "Musulmaņu"
+      },
+      {
+        "value": 10,
+        "label": "Budistu"
+      },
+      {
+        "value": 11,
+        "label": "Jūdaistu"
+      },
+      {
+        "value": 12,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": "Cita (lūdzu, precizējiet)"
+  },
+  {
+    "id": "q14v53",
+    "text": "Vai Jūs kādreiz agrāk esat piederējis/usi kādai reliģiskai ticībai?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q15v54",
+    "text": "PARĀDIET KARTĪTI 15 - NOLASIET UN ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Neskaitot kāzas, bēres un kristības, apmēram cik bieži Jūs apmeklējat dievkalpojumus?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "biežāk kā reizi nedēļā"
+      },
+      {
+        "value": 2,
+        "label": "reizi nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "reizi mēnesī"
+      },
+      {
+        "value": 4,
+        "label": "tikai reliģiskajos svētkos"
+      },
+      {
+        "value": 5,
+        "label": "reizi gadā"
+      },
+      {
+        "value": 6,
+        "label": "retāk"
+      },
+      {
+        "value": 7,
+        "label": "nekad, praktiski nekad"
+      },
+      {
+        "value": 8,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q16v55",
+    "text": "PARĀDIET KARTĪTI 16 - NOLASIET UN ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Neskaitot kāzas, bēres un kristības, apmēram cik bieži Jūs apmeklējāt dievkalpojumus, kad Jums bija 12 gadu?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "biežāk kā reizi nedēļā"
+      },
+      {
+        "value": 2,
+        "label": "reizi nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "reizi mēnesī"
+      },
+      {
+        "value": 4,
+        "label": "tikai reliģiskajos svētkos"
+      },
+      {
+        "value": 5,
+        "label": "reizi gadā"
+      },
+      {
+        "value": 6,
+        "label": "retāk"
+      },
+      {
+        "value": 7,
+        "label": "nekad, praktiski nekad"
+      },
+      {
+        "value": 8,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q17v56",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Neatkarīgi no tā, vai apmeklējat baznīcu vai nē, vai Jūs uzskatāt sevi par ...?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ticīgu cilvēku"
+      },
+      {
+        "value": 2,
+        "label": "neticīgu cilvēku"
+      },
+      {
+        "value": 3,
+        "label": "pārliecinātu ateistu"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q18",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Sakiet, lūdzu, vai Jūs ticat ...?",
+    "item": "Dievam",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q18",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Sakiet, lūdzu, vai Jūs ticat ...?",
+    "item": "Dzīvei pēc nāves",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q18",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Sakiet, lūdzu, vai Jūs ticat ...?",
+    "item": "Ellei",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q18",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Sakiet, lūdzu, vai Jūs ticat ...?",
+    "item": "Paradīzei",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q19v61",
+    "text": "Vai Jūs ticat reinkarnācijai (dvēseļu pārdzimšanai), t.i., ka mums ir bijušas iepriekšējās dzīves un ka mēs šajā pasaulē piedzimsim no jauna?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q20v62",
+    "text": "PARĀDIET KARTĪTI 20 - NOLASIET UN ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Kurš no šiem apgalvojumiem ir vistuvākais Jūsu pārliecībai?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dievs ir personificēta būtne"
+      },
+      {
+        "value": 2,
+        "label": "pastāv kaut kāds augstāks spēks, gars"
+      },
+      {
+        "value": 3,
+        "label": "es tiešām nezinu, ko domāt"
+      },
+      {
+        "value": 4,
+        "label": "es nedomāju, ka pastāv kāds augstāks spēks, Dievs vai gars"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q21v63",
+    "text": "PARĀDIET KARTĪTI 21",
+    "stem": "Cik liela nozīme Jūsu dzīvē ir Dievam? Lūdzu, novērtējiet, izmantojot doto skalu, kur 1 nozīmē \"nemaz nav nozīmes\" bet 10 - \"ļoti liela nozīme\"",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 nav nozīmes"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 ļoti liela"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q22v64",
+    "text": "PARĀDIET KARTĪTI 22 - NOLASIET UN ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Neskaitot dievkalpojumus, cik bieži Jūs lūdzaties?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "katru dienu"
+      },
+      {
+        "value": 2,
+        "label": "biežāk kā reizi nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "reizi nedēļā"
+      },
+      {
+        "value": 4,
+        "label": "vismaz reizi mēnesī"
+      },
+      {
+        "value": 5,
+        "label": "vairākas reizes gadā"
+      },
+      {
+        "value": 6,
+        "label": "retāk"
+      },
+      {
+        "value": 7,
+        "label": "nekad"
+      },
+      {
+        "value": 8,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q23",
+    "text": "PARĀDIET KARTĪTI 23 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Ir dažādi nosacījumi veiksmīgām laulībām vai partnerattiecībām. Lūdzu, novērtējiet katru no minētajiemaspektiem, vai, Jūsuprāt, tas ir ļoti svarīgs, diezgan svarīgs vai nemaz nav svarīgs?",
+    "item": "Uzticība",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgs"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgs"
+      },
+      {
+        "value": 3,
+        "label": "nav īpaši svarīgs"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q24v71",
+    "text": "Vai Jūs piekrītat vai nepiekrītat apgalvojumam, ka laulības ir novecojis partnerattiecību veids?",
+    "stem": "Vai Jūs piekrītat vai nepiekrītat apgalvojumam, ka laulības ir novecojis partnerattiecību veids?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Kad māte strādā algotu darbu, cieš bērni",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Kad māte strādā algotu darbu, cieš bērni",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Darbs ir laba lieta, taču vairums sieviešu visvairāk vēlas mājas un bērnus",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Darbs ir laba lieta, taču vairums sieviešu visvairāk vēlas mājas un bērnus",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Kopumā, ja sievietei ir pilna laika darbs, cieš ģimene",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Kopumā, ja sievietei ir pilna laika darbs, cieš ģimene",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Vīrieša pienākums ir pelnīt naudu; sievietei jārūpējas par mājām un ģimeni",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Vīrieša pienākums ir pelnīt naudu; sievietei jārūpējas par mājām un ģimeni",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Kopumā vīrieši ir labāki politiskie līderi nekā sievietes",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Kopumā vīrieši ir labāki politiskie līderi nekā sievietes",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Augstākā izglītība ir svarīgāka puisim nekā meitenei",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Augstākā izglītība ir svarīgāka puisim nekā meitenei",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Kopumā vīrieši ir labāki uzņēmumu vadītāji nekā sievietes",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Kopumā vīrieši ir labāki uzņēmumu vadītāji nekā sievietes",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Viens no manas dzīves galvenajiem mērķiem ir, lai vecāki varētu ar mani lepoties",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem? Izmantojiet atbildes kartītē.",
+    "item": "Viens no manas dzīves galvenajiem mērķiem ir, lai vecāki varētu ar mani lepoties",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q26",
+    "text": "Kad trūkst darbavietu, darba devējiem būtu jādod priekšroka Latvijas iedzīvotājiem nevis imigrantiem",
+    "stem": "Sakiet, lūdzu, vai Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Kad trūkst darbavietu, darba devējiem būtu jādod priekšroka Latvijas iedzīvotājiem nevis imigrantiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q26",
+    "text": "Kad trūkst darbavietu, vīriešiem ir lielākas tiesības uz darbu nekā sievietēm",
+    "stem": "Sakiet, lūdzu, vai Jūs piekrītat vai nepiekrītat sekojošiem apgalvojumiem?",
+    "item": "Kad trūkst darbavietu, vīriešiem ir lielākas tiesības uz darbu nekā sievietēm",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q27",
+    "text": "Homoseksuāli pāri ir tikpat labi vecāki kā citi pāri",
+    "stem": "Kāds ir Jūsu viedoklis par sekojošiem apgalvojumiem?",
+    "item": "Homoseksuāli pāri ir tikpat labi vecāki kā citi pāri",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q27",
+    "text": "Radīt bērnus - tas ir pienākums pret sabiedrību",
+    "stem": "Kāds ir Jūsu viedoklis par sekojošiem apgalvojumiem?",
+    "item": "Radīt bērnus - tas ir pienākums pret sabiedrību",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q27",
+    "text": "Pieaugušajiem bērniem ir pienākums nodrošināt saviem vecākiem ilgtermiņa aprūpi",
+    "stem": "Kāds ir Jūsu viedoklis par sekojošiem apgalvojumiem?",
+    "item": "Pieaugušajiem bērniem ir pienākums nodrošināt saviem vecākiem ilgtermiņa aprūpi",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "nepiekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Laba uzvedība",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Laba uzvedība",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Neatkarība, patstāvība",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Neatkarība, patstāvība",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Darba mīlestība",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Darba mīlestība",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Atbildības sajūta",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Atbildības sajūta",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Iztēle",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Iztēle",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "lecietība un cieņa pret citiem cilvēkiem",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "lecietība un cieņa pret citiem cilvēkiem",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Saimnieciskums, taupīgums pret naudu un lietām",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Saimnieciskums, taupīgums pret naudu un lietām",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Noteiktība, neatlaidība",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Noteiktība, neatlaidība",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Reliģiskums",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Reliģiskums",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Nesavtība",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Nesavtība",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Paklausība",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Paklausība",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Nezinu",
+    "stem": "Kartītē minētas dažādas īpašības, kuras bērns var tikt mudināts iemācīties mājās. Lūdzu, izvēlieties PIECAS rakstura iezīmes, kuras Jūsuprāt ir vissvarīgāk attīstīt bērnam!",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Tika minēts"
+      },
+      {
+        "value": 2,
+        "label": "Netika minēts"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      },
+      {
+        "value": 4,
+        "label": "Nav atbildes"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q29v97",
+    "text": "Sakiet, cik lielā mērā Jūs interesējaties par politiku?",
+    "stem": "Sakiet, cik lielā mērā Jūs interesējaties par politiku?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti interesējos"
+      },
+      {
+        "value": 2,
+        "label": "mazliet interesējos"
+      },
+      {
+        "value": 3,
+        "label": "ne pārāk interesējos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neinteresējos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q30",
+    "text": "Petīcijas, aicinājuma parakstīšana",
+    "stem": "Lūdzu apskatiet šo kartīti. Es nolasīšu dažādas politiskās rīcības formas. Pasakiet par katru no tām, vai esat to kādreiz darījis/usi, varētu darīt vai nekad, nekādos apstākļos nedarītu?",
+    "item": "Petīcijas, aicinājuma parakstīšana",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "esat darījis/usi"
+      },
+      {
+        "value": 2,
+        "label": "varētu darīt"
+      },
+      {
+        "value": 3,
+        "label": "nekad nedarītu"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q30",
+    "text": "Piedalīšanās boikotos",
+    "stem": "Lūdzu apskatiet šo kartīti. Es nolasīšu dažādas politiskās rīcības formas. Pasakiet par katru no tām, vai esat to kādreiz darījis/usi, varētu darīt vai nekad, nekādos apstākļos nedarītu?",
+    "item": "Piedalīšanās boikotos",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "esat darījis/usi"
+      },
+      {
+        "value": 2,
+        "label": "varētu darīt"
+      },
+      {
+        "value": 3,
+        "label": "nekad nedarītu"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q30",
+    "text": "Piedalīšanās likumīgās demonstrācijās",
+    "stem": "Lūdzu apskatiet šo kartīti. Es nolasīšu dažādas politiskās rīcības formas. Pasakiet par katru no tām, vai esat to kādreiz darījis/usi, varētu darīt vai nekad, nekādos apstākļos nedarītu?",
+    "item": "Piedalīšanās likumīgās demonstrācijās",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "esat darījis/usi"
+      },
+      {
+        "value": 2,
+        "label": "varētu darīt"
+      },
+      {
+        "value": 3,
+        "label": "nekad nedarītu"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q31v102",
+    "text": "PARĀDIET KARTĪTI 31",
+    "stem": "Apspriežot politiskus jautājumus, cilvēki runā par \"kreisajiem\" un \"labējiem\" uzskatiem. Kā Jūs, kopumā ņemot, novērtētu savus uzskatus pēc šīs skalas?",
+    "item": "Kreisi",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Labēji"
+  },
+  {
+    "id": "q31v102",
+    "text": "PARĀDIET KARTĪTI 31",
+    "stem": "Apspriežot politiskus jautājumus, cilvēki runā par \"kreisajiem\" un \"labējiem\" uzskatiem. Kā Jūs, kopumā ņemot, novērtētu savus uzskatus pēc šīs skalas?",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      }
+    ],
+    "answer_cue": "Labēji"
+  },
+  {
+    "id": "q32v103",
+    "text": "PARĀDIET KARTĪTI 32 - NOLASIET",
+    "stem": "Kartītē minēti viedokļi par dažādiem jautājumiem. Kā Jūs novērtētu savus uzskatus skalā no 1 līdz 10?",
+    "item": "Cilvēkiem ir jāuzņemas lielāka atbildība par savu nodrošināšanu",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Valstij ir jāuzņer lielāka atbildīb lai ikviens būtu nodroš"
+  },
+  {
+    "id": "q32v103",
+    "text": "PARĀDIET KARTĪTI 32 - NOLASIET",
+    "stem": "Kartītē minēti viedokļi par dažādiem jautājumiem. Kā Jūs novērtētu savus uzskatus skalā no 1 līdz 10?",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      }
+    ],
+    "answer_cue": "Valstij ir jāuzņer lielāka atbildīb lai ikviens būtu nodroš"
+  },
+  {
+    "id": "q32v104",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kā Jūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Bezdarbniekiem ir jāpieņem jebkurš darbs vai jāzaudē bezdarbnieka pabalsts",
+    "item": "Bezdarbniekiem ir jāpieņem jebkurš darbs vai jāzaudē bezdarbnieka pabalsts",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Bezdar ir jābūt tiesībār atteikti no darba, kuru viņš nevēlas"
+  },
+  {
+    "id": "q32v104",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kā Jūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Bezdarbniekiem ir jāpieņem jebkurš darbs vai jāzaudē bezdarbnieka pabalsts",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      }
+    ],
+    "answer_cue": "Bezdar ir jābūt tiesībār atteikti no darba, kuru viņš nevēlas"
+  },
+  {
+    "id": "q32v105",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kā Jūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Konkurence ir laba",
+    "item": "Konkurence ir laba",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Konkur ir kaitīga"
+  },
+  {
+    "id": "q32v105",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kā Jūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Konkurence ir laba",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      }
+    ],
+    "answer_cue": "Konkur ir kaitīga"
+  },
+  {
+    "id": "q32v106",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kāJūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Ienākumi ir jāpadara vienlīdzīgāki",
+    "item": "Ienākumi ir jāpadara vienlīdzīgāki",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Individı iniciatīv būtu labāk jāatalgo"
+  },
+  {
+    "id": "q32v106",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kāJūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Ienākumi ir jāpadara vienlīdzīgāki",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      }
+    ],
+    "answer_cue": "Individı iniciatīv būtu labāk jāatalgo"
+  },
+  {
+    "id": "q32v107",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kā Jūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Uzņēmējdarbībā un ražošanā ir jāpalielina privātīpašuma daļa",
+    "item": "Uzņēmējdarbībā un ražošanā ir jāpalielina privātīpašuma daļa",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Uzņēm un ražošaı ir jāpaliel valsts īpašum daļa"
+  },
+  {
+    "id": "q32v107",
+    "text": "Lūdzu, izlasiet apgalvojumus un atzīmējiet, kā Jūs novērtētu savus uzskatus skalā no viens līdz desmit:",
+    "stem": "Uzņēmējdarbībā un ražošanā ir jāpalielina privātīpašuma daļa",
+    "item": "Nezinu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Yes"
+      }
+    ],
+    "answer_cue": "Uzņēm un ražošaı ir jāpaliel valsts īpašum daļa"
+  },
+  {
+    "id": "q33v108",
+    "text": "PARĀDIET KARTĪTI 33 - NOLASIET ATBILDES UN JAUTĀJUMĀ Q33 ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Dažkārt cilvēki runā par to, kādiem būtu jābūt šīs valsts mērķiem tuvākajiem 10 gadiem. Šajā kartītē ir minēti daži mērķi, kurus dažādi cilvēki uzskatītu par galvenajiem. Sakiet, lūdzu, kuru no tiem Jūs uzskatāt par svarīgāko?",
+    "item": "levērojama ekonomikas izaugsme",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "levērojama ekonomikas izaugsme"
+      },
+      {
+        "value": 2,
+        "label": "Pārliecināties, ka valstij ir stipri aizsardzības spēki"
+      },
+      {
+        "value": 3,
+        "label": "Panākt, ka cilvēkiem ir vairāk teikšanas tajā, kā notiek lietas viņu darbā un kopienā"
+      },
+      {
+        "value": 4,
+        "label": "Censties padarīt skaistākas mūsu pilsētas un laukus"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q33av109",
+    "text": "JOPROJĀM RĀDĀM KARTĪTI 33 – NOLASIET ATBILDES UN JAUTĀJUMĀ Q33a ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Un kas būtu otrs svarīgākais?",
+    "item": "levērojama ekonomikas izaugsme",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "levērojama ekonomikas izaugsme"
+      },
+      {
+        "value": 2,
+        "label": "Pārliecināties, ka valstij ir stipri aizsardzības spēki"
+      },
+      {
+        "value": 3,
+        "label": "Panākt, ka cilvēkiem ir vairāk teikšanas tajā, kā notiek lietas viņu darbā un kopienā"
+      },
+      {
+        "value": 4,
+        "label": "Censties padarīt skaistākas mūsu pilsētas un laukus"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q34v110",
+    "text": "PARĀDIET KARTĪTI 34 - NOLASIET ATBILDES UN JAUTĀJUMĀ Q34 ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Ja Jums būtu jāizvēlas, kas no šajā kartītē minētā, Jūsuprāt, ir vissvarīgāk?",
+    "item": "saglabāt kārtību valstī",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "saglabāt kārtību valstī"
+      },
+      {
+        "value": 2,
+        "label": "dot cilvēkiem lielākas iespējas piedalīties svarīgu valsts lēmumu pieņemšanā"
+      },
+      {
+        "value": 3,
+        "label": "cīnīties pret cenu celšanos"
+      },
+      {
+        "value": 4,
+        "label": "aizsargāt vārda brīvību"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q35v111",
+    "text": "JOPROJĀM RĀDĀM KARTĪTI 60 - NOLASIET ATBILDES UN JAUTĀJUMĀ Q61 ATZĪMĒJIET TIKAI VIENU ATBILDI",
+    "stem": "Un kas būtu otrs svarīgākais",
+    "item": "saglabāt kārtību valstī",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "saglabāt kārtību valstī"
+      },
+      {
+        "value": 2,
+        "label": "dot cilvēkiem lielākas iespējas piedalīties svarīgu valsts lēmumu pieņemšanā"
+      },
+      {
+        "value": 3,
+        "label": "cīnīties pret cenu celšanos"
+      },
+      {
+        "value": 4,
+        "label": "aizsargāt vārda brīvību"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q36v112",
+    "text": "Protams, mēs visi ceram, ka nepiedzīvosim vēl vienu karu, taču, ja līdz tam nonāktu, vai Jūs būtu gatavs aizstāvēt savu valsti?",
+    "stem": "Protams, mēs visi ceram, ka nepiedzīvosim vēl vienu karu, taču, ja līdz tam nonāktu, vai Jūs būtu gatavs aizstāvēt savu valsti?",
+    "item": "Jā",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q37",
+    "text": "PARĀDIET KARTĪTI 37 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Šeit minētas divas tuvākajā laikā iespējamas pārmaiņas mūsu dzīvē. Lūdzu, pasakiet par katru no tām, ja tās īstenotos, vai Jūs šādas pārmaiņas vērtētu kā labas, sliktas, vai arī Jums tas būtu vienaldzīgi?",
+    "item": "Darba nozīmes mazināšanās mūsu dzīvē",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labi"
+      },
+      {
+        "value": 2,
+        "label": "slikti"
+      },
+      {
+        "value": 3,
+        "label": "vienalga"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q37",
+    "text": "PARĀDIET KARTĪTI 37 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Šeit minētas divas tuvākajā laikā iespējamas pārmaiņas mūsu dzīvē. Lūdzu, pasakiet par katru no tām, ja tās īstenotos, vai Jūs šādas pārmaiņas vērtētu kā labas, sliktas, vai arī Jums tas būtu vienaldzīgi?",
+    "item": "Lielāka cieņa pret valsts varas orgāniem",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "labi"
+      },
+      {
+        "value": 2,
+        "label": "slikti"
+      },
+      {
+        "value": 3,
+        "label": "vienalga"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Baznīcai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Latvijas armijai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Izglītības sistēmai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Presei",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Arodbiedrībām",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Policijai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Saeimai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Valsts iestādēm",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Sociālās apdrošināšanas sistēmai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_1",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Baznīcai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_2",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Latvijas armijai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_3",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Izglītības sistēmai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_4",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Presei",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_5",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Arodbiedrībām",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_6",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Policijai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_7",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Saeimai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_8",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Valsts iestādēm",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_9",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Sociālās apdrošināšanas sistēmai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_10",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Eiropas Savienībai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_11",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Apvienoto Nāciju Organizācijai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_12",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Veselības aprūpes sistēmai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_13",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Tiesību/ tieslietu sistēmai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_14",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Lielajiem uzņēmumiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_15",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Vides aizsardzības organizācijām",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_16",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Politiskajām partijām",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_17",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Valdībai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q38_18",
+    "text": "PARĀDIET KARTĪTI 38 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs uzticaties minētajām institūcijām? Vai Jūs tām pilnībā uzticaties, zināmā mērā uzticaties, ne visai uzticaties vai arī nemaz neuzticaties?",
+    "item": "Sociālajiem tīkliem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "pilnībā uzticos"
+      },
+      {
+        "value": 2,
+        "label": "zināmā mērā uzticos"
+      },
+      {
+        "value": 3,
+        "label": "ne visai uzticos"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neuzticos"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q39_1",
+    "text": "PARĀDIET KARTĪTI 39 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daudzas lietas ir vēlamas, taču ne visas ir uzskatāmas par svarīgām demokrātijas iezīmēm. Lūdzu, sakiet par katru no sekojošām lietām, Jūsuprāt, cik lielā mērā tās raksturo demokrātiju. Izmantojiet skalu, kur 1 nozīmē \"nemaz nav būtiska demokrātijas iezīme\" un 10 nozīmē \"tā ir kritiski svarīga demokrātijas iezīme\".",
+    "item": "Valdības apliek ar nodokļiem bagātos un subsidē nabadzīgos",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q39_2",
+    "text": "PARĀDIET KARTĪTI 39 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daudzas lietas ir vēlamas, taču ne visas ir uzskatāmas par svarīgām demokrātijas iezīmēm. Lūdzu, sakiet par katru no sekojošām lietām, Jūsuprāt, cik lielā mērā tās raksturo demokrātiju. Izmantojiet skalu, kur 1 nozīmē \"nemaz nav būtiska demokrātijas iezīme\" un 10 nozīmē \"tā ir kritiski svarīga demokrātijas iezīme\".",
+    "item": "Reliģiskie līderi sniedz likumu galējo interpretāciju",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q39_3",
+    "text": "PARĀDIET KARTĪTI 39 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daudzas lietas ir vēlamas, taču ne visas ir uzskatāmas par svarīgām demokrātijas iezīmēm. Lūdzu, sakiet par katru no sekojošām lietām, Jūsuprāt, cik lielā mērā tās raksturo demokrātiju. Izmantojiet skalu, kur 1 nozīmē \"nemaz nav būtiska demokrātijas iezīme\" un 10 nozīmē \"tā ir kritiski svarīga demokrātijas iezīme\".",
+    "item": "Cilvēki izvēlas savus līderus brīvās vēlēšanās",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q39_4",
+    "text": "PARĀDIET KARTĪTI 39 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daudzas lietas ir vēlamas, taču ne visas ir uzskatāmas par svarīgām demokrātijas iezīmēm. Lūdzu, sakiet par katru no sekojošām lietām, Jūsuprāt, cik lielā mērā tās raksturo demokrātiju. Izmantojiet skalu, kur 1 nozīmē \"nemaz nav būtiska demokrātijas iezīme\" un 10 nozīmē \"tā ir kritiski svarīga demokrātijas iezīme\".",
+    "item": "Cilvēki saņem valsts atbalstu bezdarba gadījumā",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q39_5",
+    "text": "PARĀDIET KARTĪTI 39 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daudzas lietas ir vēlamas, taču ne visas ir uzskatāmas par svarīgām demokrātijas iezīmēm. Lūdzu, sakiet par katru no sekojošām lietām, Jūsuprāt, cik lielā mērā tās raksturo demokrātiju. Izmantojiet skalu, kur 1 nozīmē \"nemaz nav būtiska demokrātijas iezīme\" un 10 nozīmē \"tā ir kritiski svarīga demokrātijas iezīme\".",
+    "item": "Kad valdība ir nekompetenta, varu pārņem armija",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q40v142",
+    "text": "PARĀDIET KARTĪTI 40",
+    "stem": "Cik Jums ir svarīgi dzīvot demokrātiski pārvaldītā valstī?",
+    "item": "Lūdzu, sniedziet savu vērtējumu skalā, kur 1 nozīmē \"nemaz nav svarīgi\" un 10 nozīmē \"ārkārtīgi svarīgi\"?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Nemaz nav svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Ārkārtīgi svarīgi"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q41v143",
+    "text": "PARĀDIET KARTĪTI 41",
+    "stem": "Un cik demokrātiski šobrīd tiek pārvaldīta šī valsts?",
+    "item": "Atkal, izmantojiet skalu no 1 līdz 10, kur 1 nozīmē, ka tā \"nemaz nav demokrātiska\" un 10 nozīmē \"pilnībā demokrātiska\".",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Nemaz nav demokrātiska"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Ir pilnībā demokı"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q42v144",
+    "text": "PARĀDIET KARTĪTI 42",
+    "stem": "Skalā no 1 līdz 10, kur 1 nozīmē \"nemaz neapmierina\" un 10 - \"pilnībā apmierina\", cik lielā mērā Jūs apmierina tas, kā šobrīd strādā politiskā sistēma mūsu valstī?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Nemaz neapmierina"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Pilnībā apmieri"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q43",
+    "text": "PARĀDIET KARTĪTI 43 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Es minēšu dažādus politisko sistēmu tipus. Cik labi tie būtu mūsu valsts pārvaldīšanai?",
+    "item": "Par katru, vai Jūs teiktu, ka tas būtu ļoti labi, labi, diezgan slikti vai ļoti slikti?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti labi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan labi"
+      },
+      {
+        "value": 3,
+        "label": "diezgan slikti"
+      },
+      {
+        "value": 4,
+        "label": "ļoti slikti"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": "Stiprs līderis, kam nav jārēķinās ar parlamentu un vēlēšanām"
+  },
+  {
+    "id": "q44",
+    "text": "PARĀDIET KARTĪTI 44 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Izmantojot šo kartīti, novērtējiet, lūdzu, vai, Jūsuprāt, šāda rīcība nekad nav attaisnojama, vienmēr ir attaisnojama, vai kaut kas pa vidu.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 nekad nav attaisnojami"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 vienmēr ir attaisnojazniu"
+      }
+    ],
+    "answer_cue": "Pretendēšana uz valsts pabalstiem, uz kuriem nav tiesību"
+  },
+  {
+    "id": "q45",
+    "text": "PARĀDIET KARTĪTI 45 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati par sevi un savu vietu pasaulē. Izmantojot šo kartīti, sakiet, lūdzu, cik cieši Jūs jūtaties saistīts/-a ar...",
+    "item": "savu pilsētu vai ciemu",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti cieši"
+      },
+      {
+        "value": 2,
+        "label": "Cieši"
+      },
+      {
+        "value": 3,
+        "label": "Ne pārāk"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q45",
+    "text": "PARĀDIET KARTĪTI 45 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati par sevi un savu vietu pasaulē. Izmantojot šo kartīti, sakiet, lūdzu, cik cieši Jūs jūtaties saistīts/-a ar...",
+    "item": "savu reģionu/ Latvijas novadu",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti cieši"
+      },
+      {
+        "value": 2,
+        "label": "Cieši"
+      },
+      {
+        "value": 3,
+        "label": "Ne pārāk"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q45",
+    "text": "PARĀDIET KARTĪTI 45 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati par sevi un savu vietu pasaulē. Izmantojot šo kartīti, sakiet, lūdzu, cik cieši Jūs jūtaties saistīts/-a ar...",
+    "item": "Latviju",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti cieši"
+      },
+      {
+        "value": 2,
+        "label": "Cieši"
+      },
+      {
+        "value": 3,
+        "label": "Ne pārāk"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q45",
+    "text": "PARĀDIET KARTĪTI 45 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati par sevi un savu vietu pasaulē. Izmantojot šo kartīti, sakiet, lūdzu, cik cieši Jūs jūtaties saistīts/-a ar...",
+    "item": "Eiropu",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti cieši"
+      },
+      {
+        "value": 2,
+        "label": "Cieši"
+      },
+      {
+        "value": 3,
+        "label": "Ne pārāk"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q45",
+    "text": "PARĀDIET KARTĪTI 45 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati par sevi un savu vietu pasaulē. Izmantojot šo kartīti, sakiet, lūdzu, cik cieši Jūs jūtaties saistīts/-a ar...",
+    "item": "Pasauli",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti cieši"
+      },
+      {
+        "value": 2,
+        "label": "Cieši"
+      },
+      {
+        "value": 3,
+        "label": "Ne pārāk"
+      },
+      {
+        "value": 4,
+        "label": "Nemaz"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q46v169",
+    "text": "Vai Jūs esat Latvijas valstspiederīgais?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jā"
+      },
+      {
+        "value": 2,
+        "label": "Nē"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": "Valstspiederīgais nozīmē, ka Jums ir Latvijas pase."
+  },
+  {
+    "id": "q47v170",
+    "text": "Cik lepns/-a Jūs esat par to, ka esat Latvijas valstspiederīgais?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lepns/-a"
+      },
+      {
+        "value": 2,
+        "label": "diezgan lepns/-a"
+      },
+      {
+        "value": 3,
+        "label": "ne visai lepns/-a"
+      },
+      {
+        "value": 4,
+        "label": "nemaz neesat lepns/-a"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q48",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kad notiek vēlēšanas, vai Jūs balsojat vienmēr, parasti vai nekad? Lūdzu, atbildiet atsevišķi par katru no vēlēšanu veidiem.",
+    "item": "Vietējās, pašvaldību vēlēšanās",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vienmēr"
+      },
+      {
+        "value": 2,
+        "label": "Parasti"
+      },
+      {
+        "value": 3,
+        "label": "Nekad"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      },
+      {
+        "value": 5,
+        "label": "Nav balstošanas tiesību"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q48",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kad notiek vēlēšanas, vai Jūs balsojat vienmēr, parasti vai nekad? Lūdzu, atbildiet atsevišķi par katru no vēlēšanu veidiem.",
+    "item": "Vispārējās, Saeimas vēlēšanās",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vienmēr"
+      },
+      {
+        "value": 2,
+        "label": "Parasti"
+      },
+      {
+        "value": 3,
+        "label": "Nekad"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      },
+      {
+        "value": 5,
+        "label": "Nav balstošanas tiesību"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q48",
+    "text": "INSTRUKCIJA INTERVĒTĀJAM: - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kad notiek vēlēšanas, vai Jūs balsojat vienmēr, parasti vai nekad? Lūdzu, atbildiet atsevišķi par katru no vēlēšanu veidiem.",
+    "item": "Eiropas parlamenta vēlēšanās",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vienmēr"
+      },
+      {
+        "value": 2,
+        "label": "Parasti"
+      },
+      {
+        "value": 3,
+        "label": "Nekad"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      },
+      {
+        "value": 5,
+        "label": "Nav balstošanas tiesību"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q49v174",
+    "text": "Kura politiskā partija Jums šķiet vispievilcīgākā?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Saskaņa"
+      },
+      {
+        "value": 2,
+        "label": "KPV LV"
+      },
+      {
+        "value": 3,
+        "label": "Jaunā konservatīvā partija"
+      },
+      {
+        "value": 4,
+        "label": "Attīstībai/PAR!"
+      },
+      {
+        "value": 5,
+        "label": "Nacionālā apvienība"
+      },
+      {
+        "value": 6,
+        "label": "Zaļo un Zemnieku savienība"
+      },
+      {
+        "value": 7,
+        "label": "Jaunā Vienotība"
+      },
+      {
+        "value": 8,
+        "label": "Latvijas Reģionu apvienība"
+      },
+      {
+        "value": 9,
+        "label": "Latvijas Krievu savienība"
+      },
+      {
+        "value": 10,
+        "label": "Progresīvie"
+      },
+      {
+        "value": 11,
+        "label": "Man nepatīk neviena no partijām"
+      },
+      {
+        "value": 12,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q49av175",
+    "text": "Vai ir vēl kāda cita politiskā partija, kas Jums šķiet pievilcīga?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Saskaņa"
+      },
+      {
+        "value": 2,
+        "label": "KPV LV"
+      },
+      {
+        "value": 3,
+        "label": "Jaunā konservatīvā partija"
+      },
+      {
+        "value": 4,
+        "label": "Attīstībai/PAR!"
+      },
+      {
+        "value": 5,
+        "label": "Nacionālā apvienība"
+      },
+      {
+        "value": 6,
+        "label": "Zaļo un Zemnieku savienība"
+      },
+      {
+        "value": 7,
+        "label": "Jaunā Vienotība"
+      },
+      {
+        "value": 8,
+        "label": "Latvijas Reģionu apvienība"
+      },
+      {
+        "value": 9,
+        "label": "Latvijas Krievu savienība"
+      },
+      {
+        "value": 10,
+        "label": "Progresīvie"
+      },
+      {
+        "value": 11,
+        "label": "Man nepatīk neviena no partijām"
+      },
+      {
+        "value": 12,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Balsis tiek saskaitītas godīgi",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Opozīcijas kandidātiem nedod iespēju kandidēt vēlēšanās",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "TV ziņas dod priekšroku valdošajai partijai vai koalīcijai",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Vēlētāji tiek uzpirkti",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Žurnālisti taisnīgi atspoguļo vēlēšanas",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Vēlēšanu uzraugi ir godīgi",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Bagātie nopērk vēlēšanas",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q50",
+    "text": "PARĀDIET KARTĪTI 50 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Jūsuprāt, cik bieži šīs valsts vēlēšanās notiek sekojošais?",
+    "item": "Vēlētājiem pie balsošanas draud ar vardarbību",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti bieži"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan bieži"
+      },
+      {
+        "value": 3,
+        "label": "Reti"
+      },
+      {
+        "value": 4,
+        "label": "Nekad vai gandrīz nekad"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q51v184",
+    "text": "PARĀDIET KARTĪTI 51",
+    "stem": "Tagad mēs vēlētos uzzināt Jūsu viedokli par cilvēkiem no citām valstīm, kas ierodas dzīvot Latvijā - imigrantiem. Kā Jūs novērtētu šo cilvēku ietekmi uz Latvijas attīstību?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ļoti laba"
+      },
+      {
+        "value": 2,
+        "label": "Diezgan laba"
+      },
+      {
+        "value": 3,
+        "label": "Ne laba, ne slikta"
+      },
+      {
+        "value": 4,
+        "label": "Diezgan slikta"
+      },
+      {
+        "value": 5,
+        "label": "Ļoti slikta"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q52v185",
+    "text": "PARĀDIET KARTĪTI 52 - NOLASIET",
+    "stem": "Lūdzu, apskatiet sekojošos izteikumus. Kā Jūs novērtētu savus uzskatus uz šīs skalas?",
+    "item": "Imigranti atņem darba vietas vietējiem iedzīvotājiem",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q52v186",
+    "text": "Lūdzu, apskatiet sekojošos izteikumus. Kā Jūs novērtētu savus uzskatus uz šīs skalas?",
+    "stem": null,
+    "item": "Imigranti palielina noziedzības līmeni",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q52v187",
+    "text": "Lūdzu, apskatiet sekojošos izteikumus. Kā Jūs novērtētu savus uzskatus uz šīs skalas?",
+    "stem": null,
+    "item": "Imigranti ir slogs valsts labklājības sistēmai",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q52v188",
+    "text": "Lūdzu, apskatiet sekojošos izteikumus. Kā Jūs novērtētu savus uzskatus uz šīs skalas?",
+    "stem": null,
+    "item": "Sabiedrībai ir labāk, ja imigranti saglabā savas paražas un tradīcijas",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q53",
+    "text": "PARĀDIET KARTĪTI 53 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daži cilvēki saka, ka sekojošās lietas ir svarīgas, lai uzskatītu sevi par īstu latvieti, citi saka, ka tās nav nozīmīgas. Kā Jūs domājat, cik svarīgs ir katrs no sekojošiem aspektiem?",
+    "item": "Būt dzimušam Latvijā",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q53",
+    "text": "PARĀDIET KARTĪTI 53 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Daži cilvēki saka, ka sekojošās lietas ir svarīgas, lai uzskatītu sevi par īstu latvieti, citi saka, ka tās nav nozīmīgas. Kā Jūs domājat, cik svarīgs ir katrs no sekojošiem aspektiem?",
+    "item": "Respektēt Latvijas politiskās institūcijas un likumus",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q54",
+    "text": "PARĀDIET KARTĪTI 54 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati, ko nozīmē būt Eiropietim. Kā Jūs domājat, cik svarīgs ir katrs no sekojošiem aspektiem, lai būtu Eiropietis?",
+    "item": "Būt dzimušam Eiropā",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q54",
+    "text": "PARĀDIET KARTĪTI 54 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati, ko nozīmē būt Eiropietim. Kā Jūs domājat, cik svarīgs ir katrs no sekojošiem aspektiem, lai būtu Eiropietis?",
+    "item": "Būt Eiropas izcelsmes (kāds no senčiem ir eiropietis)",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q54",
+    "text": "PARĀDIET KARTĪTI 54 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati, ko nozīmē būt Eiropietim. Kā Jūs domājat, cik svarīgs ir katrs no sekojošiem aspektiem, lai būtu Eiropietis?",
+    "item": "Būt kristietim",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q54",
+    "text": "PARĀDIET KARTĪTI 54 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cilvēkiem ir dažādi uzskati, ko nozīmē būt Eiropietim. Kā Jūs domājat, cik svarīgs ir katrs no sekojošiem aspektiem, lai būtu Eiropietis?",
+    "item": "Iekļauties Eiropas kultūrā",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q55v198",
+    "text": "PARĀDIET KARTĪTI 55",
+    "stem": "Daži saka, ka būtu jāturpina Eiropas Savienības paplašināšanās. Citi saka, ka jau šobrīd paplašināšanās ir aizgājusi par tālu. Izmantojot šo kartīti, kurš cipars vislabāk raksturo Jūsu viedokli, kur \"1\" nozīmē \"jāturpina paplašināšanās\" un \"10\" nozīmē \"paplašināšanās jau ir aizgājusi par tālu\"?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "jāturpina paplašināšanās"
+  },
+  {
+    "id": "q56",
+    "text": "PARĀDIET KARTĪTI 56 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem izteikumiem?",
+    "item": "Es ziedotu daļu no saviem ienākumiem, ja es būtu pārliecināts, ka ziedojums tiks izlietots vides piesārņojuma novēršanai",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q56",
+    "text": "PARĀDIET KARTĪTI 56 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem izteikumiem?",
+    "item": "Tas vienkārši ir pārāk grūti tādam kā man kaut ko darīt vides labā",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q56",
+    "text": "PARĀDIET KARTĪTI 56 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem izteikumiem?",
+    "item": "Dzīvē ir svarīgākas lietas, kam pievērsties, nekā vides aizsardzība",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q56",
+    "text": "PARĀDIET KARTĪTI 56 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem izteikumiem?",
+    "item": "Nav jēgas man vienam darīt visu iespējamo vides labā, ja vien citi nerīkojas tāpat",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q56",
+    "text": "PARĀDIET KARTĪTI 56 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošiem izteikumiem?",
+    "item": "Daudzi no apgalvojumiem par vides apdraudējumu ir pārspīlēti",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pilnībā piekrītu"
+      },
+      {
+        "value": 2,
+        "label": "Piekrītu"
+      },
+      {
+        "value": 3,
+        "label": "Ne piekrītu, ne nepiekrītu"
+      },
+      {
+        "value": 4,
+        "label": "Nepiekrītu"
+      },
+      {
+        "value": 5,
+        "label": "Pilnībā nepiekrītu"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q57v204",
+    "text": "PARĀDIET KARTĪTI 57 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI",
+    "stem": "Turpinājumā ir divi apgalvojumi, kurus dažkārt pauž cilvēki, diskutējot par vidi un ekonomisko izaugsmi. Kuram no tiem Jūs drīzāk piekrītat?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vides aizsardzība jānosaka kā prioritāte, pat, ja tas nozīmē zemāku ekonomikas izaugsmi un kādu darba vietu zaudējumu."
+      },
+      {
+        "value": 2,
+        "label": "Ekonomikas izaugsme un darba vietu radīšana jānosaka kā prioritāte, pat ja no tā zināmā mērā cieš vide"
+      },
+      {
+        "value": 3,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q58",
+    "text": "PARĀDIET KARTĪTI 58 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Vai, Jūsuprāt, Latvijas valdībai būtu vai nebūtu jābūt tiesībām darīt sekojošo...",
+    "item": "Veikt cilvēku video novērošanu publiskās vietās",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Noteikti jābūt tiesībām"
+      },
+      {
+        "value": 2,
+        "label": "Droši vien ir jābūt tiesībām"
+      },
+      {
+        "value": 3,
+        "label": "Droši vien nav jābūt tiesībām"
+      },
+      {
+        "value": 4,
+        "label": "Noteikti nav jābūt tiesībām"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q58",
+    "text": "PARĀDIET KARTĪTI 58 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Vai, Jūsuprāt, Latvijas valdībai būtu vai nebūtu jābūt tiesībām darīt sekojošo...",
+    "item": "Monitorēt visus e-pastus un jebkuru citu informācijas apmaiņu Internetā",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Noteikti jābūt tiesībām"
+      },
+      {
+        "value": 2,
+        "label": "Droši vien ir jābūt tiesībām"
+      },
+      {
+        "value": 3,
+        "label": "Droši vien nav jābūt tiesībām"
+      },
+      {
+        "value": 4,
+        "label": "Noteikti nav jābūt tiesībām"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q58",
+    "text": "PARĀDIET KARTĪTI 58 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Vai, Jūsuprāt, Latvijas valdībai būtu vai nebūtu jābūt tiesībām darīt sekojošo...",
+    "item": "Ievākt informāciju par jebkuru, kurš dzīvo Latvijā, viņus par to neinformējot",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Noteikti jābūt tiesībām"
+      },
+      {
+        "value": 2,
+        "label": "Droši vien ir jābūt tiesībām"
+      },
+      {
+        "value": 3,
+        "label": "Droši vien nav jābūt tiesībām"
+      },
+      {
+        "value": 4,
+        "label": "Noteikti nav jābūt tiesībām"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q59",
+    "text": "PARĀDIET KARTĪTI 59 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik bieži Jūs sekojat politiskajiem notikumiem...",
+    "item": "televīzijā",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "katru dienu"
+      },
+      {
+        "value": 2,
+        "label": "vairākas reizes nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "vienu vai divas reizes nedēļā"
+      },
+      {
+        "value": 4,
+        "label": "retāk"
+      },
+      {
+        "value": 5,
+        "label": "nekad"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q59",
+    "text": "PARĀDIET KARTĪTI 59 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik bieži Jūs sekojat politiskajiem notikumiem...",
+    "item": "radio",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "katru dienu"
+      },
+      {
+        "value": 2,
+        "label": "vairākas reizes nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "vienu vai divas reizes nedēļā"
+      },
+      {
+        "value": 4,
+        "label": "retāk"
+      },
+      {
+        "value": 5,
+        "label": "nekad"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q59",
+    "text": "PARĀDIET KARTĪTI 59 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik bieži Jūs sekojat politiskajiem notikumiem...",
+    "item": "dienas laikrakstos",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "katru dienu"
+      },
+      {
+        "value": 2,
+        "label": "vairākas reizes nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "vienu vai divas reizes nedēļā"
+      },
+      {
+        "value": 4,
+        "label": "retāk"
+      },
+      {
+        "value": 5,
+        "label": "nekad"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q59",
+    "text": "PARĀDIET KARTĪTI 59 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik bieži Jūs sekojat politiskajiem notikumiem...",
+    "item": "sociālajos tīklos",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "katru dienu"
+      },
+      {
+        "value": 2,
+        "label": "vairākas reizes nedēļā"
+      },
+      {
+        "value": 3,
+        "label": "vienu vai divas reizes nedēļā"
+      },
+      {
+        "value": 4,
+        "label": "retāk"
+      },
+      {
+        "value": 5,
+        "label": "nekad"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q60",
+    "text": "PARĀDIET KARTĪTI 60 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "Cilvēkiem, kuri dzīvo Jums kaimiņos",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q60",
+    "text": "PARĀDIET KARTĪTI 60 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "Jūsu pagasta, pilsētas iedzīvotājiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q60",
+    "text": "PARĀDIET KARTĪTI 60 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "Šīs valsts iedzīvotājiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q60",
+    "text": "PARĀDIET KARTĪTI 60 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "Eiropas iedzīvotājiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q60",
+    "text": "PARĀDIET KARTĪTI 60 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "Visiem pasaules iedzīvotājiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q61",
+    "text": "PARĀDIET KARTĪTI 61 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "veciem cilvēkiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q61",
+    "text": "PARĀDIET KARTĪTI 61 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "bezdarbniekiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q61",
+    "text": "PARĀDIET KARTĪTI 61 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "imigrantiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q61",
+    "text": "PARĀDIET KARTĪTI 61 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Cik lielā mērā Jums rūp, kādi ir dzīves apstākļi...",
+    "item": "slimiem un nespējīgiem cilvēkiem",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti lielā mērā"
+      },
+      {
+        "value": 2,
+        "label": "lielā mērā"
+      },
+      {
+        "value": 3,
+        "label": "zināmā mērā"
+      },
+      {
+        "value": 4,
+        "label": "ne visai"
+      },
+      {
+        "value": 5,
+        "label": "nemaz"
+      },
+      {
+        "value": 6,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q62",
+    "text": "PARĀDIET KARTĪTI 62 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kas būtu jānodrošina sabiedrībai? Lūdzu, sakiet par katru no apgalvojumiem, vai tas Jums ir svarīgi vai nav svarīgi:",
+    "item": "Iedzīvotāju ienākumu lielās nevienlīdzības novēršana",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q62",
+    "text": "PARĀDIET KARTĪTI 62 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kas būtu jānodrošina sabiedrībai? Lūdzu, sakiet par katru no apgalvojumiem, vai tas Jums ir svarīgi vai nav svarīgi:",
+    "item": "Cilvēku pamatvajadzību (pārtikas, mājokļa, apģērba, izglītības, veselības) garantēšana visiem",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q62",
+    "text": "PARĀDIET KARTĪTI 62 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kas būtu jānodrošina sabiedrībai? Lūdzu, sakiet par katru no apgalvojumiem, vai tas Jums ir svarīgi vai nav svarīgi:",
+    "item": "Cilvēku nopelnu atzīšana",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q62",
+    "text": "PARĀDIET KARTĪTI 62 - NOLASIET UN ATZĪMĒJIET VIENU ATBILDI KATRĀ RINDIŅĀ",
+    "stem": "Kas būtu jānodrošina sabiedrībai? Lūdzu, sakiet par katru no apgalvojumiem, vai tas Jums ir svarīgi vai nav svarīgi:",
+    "item": "Aizsardzība no terorisma",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti svarīgi"
+      },
+      {
+        "value": 2,
+        "label": "diezgan svarīgi"
+      },
+      {
+        "value": 3,
+        "label": "nav svarīgi"
+      },
+      {
+        "value": 4,
+        "label": "pavisam nesvarīgi"
+      },
+      {
+        "value": 5,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q109av280",
+    "text": "Cik interesanti Jums bija atbildēt uz aptaujas jautājumiem?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ļoti interesanti"
+      },
+      {
+        "value": 2,
+        "label": "nedaudz interesanti"
+      },
+      {
+        "value": 3,
+        "label": "ne pārāk interesanti"
+      },
+      {
+        "value": 4,
+        "label": "Nezinu"
+      }
+    ],
+    "answer_cue": null
+  }
+]

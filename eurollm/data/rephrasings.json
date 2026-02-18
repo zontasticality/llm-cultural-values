@@ -1,0 +1,122 @@
+[
+  {
+    "canonical_id": "v1",
+    "original_text": "Please say, for each of the following, how important it is in your life. Work",
+    "issue_type": "battery_stem",
+    "variants": [
+      {"id": "v1_int", "variant_type": "integrated", "text": "How important is work in your life — very important, quite important, not important, or not at all important?"},
+      {"id": "v1_reph", "variant_type": "rephrased", "text": "How important is work in your life?"},
+      {"id": "v1_both", "variant_type": "both", "text": "Would you say work is very important, quite important, not important, or not at all important in your life?"}
+    ]
+  },
+  {
+    "canonical_id": "v32",
+    "original_text": "I would like to ask you how much you trust people from various groups. Could you tell me for each whether you trust people from this group completely, somewhat, not very much or not at all? Your family",
+    "issue_type": "battery_stem",
+    "variants": [
+      {"id": "v32_int", "variant_type": "integrated", "text": "How much do you trust your family — completely, somewhat, not very much, or not at all?"},
+      {"id": "v32_reph", "variant_type": "rephrased", "text": "How much do you trust your family?"},
+      {"id": "v32_both", "variant_type": "both", "text": "Would you say you trust your family completely, somewhat, not very much, or not at all?"}
+    ]
+  },
+  {
+    "canonical_id": "v58",
+    "original_text": "Which, if any, of the following do you believe in ...READ OUT... Life after death",
+    "issue_type": "battery_stem",
+    "variants": [
+      {"id": "v58_int", "variant_type": "integrated", "text": "Do you believe in life after death, yes or no?"},
+      {"id": "v58_reph", "variant_type": "rephrased", "text": "Do you believe in life after death?"},
+      {"id": "v58_both", "variant_type": "both", "text": "Do you believe there is life after death, yes or no?"}
+    ]
+  },
+  {
+    "canonical_id": "v47",
+    "original_text": "Do you agree or disagree with the following statements? It is humiliating to receive money without having to work for it",
+    "issue_type": "battery_stem",
+    "variants": [
+      {"id": "v47_int", "variant_type": "integrated", "text": "It is humiliating to receive money without having to work for it — do you agree strongly, agree, neither agree nor disagree, disagree, or disagree strongly?"},
+      {"id": "v47_reph", "variant_type": "rephrased", "text": "Is it humiliating to receive money without having to work for it?"},
+      {"id": "v47_both", "variant_type": "both", "text": "Do you agree strongly, agree, neither agree nor disagree, disagree, or disagree strongly that receiving money without working for it is humiliating?"}
+    ]
+  },
+  {
+    "canonical_id": "v39",
+    "original_text": "All things considered, how satisfied are you with your life as a whole these days? Please use this card to help with your answer.",
+    "issue_type": "card_reference",
+    "variants": [
+      {"id": "v39_int", "variant_type": "integrated", "text": "All things considered, how satisfied are you with your life as a whole these days, on a scale from 1 to 10?"},
+      {"id": "v39_reph", "variant_type": "rephrased", "text": "How satisfied are you with your life overall?"},
+      {"id": "v39_both", "variant_type": "both", "text": "On a scale from 1 to 10, how satisfied are you with your life overall?"}
+    ]
+  },
+  {
+    "canonical_id": "v38",
+    "original_text": "Some people feel they have completely free choice and control over their lives, and other people feel that what they do has no real effect on what happens to them. Please use the scale to indicate how much freedom of choice and control you feel you have over the way your life turns out?",
+    "issue_type": "card_reference",
+    "variants": [
+      {"id": "v38_int", "variant_type": "integrated", "text": "Some people feel they have completely free choice and control over their lives, and other people feel that what they do has no real effect. On a scale from 1 to 10, how much freedom of choice and control do you feel you have over the way your life turns out?"},
+      {"id": "v38_reph", "variant_type": "rephrased", "text": "How much freedom of choice and control do you feel you have over your life?"},
+      {"id": "v38_both", "variant_type": "both", "text": "On a scale from 1 to 10, how much freedom of choice and control do you feel you have over your life?"}
+    ]
+  },
+  {
+    "canonical_id": "v98",
+    "original_text": "Now I'd like you to look at this card. I'm going to read out some different forms of political action that people can take, and I'd like you to tell me, for each one, whether you have actually done any of these things, whether you might do it or would never, under any circumstances, do it. Signing a petition",
+    "issue_type": "card_reference",
+    "variants": [
+      {"id": "v98_int", "variant_type": "integrated", "text": "Signing a petition: have you done this, might you do it, or would you never do it?"},
+      {"id": "v98_reph", "variant_type": "rephrased", "text": "What is your stance on signing a petition as a form of political action?"},
+      {"id": "v98_both", "variant_type": "both", "text": "When it comes to signing a petition, have you done it, might you do it, or would you never do it?"}
+    ]
+  },
+  {
+    "canonical_id": "v7",
+    "original_text": "Taking all things together, would you say you are...READ OUT...",
+    "issue_type": "read_out",
+    "variants": [
+      {"id": "v7_int", "variant_type": "integrated", "text": "Taking all things together, would you say you are very happy, quite happy, not very happy, or not at all happy?"},
+      {"id": "v7_reph", "variant_type": "rephrased", "text": "Overall, how happy are you?"},
+      {"id": "v7_both", "variant_type": "both", "text": "Overall, would you say you are very happy, quite happy, not very happy, or not at all happy?"}
+    ]
+  },
+  {
+    "canonical_id": "v56",
+    "original_text": "Independently of whether you go to church or not, would you say you are ...READ OUT...",
+    "issue_type": "read_out",
+    "variants": [
+      {"id": "v56_int", "variant_type": "integrated", "text": "Independently of whether you go to church or not, would you say you are a religious person, not a religious person, or a convinced atheist?"},
+      {"id": "v56_reph", "variant_type": "rephrased", "text": "Would you describe yourself as religious?"},
+      {"id": "v56_both", "variant_type": "both", "text": "Would you describe yourself as a religious person, not a religious person, or a convinced atheist?"}
+    ]
+  },
+  {
+    "canonical_id": "v8",
+    "original_text": "All in all, how would you describe your state of health these days? Would you say it is...",
+    "issue_type": "read_out",
+    "variants": [
+      {"id": "v8_int", "variant_type": "integrated", "text": "All in all, how would you describe your state of health these days — very good, good, fair, poor, or very poor?"},
+      {"id": "v8_reph", "variant_type": "rephrased", "text": "How is your health these days?"},
+      {"id": "v8_both", "variant_type": "both", "text": "How is your health these days — very good, good, fair, poor, or very poor?"}
+    ]
+  },
+  {
+    "canonical_id": "v31",
+    "original_text": "Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?",
+    "issue_type": "control_clean",
+    "variants": [
+      {"id": "v31_int", "variant_type": "integrated", "text": "Generally speaking, would you say most people can be trusted, or that you can't be too careful in dealing with people?"},
+      {"id": "v31_reph", "variant_type": "rephrased", "text": "In general, are most people trustworthy?"},
+      {"id": "v31_both", "variant_type": "both", "text": "In general, would you say most people can be trusted, or can't you be too careful?"}
+    ]
+  },
+  {
+    "canonical_id": "v102",
+    "original_text": "In political matters, people talk of 'the left' and 'the right'. How would you place your views on this scale, generally speaking?",
+    "issue_type": "control_clean",
+    "variants": [
+      {"id": "v102_int", "variant_type": "integrated", "text": "In political matters, people talk of 'the left' and 'the right'. On a scale from 1 to 10, how would you place your views?"},
+      {"id": "v102_reph", "variant_type": "rephrased", "text": "Where do you stand politically, from left to right?"},
+      {"id": "v102_both", "variant_type": "both", "text": "On a scale from 1 to 10, where do you stand politically from left to right?"}
+    ]
+  }
+]

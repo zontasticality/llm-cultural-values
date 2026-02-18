@@ -1,0 +1,6812 @@
+[
+  {
+    "id": "v1",
+    "text": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv. Arbete",
+    "stem": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv.",
+    "item": "Arbete",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v2",
+    "text": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv. Familj",
+    "stem": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv.",
+    "item": "Familj",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v3",
+    "text": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv. Vänner och bekanta",
+    "stem": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv.",
+    "item": "Vänner och bekanta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v4",
+    "text": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv. Fritid",
+    "stem": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv.",
+    "item": "Fritid",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v5",
+    "text": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv. Politik",
+    "stem": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv.",
+    "item": "Politik",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v6",
+    "text": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv. Religion",
+    "stem": "Vänligen ange hur viktigt vart och ett av de följande är i Ditt liv.",
+    "item": "Religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Sammantaget, skulle Du säga att Du är:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket lycklig"
+      },
+      {
+        "value": 2,
+        "label": "Ganska lycklig"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt lycklig"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls lycklig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "På det stora hela, hur skulle Du beskriva Ditt nuvarande hälsotillstånd? Skulle Du säga att det är:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket bra"
+      },
+      {
+        "value": 2,
+        "label": "Bra"
+      },
+      {
+        "value": 3,
+        "label": "Hyfsat"
+      },
+      {
+        "value": 4,
+        "label": "Dåligt"
+      },
+      {
+        "value": 5,
+        "label": "Mycket dåligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v9",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Religiös eller kyrklig organisation",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Religiös eller kyrklig organisation",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v10",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Konst-, musik-, kultur- eller studieförening",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Konst-, musik-, kultur- eller studieförening",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v11",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Fackförening",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Fackförening",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v12",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Politiskt parti eller politisk förening",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Politiskt parti eller politisk förening",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v13",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Miljörörelse, natur- eller djurskyddsförening",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Miljörörelse, natur- eller djurskyddsförening",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v14",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Yrkesförening",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Yrkesförening",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v15",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Idrotts- eller fritidsförening",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Idrotts- eller fritidsförening",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v16",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Organisation för hjälp till andra eller välgörenhetsorganisation",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Organisation för hjälp till andra eller välgörenhetsorganisation",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v17",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Konsumentorganisation",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Konsumentorganisation",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v18",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Självhjälpsgrupp eller stödgrupp",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Självhjälpsgrupp eller stödgrupp",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v19",
+    "text": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör? Någon annan förening eller organisation",
+    "stem": "Läs noga på följande lista av olika typer av frivilliga organisationer och föreningar och säg vilka, om några, som Du tillhör?",
+    "item": "Någon annan förening eller organisation",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Människor av annan etnisk härkomst",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Människor av annan etnisk härkomst",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v23",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Alkoholister",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Alkoholister",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v24",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Invandrare/gästarbetare",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Invandrare/gästarbetare",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v25",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Narkomaner",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Narkomaner",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v26",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Homosexuella",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Homosexuella",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v27",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Kristna",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Kristna",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v28",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Muslimer",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Muslimer",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v29",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Judar",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Judar",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v30",
+    "text": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar? Romer",
+    "stem": "På denna lista finns olika grupper av människor. Hittar Du några på listan som Du inte skulle vilja ha som grannar?",
+    "item": "Romer",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "Tycker Du på det hela taget att man kan lita på de flesta människor eller tycker Du att man inte kan vara nog försiktig i umgänget med andra människor?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Man kan lita på de flesta"
+      },
+      {
+        "value": 2,
+        "label": "Man kan inte vara nog försiktig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v32",
+    "text": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem. Din familj",
+    "stem": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem.",
+    "item": "Din familj",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Litar helt och hållet på"
+      },
+      {
+        "value": 2,
+        "label": "Litar delvis på"
+      },
+      {
+        "value": 3,
+        "label": "Litar inte särskilt mycket på"
+      },
+      {
+        "value": 4,
+        "label": "Litar inte alls på"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v33",
+    "text": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem. De som bor i området där Du bor",
+    "stem": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem.",
+    "item": "De som bor i området där Du bor",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Litar helt och hållet på"
+      },
+      {
+        "value": 2,
+        "label": "Litar delvis på"
+      },
+      {
+        "value": 3,
+        "label": "Litar inte särskilt mycket på"
+      },
+      {
+        "value": 4,
+        "label": "Litar inte alls på"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v34",
+    "text": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem. Människor Du känner",
+    "stem": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem.",
+    "item": "Människor Du känner",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Litar helt och hållet på"
+      },
+      {
+        "value": 2,
+        "label": "Litar delvis på"
+      },
+      {
+        "value": 3,
+        "label": "Litar inte särskilt mycket på"
+      },
+      {
+        "value": 4,
+        "label": "Litar inte alls på"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v35",
+    "text": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem. Människor Du träffar för första gången",
+    "stem": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem.",
+    "item": "Människor Du träffar för första gången",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Litar helt och hållet på"
+      },
+      {
+        "value": 2,
+        "label": "Litar delvis på"
+      },
+      {
+        "value": 3,
+        "label": "Litar inte särskilt mycket på"
+      },
+      {
+        "value": 4,
+        "label": "Litar inte alls på"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v36",
+    "text": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem. Människor som har annan religion",
+    "stem": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem.",
+    "item": "Människor som har annan religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Litar helt och hållet på"
+      },
+      {
+        "value": 2,
+        "label": "Litar delvis på"
+      },
+      {
+        "value": 3,
+        "label": "Litar inte särskilt mycket på"
+      },
+      {
+        "value": 4,
+        "label": "Litar inte alls på"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v37",
+    "text": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem. Människor som har annan nationalitet",
+    "stem": "Hur mycket tycker Du att Du kan lita på olika grupper av människor? Kan Du för var och en av följande grupper säga om Du litar helt och hållet på dem, om Du litar på dem delvis, om Du inte litar särskilt mycket på dem eller om Du inte alls litar på dem.",
+    "item": "Människor som har annan nationalitet",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Litar helt och hållet på"
+      },
+      {
+        "value": 2,
+        "label": "Litar delvis på"
+      },
+      {
+        "value": 3,
+        "label": "Litar inte särskilt mycket på"
+      },
+      {
+        "value": 4,
+        "label": "Litar inte alls på"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "En del människor anser att de har total valfrihet och att de kan bestämma hur deras liv ska bli. Andra anser att de egentligen inte har någon valfrihet och att de inte kan bestämma över vad som kommer att hända dem. Vill Du titta på den här skalan och säga hur mycket valfrihet och självbestämmande Du anser att Du har när det gäller hur Ditt liv blir?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inget alls"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Mycket stor"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "VISA KORT 10",
+    "text": "Allmänt sett, hur tillfredsställd är Du med Ditt liv som helhet just nu? Använd kortet för att svara.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Otillfredsställd"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Tillfredsställd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v40",
+    "text": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "stem": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "item": "Bra betalt",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v41",
+    "text": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "stem": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "item": "Bra arbetstider",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v42",
+    "text": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "stem": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "item": "Möjlighet att ta egna initiativ",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v43",
+    "text": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "stem": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "item": "Väl tilltagen semester",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v44",
+    "text": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "stem": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "item": "Ett jobb som ger en känsla av att uträtta något",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v45",
+    "text": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "stem": "Här är några aspekter i ett jobb som människor säger är viktiga. Vänligen titta på dessa och säg vilka av dessa Du tycker är viktiga i ett jobb?",
+    "item": "Ett arbete med ansvar",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v46",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "För att utveckla sina talanger helt och hållet måste man ha ett arbete.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v47",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Det är förödmjukande att ta emot pengar utan att behöva arbeta för dem.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v48",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Människor som inte arbetar blir lata.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v49",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Att arbeta är en plikt mot samhället.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v50",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Arbete skall alltid komma i första hand, även om det innebär mindre fritid.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v51",
+    "text": "Tillhör Du eller är Du medlem i någon kyrka eller något religiöst samfund?",
+    "stem": "Tillhör Du eller är Du medlem i någon kyrka eller något religiöst samfund?",
+    "item": "Tillhör Du eller är Du medlem i någon kyrka eller något religiöst samfund?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v53",
+    "text": "Har Du tidigare tillhört i en kyrka eller religiöst samfund?",
+    "stem": "Har Du tidigare tillhört i en kyrka eller religiöst samfund?",
+    "item": "Har Du tidigare tillhört i en kyrka eller religiöst samfund?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v54",
+    "text": "Hur ofta besöker Du gudstjänster med undantag av bröllop, begravningar och dop nuförtiden?",
+    "stem": "Hur ofta besöker Du gudstjänster med undantag av bröllop, begravningar och dop nuförtiden?",
+    "item": "Hur ofta besöker Du gudstjänster med undantag av bröllop, begravningar och dop nuförtiden?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Flera gånger i veckan"
+      },
+      {
+        "value": 2,
+        "label": "En gång i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En gång i månaden"
+      },
+      {
+        "value": 4,
+        "label": "Bara vid speciella helgdagar"
+      },
+      {
+        "value": 5,
+        "label": "En gång om året"
+      },
+      {
+        "value": 6,
+        "label": "Mindre ofta"
+      },
+      {
+        "value": 7,
+        "label": "Aldrig, praktiskt taget aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v55",
+    "text": "Hur ofta besökte Du gudstjänster med undantag av bröllop, begravningar och dop när Du var 12 år gammal?",
+    "stem": "Hur ofta besökte Du gudstjänster med undantag av bröllop, begravningar och dop när Du var 12 år gammal?",
+    "item": "Hur ofta besökte Du gudstjänster med undantag av bröllop, begravningar och dop när Du var 12 år gammal?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Flera gånger i veckan"
+      },
+      {
+        "value": 2,
+        "label": "En gång i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En gång i månaden"
+      },
+      {
+        "value": 4,
+        "label": "Bara vid speciella helgdagar"
+      },
+      {
+        "value": 5,
+        "label": "En gång om året"
+      },
+      {
+        "value": 6,
+        "label": "Mindre ofta"
+      },
+      {
+        "value": 7,
+        "label": "Aldrig, praktiskt taget aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v56",
+    "text": "Oberoende om Du går i kyrkan eller inte, skulle Du säga att Du är...",
+    "stem": "Oberoende om Du går i kyrkan eller inte, skulle Du säga att Du är...",
+    "item": "Oberoende om Du går i kyrkan eller inte, skulle Du säga att Du är...",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "En religiös person"
+      },
+      {
+        "value": 2,
+        "label": "Inte en religiös person"
+      },
+      {
+        "value": 3,
+        "label": "En ateist"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v57",
+    "text": "Tror Du på något av följande?",
+    "stem": "Tror Du på något av följande?",
+    "item": "Gud",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v58",
+    "text": "Tror Du på något av följande?",
+    "stem": "Tror Du på något av följande?",
+    "item": "Ett liv efter döden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v59",
+    "text": "Tror Du på något av följande?",
+    "stem": "Tror Du på något av följande?",
+    "item": "Helvetet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v60",
+    "text": "Tror Du på något av följande?",
+    "stem": "Tror Du på något av följande?",
+    "item": "Himlen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v61",
+    "text": "Tror Du på reinkarnation, dvs. att vi haft tidigare liv och återföds tillbaka till den här världen igen?",
+    "stem": "Tror Du på reinkarnation, dvs. att vi haft tidigare liv och återföds tillbaka till den här världen igen?",
+    "item": "Tror Du på reinkarnation, dvs. att vi haft tidigare liv och återföds tillbaka till den här världen igen?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v62",
+    "text": "Vilket av följande påståenden kommer närmast Din egen övertygelse?",
+    "stem": "Vilket av följande påståenden kommer närmast Din egen övertygelse?",
+    "item": "Vilket av följande påståenden kommer närmast Din egen övertygelse?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Det finns en personlig Gud"
+      },
+      {
+        "value": 2,
+        "label": "Det finns någon slags ande eller livskraft"
+      },
+      {
+        "value": 3,
+        "label": "Jag vet inte vad jag ska tro"
+      },
+      {
+        "value": 4,
+        "label": "Jag tror egentligen inte att det finns någon ande, Gud eller livskraft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v63",
+    "text": "Hur viktig är Gud i Ditt liv? Vänligen använd detta kort för att svara - 10 betyder mycket viktig och 1 betyder inte alls viktig.",
+    "stem": "Hur viktig är Gud i Ditt liv? Vänligen använd detta kort för att svara - 10 betyder mycket viktig och 1 betyder inte alls viktig.",
+    "item": "Hur viktig är Gud i Ditt liv?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v64",
+    "text": "Hur ofta ber Du utanför gudstjänster? Skulle Du säga att det sker...",
+    "stem": "Hur ofta ber Du utanför gudstjänster? Skulle Du säga att det sker...",
+    "item": "Hur ofta ber Du utanför gudstjänster?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Varje dag"
+      },
+      {
+        "value": 2,
+        "label": "Oftare än en gång i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En gång i veckan"
+      },
+      {
+        "value": 4,
+        "label": "Åtminstone en gång i månaden"
+      },
+      {
+        "value": 5,
+        "label": "Flera gånger om året"
+      },
+      {
+        "value": 6,
+        "label": "Mer sällan"
+      },
+      {
+        "value": 7,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v65",
+    "text": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "stem": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "item": "Trohet",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v66",
+    "text": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "stem": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "item": "En god inkomst",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v67",
+    "text": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "stem": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "item": "Bra bostad",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v68",
+    "text": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "stem": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "item": "Att dela hushållssysslorna",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v69",
+    "text": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "stem": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "item": "Barn",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v70",
+    "text": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "stem": "Här en lista på saker som vissa tycker bidrar till ett lyckligt äktenskap eller förhållande. Vänligen ange, för varje alternativ, om Du tycker det är mycket viktigt, ganska viktigt, eller inte särskilt viktigt?",
+    "item": "Ha tid för sina egna vänner och för egna fritidsintressen/aktiviteter",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v71",
+    "text": "Håller Du med eller håller Du inte med om följande påstående: Äktenskapet är en omodern institution?",
+    "stem": "Håller Du med eller håller Du inte med om följande påstående: Äktenskapet är en omodern institution?",
+    "item": "Håller Du med eller håller Du inte med om följande påstående: Äktenskapet är en omodern institution?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Håller med"
+      },
+      {
+        "value": 2,
+        "label": "Håller inte med"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v72",
+    "text": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "item": "Barnen blir lidande när deras mamma lönearbetar",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Tar avstånd"
+      },
+      {
+        "value": 4,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v73",
+    "text": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "item": "Det är nog bra med förvärvsarbete men vad de flesta kvinnor egentligen vill ha är ett hem och barn",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Tar avstånd"
+      },
+      {
+        "value": 4,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v74",
+    "text": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "item": "På det hela taget blir familjelivet lidande när kvinnan heltidsarbetar",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Tar avstånd"
+      },
+      {
+        "value": 4,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v75",
+    "text": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från. Instämmer Du helt och hållet, instämmer Du, tar Du avstånd från, eller tar Du helt och hållet avstånd från?",
+    "item": "Mannens uppgift är att tjäna pengar; kvinnans uppgift är att ta hand om hem och familj",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Tar avstånd"
+      },
+      {
+        "value": 4,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v76",
+    "text": "På det hela taget, är män bättre politiska ledare än kvinnor",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från.",
+    "item": "På det hela taget, är män bättre politiska ledare än kvinnor",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v77",
+    "text": "En universitetsutbildning är viktigare för en pojke än för en flicka",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från.",
+    "item": "En universitetsutbildning är viktigare för en pojke än för en flicka",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v78",
+    "text": "I stort sett är män bättre lämpade att vara företagsledare än kvinnor",
+    "stem": "För vart och ett av de påståenden som jag läser upp, kan Du vänligen ange om Du instämmer eller tar avstånd från.",
+    "item": "I stort sett är män bättre lämpade att vara företagsledare än kvinnor",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v79",
+    "text": "Att mina föräldrar ska vara stolta över mig är (eller har varit) bland det viktigaste i mitt liv.",
+    "stem": null,
+    "item": "Att mina föräldrar ska vara stolta över mig är (eller har varit) bland det viktigaste i mitt liv.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v80",
+    "text": "När det är ont om arbete bör arbetsgivarna välja svenskar framför invandrare.",
+    "stem": "För påståendena som jag läser upp, kan Du ange hur mycket Du instämmer med eller tar avstånd från vart och ett av påståendena.",
+    "item": "När det är ont om arbete bör arbetsgivarna välja svenskar framför invandrare.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "När det är ont om arbete har män större rätt till arbete än vad kvinnor har.",
+    "stem": "För påståendena som jag läser upp, kan Du ange hur mycket Du instämmer med eller tar avstånd från vart och ett av påståendena.",
+    "item": "När det är ont om arbete har män större rätt till arbete än vad kvinnor har.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v82",
+    "text": "Homosexuella par är lika bra föräldrar som andra par",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Homosexuella par är lika bra föräldrar som andra par",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v83",
+    "text": "Det är en plikt gentemot samhället att få barn",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Det är en plikt gentemot samhället att få barn",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v84",
+    "text": "Vuxna barn har en skyldighet att ta hand om sina föräldrar när de behöver långvarig omsorg",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Vuxna barn har en skyldighet att ta hand om sina föräldrar när de behöver långvarig omsorg",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "Väluppfostrat beteende",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Väluppfostrat beteende",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "Oberoende, självständighet",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Oberoende, självständighet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Hårt arbete",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Hårt arbete",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Ansvarskänsla",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Ansvarskänsla",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Fantasi",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Fantasi",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Tolerans och respekt för andra människor",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Tolerans och respekt för andra människor",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Sparsamhet, att vara sparsam med pengar och saker",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Sparsamhet, att vara sparsam med pengar och saker",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v92",
+    "text": "Beslutsamhet, uthållighet",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Beslutsamhet, uthållighet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v93",
+    "text": "Religiös tro",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Religiös tro",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v94",
+    "text": "Osjälviskhet",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Osjälviskhet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v95",
+    "text": "Lydnad",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Lydnad",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v96",
+    "text": "Inga (spontant)",
+    "stem": "Här är en lista på egenskaper som barn kan uppmuntras att lära sig hemma. Vilka fem anser Du vara mest önskvärda för ett barn att ha?",
+    "item": "Inga (spontant)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nämnd"
+      },
+      {
+        "value": 2,
+        "label": "Inte nämnd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v97",
+    "text": "Hur intresserad är Du av politik?",
+    "stem": null,
+    "item": "Hur intresserad är Du av politik?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket intresserad"
+      },
+      {
+        "value": 2,
+        "label": "Ganska intresserad"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt intresserad"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls intresserad"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Skriva på en namninsamling?",
+    "stem": "Nu skulle jag vilja att du tittade på detta kort. Jag kommer att läsa ut olika former av saker man kan göra i politiska sammanhang, och jag skulle vilja att Du berättade, för varje alternativ om Du själv har gjort någon av dessa saker, om Du skulle kunna tänka Dig att göra någon av dem eller om Du aldrig under någon omständighet skulle göra någon av dem?",
+    "item": "Skriva på en namninsamling?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har gjort"
+      },
+      {
+        "value": 2,
+        "label": "Kan tänkas göra"
+      },
+      {
+        "value": 3,
+        "label": "Skulle aldrig göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v99",
+    "text": "Delta i bojkotter, köpstrejker?",
+    "stem": "Nu skulle jag vilja att du tittade på detta kort. Jag kommer att läsa ut olika former av saker man kan göra i politiska sammanhang, och jag skulle vilja att Du berättade, för varje alternativ om Du själv har gjort någon av dessa saker, om Du skulle kunna tänka Dig att göra någon av dem eller om Du aldrig under någon omständighet skulle göra någon av dem?",
+    "item": "Delta i bojkotter, köpstrejker?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har gjort"
+      },
+      {
+        "value": 2,
+        "label": "Kan tänkas göra"
+      },
+      {
+        "value": 3,
+        "label": "Skulle aldrig göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v100",
+    "text": "Delta i lagliga demonstrationer?",
+    "stem": "Nu skulle jag vilja att du tittade på detta kort. Jag kommer att läsa ut olika former av saker man kan göra i politiska sammanhang, och jag skulle vilja att Du berättade, för varje alternativ om Du själv har gjort någon av dessa saker, om Du skulle kunna tänka Dig att göra någon av dem eller om Du aldrig under någon omständighet skulle göra någon av dem?",
+    "item": "Delta i lagliga demonstrationer?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har gjort"
+      },
+      {
+        "value": 2,
+        "label": "Kan tänkas göra"
+      },
+      {
+        "value": 3,
+        "label": "Skulle aldrig göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v101",
+    "text": "Delta i olovliga strejker?",
+    "stem": "Nu skulle jag vilja att du tittade på detta kort. Jag kommer att läsa ut olika former av saker man kan göra i politiska sammanhang, och jag skulle vilja att Du berättade, för varje alternativ om Du själv har gjort någon av dessa saker, om Du skulle kunna tänka Dig att göra någon av dem eller om Du aldrig under någon omständighet skulle göra någon av dem?",
+    "item": "Delta i olovliga strejker?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Har gjort"
+      },
+      {
+        "value": 2,
+        "label": "Kan tänkas göra"
+      },
+      {
+        "value": 3,
+        "label": "Skulle aldrig göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v102",
+    "text": "När det gäller politik talar man ofta om vänster och höger. Hur skulle Du generellt sett vilja placera Dig själv på den här skalan?",
+    "stem": null,
+    "item": "När det gäller politik talar man ofta om vänster och höger. Hur skulle Du generellt sett vilja placera Dig själv på den här skalan?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vänster"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Höger"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "På detta kort ser Du några motsatta åsikter i olika frågor. Hur skulle Du själv placera Dina åsikter på den här skalan?",
+    "stem": null,
+    "item": "Människor bör ta större ansvar för att försörja sig själva",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Människor bör ta större ansvar för att försörja sig själva"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Staten bör ta större ansvar för att alla får vad de behöver"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "Arbetslösa bör vara tvungna att ta vilket jobb som helst eller bli av med sin arbetslöshetsersättning",
+    "stem": null,
+    "item": "Arbetslösa bör vara tvungna att ta vilket jobb som helst eller bli av med sin arbetslöshetsersättning",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Arbetslösa bör vara tvungna att ta vilket jobb som helst eller bli av med sin arbetslöshetsersättning"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Arbetslösa bör ha rätt att vägra att ta jobb de inte vill ha"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "Konkurrens är bra",
+    "stem": null,
+    "item": "Konkurrens är bra",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Konkurrens är bra"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Konkurrens är skadligt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "Folks inkomster bör bli mer lika",
+    "stem": null,
+    "item": "Folks inkomster bör bli mer lika",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Folks inkomster bör bli mer lika"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Individuella ansträngningar bör löna sig mer"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "Privat ägande av företag och industrier bör öka",
+    "stem": null,
+    "item": "Privat ägande av företag och industrier bör öka",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Privat ägande av företag och industrier bör öka"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Statligt ägande av företag och industrier bör öka"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v108",
+    "text": "Vilket skulle vara viktigast?",
+    "stem": null,
+    "item": "Vilket skulle vara viktigast?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "En hög ekonomisk tillväxt"
+      },
+      {
+        "value": 2,
+        "label": "Säkra att Sverige har ett starkt försvar"
+      },
+      {
+        "value": 3,
+        "label": "Se till att folk har mer att säga till om på jobbet och i lokala frågor"
+      },
+      {
+        "value": 4,
+        "label": "Försöka göra städer och landskap vackrare"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v109",
+    "text": "Och vilket skulle vara näst viktigast?",
+    "stem": "FORTSÄTT VISA KORT 33 - LÄS UT OCH KODA BARA ETT SVAR BARA FÖR Q33a",
+    "item": "Och vilket skulle vara näst viktigast?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "En hög ekonomisk tillväxt"
+      },
+      {
+        "value": 2,
+        "label": "Säkra att Sverige har ett starkt försvar"
+      },
+      {
+        "value": 3,
+        "label": "Se till att folk har mer att säga till om på jobbet och i lokala frågor"
+      },
+      {
+        "value": 4,
+        "label": "Försöka göra städer och landskap vackrare"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v110",
+    "text": "Om Du måste välja, vilken av följande saker skulle Du säga är viktigast?",
+    "stem": null,
+    "item": "Om Du måste välja, vilken av följande saker skulle Du säga är viktigast?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Att upprätthålla ordningen i samhället"
+      },
+      {
+        "value": 2,
+        "label": "Att ge folk mer att säga till om vid viktiga samhällsbeslut"
+      },
+      {
+        "value": 3,
+        "label": "Att bekämpa prisökningar"
+      },
+      {
+        "value": 4,
+        "label": "Att skydda yttrandefriheten"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v111",
+    "text": "Och vad skulle vara näst viktigast?",
+    "stem": "Näst viktigast",
+    "item": "Att upprätthålla ordningen i samhället",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Att upprätthålla ordningen i samhället"
+      },
+      {
+        "value": 2,
+        "label": "Att ge folk mer att säga till om vid viktiga samhällsbeslut"
+      },
+      {
+        "value": 3,
+        "label": "Att bekämpa prisökningar"
+      },
+      {
+        "value": 4,
+        "label": "Att skydda yttrandefriheten"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v111",
+    "text": "Och vad skulle vara näst viktigast?",
+    "stem": "Näst viktigast",
+    "item": "Att ge folk mer att säga till om vid viktiga samhällsbeslut",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Att upprätthålla ordningen i samhället"
+      },
+      {
+        "value": 2,
+        "label": "Att ge folk mer att säga till om vid viktiga samhällsbeslut"
+      },
+      {
+        "value": 3,
+        "label": "Att bekämpa prisökningar"
+      },
+      {
+        "value": 4,
+        "label": "Att skydda yttrandefriheten"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v111",
+    "text": "Och vad skulle vara näst viktigast?",
+    "stem": "Näst viktigast",
+    "item": "Att bekämpa prisökningar",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Att upprätthålla ordningen i samhället"
+      },
+      {
+        "value": 2,
+        "label": "Att ge folk mer att säga till om vid viktiga samhällsbeslut"
+      },
+      {
+        "value": 3,
+        "label": "Att bekämpa prisökningar"
+      },
+      {
+        "value": 4,
+        "label": "Att skydda yttrandefriheten"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v111",
+    "text": "Och vad skulle vara näst viktigast?",
+    "stem": "Näst viktigast",
+    "item": "Att skydda yttrandefriheten",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Att upprätthålla ordningen i samhället"
+      },
+      {
+        "value": 2,
+        "label": "Att ge folk mer att säga till om vid viktiga samhällsbeslut"
+      },
+      {
+        "value": 3,
+        "label": "Att bekämpa prisökningar"
+      },
+      {
+        "value": 4,
+        "label": "Att skydda yttrandefriheten"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v112",
+    "text": "Vi hoppas givetvis att det inte blir något krig, men om det skulle bli så, skulle Du vara beredd att försvara vårt land?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nej"
+      },
+      {
+        "value": 8,
+        "label": "Vet ej (spontant)"
+      },
+      {
+        "value": 9,
+        "label": "Inget svar (spontant)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "Här är två förändringar i vårt sätt att leva som skulle kunna inträffa under den närmaste framtiden. Svara för båda vad Du skulle tycka att det vore bra. dåligt eller om det inte spelar någon roll om följande förändringar skulle inträffa?",
+    "stem": null,
+    "item": "Om den betydelse arbete har i våra liv minskade",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bra"
+      },
+      {
+        "value": 2,
+        "label": "Dåligt"
+      },
+      {
+        "value": 3,
+        "label": "Spelar inte någon roll"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "Här är två förändringar i vårt sätt att leva som skulle kunna inträffa under den närmaste framtiden. Svara för båda vad Du skulle tycka att det vore bra. dåligt eller om det inte spelar någon roll om följande förändringar skulle inträffa?",
+    "stem": null,
+    "item": "Om vi fick större respekt för auktoriteter",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bra"
+      },
+      {
+        "value": 2,
+        "label": "Dåligt"
+      },
+      {
+        "value": 3,
+        "label": "Spelar inte någon roll"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Kyrkan",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v116",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Försvaret",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v117",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Utbildningsväsendet",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v118",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Tidningarna",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v119",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Fackföreningarna",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v120",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Polisen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v121",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Riksdagen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v122",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Statliga och kommunala myndigheter",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v123",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Socialförsäkringssystemet (sjukersättning, pension, föräldrapenning osv.)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v124",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "EU",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v125",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "FN",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v126",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Sjukvården",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v127",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Rättsväsendet, domstolar, åklagare",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v128",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Stora företag",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v129",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Miljöorganisationer",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v130",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Politiska partier",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v131",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Regeringen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v132",
+    "text": "Var snäll och läs på detta kort och säg mig för vart och ett av alternativen hur mycket förtroende Du har för dem. Är det: mycket stort förtroende, ganska stort förtroende, inte särskilt stort förtroende, inget förtroende alls?",
+    "stem": null,
+    "item": "Sociala medier",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stort förtroende"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stort förtroende"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stort förtroende"
+      },
+      {
+        "value": 4,
+        "label": "Inget förtroende alls"
+      },
+      {
+        "value": 8,
+        "label": "VE"
+      },
+      {
+        "value": 9,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v133",
+    "text": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt? Använd skalan där 1 betyder \"inte alls en nödvändig egenskap för en demokrati” och 10 betyder att det “definitivt är en nödvändig egenskap för en demokrati\".",
+    "stem": null,
+    "item": "Att staten beskattar de rika och ger stöd till de fattiga",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      },
+      {
+        "value": 0,
+        "label": "Det är emot demokrati [LÄS INTE UPP]"
+      },
+      {
+        "value": 88,
+        "label": "VE"
+      },
+      {
+        "value": 99,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v134",
+    "text": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt? Använd skalan där 1 betyder \"inte alls en nödvändig egenskap för en demokrati” och 10 betyder att det “definitivt är en nödvändig egenskap för en demokrati\".",
+    "stem": null,
+    "item": "Att religiösa ledare tolkar lagarna",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      },
+      {
+        "value": 0,
+        "label": "Det är emot demokrati [LÄS INTE UPP]"
+      },
+      {
+        "value": 88,
+        "label": "VE"
+      },
+      {
+        "value": 99,
+        "label": "IS"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v135",
+    "text": "Att folket väljer sina ledare i fria val",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v136",
+    "text": "Att de som är arbetslösa får arbetslöshetsunderstöd från staten",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v137",
+    "text": "Att militären tar över makten när regeringen är inkompetent",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v138",
+    "text": "Att medborgerliga rättigheter skyddar folk från förtryck från staten",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v139",
+    "text": "Att staten ser till att alla får samma inkomst",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v140",
+    "text": "Att folk lyder sina styrande",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v141",
+    "text": "Att kvinnor har samma rättigheter som män",
+    "stem": "Man kan tycka att många saker är bra och önskvärda även om man inte skulle tycka att de är nödvändiga för att ett land skall vara demokratiskt. Hur nödvändiga anser Du att följande saker är innan man kan säga att ett land är demokratiskt?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte en nödvändig egenskap i en demokrati"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "En nödvändig egenskap i en demokrati"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v142",
+    "text": "Hur viktigt är det för Dig att leva i ett land som styrs demokratiskt?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte alls"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Mycket"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v143",
+    "text": "Hur pass demokratiskt styrt tycker Du Sverige är i dag?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte alls demokratiskt"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Helt och hållet demokratiskt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v144",
+    "text": "På en skala från 1 till 10 där 1 betyder inte nöjd alls och 10 betyder helt och hållet nöjd, hur nöjd är Du med hur det politiska systemet fungerar i Sverige nuförtiden?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Inte alls nöjd"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Helt och hållet nöjd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v145",
+    "text": "Att ha en stark ledare som inte behöver bekymra sig om riksdag och politiska val?",
+    "stem": "Jag skall nu beskriva några olika politiska system för att styra Sverige. Anser Du att de är mycket bra, ganska bra, ganska dåliga eller mycket dåliga?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket bra"
+      },
+      {
+        "value": 2,
+        "label": "Ganska bra"
+      },
+      {
+        "value": 3,
+        "label": "Ganska dåliga"
+      },
+      {
+        "value": 4,
+        "label": "Mycket dåliga"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Att låta experter, och inte riksdag och regering, besluta vad de anser vara bäst för landet?",
+    "stem": "Jag skall nu beskriva några olika politiska system för att styra Sverige. Anser Du att de är mycket bra, ganska bra, ganska dåliga eller mycket dåliga?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket bra"
+      },
+      {
+        "value": 2,
+        "label": "Ganska bra"
+      },
+      {
+        "value": 3,
+        "label": "Ganska dåliga"
+      },
+      {
+        "value": 4,
+        "label": "Mycket dåliga"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "Att låta försvarsmakten bestämma",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Att ha ett demokratiskt politiskt system",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Att göra anspråk på sociala förmåner som Du inte har rätt till",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v150",
+    "text": "Att skattefuska om Du har möjlighet",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v151",
+    "text": "Att använda drogerna marijuana eller hasch?",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v152",
+    "text": "Att någon tar emot en muta i sitt arbete?",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v153",
+    "text": "Homosexualitet",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v154",
+    "text": "Abort",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v155",
+    "text": "Skilsmässa",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v156",
+    "text": "Dödshjälp, dvs. att förkorta livet för en obotligt sjuk",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v157",
+    "text": "Självmord",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v158",
+    "text": "Att ha tillfälliga sexuella förbindelser",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v159",
+    "text": "Låta bli i att betala biljett när man åker buss, tåg eller tunnelbana",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kan aldrig rättfärdigas"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Kan alltid rättfärdigas"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v160",
+    "text": "Prostitution",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Kan aldrig rättfärdigas ... Kan alltid rättfärdigas"
+  },
+  {
+    "id": "v161",
+    "text": "Konstgjord befruktning eller provrörsbefruktning (IVF)",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Kan aldrig rättfärdigas ... Kan alltid rättfärdigas"
+  },
+  {
+    "id": "v162",
+    "text": "Politiskt motiverat våld",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Kan aldrig rättfärdigas ... Kan alltid rättfärdigas"
+  },
+  {
+    "id": "v163",
+    "text": "Dödsstraff",
+    "stem": "Vänligen svara för vart och ett av de följande alternativen om Du tycker att det aldrig kan rättfärdigas, alltid kan rättfärdigas, eller någonting mitt emellan genom att använda detta kort.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Kan aldrig rättfärdigas ... Kan alltid rättfärdigas"
+  },
+  {
+    "id": "v164",
+    "text": "Din ort eller stad",
+    "stem": "Folk har olika syn på sig själva och hur de förhåller sig till världen. Om Du tittar på detta kort kan Du säga mig hur nära samhörighet Du känner med...?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket nära"
+      },
+      {
+        "value": 2,
+        "label": "Nära"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt nära"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls nära"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "Ditt län",
+    "stem": "Folk har olika syn på sig själva och hur de förhåller sig till världen. Om Du tittar på detta kort kan Du säga mig hur nära samhörighet Du känner med...?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket nära"
+      },
+      {
+        "value": 2,
+        "label": "Nära"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt nära"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls nära"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "Sverige",
+    "stem": "Folk har olika syn på sig själva och hur de förhåller sig till världen. Om Du tittar på detta kort kan Du säga mig hur nära samhörighet Du känner med...?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket nära"
+      },
+      {
+        "value": 2,
+        "label": "Nära"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt nära"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls nära"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Europa",
+    "stem": "Folk har olika syn på sig själva och hur de förhåller sig till världen. Om Du tittar på detta kort kan Du säga mig hur nära samhörighet Du känner med...?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket nära"
+      },
+      {
+        "value": 2,
+        "label": "Nära"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt nära"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls nära"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Världen",
+    "stem": "Folk har olika syn på sig själva och hur de förhåller sig till världen. Om Du tittar på detta kort kan Du säga mig hur nära samhörighet Du känner med...?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket nära"
+      },
+      {
+        "value": 2,
+        "label": "Nära"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt nära"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls nära"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v170",
+    "text": "Hur stolt är Du över att vara svensk medborgare?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket stolt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska stolt"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt stolt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls stolt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v171",
+    "text": "Kommunalval",
+    "stem": "När det är val brukar Du rösta alltid, vanligtvis eller aldrig? Vänligen svara separat för alla olika val.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Alltid"
+      },
+      {
+        "value": 2,
+        "label": "Vanligtvis"
+      },
+      {
+        "value": 3,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v172",
+    "text": "Riksdagsval",
+    "stem": "När det är val brukar Du rösta alltid, vanligtvis eller aldrig? Vänligen svara separat för alla olika val.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Alltid"
+      },
+      {
+        "value": 2,
+        "label": "Vanligtvis"
+      },
+      {
+        "value": 3,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v173",
+    "text": "Europaparlamentsval",
+    "stem": "När det är val brukar Du rösta alltid, vanligtvis eller aldrig? Vänligen svara separat för alla olika val.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Alltid"
+      },
+      {
+        "value": 2,
+        "label": "Vanligtvis"
+      },
+      {
+        "value": 3,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174",
+    "text": "Vilket politiskt parti sympatiserar Du mest med?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Socialdemokraterna"
+      },
+      {
+        "value": 2,
+        "label": "Moderaterna"
+      },
+      {
+        "value": 3,
+        "label": "Sverigedemokraterna"
+      },
+      {
+        "value": 4,
+        "label": "Centern"
+      },
+      {
+        "value": 5,
+        "label": "Liberalerna"
+      },
+      {
+        "value": 6,
+        "label": "Vänsterpartiet"
+      },
+      {
+        "value": 7,
+        "label": "Miljöpartiet"
+      },
+      {
+        "value": 8,
+        "label": "Kristdemokraterna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174a",
+    "text": "Annat parti, ange vilket (SKRIV VILKET):",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 66,
+        "label": "No party appeals to me (spontaneous)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v175",
+    "text": "Är det något ytterligare parti som Du sympatiserar med?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Socialdemokraterna"
+      },
+      {
+        "value": 2,
+        "label": "Moderaterna"
+      },
+      {
+        "value": 3,
+        "label": "Sverigedemokraterna"
+      },
+      {
+        "value": 4,
+        "label": "Centern"
+      },
+      {
+        "value": 5,
+        "label": "Liberalerna"
+      },
+      {
+        "value": 6,
+        "label": "Vänsterpartiet"
+      },
+      {
+        "value": 7,
+        "label": "Miljöpartiet"
+      },
+      {
+        "value": 8,
+        "label": "Kristdemokraterna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v175a",
+    "text": "Annat parti, ange vilket (SKRIV VILKET):",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 66,
+        "label": "No, no other party appeals to me (spontaneous)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v176",
+    "text": "Att röster räknas korrekt",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v177",
+    "text": "Att oppositionens kandidater hindras från att ställa upp i val",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v178",
+    "text": "Att TV-nyheterna favoriserar regeringspartierna",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v179",
+    "text": "Att väljare mutas",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v180",
+    "text": "Att journalister bevakar val på ett rättvist sätt",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v181",
+    "text": "Att valförrättare uppträder korrekt",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v182",
+    "text": "Att rika personer köper valresultat",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v183",
+    "text": "Att väljare hotas med våld vid vallokalerna",
+    "stem": "Enligt Dig hur ofta förekommer följande saker vid val i Sverige?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt ofta"
+      },
+      {
+        "value": 2,
+        "label": "Ganska ofta"
+      },
+      {
+        "value": 3,
+        "label": "Inte särskilt ofta"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls ofta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Hur bedömer Du att invandringen har påverkat Sveriges utveckling?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 5,
+        "label": "Blivit mycket bättre"
+      },
+      {
+        "value": 4,
+        "label": "Blivit delvis bättre"
+      },
+      {
+        "value": 3,
+        "label": "Varken sämre eller bättre"
+      },
+      {
+        "value": 2,
+        "label": "Blivit delvis sämre"
+      },
+      {
+        "value": 1,
+        "label": "Blivit mycket sämre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Invandrare tar jobb från svenskar",
+    "stem": "Se på följande påståenden och ange var Du skulle placera dina egna åsikter på denna skala?",
+    "item": null,
+    "response_type": "likert12",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "11"
+      },
+      {
+        "value": 12,
+        "label": "12"
+      }
+    ],
+    "answer_cue": "Invandrare tar jobb från svenskar ... Invandrare tar inte jobb från svenskar"
+  },
+  {
+    "id": "v186",
+    "text": "Invandrare förvärrar landets problem med kriminalitet",
+    "stem": "Se på följande påståenden och ange var Du skulle placera dina egna åsikter på denna skala?",
+    "item": null,
+    "response_type": "likert12",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "11"
+      },
+      {
+        "value": 12,
+        "label": "12"
+      }
+    ],
+    "answer_cue": "Invandrare förvärrar landets problem med kriminalitet ... Invandrare förvärrar inte landets problem med kriminalitet"
+  },
+  {
+    "id": "v187",
+    "text": "Invandrare tär på landets välfärdssystem",
+    "stem": "Se på följande påståenden och ange var Du skulle placera dina egna åsikter på denna skala?",
+    "item": null,
+    "response_type": "likert12",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "11"
+      },
+      {
+        "value": 12,
+        "label": "12"
+      }
+    ],
+    "answer_cue": "Invandrare tär på landets välfärdssystem ... Invandrare tär inte på landets välfärdssystem"
+  },
+  {
+    "id": "v188",
+    "text": "Det är bättre att invandrare behåller sina egna seder och traditioner",
+    "stem": "Se på följande påståenden och ange var Du skulle placera dina egna åsikter på denna skala?",
+    "item": null,
+    "response_type": "likert12",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      },
+      {
+        "value": 11,
+        "label": "11"
+      },
+      {
+        "value": 12,
+        "label": "12"
+      }
+    ],
+    "answer_cue": "Det är bättre att invandrare behåller sina egna seder och traditioner ... Det är bättre om invandrare inte behåller sin egna seder och traditioner"
+  },
+  {
+    "id": "v189",
+    "text": "Att ha fötts i Sverige",
+    "stem": "Vissa säger att följande saker är viktiga för att betraktas som riktigt svensk. Andra säger att de inte är viktiga. Hur viktigt tycker Du att var och en av följande saker är?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Att respektera Sveriges politiska institutioner och lagar",
+    "stem": "Vissa säger att följande saker är viktiga för att betraktas som riktigt svensk. Andra säger att de inte är viktiga. Hur viktigt tycker Du att var och en av följande saker är?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Att vara av svensk härkomst, att ha svensk släkt",
+    "stem": "Vissa säger att följande saker är viktiga för att betraktas som riktigt svensk. Andra säger att de inte är viktiga. Hur viktigt tycker Du att var och en av följande saker är?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Att kunna tala svenska",
+    "stem": "Vissa säger att följande saker är viktiga för att betraktas som riktigt svensk. Andra säger att de inte är viktiga. Hur viktigt tycker Du att var och en av följande saker är?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Folk tycker olika om vad det innebär att vara svensk. Enligt Dig, hur viktigt tycker Du att vart och ett av följande är för att vara svensk?",
+    "stem": "Hur viktigt tycker Du att vart och ett av följande saker är?",
+    "item": "Att dela svensk kultur",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "Folk tycker olika om vad det innebär att vara europé. Enligt Dig, hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "stem": "Hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "item": "Att var född i Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Folk tycker olika om vad det innebär att vara europé. Enligt Dig, hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "stem": "Hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "item": "Att vara av europeisk härkomst, att ha europeisk släkt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "Folk tycker olika om vad det innebär att vara europé. Enligt Dig, hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "stem": "Hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "item": "Att vara kristen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v197",
+    "text": "Folk tycker olika om vad det innebär att vara europé. Enligt Dig, hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "stem": "Hur viktigt tycker Du att vart och ett av följande är för att vara europé?",
+    "item": "Att dela europeisk kultur",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "Vissa tycker att utvidgningen av den europeiska unionen (EU) bör fortsätta. Andra tycker att utvidgningen redan har gått för långt. Vilket nummer på skalan stämmer bäst med din åsikt, där 1 betyder \"bör utvidgas ännu mer” och 10 betyder \"utvidgningen har redan gått för långt\"?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v199",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Jag skulle ge en del av min inkomst om jag vore säker på att pengarna användes för att hindra miljöförstöring",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v200",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Det är för svårt för någon som jag att göra så mycket för miljön",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Det finns viktigare saker att göra i livet än att skydda miljön",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Det är ingen mening med att jag gör vad jag kan för miljön om inte andra gör samma sak",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "stem": "Instämmer Du med eller tar Du avstånd från följande påståenden?",
+    "item": "Många påståenden om miljöhot är överdrivna",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Instämmer helt och hållet"
+      },
+      {
+        "value": 2,
+        "label": "Instämmer"
+      },
+      {
+        "value": 3,
+        "label": "Varken eller"
+      },
+      {
+        "value": 4,
+        "label": "Tar avstånd från"
+      },
+      {
+        "value": 5,
+        "label": "Tar helt och hållet avstånd från"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Här är två påståenden som folk ibland gör när de diskuterar miljön och ekonomisk tillväxt. Vilket av dem kommer närmast till din egen åsikt?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Att skydda miljön ska ges prioritet, även om det orsakar en långsammare ekonomisk tillväxt och förlust av några arbetstillfällen."
+      },
+      {
+        "value": 2,
+        "label": "Ekonomisk tillväxt och skapandet av arbetstillfällen ska ges högst prioritet, även om miljön kommer till skada en del."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Tycker Du att Sveriges regering bör ha rätt eller inte bör ha rätt att göra följande:",
+    "stem": "Tycker Du att Sveriges regering bör ha rätt eller inte bör ha rätt att göra följande:",
+    "item": "att ha kameraövervakning på offentliga platser",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bör definitivt ha rätt att göra"
+      },
+      {
+        "value": 2,
+        "label": "Bör antagligen ha rätt att göra"
+      },
+      {
+        "value": 3,
+        "label": "Bör antagligen inte ha rätt att göra"
+      },
+      {
+        "value": 4,
+        "label": "Bör definitivt inte ha rätt att göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Tycker Du att Sveriges regering bör ha rätt eller inte bör ha rätt att göra följande:",
+    "stem": "Tycker Du att Sveriges regering bör ha rätt eller inte bör ha rätt att göra följande:",
+    "item": "Att övervaka all e-post och annan information som utbyts över internet",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bör definitivt ha rätt att göra"
+      },
+      {
+        "value": 2,
+        "label": "Bör antagligen ha rätt att göra"
+      },
+      {
+        "value": 3,
+        "label": "Bör antagligen inte ha rätt att göra"
+      },
+      {
+        "value": 4,
+        "label": "Bör definitivt inte ha rätt att göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Tycker Du att Sveriges regering bör ha rätt eller inte bör ha rätt att göra följande:",
+    "stem": "Tycker Du att Sveriges regering bör ha rätt eller inte bör ha rätt att göra följande:",
+    "item": "Samla information om vem som helst bor i Sverige utan att de får veta detta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bör definitivt ha rätt att göra"
+      },
+      {
+        "value": 2,
+        "label": "Bör antagligen ha rätt att göra"
+      },
+      {
+        "value": 3,
+        "label": "Bör antagligen inte ha rätt att göra"
+      },
+      {
+        "value": 4,
+        "label": "Bör definitivt inte ha rätt att göra"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v208",
+    "text": "Hur ofta följer Du politik...",
+    "stem": "Hur ofta följer Du politik...",
+    "item": "...på tv",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Varje dag"
+      },
+      {
+        "value": 2,
+        "label": "Flera gånger i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En eller ett par gånger i veckan"
+      },
+      {
+        "value": 4,
+        "label": "Mer sällan"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v209",
+    "text": "Hur ofta följer Du politik...",
+    "stem": "Hur ofta följer Du politik...",
+    "item": "...på radio",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Varje dag"
+      },
+      {
+        "value": 2,
+        "label": "Flera gånger i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En eller ett par gånger i veckan"
+      },
+      {
+        "value": 4,
+        "label": "Mer sällan"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v210",
+    "text": "Hur ofta följer Du politik...",
+    "stem": "Hur ofta följer Du politik...",
+    "item": "...i dagstidningarna",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Varje dag"
+      },
+      {
+        "value": 2,
+        "label": "Flera gånger i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En eller ett par gånger i veckan"
+      },
+      {
+        "value": 4,
+        "label": "Mer sällan"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v211",
+    "text": "Hur ofta följer Du politik...",
+    "stem": "Hur ofta följer Du politik...",
+    "item": "...på sociala medier",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Varje dag"
+      },
+      {
+        "value": 2,
+        "label": "Flera gånger i veckan"
+      },
+      {
+        "value": 3,
+        "label": "En eller ett par gånger i veckan"
+      },
+      {
+        "value": 4,
+        "label": "Mer sällan"
+      },
+      {
+        "value": 5,
+        "label": "Aldrig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "stem": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "item": "Människor i Ditt kvarter, närområde",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "stem": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "item": "Människor i länet där Du bor",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "stem": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "item": "Människor i Sverige",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "stem": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "item": "Européer",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "stem": "I vilken utsträckning bryr Du Dig om levnadsförhållandena för följande grupper?",
+    "item": "Alla människor i hela världen",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "stem": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "item": "Äldre människor",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "stem": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "item": "Arbetslösa",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "stem": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "item": "Invandrare",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "stem": "Hur mycket bryr Du Dig om levnadsförhållandena för följande grupper i Sverige?",
+    "item": "Sjuka och funktionshindrade, handikappade",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Väldigt mycket"
+      },
+      {
+        "value": 2,
+        "label": "Mycket"
+      },
+      {
+        "value": 3,
+        "label": "I en viss utsträckning"
+      },
+      {
+        "value": 4,
+        "label": "Lite"
+      },
+      {
+        "value": 5,
+        "label": "Inte alls"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "stem": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "item": "Att ta bort stora inkomstskillnader mellan medborgarna?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "stem": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "item": "Att se till att alla får sina grundläggande behov av mat, bostad, kläder, utbildning och hälsa tillgodosedda?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "stem": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "item": "Att erkänna den enskildes prestationer och meriter?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "stem": "Vad bör samhället tillhandahålla? Vänligen ange för vart och ett av påståendena om det är viktigt eller oviktigt för Dig:",
+    "item": "Att skydda mot terrorism?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mycket viktigt"
+      },
+      {
+        "value": 2,
+        "label": "Ganska viktigt"
+      },
+      {
+        "value": 3,
+        "label": "Inte viktigt"
+      },
+      {
+        "value": 4,
+        "label": "Inte alls viktigt"
+      }
+    ],
+    "answer_cue": null
+  }
+]

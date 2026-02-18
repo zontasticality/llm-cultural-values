@@ -1,0 +1,62 @@
+[1/22] Skipping bul (already exists)
+[2/22] Processing ces...
+    Round 1: 36 questions [Q1..Q8] (truncated, continuing...)
+    Round 2: 38 questions [Q9..Q26A] (truncated, continuing...)
+    Round 3: 41 questions [v81..v111] (truncated, continuing...)
+    Round 4: 29 questions [v112..v140] (truncated, continuing...)
+    Round 5: 23 questions [v141..v163] (truncated, continuing...)
+    Round 6: 39 questions [v164..v209] (truncated, continuing...)
+    Round 7: 26 questions [v210..c12] (complete)
+  -> Total: 229 questions -> eurollm/translations/ces.json
+[3/22] Processing dan...
+    Round 1: 40 questions [28..69] (truncated, continuing...)
+    Round 2: 42 questions [70..101] (truncated, continuing...)
+    Round 3: 35 questions [102..136] (truncated, continuing...)
+    Round 4: 31 questions [137..168] (truncated, continuing...)
+    Round 5: 34 questions [169..202] (truncated, continuing...)
+    Round 6: 14 questions [203..216] (complete)
+  -> Total: 196 questions -> eurollm/translations/dan.json
+[4/22] Processing deu...
+    Round 1: 39 questions [Q1..v47] (truncated, continuing...)
+    Round 2: 43 questions [v48..v96] (truncated, continuing...)
+    Round 3: 33 questions [v97..v129] (truncated, continuing...)
+    Round 4: 24 questions [v130..v153] (truncated, continuing...)
+    Round 5: 15 questions [v154..v168] (complete)
+  -> Total: 154 questions -> eurollm/translations/deu.json
+[5/22] Processing ell...
+    Round 1: 37 questions [[Q1A][v1]..[Q23D][v68]] (truncated, continuing...)
+    Round 2: 36 questions [[Q23E][v69]..[Q32B][v104]] (truncated, continuing...)
+    Round 3: 56 questions [[Q32C][v105]..[Q38D][v118]] (truncated, continuing...)
+    Round 4: 30 questions [[Q38E][v119]..[Q43D][v148]] (truncated, continuing...)
+    Round 5: 41 questions [[Q44A][v149]..[Q53E][v193]] (truncated, continuing...)
+    Round 6: 26 questions [[Q54A][v194]..[Q61C][v219]] (truncated, continuing...)
+    Round 7: 5 questions [[Q61D][v220]..[Q62D][v224]] (complete)
+  -> Total: 189 questions -> eurollm/translations/ell.json
+[6/22] Skipping eng (already exists)
+[7/22] Processing est...
+    Round 1: 31 questions [Q1..v32] (truncated, continuing...)
+    Round 2: 29 questions [v33..v65] (truncated, continuing...)
+    Round 3: 29 questions [v66..v94] (truncated, continuing...)
+    Round 4: 27 questions [v95..v121] (truncated, continuing...)
+    Round 5: 38 questions [v122..v159] (truncated, continuing...)
+    Round 6: 33 questions [v160..v198] (truncated, continuing...)
+    Round 7: 26 questions [v199..v224] (complete)
+  -> Total: 213 questions -> eurollm/translations/est.json
+[8/22] Processing fin...
+    Round 1: 37 questions [None..None] (truncated, continuing...)
+    Round 2: 38 questions [q11..q36] (truncated, continuing...)
+    Round 3: 36 questions [q37..q68_2] (truncated, continuing...)
+    Round 4: 37 questions [q68_3..q82_2] (truncated, continuing...)
+    Round 5: 28 questions [q83_1..q93] (truncated, continuing...)
+    Round 6: 25 questions [q94..q118] (truncated, continuing...)
+    Round 7: 32 questions [q119..q150] (truncated, continuing...)
+    Round 8: 22 questions [q151..q172] (complete)
+  -> Total: 218 questions -> eurollm/translations/fin.json
+[9/22] Processing fra...
+    Round 1: 42 questions [Q1..Q11] (truncated, continuing...)
+    Round 2: 39 questions [Q12..Q27] (truncated, continuing...)
+    Round 3: 29 questions [Q28-A..Q37-v114] (truncated, continuing...)
+    Round 4: 32 questions [Q38-v115..Q43-v146] (truncated, continuing...)
+    Round 5: 43 questions [v145..v191] (truncated, continuing...)
+    Round 6: 35 questions [v192..v224b] (truncated, continuing...)
+    Round 7: 33 questions [v224c..v96] (truncated, continuing...)

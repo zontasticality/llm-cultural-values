@@ -1,0 +1,8108 @@
+[
+  {
+    "id": "4",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Työ",
+    "stem": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi?",
+    "item": "Työ",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Perhe",
+    "stem": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi?",
+    "item": "Perhe",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Ystävät ja tuttavat",
+    "stem": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi?",
+    "item": "Ystävät ja tuttavat",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Vapaa-aika",
+    "stem": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi?",
+    "item": "Vapaa-aika",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Politiikka",
+    "stem": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi?",
+    "item": "Politiikka",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi? Uskonto",
+    "stem": "Seuraavassa on joukko elämänalueita. Miten tärkeäksi koet ne elämässäsi?",
+    "item": "Uskonto",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Kaiken kaikkiaan, oletko nykyisin...?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin onnellinen"
+      },
+      {
+        "value": 2,
+        "label": "Melko onnellinen"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan onnellinen"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan onnellinen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Uskonnollinen tai kirkollinen järjestö",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Uskonnollinen tai kirkollinen järjestö",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Opinto-, taide-, musiikki- tai kulttuurijärjestö",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Opinto-, taide-, musiikki- tai kulttuurijärjestö",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Ammattiyhdistys",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Ammattiyhdistys",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Puolue tai puolueyhdistys",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Puolue tai puolueyhdistys",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Luonnonsuojelu-, ympäristö- ja eläinoikeusliikkeet",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Luonnonsuojelu-, ympäristö- ja eläinoikeusliikkeet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Muu ammatillinen yhdistys kuin ammattijärjestö (esim. tieteellinen seura yms.)",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Muu ammatillinen yhdistys kuin ammattijärjestö (esim. tieteellinen seura yms.)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Urheilu- tai virkistystoiminta",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Urheilu- tai virkistystoiminta",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Humanitaarinen tai hyväntekeväisyysjärjestö",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Humanitaarinen tai hyväntekeväisyysjärjestö",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Kuluttajajärjestö (esim. Kuluttajaliitto)",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Kuluttajajärjestö (esim. Kuluttajaliitto)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Elämänhallinnan ryhmä, keskinäisen avun ryhmä",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Elämänhallinnan ryhmä, keskinäisen avun ryhmä",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut? Muut ryhmät",
+    "stem": "Seuraavassa on listattu erilaisia vapaaehtoisjärjestöjä. Mihin niistä, jos mihinkään, kuulut?",
+    "item": "Muut ryhmät",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Eri rotuun kuuluvat ihmiset",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Eri rotuun kuuluvat ihmiset",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Eri rotuun kuuluvat ihmiset"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Alkoholistit",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Alkoholistit",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Alkoholistit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Maahanmuuttajat/ulkomainen työvoima",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Maahanmuuttajat/ulkomainen työvoima",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Maahanmuuttajat/ulkomainen työvoima"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Huumeiden väärinkäyttäjät",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Huumeiden väärinkäyttäjät",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Huumeiden väärinkäyttäjät"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Homoseksuaalit",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Homoseksuaalit",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Homoseksuaalit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Kristityt",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Kristityt",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kristityt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Muslimit",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Muslimit",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muslimit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Juutalaiset",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Juutalaiset",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Juutalaiset"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi Mustalaiset",
+    "stem": "Seuraavassa on lueteltu erilaisia ihmisryhmiä. Merkitse listalta kaikki ne ryhmät, joita et haluaisi naapureiksesi. Valitse kaikki, jotka sopivat sinun näkemykseesi",
+    "item": "Mustalaiset",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mustalaiset"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Oma perheesi",
+    "stem": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin?",
+    "item": "Oma perheesi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Luotan täysin"
+      },
+      {
+        "value": 2,
+        "label": "Luotan jonkin verran"
+      },
+      {
+        "value": 3,
+        "label": "En luota kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En luota lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Naapurustosi ihmiset",
+    "stem": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin?",
+    "item": "Naapurustosi ihmiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Luotan täysin"
+      },
+      {
+        "value": 2,
+        "label": "Luotan jonkin verran"
+      },
+      {
+        "value": 3,
+        "label": "En luota kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En luota lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Henkilökohtaisesti tuntemasi ihmiset",
+    "stem": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin?",
+    "item": "Henkilökohtaisesti tuntemasi ihmiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Luotan täysin"
+      },
+      {
+        "value": 2,
+        "label": "Luotan jonkin verran"
+      },
+      {
+        "value": 3,
+        "label": "En luota kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En luota lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Ihmiset, jotka tapaat ensimmäistä kertaa",
+    "stem": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin?",
+    "item": "Ihmiset, jotka tapaat ensimmäistä kertaa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Luotan täysin"
+      },
+      {
+        "value": 2,
+        "label": "Luotan jonkin verran"
+      },
+      {
+        "value": 3,
+        "label": "En luota kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En luota lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Toiseen uskontoon kuuluvat ihmiset",
+    "stem": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin?",
+    "item": "Toiseen uskontoon kuuluvat ihmiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Luotan täysin"
+      },
+      {
+        "value": 2,
+        "label": "Luotan jonkin verran"
+      },
+      {
+        "value": 3,
+        "label": "En luota kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En luota lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "4",
+    "text": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin? Toiseen kansallisuuteen kuuluvat ihmiset",
+    "stem": "Miten paljon luotat eri ryhmiin kuuluviin ihmisiin?",
+    "item": "Toiseen kansallisuuteen kuuluvat ihmiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Luotan täysin"
+      },
+      {
+        "value": 2,
+        "label": "Luotan jonkin verran"
+      },
+      {
+        "value": 3,
+        "label": "En luota kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En luota lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q5_1",
+    "text": "Tässä on lista asioista, joita ihmiset pitävät tärkeinä työssä. Mitä kaikkia niistä pidät henkilökohtaisesti tärkeinä?",
+    "stem": "Hyvä palkka",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvä palkka"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q5_2",
+    "text": "Tässä on lista asioista, joita ihmiset pitävät tärkeinä työssä. Mitä kaikkia niistä pidät henkilökohtaisesti tärkeinä?",
+    "stem": "Hyvät työajat",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvät työajat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q5_3",
+    "text": "Tässä on lista asioista, joita ihmiset pitävät tärkeinä työssä. Mitä kaikkia niistä pidät henkilökohtaisesti tärkeinä?",
+    "stem": "Mahdollisuus käyttää aloitekykyään",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mahdollisuus käyttää aloitekykyään"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q5_4",
+    "text": "Tässä on lista asioista, joita ihmiset pitävät tärkeinä työssä. Mitä kaikkia niistä pidät henkilökohtaisesti tärkeinä?",
+    "stem": "Runsaasti lomaa",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Runsaasti lomaa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q5_5",
+    "text": "Tässä on lista asioista, joita ihmiset pitävät tärkeinä työssä. Mitä kaikkia niistä pidät henkilökohtaisesti tärkeinä?",
+    "stem": "Työ, jossa tuntee saavuttavansa jotakin",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Työ, jossa tuntee saavuttavansa jotakin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q5_6",
+    "text": "Tässä on lista asioista, joita ihmiset pitävät tärkeinä työssä. Mitä kaikkia niistä pidät henkilökohtaisesti tärkeinä?",
+    "stem": "Vastuunalainen työ",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vastuunalainen työ"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q6",
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Täytyy olla työpaikka, jotta voisi kehittää kykyjään täysipainoisesti",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q7",
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "On alentavaa vastaanottaa rahaa tekemättä työtä sen eteen",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q8",
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Ihmiset, jotka eivät käy töissä, laiskistuvat",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q9",
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Työ on velvollisuus yhteiskuntaa kohtaan",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q10",
+    "text": "Oletko samaa mieltä vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Työn pitäisi aina olla etusijalla, vaikka se tarkoittaisi vähemmän vapaa-aikaa",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q11",
+    "text": "Seuraavat kysymykset käsittelevät uskontoa ja uskomuksia",
+    "stem": "Kuulutko kirkkoon tai johonkin uskonnolliseen yhteisöön?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q12",
+    "text": "Mihin kirkkoon tai uskonnolliseen yhteisöön kuulut?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Evankelisluterilaiseen kirkkoon"
+      },
+      {
+        "value": 2,
+        "label": "Ortodoksiseen kirkkoon"
+      },
+      {
+        "value": 3,
+        "label": "Roomalaiskatoliseen kirkkoon"
+      },
+      {
+        "value": 4,
+        "label": "Helluntailaisuuteen"
+      },
+      {
+        "value": 5,
+        "label": "Vapaakirkkoon"
+      },
+      {
+        "value": 6,
+        "label": "Jehovan todistajiin"
+      },
+      {
+        "value": 7,
+        "label": "Juutalaisuuteen"
+      },
+      {
+        "value": 8,
+        "label": "Islamiin"
+      },
+      {
+        "value": 9,
+        "label": "Johonkin muuhun, mihin?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q13",
+    "text": "Oletko koskaan kuulunut johonkin kirkkoon tai johonkin muuhun uskonnolliseen yhteisöön?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q14",
+    "text": "Jos ei huomioida häitä, hautajaisia ja ristiäisiä, kuinka usein käyt kirkossa/uskonnollisissa tilaisuuksissa?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Useammin kuin kerran viikossa"
+      },
+      {
+        "value": 2,
+        "label": "Kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran kuukaudessa"
+      },
+      {
+        "value": 4,
+        "label": "Vain erityisinä juhlapyhinä"
+      },
+      {
+        "value": 5,
+        "label": "Kerran vuodessa"
+      },
+      {
+        "value": 6,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 7,
+        "label": "En koskaan, en oikeastaan koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q15",
+    "text": "Jos ei huomioida häitä, hautajaisia ja ristiäisiä, kuinka usein kävit kirkossa/uskonnollisissa tilaisuuksissa kun olit 12-vuotias?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Useammin kuin kerran viikossa"
+      },
+      {
+        "value": 2,
+        "label": "Kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran kuukaudessa"
+      },
+      {
+        "value": 4,
+        "label": "Vain erityisinä juhlapyhinä"
+      },
+      {
+        "value": 5,
+        "label": "Kerran vuodessa"
+      },
+      {
+        "value": 6,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 7,
+        "label": "En koskaan, en oikeastaan koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q16",
+    "text": "Riippumatta siitä, käytkö kirkossa vai et, sanoisitko olevasi...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Uskonnollinen ihminen"
+      },
+      {
+        "value": 2,
+        "label": "Ei-uskonnollinen ihminen"
+      },
+      {
+        "value": 3,
+        "label": "Vakaumuksellinen ateisti"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q17_1",
+    "text": "Mihin seuraavista, jos mihinkään, uskot?",
+    "stem": "Jumalaan",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q17_2",
+    "text": "Mihin seuraavista, jos mihinkään, uskot?",
+    "stem": "Kuolemanjälkeiseen elämään",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q17_3",
+    "text": "Mihin seuraavista, jos mihinkään, uskot?",
+    "stem": "Helvettiin",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q17_4",
+    "text": "Mihin seuraavista, jos mihinkään, uskot?",
+    "stem": "Taivaaseen",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q18",
+    "text": "Uskotko jälleensyntymiseen eli siihen, että olemme eläneet aiemminkin ja että synnymme tähän maailmaan uudelleen?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q19",
+    "text": "Mikä seuraavista väittämistä vastaa eniten uskomuksiasi",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "On olemassa yksi Jumala"
+      },
+      {
+        "value": 2,
+        "label": "On olemassa jonkinlainen Henki tai elämänvoima"
+      },
+      {
+        "value": 3,
+        "label": "En todella tiedä mitä ajatella"
+      },
+      {
+        "value": 4,
+        "label": "En usko, että on olemassa minkäänlaista Henkeä, Jumalaa tai elämänvoimaa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q20",
+    "text": "Entä kuinka tärkeä Jumala on elämässäsi? Asteikolla 10 tarkoittaa \"erittäin tärkeä\" ja 1 tarkoittaa \"ei lainkaan tärkeä\".",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei lainkaan tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Erittäin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q21",
+    "text": "Kuinka usein rukoilet, kirkollisia toimituksia lukuunottamatta. Rukoiletko...",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Päivittäin"
+      },
+      {
+        "value": 2,
+        "label": "Useammin kuin kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran viikossa"
+      },
+      {
+        "value": 4,
+        "label": "Ainakin kerran kuussa"
+      },
+      {
+        "value": 5,
+        "label": "Muutaman kerran vuodessa"
+      },
+      {
+        "value": 6,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 7,
+        "label": "Ei koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q22",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi?",
+    "stem": "Uskollisuus",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q23",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi?",
+    "stem": "Riittävät tulot",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q24",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi?",
+    "stem": "Hyvä asunto",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q25",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi?",
+    "stem": "Kotiaskareiden jakaminen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q26",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi?",
+    "stem": "Lapset",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q27",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi?",
+    "stem": "Mahdollisuus aikaan omille ystäville ja omille harrastuksille",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q28",
+    "text": "Oletko seuraavan väittämän kanssa samaa mieltä vai eri mieltä: Avioliitto on aikansa elänyt instituutio?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q29",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Kun äiti käy töissä, lapset kärsivät",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q30",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Työ on ihan hyvä asia, mutta se, mitä useimmat naiset todella haluavat, on koti ja lapsia",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q31",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Yleisesti ottaen perhe-elämä kärsii, kun naisella on kokopäivätyö",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q32",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Miehen tehtävä on ansaita rahaa, naisen tehtävä on huolehtia kodista ja perheestä.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q33",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Miehet ovat poliittisina johtajina kaiken kaikkiaan parempia kuin naiset",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q34",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Yliopistokoulutus on tärkeämpi pojalle kuin tytölle",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q35",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Miehet ovat yritysjohtajina kaiken kaikkiaan parempia kuin naiset",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q36",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä?",
+    "stem": "Yksi elämäni päätavoitteista on ollut tehdä vanhempani ylpeiksi",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q37",
+    "text": "Kuulutko kirkkoon tai johonkin uskonnolliseen yhteisöön?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q38",
+    "text": "Mihin kirkkoon tai uskonnolliseen yhteisöön kuulut?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Evankelisluterilaiseen kirkkoon"
+      },
+      {
+        "value": 2,
+        "label": "Ortodoksiseen kirkkoon"
+      },
+      {
+        "value": 3,
+        "label": "Roomalaiskatoliseen kirkkoon"
+      },
+      {
+        "value": 4,
+        "label": "Helluntailaisuuteen"
+      },
+      {
+        "value": 5,
+        "label": "Vapaakirkkoon"
+      },
+      {
+        "value": 6,
+        "label": "Jehovan todistajiin"
+      },
+      {
+        "value": 7,
+        "label": "Juutalaisuuteen"
+      },
+      {
+        "value": 8,
+        "label": "Islamiin"
+      },
+      {
+        "value": 9,
+        "label": "Johonkin muuhun, mihin?"
+      }
+    ]
+  },
+  {
+    "id": "q39",
+    "text": "Oletko koskaan kuulunut johonkin kirkkoon tai johonkin muuhun uskonnolliseen yhteisöön?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q40",
+    "text": "Jos ei huomioida häitä, hautajaisia ja ristiäisiä, kuinka usein käyt kirkossa/uskonnollisissa tilaisuuksissa?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Useammin kuin kerran viikossa"
+      },
+      {
+        "value": 2,
+        "label": "Kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran kuukaudessa"
+      },
+      {
+        "value": 4,
+        "label": "Vain erityisinä juhlapyhinä"
+      },
+      {
+        "value": 5,
+        "label": "Kerran vuodessa"
+      },
+      {
+        "value": 6,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 7,
+        "label": "En koskaan, en oikeastaan koskaan"
+      }
+    ]
+  },
+  {
+    "id": "q41",
+    "text": "Jos ei huomioida häitä, hautajaisia ja ristiäisiä, kuinka usein kävit kirkossa/uskonnollisissa tilaisuuksissa kun olit 12-vuotias?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Useammin kuin kerran viikossa"
+      },
+      {
+        "value": 2,
+        "label": "Kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran kuukaudessa"
+      },
+      {
+        "value": 4,
+        "label": "Vain erityisinä juhlapyhinä"
+      },
+      {
+        "value": 5,
+        "label": "Kerran vuodessa"
+      },
+      {
+        "value": 6,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 7,
+        "label": "En koskaan, en oikeastaan koskaan"
+      }
+    ]
+  },
+  {
+    "id": "q42",
+    "text": "Riippumatta siitä, käytkö kirkossa vai et, sanoisitko olevasi...",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Uskonnollinen ihminen"
+      },
+      {
+        "value": 2,
+        "label": "Ei-uskonnollinen ihminen"
+      },
+      {
+        "value": 3,
+        "label": "Vakaumuksellinen ateisti"
+      }
+    ]
+  },
+  {
+    "id": "q43a",
+    "text": "Mihin seuraavista, jos mihinkään, uskot? Jumalaan",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q43b",
+    "text": "Mihin seuraavista, jos mihinkään, uskot? Kuolemanjälkeiseen elämään",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q43c",
+    "text": "Mihin seuraavista, jos mihinkään, uskot? Helvettiin",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q43d",
+    "text": "Mihin seuraavista, jos mihinkään, uskot? Taivaaseen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q44",
+    "text": "Uskotko jälleensyntymiseen eli siihen, että olemme eläneet aiemminkin ja että synnymme tähän maailmaan uudelleen?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ]
+  },
+  {
+    "id": "q45",
+    "text": "Mikä seuraavista väittämistä vastaa eniten uskomuksiasi",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "On olemassa yksi Jumala"
+      },
+      {
+        "value": 2,
+        "label": "On olemassa jonkinlainen Henki tai elämänvoima"
+      },
+      {
+        "value": 3,
+        "label": "En todella tiedä mitä ajatella"
+      },
+      {
+        "value": 4,
+        "label": "En usko, että on olemassa minkäänlaista Henkeä, Jumalaa tai elämänvoimaa"
+      }
+    ]
+  },
+  {
+    "id": "q46",
+    "text": "Entä kuinka tärkeä Jumala on elämässäsi? Asteikolla 10 tarkoittaa \"erittäin tärkeä\" ja 1 tarkoittaa \"ei lainkaan tärkeä\".",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei lainkaan tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Erittäin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q47",
+    "text": "Kuinka usein rukoilet, kirkollisia toimituksia lukuunottamatta. Rukoiletko...",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Päivittäin"
+      },
+      {
+        "value": 2,
+        "label": "Useammin kuin kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran viikossa"
+      },
+      {
+        "value": 4,
+        "label": "Ainakin kerran kuussa"
+      },
+      {
+        "value": 5,
+        "label": "Muutaman kerran vuodessa"
+      },
+      {
+        "value": 6,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 7,
+        "label": "Ei koskaan"
+      }
+    ]
+  },
+  {
+    "id": "q48a",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi? Uskollisuus",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q48b",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi? Riittävät tulot",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q48c",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi? Hyvä asunto",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q48d",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi? Kotiaskareiden jakaminen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q48e",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi? Lapset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q48f",
+    "text": "Seuraavassa on asioita, jotka joidenkin ihmisten mielestä tekevät avioliitosta tai parisuhteesta onnistuneen. Kuinka tärkeitä asioita ne ovat avioliiton tai parisuhteen onnistumiseksi? Mahdollisuus aikaan omille ystäville ja omille harrastuksille",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeä"
+      }
+    ]
+  },
+  {
+    "id": "q49",
+    "text": "Oletko seuraavan väittämän kanssa samaa mieltä vai eri mieltä: Avioliitto on aikansa elänyt instituutio?",
+    "response_type": "likert2",
+    "options": [
+      {
+        "value": 1,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q50",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Kun äiti käy töissä, lapset kärsivät",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q51",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Työ on ihan hyvä asia, mutta se, mitä useimmat naiset todella haluavat, on koti ja lapsia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q52",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Yleisesti ottaen perhe-elämä kärsii, kun naisella on kokopäivätyö",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q53",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Miehen tehtävä on ansaita rahaa, naisen tehtävä on huolehtia kodista ja perheestä.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q54",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Miehet ovat poliittisina johtajina kaiken kaikkiaan parempia kuin naiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q55",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Yliopistokoulutus on tärkeämpi pojalle kuin tytölle",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q56",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Miehet ovat yritysjohtajina kaiken kaikkiaan parempia kuin naiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q57",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Yksi elämäni päätavoitteista on ollut tehdä vanhempani ylpeiksi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q58",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Kun työpaikkoja on niukasti, työnantajien pitäisi asettaa suomalaiset työnhaussa etusijalle maahanmuuttajiin nähden",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q59",
+    "text": "Oletko seuraavien väittämien kanssa samaa vai eri mieltä? Kun työpaikkoja on niukasti, miehillä on suurempi oikeus työhön kuin naisilla",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q60",
+    "text": "Entä oletko seuraavien väittämien kanssa samaa mieltä vai eri mieltä? Homo- ja lesboparit ovat yhtä hyviä vanhempia kuin muutkin parit",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q61",
+    "text": "Entä oletko seuraavien väittämien kanssa samaa mieltä vai eri mieltä? Lasten hankkiminen on yhteiskunnallinen velvollisuus",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q62",
+    "text": "Entä oletko seuraavien väittämien kanssa samaa mieltä vai eri mieltä? Täysi-ikäisillä lapsilla on velvollisuus huolehtia vanhempiensa pitkäaikaishoidosta.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ]
+  },
+  {
+    "id": "q63",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Hyvät tavat",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q64",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Itsenäisyys",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q65",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Kova työ",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q66",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Vastuuntunto",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q67",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Mielikuvitus",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q68",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Suvaitsevaisuus ja muiden ihmisten kunnioitus",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q69",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Säästäväisyys",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q70",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Päättäväisyys, sitkeys",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q71",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Uskonnollisuus",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q72",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Epäitsekkyys",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q73",
+    "text": "Seuraavassa on lista ominaisuuksia, joiden omaksumisessa lasta voidaan rohkaista. Mitkä viisi seuraavista ovat mielestäsi kaikkein toivottavimpia lasten ominaisuuksia? Valitse enintään viisi tärkeintä. Tottelevaisuus",
+    "response_type": "action",
+    "options": []
+  },
+  {
+    "id": "q74",
+    "text": "Kuinka kiinnostunut olet politiikasta?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin kiinnostunut"
+      },
+      {
+        "value": 2,
+        "label": "Melko kiinnostunut"
+      },
+      {
+        "value": 3,
+        "label": "En kovin kiinnostunut"
+      },
+      {
+        "value": 4,
+        "label": "En ollenkaan kiinnostunut"
+      }
+    ]
+  },
+  {
+    "id": "q75",
+    "text": "Seuraavassa on lueteltu joitakin poliittisen osallistumisen muotoja. Arvioi jokaisen kohdalla oletko tehnyt tällaista, saattaisitko tehdä tällaista vai etkö missään olosuhteissa tekisi tällaista. Kirjoittanut nimesi vetoomuksiin",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Olen tehnyt"
+      },
+      {
+        "value": 2,
+        "label": "Saattaisin tehdä"
+      },
+      {
+        "value": 3,
+        "label": "En voisi koskaan tehdä"
+      }
+    ]
+  },
+  {
+    "id": "q76",
+    "text": "Politiikasta keskusteltaessa puhutaan usein vasemmistosta ja oikeistosta. Mihin kohtaan sijoittaisit oman kantasi tällä asteikolla yleensä ottaen?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Vasemmisto"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Oikeisto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q77",
+    "text": "Lue seuraavat väitteet ja kerro, mihin kohtaan sijoittaisit omat mielipiteesi asteikolla:",
+    "stem": "Yksilön tulisi ottaa enemmän vastuuta itsestään",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Yksilön tulisi ottaa enemmän vastuuta itsestään"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Julkisen vallan pitäisi ottaa enemmän vastuuta, jotta kaikilla on sitä, mitä elämiseen tarvitaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q78",
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?",
+    "stem": "Työttömien tulisi ottaa vastaan mikä tahansa heille tarjottu työ työttömyyskorvauksen menettämisen uhalla",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Työttömien tulisi ottaa vastaan mikä tahansa heille tarjottu työ työttömyyskorvauksen menettämisen uhalla"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Työttömillä tulisi olla oikeus kieltäytyä heille tarjotusta työstä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q79",
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?",
+    "stem": "Kilpailu on hyvästä",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Kilpailu on hyvästä"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Kilpailu on haitallista"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q80",
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?",
+    "stem": "Tulotaso pitäisi saada tasaisemmaksi",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Tulotaso pitäisi saada tasaisemmaksi"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Yksilön ponnistuksille pitäisi olla suurempia kannustimia"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q81",
+    "text": "Mihin kohtaan sijoittaisit omat mielipiteesi asteikolla?",
+    "stem": "Yksityisomistusta teollisuudessa ja muussa yritystoiminnassa tulisi lisätä",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Yksityisomistusta teollisuudessa ja muussa yritystoiminnassa tulisi lisätä"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Valtion ja kuntien omistusta teollisuudessa ja muussa yritystoiminnassa tulisi lisätä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q82",
+    "text": "Ihmiset keskustelevat joskus siitä, mitä maamme pitäisi tavoitella seuraavien kymmenen vuoden aikana. Seuraavassa on esitetty eräitä päämääriä. Mitä näistä tavoitteista pitäisit itse tärkeimpänä?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nopea taloudellinen kasvu"
+      },
+      {
+        "value": 2,
+        "label": "Maamme puolustusvoimien vahvuuden varmistaminen"
+      },
+      {
+        "value": 3,
+        "label": "Huolehtiminen siitä, että ihmisillä on enemmän sananvaltaa työpaikkojensa ja yhteisöjensä asioiden hoitamisessa"
+      },
+      {
+        "value": 4,
+        "label": "Pyrkimys tehdä kaupunkimme ja maaseutumme kauniimmiksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q83",
+    "text": "Entä mitä pidät toiseksi tärkeimpänä?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nopea taloudellinen kasvu"
+      },
+      {
+        "value": 2,
+        "label": "Maamme puolustusvoimien vahvuuden varmistaminen"
+      },
+      {
+        "value": 3,
+        "label": "Huolehtiminen siitä, että ihmisillä on enemmän sananvaltaa työpaikkojensa ja yhteisöjensä asioiden hoitamisessa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q84",
+    "text": "Jos sinun pitäisi valita, mitä tällä kortilla olevista asioista pitäisit tärkeimpänä?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Järjestyksen ylläpitäminen"
+      },
+      {
+        "value": 2,
+        "label": "Tavallisten ihmisten vaikutusmahdollisuuksien lisääminen poliittisessa päätöksenteossa"
+      },
+      {
+        "value": 3,
+        "label": "Hinnankorotusten vastustaminen"
+      },
+      {
+        "value": 4,
+        "label": "Sananvapauden puolustaminen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q85",
+    "text": "Entä mitä pitäisit toiseksi tärkeimpänä?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Järjestyksen ylläpitäminen"
+      },
+      {
+        "value": 2,
+        "label": "Tavallisten ihmisten vaikutusmahdollisuuksien lisääminen poliittisessa päätöksenteossa"
+      },
+      {
+        "value": 3,
+        "label": "Hinnankorotusten vastustaminen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q86",
+    "text": "Luonnollisesti me kaikki toivomme, ettei sotaa syty, mutta jos niin kävisi, olisitko halukas taistelemaan maasi puolesta?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q87",
+    "text": "Olisiko tällainen muutos mielestäsi hyvä asia vai huono asia, vai olisiko asia yhdentekevä?",
+    "stem": "Työlle annetaan vähemmän merkitystä elämässämme",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvä asia"
+      },
+      {
+        "value": 2,
+        "label": "Huono asia"
+      },
+      {
+        "value": 3,
+        "label": "Yhdentekevä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q88",
+    "text": "Olisiko tällainen muutos mielestäsi hyvä asia vai huono asia, vai olisiko asia yhdentekevä?",
+    "stem": "Auktoriteetteja kunnioitetaan enemmän",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvä asia"
+      },
+      {
+        "value": 2,
+        "label": "Huono asia"
+      },
+      {
+        "value": 3,
+        "label": "Yhdentekevä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q89",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Kirkko",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q90",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Puolustusvoimat",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q91",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Koulutusjärjestelmä",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q92",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Lehdistö",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q93",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Ammattiliitot",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q94",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Poliisi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q95",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Eduskunta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q96",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Valtion virkamieskunta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q97",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Sosiaaliturvajärjestelmä",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q98",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Euroopan unioni",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q99",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Yhdistyneet kansakunnat (YK)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q100",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Terveydenhuoltojärjestelmä",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q101",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Oikeuslaitos",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q102",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Suuryritykset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q103",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Ympäristöjärjestöt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q104",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Puolueet",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q105",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Maan hallitus",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q106",
+    "text": "Kuinka paljon luotat seuraaviin tahoihin? Luotatko niihin hyvin paljon, melko paljon, ei kovinkaan paljon, vai ei lainkaan?",
+    "stem": "Sosiaalinen media",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Melko paljon"
+      },
+      {
+        "value": 3,
+        "label": "En kovinkaan paljon"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q107",
+    "text": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "stem": "Valtio verottaa rikkaita ja tukee köyhiä.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q108",
+    "text": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "stem": "Uskonnolliset johtajat tulkitsevat lakeja.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q109",
+    "text": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "stem": "Ihmiset valitsevat johtajansa vapailla vaaleilla.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q110",
+    "text": "Valtio verottaa rikkaita ja tukee köyhiä.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q111",
+    "text": "Uskonnolliset johtajat tulkitsevat lakeja.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q112",
+    "text": "Ihmiset valitsevat johtajansa vapailla vaaleilla.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q113",
+    "text": "Ihmiset saavat valtiolta työttömyysavustusta.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q114",
+    "text": "Hallituksen ollessa kykenemätön armeija ottaa vallan.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q115",
+    "text": "Kansalaisoikeudet suojelevat ihmisiä valtion sorrolta.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q116",
+    "text": "Valtio tasaa ihmisten tuloja.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q117",
+    "text": "Ihmiset tottelevat johtajiaan.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q118",
+    "text": "Naisilla on samat oikeudet kuin miehilläkin.",
+    "stem": "Monet asiat voivat olla toivottavia, mutta ne kaikki eivät ole välttämättömiä demokratian ominaisuuksina. Kerro kunkin seuraavan kohdalla, miten välttämättömänä demokratian ominaisuutena sinä sitä pidät.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei ole demokratian välttämätön ominaisuus"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On demokratian välttämätön ominaisuus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q119",
+    "text": "Miten tärkeää sinulle on elää demokraattisesti hallitussa maassa?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei lainkaan tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Ehdottoman tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q120",
+    "text": "Entä miten demokraattisesti tätä maata hallitaan tällä hetkellä?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei lainkaan demokraattisesti"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Täysin demokraattisesti"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q121",
+    "text": "Asteikolla 1-10, jossa 1 tarkoittaa \"en lainkaan tyytyväinen\" ja 10 \"täysin tyytyväinen\", kuinka tyytyväinen olet poliittisen järjestelmän toimintaan Suomessa nykyään?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 En lainkaan tyytyväinen"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Täysin tyytyväinen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q122",
+    "text": "Vahva johtaja, jonka ei tarvitse välittää eduskunnasta ja vaaleista",
+    "stem": "Seuraavassa on erilaisia poliittisia järjestelmiä. Mitä mieltä olisit niistä Suomen hallintojärjestelmänä. Arvioi kunkin osalta erikseen, olisiko hallintojärjestelmä erittäin hyvä, melko hyvä, melko huono vai erittäin huono Suomen hallintojärjestelmänä.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin hyvä"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvä"
+      },
+      {
+        "value": 3,
+        "label": "Melko huono"
+      },
+      {
+        "value": 4,
+        "label": "Erittäin huono"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q123",
+    "text": "Asiantuntijat, ei hallitus, tekevät päätöksiä sen mukaan, mitä pitävät maalle parhaana",
+    "stem": "Seuraavassa on erilaisia poliittisia järjestelmiä. Mitä mieltä olisit niistä Suomen hallintojärjestelmänä. Arvioi kunkin osalta erikseen, olisiko hallintojärjestelmä erittäin hyvä, melko hyvä, melko huono vai erittäin huono Suomen hallintojärjestelmänä.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin hyvä"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvä"
+      },
+      {
+        "value": 3,
+        "label": "Melko huono"
+      },
+      {
+        "value": 4,
+        "label": "Erittäin huono"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q124",
+    "text": "Puolustusvoimat vallassa eli sotilasvalta",
+    "stem": "Seuraavassa on erilaisia poliittisia järjestelmiä. Mitä mieltä olisit niistä Suomen hallintojärjestelmänä. Arvioi kunkin osalta erikseen, olisiko hallintojärjestelmä erittäin hyvä, melko hyvä, melko huono vai erittäin huono Suomen hallintojärjestelmänä.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin hyvä"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvä"
+      },
+      {
+        "value": 3,
+        "label": "Melko huono"
+      },
+      {
+        "value": 4,
+        "label": "Erittäin huono"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q125",
+    "text": "Demokraattinen poliittinen järjestelmä",
+    "stem": "Seuraavassa on erilaisia poliittisia järjestelmiä. Mitä mieltä olisit niistä Suomen hallintojärjestelmänä. Arvioi kunkin osalta erikseen, olisiko hallintojärjestelmä erittäin hyvä, melko hyvä, melko huono vai erittäin huono Suomen hallintojärjestelmänä.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin hyvä"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvä"
+      },
+      {
+        "value": 3,
+        "label": "Melko huono"
+      },
+      {
+        "value": 4,
+        "label": "Erittäin huono"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q126",
+    "text": "Vaatia sairausvakuutuskorvaus tai sosiaaliturvaetu, johon ei ole oikeutta",
+    "stem": "Seuraavat kysymykset käsittelevät moraalia ja arvoja\nOvatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q127",
+    "text": "Tehdä verovilppiä, jos tilaisuus sallii",
+    "stem": "Seuraavat kysymykset käsittelevät moraalia ja arvoja\nOvatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q128",
+    "text": "Marihuanan tai hasiksen käyttö",
+    "stem": "Seuraavat kysymykset käsittelevät moraalia ja arvoja\nOvatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q129",
+    "text": "Lahjusten vastaanottaminen virkatehtävien hoidossa",
+    "stem": "Seuraavat kysymykset käsittelevät moraalia ja arvoja\nOvatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q130",
+    "text": "Homoseksuaalisuus",
+    "stem": "Seuraavat kysymykset käsittelevät moraalia ja arvoja\nOvatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q131",
+    "text": "Abortti",
+    "stem": "Seuraavat kysymykset käsittelevät moraalia ja arvoja\nOvatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q132",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Avioero",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q133",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Eutanasia eli parantumattomasti sairaiden elämän lopettaminen",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q134",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Itsemurha",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q135",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Satunnaiset seksisuhteet",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q136",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Jättää maksamatta julkisessa kulkuneuvossa",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q137",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Prostituutio",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q138",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Keinohedelmöitys tai koeputkihedelmöitys",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q139",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Poliittinen väkivalta",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q140",
+    "text": "Ovatko seuraavat asiat mielestäsi aina hyväksyttäviä, ei koskaan hyväksyttäviä vai jotain siltä väliltä. Käytä asteikkoa 1-10 välillä.",
+    "stem": "Kuolemanrangaistus",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Ei koskaan hyväksyttävää"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Aina hyväksyttävää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q141",
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi koet seuraavat?",
+    "stem": "Paikkakuntasi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin läheiseksi"
+      },
+      {
+        "value": 2,
+        "label": "Läheiseksi"
+      },
+      {
+        "value": 3,
+        "label": "En kovin läheiseksi"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan läheiseksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q142",
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi koet seuraavat?",
+    "stem": "Maakuntasi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin läheiseksi"
+      },
+      {
+        "value": 2,
+        "label": "Läheiseksi"
+      },
+      {
+        "value": 3,
+        "label": "En kovin läheiseksi"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan läheiseksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q143",
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi koet seuraavat?",
+    "stem": "Suomen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin läheiseksi"
+      },
+      {
+        "value": 2,
+        "label": "Läheiseksi"
+      },
+      {
+        "value": 3,
+        "label": "En kovin läheiseksi"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan läheiseksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q144",
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi koet seuraavat?",
+    "stem": "Euroopan",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin läheiseksi"
+      },
+      {
+        "value": 2,
+        "label": "Läheiseksi"
+      },
+      {
+        "value": 3,
+        "label": "En kovin läheiseksi"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan läheiseksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q145",
+    "text": "Ihmisillä on erilaisia käsityksiä itsestään ja suhteestaan maailmaan. Kuinka läheiseksi itsellesi koet seuraavat?",
+    "stem": "Maailman",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin läheiseksi"
+      },
+      {
+        "value": 2,
+        "label": "Läheiseksi"
+      },
+      {
+        "value": 3,
+        "label": "En kovin läheiseksi"
+      },
+      {
+        "value": 4,
+        "label": "En lainkaan läheiseksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q146",
+    "text": "Oletko Suomen kansalainen?",
+    "stem": "Kansalaisuus tarkoittaa, että sinulla on oikeus Suomen passiin",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q147",
+    "text": "Kuinka ylpeä olet Suomen kansalaisuudesta?",
+    "stem": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin ylpeä"
+      },
+      {
+        "value": 2,
+        "label": "Melko ylpeä"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin ylpeä"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan ylpeä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q148",
+    "text": "Äänestätkö vaaleissa aina, useimmiten vai et koskaan? Mainitse kunkin vaalin kohdalla kuinka usein äänestät.",
+    "stem": "Kunnallisvaaleissa",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Aina"
+      },
+      {
+        "value": 2,
+        "label": "Useimmiten"
+      },
+      {
+        "value": 3,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q149",
+    "text": "Äänestätkö vaaleissa aina, useimmiten vai et koskaan? Mainitse kunkin vaalin kohdalla kuinka usein äänestät.",
+    "stem": "Eduskunta- ja presidentinvaaleissa",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Aina"
+      },
+      {
+        "value": 2,
+        "label": "Useimmiten"
+      },
+      {
+        "value": 3,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q150",
+    "text": "Äänestätkö vaaleissa aina, useimmiten vai et koskaan? Mainitse kunkin vaalin kohdalla kuinka usein äänestät.",
+    "stem": "Europarlamenttivaaleissa",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Aina"
+      },
+      {
+        "value": 2,
+        "label": "Useimmiten"
+      },
+      {
+        "value": 3,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q151",
+    "text": "Mikä puolue on sinulle mieluisin?",
+    "stem": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "KESK (Suomen Keskusta)"
+      },
+      {
+        "value": 2,
+        "label": "KOK (Kansallinen Kokoomus)"
+      },
+      {
+        "value": 3,
+        "label": "SDP (Suomen Sosialidemokraattinen Puolue)"
+      },
+      {
+        "value": 4,
+        "label": "VAS (Vasemmistoliitto)"
+      },
+      {
+        "value": 5,
+        "label": "VIHR (Vihreä Liitto)"
+      },
+      {
+        "value": 6,
+        "label": "KD (Kristillisdemokraatit)"
+      },
+      {
+        "value": 7,
+        "label": "RKP (Ruotsalainen Kansanpuolue)"
+      },
+      {
+        "value": 8,
+        "label": "PS (Perussuomalaiset)"
+      },
+      {
+        "value": 9,
+        "label": "Muu, mikä?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q152",
+    "text": "Entä onko jokin muukin puolue sinulle mieluinen?",
+    "stem": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "KESK (Suomen Keskusta)"
+      },
+      {
+        "value": 2,
+        "label": "KOK (Kansallinen Kokoomus)"
+      },
+      {
+        "value": 3,
+        "label": "SDP (Suomen Sosialidemokraattinen Puolue)"
+      },
+      {
+        "value": 4,
+        "label": "VIHR (Vihreä Liitto)"
+      },
+      {
+        "value": 5,
+        "label": "KD (Kristillisdemokraatit)"
+      },
+      {
+        "value": 6,
+        "label": "RKP (Ruotsalainen Kansanpuolue)"
+      },
+      {
+        "value": 7,
+        "label": "PS (Perussuomalaiset)"
+      },
+      {
+        "value": 8,
+        "label": "Muu, mikä?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q153",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Äänet lasketaan puolueettomasti",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q154",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Opposition ehdokkaiden asettuminen ehdolle estetään",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q155",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "TV-uutiset suosivat hallituspuolueita",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q156",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Äänestäjiä lahjotaan",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q157",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Toimittajat käsittelevät vaaleja tasapuolisesti",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q158",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Vaalivirkailijat toimivat tasapuolisesti",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q159",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Rikkaat ihmiset vaikuttavat vaalitulokseen rahalla",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q160",
+    "text": "Kuinka usein maamme vaaleissa tapahtuu mielestäsi seuraavaa?",
+    "stem": "Äänestäjiä uhataan väkivallalla äänestyspaikoilla",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin usein"
+      },
+      {
+        "value": 2,
+        "label": "Melko usein"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovinkaan usein"
+      },
+      {
+        "value": 4,
+        "label": "Hyvin harvoin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q161",
+    "text": "Seuraavaksi haluaisimme tietää mielipiteesi maahanmuuttajista eli ihmisistä, jotka tulevat asumaan Suomeen muista maista. Millaiseksi arvioisit heidän vaikutuksensa Suomen kehitykseen?",
+    "stem": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 5,
+        "label": "5 Hyvin myönteiseksi"
+      },
+      {
+        "value": 4,
+        "label": "4 Melko myönteiseksi"
+      },
+      {
+        "value": 3,
+        "label": "3 En kielteiseksi enkä myönteiseksi"
+      },
+      {
+        "value": 2,
+        "label": "2 Melko kielteiseksi"
+      },
+      {
+        "value": 1,
+        "label": "1 Hyvin kielteiseksi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q162",
+    "text": "Mitä mieltä olet seuraavista väittämistä asteikolla 1-10?",
+    "stem": "Maahanmuuttajat vievät työt syntyperäisiltä asukkailta",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Maahanmuuttajat vievät työt syntyperäisiltä asukkailta"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Maahanmuuttajat eivät vie töitä syntyperäisiltä asukkailta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q163",
+    "text": "Mitä mieltä olet seuraavista väittämistä asteikolla 1-10?",
+    "stem": "Maahanmuuttajat lisäävät rikollisuutta",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 Maahanmuuttajat lisäävät rikollisuutta"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 Maahanmuuttajat eivät lisää rikollisuutta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q164",
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pitää suomalaisena. Kuinka tärkeinä pidät seuraavia asioita, että jotain henkilöä voidaan pitää todella suomalaisena?",
+    "stem": "On syntynyt Suomessa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q165",
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pitää suomalaisena. Kuinka tärkeinä pidät seuraavia asioita, että jotain henkilöä voidaan pitää todella suomalaisena?",
+    "stem": "Kunnioittaa Suomen yhteiskuntajärjestelmää ja lakeja",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q166",
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pitää suomalaisena. Kuinka tärkeinä pidät seuraavia asioita, että jotain henkilöä voidaan pitää todella suomalaisena?",
+    "stem": "Sukujuuret ovat suomalaiset",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q167",
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pitää suomalaisena. Kuinka tärkeinä pidät seuraavia asioita, että jotain henkilöä voidaan pitää todella suomalaisena?",
+    "stem": "Osaa puhua suomea/ruotsia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q168",
+    "text": "Jotkut ihmiset sanovat seuraavien asioiden olevan tärkeitä, jotta jotain henkilöä voidaan todella pitää suomalaisena. Kuinka tärkeinä pidät seuraavia asioita, että jotain henkilöä voidaan pitää todella suomalaisena?",
+    "stem": "Omaksuu suomalaisen kulttuurin",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q169",
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asiat mielestäsi ovat, jotta ihmistä voidaan pitää eurooppalaisena?",
+    "stem": "On syntynyt Euroopassa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q170",
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asiat mielestäsi ovat, jotta ihmistä voidaan pitää eurooppalaisena?",
+    "stem": "Eurooppalaiset sukujuuret",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q171",
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asiat mielestäsi ovat, jotta ihmistä voidaan pitää eurooppalaisena?",
+    "stem": "On kristitty",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q172",
+    "text": "Ihmisillä on erilaisia näkemyksiä siitä, mitä on olla eurooppalainen. Kuinka tärkeitä seuraavat asiat mielestäsi ovat, jotta ihmistä voidaan pitää eurooppalaisena?",
+    "stem": "Omaksuu eurooppalaisen kulttuurin",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q173",
+    "text": "Jotkut ihmiset ovat sitä mieltä, että Euroopan unionin tulisi jatkaa laajentumistaan, toisten mielestä se on taas laajentunut jo liikaakin. Mitä mieltä itse olet asiasta seuraavalla asteikolla, jossa 1 tarkoittaa \"tulisi jatkaa laajentumista\" ja 10 \"on laajentunut jo liikaa\"?",
+    "stem": "Tulisi jatkaa laajentumista",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10 On laajentunut jo liikaa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q174",
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Luopuisin osasta tuloistani, jos voisin olla varma, että se käytettäisiin ympäristön saastumisen ehkäisemiseen",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q175",
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Minunlaiseni ihmisen on liian hankalaa tehdä juuri mitään ympäristön hyväksi",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q176",
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Elämässä on tärkeämpiäkin asioita kuin ympäristönsuojelu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q177",
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Minun on turha tehdä omaa osaani ympäristön hyväksi, jos muut eivät tee samaa",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q178",
+    "text": "Oletko samaa vai eri mieltä seuraavien väittämien kanssa?",
+    "stem": "Monet ympäristöuhkiin liittyvät väitteet ovat liioiteltuja",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täysin samaa mieltä"
+      },
+      {
+        "value": 2,
+        "label": "Samaa mieltä"
+      },
+      {
+        "value": 3,
+        "label": "En samaa mieltä enkä eri mieltä"
+      },
+      {
+        "value": 4,
+        "label": "Eri mieltä"
+      },
+      {
+        "value": 5,
+        "label": "Täysin eri mieltä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q179",
+    "text": "Seuraavaksi kaksi väitettä, jotka ihmiset joskus esittävät keskustellessaan ympäristöstä ja talouskasvusta. Kumpi niistä on lähempänä omaa näkökulmaasi?",
+    "stem": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ympäristön suojeleminen tulisi asettaa etusijalle, vaikka se hidastaakin talouskasvua ja vie joitakin työpaikkoja."
+      },
+      {
+        "value": 2,
+        "label": "Talouskasvu ja työpaikkojen luominen pitäisi asettaa etusijalle, vaikka ympäristö kärsiikin siitä jossain määrin."
+      },
+      {
+        "value": 3,
+        "label": "Muu vastaus"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q180",
+    "text": "Tulisiko Suomen viranomaisilla mielestäsi olla oikeus tehdä seuraavaa vai ei:",
+    "stem": "Harjoittaa kameravalvontaa julkisilla paikoilla",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ehdottomasti tulisi olla oikeus"
+      },
+      {
+        "value": 2,
+        "label": "Ehkä tulisi olla oikeus"
+      },
+      {
+        "value": 3,
+        "label": "Ehkä ei tulisi olla oikeutta"
+      },
+      {
+        "value": 4,
+        "label": "Ehdottomasti ei tulisi olla oikeutta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q181",
+    "text": "Tulisiko Suomen viranomaisilla mielestäsi olla oikeus tehdä seuraavaa vai ei:",
+    "stem": "Valvoa sähköposteja ja kaikkea muuta tiedonvaihtoa Internetissä",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ehdottomasti tulisi olla oikeus"
+      },
+      {
+        "value": 2,
+        "label": "Ehkä tulisi olla oikeus"
+      },
+      {
+        "value": 3,
+        "label": "Ehkä ei tulisi olla oikeutta"
+      },
+      {
+        "value": 4,
+        "label": "Ehdottomasti ei tulisi olla oikeutta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q182",
+    "text": "Tulisiko Suomen viranomaisilla mielestäsi olla oikeus tehdä seuraavaa vai ei:",
+    "stem": "Kerätä tietoa kenestä tahansa Suomessa asuvasta henkilöstä hänen tietämättään",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ehdottomasti tulisi olla oikeus"
+      },
+      {
+        "value": 2,
+        "label": "Ehkä tulisi olla oikeus"
+      },
+      {
+        "value": 3,
+        "label": "Ehkä ei tulisi olla oikeutta"
+      },
+      {
+        "value": 4,
+        "label": "Ehdottomasti ei tulisi olla oikeutta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q183",
+    "text": "Kuinka usein seuraat politiikkaa...",
+    "stem": "Televisiosta",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Päivittäin"
+      },
+      {
+        "value": 2,
+        "label": "Useamman kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran tai kahdesti viikossa"
+      },
+      {
+        "value": 4,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 5,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q184",
+    "text": "Kuinka usein seuraat politiikkaa...",
+    "stem": "Radiosta",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Päivittäin"
+      },
+      {
+        "value": 2,
+        "label": "Useamman kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran tai kahdesti viikossa"
+      },
+      {
+        "value": 4,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 5,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q185",
+    "text": "Kuinka usein seuraat politiikkaa...",
+    "stem": "Sanomalehdistä",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Päivittäin"
+      },
+      {
+        "value": 2,
+        "label": "Useamman kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran tai kahdesti viikossa"
+      },
+      {
+        "value": 4,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 5,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q186",
+    "text": "Kuinka usein seuraat politiikkaa...",
+    "stem": "Sosiaalisessa mediassa",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Päivittäin"
+      },
+      {
+        "value": 2,
+        "label": "Useamman kerran viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Kerran tai kahdesti viikossa"
+      },
+      {
+        "value": 4,
+        "label": "Harvemmin"
+      },
+      {
+        "value": 5,
+        "label": "En koskaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q187",
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?",
+    "stem": "Naapurustosi",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q188",
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?",
+    "stem": "Asuinseutusi ihmiset",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q189",
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?",
+    "stem": "Suomalaiset",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q190",
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?",
+    "stem": "Eurooppalaiset",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q191",
+    "text": "Kuinka paljon kannat huolta seuraavien tahojen elinoloista?",
+    "stem": "Ihmiskunta",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q192",
+    "text": "Entä missä määrin kannat huolta seuraavassa lueteltujen tahojen elinoloista Suomessa?",
+    "stem": "Vanhukset",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q193",
+    "text": "Entä missä määrin kannat huolta seuraavassa lueteltujen tahojen elinoloista Suomessa?",
+    "stem": "Työttömät",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q194",
+    "text": "Entä missä määrin kannat huolta seuraavassa lueteltujen tahojen elinoloista Suomessa?",
+    "stem": "Maahanmuuttajat",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q195",
+    "text": "Entä missä määrin kannat huolta seuraavassa lueteltujen tahojen elinoloista Suomessa?",
+    "stem": "Sairaat ja vammaiset",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin paljon"
+      },
+      {
+        "value": 2,
+        "label": "Paljon"
+      },
+      {
+        "value": 3,
+        "label": "Jossain määrin"
+      },
+      {
+        "value": 4,
+        "label": "En kovin paljon"
+      },
+      {
+        "value": 5,
+        "label": "En lainkaan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q196",
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeänä sitä pidät.",
+    "stem": "Kansalaisten välisten suurten tuloerojen poistaminen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q197",
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeänä sitä pidät.",
+    "stem": "Perustarpeiden, kuten ruoan, asunnon, vaatteiden, koulutuksen ja terveydenhoidon takaaminen kaikille",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q198",
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeänä sitä pidät.",
+    "stem": "Antaa ihmisille tunnustusta heidän ansioistaan",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q199",
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeänä sitä pidät.",
+    "stem": "Terrorismilta suojeleminen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q200",
+    "text": "Minkälaisista asioista yhteiskunnan tulisi huolehtia? Kerro kunkin väittämän kohdalla, kuinka tärkeänä sitä pidät.",
+    "stem": "Terrorismilta suojeleminen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin tärkeää"
+      },
+      {
+        "value": 2,
+        "label": "Melko tärkeää"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin tärkeää"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan tärkeää"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q201",
+    "text": "Taustatiedot. Oletko mies vai nainen?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mies"
+      },
+      {
+        "value": 2,
+        "label": "Nainen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q202",
+    "text": "Mikä on syntymävuotesi?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q203",
+    "text": "Oletko syntynyt Suomessa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q204",
+    "text": "Missä maassa olet syntynyt?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q205",
+    "text": "Minä vuonna muutit Suomeen ensimmäistä kertaa?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q206",
+    "text": "Onko isäsi syntynyt Suomessa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "Ei"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q207",
+    "text": "Missä maassa isäsi on syntynyt?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q208",
+    "text": "Onko äitisi syntynyt Suomessa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "Ei"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q209",
+    "text": "Missä maassa äitisi on syntynyt?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q210",
+    "text": "Mikä on siviilisäätysi?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Naimisissa"
+      },
+      {
+        "value": 2,
+        "label": "Rekisteröidyssä parisuhteessa"
+      },
+      {
+        "value": 3,
+        "label": "Leski (avioliitosta tai rekisteröidystä parisuhteesta)"
+      },
+      {
+        "value": 4,
+        "label": "Eronnut (avioliitosta tai rekisteröidystä parisuhteesta)"
+      },
+      {
+        "value": 5,
+        "label": "Asumuserossa (avioliitosta tai rekisteröidystä parisuhteesta)"
+      },
+      {
+        "value": 6,
+        "label": "En ole koskaan ollut naimisissa tai rekisteröidyssä parisuhteessa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q211",
+    "text": "Asuitko yhdessä kumppanisi kanssa ennen avioliiton solmimista tai parisuhteen rekisteröimistä?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q212",
+    "text": "Asutko nykyisin yhdessä kumppanin kanssa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q213",
+    "text": "Oletko vakituisessa parisuhteessa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q214",
+    "text": "Asutko vanhempiesi tai appivanhempiesi kanssa?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "En"
+      },
+      {
+        "value": 2,
+        "label": "Kyllä, oman vanhempani / omien vanhempieni"
+      },
+      {
+        "value": 3,
+        "label": "Kyllä, appivanhempani/appivanhempieni"
+      },
+      {
+        "value": 4,
+        "label": "Kyllä, sekä omien että appivanhempieni kanssa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q215",
+    "text": "Kuinka monta lasta sinulla on? Kerro kuinka moni heistä asuu taloudessasi ja kuinka moni asuu muualla:",
+    "stem": "Taloudessa asuvien lasten lukumäärä:",
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q216",
+    "text": "Kuinka monta lasta sinulla on? Kerro kuinka moni heistä asuu taloudessasi ja kuinka moni asuu muualla:",
+    "stem": "Muualla asuvien lasten lukumäärä:",
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q217",
+    "text": "Mukaan lukien itsesi ja lapset, kuinka monta henkeä taloudessasi asuu?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q218",
+    "text": "Entä minkä ikäinen taloutesi nuorin henkilö on?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q219",
+    "text": "Minkä ikäisenä lopetit täysipäiväisen koulunkäynnin tai opiskelun? Älä laske mukaan oppisopimuskoulutusta tai muuta työn ohessa tapahtuvaa opiskelua.",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q220",
+    "text": "Mikä on korkein suorittamasi koulutus?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vähemmän kuin peruskoulun ala-aste tai vähemmän kuin peruskoulu"
+      },
+      {
+        "value": 2,
+        "label": "Peruskoulun ala-aste, kansakoulu tai kansalaiskoulu"
+      },
+      {
+        "value": 3,
+        "label": "Peruskoulun yläaste tai keskikoulu"
+      },
+      {
+        "value": 4,
+        "label": "Lukio, ylioppilastutkinto"
+      },
+      {
+        "value": 5,
+        "label": "Ammatillinen perustutkinto, ammattitutkinto"
+      },
+      {
+        "value": 6,
+        "label": "Sekä ylioppilas- että ammattitutkinto"
+      },
+      {
+        "value": 7,
+        "label": "Erikoisammattitutkinto"
+      },
+      {
+        "value": 8,
+        "label": "Ammatillinen opistoasteen tutkinto"
+      },
+      {
+        "value": 9,
+        "label": "Ammattikorkeakoulututkinto tai ammatillisen korkea-asteen tutkinto"
+      },
+      {
+        "value": 10,
+        "label": "Alempi korkeakoulututkinto tai kandidaatin tutkinto"
+      },
+      {
+        "value": 11,
+        "label": "Ylempi ammattikorkeakoulututkinto"
+      },
+      {
+        "value": 12,
+        "label": "Ylempi korkeakoulututkinto"
+      },
+      {
+        "value": 13,
+        "label": "Lisensiaatintutkinto"
+      },
+      {
+        "value": 14,
+        "label": "Tohtorin tutkinto"
+      },
+      {
+        "value": 15,
+        "label": "Joku muu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q221",
+    "text": "Oletko tällä hetkellä työelämässä vai et?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Palkkatyössä 30 tuntia viikossa tai enemmän"
+      },
+      {
+        "value": 2,
+        "label": "Palkkatyössä vähemmän kuin 30 tuntia viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Yksityisyrittäjä"
+      },
+      {
+        "value": 4,
+        "label": "Varusmiespalveluksessa"
+      },
+      {
+        "value": 5,
+        "label": "Eläkkeellä"
+      },
+      {
+        "value": 6,
+        "label": "Kotiäiti, ei muuta työtä"
+      },
+      {
+        "value": 7,
+        "label": "Opiskelija"
+      },
+      {
+        "value": 8,
+        "label": "Työtön"
+      },
+      {
+        "value": 9,
+        "label": "Vamman takia työelämän ulkopuolella"
+      },
+      {
+        "value": 10,
+        "label": "Muu, mikä?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q222",
+    "text": "Olitko VIIMEISIMMÄSSÄ työssäsi työntekijä (joko koko- tai osa-aikaisena) vai yksityisyrittäjä?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Työntekijä"
+      },
+      {
+        "value": 2,
+        "label": "Yksityisyrittäjä"
+      },
+      {
+        "value": 3,
+        "label": "En ole koskaan ollut ansiotyössä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q223",
+    "text": "Mikä on pääasiallinen työnimikkeesi tai ammattisi?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q224",
+    "text": "Minkälaista työtä teet/teit suurimman osan ajasta pääasiallisessa työssäsi?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q225",
+    "text": "Kuinka monta palkattua työntekijää sinulla on tai oli, jos et enää toimi yrittäjänä?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ei yhtään"
+      },
+      {
+        "value": 2,
+        "label": "1-9"
+      },
+      {
+        "value": 3,
+        "label": "10-24"
+      },
+      {
+        "value": 4,
+        "label": "25 tai enemmän"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q226",
+    "text": "Oletko nykyisessä työssäsi esimiesasemassa tai jos et enää ole työssä, oliko sinulla alaisia?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q227",
+    "text": "Kuinka monta alaista sinulla on tai oli?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "1-9"
+      },
+      {
+        "value": 2,
+        "label": "10-24"
+      },
+      {
+        "value": 3,
+        "label": "25 tai enemmän"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q228",
+    "text": "Oletko työssä julkisella sektorilla, yksityisessä yrityksessä vai voittoa tavoittelemattomassa järjestössä/yhdistyksessä?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Julkisella sektorilla"
+      },
+      {
+        "value": 2,
+        "label": "Yksityisessä yrityksessä"
+      },
+      {
+        "value": 3,
+        "label": "Voittoa tavoittelemattomassa järjestössä/yhdistyksessä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q229",
+    "text": "Onko puolisosi/kumppanisi syntynyt Suomessa?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "Ei"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q230",
+    "text": "Mikä on korkein puolisosi/kumppanisi suorittama koulutus?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vähemmän kuin peruskoulun ala-aste tai vähemmän kuin peruskoulu"
+      },
+      {
+        "value": 2,
+        "label": "Peruskoulun ala-aste, kansakoulu tai kansalaiskoulu"
+      },
+      {
+        "value": 3,
+        "label": "Peruskoulun yläaste tai keskikoulu"
+      },
+      {
+        "value": 4,
+        "label": "Lukio, ylioppilastutkinto"
+      },
+      {
+        "value": 5,
+        "label": "Ammatillinen perustutkinto, ammattitutkinto"
+      },
+      {
+        "value": 6,
+        "label": "Sekä ylioppilas- että ammattitutkinto"
+      },
+      {
+        "value": 7,
+        "label": "Erikoisammattitutkinto"
+      },
+      {
+        "value": 8,
+        "label": "Ammatillinen opistoasteen tutkinto"
+      },
+      {
+        "value": 9,
+        "label": "Ammattikorkeakoulututkinto tai ammatillisen korkea-asteen tutkinto"
+      },
+      {
+        "value": 10,
+        "label": "Alempi korkeakoulututkinto tai kandidaatin tutkinto"
+      },
+      {
+        "value": 11,
+        "label": "Ylempi ammattikorkeakoulututkinto"
+      },
+      {
+        "value": 12,
+        "label": "Ylempi korkeakoulututkinto"
+      },
+      {
+        "value": 13,
+        "label": "Lisensiaatintutkinto"
+      },
+      {
+        "value": 14,
+        "label": "Tohtorin tutkinto"
+      },
+      {
+        "value": 15,
+        "label": "Joku muu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q231",
+    "text": "Onko puolisosi/kumppanisi tällä hetkellä työelämässä vai ei? Valitse seuraavista puolisosi/kumppanisi tilannetta kuvaava vaihtoehto.",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Palkkatyössä 30 tuntia viikossa tai enemmän"
+      },
+      {
+        "value": 2,
+        "label": "Palkkatyössä vähemmän kuin 30 tuntia viikossa"
+      },
+      {
+        "value": 3,
+        "label": "Yksityisyrittäjä"
+      },
+      {
+        "value": 4,
+        "label": "Varusmiespalveluksessa"
+      },
+      {
+        "value": 5,
+        "label": "Eläkkeellä"
+      },
+      {
+        "value": 6,
+        "label": "Kotiäiti, ei muuta työtä"
+      },
+      {
+        "value": 7,
+        "label": "Opiskelija"
+      },
+      {
+        "value": 8,
+        "label": "Työtön"
+      },
+      {
+        "value": 9,
+        "label": "Vamman takia työelämän ulkopuolella"
+      },
+      {
+        "value": 10,
+        "label": "Muu, mikä?"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q232",
+    "text": "Oliko puolisosi/kumppanisi VIIMEISIMMÄSSÄ työssään työntekijä (joko koko- tai osa-aikaisena) vai yksityisyrittäjä?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Työntekijä"
+      },
+      {
+        "value": 2,
+        "label": "Yksityisyrittäjä"
+      },
+      {
+        "value": 3,
+        "label": "Ei koskaan ansiotyössä"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q233",
+    "text": "Mikä on puolisosi/kumppanisi nykyinen pääasiallinen työnimike tai ammatti? Mikä oli puolisosi/kumppanisi pääasiallinen työnimike tai ammatti?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q234",
+    "text": "Minkälaista työtä puolisosi/kumppanisi tekee/teki suurimman osan ajasta pääasiallisessa työssään?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "q235",
+    "text": "Kuinka monta palkattua työntekijää puolisollasi/kumppanillasi on tai oli, jos hän ei enää toimi yrittäjänä?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ei yhtään"
+      },
+      {
+        "value": 2,
+        "label": "1-9"
+      },
+      {
+        "value": 3,
+        "label": "10-24"
+      },
+      {
+        "value": 4,
+        "label": "25 tai enemmän"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q236",
+    "text": "Onko puolisosi/kumppanisi nykyisessä työssään esimiesasemassa tai jos hän ei enää ole työssä, oliko hänellä alaisia?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "Ei"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q237",
+    "text": "Kuinka monta alaista hänellä on tai oli?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "1-9"
+      },
+      {
+        "value": 2,
+        "label": "10-24"
+      },
+      {
+        "value": 3,
+        "label": "25 tai enemmän"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q238",
+    "text": "Oletko viimeisen viiden vuoden aikana ollut yli kolme kuukautta työttömänä yhtäjaksoisesti?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q239",
+    "text": "Oletko elänyt sosiaaliturvan varassa missään vaiheessa viimeisen viiden vuoden aikana? Sosiaaliturvalla tarkoitetaan tässä tarveharkintaisia sosiaalisia etuuksia (esim. peruspäiväraha, asumistuki, toimeentulotuki). HUOM: ei sisällä työttömyys- tai vammaisetuuksia eikä eläkkeitä.",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Kyllä"
+      },
+      {
+        "value": 2,
+        "label": "En"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q240",
+    "text": "Mihin näistä tuloluokista perheesi kuuluu, kun kaikkien perheenjäsenten palkat, eläkkeet ja muut tulot lasketaan yhteen? Merkitse ryhmän kirjain, johon taloutesi kuuluu verojen ja muiden vähennysten jälkeen.",
+    "stem": "VIIKOITTAINEN keskiansio",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "OA 0-280"
+      },
+      {
+        "value": 2,
+        "label": "B 281-350"
+      },
+      {
+        "value": 3,
+        "label": "C 351-450"
+      },
+      {
+        "value": 4,
+        "label": "D 451-550"
+      },
+      {
+        "value": 5,
+        "label": "E 551-650"
+      },
+      {
+        "value": 6,
+        "label": "OF 651-800"
+      },
+      {
+        "value": 7,
+        "label": "G 801-950"
+      },
+      {
+        "value": 8,
+        "label": "Η 951-1150"
+      },
+      {
+        "value": 9,
+        "label": "11151-1400"
+      },
+      {
+        "value": 10,
+        "label": "J 1401-"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q241",
+    "text": "Mihin näistä tuloluokista perheesi kuuluu, kun kaikkien perheenjäsenten palkat, eläkkeet ja muut tulot lasketaan yhteen? Merkitse ryhmän kirjain, johon taloutesi kuuluu verojen ja muiden vähennysten jälkeen.",
+    "stem": "KUUKAUSITTAINEN keskiansio",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "0-1100"
+      },
+      {
+        "value": 2,
+        "label": "1101-1400"
+      },
+      {
+        "value": 3,
+        "label": "1401-1800"
+      },
+      {
+        "value": 4,
+        "label": "1801-2200"
+      },
+      {
+        "value": 5,
+        "label": "2201-2600"
+      },
+      {
+        "value": 6,
+        "label": "2601-3200"
+      },
+      {
+        "value": 7,
+        "label": "3201-3800"
+      },
+      {
+        "value": 8,
+        "label": "3801-4600"
+      },
+      {
+        "value": 9,
+        "label": "4601-5700"
+      },
+      {
+        "value": 10,
+        "label": "5701-"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q242",
+    "text": "Mihin näistä tuloluokista perheesi kuuluu, kun kaikkien perheenjäsenten palkat, eläkkeet ja muut tulot lasketaan yhteen? Merkitse ryhmän kirjain, johon taloutesi kuuluu verojen ja muiden vähennysten jälkeen.",
+    "stem": "VUOTUINEN keskiansio",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "0-13500"
+      },
+      {
+        "value": 2,
+        "label": "13501-16800"
+      },
+      {
+        "value": 3,
+        "label": "16801-21000"
+      },
+      {
+        "value": 4,
+        "label": "21001-26000"
+      },
+      {
+        "value": 5,
+        "label": "26001-31700"
+      },
+      {
+        "value": 6,
+        "label": "31701-38400"
+      },
+      {
+        "value": 7,
+        "label": "38401-46100"
+      },
+      {
+        "value": 8,
+        "label": "46101-54800"
+      },
+      {
+        "value": 9,
+        "label": "54801-68500"
+      },
+      {
+        "value": 10,
+        "label": "68501-"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "q243",
+    "text": "Mikä on korkein isäsi suorittama koulutus?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vähemmän kuin peruskoulun ala-aste tai vähemmän kuin peruskoulu"
+      },
+      {
+        "value": 2,
+        "label": "Peruskoulun ala-aste, kansakoulu tai kansalaiskoulu"
+      },
+      {
+        "value": 3,
+        "label": "Peruskoulun yläaste tai keskikoulu"
+      },
+      {
+        "value": 4,
+        "label": "Lukio, ylioppilastutkinto"
+      },
+      {
+        "value": 5,
+        "label": "Ammatillinen perustutkinto, ammattitutkinto"
+      },
+      {
+        "value": 6,
+        "label": "Sekä ylioppilas- että ammattitutkinto"
+      },
+      {
+        "value": 7,
+        "label": "Erikoisammattitutkinto"
+      },
+      {
+        "value": 8,
+        "label": "Ammatillinen opistoasteen tutkinto"
+      },
+      {
+        "value": 9,
+        "label": "Ammattikorkeakoulututkinto tai ammatillisen korkea-asteen tutkinto"
+      },
+      {
+        "value": 10,
+        "label": "Alempi korkeakoulututkinto tai kandidaatin tutkinto"
+      },
+      {
+        "value": 11,
+        "label": "Ylempi ammattikorkeakoulututkinto"
+      },
+      {
+        "value": 12,
+        "label": "Ylempi korkeakoulututkinto"
+      },
+      {
+        "value": 13,
+        "label": "Lisensiaatintutkinto"
+      },
+      {
+        "value": 14,
+        "label": "Tohtorin tutkinto"
+      },
+      {
+        "value": 15,
+        "label": "Joku muu"
+      }
+    ]
+  },
+  {
+    "id": "q244",
+    "text": "Mikä on korkein äitisi suorittama koulutus?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vähemmän kuin peruskoulun ala-aste tai vähemmän kuin peruskoulu"
+      },
+      {
+        "value": 2,
+        "label": "Peruskoulun ala-aste, kansakoulu tai kansalaiskoulu"
+      },
+      {
+        "value": 3,
+        "label": "Peruskoulun yläaste tai keskikoulu"
+      },
+      {
+        "value": 4,
+        "label": "Lukio, ylioppilastutkinto"
+      },
+      {
+        "value": 5,
+        "label": "Ammatillinen perustutkinto, ammattitutkinto"
+      },
+      {
+        "value": 6,
+        "label": "Sekä ylioppilas- että ammattitutkinto"
+      },
+      {
+        "value": 7,
+        "label": "Erikoisammattitutkinto"
+      },
+      {
+        "value": 8,
+        "label": "Ammatillinen opistoasteen tutkinto"
+      },
+      {
+        "value": 9,
+        "label": "Ammattikorkeakoulututkinto tai ammatillisen korkea-asteen tutkinto"
+      },
+      {
+        "value": 10,
+        "label": "Alempi korkeakoulututkinto tai kandidaatin tutkinto"
+      },
+      {
+        "value": 11,
+        "label": "Ylempi ammattikorkeakoulututkinto"
+      },
+      {
+        "value": 12,
+        "label": "Ylempi korkeakoulututkinto"
+      },
+      {
+        "value": 13,
+        "label": "Lisensiaatintutkinto"
+      },
+      {
+        "value": 14,
+        "label": "Tohtorin tutkinto"
+      },
+      {
+        "value": 15,
+        "label": "Joku muu"
+      }
+    ]
+  },
+  {
+    "id": "q245",
+    "text": "Kun olit 14-vuotias, oliko isäsi palkkatyössä, yksityisyrittäjänä vai työttömänä?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Palkkatyössä"
+      },
+      {
+        "value": 2,
+        "label": "Yksityisyrittäjänä"
+      },
+      {
+        "value": 3,
+        "label": "Työttömänä"
+      }
+    ]
+  },
+  {
+    "id": "q246",
+    "text": "Kun olit 14-vuotias, oliko äitisi palkkatyössä, yksityisyrittäjänä vai työttömänä?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Palkkatyössä"
+      },
+      {
+        "value": 2,
+        "label": "Yksityisyrittäjänä"
+      },
+      {
+        "value": 3,
+        "label": "Työttömänä"
+      }
+    ]
+  },
+  {
+    "id": "q247",
+    "text": "Kun olit 14-vuotias, minkä seuraavan ammattiryhmän työtä enemmän ansaitseva vanhempasi teki?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Asiantuntija- tai erityisasiantuntijatyö (esim. lääkäri, opettaja, insinööri, taiteilija, tilintarkastaja, erikoissairaanhoitaja)"
+      },
+      {
+        "value": 2,
+        "label": "Johtava hallinnollinen työ (esim. pankkiiri, suuren yrityksen johto, hallinnon korkea virkamies, ammattiliiton johto)"
+      },
+      {
+        "value": 3,
+        "label": "Toimistotyö (esim. sihteeri, toimistoesimies, virkamies, kirjanpitäjä)"
+      },
+      {
+        "value": 4,
+        "label": "Kaupallinen työ (esim. myyntipäällikkö, kauppias, myymäläapulainen, vakuutustoimihenkilö, ostaja)"
+      },
+      {
+        "value": 5,
+        "label": "Palvelu- tai suojelutyö (esim. ravintoloitsija, poliisi, tarjoilija, parturi-kampaaja, vahtimestari)"
+      },
+      {
+        "value": 6,
+        "label": "Erikoisammattilaistyö (esim. työnjohtaja, mekaanikko, painaja, ompelija, työkalunvalmistaja, sähköasentaja)"
+      },
+      {
+        "value": 7,
+        "label": "Ammattikoulutusta vaativa työ (esim. muurari, linja-auton kuljettaja, elintarviketyöntekijä, puuseppä, levyseppä, leipuri)"
+      },
+      {
+        "value": 8,
+        "label": "Muodollista koulutusta vaatimaton työ (esim. aputyöntekijä, järjestyksenvalvoja, varastotyöntekijä, ikkunanpesijä)"
+      },
+      {
+        "value": 9,
+        "label": "Avustava maataloustyö (esim. maatilatyöläinen, traktorinkuljettaja)"
+      },
+      {
+        "value": 10,
+        "label": "Johtava maataloustyö (esim. maatilan omistaja, tilanhoitaja)"
+      }
+    ]
+  },
+  {
+    "id": "q248",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Äitini piti kirjojen lukemisesta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q249",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Keskustelin politiikasta kotona äitini kanssa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q250",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Äitini piti uutisten seuraamisesta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q251",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Vanhemmallani/vanhemmillani oli vaikeuksia toimeentulon kanssa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q252",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Isäni piti kirjojen lukemisesta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q253",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Keskustelin politiikasta kotona isäni kanssa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q254",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Isäni piti uutisten seuraamisesta",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q255",
+    "text": "Kuinka hyvin seuraavat väittämät kuvaavat vanhempiasi aikana, jolloin olit 14-vuotias?",
+    "stem": "Vanhemmallani/vanhemmillani oli vaikeuksia hankkia uusia tavaroita rikkinäisten tilalle",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Hyvin"
+      },
+      {
+        "value": 2,
+        "label": "Melko hyvin"
+      },
+      {
+        "value": 3,
+        "label": "Ei kovin hyvin"
+      },
+      {
+        "value": 4,
+        "label": "Ei lainkaan"
+      }
+    ]
+  },
+  {
+    "id": "q256",
+    "text": "Maakuntanne:"
+  },
+  {
+    "id": "q257",
+    "text": "Kaupungin/kunnan asukasluku",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Alle 2000"
+      },
+      {
+        "value": 2,
+        "label": "2000-5 000"
+      },
+      {
+        "value": 3,
+        "label": "5 000-10 000"
+      },
+      {
+        "value": 4,
+        "label": "10 000-20 000"
+      },
+      {
+        "value": 5,
+        "label": "20 000-50 000"
+      },
+      {
+        "value": 6,
+        "label": "50 000-100 000"
+      },
+      {
+        "value": 7,
+        "label": "100 000-500 000"
+      },
+      {
+        "value": 8,
+        "label": "500 000 tai enemmän"
+      }
+    ]
+  },
+  {
+    "id": "q258",
+    "text": "Vielä viimeinen kysymys",
+    "stem": "Kuinka kiinnostunut olit vastaamaan tähän kyselyyn?",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erittäin kiinnostunut"
+      },
+      {
+        "value": 2,
+        "label": "Jonkin verran kiinnostunut"
+      },
+      {
+        "value": 3,
+        "label": "Vain vähän kiinnostunut"
+      }
+    ]
+  }
+]

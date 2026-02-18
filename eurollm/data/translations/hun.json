@@ -1,0 +1,5760 @@
+[
+  {
+    "id": "v1",
+    "text": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében? Munka",
+    "stem": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében?",
+    "item": "Munka",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v2",
+    "text": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében? Család",
+    "stem": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében?",
+    "item": "Család",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v3",
+    "text": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében? Barátok és ismerősök",
+    "stem": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében?",
+    "item": "Barátok és ismerősök",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v4",
+    "text": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében? Szabadidő",
+    "stem": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében?",
+    "item": "Szabadidő",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v5",
+    "text": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében? Politika",
+    "stem": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében?",
+    "item": "Politika",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v6",
+    "text": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében? Vallás",
+    "stem": "Kérem mondja meg, hogy a következők mennyire fontosak az Ön életében?",
+    "item": "Vallás",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Mindent összevetve, mit mondana magáról, Ön",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon boldog"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen boldog"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "Mindent egybevetve, hogyan tudná Ön a mostani egészségi állapotát jellemezni? Azt mondaná, hogy:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon jó"
+      },
+      {
+        "value": 2,
+        "label": "jó"
+      },
+      {
+        "value": 3,
+        "label": "Elég jó, elfogadható"
+      },
+      {
+        "value": 4,
+        "label": "nem nagyon jó"
+      },
+      {
+        "value": 5,
+        "label": "nagyon rossz"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v9",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? A Vallási vagy egyházi szervezetek",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "A Vallási vagy egyházi szervezetek",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v10",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? B Oktatási, művészeti, zenei vagy kulturális tevékenység",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "B Oktatási, művészeti, zenei vagy kulturális tevékenység",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v11",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? C Szakszervezet",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "C Szakszervezet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v12",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? D Politikai párt vagy csoport",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "D Politikai párt vagy csoport",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v13",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? E Környezetvédelem, az élővilág megőrzése, állatok jogai",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "E Környezetvédelem, az élővilág megőrzése, állatok jogai",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v14",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? F Szakmai szervezet",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "F Szakmai szervezet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v15",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? G Sport vagy aktív pihenés",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "G Sport vagy aktív pihenés",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v16",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? H Humanitárius vagy jótékonysági szervezet",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "H Humanitárius vagy jótékonysági szervezet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v17",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? I Fogyasztói érdekvédelmi szervezet",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "I Fogyasztói érdekvédelmi szervezet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v18",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? J Önsegítő csoport, kölcsönös segítségnyújtásra irányuló csoport",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "J Önsegítő csoport, kölcsönös segítségnyújtásra irányuló csoport",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v19",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? K Más csoportok",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "K Más csoportok",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v20",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez? L Egyik sem (spontán említés)",
+    "stem": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "item": "L Egyik sem (spontán említés)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q5",
+    "text": "Végzett-e önkéntes munkát az elmúlt hat hónapban?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen"
+      },
+      {
+        "value": 2,
+        "label": "nem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v22",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? A Más fajhoz tartozó emberek",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "A Más fajhoz tartozó emberek",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v23",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? B Erősen iszákosak",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "B Erősen iszákosak",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v24",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? C Bevándorlók, külföldi vendégmunkások",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "C Bevándorlók, külföldi vendégmunkások",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v25",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? D Kábítószeresek",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "D Kábítószeresek",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v26",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? E Homoszexuálisok",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "E Homoszexuálisok",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v27",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? F Keresztények",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "F Keresztények",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v28",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? G Muzulmánok",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "G Muzulmánok",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v29",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? H Zsidók",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "H Zsidók",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v30",
+    "text": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek? I Cigányok",
+    "stem": "Ezen a listán különböző típusú emberek vannak. Ki tudná választani azokat, akiket Ön nem szeretne szomszédainak, ha vannak ilyenek?",
+    "item": "I Cigányok",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "Általában véve hogyan vélekedik inkább: a legtöbb emberben meg lehet bízni, vagy az ember nem lehet elég óvatos másokkal szemben?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "a legtöbb emberben meg lehet bízni"
+      },
+      {
+        "value": 2,
+        "label": "az ember nem lehet elég óvatos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v32",
+    "text": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben. Családjában",
+    "stem": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben.",
+    "item": "Családjában",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen megbízik"
+      },
+      {
+        "value": 2,
+        "label": "Valamennyire megbízik"
+      },
+      {
+        "value": 3,
+        "label": "Nem nagyon bízik meg"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem bízik meg"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v33",
+    "text": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben. A szomszédságában élő emberekben",
+    "stem": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben.",
+    "item": "A szomszédságában élő emberekben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen megbízik"
+      },
+      {
+        "value": 2,
+        "label": "Valamennyire megbízik"
+      },
+      {
+        "value": 3,
+        "label": "Nem nagyon bízik meg"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem bízik meg"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v34",
+    "text": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben. Azokban az emberekben, akiket személyesen ismer",
+    "stem": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben.",
+    "item": "Azokban az emberekben, akiket személyesen ismer",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen megbízik"
+      },
+      {
+        "value": 2,
+        "label": "Valamennyire megbízik"
+      },
+      {
+        "value": 3,
+        "label": "Nem nagyon bízik meg"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem bízik meg"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v35",
+    "text": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben. Azokban az emberekben, akiket először lát",
+    "stem": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben.",
+    "item": "Azokban az emberekben, akiket először lát",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen megbízik"
+      },
+      {
+        "value": 2,
+        "label": "Valamennyire megbízik"
+      },
+      {
+        "value": 3,
+        "label": "Nem nagyon bízik meg"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem bízik meg"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v36",
+    "text": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben. Más vallású emberekben",
+    "stem": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben.",
+    "item": "Más vallású emberekben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen megbízik"
+      },
+      {
+        "value": 2,
+        "label": "Valamennyire megbízik"
+      },
+      {
+        "value": 3,
+        "label": "Nem nagyon bízik meg"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem bízik meg"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v37",
+    "text": "Más nemzetiségű emberekben",
+    "stem": "Most arról szeretném kérdezni, hogy mennyire bízik meg különböző csoportokhoz tartozó emberekben. Kérem, mindegyikre mondja meg, hogy teljesen, valamennyire, nem nagyon, vagy egyáltalán nem bízik-e meg az ezekhez a csoportokhoz tartozó emberekben.",
+    "item": "Más nemzetiségű emberekben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen megbízik"
+      },
+      {
+        "value": 2,
+        "label": "Valamennyire megbízik"
+      },
+      {
+        "value": 3,
+        "label": "Nem nagyon bízik meg"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem bízik meg"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v38",
+    "text": "Egyes emberek úgy érzik, hogy teljesen szabadon határozzák meg életüket, mások viszont úgy érzik, hogy semmi befolyásuk sincs sorsuk alakítására. Kérem a skála segítségével mondja meg, hogy Ön szerint mekkora befolyása van arra, hogy miként alakul az élete?",
+    "stem": "Egyes emberek úgy érzik, hogy teljesen szabadon határozzák meg életüket, mások viszont úgy érzik, hogy semmi befolyásuk sincs sorsuk alakítására. Kérem a skála segítségével mondja meg, hogy Ön szerint mekkora befolyása van arra, hogy miként alakul az élete?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "semmi"
+      },
+      {
+        "value": 10,
+        "label": "nagyon nagy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v39",
+    "text": "Mindent egybevetve, összességében mennyire elégedett jelenlegi életével? Kérem, használja ezt a kártyát a válaszadásban!",
+    "stem": "Mindent egybevetve, összességében mennyire elégedett jelenlegi életével? Kérem, használja ezt a kártyát a válaszadásban!",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "elégedetlen"
+      },
+      {
+        "value": 10,
+        "label": "elégedett"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v40",
+    "text": "Jó fizetés",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Jó fizetés",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v41",
+    "text": "Jó időbeosztás",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Jó időbeosztás",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v42",
+    "text": "Kezdeményezési lehetőségek",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Kezdeményezési lehetőségek",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v43",
+    "text": "Hosszú szabadság",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Hosszú szabadság",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v44",
+    "text": "Olyan munka, amelyben az ember érzi, hogy megvalósíthat valamit",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Olyan munka, amelyben az ember érzi, hogy megvalósíthat valamit",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v45",
+    "text": "Felelősségteljes munka",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Felelősségteljes munka",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v45a",
+    "text": "Egyik sem (spontán módon)",
+    "stem": "Most felsorolok néhány szempontot, amit az emberek a munkahelyükkel kapcsolatban fontosnak tartanak. Kérem, nézze végig őket és mondja meg, hogy Ön személy szerint miket tart fontosnak a munkahellyel kapcsolatban?",
+    "item": "Egyik sem (spontán módon)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v46",
+    "text": "Ahhoz, hogy adottságait teljesen kibontakoztassa, kell hogy legyen valamilyen munkája",
+    "stem": "Ön egyetért, vagy nem ért egyet a következő kijelentésekkel?",
+    "item": "Ahhoz, hogy adottságait teljesen kibontakoztassa, kell hogy legyen valamilyen munkája",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v47",
+    "text": "Megalázó dolog pénzt kapni, ha az ember nem dolgozott meg érte",
+    "stem": "Ön egyetért, vagy nem ért egyet a következő kijelentésekkel?",
+    "item": "Megalázó dolog pénzt kapni, ha az ember nem dolgozott meg érte",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v48",
+    "text": "Akik nem dolgoznak, ellustulnak",
+    "stem": "Ön egyetért, vagy nem ért egyet a következő kijelentésekkel?",
+    "item": "Akik nem dolgoznak, ellustulnak",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v49",
+    "text": "A munka a társadalommal szembeni kötelesség",
+    "stem": "Ön egyetért, vagy nem ért egyet a következő kijelentésekkel?",
+    "item": "A munka a társadalommal szembeni kötelesség",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v50",
+    "text": "Az első helyen mindig a munka áll, még akkor is, ha emiatt kevesebb szabad idő marad",
+    "stem": "Ön egyetért, vagy nem ért egyet a következő kijelentésekkel?",
+    "item": "Az első helyen mindig a munka áll, még akkor is, ha emiatt kevesebb szabad idő marad",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v71",
+    "text": "Egyetért Ön, vagy nem ért egyet azzal az állítással, hogy: A házasság egy idejétmúlt intézmény?",
+    "stem": "Egyetért Ön, vagy nem ért egyet azzal az állítással, hogy: A házasság egy idejétmúlt intézmény?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "egyetért"
+      },
+      {
+        "value": 2,
+        "label": "nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v72",
+    "text": "Ha egy anya fizetett munkát vállal, azt megszenvedik a gyermekek",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Ha egy anya fizetett munkát vállal, azt megszenvedik a gyermekek",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v73",
+    "text": "Lehet munkát vállalni, de amit egy nő igazán akar, az az otthon és a gyermekek",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Lehet munkát vállalni, de amit egy nő igazán akar, az az otthon és a gyermekek",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v74",
+    "text": "Mindent egybevetve, a család élete megsínyli, ha a nő teljes munkaidőben dolgozik.",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Mindent egybevetve, a család élete megsínyli, ha a nő teljes munkaidőben dolgozik.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v75",
+    "text": "A férfi dolga pénz keresni, a nő dolga a háztartásról és a családról gondoskodni",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "A férfi dolga pénz keresni, a nő dolga a háztartásról és a családról gondoskodni",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v76",
+    "text": "Mindent egybe vetve a férfiak jobb politikai vezetők, mint a nők",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Mindent egybe vetve a férfiak jobb politikai vezetők, mint a nők",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v77",
+    "text": "Az egyetemi végzettség fontosabb a fiúknak, mint a lányoknak",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Az egyetemi végzettség fontosabb a fiúknak, mint a lányoknak",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v78",
+    "text": "Mindent egybe vetve a férfiak jobb gazdasági vezetők, mint a nők",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Mindent egybe vetve a férfiak jobb gazdasági vezetők, mint a nők",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v79",
+    "text": "Egyik legfontosabb célom az életben, hogy szüleim büszkék legyenek rám",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Egyik legfontosabb célom az életben, hogy szüleim büszkék legyenek rám",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "teljesen egyért"
+      },
+      {
+        "value": 2,
+        "label": "egyetért"
+      },
+      {
+        "value": 3,
+        "label": "nem ért egyet"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v80",
+    "text": "Ha kevés a munkahely, a munkáltatóknak előnyben kell részesíteni a magyarokat a bevándorlókkal szemben",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Ha kevés a munkahely, a munkáltatóknak előnyben kell részesíteni a magyarokat a bevándorlókkal szemben",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "Ha kevés a munkahely, a férfiaknak több joguk van a munkához, mint a nőknek",
+    "stem": "Kérem jelezze, hogy mennyire ért egyet vagy mennyire nem ért egyet a következő állításokkal. Teljesen egyetért, egyetért, nem ért egyet, vagy egyáltalán nem ért egyet?",
+    "item": "Ha kevés a munkahely, a férfiaknak több joguk van a munkához, mint a nőknek",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v82",
+    "text": "A homoszexuális párok éppolyan jó szülők, mint más párok",
+    "stem": "Mi az Ön véleménye a következő kijelentésekről? Egyetért velük, vagy nem ért velük egyet?",
+    "item": "A homoszexuális párok éppolyan jó szülők, mint más párok",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v83",
+    "text": "A gyermekvállalás a társadalommal szembeni kötelesség",
+    "stem": "Mi az Ön véleménye a következő kijelentésekről? Egyetért velük, vagy nem ért velük egyet?",
+    "item": "A gyermekvállalás a társadalommal szembeni kötelesség",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v84",
+    "text": "A felnőtt gyermekeknek kötelességük hosszútávon gondoskodni a szüleikről",
+    "stem": "Mi az Ön véleménye a következő kijelentésekről? Egyetért velük, vagy nem ért velük egyet?",
+    "item": "A felnőtt gyermekeknek kötelességük hosszútávon gondoskodni a szüleikről",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "Jó modor",
+    "stem": "Most felsorolok néhány tulajdonságot, amelyekre a szülők a gyermekeiket otthon nevelhetik. Ezek közül melyek azok, amelyeket Ön különösen fontosnak tart? Kérem, válasszon legfeljebb ötöt.",
+    "item": "Jó modor",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "Önállóság",
+    "stem": "Most felsorolok néhány tulajdonságot, amelyekre a szülők a gyermekeiket otthon nevelhetik. Ezek közül melyek azok, amelyeket Ön különösen fontosnak tart? Kérem, válasszon legfeljebb ötöt.",
+    "item": "Önállóság",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Szorgalom",
+    "stem": "Most felsorolok néhány tulajdonságot, amelyekre a szülők a gyermekeiket otthon nevelhetik. Ezek közül melyek azok, amelyeket Ön különösen fontosnak tart? Kérem, válasszon legfeljebb ötöt.",
+    "item": "Szorgalom",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Felelősségérzet",
+    "stem": "Most felsorolok néhány tulajdonságot, amelyekre a szülők a gyermekeiket otthon nevelhetik. Ezek közül melyek azok, amelyeket Ön különösen fontosnak tart? Kérem, válasszon legfeljebb ötöt.",
+    "item": "Felelősségérzet",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Képzelőerő, fantázia",
+    "stem": "Most felsorolok néhány tulajdonságot, amelyekre a szülők a gyermekeiket otthon nevelhetik. Ezek közül melyek azok, amelyeket Ön különösen fontosnak tart? Kérem, válasszon legfeljebb ötöt.",
+    "item": "Képzelőerő, fantázia",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Mások tisztelete, tolerancia mások iránt",
+    "stem": "Most felsorolok néhány tulajdonságot, amelyekre a szülők a gyermekeiket otthon nevelhetik. Ezek közül melyek azok, amelyeket Ön különösen fontosnak tart? Kérem, válasszon legfeljebb ötöt.",
+    "item": "Mások tisztelete, tolerancia mások iránt",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "stem": "Takarékosság",
+    "item": "A következő önkéntes szervezetek listájából melyikhez tartozik?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": "említette"
+  },
+  {
+    "id": "v92",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "stem": "Elszántság, állhatatosság.",
+    "item": "A következő önkéntes szervezetek listájából melyikhez tartozik?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": "említette"
+  },
+  {
+    "id": "v93",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "stem": "Vallásos hit",
+    "item": "A következő önkéntes szervezetek listájából melyikhez tartozik?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": "említette"
+  },
+  {
+    "id": "v94",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "stem": "Önzetlenség",
+    "item": "A következő önkéntes szervezetek listájából melyikhez tartozik?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": "említette"
+  },
+  {
+    "id": "v95",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "stem": "Engedelmesség",
+    "item": "A következő önkéntes szervezetek listájából melyikhez tartozik?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": "említette"
+  },
+  {
+    "id": "v96",
+    "text": "Kérem, nézze meg gondosan a következő önkéntes szervezetek listáját, és mondja meg, hogy Ön ezek közül tartozik-e valamelyikhez, s ha igen, melyikhez?",
+    "stem": "Egyik sem (spontán módon)",
+    "item": "A következő önkéntes szervezetek listájából melyikhez tartozik?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "említette"
+      },
+      {
+        "value": 2,
+        "label": "nem említette"
+      }
+    ],
+    "answer_cue": "említette"
+  },
+  {
+    "id": "v97",
+    "text": "Mennyire érdekli Önt a politika?",
+    "stem": "Mennyire érdekli Önt a politika?",
+    "item": "Mennyire érdekli Önt a politika?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon érdekli"
+      },
+      {
+        "value": 2,
+        "label": "némileg érdekli"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon érdekli"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem érdekli"
+      }
+    ],
+    "answer_cue": "érdekli"
+  },
+  {
+    "id": "v98",
+    "text": "Most arra kérem, nézze meg ezt a kártyát. Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "stem": "Egy követelés, petíció aláírása",
+    "item": "Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "már részt vett"
+      },
+      {
+        "value": 2,
+        "label": "alkalomadtán részt venne"
+      },
+      {
+        "value": 3,
+        "label": "soha nem venne részt"
+      }
+    ],
+    "answer_cue": "részt"
+  },
+  {
+    "id": "v99",
+    "text": "Most arra kérem, nézze meg ezt a kártyát. Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "stem": "Bojkotthoz csatlakozás",
+    "item": "Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "már részt vett"
+      },
+      {
+        "value": 2,
+        "label": "alkalomadtán részt venne"
+      },
+      {
+        "value": 3,
+        "label": "soha nem venne részt"
+      }
+    ],
+    "answer_cue": "részt"
+  },
+  {
+    "id": "v100",
+    "text": "Most arra kérem, nézze meg ezt a kártyát. Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "stem": "Engedélyezett tüntetésen való részvétel",
+    "item": "Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "már részt vett"
+      },
+      {
+        "value": 2,
+        "label": "alkalomadtán részt venne"
+      },
+      {
+        "value": 3,
+        "label": "soha nem venne részt"
+      }
+    ],
+    "answer_cue": "részt"
+  },
+  {
+    "id": "v101",
+    "text": "Most arra kérem, nézze meg ezt a kártyát. Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "stem": "Nem engedélyezett sztrájkhoz való csatlakozás",
+    "item": "Felolvasok néhány politikai akciót, amiben az emberek részt vehetnek. Kérem, mondja meg mindegyikről, hogy vett-e már részt ilyenben, alkalom adtán részt venne-e benne, vagy soha, semmilyen körülmények közt nem venne részt ilyen akcióban?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "már részt vett"
+      },
+      {
+        "value": 2,
+        "label": "alkalomadtán részt venne"
+      },
+      {
+        "value": 3,
+        "label": "soha nem venne részt"
+      }
+    ],
+    "answer_cue": "részt"
+  },
+  {
+    "id": "v102",
+    "text": "Politikai kérdésekben az emberek beszélnek \"bal\" illetve \"jobb\" oldalról. Ön általában véve hová helyezné el a saját nézeteit ezen a skálán?",
+    "stem": "Politikai kérdésekben az emberek beszélnek \"bal\" illetve \"jobb\" oldalról. Ön általában véve hová helyezné el a saját nézeteit ezen a skálán?",
+    "item": "Politikai kérdésekben az emberek beszélnek \"bal\" illetve \"jobb\" oldalról. Ön általában véve hová helyezné el a saját nézeteit ezen a skálán?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "bal"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "jobb"
+      }
+    ],
+    "answer_cue": "helyezné el"
+  },
+  {
+    "id": "v103",
+    "text": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "stem": "Az egyéneknek nagyobb mértékben kellene felelősséget vállalniuk a saját magukról való gondoskodásban",
+    "item": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Az államnak nagyobb mértékben kellene felelősséget vállalnia az emberekről való gondoskodásban"
+      }
+    ],
+    "answer_cue": "helyezné"
+  },
+  {
+    "id": "v104",
+    "text": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "stem": "A munkanélkülieknek minden lehetséges munkát el kellene vállalniuk, vagy veszítsék el a munkanélküli segélyt",
+    "item": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "A munkanélkülieknek meg kellene lenni a joguknak, hogy visszautasítsák a munkát amelyet nem akarnak elvégezni"
+      }
+    ],
+    "answer_cue": "helyezné"
+  },
+  {
+    "id": "v105",
+    "text": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "stem": "A verseny jó dolog",
+    "item": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "A verseny káros dolog."
+      }
+    ],
+    "answer_cue": "helyezné"
+  },
+  {
+    "id": "v106",
+    "text": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "stem": "A jövedelmeket egyenlőbbé kellene tenni",
+    "item": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Az egyéni erőfeszítéseket nagyobb mértékben kellene jutalmazni"
+      }
+    ],
+    "answer_cue": "helyezné"
+  },
+  {
+    "id": "v107",
+    "text": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "stem": "Az üzleti szférában és az iparban növelni kellene a magántulajdon arányát",
+    "item": "Ezen a kártyán különböző témákkal kapcsolatos ellentétes véleményeket lát. Hová helyezné saját nézeteit ezen a skálán?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Az üzleti szférában és az iparban növelni kellene az állami tulajdon arányát"
+      }
+    ],
+    "answer_cue": "helyezné"
+  },
+  {
+    "id": "v108",
+    "text": "Az emberek néha beszélnek arról, hogy milyen célokat kellene követnie Magyarországnak a következő tíz évbe. Ezen a kártyán néhány olyan célt soroltunk fel, melyeket különböző emberek különösen fontosnak tarthatnak. Meg tudná, kérem, mondani, hogy ezek közül a célok közül Ön melyiket tartja a legfontosabbnak?",
+    "stem": "Első választása",
+    "item": "Az emberek néha beszélnek arról, hogy milyen célokat kellene követnie Magyarországnak a következő tíz évbe. Ezen a kártyán néhány olyan célt soroltunk fel, melyeket különböző emberek különösen fontosnak tarthatnak. Meg tudná, kérem, mondani, hogy ezek közül a célok közül Ön melyiket tartja a legfontosabbnak?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Gyors gazdasági növekedés"
+      },
+      {
+        "value": 2,
+        "label": "Biztosítani, hogy az országnak erős védereje legyen"
+      },
+      {
+        "value": 3,
+        "label": "Biztosítani, hogy az embereknek több beleszólásuk legyen abba, hogy a munkahelyükön és közösségükben mi történik"
+      },
+      {
+        "value": 4,
+        "label": "Megpróbálni a városokat és a vidéket szebbé tenni"
+      }
+    ],
+    "answer_cue": "tartja"
+  },
+  {
+    "id": "v109",
+    "text": "Az emberek néha beszélnek arról, hogy milyen célokat kellene követnie Magyarországnak a következő tíz évbe. Ezen a kártyán néhány olyan célt soroltunk fel, melyeket különböző emberek különösen fontosnak tarthatnak. Meg tudná, kérem, mondani, hogy ezek közül a célok közül Ön melyiket tartja a legfontosabbnak?",
+    "stem": "Második választása",
+    "item": "Az emberek néha beszélnek arról, hogy milyen célokat kellene követnie Magyarországnak a következő tíz évbe. Ezen a kártyán néhány olyan célt soroltunk fel, melyeket különböző emberek különösen fontosnak tarthatnak. Meg tudná, kérem, mondani, hogy ezek közül a célok közül Ön melyiket tartja a legfontosabbnak?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Gyors gazdasági növekedés"
+      },
+      {
+        "value": 2,
+        "label": "Biztosítani, hogy az országnak erős védereje legyen"
+      },
+      {
+        "value": 3,
+        "label": "Biztosítani, hogy az embereknek több beleszólásuk legyen abba, hogy a munkahelyükön és közösségükben mi történik"
+      },
+      {
+        "value": 4,
+        "label": "Megpróbálni a városokat és a vidéket szebbé tenni"
+      }
+    ],
+    "answer_cue": "tartja"
+  },
+  {
+    "id": "v110",
+    "text": "Ha választania kellene, mit tartana a legfontosabbnak az ezen a lapon felsoroltak közül?",
+    "stem": "Első választása",
+    "item": "Ha választania kellene, mit tartana a legfontosabbnak az ezen a lapon felsoroltak közül?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Megőrizni a rendet az országban"
+      },
+      {
+        "value": 2,
+        "label": "Több beleszólást adni az embereknek a fontos kormányzati döntésekbe"
+      },
+      {
+        "value": 3,
+        "label": "Küzdeni az áremelkedések ellen"
+      },
+      {
+        "value": 4,
+        "label": "Védeni a szólásszabadságot"
+      }
+    ],
+    "answer_cue": "tartana"
+  },
+  {
+    "id": "v111",
+    "text": "Ha választania kellene, mit tartana a legfontosabbnak az ezen a lapon felsoroltak közül?",
+    "stem": "Második választása",
+    "item": "Ha választania kellene, mit tartana a legfontosabbnak az ezen a lapon felsoroltak közül?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Megőrizni a rendet az országban"
+      },
+      {
+        "value": 2,
+        "label": "Több beleszólást adni az embereknek a fontos kormányzati döntésekbe"
+      },
+      {
+        "value": 3,
+        "label": "Küzdeni az áremelkedések ellen"
+      }
+    ],
+    "answer_cue": "tartana"
+  },
+  {
+    "id": "v112",
+    "text": "Természetesen mindannyian azt reméljük, hogy nem lesz még egy háború, de ha mégis arra kerülne a sor, Ön hajlandó lenne harcolni az országáért?",
+    "stem": "Természetesen mindannyian azt reméljük, hogy nem lesz még egy háború, de ha mégis arra kerülne a sor, Ön hajlandó lenne harcolni az országáért?",
+    "item": "Természetesen mindannyian azt reméljük, hogy nem lesz még egy háború, de ha mégis arra kerülne a sor, Ön hajlandó lenne harcolni az országáért?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen"
+      },
+      {
+        "value": 2,
+        "label": "nem"
+      }
+    ],
+    "answer_cue": "hajlandó"
+  },
+  {
+    "id": "v113",
+    "text": "Itt van két olyan változás, amelyek talán a közeljövőben bekövetkezhetnek életvitelünkben. Kérem, mondja meg mindegyikről, hogyha bekövetkezne, akkor az jó, vagy rossz, vagy mindegy lenne az Ön számára?",
+    "stem": "A munka életünkben betöltött fontosságának csökkenése",
+    "item": "Itt van két olyan változás, amelyek talán a közeljövőben bekövetkezhetnek életvitelünkben. Kérem, mondja meg mindegyikről, hogyha bekövetkezne, akkor az jó, vagy rossz, vagy mindegy lenne az Ön számára?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "jó"
+      },
+      {
+        "value": 2,
+        "label": "rossz"
+      },
+      {
+        "value": 3,
+        "label": "mindegy"
+      }
+    ],
+    "answer_cue": "jó"
+  },
+  {
+    "id": "v114",
+    "text": "Itt van két olyan változás, amelyek talán a közeljövőben bekövetkezhetnek életvitelünkben. Kérem, mondja meg mindegyikről, hogyha bekövetkezne, akkor az jó, vagy rossz, vagy mindegy lenne az Ön számára?",
+    "stem": "A tekintélytisztelet erősödése",
+    "item": "Itt van két olyan változás, amelyek talán a közeljövőben bekövetkezhetnek életvitelünkben. Kérem, mondja meg mindegyikről, hogyha bekövetkezne, akkor az jó, vagy rossz, vagy mindegy lenne az Ön számára?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "jó"
+      },
+      {
+        "value": 2,
+        "label": "rossz"
+      },
+      {
+        "value": 3,
+        "label": "mindegy"
+      }
+    ],
+    "answer_cue": "jó"
+  },
+  {
+    "id": "v115",
+    "text": "Kérem, nézze meg ezt a kártyát, és a listán szereplő mindegyik elemről mondja meg, hogy mennyire van bizalma benne! Nagyon, meglehetősen, nem nagyon, vagy egyáltalán nem?",
+    "stem": "Az egyház",
+    "item": "Kérem, nézze meg ezt a kártyát, és a listán szereplő mindegyik elemről mondja meg, hogy mennyire van bizalma benne! Nagyon, meglehetősen, nem nagyon, vagy egyáltalán nem?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "bizalma"
+  },
+  {
+    "id": "v116",
+    "text": "Kérem, nézze meg ezt a kártyát, és a listán szereplő mindegyik elemről mondja meg, hogy mennyire van bizalma benne! Nagyon, meglehetősen, nem nagyon, vagy egyáltalán nem?",
+    "stem": "A fegyveres erők",
+    "item": "Kérem, nézze meg ezt a kártyát, és a listán szereplő mindegyik elemről mondja meg, hogy mennyire van bizalma benne! Nagyon, meglehetősen, nem nagyon, vagy egyáltalán nem?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "bizalma"
+  },
+  {
+    "id": "v117",
+    "text": "Kérem, nézze meg ezt a kártyát, és a listán szereplő mindegyik elemről mondja meg, hogy mennyire van bizalma benne! Nagyon, meglehetősen, nem nagyon, vagy egyáltalán nem?",
+    "stem": "Az oktatási rendszer",
+    "item": "Kérem, nézze meg ezt a kártyát, és a listán szereplő mindegyik elemről mondja meg, hogy mennyire van bizalma benne! Nagyon, meglehetősen, nem nagyon, vagy egyáltalán nem?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "bizalma"
+  },
+  {
+    "id": "v118",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: A sajtó",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A sajtó",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v119",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: A szakszervezetek",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A szakszervezetek",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v120",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: A rendőrség",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A rendőrség",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v121",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Az országgyűlés",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az országgyűlés",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v122",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: A közigazgatás",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A közigazgatás",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v123",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: A társadalombiztosítási rendszer",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A társadalombiztosítási rendszer",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v124",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Az Európai Unió",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az Európai Unió",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v125",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Az ENSZ",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az ENSZ",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v126",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Az egészségügyi rendszer",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az egészségügyi rendszer",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v127",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Az igazságszolgáltatási rendszer",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az igazságszolgáltatási rendszer",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v128",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Nagyvállalatok",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Nagyvállalatok",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v129",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Környezetvédelmi szervezetek",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Környezetvédelmi szervezetek",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v130",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Politikai pártok",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Politikai pártok",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v131",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: A kormány",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A kormány",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v132",
+    "text": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei: Közösségi média (KÉRDEZŐ: CSAK ABBAN AZ ESETBEN, HA A KÉRDEZETT NEM ÉRTI, MONDD, HOGY \"PÉLDÁUL A FACEBOOK, A TWITTER\")",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Közösségi média (KÉRDEZŐ: CSAK ABBAN AZ ESETBEN, HA A KÉRDEZETT NEM ÉRTI, MONDD, HOGY \"PÉLDÁUL A FACEBOOK, A TWITTER\")",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire"
+  },
+  {
+    "id": "v133",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: A kormányzat megadóztatja a gazdagokat, és támogatja a szegényeket",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "A kormányzat megadóztatja a gazdagokat, és támogatja a szegényeket",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v134",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: A vallási képviselőknek döntő szavuk van a törvények értelmezésénél",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "A vallási képviselőknek döntő szavuk van a törvények értelmezésénél",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v135",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: Az emberek szabad választásokon választják meg vezetőiket",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "Az emberek szabad választásokon választják meg vezetőiket",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v136",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: A munkanélküliek állami segélyben részesülnek",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "A munkanélküliek állami segélyben részesülnek",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v137",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: Ha a kormány alkalmatlan ellátni a feladatát, a hadsereg veszi át a hatalmat",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "Ha a kormány alkalmatlan ellátni a feladatát, a hadsereg veszi át a hatalmat",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v138",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: A polgári jogok védelmezik az embereket az állam elnyomó hatalmával szemben.",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "A polgári jogok védelmezik az embereket az állam elnyomó hatalmával szemben.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v139",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: Az állam az emberek jövedelmét egyenlővé teszi.",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "Az állam az emberek jövedelmét egyenlővé teszi.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v140",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: Az emberek engedelmeskednek vezetőiknek",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "Az emberek engedelmeskednek vezetőiknek",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v141",
+    "text": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének: A nőknek ugyanolyan jogaik vannak, mint a férfiaknak",
+    "stem": "Számos dolog kívánatos, azonban közül nem mindegyik nélkülözhetetlen a demokrácia működése szempontjából. Kérem, a következő dolgokról mondja meg, hogy mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének:",
+    "item": "A nőknek ugyanolyan jogaik vannak, mint a férfiaknak",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": "mennyire tartja azokat a demokrácia nélkülözhetetlen jellemzőjének"
+  },
+  {
+    "id": "v145",
+    "text": "Van egy erőskezű vezető, akinek nem kell törődnie az országgyűléssel és a választásokkal",
+    "stem": "Most különböző fajta politikai rendszereket mutatok be és arra kérem, mindegyikről gondolkodjon el, hogy Ön szerint ez Magyarország kormányzására nagyon jó, meglehetősen jó, meglehetősen rossz, vagy nagyon rossz megoldás lenne?",
+    "item": "Van egy erőskezű vezető, akinek nem kell törődnie az országgyűléssel és a választásokkal",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon jó"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen jó"
+      },
+      {
+        "value": 3,
+        "label": "meglehetősen rossz"
+      },
+      {
+        "value": 4,
+        "label": "nagyon rossz"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Nem a kormány, hanem szakemberek hozzák meg azokat a döntéseket, amelyeket az ország számára a legjobbnak tartanak",
+    "stem": "Most különböző fajta politikai rendszereket mutatok be és arra kérem, mindegyikről gondolkodjon el, hogy Ön szerint ez Magyarország kormányzására nagyon jó, meglehetősen jó, meglehetősen rossz, vagy nagyon rossz megoldás lenne?",
+    "item": "Nem a kormány, hanem szakemberek hozzák meg azokat a döntéseket, amelyeket az ország számára a legjobbnak tartanak",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon jó"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen jó"
+      },
+      {
+        "value": 3,
+        "label": "meglehetősen rossz"
+      },
+      {
+        "value": 4,
+        "label": "nagyon rossz"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "A hadsereg uralkodik az országban",
+    "stem": "Most különböző fajta politikai rendszereket mutatok be és arra kérem, mindegyikről gondolkodjon el, hogy Ön szerint ez Magyarország kormányzására nagyon jó, meglehetősen jó, meglehetősen rossz, vagy nagyon rossz megoldás lenne?",
+    "item": "A hadsereg uralkodik az országban",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon jó"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen jó"
+      },
+      {
+        "value": 3,
+        "label": "meglehetősen rossz"
+      },
+      {
+        "value": 4,
+        "label": "nagyon rossz"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Demokratikus politikai rendszer",
+    "stem": "Most különböző fajta politikai rendszereket mutatok be és arra kérem, mindegyikről gondolkodjon el, hogy Ön szerint ez Magyarország kormányzására nagyon jó, meglehetősen jó, meglehetősen rossz, vagy nagyon rossz megoldás lenne?",
+    "item": "Demokratikus politikai rendszer",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon jó"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen jó"
+      },
+      {
+        "value": 3,
+        "label": "meglehetősen rossz"
+      },
+      {
+        "value": 4,
+        "label": "nagyon rossz"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Állami juttatásokat jogtalanul igénybe venni",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Állami juttatásokat jogtalanul igénybe venni",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v150",
+    "text": "Csalni az adóval, ha van rá mód",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Csalni az adóval, ha van rá mód",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v151",
+    "text": "Marihuanát vagy hasist szívni",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Marihuanát vagy hasist szívni",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v152",
+    "text": "Csúszópénzt elfogadni a kötelesség teljesítése során",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Csúszópénzt elfogadni a kötelesség teljesítése során",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v153",
+    "text": "Homoszexualitás",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Homoszexualitás",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v154",
+    "text": "Abortusz",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Abortusz",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v155",
+    "text": "Elválni",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Elválni",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v156",
+    "text": "Eutanázia (gyógyíthatatlan beteg életét kioltani)",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Eutanázia (gyógyíthatatlan beteg életét kioltani)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v157",
+    "text": "Öngyilkosság",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Öngyilkosság",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v158",
+    "text": "Alkalmi szexuális kapcsolatot létesíteni",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": "Alkalmi szexuális kapcsolatot létesíteni",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "soha"
+  },
+  {
+    "id": "v159",
+    "text": "Jegy és bérlet nélkül utazni egy tömegközlekedési eszközön",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "soha"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "mindig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v160",
+    "text": "Prostitúció",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "soha"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "mindig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v161",
+    "text": "Mesterséges inszemináció vagy lombikban történő megtermékenyítés",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "soha"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "mindig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v162",
+    "text": "Politikai indíttattású erőszak",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "soha"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "mindig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v163",
+    "text": "Halálbüntetés",
+    "stem": "Kérem mondja meg a következő állításokról, hogy azokat mindig megengedhetőnek tartja-e, vagy soha meg nem engedhetőnek tartja, vagy valami a kettő között. Használja ezt a kártyalapot.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "soha"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "mindig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v164",
+    "text": "az Ön falujához vagy városához",
+    "stem": "Az emberek különbözőképpen vélekednek önmagukról és a világhoz való viszonyukról. Meg tudná nekem mondani ennek a kártyának a segítségével, hogy mennyire érzi magát közel a következőhöz?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon közel"
+      },
+      {
+        "value": 2,
+        "label": "közel"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon közel"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem közel"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "A régiójához (járáshoz, megyéhez)",
+    "stem": "Az emberek különbözőképpen vélekednek önmagukról és a világhoz való viszonyukról. Meg tudná nekem mondani ennek a kártyának a segítségével, hogy mennyire érzi magát közel a következőhöz?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon közel"
+      },
+      {
+        "value": 2,
+        "label": "közel"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon közel"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem közel"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "Magyarországhoz",
+    "stem": "Az emberek különbözőképpen vélekednek önmagukról és a világhoz való viszonyukról. Meg tudná nekem mondani ennek a kártyának a segítségével, hogy mennyire érzi magát közel a következőhöz?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon közel"
+      },
+      {
+        "value": 2,
+        "label": "közel"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon közel"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem közel"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Európához",
+    "stem": "Az emberek különbözőképpen vélekednek önmagukról és a világhoz való viszonyukról. Meg tudná nekem mondani ennek a kártyának a segítségével, hogy mennyire érzi magát közel a következőhöz?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon közel"
+      },
+      {
+        "value": 2,
+        "label": "közel"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon közel"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem közel"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "A világhoz",
+    "stem": "Az emberek különbözőképpen vélekednek önmagukról és a világhoz való viszonyukról. Meg tudná nekem mondani ennek a kártyának a segítségével, hogy mennyire érzi magát közel a következőhöz?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon közel"
+      },
+      {
+        "value": 2,
+        "label": "közel"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon közel"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem közel"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v170",
+    "text": "Mennyire büszke Ön arra, hogy magyar állampolgár?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon büszke"
+      },
+      {
+        "value": 2,
+        "label": "meglehetősen büszke"
+      },
+      {
+        "value": 3,
+        "label": "nem nagyon büszke"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem büszke"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v171",
+    "text": "Önkormányzati szinten",
+    "stem": "Választásokkor Ön mindig szavaz, általában szavaz vagy soha nem szavaz? Kérem, hogy egyesével válaszoljon a következő szintekre vonatkozóan.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mindig"
+      },
+      {
+        "value": 2,
+        "label": "Általában"
+      },
+      {
+        "value": 3,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v172",
+    "text": "Országosan (országgyűlési választások)",
+    "stem": "Választásokkor Ön mindig szavaz, általában szavaz vagy soha nem szavaz? Kérem, hogy egyesével válaszoljon a következő szintekre vonatkozóan.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mindig"
+      },
+      {
+        "value": 2,
+        "label": "Általában"
+      },
+      {
+        "value": 3,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v173",
+    "text": "Európai szinten (európai parlamenti választások)",
+    "stem": "Választásokkor Ön mindig szavaz, általában szavaz vagy soha nem szavaz? Kérem, hogy egyesével válaszoljon a következő szintekre vonatkozóan.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Mindig"
+      },
+      {
+        "value": 2,
+        "label": "Általában"
+      },
+      {
+        "value": 3,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174",
+    "text": "Melyik (politikai) párt a legrokonszenvesebb Önnek?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Magyar Szocialista Párt (MSZP)"
+      },
+      {
+        "value": 2,
+        "label": "Fidesz - Magyar Polgári Szövetség (Fidesz)"
+      },
+      {
+        "value": 3,
+        "label": "Kereszténydemokrata Néppárt (KDNP)"
+      },
+      {
+        "value": 4,
+        "label": "Jobbik Magyarországért Mozgalom (Jobbik)"
+      },
+      {
+        "value": 5,
+        "label": "Lehet Más a Politika (LMP)"
+      },
+      {
+        "value": 6,
+        "label": "Demokratikus Koalíció (DK)"
+      },
+      {
+        "value": 7,
+        "label": "Együtt - a Korszakváltók Pártja (Együtt)"
+      },
+      {
+        "value": 8,
+        "label": "Párbeszéd Magyarországért (PM)"
+      },
+      {
+        "value": 9,
+        "label": "Momentum Mozgalom (Momentum)"
+      },
+      {
+        "value": 10,
+        "label": "Magyar Liberális Párt (Liberálisok)"
+      },
+      {
+        "value": 11,
+        "label": "Magyar Kétfarkú Kutya Párt (MKKP)"
+      },
+      {
+        "value": 12,
+        "label": "Magyar Munkáspárt (Munkáspárt)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v175",
+    "text": "Van még másik párt is, amely rokonszenves Önnek?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Magyar Szocialista Párt (MSZP)"
+      },
+      {
+        "value": 2,
+        "label": "Fidesz - Magyar Polgári Szövetség (Fidesz)"
+      },
+      {
+        "value": 3,
+        "label": "Kereszténydemokrata Néppárt (KDNP)"
+      },
+      {
+        "value": 4,
+        "label": "Jobbik Magyarországért Mozgalom (Jobbik)"
+      },
+      {
+        "value": 5,
+        "label": "Lehet Más a Politika (LMP)"
+      },
+      {
+        "value": 6,
+        "label": "Demokratikus Koalíció (DK)"
+      },
+      {
+        "value": 7,
+        "label": "Együtt - a Korszakváltók Pártja (Együtt)"
+      },
+      {
+        "value": 8,
+        "label": "Párbeszéd Magyarországért (PM)"
+      },
+      {
+        "value": 9,
+        "label": "Momentum Mozgalom (Momentum)"
+      },
+      {
+        "value": 10,
+        "label": "Magyar Liberális Párt (Liberálisok)"
+      },
+      {
+        "value": 11,
+        "label": "Magyar Kétfarkú Kutya Párt (MKKP)"
+      },
+      {
+        "value": 12,
+        "label": "Magyar Munkáspárt (Munkáspárt)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v176",
+    "text": "A szavazatokat tisztességes módon számolják össze.",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v177",
+    "text": "Megakadályozzák, hogy ellenzéki jelöltek indulhassanak a választáson",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v178",
+    "text": "A tévé hírműsora előnyben részesíti a kormányzó pártot",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v179",
+    "text": "Szavazókat lefizetnek",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v180",
+    "text": "Az újságírók pártatlanul tudósítanak a választásokról",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v181",
+    "text": "A választásokat biztosító hivatalnokok és a választási bizottságok tisztességesek",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v182",
+    "text": "A gazdag emberek megvásárolják a választást",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v183",
+    "text": "A szavazókat erőszakkal megfélemlítik a szavazásnál",
+    "stem": "Ön szerint Magyarországon a választások alkalmával milyen gyakran fordulnak elő a következő dolgok?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nagyon gyakran"
+      },
+      {
+        "value": 2,
+        "label": "Elég gyakran"
+      },
+      {
+        "value": 3,
+        "label": "Nem gyakran"
+      },
+      {
+        "value": 4,
+        "label": "Egyáltalán nem gyakran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Most meg szeretnénk tudni a véleményét azokról az emberekről, akik más országból jöttek Magyarországra lakni - a bevándorlókról. Hogy értékelné ezeknek az embereknek Magyarország fejlődésére gyakorolt hatását?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon rossz"
+      },
+      {
+        "value": 2,
+        "label": "elég rossz"
+      },
+      {
+        "value": 3,
+        "label": "sem jó, sem rossz"
+      },
+      {
+        "value": 4,
+        "label": "elég jó"
+      },
+      {
+        "value": 5,
+        "label": "nagyon jó"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "A bevándorlók munkahelyeket vesznek el a magyaroktól",
+    "stem": "Kérem, nézze meg a következő állításokat, és jelölje meg, hova helyezné a véleményét ezen a skálán.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A bevándorlók munkahelyeket vesznek el a magyaroktól"
+      },
+      {
+        "value": 10,
+        "label": "A bevándorlók nem vesznek el munkahelyeket a magyaroktól"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v186",
+    "text": "A bevándorlók rontják a bűnözési helyzetet",
+    "stem": "Kérem, nézze meg a következő állításokat, és jelölje meg, hova helyezné a véleményét ezen a skálán.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A bevándorlók rontják a bűnözési helyzetet"
+      },
+      {
+        "value": 10,
+        "label": "A bevándorlók nem rontják a bűnözési helyzetet"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v187",
+    "text": "A bevándorlók megterhelik egy ország jóléti rendszerét",
+    "stem": "Kérem, nézze meg a következő állításokat, és jelölje meg, hova helyezné a véleményét ezen a skálán.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A bevándorlók megterhelik egy ország jóléti rendszerét"
+      },
+      {
+        "value": 10,
+        "label": "A bevándorlók nem terhelik meg egy ország jóléti rendszerét"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v188",
+    "text": "Jobb, ha a bevándorlók megőrzik sajátos szokásaikat és hagyományaikat",
+    "stem": "Kérem, nézze meg a következő állításokat, és jelölje meg, hova helyezné a véleményét ezen a skálán.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jobb, ha a bevándorlók megőrzik sajátos szokásaikat és hagyományaikat"
+      },
+      {
+        "value": 10,
+        "label": "Jobb, ha a bevándorlók nem őrzik meg sajátos szokásaikat és hagyományaikat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v189",
+    "text": "Magyarországon szülessen",
+    "stem": "Felolvasok néhány dolgot. Ezek egyesek szerint fontosak ahhoz, hogy valaki igazi magyar legyen, mások szerint pedig nem fontosak. Ön mennyire tartja fontosnak ezeket ahhoz, hogy valaki igaz magyar legyen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Tisztelje Magyarország politikai intézményrendszerét és jogrendszerét",
+    "stem": "Felolvasok néhány dolgot. Ezek egyesek szerint fontosak ahhoz, hogy valaki igazi magyar legyen, mások szerint pedig nem fontosak. Ön mennyire tartja fontosnak ezeket ahhoz, hogy valaki igaz magyar legyen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Legyenek magyar ősei, felmenői",
+    "stem": "Felolvasok néhány dolgot. Ezek egyesek szerint fontosak ahhoz, hogy valaki igazi magyar legyen, mások szerint pedig nem fontosak. Ön mennyire tartja fontosnak ezeket ahhoz, hogy valaki igaz magyar legyen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Beszéljen magyarul",
+    "stem": "Felolvasok néhány dolgot. Ezek egyesek szerint fontosak ahhoz, hogy valaki igazi magyar legyen, mások szerint pedig nem fontosak. Ön mennyire tartja fontosnak ezeket ahhoz, hogy valaki igaz magyar legyen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Elsajátítsa a magyar kultúrát",
+    "stem": "Az emberek különböző módon vélekednek arról, hogy mit jelent európainak lenni. Az Ön véleménye szerint mennyire fontosan a következők ahhoz, hogy valaki igaz magyar legyen?",
+    "item": "Elsajátítsa a magyar kultúrát",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mennyire fontos"
+  },
+  {
+    "id": "v194",
+    "text": "Európában szülessen",
+    "stem": "Az emberek különböző módon vélekednek arról, hogy mit jelent európainak lenni. Az Ön véleménye szerint mennyire fontosan a következők ahhoz, hogy valaki európai legyen?",
+    "item": "Európában szülessen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mennyire fontos"
+  },
+  {
+    "id": "v195",
+    "text": "Legyenek európai felmenői",
+    "stem": "Az emberek különböző módon vélekednek arról, hogy mit jelent európainak lenni. Az Ön véleménye szerint mennyire fontosan a következők ahhoz, hogy valaki európai legyen?",
+    "item": "Legyenek európai felmenői",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mennyire fontos"
+  },
+  {
+    "id": "v196",
+    "text": "Keresztény legyen",
+    "stem": "Az emberek különböző módon vélekednek arról, hogy mit jelent európainak lenni. Az Ön véleménye szerint mennyire fontosan a következők ahhoz, hogy valaki európai legyen?",
+    "item": "Keresztény legyen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mennyire fontos"
+  },
+  {
+    "id": "v197",
+    "text": "Elsajátítsa az európai kultúrát",
+    "stem": "Az emberek különböző módon vélekednek arról, hogy mit jelent európainak lenni. Az Ön véleménye szerint mennyire fontosan a következők ahhoz, hogy valaki európai legyen?",
+    "item": "Elsajátítsa az európai kultúrát",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mennyire fontos"
+  },
+  {
+    "id": "v198",
+    "text": "Néhányan azt mondják, hogy az Európai Unió kibővítésének tovább kell folytatódnia. Mások szerint az Unió kibővítése már így is túl messzire ment. A kártya segítségével mondja meg, melyik szám fejezi ki a legjobban az Ön véleményét. Az 1-es jelenti, hogy \"tovább kellene folytatódnia\", a 10-es, hogy \"már így is túl messzire ment\"",
+    "stem": "Néhányan azt mondják, hogy az Európai Unió kibővítésének tovább kell folytatódnia. Mások szerint az Unió kibővítése már így is túl messzire ment. A kártya segítségével mondja meg, melyik szám fejezi ki a legjobban az Ön véleményét. Az 1-es jelenti, hogy \"tovább kellene folytatódnia\", a 10-es, hogy \"már így is túl messzire ment\"",
+    "item": "Néhányan azt mondják, hogy az Európai Unió kibővítésének tovább kell folytatódnia. Mások szerint az Unió kibővítése már így is túl messzire ment. A kártya segítségével mondja meg, melyik szám fejezi ki a legjobban az Ön véleményét. Az 1-es jelenti, hogy \"tovább kellene folytatódnia\", a 10-es, hogy \"már így is túl messzire ment\"",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "tovább kellene folytatódnia"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "már így is túl messze ment"
+      }
+    ],
+    "answer_cue": "Melyik szám fejezi ki a legjobban az Ön véleményét"
+  },
+  {
+    "id": "v199",
+    "text": "Odaadnám a jövedelmem egy részét, ha biztos lehetnék benne, hogy a pénzt a környezetszennyezés megelőzésére fordítják",
+    "stem": "Kérem, mondja meg a következő kijelentésekről egyenként, hogy mennyire ért velük egyet.",
+    "item": "Odaadnám a jövedelmem egy részét, ha biztos lehetnék benne, hogy a pénzt a környezetszennyezés megelőzésére fordítják",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": "Mennyire ért velük egyet"
+  },
+  {
+    "id": "v200",
+    "text": "A hozzám hasonló embereknek túl nehéz bármi lényegeset tenni a környezetért",
+    "stem": "Kérem, mondja meg a következő kijelentésekről egyenként, hogy mennyire ért velük egyet.",
+    "item": "A hozzám hasonló embereknek túl nehéz bármi lényegeset tenni a környezetért",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": "Mennyire ért velük egyet"
+  },
+  {
+    "id": "v201",
+    "text": "Vannak fontosabb teendők az életben, mint a környezetet védeni",
+    "stem": "Kérem, mondja meg a következő kijelentésekről egyenként, hogy mennyire ért velük egyet.",
+    "item": "Vannak fontosabb teendők az életben, mint a környezetet védeni",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": "Mennyire ért velük egyet"
+  },
+  {
+    "id": "v202",
+    "text": "Nincs értelme megtenni a környezetért azt, amit tudok, amíg mások nem teszik ugyanezt",
+    "stem": "Kérem, mondja meg a következő kijelentésekről egyenként, hogy mennyire ért velük egyet.",
+    "item": "Nincs értelme megtenni a környezetért azt, amit tudok, amíg mások nem teszik ugyanezt",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": "Mennyire ért velük egyet"
+  },
+  {
+    "id": "v203",
+    "text": "Számos, a környezetet fenyegető veszélyről szóló állítás túlzás",
+    "stem": "Kérem, mondja meg a következő kijelentésekről egyenként, hogy mennyire ért velük egyet.",
+    "item": "Számos, a környezetet fenyegető veszélyről szóló állítás túlzás",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Teljesen egyetért"
+      },
+      {
+        "value": 2,
+        "label": "Egyetért"
+      },
+      {
+        "value": 3,
+        "label": "Nem ért egyet, de nincs ellenvéleménye sem"
+      },
+      {
+        "value": 4,
+        "label": "Nem ért egyet"
+      },
+      {
+        "value": 5,
+        "label": "Egyáltalán nem ért egyet"
+      }
+    ],
+    "answer_cue": "Mennyire ért velük egyet"
+  },
+  {
+    "id": "v204",
+    "text": "Itt van két olyan kijelentést, amit az emberek tesznek néha, amikor a környezetről és a gazdasági növekedésről beszélgetnek. Melyik áll közelebb az Ön véleményéhez?",
+    "stem": "Itt van két olyan kijelentést, amit az emberek tesznek néha, amikor a környezetről és a gazdasági növekedésről beszélgetnek. Melyik áll közelebb az Ön véleményéhez?",
+    "item": "Itt van két olyan kijelentést, amit az emberek tesznek néha, amikor a környezetről és a gazdasági növekedésről beszélgetnek. Melyik áll közelebb az Ön véleményéhez?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A környezetvédelmet akkor is előnyben kell részesíteni, ha ez lelassítja a gazdasági növekedést és néhány munkahely megszűnését okozza."
+      },
+      {
+        "value": 2,
+        "label": "A gazdasági növekedésnek és a munkahelyteremtésnek kell a legfontosabbnak lennie, még akkor is, ha ez egy bizonyos mértékben negatív hatással van a környezetre."
+      }
+    ],
+    "answer_cue": "Melyik áll közelebb az Ön véleményéhez?"
+  },
+  {
+    "id": "v205",
+    "text": "Közterületen biztonsági kamerákkal megfigyelni az embereket",
+    "stem": "Mit gondol, Magyarország kormányának jogában kellene állnia vagy nem kellene jogában állnia, hogy megtegye a következőt:",
+    "item": "Közterületen biztonsági kamerákkal megfigyelni az embereket",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Határozottan álljon jogában"
+      },
+      {
+        "value": 2,
+        "label": "Valószínűleg álljon jogában"
+      },
+      {
+        "value": 3,
+        "label": "Valószínűleg ne álljon jogában"
+      },
+      {
+        "value": 4,
+        "label": "Határozottan ne álljon jogában"
+      }
+    ],
+    "answer_cue": "Mit gondol, Magyarország kormányának jogában kellene állnia vagy nem kellene jogában állnia, hogy megtegye a következőt:"
+  },
+  {
+    "id": "v206",
+    "text": "Megfigyelje az összes e-mailt és interneten cserélt egyéb információt",
+    "stem": "Mit gondol, Magyarország kormányának jogában kellene állnia vagy nem kellene jogában állnia, hogy megtegye a következőt:",
+    "item": "Megfigyelje az összes e-mailt és interneten cserélt egyéb információt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Határozottan álljon jogában"
+      },
+      {
+        "value": 2,
+        "label": "Valószínűleg álljon jogában"
+      },
+      {
+        "value": 3,
+        "label": "Valószínűleg ne álljon jogában"
+      },
+      {
+        "value": 4,
+        "label": "Határozottan ne álljon jogában"
+      }
+    ],
+    "answer_cue": "Mit gondol, Magyarország kormányának jogában kellene állnia vagy nem kellene jogában állnia, hogy megtegye a következőt:"
+  },
+  {
+    "id": "v207",
+    "text": "A tudta nélkül információt gyűjtsön bárkiről, aki Magyarországon él",
+    "stem": "Mit gondol, Magyarország kormányának jogában kellene állnia vagy nem kellene jogában állnia, hogy megtegye a következőt:",
+    "item": "A tudta nélkül információt gyűjtsön bárkiről, aki Magyarországon él",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Határozottan álljon jogában"
+      },
+      {
+        "value": 2,
+        "label": "Valószínűleg álljon jogában"
+      },
+      {
+        "value": 3,
+        "label": "Valószínűleg ne álljon jogában"
+      },
+      {
+        "value": 4,
+        "label": "Határozottan ne álljon jogában"
+      }
+    ],
+    "answer_cue": "Mit gondol, Magyarország kormányának jogában kellene állnia vagy nem kellene jogában állnia, hogy megtegye a következőt:"
+  },
+  {
+    "id": "v208",
+    "text": "a TV-ben",
+    "stem": "Milyen gyakran követi figyelemmel a politikát...",
+    "item": "a TV-ben",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Minden nap"
+      },
+      {
+        "value": 2,
+        "label": "Hetente többször"
+      },
+      {
+        "value": 3,
+        "label": "Heti egy vagy két alkalommal"
+      },
+      {
+        "value": 4,
+        "label": "Ritkábban"
+      },
+      {
+        "value": 5,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": "Milyen gyakran követi figyelemmel a politikát..."
+  },
+  {
+    "id": "v209",
+    "text": "rádióban",
+    "stem": "Milyen gyakran követi figyelemmel a politikát...",
+    "item": "rádióban",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Minden nap"
+      },
+      {
+        "value": 2,
+        "label": "Hetente többször"
+      },
+      {
+        "value": 3,
+        "label": "Heti egy vagy két alkalommal"
+      },
+      {
+        "value": 4,
+        "label": "Ritkábban"
+      },
+      {
+        "value": 5,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": "Milyen gyakran követi figyelemmel a politikát..."
+  },
+  {
+    "id": "v210",
+    "text": "napilapokban",
+    "stem": "Milyen gyakran követi figyelemmel a politikát...",
+    "item": "napilapokban",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Minden nap"
+      },
+      {
+        "value": 2,
+        "label": "Hetente többször"
+      },
+      {
+        "value": 3,
+        "label": "Heti egy vagy két alkalommal"
+      },
+      {
+        "value": 4,
+        "label": "Ritkábban"
+      },
+      {
+        "value": 5,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": "Milyen gyakran követi figyelemmel a politikát..."
+  },
+  {
+    "id": "v211",
+    "text": "a közösségi médiában",
+    "stem": "Milyen gyakran követi figyelemmel a politikát...",
+    "item": "a közösségi médiában",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Minden nap"
+      },
+      {
+        "value": 2,
+        "label": "Hetente többször"
+      },
+      {
+        "value": 3,
+        "label": "Heti egy vagy két alkalommal"
+      },
+      {
+        "value": 4,
+        "label": "Ritkábban"
+      },
+      {
+        "value": 5,
+        "label": "Soha"
+      }
+    ],
+    "answer_cue": "Milyen gyakran követi figyelemmel a politikát..."
+  },
+  {
+    "id": "v212",
+    "text": "A szomszédságában élők",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A szomszédságában élők",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v213",
+    "text": "Az Ön régiójában élők",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az Ön régiójában élők",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v214",
+    "text": "Az Önnel egy országban élők",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az Önnel egy országban élők",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v215",
+    "text": "Az európaiak",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "Az európaiak",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v216",
+    "text": "A világon élő minden ember",
+    "stem": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:",
+    "item": "A világon élő minden ember",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "Mennyire foglalkoztatják Önt a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v217",
+    "text": "idős emberek",
+    "stem": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:",
+    "item": "idős emberek",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v218",
+    "text": "munkanélküliek",
+    "stem": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:",
+    "item": "munkanélküliek",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v219",
+    "text": "bevándorlók",
+    "stem": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:",
+    "item": "bevándorlók",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v220",
+    "text": "betegek és fogyatékosok",
+    "stem": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:",
+    "item": "betegek és fogyatékosok",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "igen nagyon"
+      },
+      {
+        "value": 2,
+        "label": "nagyon"
+      },
+      {
+        "value": 3,
+        "label": "bizonyos fokig"
+      },
+      {
+        "value": 4,
+        "label": "nem olyan nagyon"
+      },
+      {
+        "value": 5,
+        "label": "egyáltalán nem"
+      }
+    ],
+    "answer_cue": "És menyire foglalkoztatják Ön a következő emberek és csoportok életkörülményei:"
+  },
+  {
+    "id": "v221",
+    "text": "Az állampolgárok jövedelmei közötti nagy különbségek megszüntetése",
+    "stem": "Mit kellene egy társadalomnak nyújtania? Kérem, a következő kijelentések mindegyikéről mondja meg, hogy Ön szerint az nagyon fontos vagy egyáltalán nem fontos.",
+    "item": "Az állampolgárok jövedelmei közötti nagy különbségek megszüntetése",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mit kellene egy társadalomnak nyújtania? Kérem, a következő kijelentések mindegyikéről mondja meg, hogy Ön szerint az nagyon fontos vagy egyáltalán nem fontos."
+  },
+  {
+    "id": "v222",
+    "text": "Az elemi szükségleteknek, az élelmezésnek, a lakhatásnak, a ruházkodásnak, az oktatásnak, az egészségügyi ellátásnak minden állampolgár számára való biztosítása",
+    "stem": "Mit kellene egy társadalomnak nyújtania? Kérem, a következő kijelentések mindegyikéről mondja meg, hogy Ön szerint az nagyon fontos vagy egyáltalán nem fontos.",
+    "item": "Az elemi szükségleteknek, az élelmezésnek, a lakhatásnak, a ruházkodásnak, az oktatásnak, az egészségügyi ellátásnak minden állampolgár számára való biztosítása",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mit kellene egy társadalomnak nyújtania?"
+  },
+  {
+    "id": "v223",
+    "text": "Az emberek érdemeik szerinti elismerése",
+    "stem": "Mit kellene egy társadalomnak nyújtania? Kérem, a következő kijelentések mindegyikéről mondja meg, hogy Ön szerint az nagyon fontos vagy egyáltalán nem fontos.",
+    "item": "Az emberek érdemeik szerinti elismerése",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mit kellene egy társadalomnak nyújtania?"
+  },
+  {
+    "id": "v224",
+    "text": "A terrorizmus elleni védelem",
+    "stem": "Mit kellene egy társadalomnak nyújtania? Kérem, a következő kijelentések mindegyikéről mondja meg, hogy Ön szerint az nagyon fontos vagy egyáltalán nem fontos.",
+    "item": "A terrorizmus elleni védelem",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "nagyon fontos"
+      },
+      {
+        "value": 2,
+        "label": "elég fontos"
+      },
+      {
+        "value": 3,
+        "label": "nem fontos"
+      },
+      {
+        "value": 4,
+        "label": "egyáltalán nem fontos"
+      }
+    ],
+    "answer_cue": "Mit kellene egy társadalomnak nyújtania?"
+  }
+]

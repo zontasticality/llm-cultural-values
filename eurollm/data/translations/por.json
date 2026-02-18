@@ -1,0 +1,5983 @@
+[
+  {
+    "id": "Q1",
+    "text": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida. Trabalho",
+    "stem": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida.",
+    "item": "Trabalho",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "nada importante"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida. Família",
+    "stem": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida.",
+    "item": "Família",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "nada importante"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida. Amigos e conhecidos",
+    "stem": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida.",
+    "item": "Amigos e conhecidos",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "nada importante"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida. Tempos livres",
+    "stem": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida.",
+    "item": "Tempos livres",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "nada importante"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida. Política",
+    "stem": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida.",
+    "item": "Política",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "nada importante"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida. Religião",
+    "stem": "Diga, por favor, a importância que atribui a cada um dos seguintes aspectos na sua vida.",
+    "item": "Religião",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "nada importante"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Considerando todos os aspectos da sua vida diria que é muito feliz, feliz, pouco feliz ou nada feliz?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito feliz"
+      },
+      {
+        "value": 2,
+        "label": "feliz"
+      },
+      {
+        "value": 3,
+        "label": "pouco feliz"
+      },
+      {
+        "value": 4,
+        "label": "nada feliz"
+      },
+      {
+        "value": 8,
+        "label": "não sabe (espontâneo)"
+      },
+      {
+        "value": 9,
+        "label": "não responde (espontâneo)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "Em termos gerais, como caracterizaria o seu estado de saúde actual?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito bom"
+      },
+      {
+        "value": 2,
+        "label": "Bom"
+      },
+      {
+        "value": 3,
+        "label": "Razoável"
+      },
+      {
+        "value": 4,
+        "label": "Mau"
+      },
+      {
+        "value": 5,
+        "label": "Muito mau"
+      },
+      {
+        "value": 8,
+        "label": "Não sabe (espontâneo)"
+      },
+      {
+        "value": 9,
+        "label": "Não responde (espontâneo)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Organizações religiosas ou ligadas à Igreja",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Organizações religiosas ou ligadas à Igreja",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Educação, artes, música ou actividades culturais",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Educação, artes, música ou actividades culturais",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Sindicato",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Sindicato",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Partidos ou grupos políticos",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Partidos ou grupos políticos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Património, ambiente, ecologia, direitos dos animais",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Património, ambiente, ecologia, direitos dos animais",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Associações profissionais",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Associações profissionais",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Desporto e recreio",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Desporto e recreio",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Acção social e ajuda humanitária",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Acção social e ajuda humanitária",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Defesa do consumidor (por ex. DECO)",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Defesa do consumidor (por ex. DECO)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Grupos de auto-ajuda e entre-ajuda",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Grupos de auto-ajuda e entre-ajuda",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Outros grupos",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Outros grupos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence. Nenhum (espontâneo)",
+    "stem": "Leia atentamente a seguinte lista de organizações de voluntariado e diga a qual ou quais pertence",
+    "item": "Nenhum (espontâneo)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Pessoas de outra raça",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Pessoas de outra raça",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Alcoólicos",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Alcoólicos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Trabalhadores imigrantes",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Trabalhadores imigrantes",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Toxicodependentes",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Toxicodependentes",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Homossexuais",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Homossexuais",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Cristãos",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Cristãos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Muçulmanos",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Muçulmanos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Judeus",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Judeus",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos. Ciganos",
+    "stem": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria de ter como vizinhos.",
+    "item": "Ciganos",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "De uma forma geral, acha que se pode confiar na maioria das pessoas ou, pelo contrário, acha que todo o cuidado é pouco?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Pode-se confiar na maioria das pessoas"
+      },
+      {
+        "value": 2,
+        "label": "Todo o cuidado é pouco"
+      },
+      {
+        "value": 8,
+        "label": "não sabe (espontâneo)"
+      },
+      {
+        "value": 9,
+        "label": "não responde (espontâneo)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos. Pessoas da sua família",
+    "stem": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos",
+    "item": "Pessoas da sua família",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Confia totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Confia parcialmente"
+      },
+      {
+        "value": 3,
+        "label": "Confia pouco"
+      },
+      {
+        "value": 4,
+        "label": "Não confia nada"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos. Pessoas da sua vizinhança",
+    "stem": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos",
+    "item": "Pessoas da sua vizinhança",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Confia totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Confia parcialmente"
+      },
+      {
+        "value": 3,
+        "label": "Confia pouco"
+      },
+      {
+        "value": 4,
+        "label": "Não confia nada"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos. Pessoas que conhece pessoalmente",
+    "stem": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos",
+    "item": "Pessoas que conhece pessoalmente",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Confia totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Confia parcialmente"
+      },
+      {
+        "value": 3,
+        "label": "Confia pouco"
+      },
+      {
+        "value": 4,
+        "label": "Não confia nada"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos. Pessoas que conhece pela primeira vez",
+    "stem": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos",
+    "item": "Pessoas que conhece pela primeira vez",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Confia totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Confia parcialmente"
+      },
+      {
+        "value": 3,
+        "label": "Confia pouco"
+      },
+      {
+        "value": 4,
+        "label": "Não confia nada"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos. Pessoas de outra religião",
+    "stem": "Gostaria agora que me dissesse se confia totalmente, parcialmente, pouco ou nada nas pessoas de cada um dos seguintes grupos",
+    "item": "Pessoas de outra religião",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Confia totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Confia parcialmente"
+      },
+      {
+        "value": 3,
+        "label": "Confia pouco"
+      },
+      {
+        "value": 4,
+        "label": "Não confia nada"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Algumas pessoas sentem que têm total liberdade de escolha e capacidade de controlo sobre as suas vidas, outras sentem que as suas acções não tem qualquer efeito sobre aquilo que lhes acontece. Utilizando a seguinte escala, diga, por favor, qual o grau de liberdade de escolha e capacidade de controlo que sente ter sobre aquilo que lhe acontece na vida.",
+    "stem": "Qual o grau de liberdade de escolha e capacidade de controlo que sente ter sobre aquilo que lhe acontece na vida?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nenhum"
+      },
+      {
+        "value": 10,
+        "label": "Muitíssimo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Considerando todos os aspectos da sua vida, qual o grau de satisfação que sente actualmente? Utilize, por favor, o seguinte cartão.",
+    "stem": "Qual o grau de satisfação que sente actualmente?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Insatisfeito"
+      },
+      {
+        "value": 10,
+        "label": "satisfeito"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V40",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "Ser bem pago",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V41",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "Um bom horário",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V42",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "Possibilidade de ter iniciativa",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V43",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "Bons períodos de férias",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V44",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "Um trabalho em que sinta que pode realizar alguma coisa",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V45",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "Um trabalho com responsabilidade(s)",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V45a",
+    "text": "Seguidamente apresentamos alguns aspectos que as pessoas consideram importantes no trabalho. Diga, por favor, quais os aspectos que, pessoalmente, considera importantes no trabalho.",
+    "stem": "nenhum destes (espontâneo)",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações.",
+    "stem": "As pessoas têm que trabalhar para desenvolver plenamente as suas aptidões.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concordo"
+      },
+      {
+        "value": 3,
+        "label": "nem concordo nem discordo"
+      },
+      {
+        "value": 4,
+        "label": "discordo"
+      },
+      {
+        "value": 5,
+        "label": "discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V47",
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações.",
+    "stem": "É humilhante receber dinheiro sem ter trabalhado para isso",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concordo"
+      },
+      {
+        "value": 3,
+        "label": "nem concordo nem discordo"
+      },
+      {
+        "value": 4,
+        "label": "discordo"
+      },
+      {
+        "value": 5,
+        "label": "discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V48",
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações.",
+    "stem": "As pessoas que não trabalham ficam preguiçosas",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concordo"
+      },
+      {
+        "value": 3,
+        "label": "nem concordo nem discordo"
+      },
+      {
+        "value": 4,
+        "label": "discordo"
+      },
+      {
+        "value": 5,
+        "label": "discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V49",
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações.",
+    "stem": "Trabalhar é um dever para com a sociedade",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concordo"
+      },
+      {
+        "value": 3,
+        "label": "nem concordo nem discordo"
+      },
+      {
+        "value": 4,
+        "label": "discordo"
+      },
+      {
+        "value": 5,
+        "label": "discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V50",
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações.",
+    "stem": "O trabalho devia ser sempre o mais importante, mesmo que isso significasse menos tempo livre",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concordo"
+      },
+      {
+        "value": 3,
+        "label": "nem concordo nem discordo"
+      },
+      {
+        "value": 4,
+        "label": "discordo"
+      },
+      {
+        "value": 5,
+        "label": "discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q13",
+    "text": "Pertence a alguma religiao?",
+    "stem": "Pertence a alguma religiao?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q13a",
+    "text": "Qual?",
+    "stem": "Qual?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Católica"
+      },
+      {
+        "value": 2,
+        "label": "Protestante"
+      },
+      {
+        "value": 3,
+        "label": "Ortodoxa"
+      },
+      {
+        "value": 4,
+        "label": "Outra cristã (Qual?)"
+      },
+      {
+        "value": 5,
+        "label": "Judaica"
+      },
+      {
+        "value": 6,
+        "label": "Islâmica/Muçulmana"
+      },
+      {
+        "value": 7,
+        "label": "Religiões Orientais"
+      },
+      {
+        "value": 8,
+        "label": "Outra não-cristã (Qual?)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q14",
+    "text": "Alguma vez pertenceu a um religião?",
+    "stem": "Alguma vez pertenceu a um religião?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q15",
+    "text": "Sem contar com casamentos, funerais e baptizados, com que frequência participa actualmente em cerimónias religiosos?",
+    "stem": "Com que frequência participa actualmente em cerimónias religiosos?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "mais de uma vez por semana"
+      },
+      {
+        "value": 2,
+        "label": "uma vez por semana"
+      },
+      {
+        "value": 3,
+        "label": "uma vez por mês"
+      },
+      {
+        "value": 4,
+        "label": "Apenas nos dias religiosos / festivos"
+      },
+      {
+        "value": 5,
+        "label": "uma vez por ano"
+      },
+      {
+        "value": 6,
+        "label": "muito raramente"
+      },
+      {
+        "value": 7,
+        "label": "nunca ou quase nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q16",
+    "text": "E quando tinha 12 anos, com que frequência é que participava em verimónias religiosas sem contar com casamentos, funerais e baptizados?",
+    "stem": "Com que frequência é que participava em verimónias religiosas sem contar com casamentos, funerais e baptizados?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "mais de uma vez por semana"
+      },
+      {
+        "value": 2,
+        "label": "uma vez por semana"
+      },
+      {
+        "value": 3,
+        "label": "uma vez por mês"
+      },
+      {
+        "value": 4,
+        "label": "Apenas nos dias religiosos / festivos"
+      },
+      {
+        "value": 5,
+        "label": "uma vez por ano"
+      },
+      {
+        "value": 6,
+        "label": "muito raramente"
+      },
+      {
+        "value": 7,
+        "label": "nunca ou quase nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q17",
+    "text": "Independentemente de ir ou não ao local de culto (por exemplo Igraje, Mesquita, Sinagoga), diria que é...",
+    "stem": "Diria que é...",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "uma pessoa religiosa"
+      },
+      {
+        "value": 2,
+        "label": "uma pessoa não religiosa"
+      },
+      {
+        "value": 3,
+        "label": "um ateu convicto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V57",
+    "text": "Diga, por favor se acredita ou não:",
+    "stem": "Em Deus",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V58",
+    "text": "Diga, por favor se acredita ou não:",
+    "stem": "Na vida depois da morte",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V59",
+    "text": "Diga, por favor se acredita ou não:",
+    "stem": "No Inferno",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V60",
+    "text": "Diga, por favor se acredita ou não:",
+    "stem": "No Céu",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Acredita na reincarnação, ou seja, que nós vivemos neste mundo mais do que uma vez?",
+    "stem": "Acredita na reincarnação, ou seja, que nós vivemos neste mundo mais do que uma vez?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q20",
+    "text": "Qual das seguintes afirmações corresponde melhor às suas crenças?",
+    "stem": "Qual das seguintes afirmações corresponde melhor às suas crenças?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Existe um Deus"
+      },
+      {
+        "value": 2,
+        "label": "Existe uma espécie de espírito ou força viva"
+      },
+      {
+        "value": 3,
+        "label": "Não sei realmente o que pensar"
+      },
+      {
+        "value": 4,
+        "label": "No fundo, penso que não existe nenhum espírito absoluto, Deus ou força viva"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q21",
+    "text": "Utilizando a seguinte escala, em que 1 significa nenhuma importância e 10 muita importância, indique, por favor, qual a importância que Deus tem na sua vida",
+    "stem": "Qual a importância que Deus tem na sua vida",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nada importante"
+      },
+      {
+        "value": 10,
+        "label": "muito importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q22",
+    "text": "Sem contar com as cerimónias religiosas, com que frequência é que reza?",
+    "stem": "Com que frequência é que reza?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "todos os dias"
+      },
+      {
+        "value": 2,
+        "label": "mais de uma vez por semana"
+      },
+      {
+        "value": 3,
+        "label": "uma vez por semana"
+      },
+      {
+        "value": 4,
+        "label": "pelo menos uma vez por mês"
+      },
+      {
+        "value": 5,
+        "label": "várias vezes por ano"
+      },
+      {
+        "value": 6,
+        "label": "com menos frequência"
+      },
+      {
+        "value": 7,
+        "label": "nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V65",
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes para garantir um casamento ou uma união de facto feliz. Diga, por favor, se acha cada um deles muito importante, importante ou nada importante.",
+    "stem": "A Fidelidade",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V66",
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes para garantir um casamento ou uma união de facto feliz. Diga, por favor, se acha cada um deles muito importante, importante ou nada importante.",
+    "stem": "Um rendimento adequado",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V67",
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes para garantir um casamento ou uma união de facto feliz. Diga, por favor, se acha cada um deles muito importante, importante ou nada importante.",
+    "stem": "Ter uma boa habitação",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V68",
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes para garantir um casamento ou uma união de facto feliz. Diga, por favor, se acha cada um deles muito importante, importante ou nada importante.",
+    "stem": "Partilhar as tarefas domésticas",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V69",
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes para garantir um casamento ou uma união de facto feliz. Diga, por favor, se acha cada um deles muito importante, importante ou nada importante.",
+    "stem": "Ter filhos",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V70",
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes para garantir um casamento ou uma união de facto feliz. Diga, por favor, se acha cada um deles muito importante, importante ou nada importante.",
+    "stem": "Ter tempo disponível para estar com os seus amigos e dedicar-se aos seus passatempos e actividades",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito importante"
+      },
+      {
+        "value": 2,
+        "label": "bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "pouco importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Concorda ou discorda com a seguinte afirmação: O casamento é uma instituição antiquada",
+    "stem": "O casamento é uma instituição antiquada",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Concorda"
+      },
+      {
+        "value": 2,
+        "label": "Discorda"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V72",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "Quando a mãe tem actividade professional, os filhos são prejudicados",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V73",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "Está certo que a mulher trabalhe, mas o que a maior parte das mulheres realmente quer é um lar e filhos",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V74",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "Tudo consideradoa vida familiar é prejudicada quando a mulher tem atempo inteiro",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V75",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "Compete ao homem ganhar dinheiro e à mulher cuidar da casa e da família",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V76",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "De uma forma geral, os homens dão melhores líderes políticos do que as mulheres",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V77",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "Ter um curso superior é mais importante para um rapaz do que para uma rapariga",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V78",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "De uma forma geral, os homens dão melhores gestores do que as mulheres",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V79",
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, discorda ou discorda totalmente?",
+    "stem": "Um dos meus principais objectivos na vida tem sido deixar os meus pais orgulhosos",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V80",
+    "text": "Quando os empregos são poucos devia-se dar prioridade aos portugueses em relação aos imigrantes",
+    "stem": "Em que medida concorda ou discorda com as seguintes afirmações",
+    "item": "Quando os empregos são poucos devia-se dar prioridade aos portugueses em relação aos imigrantes",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": "concorda totalmente|concorda|Nem concorda nem discorda|discorda|discorda totalmente"
+  },
+  {
+    "id": "V81",
+    "text": "Quando os empregos são poucos os homens têm mais direito ao trabalho do que as mulheres",
+    "stem": "Em que medida concorda ou discorda com as seguintes afirmações",
+    "item": "Quando os empregos são poucos os homens têm mais direito ao trabalho do que as mulheres",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": "concorda totalmente|concorda|Nem concorda nem discorda|discorda|discorda totalmente"
+  },
+  {
+    "id": "V82",
+    "text": "Nos casais homossexuais, os pais ou mães são tão bons como nos outros casais",
+    "stem": "Qual a sua opinião relativamente a cada uma das seguintes afirmações? Concorda ou discorda?",
+    "item": "Nos casais homossexuais, os pais ou mães são tão bons como nos outros casais",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": "concorda totalmente|concorda|Nem concorda nem discorda|discorda|discorda totalmente"
+  },
+  {
+    "id": "V83",
+    "text": "Ter filhos é um dever para com a sociedade",
+    "stem": "Qual a sua opinião relativamente a cada uma das seguintes afirmações? Concorda ou discorda?",
+    "item": "Ter filhos é um dever para com a sociedade",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": "concorda totalmente|concorda|Nem concorda nem discorda|discorda|discorda totalmente"
+  },
+  {
+    "id": "V84",
+    "text": "Os filhos adultos têm o dever de prestar aos seus pais cuidados a longo prazo",
+    "stem": "Qual a sua opinião relativamente a cada uma das seguintes afirmações? Concorda ou discorda?",
+    "item": "Os filhos adultos têm o dever de prestar aos seus pais cuidados a longo prazo",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": "concorda totalmente|concorda|Nem concorda nem discorda|discorda|discorda totalmente"
+  },
+  {
+    "id": "V85",
+    "text": "Ter boas maneiras",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ter boas maneiras",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V86",
+    "text": "Ser independente",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ser independente",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V87",
+    "text": "Ser trabalhador",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ser trabalhador",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V88",
+    "text": "Ter sentido de responsabilidade",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ter sentido de responsabilidade",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V89",
+    "text": "Ter imaginação",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ter imaginação",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V90",
+    "text": "Ser tolerante e respeitar os outros",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ser tolerante e respeitar os outros",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V91",
+    "text": "Ser poupado com o dinheiro e as coisas",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ser poupado com o dinheiro e as coisas",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V92",
+    "text": "Ser determinado e perseverante",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ser determinado e perseverante",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V93",
+    "text": "Ter fé religiosa",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Ter fé religiosa",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "V94",
+    "text": "Não ser egoísta",
+    "stem": "Da seguinte lista fazem parte uma série de qualidades que podem ser ensinadas às crianças em casa. Indique as cinco que considera as mais desejáveis que uma criança tenha. Escolha até cinco.",
+    "item": "Não ser egoísta",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mencionado"
+      },
+      {
+        "value": 2,
+        "label": "não mencionado"
+      }
+    ],
+    "answer_cue": "mencionado|não mencionado"
+  },
+  {
+    "id": "Q29",
+    "text": "Qual o seu interesse pela política?",
+    "stem": null,
+    "item": "Qual o seu interesse pela política?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito interesse"
+      },
+      {
+        "value": 2,
+        "label": "algum interesse"
+      },
+      {
+        "value": 3,
+        "label": "pouco interesse"
+      },
+      {
+        "value": 4,
+        "label": "nenhum interesse"
+      }
+    ],
+    "answer_cue": "muito interesse|algum interesse|pouco interesse|nenhum interesse"
+  },
+  {
+    "id": "V98",
+    "text": "Assinar uma petição ou um abaixo-assinado",
+    "stem": "Para cada uma das diferentes formas de acção política que a seguir lhe vou ler, gostava que me dissesse se alguma vez fez, se não fez, mas admite fazer ou se não fez e não admite fazer em qualquer circunstância.",
+    "item": "Assinar uma petição ou um abaixo-assinado",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim, já fez"
+      },
+      {
+        "value": 2,
+        "label": "não fez, mas admite fazer"
+      },
+      {
+        "value": 3,
+        "label": "não fez e não admite fazer"
+      }
+    ],
+    "answer_cue": "sim, já fez|não fez, mas admite fazer|não fez e não admite fazer"
+  },
+  {
+    "id": "V99",
+    "text": "Participar em boicotes",
+    "stem": "Para cada uma das diferentes formas de acção política que a seguir lhe vou ler, gostava que me dissesse se alguma vez fez, se não fez, mas admite fazer ou se não fez e não admite fazer em qualquer circunstância.",
+    "item": "Participar em boicotes",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim, já fez"
+      },
+      {
+        "value": 2,
+        "label": "não fez, mas admite fazer"
+      },
+      {
+        "value": 3,
+        "label": "não fez e não admite fazer"
+      }
+    ],
+    "answer_cue": "sim, já fez|não fez, mas admite fazer|não fez e não admite fazer"
+  },
+  {
+    "id": "v100",
+    "text": "Participar em manifestações legais",
+    "stem": "Para cada uma das diferentes formas de acção política que a seguir lhe vou ler, gostava que me dissesse se alguma vez fez, se não fez, mas admite fazer ou se não fez e não admite fazer em qualquer circunstância.",
+    "item": "Participar em manifestações legais",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim, já fez"
+      },
+      {
+        "value": 2,
+        "label": "não fez, mas admite fazer"
+      },
+      {
+        "value": 3,
+        "label": "não fez e não admite fazer"
+      }
+    ],
+    "answer_cue": "sim, já fez|não fez, mas admite fazer|não fez e não admite fazer"
+  },
+  {
+    "id": "v101",
+    "text": "Participar em greves não legais",
+    "stem": "Para cada uma das diferentes formas de acção política que a seguir lhe vou ler, gostava que me dissesse se alguma vez fez, se não fez, mas admite fazer ou se não fez e não admite fazer em qualquer circunstância.",
+    "item": "Participar em greves não legais",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim, já fez"
+      },
+      {
+        "value": 2,
+        "label": "não fez, mas admite fazer"
+      },
+      {
+        "value": 3,
+        "label": "não fez e não admite fazer"
+      }
+    ],
+    "answer_cue": "sim, já fez|não fez, mas admite fazer|não fez e não admite fazer"
+  },
+  {
+    "id": "Q31",
+    "text": "Em política as pessoas falam 'da esquerda' e 'da direita'. Como se situaria, quanto às suas posições políticas, nesta escala?",
+    "stem": null,
+    "item": "Em política as pessoas falam 'da esquerda' e 'da direita'. Como se situaria, quanto às suas posições políticas, nesta escala?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "A esquerda"
+      },
+      {
+        "value": 10,
+        "label": "A direita"
+      }
+    ],
+    "answer_cue": "A esquerda|A direita"
+  },
+  {
+    "id": "Q32",
+    "text": "As pessoas devem ser as principais responsáveis por assegurar a sua sobrevivência",
+    "stem": "Neste cartão encontra-se um conjunto de opiniões opostas sobre diferentes questões. Para cada par de opiniões opostas, em que ponto da escala situa a sua opinião pessoal?",
+    "item": "As pessoas devem ser as principais responsáveis por assegurar a sua sobrevivência",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "As pessoas devem ser as principais responsáveis por assegurar a sua sobrevivência"
+      },
+      {
+        "value": 10,
+        "label": "O Estado deve ser o principal responsável em assegurar a sobrevivência de todos"
+      }
+    ],
+    "answer_cue": "As pessoas devem ser as principais responsáveis por assegurar a sua sobrevivência|O Estado deve ser o principal responsável em assegurar a sobrevivência de todos"
+  },
+  {
+    "id": "Q32",
+    "text": "Os desempregados deviam aceitar qualquer emprego ou então perder o subsídio de desemprego",
+    "stem": "Neste cartão encontra-se um conjunto de opiniões opostas sobre diferentes questões. Para cada par de opiniões opostas, em que ponto da escala situa a sua opinião pessoal?",
+    "item": "Os desempregados deviam aceitar qualquer emprego ou então perder o subsídio de desemprego",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Os desempregados deviam aceitar qualquer emprego ou então perder o subsídio de desemprego"
+      },
+      {
+        "value": 10,
+        "label": "Os desempregados deviam ter o direito de recusar um emprego que não querem"
+      }
+    ],
+    "answer_cue": "Os desempregados deviam aceitar qualquer emprego ou então perder o subsídio de desemprego|Os desempregados deviam ter o direito de recusar um emprego que não querem"
+  },
+  {
+    "id": "Q32",
+    "text": "A competição é uma coisa boa.",
+    "stem": "Neste cartão encontra-se um conjunto de opiniões opostas sobre diferentes questões. Para cada par de opiniões opostas, em que ponto da escala situa a sua opinião pessoal?",
+    "item": "A competição é uma coisa boa.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "A competição é uma coisa boa."
+      },
+      {
+        "value": 10,
+        "label": "A competição é uma coisa má."
+      }
+    ],
+    "answer_cue": "A competição é uma coisa boa.|A competição é uma coisa má."
+  },
+  {
+    "id": "Q32",
+    "text": "Os salários deveriam ser tanto quanto possível iguais",
+    "stem": "Neste cartão encontra-se um conjunto de opiniões opostas sobre diferentes questões. Para cada par de opiniões opostas, em que ponto da escala situa a sua opinião pessoal?",
+    "item": "Os salários deveriam ser tanto quanto possível iguais",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Os salários deveriam ser tanto quanto possível iguais"
+      },
+      {
+        "value": 10,
+        "label": "Deveria haver mais incentivos para recompensar o esforço individual"
+      }
+    ],
+    "answer_cue": "Os salários deveriam ser tanto quanto possível iguais|Deveria haver mais incentivos para recompensar o esforço individual"
+  },
+  {
+    "id": "Q32",
+    "text": "A propriedade privada na indústria e nos negócios devia aumentar",
+    "stem": "Neste cartão encontra-se um conjunto de opiniões opostas sobre diferentes questões. Para cada par de opiniões opostas, em que ponto da escala situa a sua opinião pessoal?",
+    "item": "A propriedade privada na indústria e nos negócios devia aumentar",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "A propriedade privada na indústria e nos negócios devia aumentar"
+      },
+      {
+        "value": 10,
+        "label": "A propriedade do Estado na indústria e nos negócios devia aumentar"
+      }
+    ],
+    "answer_cue": "A propriedade privada na indústria e nos negócios devia aumentar|A propriedade do Estado na indústria e nos negócios devia aumentar"
+  },
+  {
+    "id": "Q33",
+    "text": "Ter um elevado nível de crescimento económico",
+    "stem": "As pessoas por vezes falam dos objectivos que Portugal devia alcançar nos próximos dez anos. Neste cartão estão alguns dos objectivos que diferentes pessoas consideram prioritários. Diga-me, por favor, qual deles considera o mais importante.",
+    "item": "Ter um elevado nível de crescimento económico",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ter um elevado nível de crescimento económico"
+      },
+      {
+        "value": 2,
+        "label": "Garantir que o país tem forças de defesa nacional fortes."
+      },
+      {
+        "value": 3,
+        "label": "Fazer com que as pessoas tenham uma palavra a dizer sobre a forma como as coisas são feitas nos seus empregos e nas suas comunidades"
+      },
+      {
+        "value": 4,
+        "label": "Fazer com que as nossas cidades e campos sejam mais bonitos"
+      }
+    ],
+    "answer_cue": "Ter um elevado nível de crescimento económico|Garantir que o país tem forças de defesa nacional fortes.|Fazer com que as pessoas tenham uma palavra a dizer sobre a forma como as coisas são feitas nos seus empregos e nas suas comunidades|Fazer com que as nossas cidades e campos sejam mais bonitos"
+  },
+  {
+    "id": "Q34",
+    "text": "Manter a ordem no país",
+    "stem": "E se tivesse que escolher entre os objectivos apresentados neste cartão, qual diria que é mais importante?",
+    "item": "Manter a ordem no país",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Manter a ordem no país"
+      },
+      {
+        "value": 2,
+        "label": "Dar aos cidadãos maior capacidade de participação nas decisões importantes do Governo"
+      },
+      {
+        "value": 3,
+        "label": "Combater o aumento dos preços"
+      },
+      {
+        "value": 4,
+        "label": "Defender a liberdade de expressão"
+      }
+    ],
+    "answer_cue": "Manter a ordem no país|Dar aos cidadãos maior capacidade de participação nas decisões importantes do Governo|Combater o aumento dos preços|Defender a liberdade de expressão"
+  },
+  {
+    "id": "Q36",
+    "text": "Claro que todos esperamos nunca mais viver em guerra, mas se chegássemos a esse ponto, estaria disposto a combater pelo país?",
+    "stem": null,
+    "item": "Claro que todos esperamos nunca mais viver em guerra, mas se chegássemos a esse ponto, estaria disposto a combater pelo país?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "sim"
+      },
+      {
+        "value": 2,
+        "label": "não"
+      }
+    ],
+    "answer_cue": "sim|não"
+  },
+  {
+    "id": "V113",
+    "text": "O trabalho ter menos importância nas nossas vidas",
+    "stem": "Estas são duas mudanças que podem vir a ocorrer num futuro próximo no nosso modo de vida. Diga, para cada uma delas se acha que isso seria uma coisa boa, má ou indiferente?.",
+    "item": "O trabalho ter menos importância nas nossas vidas",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "bom"
+      },
+      {
+        "value": 2,
+        "label": "mau"
+      },
+      {
+        "value": 3,
+        "label": "indiferente"
+      }
+    ],
+    "answer_cue": "bom|mau|indiferente"
+  },
+  {
+    "id": "V114",
+    "text": "Mais respeito pela autoridade",
+    "stem": "Estas são duas mudanças que podem vir a ocorrer num futuro próximo no nosso modo de vida. Diga, para cada uma delas se acha que isso seria uma coisa boa, má ou indiferente?.",
+    "item": "Mais respeito pela autoridade",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "bom"
+      },
+      {
+        "value": 2,
+        "label": "mau"
+      },
+      {
+        "value": 3,
+        "label": "indiferente"
+      }
+    ],
+    "answer_cue": "bom|mau|indiferente"
+  },
+  {
+    "id": "V115",
+    "text": "a igreja",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "a igreja",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V116",
+    "text": "as forças armadas",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "as forças armadas",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V117",
+    "text": "o sistema educativo",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "o sistema educativo",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V118",
+    "text": "a comunicação social/imprensa",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "a comunicação social/imprensa",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V119",
+    "text": "os sindicatos",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "os sindicatos",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V120",
+    "text": "a polícia",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "a polícia",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V121",
+    "text": "o parlamento",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "o parlamento",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V122",
+    "text": "a administração pública",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "a administração pública",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      }
+    ],
+    "answer_cue": "muita confiança|alguma confiança|pouca confiança|nenhuma confiança"
+  },
+  {
+    "id": "V123",
+    "text": "o sistema de segurança social",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "o sistema de segurança social",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V124",
+    "text": "a união europeia",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "a união europeia",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V125",
+    "text": "a organização das nações unidas (ONU)",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "a organização das nações unidas (ONU)",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V126",
+    "text": "o sistema nacional de saúde",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "o sistema nacional de saúde",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V127",
+    "text": "o sistema judicial/os tribunais",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "o sistema judicial/os tribunais",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V128",
+    "text": "as grandes empresas",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "as grandes empresas",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V129",
+    "text": "as organizações ambientalistas",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "as organizações ambientalistas",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V130",
+    "text": "os partidos políticos",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "os partidos políticos",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V131",
+    "text": "o governo",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "o governo",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V132",
+    "text": "as redes sociais",
+    "stem": "Das seguintes instituições, diga, por favor, qual o grau de confiança que lhe inspira cada uma delas",
+    "item": "as redes sociais",
+    "response_type": "confidence",
+    "options": [
+      {
+        "value": 1,
+        "label": "muita confiança"
+      },
+      {
+        "value": 2,
+        "label": "alguma confiança"
+      },
+      {
+        "value": 3,
+        "label": "pouca confiança"
+      },
+      {
+        "value": 4,
+        "label": "nenhuma confiança"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "LER CARTÃO 38 – LER E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V133",
+    "text": "O Governo aplicar impostos aos ricos e dar subsídios os pobres",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "O Governo aplicar impostos aos ricos e dar subsídios os pobres",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V134",
+    "text": "As autoridades religiosas terem a última palavra na interpretação das leis",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "As autoridades religiosas terem a última palavra na interpretação das leis",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V135",
+    "text": "As pessoas escolherem os seus dirigentes políticos em eleições livres",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "As pessoas escolherem os seus dirigentes políticos em eleições livres",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V136",
+    "text": "As pessoas receberem apoio do Estado quando estão desempregadas",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "As pessoas receberem apoio do Estado quando estão desempregadas",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V137",
+    "text": "Os militares tomarem o poder quando o Governo é incompetente",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "Os militares tomarem o poder quando o Governo é incompetente",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V138",
+    "text": "Os direitos cívicos protegerem as pessoas da opressão do Estado",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "Os direitos cívicos protegerem as pessoas da opressão do Estado",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V139",
+    "text": "O Estado tornar os rendimentos das pessoas iguais",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "O Estado tornar os rendimentos das pessoas iguais",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V140",
+    "text": "As pessoas obedecerem aos governantes",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "As pessoas obedecerem aos governantes",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V141",
+    "text": "As mulheres terem os mesmos direitos que os homens",
+    "stem": "Há coisas que podem ser desejáveis, mas nem todos são características essenciais de uma democracia. Diga-me em que medida considera os seguintes aspectos como essenciais de uma democracia.",
+    "item": "As mulheres terem os mesmos direitos que os homens",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Característica nada essencial de uma democracia"
+      },
+      {
+        "value": 10,
+        "label": "Característica essencial de uma democracia"
+      },
+      {
+        "value": 0,
+        "label": "É contra a democracia (NÃO LER)"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 39 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V142",
+    "text": "Em que medida é importante para si viver num país governado democraticamente?",
+    "stem": "Em que medida é importante para si viver num país governado democraticamente? Escolha a sua resposta nesta escala em que 1 significa 'nada importante' e 10 significa 'Extremamente importante'",
+    "item": "Em que medida é importante para si viver num país governado democraticamente?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nada importante"
+      },
+      {
+        "value": 10,
+        "label": "Extremamente importante"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 40"
+  },
+  {
+    "id": "V143",
+    "text": "E em que medida acha que Portugal é governado de modo democrático?",
+    "stem": "E em que medida acha que Portugal é governado de modo democrático? Utilize esta escala em que 1 significa 'nada democrático' e 10 significa 'completamente democrático'.",
+    "item": "E em que medida acha que Portugal é governado de modo democrático?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nada democrático"
+      },
+      {
+        "value": 10,
+        "label": "Completamente democrático"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 41"
+  },
+  {
+    "id": "V144",
+    "text": "Numa escala de 1 a 10 em que 1 significa 'nada satisfeito/a' e 10 significa 'totalmente satisfeito/a', qual o seu grau de satisfação com o funcionamento actual do sistema político em Portugal?",
+    "stem": "Numa escala de 1 a 10 em que 1 significa 'nada satisfeito/a' e 10 significa 'totalmente satisfeito/a', qual o seu grau de satisfação com o funcionamento actual do sistema político em Portugal?",
+    "item": "qual o seu grau de satisfação com o funcionamento actual do sistema político em Portugal?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nada satisfeito/a"
+      },
+      {
+        "value": 10,
+        "label": "Totalmente satisfeito/a"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 42"
+  },
+  {
+    "id": "V145",
+    "text": "Ter um líder forte que não tenha que se preocupar nem com o parlamento nem com as eleições",
+    "stem": "Diga como avalia cada uma das seguintes formas de governo para Portugal",
+    "item": "Ter um líder forte que não tenha que se preocupar nem com o parlamento nem com as eleições",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito boa"
+      },
+      {
+        "value": 2,
+        "label": "boa"
+      },
+      {
+        "value": 3,
+        "label": "má"
+      },
+      {
+        "value": 4,
+        "label": "muito má"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 43 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V146",
+    "text": "Serem os especialistas e não os governantes a tomar as decisões de acordo com o que consideram ser melhor para o país.",
+    "stem": "Diga como avalia cada uma das seguintes formas de governo para Portugal",
+    "item": "Serem os especialistas e não os governantes a tomar as decisões de acordo com o que consideram ser melhor para o país.",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito boa"
+      },
+      {
+        "value": 2,
+        "label": "boa"
+      },
+      {
+        "value": 3,
+        "label": "má"
+      },
+      {
+        "value": 4,
+        "label": "muito má"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 43 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V147",
+    "text": "Serem as Forças Armadas a governar o país",
+    "stem": "Diga como avalia cada uma das seguintes formas de governo para Portugal",
+    "item": "Serem as Forças Armadas a governar o país",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito boa"
+      },
+      {
+        "value": 2,
+        "label": "boa"
+      },
+      {
+        "value": 3,
+        "label": "má"
+      },
+      {
+        "value": 4,
+        "label": "muito má"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 43 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V148",
+    "text": "Ter um sistema político democrático",
+    "stem": "Diga como avalia cada uma das seguintes formas de governo para Portugal",
+    "item": "Ter um sistema político democrático",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito boa"
+      },
+      {
+        "value": 2,
+        "label": "boa"
+      },
+      {
+        "value": 3,
+        "label": "má"
+      },
+      {
+        "value": 4,
+        "label": "muito má"
+      },
+      {
+        "value": 8,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 9,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 43 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V149",
+    "text": "Reivindicar benefícios do Estado a que não se tem direito",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Reivindicar benefícios do Estado a que não se tem direito",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nunca"
+      },
+      {
+        "value": 10,
+        "label": "sempre"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 44 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V150",
+    "text": "Não pagar impostos se tiver oportunidade",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Não pagar impostos se tiver oportunidade",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nunca"
+      },
+      {
+        "value": 10,
+        "label": "sempre"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 44 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V151",
+    "text": "Fumar marijuana ou haxixe",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Fumar marijuana ou haxixe",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nunca"
+      },
+      {
+        "value": 10,
+        "label": "sempre"
+      },
+      {
+        "value": 88,
+        "label": "NS (não sabe)"
+      },
+      {
+        "value": 99,
+        "label": "NR (não responde)"
+      }
+    ],
+    "answer_cue": "MOSTRAR CARTÃO 44 – LER UMA DE CADA VEZ E ASSINALAR UMA RESPOSTA POR LINHA"
+  },
+  {
+    "id": "V152",
+    "text": "Aceitar um suborno no cumprimento dos seus deveres",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Aceitar um suborno no cumprimento dos seus deveres",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V153",
+    "text": "Homossexualidade",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Homossexualidade",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V154",
+    "text": "Aborto",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Aborto",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V155",
+    "text": "Divórcio",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Divórcio",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V156",
+    "text": "Eutanásia (por termo à vida de um doente incurável)",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Eutanásia (por termo à vida de um doente incurável)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V157",
+    "text": "Suicídio",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Suicídio",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V158",
+    "text": "Ter relações sexuais com parceiros ocasionais",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Ter relações sexuais com parceiros ocasionais",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V159",
+    "text": "Não pagar a tarifa num transporte público",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Não pagar a tarifa num transporte público",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V160",
+    "text": "Prostituição",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Prostituição",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V161",
+    "text": "Inseminação artificial ou fertilização in vitro",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Inseminação artificial ou fertilização in vitro",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V162",
+    "text": "Violência política",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Violência política",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V163",
+    "text": "Pena de morte",
+    "stem": "Utilizando a seguinte escala, em que 1 significa Nunca e 10 Sempre, em que medida acha que se justifica:",
+    "item": "Pena de morte",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nunca"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Sempre"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V164",
+    "text": "da localidade ou cidade em que vive",
+    "stem": "As pessoas têm diferentes perspectivas sobre si próprias e sobre o modo como se relacionam com o mundo. Diga-me em que me medida se sente próximo/a...:",
+    "item": "da localidade ou cidade em que vive",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito próximo/a"
+      },
+      {
+        "value": 2,
+        "label": "Próximo/a"
+      },
+      {
+        "value": 3,
+        "label": "Pouco próximo/a"
+      },
+      {
+        "value": 4,
+        "label": "Nada próximo/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V165",
+    "text": "da região do país em que vive",
+    "stem": "As pessoas têm diferentes perspectivas sobre si próprias e sobre o modo como se relacionam com o mundo. Diga-me em que me medida se sente próximo/a...:",
+    "item": "da região do país em que vive",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito próximo/a"
+      },
+      {
+        "value": 2,
+        "label": "Próximo/a"
+      },
+      {
+        "value": 3,
+        "label": "Pouco próximo/a"
+      },
+      {
+        "value": 4,
+        "label": "Nada próximo/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V166",
+    "text": "de Portugal",
+    "stem": "As pessoas têm diferentes perspectivas sobre si próprias e sobre o modo como se relacionam com o mundo. Diga-me em que me medida se sente próximo/a...:",
+    "item": "de Portugal",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito próximo/a"
+      },
+      {
+        "value": 2,
+        "label": "Próximo/a"
+      },
+      {
+        "value": 3,
+        "label": "Pouco próximo/a"
+      },
+      {
+        "value": 4,
+        "label": "Nada próximo/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V167",
+    "text": "da Europa",
+    "stem": "As pessoas têm diferentes perspectivas sobre si próprias e sobre o modo como se relacionam com o mundo. Diga-me em que me medida se sente próximo/a...:",
+    "item": "da Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito próximo/a"
+      },
+      {
+        "value": 2,
+        "label": "Próximo/a"
+      },
+      {
+        "value": 3,
+        "label": "Pouco próximo/a"
+      },
+      {
+        "value": 4,
+        "label": "Nada próximo/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V168",
+    "text": "do Mundo",
+    "stem": "As pessoas têm diferentes perspectivas sobre si próprias e sobre o modo como se relacionam com o mundo. Diga-me em que me medida se sente próximo/a...:",
+    "item": "do Mundo",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito próximo/a"
+      },
+      {
+        "value": 2,
+        "label": "Próximo/a"
+      },
+      {
+        "value": 3,
+        "label": "Pouco próximo/a"
+      },
+      {
+        "value": 4,
+        "label": "Nada próximo/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V170",
+    "text": "Sente orgulho em ser português?",
+    "stem": null,
+    "item": "Sente orgulho em ser português?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito orgulho"
+      },
+      {
+        "value": 2,
+        "label": "algum orgulho"
+      },
+      {
+        "value": 3,
+        "label": "pouco orgulho"
+      },
+      {
+        "value": 4,
+        "label": "nenhum orgulho"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V176",
+    "text": "A contagem dos votos ser justa",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "A contagem dos votos ser justa",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V177",
+    "text": "Os candidatos da oposiçãoo serem impedidos de concorrer",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "Os candidatos da oposiçãoo serem impedidos de concorrer",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V178",
+    "text": "Os noticiários da TV favorecerem o partido que dirige o Governo",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "Os noticiários da TV favorecerem o partido que dirige o Governo",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V179",
+    "text": "Os eleitores serem subornados",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "Os eleitores serem subornados",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V180",
+    "text": "Os jornalistas fazerem uma cobertura justa das eleições",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "Os jornalistas fazerem uma cobertura justa das eleições",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V181",
+    "text": "As pessoas que supervisionam o processo eleitoral serem justas",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "As pessoas que supervisionam o processo eleitoral serem justas",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V182",
+    "text": "Os ricos comprarem as eleições",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "Os ricos comprarem as eleições",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V183",
+    "text": "Os eleitores serem ameaçados com violência quando vão votar",
+    "stem": "Na sua opinião, com que frequência acontece cada uma das seguintes coisas durante as eleições em Portugal?",
+    "item": "Os eleitores serem ameaçados com violência quando vão votar",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muitas vezes"
+      },
+      {
+        "value": 2,
+        "label": "Algumas vezes"
+      },
+      {
+        "value": 3,
+        "label": "Raramente"
+      },
+      {
+        "value": 4,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V184",
+    "text": "Como é que avalia o impacto que essas pessoas têm no desenvolvimento do país?",
+    "stem": "Gostava agora de saber a sua opinião sobre as pessoas de outros países que vêm trabalhar para Portugal, ou seja, os imigrantes.",
+    "item": "Como é que avalia o impacto que essas pessoas têm no desenvolvimento do país?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito mau"
+      },
+      {
+        "value": 2,
+        "label": "mau"
+      },
+      {
+        "value": 3,
+        "label": "nem mau, nem bom"
+      },
+      {
+        "value": 4,
+        "label": "bom"
+      },
+      {
+        "value": 5,
+        "label": "muito bom"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V185",
+    "text": "Os imigrantes tiram trabalho aos portugueses.",
+    "stem": "Em relação às afirmações que se seguem, indique, por favor, em que ponto da escala se situa a sua opinião pessoal?",
+    "item": "Os imigrantes tiram trabalho aos portugueses.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Os imigrantes não tiram trabalho aos portugueses."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V186",
+    "text": "Os imigrantes contribuem para o aumento da criminalidade",
+    "stem": null,
+    "item": "Os imigrantes contribuem para o aumento da criminalidade",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Os imigrantes não contribuem para o aumento da criminalidade"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V187",
+    "text": "Os imigrantes são uma sobrecarga para a segurança social de um país",
+    "stem": null,
+    "item": "Os imigrantes são uma sobrecarga para a segurança social de um país",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Os imigrantes não são uma sobrecarga para a segurança social de um país"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V188",
+    "text": "É melhor que os imigrantes mantenham os seus costumes e tradições.",
+    "stem": null,
+    "item": "É melhor que os imigrantes mantenham os seus costumes e tradições.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "É melhor que os imigrantes não mantenham os seus costumes e tradições"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V189",
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, pelo contrário, não as considere importantes. Qual o grau de importância que atribui a cada uma destas características?",
+    "stem": "Ter nascido em Portugal",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V190",
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, pelo contrário, não as considere importantes. Qual o grau de importância que atribui a cada uma destas características?",
+    "stem": "Respeitar as leis e as instituições políticas portuguesas",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V191",
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, pelo contrário, não as considere importantes. Qual o grau de importância que atribui a cada uma destas características?",
+    "stem": "Ter antepassados portugueses",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V192",
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, pelo contrário, não as considere importantes. Qual o grau de importância que atribui a cada uma destas características?",
+    "stem": "Saber falar português",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V193",
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, pelo contrário, não as considere importantes. Qual o grau de importância que atribui a cada uma destas características?",
+    "stem": "Partilhar a cultura portuguesa",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V194",
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importância de cada um dos seguintes aspectos para se ser europeu?",
+    "stem": "Ter nascido na Europa",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V195",
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importância de cada um dos seguintes aspectos para se ser europeu?",
+    "stem": "Ter antepassados europeus",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V196",
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importância de cada um dos seguintes aspectos para se ser europeu?",
+    "stem": "Ser cristão",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V197",
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importância de cada um dos seguintes aspectos para se ser europeu?",
+    "stem": "Partilhar a cultura europeia",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Muito importante"
+      },
+      {
+        "value": 2,
+        "label": "Bastante importante"
+      },
+      {
+        "value": 3,
+        "label": "Pouco importante"
+      },
+      {
+        "value": 4,
+        "label": "Nada importante"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V198",
+    "text": "Algumas pessoas acham que a unificação da Europa devia ir mais longe. Outras pessoas acham que já foi longe de mais. Utilizando este cartão, qual a sua posição relativamente a este assunto, numa escala de 1 a 10 em que 1 significa que “devia ir mais longe\" e 10 que “já foi longe de mais\"?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "A unificação devia ir mais longe ... A unificação já foi longe de mais"
+  },
+  {
+    "id": "V199",
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?",
+    "stem": "Daria uma parte do meu rendimento se tivesse a certeza que o dinheiro seria usado para prevenir a poluição ambiental",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V200",
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?",
+    "stem": "É muito difícil uma pessoa como eu fazer grande coisa pelo ambiente",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V201",
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?",
+    "stem": "Há coisas mais importantes para fazer na vida do que proteger o ambiente",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V202",
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?",
+    "stem": "Só vale a pena esforçar-me por proteger o ambiente se os outros fizerem o mesmo",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V203",
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?",
+    "stem": "As preocupações com as ameaças ambientais são, muitas vezes, exageradas",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "concorda totalmente"
+      },
+      {
+        "value": 2,
+        "label": "concorda"
+      },
+      {
+        "value": 3,
+        "label": "Nem concorda nem discorda"
+      },
+      {
+        "value": 4,
+        "label": "discorda"
+      },
+      {
+        "value": 5,
+        "label": "discorda totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V204",
+    "text": "Estas são duas afirmações que as pessoas por vezes fazem quando discutem sobre o ambiente e o crescimento económico. Qual delas se aproxima mais da sua opinião?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "A protecção do ambiente deve ser prioritária, mesmo que implique o abrandamento do crescimento económico e a redução de empregos"
+      },
+      {
+        "value": 2,
+        "label": "O crescimento económico e a criação de empregos devem ser prioritários, mesmo que isso prejudique o ambiente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V205",
+    "text": "Acha que, em Portugal, o Governo deve ou não ter o direito de fazer cada uma das seguintes coisas?",
+    "stem": "Manter as pessoas sob a vigilância de câmaras video em locais públicos",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Com certeza que deve ter o direito"
+      },
+      {
+        "value": 2,
+        "label": "Talvez deva ter o direito"
+      },
+      {
+        "value": 3,
+        "label": "Talvez não deva ter o direito"
+      },
+      {
+        "value": 4,
+        "label": "Com certeza que não deve ter o direito"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V206",
+    "text": "Acha que, em Portugal, o Governo deve ou não ter o direito de fazer cada uma das seguintes coisas?",
+    "stem": "Controlar todos os e-mails e trocas de informação feitas pela internet",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Com certeza que deve ter o direito"
+      },
+      {
+        "value": 2,
+        "label": "Talvez deva ter o direito"
+      },
+      {
+        "value": 3,
+        "label": "Talvez não deva ter o direito"
+      },
+      {
+        "value": 4,
+        "label": "Com certeza que não deve ter o direito"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V207",
+    "text": "Acha que, em Portugal, o Governo deve ou não ter o direito de fazer cada uma das seguintes coisas?",
+    "stem": "Recolher informação sobre todas as pessoas que vivem em Portugal sem o seu conhecimento",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Com certeza que deve ter o direito"
+      },
+      {
+        "value": 2,
+        "label": "Talvez deva ter o direito"
+      },
+      {
+        "value": 3,
+        "label": "Talvez não deva ter o direito"
+      },
+      {
+        "value": 4,
+        "label": "Com certeza que não deve ter o direito"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V208",
+    "text": "Com que frequência acompanha a política...",
+    "stem": "...na televisão",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Todos os dias"
+      },
+      {
+        "value": 2,
+        "label": "Várias vezes por semana"
+      },
+      {
+        "value": 3,
+        "label": "Uma ou duas vezes por semana"
+      },
+      {
+        "value": 4,
+        "label": "Menos vezes ainda"
+      },
+      {
+        "value": 5,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V209",
+    "text": "Com que frequência acompanha a política...",
+    "stem": "...na rádio",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Todos os dias"
+      },
+      {
+        "value": 2,
+        "label": "Várias vezes por semana"
+      },
+      {
+        "value": 3,
+        "label": "Uma ou duas vezes por semana"
+      },
+      {
+        "value": 4,
+        "label": "Menos vezes ainda"
+      },
+      {
+        "value": 5,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V210",
+    "text": "Com que frequência acompanha a política...",
+    "stem": "...nos jornais diários",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Todos os dias"
+      },
+      {
+        "value": 2,
+        "label": "Várias vezes por semana"
+      },
+      {
+        "value": 3,
+        "label": "Uma ou duas vezes por semana"
+      },
+      {
+        "value": 4,
+        "label": "Menos vezes ainda"
+      },
+      {
+        "value": 5,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V211",
+    "text": "Com que frequência acompanha a política...",
+    "stem": "...nas redes sociais",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Todos os dias"
+      },
+      {
+        "value": 2,
+        "label": "Várias vezes por semana"
+      },
+      {
+        "value": 3,
+        "label": "Uma ou duas vezes por semana"
+      },
+      {
+        "value": 4,
+        "label": "Menos vezes ainda"
+      },
+      {
+        "value": 5,
+        "label": "Nunca"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "Em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas:",
+    "stem": "As pessoas do seu bairro",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "Em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas:",
+    "stem": "As pessoas da sua região",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "Em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas:",
+    "stem": "Os portugueses",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "Em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas:",
+    "stem": "Os europeus",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "Em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas:",
+    "stem": "A Humanidade",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V217",
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal?",
+    "stem": "Os idosos",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V218",
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal?",
+    "stem": "Os desempregados",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V219",
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal?",
+    "stem": "Os imigrantes",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "V220",
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal?",
+    "stem": "Os doentes e os deficientes",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "muito"
+      },
+      {
+        "value": 2,
+        "label": "bastante"
+      },
+      {
+        "value": 3,
+        "label": "em certa medida"
+      },
+      {
+        "value": 4,
+        "label": "pouco"
+      },
+      {
+        "value": 5,
+        "label": "nada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "O que deve uma sociedade oferecer ou proporcionar? Diga-me, por favor, qual a importância que atribui a cada um dos seguintes aspectos",
+    "stem": "Eliminar as grandes desigualdades de rendimento entre os cidadãos",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Concordo"
+      },
+      {
+        "value": 3,
+        "label": "Discordo"
+      },
+      {
+        "value": 4,
+        "label": "Discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "O que deve uma sociedade oferecer ou proporcionar? Diga-me, por favor, qual a importância que atribui a cada um dos seguintes aspectos",
+    "stem": "Satisfazer as necessidades básicas de todas as pessoas em termos de alimentação, habitação, vestuário, educação e saúde",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Concordo"
+      },
+      {
+        "value": 3,
+        "label": "Discordo"
+      },
+      {
+        "value": 4,
+        "label": "Discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "O que deve uma sociedade oferecer ou proporcionar? Diga-me, por favor, qual a importância que atribui a cada um dos seguintes aspectos",
+    "stem": "Reconhecer o mérito individual",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Concordo"
+      },
+      {
+        "value": 3,
+        "label": "Discordo"
+      },
+      {
+        "value": 4,
+        "label": "Discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "O que deve uma sociedade oferecer ou proporcionar? Diga-me, por favor, qual a importância que atribui a cada um dos seguintes aspectos",
+    "stem": "Proteger as pessoas contra o terrorismo",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Concordo totalmente"
+      },
+      {
+        "value": 2,
+        "label": "Concordo"
+      },
+      {
+        "value": 3,
+        "label": "Discordo"
+      },
+      {
+        "value": 4,
+        "label": "Discordo totalmente"
+      }
+    ],
+    "answer_cue": null
+  }
+]

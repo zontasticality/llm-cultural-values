@@ -1,0 +1,6014 @@
+[
+  {
+    "id": "Q1",
+    "text": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist. Arbeit",
+    "stem": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist.",
+    "item": "Arbeit",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q1",
+    "text": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist. Familie",
+    "stem": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist.",
+    "item": "Familie",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q1",
+    "text": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist. Freunde und Bekannte",
+    "stem": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist.",
+    "item": "Freunde und Bekannte",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q1",
+    "text": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist. Freizeit",
+    "stem": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist.",
+    "item": "Freizeit",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q1",
+    "text": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist. Politik",
+    "stem": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist.",
+    "item": "Politik",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q1",
+    "text": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist. Religion",
+    "stem": "Ich möchte Ihnen jetzt verschiedene Bereiche vorlesen und Sie fragen, wie wichtig diese in Ihrem Leben sind. Bitte sagen Sie mir für jeden Bereich, ob er Ihnen sehr wichtig, ziemlich wichtig, nicht wichtig oder überhaupt nicht wichtig ist.",
+    "item": "Religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q2",
+    "text": "Ganz allgemein, würden Sie sagen, Sie sind zurzeit:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr glücklich"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich glücklich"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr glücklich"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht glücklich"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q3",
+    "text": "Wie schätzen Sie insgesamt Ihren Gesundheitszustand ein? Würden Sie sagen, er ist:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr gut"
+      },
+      {
+        "value": 2,
+        "label": "Gut"
+      },
+      {
+        "value": 3,
+        "label": "Durchschnittlich"
+      },
+      {
+        "value": 4,
+        "label": "Schlecht"
+      },
+      {
+        "value": 5,
+        "label": "Sehr schlecht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Religiösen oder kirchlichen Organisationen",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Religiösen oder kirchlichen Organisationen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Organisationen oder Vereinen für Bildung, Kunst, Musik und kulturelle Tätigkeiten",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Organisationen oder Vereinen für Bildung, Kunst, Musik und kulturelle Tätigkeiten",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Gewerkschaften",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Gewerkschaften",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Parteien oder politische Gruppen",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Parteien oder politische Gruppen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Ökologie- und Umweltgruppen oder Tierschutzvereinen/-gruppen",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Ökologie- und Umweltgruppen oder Tierschutzvereinen/-gruppen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Berufsverbänden",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Berufsverbänden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Sport- und Freizeitvereinen",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Sport- und Freizeitvereinen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Humanitären oder Wohlfahrtsorganisationen",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Humanitären oder Wohlfahrtsorganisationen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Verbraucherorganisationen/Verbraucherverbänden",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Verbraucherorganisationen/Verbraucherverbänden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Selbsthilfegruppen oder einer Nachbarschaftshilfe",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Selbsthilfegruppen oder einer Nachbarschaftshilfe",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Anderen Organisationen oder Gruppen",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Anderen Organisationen oder Gruppen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q4",
+    "text": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören. Keinen (spontan)",
+    "stem": "Bitte lesen Sie sich einmal sorgfältig diese Liste mit Organisationen und Gruppen durch und sagen Sie mir, welchen Sie davon angehören.",
+    "item": "Keinen (spontan)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q5",
+    "text": "Waren Sie in den vergangenen 6 Monaten ehrenamtlich tätig?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nein"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Menschen anderer Hautfarbe",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Menschen anderer Hautfarbe",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Leute, die oft betrunken sind",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Leute, die oft betrunken sind",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Ausländer/ausländische Arbeitskräfte",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Ausländer/ausländische Arbeitskräfte",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Drogenabhängige",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Drogenabhängige",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Homosexuelle",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Homosexuelle",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Christen",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Christen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Muslime",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Muslime",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Juden",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Juden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Sinti und Roma",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Sinti und Roma",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q6",
+    "text": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten? Nichts gegen irgendeine dieser Gruppen als Nachbarn (spontan)",
+    "stem": "Auf dieser Liste stehen eine Reihe ganz verschiedener Personengruppen. Könnten Sie einmal alle diejenigen benennen, die Sie nicht gern als Nachbarn hätten?",
+    "item": "Nichts gegen irgendeine dieser Gruppen als Nachbarn (spontan)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 2,
+        "label": "Alles: 2"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q7",
+    "text": "Würden Sie ganz allgemein sagen, dass man den meisten Menschen vertrauen kann, oder dass man im Umgang mit Menschen nicht vorsichtig genug sein kann?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Man kann den meisten vertrauen."
+      },
+      {
+        "value": 2,
+        "label": "Man kann nicht vorsichtig genug sein."
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q8",
+    "text": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht? Ihrer Familie",
+    "stem": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht?",
+    "item": "Ihrer Familie",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertraue völlig"
+      },
+      {
+        "value": 2,
+        "label": "Vertraue ziemlich"
+      },
+      {
+        "value": 3,
+        "label": "Vertraue kaum"
+      },
+      {
+        "value": 4,
+        "label": "Vertraue gar nicht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q8",
+    "text": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht? Menschen in Ihrer Nachbarschaft",
+    "stem": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht?",
+    "item": "Menschen in Ihrer Nachbarschaft",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertraue völlig"
+      },
+      {
+        "value": 2,
+        "label": "Vertraue ziemlich"
+      },
+      {
+        "value": 3,
+        "label": "Vertraue kaum"
+      },
+      {
+        "value": 4,
+        "label": "Vertraue gar nicht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q8",
+    "text": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht? Menschen, die Sie persönlich kennen",
+    "stem": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht?",
+    "item": "Menschen, die Sie persönlich kennen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertraue völlig"
+      },
+      {
+        "value": 2,
+        "label": "Vertraue ziemlich"
+      },
+      {
+        "value": 3,
+        "label": "Vertraue kaum"
+      },
+      {
+        "value": 4,
+        "label": "Vertraue gar nicht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q8",
+    "text": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht? Menschen, denen Sie zum ersten Mal begegnen",
+    "stem": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht?",
+    "item": "Menschen, denen Sie zum ersten Mal begegnen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertraue völlig"
+      },
+      {
+        "value": 2,
+        "label": "Vertraue ziemlich"
+      },
+      {
+        "value": 3,
+        "label": "Vertraue kaum"
+      },
+      {
+        "value": 4,
+        "label": "Vertraue gar nicht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q8",
+    "text": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht? Menschen anderer Religion",
+    "stem": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht?",
+    "item": "Menschen anderer Religion",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertraue völlig"
+      },
+      {
+        "value": 2,
+        "label": "Vertraue ziemlich"
+      },
+      {
+        "value": 3,
+        "label": "Vertraue kaum"
+      },
+      {
+        "value": 4,
+        "label": "Vertraue gar nicht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q8",
+    "text": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht? Menschen anderer Nationalität",
+    "stem": "Ich möchte gerne wissen, wie viel Vertrauen Sie verschiedenen Gruppen von Menschen entgegenbringen. Können Sie mir für die Menschen jeder der folgenden Gruppen sagen, wie sehr Sie ihnen vertrauen? Vertrauen Sie ihnen völlig, ziemlich, kaum oder gar nicht?",
+    "item": "Menschen anderer Nationalität",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertraue völlig"
+      },
+      {
+        "value": 2,
+        "label": "Vertraue ziemlich"
+      },
+      {
+        "value": 3,
+        "label": "Vertraue kaum"
+      },
+      {
+        "value": 4,
+        "label": "Vertraue gar nicht"
+      }
+    ],
+    "answer_cue": "Antwort"
+  },
+  {
+    "id": "Q9",
+    "text": "Einige Leute meinen, dass sie ihr Leben völlig frei selbst bestimmen. Andere meinen, dass sie nur wenig Einfluss darauf haben, was mit ihnen geschieht. Bitte benutzen Sie diese Skala um anzugeben, wieviel Entscheidungsfreiheit und Einfluss Sie nach Ihrem Empfinden darauf haben, wie Ihr weiteres Leben abläuft?",
+    "stem": "Wieviel Entscheidungsfreiheit und Einfluss haben Sie nach Ihrem Empfinden darauf, wie Ihr weiteres Leben abläuft?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Überhaupt keine Freiheit"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Völlige Freiheit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Wenn Sie einmal alles berücksichtigen, wie zufrieden sind Sie insgesamt zurzeit mit Ihrem Leben? Bitte benutzen Sie diese Skala für Ihre Antwort.",
+    "stem": "Wie zufrieden sind Sie insgesamt zurzeit mit Ihrem Leben?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Überhaupt nicht zufrieden"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Völlig zufrieden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Hier steht Verschiedenes über die berufliche Arbeit. Bitte sagen Sie mir, was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten.",
+    "stem": "Was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten:",
+    "item": "Gute Bezahlung",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Hier steht Verschiedenes über die berufliche Arbeit. Bitte sagen Sie mir, was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten.",
+    "stem": "Was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten:",
+    "item": "Angenehme Arbeitszeiten",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Hier steht Verschiedenes über die berufliche Arbeit. Bitte sagen Sie mir, was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten.",
+    "stem": "Was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten:",
+    "item": "Die Möglichkeit, eigene Initiative zu entfalten",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Hier steht Verschiedenes über die berufliche Arbeit. Bitte sagen Sie mir, was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten.",
+    "stem": "Was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten:",
+    "item": "Großzügige Urlaubsregelung",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Hier steht Verschiedenes über die berufliche Arbeit. Bitte sagen Sie mir, was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten.",
+    "stem": "Was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten:",
+    "item": "Ein Beruf, bei dem man das Gefühl hat, etwas zu erreichen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Hier steht Verschiedenes über die berufliche Arbeit. Bitte sagen Sie mir, was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten.",
+    "stem": "Was davon Sie persönlich an einem Beruf für ganz besonders wichtig halten:",
+    "item": "Ein Beruf mit Verantwortung",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Wie sehr stimmen Sie den folgenden Aussagen zu?",
+    "stem": "Man braucht eine Arbeit, um seine Fähigkeiten voll entwickeln zu können.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q17",
+    "text": "Einmal abgesehen davon, ob Sie in die Kirche gehen oder nicht: Würden Sie sagen, Sie sind...",
+    "stem": "Wie würden Sie sich selbst beschreiben?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "ein religiöser Mensch"
+      },
+      {
+        "value": 2,
+        "label": "kein religiöser Mensch"
+      },
+      {
+        "value": 3,
+        "label": "ein überzeugter Atheist"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Bitte geben Sie für die folgenden Dinge an, ob Sie daran glauben.",
+    "stem": "Gott",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nein"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Glauben Sie an die Wiedergeburt oder Reinkarnation, also daran, dass wir schon frühere Leben hatten und dass wir erneut in diese Welt geboren werden?",
+    "stem": "Glauben Sie an die Wiedergeburt oder Reinkarnation?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nein"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q20",
+    "text": "Welche dieser Aussagen kommt Ihren Überzeugungen am nächsten?",
+    "stem": "Welche dieser Aussagen kommt Ihren Überzeugungen am nächsten?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Es gibt einen persönlichen Gott."
+      },
+      {
+        "value": 2,
+        "label": "Es gibt irgendein höheres Wesen oder eine geistige Macht."
+      },
+      {
+        "value": 3,
+        "label": "Ich weiß nicht wirklich, was ich glauben soll."
+      },
+      {
+        "value": 4,
+        "label": "Ich glaube nicht, dass es einen Gott, irgendein höheres Wesen oder eine geistige Macht gibt."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q21",
+    "text": "Wie wichtig ist Gott in Ihrem Leben? Bitte benutzen Sie für Ihre Antwort diese Skala:",
+    "stem": "Wie wichtig ist Gott in Ihrem Leben?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "1 bedeutet überhaupt nicht wichtig, 10 bedeutet sehr wichtig."
+  },
+  {
+    "id": "Q22",
+    "text": "Wie oft beten Sie außerhalb von Gottesdiensten? Würden Sie sagen...",
+    "stem": "Wie oft beten Sie außerhalb von Gottesdiensten?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täglich"
+      },
+      {
+        "value": 2,
+        "label": "Mehrmals in der Woche"
+      },
+      {
+        "value": 3,
+        "label": "Einmal in der Woche"
+      },
+      {
+        "value": 4,
+        "label": "Mindestens einmal im Monat"
+      },
+      {
+        "value": 5,
+        "label": "Mehrmals im Jahr"
+      },
+      {
+        "value": 6,
+        "label": "Seltener"
+      },
+      {
+        "value": 7,
+        "label": "Nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23",
+    "text": "Hier auf dieser Liste steht Verschiedenes, was manche für eine gute Ehe oder allgemein für eine gute Partnerschaft für wichtig halten. Sagen Sie mir bitte für jeden Punkt, ob Sie meinen, dass dieser sehr wichtig, ziemlich wichtig oder nicht besonders wichtig ist.",
+    "stem": "Treue",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht besonders wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Stimmen Sie der folgenden Aussage eher zu oder eher nicht zu: \"Die Ehe ist eine überholte Einrichtung\"?",
+    "stem": "Die Ehe ist eine überholte Einrichtung",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme eher zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme eher nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Ich lese Ihnen jetzt verschiedene Aussagen zur Rolle von Mann und Frau vor, und Sie sagen mir bitte zu jeder Aussage, wie sehr Sie dieser zustimmen oder nicht zustimmen. Stimmen Sie voll und ganz zu, stimmen Sie zu, stimmen Sie nicht zu oder stimmen Sie überhaupt nicht zu?",
+    "stem": "Wenn eine Mutter einer bezahlten Arbeit nachgeht, dann leiden ihre Kinder darunter.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 4,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26",
+    "text": "Sagen Sie mir bitte zu jeder der folgenden Aussagen zum Thema Arbeitsmarkt, wie sehr Sie dieser zustimmen oder nicht zustimmen. Stimmen Sie voll und ganz zu, stimmen Sie zu, weder noch, stimmen Sie nicht zu oder stimmen Sie überhaupt nicht zu?",
+    "stem": "Wenn die Arbeitsplätze knapp sind, sollten die Arbeitgeber Deutsche gegenüber Ausländern vorziehen.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27_v82",
+    "text": "Wie denken Sie über die folgenden Aussagen zu Kindern und Familie? Sagen Sie mir bitte, ob Sie ihnen voll und ganz zustimmen, zustimmen, weder noch, nicht zustimmen oder überhaupt nicht zustimmen.",
+    "stem": "Gleichgeschlechtliche Paare sind genauso gute Eltern wie andere Paare.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27_v83",
+    "text": "Wie denken Sie über die folgenden Aussagen zu Kindern und Familie? Sagen Sie mir bitte, ob Sie ihnen voll und ganz zustimmen, zustimmen, weder noch, nicht zustimmen oder überhaupt nicht zustimmen.",
+    "stem": "Kinder zu haben ist eine Pflicht gegenüber der Gesellschaft.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27_v84",
+    "text": "Wie denken Sie über die folgenden Aussagen zu Kindern und Familie? Sagen Sie mir bitte, ob Sie ihnen voll und ganz zustimmen, zustimmen, weder noch, nicht zustimmen oder überhaupt nicht zustimmen.",
+    "stem": "Erwachsene Kinder haben die Pflicht, für die Betreuung und Pflege ihrer Eltern im Alter zu sorgen.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v85",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Gutes Benehmen",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v86",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Unabhängigkeit, Selbstständigkeit",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v87",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Fleiß",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v88",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Verantwortungsgefühl",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v89",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Vorstellungskraft, Phantasie",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v90",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Toleranz und Respekt gegenüber Mitmenschen",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v91",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Sparsamkeit im Umgang mit Geld und Dingen",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v92",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Entschlossenheit, Ausdauer",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v93",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Religiöser Glaube",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v94",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Selbstlosigkeit",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v95",
+    "text": "Hier ist eine Liste mit verschiedenen Eigenschaften, die Kinder im Elternhaus vielleicht erlernen sollten. Welche davon sind nach Ihrer Meinung am sinnvollsten für ein Kind? Bitte nennen Sie bis zu fünf Eigenschaften.",
+    "stem": "Gehorsam",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genannt"
+      },
+      {
+        "value": 2,
+        "label": "Nicht genannt"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q29",
+    "text": "Wie stark interessieren Sie sich für Politik? Sind Sie...",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr interessiert"
+      },
+      {
+        "value": 2,
+        "label": "Etwas interessiert"
+      },
+      {
+        "value": 3,
+        "label": "Kaum interessiert"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht interessiert"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v98",
+    "text": "Wenn Sie sich bitte einmal diese Liste hier anschauen. Ich lese Ihnen jetzt verschiedene Arten von politischen Aktionen vor, an denen man sich beteiligen kann. Könnten Sie mir zu jedem dieser Punkte sagen, ob Sie sich schon einmal an einer solchen Aktion beteiligt haben, ob Sie das vielleicht einmal tun würden, oder ob Sie sich unter keinen Umständen an so etwas beteiligen würden.",
+    "stem": "An einer Unterschriftensammlung beteiligen",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Schon einmal beteiligt"
+      },
+      {
+        "value": 2,
+        "label": "Vielleicht einmal tun"
+      },
+      {
+        "value": 3,
+        "label": "Unter keinen Umständen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v99",
+    "text": "Wenn Sie sich bitte einmal diese Liste hier anschauen. Ich lese Ihnen jetzt verschiedene Arten von politischen Aktionen vor, an denen man sich beteiligen kann. Könnten Sie mir zu jedem dieser Punkte sagen, ob Sie sich schon einmal an einer solchen Aktion beteiligt haben, ob Sie das vielleicht einmal tun würden, oder ob Sie sich unter keinen Umständen an so etwas beteiligen würden.",
+    "stem": "An einem Boykott beteiligen",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Schon einmal beteiligt"
+      },
+      {
+        "value": 2,
+        "label": "Vielleicht einmal tun"
+      },
+      {
+        "value": 3,
+        "label": "Unter keinen Umständen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v100",
+    "text": "Wenn Sie sich bitte einmal diese Liste hier anschauen. Ich lese Ihnen jetzt verschiedene Arten von politischen Aktionen vor, an denen man sich beteiligen kann. Könnten Sie mir zu jedem dieser Punkte sagen, ob Sie sich schon einmal an einer solchen Aktion beteiligt haben, ob Sie das vielleicht einmal tun würden, oder ob Sie sich unter keinen Umständen an so etwas beteiligen würden.",
+    "stem": "An einer genehmigten Demonstration teilnehmen",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Schon einmal beteiligt"
+      },
+      {
+        "value": 2,
+        "label": "Vielleicht einmal tun"
+      },
+      {
+        "value": 3,
+        "label": "Unter keinen Umständen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v101",
+    "text": "Wenn Sie sich bitte einmal diese Liste hier anschauen. Ich lese Ihnen jetzt verschiedene Arten von politischen Aktionen vor, an denen man sich beteiligen kann. Könnten Sie mir zu jedem dieser Punkte sagen, ob Sie sich schon einmal an einer solchen Aktion beteiligt haben, ob Sie das vielleicht einmal tun würden, oder ob Sie sich unter keinen Umständen an so etwas beteiligen würden.",
+    "stem": "An einem nicht genehmigten Streik beteiligen",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Schon einmal beteiligt"
+      },
+      {
+        "value": 2,
+        "label": "Vielleicht einmal tun"
+      },
+      {
+        "value": 3,
+        "label": "Unter keinen Umständen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q31",
+    "text": "In der Politik spricht man von \"links\" und \"rechts\". Wie würden Sie ganz allgemein Ihren eigenen politischen Standort beschreiben: Wo auf dieser Skala würden Sie sich selbst einstufen?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32_A",
+    "text": "Auf dieser Liste sehen Sie gegensätzliche Meinungen zu verschiedenen Themen. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einordnen?",
+    "stem": "Jeder Einzelne sollte mehr Verantwortung für sich selbst übernehmen.",
+    "item": "Der Staat sollte mehr Verantwortung dafür übernehmen, dass jeder Einzelne abgesichert ist.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32_B",
+    "text": "Auf dieser Liste sehen Sie gegensätzliche Meinungen zu verschiedenen Themen. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einordnen?",
+    "stem": "Arbeitslose sollten jede Arbeit machen müssen, die sie bekommen, oder ihre Arbeitslosenunterstützung verlieren.",
+    "item": "Arbeitslose sollten Arbeit, die sie nicht machen möchten, ablehnen können.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32_C",
+    "text": "Auf dieser Liste sehen Sie gegensätzliche Meinungen zu verschiedenen Themen. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einordnen?",
+    "stem": "Wettbewerb ist gut.",
+    "item": "Wettbewerb ist schädlich.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32_D",
+    "text": "Auf dieser Liste sehen Sie gegensätzliche Meinungen zu verschiedenen Themen. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einordnen?",
+    "stem": "Einkommen sollten stärker aneinander angeglichen werden.",
+    "item": "Es sollte größere Anreize für persönliche Leistung geben.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32_E",
+    "text": "Auf dieser Liste sehen Sie gegensätzliche Meinungen zu verschiedenen Themen. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einordnen?",
+    "stem": "Mehr staatliche Unternehmen sollten privatisiert werden.",
+    "item": "Mehr private Unternehmen sollten verstaatlicht werden.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q33",
+    "text": "Es wird viel darüber gesprochen, welche Ziele unser Land in den nächsten zehn Jahren vor allem verfolgen soll. Auf dieser Liste stehen einige Ziele, die verschiedene Leute für besonders wichtig halten. Würden Sie mir bitte sagen, welches davon Sie selbst für am wichtigsten halten?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ein hohes Wirtschaftswachstum"
+      },
+      {
+        "value": 2,
+        "label": "Für eine starke Landesverteidigung sorgen"
+      },
+      {
+        "value": 3,
+        "label": "Dafür sorgen, dass die Menschen mehr Mitbestimmung an ihrem Arbeitsplatz und in ihrer Gemeinde haben"
+      },
+      {
+        "value": 4,
+        "label": "Dafür sorgen, dass unsere Städte und Landschaften schöner werden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q33a",
+    "text": "Und welches halten Sie für das zweitwichtigste Ziel?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ein hohes Wirtschaftswachstum"
+      },
+      {
+        "value": 2,
+        "label": "Für eine starke Landesverteidigung sorgen"
+      },
+      {
+        "value": 3,
+        "label": "Dafür sorgen, dass die Menschen mehr Mitbestimmung an ihrem Arbeitsplatz und in ihrer Gemeinde haben"
+      },
+      {
+        "value": 4,
+        "label": "Dafür sorgen, dass unsere Städte und Landschaften schöner werden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q34",
+    "text": "Wenn Sie entscheiden müssten, welches der folgenden Ziele auf dieser Liste wäre für Sie das wichtigste?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Aufrechterhaltung von Ruhe und Ordnung"
+      },
+      {
+        "value": 2,
+        "label": "Mehr Einfluss der Bürger auf Entscheidungen der Regierung"
+      },
+      {
+        "value": 3,
+        "label": "Kampf gegen steigende Preise"
+      },
+      {
+        "value": 4,
+        "label": "Schutz des Rechts auf freie Meinungsäußerung"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q35",
+    "text": "Und welches wäre für Sie das zweitwichtigste Ziel?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Aufrechterhaltung von Ruhe und Ordnung"
+      },
+      {
+        "value": 2,
+        "label": "Mehr Einfluss der Bürger auf Entscheidungen der Regierung"
+      },
+      {
+        "value": 3,
+        "label": "Kampf gegen steigende Preise"
+      },
+      {
+        "value": 4,
+        "label": "Schutz des Rechts auf freie Meinungsäußerung"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q36",
+    "text": "Wir hoffen natürlich alle, dass es nie mehr einen Krieg gibt. Aber wenn es dazu käme, wären Sie dann bereit, für Ihr Land zu kämpfen?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nein"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q37_v113",
+    "text": "Im Folgenden nenne ich Ihnen zwei Dinge, die sich in Zukunft in unserer Gesellschaft verändern könnten. Sagen Sie mir bitte zu jedem Punkt, ob Sie eine solche Entwicklung begrüßen oder ablehnen würden, oder ob Ihnen das egal ist.",
+    "stem": "Die Arbeit in unserem Leben weniger wichtig nehmen.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Begrüße ich"
+      },
+      {
+        "value": 2,
+        "label": "Lehne ich ab"
+      },
+      {
+        "value": 3,
+        "label": "Ist mir egal"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q37_v114",
+    "text": "Im Folgenden nenne ich Ihnen zwei Dinge, die sich in Zukunft in unserer Gesellschaft verändern könnten. Sagen Sie mir bitte zu jedem Punkt, ob Sie eine solche Entwicklung begrüßen oder ablehnen würden, oder ob Ihnen das egal ist.",
+    "stem": "Mehr Respekt vor Autoritäten.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Begrüße ich"
+      },
+      {
+        "value": 2,
+        "label": "Lehne ich ab"
+      },
+      {
+        "value": 3,
+        "label": "Ist mir egal"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v115",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Kirchen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v116",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Bundeswehr",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v117",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Das Bildungssystem",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v118",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Presse und das Zeitungswesen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v119",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Gewerkschaften",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v120",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Polizei",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v121",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Den Bundestag",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v122",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die öffentliche Verwaltung",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v123",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Das System der Sozialversicherungen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v124",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Europäische Union (EU)",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v125",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Vereinten Nationen (UNO)",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v126",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Das Gesundheitswesen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v127",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Das Rechtssystem",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v128",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Große Wirtschaftsunternehmen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v129",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Umweltschutzorganisationen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v130",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die politischen Parteien",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v131",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die Regierung",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v132",
+    "text": "Schauen Sie bitte auf die Liste und sagen Sie mir, ob Sie sehr viel, ziemlich viel, wenig oder überhaupt kein Vertrauen in die jeweils genannten Institutionen haben.",
+    "stem": "Die sozialen Medien",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel Vertrauen"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich viel Vertrauen"
+      },
+      {
+        "value": 3,
+        "label": "Wenig Vertrauen"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt kein Vertrauen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v133",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Der Staat besteuert die Reichen und unterstützt die Armen.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v134",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Religionsführer bestimmen letztlich die Auslegung der Gesetze.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v135",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Die Menschen wählen ihre Volksvertreter in freien Wahlen.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v136",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Arbeitslose Menschen erhalten staatliche Unterstützung.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v137",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Wenn die Regierung versagt, übernimmt das Militär die Macht.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v138",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Bürgerrechte schützen die Menschen vor staatlicher Unterdrückung.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v139",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Der Staat sorgt für Gleichheit der Einkommen.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v140",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Das Volk gehorcht seinen Machthabern.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v141",
+    "text": "Viele Dinge sind wünschenswert, aber nicht alle davon sind notwendige Bestandteile einer Demokratie. Bitte sagen Sie mir für jedes der folgenden Dinge, inwieweit es für Sie ein notwendiger Bestandteil einer Demokratie ist. Nutzen Sie dazu diese Skala, auf der 1 für \"in keinem Fall ein notwendiger Bestandteil einer Demokratie\" und 10 für “ein notwendiger Bestandteil einer Demokratie” steht.",
+    "stem": "Frauen haben die gleichen Rechte wie Männer.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q40",
+    "text": "Wie wichtig ist es für Sie, in einem Land zu leben, das demokratisch regiert wird? Für Ihre Antwort benutzen Sie bitte diese Skala, auf der 1 für “überhaupt nicht wichtig\" und 10 für “absolut wichtig” steht.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q41",
+    "text": "Und was meinen Sie, wie demokratisch wird Deutschland heutzutage regiert? Benutzen Sie für Ihre Antwort erneut eine Zehnerskala, auf der 1 für \"überhaupt nicht demokratisch” und 10 für „ganz und gar demokratisch” steht.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q42",
+    "text": "Wie zufrieden sind Sie damit, wie das politische System in Deutschland heutzutage funktioniert? Benutzen Sie für Ihre Antwort erneut eine Zehnerskala, auf der 1 für \"überhaupt nicht zufrieden” und 10 für \"voll und ganz zufrieden\" steht.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43",
+    "text": "Ich werde Ihnen nun verschiedene Typen von politischen Systemen beschreiben und fragen, was Sie von jedem einzelnen als Regierungsform für unser Land halten.",
+    "stem": "Man sollte einen starken Staatschef haben, der sich nicht um ein Parlament und um Wahlen kümmern muss.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr gut"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich gut"
+      },
+      {
+        "value": 3,
+        "label": "Ziemlich schlecht"
+      },
+      {
+        "value": 4,
+        "label": "Sehr schlecht"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v146",
+    "text": "Ich werde Ihnen nun verschiedene Typen von politischen Systemen beschreiben und fragen, was Sie von jedem einzelnen als Regierungsform für unser Land halten.",
+    "stem": "Anstelle der Regierung sollten Experten entscheiden, was das Beste für das Land ist.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr gut"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich gut"
+      },
+      {
+        "value": 3,
+        "label": "Ziemlich schlecht"
+      },
+      {
+        "value": 4,
+        "label": "Sehr schlecht"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v147",
+    "text": "Ich werde Ihnen nun verschiedene Typen von politischen Systemen beschreiben und fragen, was Sie von jedem einzelnen als Regierungsform für unser Land halten.",
+    "stem": "Das Militär sollte das Land regieren.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr gut"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich gut"
+      },
+      {
+        "value": 3,
+        "label": "Ziemlich schlecht"
+      },
+      {
+        "value": 4,
+        "label": "Sehr schlecht"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v148",
+    "text": "Ich werde Ihnen nun verschiedene Typen von politischen Systemen beschreiben und fragen, was Sie von jedem einzelnen als Regierungsform für unser Land halten.",
+    "stem": "Man sollte ein demokratisches politisches System haben.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr gut"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich gut"
+      },
+      {
+        "value": 3,
+        "label": "Ziemlich schlecht"
+      },
+      {
+        "value": 4,
+        "label": "Sehr schlecht"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v149",
+    "text": "Staatliche Leistungen in Anspruch nehmen, auf die man keinen Anspruch hat",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Staatliche Leistungen in Anspruch nehmen, auf die man keinen Anspruch hat",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v150",
+    "text": "Steuern hinterziehen, wenn man die Möglichkeit hat",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Steuern hinterziehen, wenn man die Möglichkeit hat",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v151",
+    "text": "Drogen wie Marihuana oder Haschisch nehmen",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Drogen wie Marihuana oder Haschisch nehmen",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v152",
+    "text": "Jemand nimmt Schmiergeld für seine Tätigkeiten an",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Jemand nimmt Schmiergeld für seine Tätigkeiten an",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v153",
+    "text": "Homosexualität",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Homosexualität",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v154",
+    "text": "Abtreibung",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Abtreibung",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v155",
+    "text": "Scheidung",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Scheidung",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v156",
+    "text": "Sterbehilfe (das Leben unheilbar Kranker beenden)",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Sterbehilfe (das Leben unheilbar Kranker beenden)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v157",
+    "text": "Selbstmord",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Selbstmord",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v158",
+    "text": "Geschlechtsverkehr mit häufig wechselnden Partnern in flüchtigen Beziehungen",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Geschlechtsverkehr mit häufig wechselnden Partnern in flüchtigen Beziehungen",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v159",
+    "text": "Kein Fahrgeld in öffentlichen Verkehrsmitteln zahlen (Schwarzfahren)",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Kein Fahrgeld in öffentlichen Verkehrsmitteln zahlen (Schwarzfahren)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v160",
+    "text": "Prostitution",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Prostitution",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v161",
+    "text": "Künstliche Befruchtung (Insemination oder In-vitro Befruchtung)",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Künstliche Befruchtung (Insemination oder In-vitro Befruchtung)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v162",
+    "text": "Politisch motivierte Gewalt",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Politisch motivierte Gewalt",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q44_v163",
+    "text": "Todesstrafe",
+    "stem": "Können Sie mir bitte für jeden der folgenden Punkte sagen, ob Sie dies unter keinen Umständen in Ordnung finden, in jedem Fall in Ordnung finden oder irgendetwas dazwischen. Verwenden Sie dazu bitte die folgende Skala.",
+    "item": "Todesstrafe",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Unter keinen Umständen in Ordnung ... In jedem Fall in Ordnung"
+  },
+  {
+    "id": "Q45_v164",
+    "text": "Dem Ort oder der Stadt, in der Sie leben",
+    "stem": "Menschen haben verschiedene Ansichten über sich selbst und wie stark Sie sich mit ihrem Umfeld und dem Rest der Welt verbunden fühlen. Wenn Sie sich einmal diese Liste ansehen, wie stark fühlen Sie sich verbunden mit...",
+    "item": "Dem Ort oder der Stadt, in der Sie leben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr verbunden"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich verbunden"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr verbunden"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht verbunden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v165",
+    "text": "Der Region, in der Sie leben",
+    "stem": "Menschen haben verschiedene Ansichten über sich selbst und wie stark Sie sich mit ihrem Umfeld und dem Rest der Welt verbunden fühlen. Wenn Sie sich einmal diese Liste ansehen, wie stark fühlen Sie sich verbunden mit...",
+    "item": "Der Region, in der Sie leben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr verbunden"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich verbunden"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr verbunden"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht verbunden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v166",
+    "text": "Deutschland",
+    "stem": "Menschen haben verschiedene Ansichten über sich selbst und wie stark Sie sich mit ihrem Umfeld und dem Rest der Welt verbunden fühlen. Wenn Sie sich einmal diese Liste ansehen, wie stark fühlen Sie sich verbunden mit...",
+    "item": "Deutschland",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr verbunden"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich verbunden"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr verbunden"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht verbunden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v167",
+    "text": "Europa",
+    "stem": "Menschen haben verschiedene Ansichten über sich selbst und wie stark Sie sich mit ihrem Umfeld und dem Rest der Welt verbunden fühlen. Wenn Sie sich einmal diese Liste ansehen, wie stark fühlen Sie sich verbunden mit...",
+    "item": "Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr verbunden"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich verbunden"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr verbunden"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht verbunden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v168",
+    "text": "Der ganzen Welt",
+    "stem": "Menschen haben verschiedene Ansichten über sich selbst und wie stark Sie sich mit ihrem Umfeld und dem Rest der Welt verbunden fühlen. Wenn Sie sich einmal diese Liste ansehen, wie stark fühlen Sie sich verbunden mit...",
+    "item": "Der ganzen Welt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr verbunden"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich verbunden"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr verbunden"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht verbunden"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q47_v170",
+    "text": "Wie stolz sind Sie darauf, dass Sie die deutsche Staatsbürgerschaft haben?",
+    "stem": "Wie stolz sind Sie darauf, dass Sie die deutsche Staatsbürgerschaft haben?",
+    "item": "Wie stolz sind Sie darauf, dass Sie die deutsche Staatsbürgerschaft haben?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr stolz"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich stolz"
+      },
+      {
+        "value": 3,
+        "label": "Nicht sehr stolz"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht stolz"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v176",
+    "text": "Die Stimmen werden korrekt ausgezählt",
+    "stem": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "item": "Die Stimmen werden korrekt ausgezählt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v177",
+    "text": "Kandidaten der Opposition werden an der Kandidatur gehindert",
+    "stem": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "item": "Kandidaten der Opposition werden an der Kandidatur gehindert",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v178",
+    "text": "In den TV-Nachrichten werden die Regierungsparteien bevorzugt",
+    "stem": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "item": "In den TV-Nachrichten werden die Regierungsparteien bevorzugt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v179",
+    "text": "Wähler werden bestochen",
+    "stem": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "item": "Wähler werden bestochen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v180",
+    "text": "Journalisten berichten ausgewogen über die Wahlen",
+    "stem": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "item": "Journalisten berichten ausgewogen über die Wahlen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v181",
+    "text": "Die amtliche Wahlleitung verhält sich korrekt",
+    "stem": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "item": "Die amtliche Wahlleitung verhält sich korrekt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v182",
+    "text": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "stem": "Reiche Menschen erkaufen Wahlen",
+    "item": "Wie oft",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v183",
+    "text": "Wie oft passieren Ihrer Meinung nach die folgenden Dinge bei Wahlen in Deutschland?",
+    "stem": "Wähler werden an der Wahlurne mit Gewalt bedroht",
+    "item": "Wie oft",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr oft"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich oft"
+      },
+      {
+        "value": 3,
+        "label": "Nicht oft"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht oft"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q51",
+    "text": "Nun geht es um Ihre Meinung zu Zuwanderern, also Menschen aus anderen Ländern, die nach Deutschland kommen, um hier zu leben. Wie wirkt sich Ihrer Meinung nach die Zuwanderung auf die weitere Entwicklung Deutschlands aus?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 5,
+        "label": "Sehr positiv"
+      },
+      {
+        "value": 4,
+        "label": "Ziemlich positiv"
+      },
+      {
+        "value": 3,
+        "label": "Weder positiv, noch negativ"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich negativ"
+      },
+      {
+        "value": 1,
+        "label": "Sehr negativ"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52_A",
+    "text": "Bitte lesen Sie sich die folgenden Aussagen durch und geben anhand dieser Skala an, wo Sie Ihre Meinung dazu einordnen würden.",
+    "stem": "Ausländer nehmen Deutschen die Arbeitsplätze weg",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Ausländer nehmen Deutschen die Arbeitsplätze nicht weg"
+  },
+  {
+    "id": "Q52_B",
+    "text": "Bitte lesen Sie sich die folgenden Aussagen durch und geben anhand dieser Skala an, wo Sie Ihre Meinung dazu einordnen würden.",
+    "stem": "Ausländer verschärfen die Kriminalitätsprobleme",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Ausländer verschärfen die Kriminalitätsprobleme nicht"
+  },
+  {
+    "id": "Q52_C",
+    "text": "Bitte lesen Sie sich die folgenden Aussagen durch und geben anhand dieser Skala an, wo Sie Ihre Meinung dazu einordnen würden.",
+    "stem": "Ausländer belasten das Sozialsystem eines Landes",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Ausländer belasten das Sozialsystem eines Landes nicht"
+  },
+  {
+    "id": "Q52_D",
+    "text": "Bitte lesen Sie sich die folgenden Aussagen durch und geben anhand dieser Skala an, wo Sie Ihre Meinung dazu einordnen würden.",
+    "stem": "Es ist besser, wenn Ausländer ihre eigenen Bräuche und Traditionen beibehalten",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Es ist besser, wenn Ausländer ihre eigenen Bräuche und Traditionen nicht beibehalten"
+  },
+  {
+    "id": "Q53_v189",
+    "text": "Einige Menschen sagen, die folgenden Dinge seien wichtig, um wirklich deutsch zu sein. Andere dagegen sagen, sie seien nicht wichtig. Was meinen Sie, wie wichtig jedes dieser Dinge ist?",
+    "stem": "In Deutschland geboren zu sein",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v190",
+    "text": "Einige Menschen sagen, die folgenden Dinge seien wichtig, um wirklich deutsch zu sein. Andere dagegen sagen, sie seien nicht wichtig. Was meinen Sie, wie wichtig jedes dieser Dinge ist?",
+    "stem": "Deutschlands politische Institutionen und Gesetze zu respektieren",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v191",
+    "text": "Einige Menschen sagen, die folgenden Dinge seien wichtig, um wirklich deutsch zu sein. Andere dagegen sagen, sie seien nicht wichtig. Was meinen Sie, wie wichtig jedes dieser Dinge ist?",
+    "stem": "Deutsche Vorfahren zu haben",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v192",
+    "text": "Einige Menschen sagen, die folgenden Dinge seien wichtig, um wirklich deutsch zu sein. Andere dagegen sagen, sie seien nicht wichtig. Was meinen Sie, wie wichtig jedes dieser Dinge ist?",
+    "stem": "Deutsch sprechen zu können",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v193",
+    "text": "Einige Menschen sagen, die folgenden Dinge seien wichtig, um wirklich deutsch zu sein. Andere dagegen sagen, sie seien nicht wichtig. Was meinen Sie, wie wichtig jedes dieser Dinge ist?",
+    "stem": "Nach der deutschen Lebensart und -weise zu leben",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v194",
+    "text": "Die Menschen haben unterschiedliche Ansichten darüber, was es bedeutet, europäisch zu sein. Was meinen Sie, wie wichtig sind jeweils die folgenden Dinge, um europäisch zu sein?",
+    "stem": "In Europa geboren zu sein",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v195",
+    "text": "Die Menschen haben unterschiedliche Ansichten darüber, was es bedeutet, europäisch zu sein. Was meinen Sie, wie wichtig sind jeweils die folgenden Dinge, um europäisch zu sein?",
+    "stem": "Europäische Vorfahren zu haben",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v196",
+    "text": "Die Menschen haben unterschiedliche Ansichten darüber, was es bedeutet, europäisch zu sein. Was meinen Sie, wie wichtig sind jeweils die folgenden Dinge, um europäisch zu sein?",
+    "stem": "Christ oder Christin zu sein",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v197",
+    "text": "Die Menschen haben unterschiedliche Ansichten darüber, was es bedeutet, europäisch zu sein. Was meinen Sie, wie wichtig sind jeweils die folgenden Dinge, um europäisch zu sein?",
+    "stem": "Eine gemeinsame europäische Kultur zu leben",
+    "item": "Wie wichtig",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q55",
+    "text": "Manche meinen, dass die Erweiterung der Europäischen Union weiter gehen soll. Andere dagegen sagen, sie sei bereits zu weit gegangen. Sagen Sie mir bitte Ihre Meinung anhand dieser Skala: 1 bedeutet \"sie sollte weiter gehen\"; 10 bedeutet \"sie ist bereits zu weit gegangen\".",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Ist bereits zu weit gegangen"
+  },
+  {
+    "id": "Q56_v199",
+    "text": "Wie sehr stimmen Sie den folgenden Aussagen zu oder nicht zu?",
+    "stem": "Ich würde auf einen Teil meines Einkommens verzichten, wenn ich sicher sein könnte, dass dieses Geld dazu verwendet wird, Umweltverschmutzung zu verhindern.",
+    "item": "Wie sehr stimmen Sie zu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v200",
+    "text": "Wie sehr stimmen Sie den folgenden Aussagen zu oder nicht zu?",
+    "stem": "Für Leute wie mich ist es einfach zu schwierig, viel für die Umwelt zu tun.",
+    "item": "Wie sehr stimmen Sie zu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v201",
+    "text": "Wie sehr stimmen Sie den folgenden Aussagen zu oder nicht zu?",
+    "stem": "Im Leben gibt es wichtigere Dinge, als die Umwelt zu schützen.",
+    "item": "Wie sehr stimmen Sie zu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v202",
+    "text": "Wie sehr stimmen Sie den folgenden Aussagen zu oder nicht zu?",
+    "stem": "Es bringt nichts, mich für die Umwelt einzusetzen, wenn es andere nicht auch tun.",
+    "item": "Wie sehr stimmen Sie zu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v203",
+    "text": "Wie sehr stimmen Sie den folgenden Aussagen zu oder nicht zu?",
+    "stem": "Viele Behauptungen über die Bedrohung der Umwelt sind übertrieben.",
+    "item": "Wie sehr stimmen Sie zu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Stimme voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Stimme zu"
+      },
+      {
+        "value": 3,
+        "label": "Weder noch"
+      },
+      {
+        "value": 4,
+        "label": "Stimme nicht zu"
+      },
+      {
+        "value": 5,
+        "label": "Stimme überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q57",
+    "text": "Hier sind zwei Aussagen, die man hört, wenn über Umweltschutz und Wirtschaftswachstum geredet wird. Welche dieser beiden Aussagen kommt Ihrer eigenen Meinung näher?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dem Umweltschutz sollte Vorrang eingeräumt werden, auch wenn dadurch das Wirtschaftswachstum sinkt und Arbeitsplätze verloren gehen."
+      },
+      {
+        "value": 2,
+        "label": "Dem Wirtschaftswachstum und der Schaffung von Arbeitsplätzen sollte Vorrang eingeräumt werden, selbst wenn darunter die Umwelt etwas leidet."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_v205",
+    "text": "Sollte Ihrer Meinung nach der deutsche Staat das Recht zu folgenden Maßnahmen haben oder nicht?",
+    "stem": "In der Öffentlichkeit Menschen per Video zu überwachen",
+    "item": "Sollte der Staat das Recht dazu haben?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sollte auf jeden Fall das Recht dazu haben"
+      },
+      {
+        "value": 2,
+        "label": "Sollte wahrscheinlich das Recht dazu haben"
+      },
+      {
+        "value": 3,
+        "label": "Sollte wahrscheinlich nicht das Recht dazu haben"
+      },
+      {
+        "value": 4,
+        "label": "Sollte auf keinen Fall das Recht dazu haben"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_v206",
+    "text": "Sollte Ihrer Meinung nach der deutsche Staat das Recht zu folgenden Maßnahmen haben oder nicht?",
+    "stem": "Alle E-Mails und Informationen, die im Internet ausgetauscht werden, zu überwachen",
+    "item": "Sollte der Staat das Recht dazu haben?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sollte auf jeden Fall das Recht dazu haben"
+      },
+      {
+        "value": 2,
+        "label": "Sollte wahrscheinlich das Recht dazu haben"
+      },
+      {
+        "value": 3,
+        "label": "Sollte wahrscheinlich nicht das Recht dazu haben"
+      },
+      {
+        "value": 4,
+        "label": "Sollte auf keinen Fall das Recht dazu haben"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_v207",
+    "text": "Sollte Ihrer Meinung nach der deutsche Staat das Recht zu folgenden Maßnahmen haben oder nicht?",
+    "stem": "Informationen über jede Person, die in Deutschland lebt, ohne deren Wissen zu sammeln",
+    "item": "Sollte der Staat das Recht dazu haben?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sollte auf jeden Fall das Recht dazu haben"
+      },
+      {
+        "value": 2,
+        "label": "Sollte wahrscheinlich das Recht dazu haben"
+      },
+      {
+        "value": 3,
+        "label": "Sollte wahrscheinlich nicht das Recht dazu haben"
+      },
+      {
+        "value": 4,
+        "label": "Sollte auf keinen Fall das Recht dazu haben"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v208",
+    "text": "Wie häufig verfolgen Sie das politische Geschehen...",
+    "stem": "...im Fernsehen",
+    "item": "Wie häufig",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täglich"
+      },
+      {
+        "value": 2,
+        "label": "Mehrmals pro Woche"
+      },
+      {
+        "value": 3,
+        "label": "Ein- oder zweimal pro Woche"
+      },
+      {
+        "value": 4,
+        "label": "Seltener"
+      },
+      {
+        "value": 5,
+        "label": "Nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v209",
+    "text": "Wie häufig verfolgen Sie das politische Geschehen...",
+    "stem": "...im Radio",
+    "item": "Wie häufig",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täglich"
+      },
+      {
+        "value": 2,
+        "label": "Mehrmals pro Woche"
+      },
+      {
+        "value": 3,
+        "label": "Ein- oder zweimal pro Woche"
+      },
+      {
+        "value": 4,
+        "label": "Seltener"
+      },
+      {
+        "value": 5,
+        "label": "Nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v210",
+    "text": "Wie häufig verfolgen Sie das politische Geschehen...",
+    "stem": "...in den Tageszeitungen",
+    "item": "Wie häufig",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täglich"
+      },
+      {
+        "value": 2,
+        "label": "Mehrmals pro Woche"
+      },
+      {
+        "value": 3,
+        "label": "Ein- oder zweimal pro Woche"
+      },
+      {
+        "value": 4,
+        "label": "Seltener"
+      },
+      {
+        "value": 5,
+        "label": "Nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v211",
+    "text": "Wie häufig verfolgen Sie das politische Geschehen...",
+    "stem": "...in den sozialen Medien",
+    "item": "Wie häufig",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Täglich"
+      },
+      {
+        "value": 2,
+        "label": "Mehrmals pro Woche"
+      },
+      {
+        "value": 3,
+        "label": "Ein- oder zweimal pro Woche"
+      },
+      {
+        "value": 4,
+        "label": "Seltener"
+      },
+      {
+        "value": 5,
+        "label": "Nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v212",
+    "text": "Wie viel liegt Ihnen an den Lebensbedingungen von:",
+    "stem": "Menschen in Ihrer Nachbarschaft",
+    "item": "Wie viel",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v213",
+    "text": "Wie viel liegt Ihnen an den Lebensbedingungen von:",
+    "stem": "Menschen in der Region, in der Sie leben",
+    "item": "Wie viel",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v214",
+    "text": "Wie viel liegt Ihnen an den Lebensbedingungen von:",
+    "stem": "Ihren Landsleuten",
+    "item": "Wie viel",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v215",
+    "text": "Wie viel liegt Ihnen an den Lebensbedingungen von:",
+    "stem": "Europäern",
+    "item": "Wie viel",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v216",
+    "text": "Wie viel liegt Ihnen an den Lebensbedingungen von:",
+    "stem": "Den Menschen auf der ganzen Welt",
+    "item": "Wie viel",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v217",
+    "text": "Und wie viel liegt Ihnen an den Lebensbedingungen der folgenden Gruppen in Deutschland?",
+    "stem": "Ältere Menschen",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v218",
+    "text": "Und wie viel liegt Ihnen an den Lebensbedingungen der folgenden Gruppen in Deutschland?",
+    "stem": "Arbeitslose Menschen",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v219",
+    "text": "Und wie viel liegt Ihnen an den Lebensbedingungen der folgenden Gruppen in Deutschland?",
+    "stem": "Ausländer",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v220",
+    "text": "Und wie viel liegt Ihnen an den Lebensbedingungen der folgenden Gruppen in Deutschland?",
+    "stem": "Kranke und behinderte Menschen",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr viel"
+      },
+      {
+        "value": 2,
+        "label": "Viel"
+      },
+      {
+        "value": 3,
+        "label": "Etwas"
+      },
+      {
+        "value": 4,
+        "label": "Nicht so viel"
+      },
+      {
+        "value": 5,
+        "label": "Überhaupt nichts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v221",
+    "text": "Was sollte eine Gesellschaft ihren Mitgliedern bieten? Bitte sagen Sie mir zu jeder Aussage, für wie wichtig Sie diese halten.",
+    "stem": "Große Einkommensunterschiede zwischen den Bürgerinnen und Bürgern beseitigen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v222",
+    "text": "Was sollte eine Gesellschaft ihren Mitgliedern bieten? Bitte sagen Sie mir zu jeder Aussage, für wie wichtig Sie diese halten.",
+    "stem": "Dafür sorgen, dass die Grundbedürfnisse von allen Menschen befriedigt sind: Nahrung, Wohnung, Kleidung, schulische Grundausbildung, Gesundheit",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v223",
+    "text": "Was sollte eine Gesellschaft ihren Mitgliedern bieten? Bitte sagen Sie mir zu jeder Aussage, für wie wichtig Sie diese halten.",
+    "stem": "Die Verdienste und Leistungen jedes Einzelnen anerkennen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v224",
+    "text": "Was sollte eine Gesellschaft ihren Mitgliedern bieten? Bitte sagen Sie mir zu jeder Aussage, für wie wichtig Sie diese halten.",
+    "stem": "Die Bevölkerung vor Terrorismus schützen",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Sehr wichtig"
+      },
+      {
+        "value": 2,
+        "label": "Ziemlich wichtig"
+      },
+      {
+        "value": 3,
+        "label": "Nicht wichtig"
+      },
+      {
+        "value": 4,
+        "label": "Überhaupt nicht wichtig"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q75_v237",
+    "text": "Haben Sie eine feste Beziehung?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nein"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q76_v238",
+    "text": "Leben Sie mit Ihren Eltern oder Schwiegereltern zusammen?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nein"
+      },
+      {
+        "value": 2,
+        "label": "Ja, mit den eigenen Eltern (oder einem Elternteil)"
+      },
+      {
+        "value": 3,
+        "label": "Ja, mit den Schwiegereltern (oder einem Schwiegerelternteil)"
+      },
+      {
+        "value": 4,
+        "label": "Ja, sowohl mit meinen Eltern (oder Elternteil) als auch mit meinen Schwiegereltern (oder Schwiegerelternteil)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q103_v266",
+    "text": "Welcher dieser Berufsgruppen würden Sie denjenigen Elternteil von Ihnen zuordnen, der hauptsächlich zum Familieneinkommen beigetragen hat, als Sie 14 Jahre alt waren?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": "A",
+        "label": "[1] Freie, akademische und technische Berufe wie: Arzt, Lehrer, Ingenieur, Künstler"
+      },
+      {
+        "value": "B",
+        "label": "[2] Höhere Verwaltungs- und Managementberufe wie: Bänker, Führungskraft im Großunternehmen, hoher Regierungsbeamter"
+      },
+      {
+        "value": "C",
+        "label": "[3] Büro und mittlere Verwaltungsebene wie: Sekretär, Sachbearbeiter, Büroleiter, öffentlich Angestellter, Buchhalter"
+      },
+      {
+        "value": "D",
+        "label": "[4] Verkaufs- und Vertriebsberufe wie: Verkaufsleiter, Ladenbesitzer, Verkäufer, Versicherungsvertreter, Einkäufer"
+      },
+      {
+        "value": "E",
+        "label": "[5] Dienstleistungsberufe wie: Pflegepersonal, Friseur, Servicekraft"
+      },
+      {
+        "value": "F",
+        "label": "[6] Ausgebildete Arbeitskräfte in technischen und handwerklichen Berufen wie: KFZ-Mechaniker, Elektriker, Maler, Bäcker, Zimmerer"
+      },
+      {
+        "value": "G",
+        "label": "[7] Angelernte Arbeitskräfte in technischen und handwerklichen Berufen wie: Busfahrer, Möbelmonteur, Pförtner, Lagerarbeiter"
+      },
+      {
+        "value": "H",
+        "label": "[8] Ungelernte Arbeitskräfte in technischen und handwerklichen Berufen wie: Hilfsarbeiter, ungelernter Fabrikarbeiter, Reinigungskraft"
+      },
+      {
+        "value": "I",
+        "label": "[9] Beschäftigte/r in der Landwirtschaft wie: Landarbeiter/in, Traktorfahrer/in"
+      },
+      {
+        "value": "J",
+        "label": "[10] Eigentümer oder Verwalter eines landwirtschaftlichen Betriebs"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v267",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Meine Mutter hat gerne Bücher gelesen.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v268",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Ich habe zuhause mit meiner Mutter über Politik diskutiert.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v269",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Meine Mutter hat gerne die Nachrichten verfolgt.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v270",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Meine Eltern (Elternteil) hatte(n) Schwierigkeiten mit dem Einkommen auszukommen.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v271",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Mein Vater hat gerne Bücher gelesen.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v272",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Ich habe zuhause mit meinem Vater über Politik diskutiert.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v273",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Mein Vater hat gerne die Nachrichten verfolgt.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q104_v274",
+    "text": "Denken Sie an Ihre Eltern zu einem Zeitpunkt als Sie selbst ungefähr 14 Jahre alt waren. Können Sie mir sagen, ob die folgenden Aussagen auf ihre Eltern zutreffen?",
+    "stem": "Meine Eltern (Elternteil) hatte(n) Probleme kaputtgegangene Gegenstände zu ersetzen.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja, trifft voll und ganz zu"
+      },
+      {
+        "value": 2,
+        "label": "Trifft etwas zu"
+      },
+      {
+        "value": 3,
+        "label": "Trifft ein wenig zu"
+      },
+      {
+        "value": 4,
+        "label": "Nein, trifft überhaupt nicht zu"
+      }
+    ],
+    "answer_cue": null
+  }
+]

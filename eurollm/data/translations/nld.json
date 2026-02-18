@@ -1,0 +1,6212 @@
+[
+  {
+    "id": "Q1",
+    "text": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven. Werk",
+    "stem": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven.",
+    "item": "Werk",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q1",
+    "text": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven. Gezin",
+    "stem": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven.",
+    "item": "Gezin",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q1",
+    "text": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven. Vrienden en bekenden",
+    "stem": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven.",
+    "item": "Vrienden en bekenden",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q1",
+    "text": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven. Vrije tijd",
+    "stem": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven.",
+    "item": "Vrije tijd",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q1",
+    "text": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven. Politiek",
+    "stem": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven.",
+    "item": "Politiek",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q1",
+    "text": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven. Godsdienst",
+    "stem": "Wilt u voor elk van de volgende onderwerpen aangeven hoe belangrijk ze zijn in uw leven.",
+    "item": "Godsdienst",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q2",
+    "text": "Hoe gelukkig bent u, alles bijeengenomen?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel gelukkig"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk gelukkig"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo gelukkig"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet gelukkig"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet (spontaan)"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord (spontaan)"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q3",
+    "text": "Hoe is al met al uw gezondheidstoestand tegenwoordig. Zou u zeggen",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer goed"
+      },
+      {
+        "value": 2,
+        "label": "Goed"
+      },
+      {
+        "value": 3,
+        "label": "Redelijk"
+      },
+      {
+        "value": 4,
+        "label": "Slecht"
+      },
+      {
+        "value": 5,
+        "label": "Zeer slecht"
+      },
+      {
+        "value": 6,
+        "label": "Weet niet (spontaan)"
+      },
+      {
+        "value": 7,
+        "label": "Geen antwoord (spontaan)"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q5",
+    "text": "Heeft u de afgelopen zes maanden vrijwilligerswerk gedaan?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      },
+      {
+        "value": 3,
+        "label": "Weet niet (spontaan)"
+      },
+      {
+        "value": 4,
+        "label": "Geen antwoord (spontaan)"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Mensen van een ander ras",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Mensen van een ander ras",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Zware drinkers",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Zware drinkers",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Immigranten/buitenlandse werknemers",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Immigranten/buitenlandse werknemers",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Drugsverslaafden",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Drugsverslaafden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Homoseksuelen",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Homoseksuelen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Christenen",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Christenen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Moslims",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Moslims",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Joden",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Joden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q6",
+    "text": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben? Zigeuners",
+    "stem": "Op deze lijst staan diverse groepen van mensen. Wilt u daar alle groepen uit opnoemen die u liever niet als buren zou hebben?",
+    "item": "Zigeuners",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q7",
+    "text": "Vindt u dat over het algemeen de meeste mensen wel te vertrouwen zijn of vindt u dat men niet voorzichtig genoeg kan zijn in de omgang met mensen?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Wel te vertrouwen"
+      },
+      {
+        "value": 2,
+        "label": "Men kan niet voorzichtig genoeg zijn"
+      },
+      {
+        "value": 3,
+        "label": "Weet niet (spontaan)"
+      },
+      {
+        "value": 4,
+        "label": "Geen antwoord (spontaan)"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q8",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt? Uw familie",
+    "stem": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt?",
+    "item": "Uw familie",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertrouw volledig"
+      },
+      {
+        "value": 2,
+        "label": "Vertrouw een beetje"
+      },
+      {
+        "value": 3,
+        "label": "Vertrouw eerder niet"
+      },
+      {
+        "value": 4,
+        "label": "Vertrouw helemaal niet"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q8",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt? Uw buren",
+    "stem": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt?",
+    "item": "Uw buren",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertrouw volledig"
+      },
+      {
+        "value": 2,
+        "label": "Vertrouw een beetje"
+      },
+      {
+        "value": 3,
+        "label": "Vertrouw eerder niet"
+      },
+      {
+        "value": 4,
+        "label": "Vertrouw helemaal niet"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q8",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt? Mensen die u persoonlijk kent",
+    "stem": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt?",
+    "item": "Mensen die u persoonlijk kent",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertrouw volledig"
+      },
+      {
+        "value": 2,
+        "label": "Vertrouw een beetje"
+      },
+      {
+        "value": 3,
+        "label": "Vertrouw eerder niet"
+      },
+      {
+        "value": 4,
+        "label": "Vertrouw helemaal niet"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q8",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt? Mensen die u voor het eerst ontmoet",
+    "stem": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt?",
+    "item": "Mensen die u voor het eerst ontmoet",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertrouw volledig"
+      },
+      {
+        "value": 2,
+        "label": "Vertrouw een beetje"
+      },
+      {
+        "value": 3,
+        "label": "Vertrouw eerder niet"
+      },
+      {
+        "value": 4,
+        "label": "Vertrouw helemaal niet"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q8",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt? Mensen van een andere religie",
+    "stem": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt?",
+    "item": "Mensen van een andere religie",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertrouw volledig"
+      },
+      {
+        "value": 2,
+        "label": "Vertrouw een beetje"
+      },
+      {
+        "value": 3,
+        "label": "Vertrouw eerder niet"
+      },
+      {
+        "value": 4,
+        "label": "Vertrouw helemaal niet"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q8",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt? Mensen van een andere nationaliteit",
+    "stem": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor elke groep aangeven of u deze mensen volledig vertrouwt, een beetje vertrouwt, eerder niet vertrouwt of helemaal niet vertrouwt?",
+    "item": "Mensen van een andere nationaliteit",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vertrouw volledig"
+      },
+      {
+        "value": 2,
+        "label": "Vertrouw een beetje"
+      },
+      {
+        "value": 3,
+        "label": "Vertrouw eerder niet"
+      },
+      {
+        "value": 4,
+        "label": "Vertrouw helemaal niet"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q9",
+    "text": "Sommige mensen vinden dat zij helemaal zelf kunnen uitmaken en regelen hoe hun leven verloopt, anderen vinden dat wat zij zelf doen niet werkelijk van invloed is op wat er met hen gebeurt. Wilt u nu een cijfer van de schaal noemen om mee aan te geven in hoeverre u zelf vindt dat u zelf helemaal kunt uitmaken en regelen hoe uw leven verloopt?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal niet"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "In hoge mate"
+      },
+      {
+        "value": 11,
+        "label": "Weet niet"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q10",
+    "text": "Hoe tevreden, of ontevreden bent u, al met al, met uw leven tegenwoordig? Wilt u een cijfer noemen van de schaal om uw antwoord mee aan te geven?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ontevreden"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Tevreden"
+      },
+      {
+        "value": 11,
+        "label": "Weet niet"
+      },
+      {
+        "value": 12,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q11",
+    "text": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk? Goed loon/salaris",
+    "stem": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk?",
+    "item": "Goed loon/salaris",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q11",
+    "text": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk? Goede werktijden",
+    "stem": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk?",
+    "item": "Goede werktijden",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q11",
+    "text": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk? De mogelijkheid initiatief te tonen",
+    "stem": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk?",
+    "item": "De mogelijkheid initiatief te tonen",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q11",
+    "text": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk? Goede vakantieregeling/veel vakantie",
+    "stem": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk?",
+    "item": "Goede vakantieregeling/veel vakantie",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q11",
+    "text": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk? Een werkkring waar je merkt dat je iets kunt bereiken",
+    "stem": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk?",
+    "item": "Een werkkring waar je merkt dat je iets kunt bereiken",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q11",
+    "text": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk? Een verantwoordelijke functie",
+    "stem": "Hier staat een aantal aspecten die de één wel en de ander niet belangrijk vindt in z'n werk. Wilt u ze eens bekijken en mij dan zeggen welke u zelf belangrijk vindt in het werk?",
+    "item": "Een verantwoordelijke functie",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Genoemd"
+      },
+      {
+        "value": 2,
+        "label": "Niet genoemd"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q12",
+    "text": "Bent u het eens of oneens met de volgende uitspraken? Om je talenten volledig tot ontwikkeling te brengen heb je een baan nodig",
+    "stem": "Bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Om je talenten volledig tot ontwikkeling te brengen heb je een baan nodig",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": "antwoord"
+  },
+  {
+    "id": "Q12a",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?",
+    "stem": "Bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Het is vernederend om geld te krijgen zonder ervoor te hoeven werken",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12b",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?",
+    "stem": "Bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Mensen die niet werken worden lui",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12c",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?",
+    "stem": "Bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Werken is een maatschappelijke plicht",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12d",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?",
+    "stem": "Bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Werk zou altijd op de eerste plaats moeten komen, zelfs als dat minder vrije tijd betekent",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q13",
+    "text": "Rekent u zichzelf tot een godsdienst?",
+    "stem": "Rekent u zichzelf tot een godsdienst?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q17",
+    "text": "Even buiten beschouwing gelaten of u wel of niet naar de kerk gaat, zou u zeggen dat u ...",
+    "stem": "Even buiten beschouwing gelaten of u wel of niet naar de kerk gaat, zou u zeggen dat u ...",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Een gelovig mens bent"
+      },
+      {
+        "value": 2,
+        "label": "Niet gelovig bent"
+      },
+      {
+        "value": 3,
+        "label": "Een overtuigd atheïst bent"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18a",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "stem": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "item": "God",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18b",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "stem": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "item": "Een leven na de dood",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18c",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "stem": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "item": "De hel",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18d",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "stem": "Wilt u aangeven waarin u wel of niet gelooft.",
+    "item": "De hemel",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Gelooft u in reïncarnatie, dat wil zeggen, dat we eerdere levens geleefd hebben en opnieuw in deze wereld geboren zullen worden?",
+    "stem": "Gelooft u in reïncarnatie, dat wil zeggen, dat we eerdere levens geleefd hebben en opnieuw in deze wereld geboren zullen worden?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q20",
+    "text": "Welke van de volgende beweringen komt het dichtst bij uw eigen overtuiging?",
+    "stem": "Welke van de volgende beweringen komt het dichtst bij uw eigen overtuiging?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Er bestaat een persoonlijke God"
+      },
+      {
+        "value": 2,
+        "label": "Er bestaat een soort levensgeest of -kracht"
+      },
+      {
+        "value": 3,
+        "label": "Ik weet eigenlijk niet wat ik ervan denken moet"
+      },
+      {
+        "value": 4,
+        "label": "Ik denk eigenlijk niet dat er een of andere geest of God of levenskracht bestaat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q21",
+    "text": "En hoe belangrijk is God in uw leven?",
+    "stem": "En hoe belangrijk is God in uw leven?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "1 betekent helemaal niet belangrijk, 10 betekent zeer belangrijk"
+  },
+  {
+    "id": "Q22",
+    "text": "Even afgezien van godsdienstige vieringen, hoe vaak bidt u?",
+    "stem": "Even afgezien van godsdienstige vieringen, hoe vaak bidt u?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Elke dag"
+      },
+      {
+        "value": 2,
+        "label": "Meer dan eens per week"
+      },
+      {
+        "value": 3,
+        "label": "Eens per week"
+      },
+      {
+        "value": 4,
+        "label": "Tenminste eens per maand"
+      },
+      {
+        "value": 5,
+        "label": "Enkele keren per jaar"
+      },
+      {
+        "value": 6,
+        "label": "Minder vaak"
+      },
+      {
+        "value": 7,
+        "label": "Nooit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23a",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "stem": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "item": "Trouw",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23b",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "stem": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "item": "Een redelijk inkomen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23c",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "stem": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "item": "Goede huisvesting",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23d",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "stem": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "item": "Verdelen van huishoudelijke taken",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23e",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "stem": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "item": "Kinderen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23f",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "stem": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partnerschap. Wilt u mij voor elk daarvan zeggen of u dat zeer belangrijk, tamelijk belangrijk of niet zo belangrijk vindt?",
+    "item": "Tijd hebben voor eigen vrienden en persoonlijke hobbies/activiteiten",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Bent u het eens of oneens met de volgende bewering: Het huwelijk is een verouderde instelling",
+    "stem": "Bent u het eens of oneens met de volgende bewering: Het huwelijk is een verouderde instelling",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Eens"
+      },
+      {
+        "value": 2,
+        "label": "Oneens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25a",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Wanneer een moeder betaald werk verricht, gaat dit ten koste van de kinderen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25b",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Een baan is prima maar wat de meeste vrouwen eigenlijk willen is een huis en kinderen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25c",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Over het algemeen lijdt het gezinsleven eronder wanneer de vrouw fulltime werkt",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25d",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "De man hoort het geld te verdienen, de vrouw hoort thuis",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25e",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Over het geheel zijn mannen betere politieke leiders dan vrouwen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25f",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Een universitaire opleiding is belangrijker voor een jongen dan voor een meisje",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25g",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Over het geheel zijn mannen betere topmanagers dan vrouwen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25h",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "stem": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?",
+    "item": "Een van mijn belangrijkste doelen was mijn ouders trots maken",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26a",
+    "text": "In hoeverre bent u het eens of oneens met de volgende uitspraken?",
+    "stem": "In hoeverre bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Wanneer banen schaars zijn, moeten werkgevers voorrang geven aan Nederlanders boven immigranten",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26b",
+    "text": "In hoeverre bent u het eens of oneens met de volgende uitspraken?",
+    "stem": "In hoeverre bent u het eens of oneens met de volgende uitspraken?",
+    "item": "Wanneer banen schaars zijn, hebben mannen meer recht op een baan dan vrouwen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27a",
+    "text": "Wat vindt u van de volgende uitspraken?",
+    "stem": "Wat vindt u van de volgende uitspraken?",
+    "item": "Homoseksuele stellen zijn even goede ouders als andere stellen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27b",
+    "text": "Wat vindt u van de volgende uitspraken?",
+    "stem": "Wat vindt u van de volgende uitspraken?",
+    "item": "Het is een plicht tegenover de samenleving om kinderen te krijgen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27c",
+    "text": "Wat vindt u van de volgende uitspraken?",
+    "stem": "Wat vindt u van de volgende uitspraken?",
+    "item": "Volwassen kinderen hebben de plicht om langdurige zorg aan hun ouders te verlenen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28",
+    "text": "Hier is een lijst van eigenschappen waartoe men kinderen thuis kan aanmoedigen om zich die eigen te maken. Welke vijf vindt u het meest wenselijk voor een kind?",
+    "stem": "Hier is een lijst van eigenschappen waartoe men kinderen thuis kan aanmoedigen om zich die eigen te maken. Welke vijf vindt u het meest wenselijk voor een kind?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Goede manieren"
+      },
+      {
+        "value": 2,
+        "label": "Onafhankelijkheid"
+      },
+      {
+        "value": 3,
+        "label": "Hard werken"
+      },
+      {
+        "value": 4,
+        "label": "Verantwoordelijkheidsgevoel"
+      },
+      {
+        "value": 5,
+        "label": "Fantasie/verbeeldingskracht"
+      },
+      {
+        "value": 6,
+        "label": "Verdraagzaamheid en respect voor anderen"
+      },
+      {
+        "value": 7,
+        "label": "Spaarzaamheid, geld en andere dingen sparen"
+      },
+      {
+        "value": 8,
+        "label": "Vastberadenheid/volharding"
+      },
+      {
+        "value": 9,
+        "label": "Godsvruchtig geloof"
+      },
+      {
+        "value": 10,
+        "label": "Onzelfzuchtigheid"
+      },
+      {
+        "value": 11,
+        "label": "Gehoorzaamheid"
+      }
+    ],
+    "answer_cue": "Kies er maximaal vijf!"
+  },
+  {
+    "id": "Q29",
+    "text": "Hoe geïnteresseerd bent u in politiek?",
+    "stem": "Hoe geïnteresseerd bent u in politiek?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer geïnteresseerd"
+      },
+      {
+        "value": 2,
+        "label": "Enigszins geïnteresseerd"
+      },
+      {
+        "value": 3,
+        "label": "Niet erg geïnteresseerd"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet geïnteresseerd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30a",
+    "text": "Wilt u mij van elke actie vertellen of u het zelf ooit heeft gedaan, of u het zelf misschien zou doen als u het nodig vond, of dat u het zeker nooit zult doen?",
+    "stem": "Wilt u mij van elke actie vertellen of u het zelf ooit heeft gedaan, of u het zelf misschien zou doen als u het nodig vond, of dat u het zeker nooit zult doen?",
+    "item": "Handtekening zetten onder een petitie",
+    "response_type": "action",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zelf gedaan"
+      },
+      {
+        "value": 2,
+        "label": "Zou dat misschien doen"
+      },
+      {
+        "value": 3,
+        "label": "Zou dat nooit doen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q31",
+    "text": "In politieke zaken wordt vaak van politiek links en rechts gesproken. Waar op de schaal zou u uw eigen politieke ideeën plaatsen?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Links"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "Rechts"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32A",
+    "text": "Op deze kaart staan een aantal onderwerpen. Ik verzoek u daarover uw mening te geven. Waar zou u zichzelf op de schaal plaatsen?",
+    "stem": "Mensen moeten meer verantwoordelijkheid nemen om voor zichzelf te zorgen",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32B",
+    "text": "Werklozen moeten iedere beschikbare baan aannemen. Zo niet dan moet hun uitkering worden ingetrokken",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32C",
+    "text": "Onderlinge wedijver is goed",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32D",
+    "text": "Inkomens meer gelijk verdeeld worden",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32E",
+    "text": "Privébezit van ondernemingen moet worden vergroot",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q33",
+    "text": "Er wordt heel wat gediscussieerd over de doelstellingen van ons land voor de komende 10 jaar. Op deze kaart staan een aantal doelstellingen die verschillende mensen heel belangrijk vinden. Welke doelstelling van deze lijst vindt u zelf het meest belangrijk?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Een hoog niveau van economische groei"
+      },
+      {
+        "value": 2,
+        "label": "Zorgen voor een sterk leger in Nederland"
+      },
+      {
+        "value": 3,
+        "label": "De mensen meer inspraak geven bij beslissingen op het werk en in hun woonplaats"
+      },
+      {
+        "value": 4,
+        "label": "Proberen onze steden en ons platteland te verfraaien"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q33a",
+    "text": "En welke doelstelling komt voor u op de tweede plaats?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Een hoog niveau van economische groei"
+      },
+      {
+        "value": 2,
+        "label": "Zorgen voor een sterk leger in Nederland"
+      },
+      {
+        "value": 3,
+        "label": "De mensen meer inspraak geven bij beslissingen op het werk en in hun woonplaats"
+      },
+      {
+        "value": 4,
+        "label": "Proberen onze steden en ons platteland te verfraaien"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q34",
+    "text": "Als u moest kiezen, welke van de zaken op deze kaart vindt u dan het meest belangrjik?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Orde handhaven"
+      },
+      {
+        "value": 2,
+        "label": "Meer mensen meer invloed verschaffen op belangrijke regeringsbesluiten"
+      },
+      {
+        "value": 3,
+        "label": "Prijsstijgingen tegengaan"
+      },
+      {
+        "value": 4,
+        "label": "De vrije meningsuiting beschermen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q35",
+    "text": "En welke komt daarna op de tweede plaats?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Orde handhaven"
+      },
+      {
+        "value": 2,
+        "label": "Meer mensen meer invloed verschaffen op belangrijke regeringsbesluiten"
+      },
+      {
+        "value": 3,
+        "label": "Prijsstijgingen tegengaan"
+      },
+      {
+        "value": 4,
+        "label": "De vrije meningsuiting beschermen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q36",
+    "text": "Natuurlijk hopen we allemaal dat er geen oorlog meer komt, maar als er een zou komen, zou u dan bereid zijn voor uw land te vechten?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ja"
+      },
+      {
+        "value": 2,
+        "label": "Nee"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q37",
+    "text": "Hier staan twee veranderingen die in de nabije toekomst best eens zouden kunnen plaatsvinden in onze manier van leven. Geef voor elke verandering aan of dat een goede of een slechte verandering zou zijn, of dat het u persoonlijk niets uitmaakt.",
+    "stem": "Vermindering van de betekenis van werk in ons leven",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Goed"
+      },
+      {
+        "value": 2,
+        "label": "Slecht"
+      },
+      {
+        "value": 3,
+        "label": "Maakt niets uit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38",
+    "text": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "stem": "De kerk",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_kerk",
+    "text": "De kerk",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_strijdkrachten",
+    "text": "De strijdkrachten",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Het_onderwijsstelsel",
+    "text": "Het onderwijsstelsel",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_pers",
+    "text": "De pers",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Vakbonden",
+    "text": "Vakbonden",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_politie",
+    "text": "De politie",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Het_parlement",
+    "text": "Het parlement",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Ambtenaren",
+    "text": "Ambtenaren",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Het_sociale_zekerheidsstelsel",
+    "text": "Het sociale zekerheidsstelsel",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_Europese_Unie",
+    "text": "De Europese Unie",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_Verenigde_Naties",
+    "text": "De Verenigde Naties",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Gezondheidszorg",
+    "text": "Gezondheidszorg",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Het_justitiële_apparaat",
+    "text": "Het justitiële apparaat",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_De_grote_bedrijven",
+    "text": "De grote bedrijven",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Milieuorganisaties",
+    "text": "Milieuorganisaties",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Politieke_partijen",
+    "text": "Politieke partijen",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Overheid",
+    "text": "Overheid",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_Sociale_media",
+    "text": "Sociale media",
+    "stem": "Wilt u mij voor elk van de instellingen op deze kaart vertellen of u er heel veel, tamelijk veel, niet zo veel of helemaal geen vertrouwen in heeft?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Heel veel"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk veel"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo veel"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal geen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Overheden_heffen_belasting_bij_de_rijken_en_subsidiëren_de_armen",
+    "text": "Overheden heffen belasting bij de rijken en subsidiëren de armen",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Religieuze_leiders_interpreteren_de_wet",
+    "text": "Religieuze leiders interpreteren de wet",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Mensen_kiezen_hun_leiders_in_vrije_verkiezingen",
+    "text": "Mensen kiezen hun leiders in vrije verkiezingen",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Mensen_ontvangen_hulp_van_de_staat_bij_werkloosheid",
+    "text": "Mensen ontvangen hulp van de staat bij werkloosheid",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Het_leger_neemt_het_over_als_de_overheid_onbekwaam_is",
+    "text": "Het leger neemt het over als de overheid onbekwaam is",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Burgerrechten_beschermen_de_vrijheid_van_mensen_tegen_onderdrukking_door_de_staat",
+    "text": "Burgerrechten beschermen de vrijheid van mensen tegen onderdrukking door de staat",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_De_staat_zorgt_dat_mensen_gelijke_inkomens_hebben",
+    "text": "De staat zorgt dat mensen gelijke inkomens hebben",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Mensen_gehoorzamen_hun_leiders",
+    "text": "Mensen gehoorzamen hun leiders",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_Vrouwen_hebben_dezelfde_rechten_als_mannen",
+    "text": "Vrouwen hebben dezelfde rechten als mannen",
+    "stem": "Veel zaken zijn wenselijk, maar ze zijn niet allemaal essentiële eigenschappen van democratie. Kunt u me van de volgende zaken zeggen hoe essentieel u die als eigenschap van democratie vindt? Gebruik een schaal van 1 t/m 10 om antwoord te geven, waarbij 1 betekent \"helemaal geen essentiële eigenschap voor democratie\" en 10 betekent dat het absoluut \"een essentiële eigenschap van democratie\" is.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q40",
+    "text": "Hoe belangrijk is het voor u dat u in een land leeft dat democratisch wordt bestuurd?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Op een schaal waarbij 1 betekent \"helemaal niet belangrijk\" en 10 betekent \"absoluut belangrijk\" wat zou u dan kiezen?"
+  },
+  {
+    "id": "Q41",
+    "text": "En hoe democratisch wordt dit land momenteel bestuurd?",
+    "stem": "Opnieuw op een schaal van 1 tot 10, waarbij 1 betekent \"helemaal niet democratisch\" en 10 betekent \"volledig democratisch\", wat zou u dan kiezen?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "democratisch"
+  },
+  {
+    "id": "Q42",
+    "text": "Op een schaal van 1 tot 10, waar 1 staat voor \"helemaal niet tevreden\" en 10 voor \"helemaal tevreden\", hoe tevreden bent u met hoe het politieke systeem in uw land werkt vandaag de dag?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "tevreden"
+  },
+  {
+    "id": "Q43",
+    "text": "Ik ga een aantal politieke systemen beschrijven en vragen wat u van elk vindt als een manier om dit land te besturen. Geef aan in hoeverre het volgens u een goede of slechte manier is om dit land te besturen.",
+    "stem": null,
+    "item": "Een sterke leider hebben die zich niet druk hoeft te maken om het parlement en verkiezingen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer goed"
+      },
+      {
+        "value": 2,
+        "label": "Behoorlijk goed"
+      },
+      {
+        "value": 3,
+        "label": "Behoorlijk slecht"
+      },
+      {
+        "value": 4,
+        "label": "Zeer slecht"
+      }
+    ],
+    "answer_cue": "manier om dit land te besturen"
+  },
+  {
+    "id": "Q43",
+    "text": "Ik ga een aantal politieke systemen beschrijven en vragen wat u van elk vindt als een manier om dit land te besturen. Geef aan in hoeverre het volgens u een goede of slechte manier is om dit land te besturen.",
+    "stem": null,
+    "item": "Experts en niet de regering nemen besluiten op basis van wat hen het beste lijkt voor het land",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer goed"
+      },
+      {
+        "value": 2,
+        "label": "Behoorlijk goed"
+      },
+      {
+        "value": 3,
+        "label": "Behoorlijk slecht"
+      },
+      {
+        "value": 4,
+        "label": "Zeer slecht"
+      }
+    ],
+    "answer_cue": "manier om dit land te besturen"
+  },
+  {
+    "id": "Q43",
+    "text": "Ik ga een aantal politieke systemen beschrijven en vragen wat u van elk vindt als een manier om dit land te besturen. Geef aan in hoeverre het volgens u een goede of slechte manier is om dit land te besturen.",
+    "stem": null,
+    "item": "Het leger het land laten besturen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer goed"
+      },
+      {
+        "value": 2,
+        "label": "Behoorlijk goed"
+      },
+      {
+        "value": 3,
+        "label": "Behoorlijk slecht"
+      },
+      {
+        "value": 4,
+        "label": "Zeer slecht"
+      }
+    ],
+    "answer_cue": "manier om dit land te besturen"
+  },
+  {
+    "id": "Q43",
+    "text": "Ik ga een aantal politieke systemen beschrijven en vragen wat u van elk vindt als een manier om dit land te besturen. Geef aan in hoeverre het volgens u een goede of slechte manier is om dit land te besturen.",
+    "stem": null,
+    "item": "Een democratisch politiek systeem hebben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer goed"
+      },
+      {
+        "value": 2,
+        "label": "Behoorlijk goed"
+      },
+      {
+        "value": 3,
+        "label": "Behoorlijk slecht"
+      },
+      {
+        "value": 4,
+        "label": "Zeer slecht"
+      }
+    ],
+    "answer_cue": "manier om dit land te besturen"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Sociale uitkeringen aanvragen waar je geen recht op hebt",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Belasting ontduiken als de kans zich voordoet",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Drugsgebruik, het gebruik van marihuana of hasjisch",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Steekpenningen aannemen bij je werk",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Homoseksualiteit",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Abortus",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Echtscheiding",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Euthanasie",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Zelfmoord",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Wisselende seksuele contacten hebben",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Proberen gratis mee te rijden in het openbaar vervoer",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Prostitutie",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Kunstmatige inseminatie of invitro fertilisatie (IVF)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Politiek geweld",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q44",
+    "text": "Wilt u met behulp van deze kaart voor elke handeling zeggen wat u ervan vindt, of het altijd gerechtvaardigd is, of nooit gerechtvaardigd of iets er tussenin.",
+    "stem": null,
+    "item": "Doodstraf",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "gerechtvaardigd"
+  },
+  {
+    "id": "Q45",
+    "text": "Mensen hebben verschillende ideeën over zichzelf en hun relatie tot de wereld. Wilt u met deze kaart aangeven hoe verbonden u zich voelt met ...?",
+    "stem": null,
+    "item": "Uw woonplaats",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erg verbonden"
+      },
+      {
+        "value": 2,
+        "label": "Verbonden"
+      },
+      {
+        "value": 3,
+        "label": "Niet erg verbonden"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet verbonden"
+      }
+    ],
+    "answer_cue": "verbonden"
+  },
+  {
+    "id": "Q45",
+    "text": "Mensen hebben verschillende ideeën over zichzelf en hun relatie tot de wereld. Wilt u met deze kaart aangeven hoe verbonden u zich voelt met ...?",
+    "stem": null,
+    "item": "Uw provincie",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erg verbonden"
+      },
+      {
+        "value": 2,
+        "label": "Verbonden"
+      },
+      {
+        "value": 3,
+        "label": "Niet erg verbonden"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet verbonden"
+      }
+    ],
+    "answer_cue": "verbonden"
+  },
+  {
+    "id": "Q45",
+    "text": "Mensen hebben verschillende ideeën over zichzelf en hun relatie tot de wereld. Wilt u met deze kaart aangeven hoe verbonden u zich voelt met ...?",
+    "stem": null,
+    "item": "Nederland",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erg verbonden"
+      },
+      {
+        "value": 2,
+        "label": "Verbonden"
+      },
+      {
+        "value": 3,
+        "label": "Niet erg verbonden"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet verbonden"
+      }
+    ],
+    "answer_cue": "verbonden"
+  },
+  {
+    "id": "Q45",
+    "text": "Mensen hebben verschillende ideeën over zichzelf en hun relatie tot de wereld. Wilt u met deze kaart aangeven hoe verbonden u zich voelt met ...?",
+    "stem": null,
+    "item": "Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erg verbonden"
+      },
+      {
+        "value": 2,
+        "label": "Verbonden"
+      },
+      {
+        "value": 3,
+        "label": "Niet erg verbonden"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet verbonden"
+      }
+    ],
+    "answer_cue": "verbonden"
+  },
+  {
+    "id": "Q45",
+    "text": "Mensen hebben verschillende ideeën over zichzelf en hun relatie tot de wereld. Wilt u met deze kaart aangeven hoe verbonden u zich voelt met ...?",
+    "stem": null,
+    "item": "De wereld",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erg verbonden"
+      },
+      {
+        "value": 2,
+        "label": "Verbonden"
+      },
+      {
+        "value": 3,
+        "label": "Niet erg verbonden"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet verbonden"
+      }
+    ],
+    "answer_cue": "verbonden"
+  },
+  {
+    "id": "Q47",
+    "text": "Hoe trots bent u erop dat u Nederlander bent?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer trots"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk trots"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo trots"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet trots"
+      }
+    ],
+    "answer_cue": "trots"
+  },
+  {
+    "id": "Q48_gemeentelijk",
+    "text": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen? Wilt u me dit voor elk van de volgende niveaus aangeven.",
+    "stem": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen?",
+    "item": "Gemeentelijk niveau",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Altijd"
+      },
+      {
+        "value": 2,
+        "label": "Meestal"
+      },
+      {
+        "value": 3,
+        "label": "Nooit"
+      },
+      {
+        "value": 4,
+        "label": "Weet niet"
+      },
+      {
+        "value": 5,
+        "label": "Geen antwoord"
+      },
+      {
+        "value": 6,
+        "label": "Mag niet stemmen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q48_landelijk",
+    "text": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen? Wilt u me dit voor elk van de volgende niveaus aangeven.",
+    "stem": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen?",
+    "item": "Landelijk niveau",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Altijd"
+      },
+      {
+        "value": 2,
+        "label": "Meestal"
+      },
+      {
+        "value": 3,
+        "label": "Nooit"
+      },
+      {
+        "value": 4,
+        "label": "Weet niet"
+      },
+      {
+        "value": 5,
+        "label": "Geen antwoord"
+      },
+      {
+        "value": 6,
+        "label": "Mag niet stemmen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q48_europees",
+    "text": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen? Wilt u me dit voor elk van de volgende niveaus aangeven.",
+    "stem": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen?",
+    "item": "Europees niveau",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Altijd"
+      },
+      {
+        "value": 2,
+        "label": "Meestal"
+      },
+      {
+        "value": 3,
+        "label": "Nooit"
+      },
+      {
+        "value": 4,
+        "label": "Weet niet"
+      },
+      {
+        "value": 5,
+        "label": "Geen antwoord"
+      },
+      {
+        "value": 6,
+        "label": "Mag niet stemmen"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q49",
+    "text": "Tot welke (politieke) partij voelt u zich het sterkst aangetrokken?",
+    "stem": "Tot welke (politieke) partij voelt u zich het sterkst aangetrokken?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "VVD"
+      },
+      {
+        "value": 2,
+        "label": "PVV"
+      },
+      {
+        "value": 3,
+        "label": "CDA"
+      },
+      {
+        "value": 4,
+        "label": "D66"
+      },
+      {
+        "value": 5,
+        "label": "GroenLinks"
+      },
+      {
+        "value": 6,
+        "label": "SP"
+      },
+      {
+        "value": 7,
+        "label": "PvdA"
+      },
+      {
+        "value": 8,
+        "label": "ChristenUnie"
+      },
+      {
+        "value": 9,
+        "label": "Partij voor de Dieren"
+      },
+      {
+        "value": 10,
+        "label": "50PLUS"
+      },
+      {
+        "value": 11,
+        "label": "SGP"
+      },
+      {
+        "value": 12,
+        "label": "DENK"
+      },
+      {
+        "value": 13,
+        "label": "Forum voor Democratie"
+      },
+      {
+        "value": 14,
+        "label": "Anders, namelijk (VUL IN):"
+      },
+      {
+        "value": 15,
+        "label": "Weet niet (spontaan)"
+      },
+      {
+        "value": 16,
+        "label": "Geen antwoord (spontaan)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q49a",
+    "text": "Is er een andere partij waartoe u zich aangetrokken voelt?",
+    "stem": "Is er een andere partij waartoe u zich aangetrokken voelt?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "VVD"
+      },
+      {
+        "value": 2,
+        "label": "PVV"
+      },
+      {
+        "value": 3,
+        "label": "CDA"
+      },
+      {
+        "value": 4,
+        "label": "D66"
+      },
+      {
+        "value": 5,
+        "label": "GroenLinks"
+      },
+      {
+        "value": 6,
+        "label": "SP"
+      },
+      {
+        "value": 7,
+        "label": "PvdA"
+      },
+      {
+        "value": 8,
+        "label": "ChristenUnie"
+      },
+      {
+        "value": 9,
+        "label": "Partij voor de Dieren"
+      },
+      {
+        "value": 10,
+        "label": "50PLUS"
+      },
+      {
+        "value": 11,
+        "label": "SGP"
+      },
+      {
+        "value": 12,
+        "label": "DENK"
+      },
+      {
+        "value": 13,
+        "label": "Forum voor Democratie"
+      },
+      {
+        "value": 14,
+        "label": "Anders, namelijk:"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_eerlijk_geteld",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Stemmen worden eerlijk geteld",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_oppositie_uitgesloten",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Kandidaten van de oppositie worden van deelname uitgesloten",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_tv_partij",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Het TV nieuws is op de hand van de regerende partij",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_omgekocht",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Stemmers worden omgekocht",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_eerlijke_weergave",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Journalisten geven een eerlijke weergave van de verkiezingen",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_eerlijk_functionarissen",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Verkiezingsfunctionarissen zijn eerlijk",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_kopen_uitslag",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Rijke mensen kopen de verkiezingsuitslag",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_bedreigd",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "stem": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?",
+    "item": "Stemmers worden bedreigd met geweld bij de verkiezingen",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer vaak"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk vaak"
+      },
+      {
+        "value": 3,
+        "label": "Niet zo vaak"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet vaak"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q51",
+    "text": "Nu willen we graag uw mening weten over mensen van andere landen die in Nederland komen wonen: immigranten. Hoe beoordeelt u de invloed die deze mensen hebben op de ontwikkeling van Nederland?",
+    "stem": "Hoe beoordeelt u de invloed die deze mensen hebben op de ontwikkeling van Nederland?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Erg goed"
+      },
+      {
+        "value": 2,
+        "label": "Nogal goed"
+      },
+      {
+        "value": 3,
+        "label": "Niet goed, niet slecht"
+      },
+      {
+        "value": 4,
+        "label": "Nogal slecht"
+      },
+      {
+        "value": 5,
+        "label": "Erg slecht"
+      },
+      {
+        "value": 6,
+        "label": "Weet niet (spontaan)"
+      },
+      {
+        "value": 7,
+        "label": "Geen antwoord (spontaan)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52A",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "stem": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "item": "Immigranten nemen banen weg van Nederlanders",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52B",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "stem": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "item": "Immigranten maken de criminaliteitsproblemen erger",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52C",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "stem": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "item": "Immigranten zetten de verzorgingsstaat in een land onder druk",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52D",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "stem": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen",
+    "item": "Het is beter wanneer immigranten hun eigen gebruiken en tradities behouden",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_geboren_nederland",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Anderen zeggen dat ze niet belangrijk zijn. Hoe belangrijk vindt u elk van de volgende zaken?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken?",
+    "item": "Men moet geboren zijn in Nederland",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_politiek_respecteren",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Anderen zeggen dat ze niet belangrijk zijn. Hoe belangrijk vindt u elk van de volgende zaken?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken?",
+    "item": "Men moet het Nederlandse politieke systeem en zijn wetgeving respecteren",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_voorouders",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Anderen zeggen dat ze niet belangrijk zijn. Hoe belangrijk vindt u elk van de volgende zaken?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken?",
+    "item": "Men moet Nederlandse voorouders hebben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_nederlands_spreken",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Anderen zeggen dat ze niet belangrijk zijn. Hoe belangrijk vindt u elk van de volgende zaken?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken?",
+    "item": "Men moet Nederlands kunnen spreken",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_cultuur_delen",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Anderen zeggen dat ze niet belangrijk zijn. Hoe belangrijk vindt u elk van de volgende zaken?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken?",
+    "item": "Men moet de Nederlandse cultuur delen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_geboren_europa",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "item": "Men moet geboren zijn in Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_europese_voorouders",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "item": "Men moet Europse voorouders hebben",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_christen",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "item": "Men moet een Christen zijn",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_europese_cultuur",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "stem": "Hoe belangrijk vindt u elk van de volgende zaken om Europeaan te zijn?",
+    "item": "Men moet de Europese cultuur delen",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      },
+      {
+        "value": 5,
+        "label": "Weet niet"
+      },
+      {
+        "value": 6,
+        "label": "Geen antwoord"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q55",
+    "text": "Sommige mensen zeggen dat de uitbreiding van de Europese Unie verder moet gaan. Anderen zeggen dat die al te ver is gegaan. Welk cijfer op deze kaart geeft het best uw mening weer, waarbij 1 betekent \"zou verder moeten gaan\" en 10 betekent \"is al te ver gegaan\"?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_bereid_deel_inkomen_milieu",
+    "text": "Ik ben bereid een deel van mijn inkomen af te staan wanneer ik er zeker van zou zijn dat het geld zou worden gebruikt om milieuvervuiling tegen te gaan",
+    "stem": "In welke mate bent u het eens of oneens met de volgende uitspraken?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_moeilijk_veel_voor_milieu_doen",
+    "text": "Het is gewoon te moeilijk voor iemand als ik om veel voor het milieu te doen",
+    "stem": "In welke mate bent u het eens of oneens met de volgende uitspraken?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_belangrijkere_dingen_dan_milieu",
+    "text": "Er zijn belangrijkere dingen in het leven dan het milieu beschermen",
+    "stem": "In welke mate bent u het eens of oneens met de volgende uitspraken?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_geen_zin_inspannen_milieu",
+    "text": "Het heeft geen zin om me in te spannen voor het milieu als anderen niet hetzelfde doen",
+    "stem": "In welke mate bent u het eens of oneens met de volgende uitspraken?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_veel_beweringen_overdreven",
+    "text": "Veel beweringen over het bedreigde milieu zijn overdreven",
+    "stem": "In welke mate bent u het eens of oneens met de volgende uitspraken?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Helemaal mee eens"
+      },
+      {
+        "value": 2,
+        "label": "Mee eens"
+      },
+      {
+        "value": 3,
+        "label": "Eens noch oneens"
+      },
+      {
+        "value": 4,
+        "label": "Niet mee eens"
+      },
+      {
+        "value": 5,
+        "label": "Helemaal niet mee eens"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q57",
+    "text": "Hier staan twee uitspraken die mensen wel eens doen als ze discussiëren over het milieu en economische groei. Welke van deze komt het dichtst bij uw mening?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Het milieu beschermen moet prioriteit hebben, zelfs als dit de economische groei vertraagt en banen kost"
+      },
+      {
+        "value": 2,
+        "label": "Economische groei en het scheppen van banen moet de prioriteit zijn, ook al lijdt het milieu hier wat onder"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_cameratoezicht",
+    "text": "Mensen onder cameratoezicht houden in openbare ruimtes",
+    "stem": "Vindt u dat de Nederlandse overheid wel of niet het recht zou moeten hebben om het volgende te doen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zou zeker het recht moeten hebben"
+      },
+      {
+        "value": 2,
+        "label": "Zou waarschijnlijk het recht moeten hebben"
+      },
+      {
+        "value": 3,
+        "label": "Zou waarschijnlijk niet het recht moeten hebben"
+      },
+      {
+        "value": 4,
+        "label": "Zou zeker niet het recht moeten hebben"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_controleren_emails",
+    "text": "Het controleren van e-mails en andere informatie via het internet",
+    "stem": "Vindt u dat de Nederlandse overheid wel of niet het recht zou moeten hebben om het volgende te doen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zou zeker het recht moeten hebben"
+      },
+      {
+        "value": 2,
+        "label": "Zou waarschijnlijk het recht moeten hebben"
+      },
+      {
+        "value": 3,
+        "label": "Zou waarschijnlijk niet het recht moeten hebben"
+      },
+      {
+        "value": 4,
+        "label": "Zou zeker niet het recht moeten hebben"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_informatie_verzamelen",
+    "text": "Zonder zijn of haar medeweten informatie verzamelen over",
+    "stem": "Vindt u dat de Nederlandse overheid wel of niet het recht zou moeten hebben om het volgende te doen?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zou zeker het recht moeten hebben"
+      },
+      {
+        "value": 2,
+        "label": "Zou waarschijnlijk het recht moeten hebben"
+      },
+      {
+        "value": 3,
+        "label": "Zou waarschijnlijk niet het recht moeten hebben"
+      },
+      {
+        "value": 4,
+        "label": "Zou zeker niet het recht moeten hebben"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59",
+    "text": "Hoe vaak volgt u de politiek...",
+    "stem": null,
+    "item": "... op televisie",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dagelijks"
+      },
+      {
+        "value": 2,
+        "label": "Meerdere keren per week"
+      },
+      {
+        "value": 3,
+        "label": "Een of twee keer per week"
+      },
+      {
+        "value": 4,
+        "label": "Minder vaak"
+      },
+      {
+        "value": 5,
+        "label": "Nooit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59",
+    "text": "Hoe vaak volgt u de politiek...",
+    "stem": null,
+    "item": "... op de radio",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dagelijks"
+      },
+      {
+        "value": 2,
+        "label": "Meerdere keren per week"
+      },
+      {
+        "value": 3,
+        "label": "Een of twee keer per week"
+      },
+      {
+        "value": 4,
+        "label": "Minder vaak"
+      },
+      {
+        "value": 5,
+        "label": "Nooit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59",
+    "text": "Hoe vaak volgt u de politiek...",
+    "stem": null,
+    "item": "... in de krant",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dagelijks"
+      },
+      {
+        "value": 2,
+        "label": "Meerdere keren per week"
+      },
+      {
+        "value": 3,
+        "label": "Een of twee keer per week"
+      },
+      {
+        "value": 4,
+        "label": "Minder vaak"
+      },
+      {
+        "value": 5,
+        "label": "Nooit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59",
+    "text": "Hoe vaak volgt u de politiek...",
+    "stem": null,
+    "item": "... op sociale media",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dagelijks"
+      },
+      {
+        "value": 2,
+        "label": "Meerdere keren per week"
+      },
+      {
+        "value": 3,
+        "label": "Een of twee keer per week"
+      },
+      {
+        "value": 4,
+        "label": "Minder vaak"
+      },
+      {
+        "value": 5,
+        "label": "Nooit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_buurt",
+    "text": "Mensen uit uw buurt/omgeving",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_regio",
+    "text": "Mensen in de regio waar u woont",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_landgenoten",
+    "text": "Uw landgenoten",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_europeanen",
+    "text": "Europeanen",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_wereld",
+    "text": "Alle mensen over de hele wereld",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_bejaarden",
+    "text": "De bejaarden",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van de volgende groepen in uw land:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_werklozen",
+    "text": "De werklozen",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van de volgende groepen in uw land:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_immigranten",
+    "text": "Immigranten",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van de volgende groepen in uw land:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_zieken",
+    "text": "Zieken en gehandicapten",
+    "stem": "In hoeverre voelt u zich betrokken bij de levensomstandigheden van de volgende groepen in uw land:",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer sterk"
+      },
+      {
+        "value": 2,
+        "label": "Sterk"
+      },
+      {
+        "value": 3,
+        "label": "Tot op zekere hoogte"
+      },
+      {
+        "value": 4,
+        "label": "Niet zo sterk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_inkomensverschillen",
+    "text": "Het opheffen van grote inkomensverschillen tussen burgers",
+    "stem": "Waar zou een samenleving voor moeten zorgen? Wilt u voor elke uitspraak aangeven of het belangrijk of onbelangrijk voor u is.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_basisbehoeften",
+    "text": "Het garanderen dat de basisbehoeften van iedereen worden bevredigd: eten, huisvesting, kleding, onderwijs, gezondheidszorg",
+    "stem": "Waar zou een samenleving voor moeten zorgen? Wilt u voor elke uitspraak aangeven of het belangrijk of onbelangrijk voor u is.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_erkenning_verdienste",
+    "text": "De erkenning van ieders verdienste",
+    "stem": "Waar zou een samenleving voor moeten zorgen? Wilt u voor elke uitspraak aangeven of het belangrijk of onbelangrijk voor u is.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_bescherming_terrorisme",
+    "text": "De bescherming tegen terrorisme",
+    "stem": "Waar zou een samenleving voor moeten zorgen? Wilt u voor elke uitspraak aangeven of het belangrijk of onbelangrijk voor u is.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zeer belangrijk"
+      },
+      {
+        "value": 2,
+        "label": "Tamelijk belangrijk"
+      },
+      {
+        "value": 3,
+        "label": "Niet belangrijk"
+      },
+      {
+        "value": 4,
+        "label": "Helemaal niet belangrijk"
+      }
+    ],
+    "answer_cue": null
+  }
+]

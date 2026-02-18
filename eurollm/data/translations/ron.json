@@ -1,0 +1,5264 @@
+[
+  {
+    "id": "v1",
+    "text": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs. Munca",
+    "stem": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs.",
+    "item": "Munca",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v2",
+    "text": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs. Familia",
+    "stem": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs.",
+    "item": "Familia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v3",
+    "text": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs. Prietenii şi cunoştinţele",
+    "stem": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs.",
+    "item": "Prietenii şi cunoştinţele",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v4",
+    "text": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs. Timpul liber",
+    "stem": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs.",
+    "item": "Timpul liber",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v5",
+    "text": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs. Politica",
+    "stem": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs.",
+    "item": "Politica",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v6",
+    "text": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs. Religia",
+    "stem": "Vă rugăm să ne spuneți cât de importante sunt următoarele lucruri în viața dvs.",
+    "item": "Religia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Luând în considerare toate aspectele vietii dvs. ati spune ca sunteti...",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte fericit"
+      },
+      {
+        "value": 2,
+        "label": "Destul de fericit"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea fericit"
+      },
+      {
+        "value": 4,
+        "label": "Deloc fericit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "Cum ați descrie starea dvs. de sănătate în prezent",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "foarte bună"
+      },
+      {
+        "value": 2,
+        "label": "bună"
+      },
+      {
+        "value": 3,
+        "label": "aşa şi aşa"
+      },
+      {
+        "value": 4,
+        "label": "proastă"
+      },
+      {
+        "value": 5,
+        "label": "foarte proastă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v9",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Organizatii religioase sau bisericesti",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "A Organizatii religioase sau bisericesti",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v10",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Educatie, arta, muzica sau activitati culturale",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "B Educatie, arta, muzica sau activitati culturale",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v11",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Sindicate",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "C Sindicate",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v12",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Grupuri sau partide politice",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "D Grupuri sau partide politice",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v13",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Mediul înconjurator, ecologie, drepturile animalelor",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "E Mediul înconjurator, ecologie, drepturile animalelor",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v14",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Asociatii profesionale",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "F Asociatii profesionale",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v15",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Sport sau recreare",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "G Sport sau recreare",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v16",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Organizaţii umanitare sau caritabile",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "H Organizaţii umanitare sau caritabile",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v17",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Organizaţii ale consumatorilor",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "I Organizaţii ale consumatorilor",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v18",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Grupuri de sprijin, de ajutor între oameni cu aceleaşi probleme",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "J Grupuri de sprijin, de ajutor între oameni cu aceleaşi probleme",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v19",
+    "text": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți? Alte grupuri",
+    "stem": "V-aş ruga în continuare să vă uitaţi atent la următoarea listă de organizații voluntare și să-mi spuneți cărora dintre ele le aparțineți?",
+    "item": "K Alte grupuri",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "nementionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q5",
+    "text": "Aţi făcut muncă voluntară (voluntariat) în ultimele 6 luni?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v22",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Persoane de rasă diferită de a dvs.",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "A Persoane de rasă diferită de a dvs.",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v23",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Alcoolici înraiti",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "B Alcoolici înraiti",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v24",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Imigranţi/ muncitori din străinătate",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "C Imigranţi/ muncitori din străinătate",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v25",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Persoane dependente de droguri",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "D Persoane dependente de droguri",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v26",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Homosexuali",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "E Homosexuali",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v27",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Creştini",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "F Creştini",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v28",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Musulmani",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "G Musulmani",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v29",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Evrei",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "H Evrei",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v30",
+    "text": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini? Ţigani",
+    "stem": "Pe lista următoare sunt trecute diferite grupuri de persoane. Ați putea, vă rugăm, să îi identificați pe aceia pe care nu i-ați dori ca vecini?",
+    "item": "I Ţigani",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "În general vorbind, ați spune că se poate avea încredere în cei mai mulți dintre oameni sau e mai bine să fi atent în relațiile cu oamenii?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "se poate avea încredere în cei mai multi dintre oameni"
+      },
+      {
+        "value": 2,
+        "label": "E mai bine să fii atent în relaţiile cu oamenii"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v32",
+    "text": "Cât de multă încredere aveți în oamenii din următoarele categorii? Familia dvs.",
+    "stem": "Cât de multă încredere aveți în oamenii din următoarele categorii?",
+    "item": "Familia dvs.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multă"
+      },
+      {
+        "value": 2,
+        "label": "Multă"
+      },
+      {
+        "value": 3,
+        "label": "Puțină"
+      },
+      {
+        "value": 4,
+        "label": "Foarte puțină"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v33",
+    "text": "Cât de multă încredere aveți în oamenii din următoarele categorii? Oamenii din cartierul dvs.",
+    "stem": "Cât de multă încredere aveți în oamenii din următoarele categorii?",
+    "item": "Oamenii din cartierul dvs.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multă"
+      },
+      {
+        "value": 2,
+        "label": "Multă"
+      },
+      {
+        "value": 3,
+        "label": "Puțină"
+      },
+      {
+        "value": 4,
+        "label": "Foarte puțină"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v34",
+    "text": "Cât de multă încredere aveți în oamenii din următoarele categorii? Oamenii pe care îi cunoașteți personal",
+    "stem": "Cât de multă încredere aveți în oamenii din următoarele categorii?",
+    "item": "Oamenii pe care îi cunoașteți personal",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multă"
+      },
+      {
+        "value": 2,
+        "label": "Multă"
+      },
+      {
+        "value": 3,
+        "label": "Puțină"
+      },
+      {
+        "value": 4,
+        "label": "Foarte puțină"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v35",
+    "text": "Cât de multă încredere aveți în oamenii din următoarele categorii? Oamenii pe care îi întâlniți pentru prima dată",
+    "stem": "Cât de multă încredere aveți în oamenii din următoarele categorii?",
+    "item": "Oamenii pe care îi întâlniți pentru prima dată",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multă"
+      },
+      {
+        "value": 2,
+        "label": "Multă"
+      },
+      {
+        "value": 3,
+        "label": "Puțină"
+      },
+      {
+        "value": 4,
+        "label": "Foarte puțină"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v36",
+    "text": "Cât de multă încredere aveți în oamenii din următoarele categorii? Oamenii de altă religie",
+    "stem": "Cât de multă încredere aveți în oamenii din următoarele categorii?",
+    "item": "Oamenii de altă religie",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multă"
+      },
+      {
+        "value": 2,
+        "label": "Multă"
+      },
+      {
+        "value": 3,
+        "label": "Puțină"
+      },
+      {
+        "value": 4,
+        "label": "Foarte puțină"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v37",
+    "text": "Cât de multă încredere aveți în oamenii din următoarele categorii? Oamenii de altă naționalitate",
+    "stem": "Cât de multă încredere aveți în oamenii din următoarele categorii?",
+    "item": "Oamenii de altă naționalitate",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multă"
+      },
+      {
+        "value": 2,
+        "label": "Multă"
+      },
+      {
+        "value": 3,
+        "label": "Puțină"
+      },
+      {
+        "value": 4,
+        "label": "Foarte puțină"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Unii oameni cred ca au libertate totala de alegere si de control asupra vietii lor, iar alti oameni cred ca indiferent ce fac nu pot influenta ce li se întâmpla în viata. Va rugam sa folositi scala urmatoare pentru a indica câta libertate de alegere credeti ca aveti dvs.?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nu am deloc"
+      },
+      {
+        "value": 10,
+        "label": "Am libertate deplina"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Daca luati în considerare toate aspectele vietii dvs. în ultimul timp, în ce masura sunteti multumit de ea?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nemultumit"
+      },
+      {
+        "value": 10,
+        "label": "Multumit"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v40",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? Sa fie bine platita",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "A Sa fie bine platita",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v41",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job? Program convenabil",
+    "stem": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "item": "B Program convenabil",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v40",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "Sa fie bine platita",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v41",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "Program convenabil",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v42",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "Posibilitatea de a avea initiativa",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v43",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "Mai multe zile de concediu",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v44",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "O slujba în care sa simti ca poti realiza ceva",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v45",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "O slujba cu responsabilitati",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v45a",
+    "text": "Here are some aspects of a job that people say are important. Please look at them and tell me which ones you personally think are important in a job?",
+    "stem": "None of these (spontaneous)",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v46",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Trebuie să ai o slujbă ca să îți pui în valoare aptitudinile",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v47",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Este umilitor să primești bani fără să muncești pentru ei",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v48",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Oamenii care nu muncesc ajung leneşi",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v49",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Munca este o datorie catre societate",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v50",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Munca trebuie să fie întotdeauna pe primul loc, chiar dacă înseamnă mai puțin timp liber",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v51",
+    "text": "Apartineți vreunei religii?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v52",
+    "text": "Căreia?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Romano Catolică"
+      },
+      {
+        "value": 2,
+        "label": "Protestantă"
+      },
+      {
+        "value": 3,
+        "label": "Ortodoxă"
+      },
+      {
+        "value": 4,
+        "label": "Iudaică"
+      },
+      {
+        "value": 5,
+        "label": "Musulmană"
+      },
+      {
+        "value": 6,
+        "label": "Hindu"
+      },
+      {
+        "value": 7,
+        "label": "Budistă"
+      },
+      {
+        "value": 8,
+        "label": "Greco Catolică"
+      },
+      {
+        "value": 9,
+        "label": "Neoprotestantă"
+      },
+      {
+        "value": 10,
+        "label": "Religion 10"
+      },
+      {
+        "value": 11,
+        "label": "Religion 11"
+      },
+      {
+        "value": 12,
+        "label": "Religion 12"
+      },
+      {
+        "value": 13,
+        "label": "Religion 13"
+      },
+      {
+        "value": 14,
+        "label": "Religion 14"
+      },
+      {
+        "value": 15,
+        "label": "Religion 15"
+      },
+      {
+        "value": 16,
+        "label": "Religion 16"
+      },
+      {
+        "value": 17,
+        "label": "Religion 17"
+      },
+      {
+        "value": 18,
+        "label": "Religion 18"
+      },
+      {
+        "value": 19,
+        "label": "Religion 19"
+      },
+      {
+        "value": 20,
+        "label": "Religion 20"
+      },
+      {
+        "value": 21,
+        "label": "Religion 21"
+      },
+      {
+        "value": 22,
+        "label": "Religion 22"
+      },
+      {
+        "value": 23,
+        "label": "Religion 23"
+      },
+      {
+        "value": 24,
+        "label": "Religion 24"
+      },
+      {
+        "value": 25,
+        "label": "Religion 25"
+      },
+      {
+        "value": 26,
+        "label": "Religion 26"
+      },
+      {
+        "value": 27,
+        "label": "Religion 27"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v52a",
+    "text": "Căreia?",
+    "stem": "Alta (care",
+    "item": null,
+    "response_type": "categorical",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v53",
+    "text": "Aţi aparţinut vreodată unei alte religii?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v54",
+    "text": "În afara de nunți, înmormântari și botezuri, cât de des ați mers în ultimul timp la biserica?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "De mai multe ori pe saptamâna"
+      },
+      {
+        "value": 2,
+        "label": "O data pe saptamâna"
+      },
+      {
+        "value": 3,
+        "label": "O data pe luna"
+      },
+      {
+        "value": 4,
+        "label": "Doar la cele mai importante sărbători religioase"
+      },
+      {
+        "value": 5,
+        "label": "O data pe an"
+      },
+      {
+        "value": 6,
+        "label": "O data la câtiva ani"
+      },
+      {
+        "value": 7,
+        "label": "Niciodată sau aproape niciodată"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v55",
+    "text": "Indiferent daca mergeti sau nu la biserica, ati putea spune ca sunteti....",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "o persoană religioasă"
+      },
+      {
+        "value": 2,
+        "label": "nu sunteți o persoană religioasă"
+      },
+      {
+        "value": 3,
+        "label": "un ateu convins"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v56",
+    "text": "Credeti sau nu ca exista:",
+    "stem": "Dumnezeu",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v57",
+    "text": "Credeti sau nu ca exista:",
+    "stem": "Viata de dupa moarte",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v58",
+    "text": "Credeti sau nu ca exista:",
+    "stem": "Iadul",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v59",
+    "text": "Credeti sau nu ca exista:",
+    "stem": "Raiul",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v60",
+    "text": "Credeți în reîncarnare, adică în faptul că fiecare trăiește mai multe vieți și că poate renaște în această lume, după moarte?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v61",
+    "text": "Care din urmatoarele afirmatii se aproprie cel mai mult de convingerile dvs.?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Există un Dumnezeu întrupat într-o fiinţă"
+      },
+      {
+        "value": 2,
+        "label": "Există un spirit sau o forţă a vieții"
+      },
+      {
+        "value": 3,
+        "label": "Nu ştiu ce să cred"
+      },
+      {
+        "value": 4,
+        "label": "Nu cred că există un spirit, Dumnezeu sau forță a vieții"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v62",
+    "text": "Cât de important este Dumnezeu în viața dvs.?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "deloc important"
+      },
+      {
+        "value": 10,
+        "label": "foarte important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v63",
+    "text": "Cât de des vă rugați în afara serviciilor religioase?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "În fiecare zi"
+      },
+      {
+        "value": 2,
+        "label": "De câteva ori pe saptamâna"
+      },
+      {
+        "value": 3,
+        "label": "O data pe saptamâna"
+      },
+      {
+        "value": 4,
+        "label": "Cel putin o data pe luna"
+      },
+      {
+        "value": 5,
+        "label": "De mai multe ori pe an"
+      },
+      {
+        "value": 6,
+        "label": "Mai rar"
+      },
+      {
+        "value": 7,
+        "label": "Niciodata"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v64",
+    "text": "Pentru a avea o căsnicie fericită sau un parteneriat fericit, cât de importante credeți că sunt următoarele",
+    "stem": "Sotii sa-si fie credinciosi unul altuia",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v65",
+    "text": "Pentru a avea o căsnicie fericită sau un parteneriat fericit, cât de importante credeți că sunt următoarele",
+    "stem": "Un venit potrivit",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v66",
+    "text": "Pentru a avea o căsnicie fericită sau un parteneriat fericit, cât de importante credeți că sunt următoarele",
+    "stem": "Conditiile de locuire",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v67",
+    "text": "Pentru a avea o căsnicie fericită sau un parteneriat fericit, cât de importante credeți că sunt următoarele",
+    "stem": "Împartirea treburilor casnice",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v68",
+    "text": "Pentru a avea o căsnicie fericită sau un parteneriat fericit, cât de importante credeți că sunt următoarele",
+    "stem": "Sa aiba copii",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v69",
+    "text": "Pentru a avea o căsnicie fericită sau un parteneriat fericit, cât de importante credeți că sunt următoarele",
+    "stem": "Să aibă timp pentru prietenii proprii şi pentru activitățile și hobby-urile personale",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v70",
+    "text": "Sunteti de acord sau împotriva acestei afirmatii: Căsătoria este o instituţie demodată",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "De acord"
+      },
+      {
+        "value": 2,
+        "label": "Împotriva"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v71",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Copiii suferă dacă mama lor lucrează (are serviciu).",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v72",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "A avea o slujba este un lucru foarte bun, dar ceea ce îsi doresc cu adevarat femeile este sa aiba familie si copii",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v73",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "În general, viața de familie suferă când femeia lucrează cu normă întreagă.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v74",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Treaba bărbatului este să câștige bani; treaba femeii este să aibă grijă de casă şi familie",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v75",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "În general, bărbații sunt lideri politici mai buni decât femeile.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v76",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "ÎStudiile universitare sunt mai importante pentru un băiat decât pentru o fată.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v77",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Bărbaţii conduc mai bine afacerile decât femeile.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v78",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Unul dintre principalele mele scopuri în viaţă este să îmi fac părinţii mândri de mine.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "mare masura"
+      },
+      {
+        "value": 2,
+        "label": "masura"
+      },
+      {
+        "value": 3,
+        "label": "masura"
+      },
+      {
+        "value": 4,
+        "label": "mica masura"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v79",
+    "text": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "stem": "Când exista putine locuri de munca românii ar trebui sa aiba întâietate în fata imigrantilor (strainilor)",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v80",
+    "text": "Când exista putine locuri de munca românii ar trebui sa aiba întâietate în fata imigrantilor (strainilor)",
+    "stem": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "item": "Când exista putine locuri de munca românii ar trebui sa aiba întâietate în fata imigrantilor (strainilor)",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "Când exista putine locuri de munca barbatii au dreptul la slujba mai mult decât femeile",
+    "stem": "În ce măsură sunteți de acord cu următoarele afirmaţii?",
+    "item": "Când exista putine locuri de munca barbatii au dreptul la slujba mai mult decât femeile",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v82",
+    "text": "Cuplurile homosexuale sunt părinți la fel de buni ca alte cupluri",
+    "stem": "Sunteti de acord sau nu cu urmatoarele afirmatii ?",
+    "item": "Cuplurile homosexuale sunt părinți la fel de buni ca alte cupluri",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v83",
+    "text": "A avea copii este o datorie față de societate",
+    "stem": "Sunteti de acord sau nu cu urmatoarele afirmatii ?",
+    "item": "A avea copii este o datorie față de societate",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v84",
+    "text": "După ce devin adulți, copiii au datoria de a oferi îngrijire pe termen lung părinților lor",
+    "stem": "Sunteti de acord sau nu cu urmatoarele afirmatii ?",
+    "item": "După ce devin adulți, copiii au datoria de a oferi îngrijire pe termen lung părinților lor",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "Bunele maniere",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Bunele maniere",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "Independenta",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Independenta",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Harnicia",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Harnicia",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Sentimentul de responsabilitate",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Sentimentul de responsabilitate",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Imaginatia",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Imaginatia",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Toleranta si respectul pentru alte persoane",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Toleranta si respectul pentru alte persoane",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Spiritul de economie",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Spiritul de economie",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v92",
+    "text": "Perseverenta",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Perseverenta",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v93",
+    "text": "Credinta religioasa",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Credinta religioasa",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v94",
+    "text": "Altruismul",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Altruismul",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v95",
+    "text": "Supunerea",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Supunerea",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v96",
+    "text": "Niciuna (răspuns spontan)",
+    "stem": "Am să vă citesc o listă cu lucruri pe care copii le pot învăța acasă. Alegeți cinci dintre ele pe care le considerați cele mai dezirabile la un copil. Alegeți maxim cinci!",
+    "item": "Niciuna (răspuns spontan)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "mentionat"
+      },
+      {
+        "value": 2,
+        "label": "Nu e mentionat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v97",
+    "text": "Cât interesat ați spune că sunteţi de politică?",
+    "stem": "Cât interesat ați spune că sunteţi de politică?",
+    "item": "Cât interesat ați spune că sunteţi de politică?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "foarte interesat"
+      },
+      {
+        "value": 2,
+        "label": "oarecum interesat"
+      },
+      {
+        "value": 3,
+        "label": "nu prea interesat"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Semnarea unei petitii",
+    "stem": "Va voi citi o lista de actiuni de protest la care pot participa oamenii. V as ruga sa spuneti daca ati participat deja la astfel de actiuni, daca ati participa sau nu ati participa în nici un caz.",
+    "item": "Semnarea unei petitii",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Am participat deja"
+      },
+      {
+        "value": 2,
+        "label": "As putea sa particip"
+      },
+      {
+        "value": 3,
+        "label": "Nu as participa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v99",
+    "text": "Participarea la un boicot",
+    "stem": "Va voi citi o lista de actiuni de protest la care pot participa oamenii. V as ruga sa spuneti daca ati participat deja la astfel de actiuni, daca ati participa sau nu ati participa în nici un caz.",
+    "item": "Participarea la un boicot",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Am participat deja"
+      },
+      {
+        "value": 2,
+        "label": "As putea sa particip"
+      },
+      {
+        "value": 3,
+        "label": "Nu as participa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v100",
+    "text": "Participarea la demonstratii legale",
+    "stem": "Va voi citi o lista de actiuni de protest la care pot participa oamenii. V as ruga sa spuneti daca ati participat deja la astfel de actiuni, daca ati participa sau nu ati participa în nici un caz.",
+    "item": "Participarea la demonstratii legale",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Am participat deja"
+      },
+      {
+        "value": 2,
+        "label": "As putea sa particip"
+      },
+      {
+        "value": 3,
+        "label": "Nu as participa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v101",
+    "text": "Participarea la greve ilegale",
+    "stem": "Va voi citi o lista de actiuni de protest la care pot participa oamenii. V as ruga sa spuneti daca ati participat deja la astfel de actiuni, daca ati participa sau nu ati participa în nici un caz.",
+    "item": "Participarea la greve ilegale",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Am participat deja"
+      },
+      {
+        "value": 2,
+        "label": "As putea sa particip"
+      },
+      {
+        "value": 3,
+        "label": "Nu as participa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v102",
+    "text": "În materie de politica, oamenii vorbesc despre \"stânga\" si \"dreapta\". În general vorbind, unde v-ati plasa pe scala de mai jos?",
+    "stem": "În materie de politica, oamenii vorbesc despre \"stânga\" si \"dreapta\". În general vorbind, unde v-ati plasa pe scala de mai jos?",
+    "item": "În materie de politica, oamenii vorbesc despre \"stânga\" si \"dreapta\". În general vorbind, unde v-ati plasa pe scala de mai jos?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "stânga"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "dreapta"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "stem": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "item": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Fiecare individ ar trebui să îşi asume mai multă responsabilitate pentru propria bunăstare"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Statul ar trebui să îşi asume mai multă responsabilitate pentru bunăstarea fiecăruia"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "stem": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "item": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Şomerii ar trebui să accepte orice slujbă disponibilă sau să nu primească ajutorul de şomaj"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Şomerii ar trebui să aibă dreptul de a refuza o slujbă pe care nu o doresc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "stem": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "item": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Competiţia este bună"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Competiţia este dăunătoare"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "stem": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "item": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Veniturile ar trebui să fie mai degrabă egale"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Ar trebui să fie recompense mai mari pentru efortul individual"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "stem": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "item": "Am să vă citesc o listă cu afirmaţii privind diferite probleme din societatea în care trăim. Cum v-ați plasa pe această scală din punct de vedere al propriilor dvs. opinii?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Proprietatea privată ar trebui să se extindă şi să se dezvolte"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": null
+      },
+      {
+        "value": 6,
+        "label": null
+      },
+      {
+        "value": 7,
+        "label": null
+      },
+      {
+        "value": 8,
+        "label": null
+      },
+      {
+        "value": 9,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Proprietatea de stat ar trebui să se extindă şi să se dezvolte"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v108",
+    "text": "Dacă ar trebui să alegeți, care dintre următoarele lucruri vi se pare mai important?",
+    "stem": "Se discută mult despre lucrurile cărora trebuie să li se dea întâietate în următorii 10 ani în țara noastră. Dacă ar fi să alegeți, care dintre următoarele lucruri vi se pare mai important?",
+    "item": "Dacă ar trebui să alegeți, care dintre următoarele lucruri vi se pare mai important?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Un nivel ridicat de creștere economică"
+      },
+      {
+        "value": 2,
+        "label": "Să ne asigurăm că țara are o puternică forță de apărare"
+      },
+      {
+        "value": 3,
+        "label": "Să vedem că oamenii au mai mult de spus despre cum merg lucrurile la locul de muncă și în comunitate"
+      },
+      {
+        "value": 4,
+        "label": "Să încercăm să facem satele și orașele mai frumoase"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v109",
+    "text": "Care ar fi al doilea lucru ca importanţă?",
+    "stem": "Care ar fi al doilea lucru ca importanţă?",
+    "item": "Care ar fi al doilea lucru ca importanţă?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Un nivel ridicat de creștere economică"
+      },
+      {
+        "value": 2,
+        "label": "Să ne asigurăm că țara are o puternică forță de apărare"
+      },
+      {
+        "value": 3,
+        "label": "Să vedem că oamenii au mai mult de spus despre cum merg lucrurile la locul de muncă și în comunitate"
+      },
+      {
+        "value": 4,
+        "label": "Să încercăm să facem satele și orașele mai frumoase"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v110",
+    "text": "Dacă ar fi să alegeți, care dintre următoarele lucruri vi se pare mai important?",
+    "stem": "Dacă ar fi să alegeți, care dintre următoarele lucruri vi se pare mai important?",
+    "item": "Dacă ar fi să alegeți, care dintre următoarele lucruri vi se pare mai important?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menţinerea ordinii în ţară"
+      },
+      {
+        "value": 2,
+        "label": "Oamenii să aibă un cuvânt mai greu de spus cu privire la deciziile importante ale guvernului"
+      },
+      {
+        "value": 3,
+        "label": "Lupta împotriva creşterii preţurilor"
+      },
+      {
+        "value": 4,
+        "label": "Protejarea libertății cuvântului"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v111",
+    "text": "Care ar fi al doilea lucru ca importanţă?",
+    "stem": "Care ar fi al doilea lucru ca importanţă?",
+    "item": "Care ar fi al doilea lucru ca importanţă?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Menţinerea ordinii în ţară"
+      },
+      {
+        "value": 2,
+        "label": "Oamenii să aibă un cuvânt mai greu de spus cu privire la deciziile importante ale guvernului"
+      },
+      {
+        "value": 3,
+        "label": "Lupta împotriva creşterii preţurilor"
+      },
+      {
+        "value": 4,
+        "label": "Protejarea libertății cuvântului"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v112",
+    "text": "Desigur, toţi ne dorim să nu aibă loc un alt război. Dacă ar avea loc un război, ați lupta sau nu pentru ţară?",
+    "stem": "Desigur, toţi ne dorim să nu aibă loc un alt război. Dacă ar avea loc un război, ați lupta sau nu pentru ţară?",
+    "item": "Desigur, toţi ne dorim să nu aibă loc un alt război. Dacă ar avea loc un război, ați lupta sau nu pentru ţară?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "Importanţa muncii în viața noastră să scadă",
+    "stem": "Va voi citi o lista cu două schimbari care ar putea să apară în modul nostru de viață în viitorul apropiat. Daca acestea s-ar produce, ați spune că ar fi mai bine, mai rău sau nu vă pasă?",
+    "item": "Importanţa muncii în viața noastră să scadă",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bine"
+      },
+      {
+        "value": 2,
+        "label": "Rau"
+      },
+      {
+        "value": 3,
+        "label": "Nu-mi pasă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "Sa creasca respectul fata de autoritate",
+    "stem": "Va voi citi o lista cu două schimbari care ar putea să apară în modul nostru de viață în viitorul apropiat. Daca acestea s-ar produce, ați spune că ar fi mai bine, mai rău sau nu vă pasă?",
+    "item": "Sa creasca respectul fata de autoritate",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Bine"
+      },
+      {
+        "value": 2,
+        "label": "Rau"
+      },
+      {
+        "value": 3,
+        "label": "Nu-mi pasă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "Biserica",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Biserica",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v116",
+    "text": "Armata",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Armata",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v117",
+    "text": "Învatamânt",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Învatamânt",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v118",
+    "text": "Presa",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Presa",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v119",
+    "text": "Sindicate",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Sindicate",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v120",
+    "text": "Politie",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Politie",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v121",
+    "text": "Parlament",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Parlament",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v122",
+    "text": "Functionarii publici",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Functionarii publici",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v123",
+    "text": "Sistemul de protectie sociala",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Sistemul de protectie sociala",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v124",
+    "text": "Uniunea Europeana",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Uniunea Europeana",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v125",
+    "text": "O.N.U",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "O.N.U",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v126",
+    "text": "Sistemul sanitar",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Sistemul sanitar",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v127",
+    "text": "Justitia",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Justitia",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v128",
+    "text": "marile companii",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "marile companii",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v129",
+    "text": "Organizatiile pentru protectia mediului",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Organizatiile pentru protectia mediului",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v130",
+    "text": "partidele politice",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "partidele politice",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v131",
+    "text": "Guvern",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Guvern",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v132",
+    "text": "Social media (rețele de socializare)",
+    "stem": "Cât de multa încredere aveti în ...",
+    "item": "Social media (rețele de socializare)",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte multa"
+      },
+      {
+        "value": 2,
+        "label": "Destul de multa"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea multa"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v133",
+    "text": "Guvernele să taxeze bogații și să subvenţioneze săracii",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Guvernele să taxeze bogații și să subvenţioneze săracii",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v134",
+    "text": "Autorităţile religioase să aibă ultimul cuvânt despre cum trebuie înțelese legile",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Autorităţile religioase să aibă ultimul cuvânt despre cum trebuie înțelese legile",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v135",
+    "text": "Alegeri libere",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Alegeri libere",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v136",
+    "text": "Oamenii să primească ajutor de şomaj.",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Oamenii să primească ajutor de şomaj.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v137",
+    "text": "Armata să preia conducerea când guvernul e incompetent.",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Armata să preia conducerea când guvernul e incompetent.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v138",
+    "text": "Drepturile civile să-i protejeze pe oameni de abuzurile statului.",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Drepturile civile să-i protejeze pe oameni de abuzurile statului.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v139",
+    "text": "Statul să egalizeze veniturile oamenilor.",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Statul să egalizeze veniturile oamenilor.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v140",
+    "text": "Oamenii să se supună conducătorilor lor.",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Oamenii să se supună conducătorilor lor.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v141",
+    "text": "Femeile să aibă aceleași drepturi ca bărbații.",
+    "stem": "Multe lucruri sunt de dorit, dar nu toate sunt esențiale pentru democrație. Vă rog să îmi spuneți, pentru fiecare dintre următoarele, cât de importante le considerați drept caracteristici ale democrației. Folosiți scala de mai jos, unde 1 înseamnă \"Nu este o caracteristică esențială pentru democraţie\" iar 10 înseamnă \"Este o caracteristică esențială pentru democraţie\"",
+    "item": "Femeile să aibă aceleași drepturi ca bărbații.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v142",
+    "text": "Cât de important este pentru dvs. să trăiți într-o țară guvernată în mod democratic",
+    "stem": "Vă rugăm să dați o notă de la 1 la 10 pentru cât de important este pentru dvs. să trăiți într-o țară guvernată în mod democratic, unde 1 înseamnă \"Deloc important\" iar 10 înseamnă \"Foarte important\"",
+    "item": "Cât de important este pentru dvs. să trăiți într-o țară guvernată în mod democratic",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v143",
+    "text": "Cât de democratic credeți că este guvernată România în prezent?",
+    "stem": "Cât de democratic credeți că este guvernată România în prezent? Vă rugăm să dați o notă de la 1 la 10, unde 1 înseamnă \"deloc democratic\" iar 10 înseamnă \"cât se poate de democratic\"",
+    "item": "Cât de democratic credeți că este guvernată România în prezent?",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v144",
+    "text": "Cât de mulţumit sunteți cu felul în care funcționează azi sistemul politic din România?",
+    "stem": "Pe o scală de la 1 la 10 unde 1 înseamnă \"deloc mulțumit\" iar 10 înseamnă \"complet mulțumit\", cât de mulţumit sunteți cu felul în care funcționează azi sistemul politic din România?",
+    "item": "Cât de mulţumit sunteți cu felul în care funcționează azi sistemul politic din România?",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v145",
+    "text": "Sa aiba un conducator puternic, care nu îsi bate capul cu parlamentul si cu alegerile",
+    "stem": "Cât de bine credeți că ar fi pentru România ...",
+    "item": "Sa aiba un conducator puternic, care nu îsi bate capul cu parlamentul si cu alegerile",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte bine"
+      },
+      {
+        "value": 2,
+        "label": "Bine"
+      },
+      {
+        "value": 3,
+        "label": "Prost"
+      },
+      {
+        "value": 4,
+        "label": "Foarte prost"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Sa aiba un guvern de specialisti care conduc tara dupa cum cred ei ca este mai bine pentru tara",
+    "stem": "Cât de bine credeți că ar fi pentru România ...",
+    "item": "Sa aiba un guvern de specialisti care conduc tara dupa cum cred ei ca este mai bine pentru tara",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte bine"
+      },
+      {
+        "value": 2,
+        "label": "Bine"
+      },
+      {
+        "value": 3,
+        "label": "Prost"
+      },
+      {
+        "value": 4,
+        "label": "Foarte prost"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "Sa aiba la conducere un regim militar",
+    "stem": "Cât de bine credeți că ar fi pentru România ...",
+    "item": "Sa aiba la conducere un regim militar",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte bine"
+      },
+      {
+        "value": 2,
+        "label": "Bine"
+      },
+      {
+        "value": 3,
+        "label": "Prost"
+      },
+      {
+        "value": 4,
+        "label": "Foarte prost"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Sa aiba un sistem politic democratic",
+    "stem": "Cât de bine credeți că ar fi pentru România ...",
+    "item": "Sa aiba un sistem politic democratic",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte bine"
+      },
+      {
+        "value": 2,
+        "label": "Bine"
+      },
+      {
+        "value": 3,
+        "label": "Prost"
+      },
+      {
+        "value": 4,
+        "label": "Foarte prost"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Sa pretinzi de la stat beneficii la care nu esti îndreptatit",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Sa pretinzi de la stat beneficii la care nu esti îndreptatit",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v150",
+    "text": "Sa nu platesti taxele si impozitele, daca ai posibilitatea sa nu le platesti",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Sa nu platesti taxele si impozitele, daca ai posibilitatea sa nu le platesti",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v151",
+    "text": "Să consumi marijuana sau haşiş",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Să consumi marijuana sau haşiş",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v152",
+    "text": "Ca unii să accepte mită pentru a- şi îndeplini îndatoririle din cadrul slujbei lor",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Ca unii să accepte mită pentru a- şi îndeplini îndatoririle din cadrul slujbei lor",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v153",
+    "text": "Homosexualitatea",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Homosexualitatea",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v154",
+    "text": "Avortul",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Avortul",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v155",
+    "text": "Divortul",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Divortul",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v156",
+    "text": "Eutanasia (întreruperea vietii bolnavilor incurabili cu acordul acestora)",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Eutanasia (întreruperea vietii bolnavilor incurabili cu acordul acestora)",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v157",
+    "text": "Sinuciderea",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Sinuciderea",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v158",
+    "text": "Sa ai relatii sexuale întâmplatoare",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Sa ai relatii sexuale întâmplatoare",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v159",
+    "text": "Să mergi cu autobuzul/ trenul fără bilet",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Să mergi cu autobuzul/ trenul fără bilet",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Niciodata justificat ... Întotdeauna justificat"
+  },
+  {
+    "id": "v160",
+    "text": "Prostitutia",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Prostitutia",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Niciodata justificat ... Întotdeauna justificat"
+  },
+  {
+    "id": "v161",
+    "text": "Inseminarea artificială și fertilizarea in vitro",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Inseminarea artificială și fertilizarea in vitro",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Niciodata justificat ... Întotdeauna justificat"
+  },
+  {
+    "id": "v162",
+    "text": "Violența politică",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Violența politică",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Niciodata justificat ... Întotdeauna justificat"
+  },
+  {
+    "id": "v163",
+    "text": "Pedeapsa cu moartea",
+    "stem": "Pentru fiecare din afirmaţiile următoare, vă rog dați câte o notă de la 1 la 10, unde 1 înseamna că nu sunt justificate deloc, iar 10 înseamnă că sunt total justificate.",
+    "item": "Pedeapsa cu moartea",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Niciodata justificat ... Întotdeauna justificat"
+  },
+  {
+    "id": "v164",
+    "text": "localitatea sau oraşul în care trăiţi",
+    "stem": "Oamenii au păreri diferite despre ei înșiși și despre lume. Folosind această cartelă, ați putea să îmi spuneți cât de apropriat(ă) vă simțiți de ...",
+    "item": "localitatea sau oraşul în care trăiţi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte apropriat"
+      },
+      {
+        "value": 2,
+        "label": "Apropriat"
+      },
+      {
+        "value": 3,
+        "label": "Nu foarte apropriat"
+      },
+      {
+        "value": 4,
+        "label": "Deloc apropriat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "Regiunea istorică de care aparţineţi (Moldova, Muntenia, Ardeal etc.)",
+    "stem": "Oamenii au păreri diferite despre ei înșiși și despre lume. Folosind această cartelă, ați putea să îmi spuneți cât de apropriat(ă) vă simțiți de ...",
+    "item": "Regiunea istorică de care aparţineţi (Moldova, Muntenia, Ardeal etc.)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte apropriat"
+      },
+      {
+        "value": 2,
+        "label": "Apropriat"
+      },
+      {
+        "value": 3,
+        "label": "Nu foarte apropriat"
+      },
+      {
+        "value": 4,
+        "label": "Deloc apropriat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "România",
+    "stem": "Oamenii au păreri diferite despre ei înșiși și despre lume. Folosind această cartelă, ați putea să îmi spuneți cât de apropriat(ă) vă simțiți de ...",
+    "item": "România",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte apropriat"
+      },
+      {
+        "value": 2,
+        "label": "Apropriat"
+      },
+      {
+        "value": 3,
+        "label": "Nu foarte apropriat"
+      },
+      {
+        "value": 4,
+        "label": "Deloc apropriat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Europa",
+    "stem": "Oamenii au păreri diferite despre ei înșiși și despre lume. Folosind această cartelă, ați putea să îmi spuneți cât de apropriat(ă) vă simțiți de ...",
+    "item": "Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte apropriat"
+      },
+      {
+        "value": 2,
+        "label": "Apropriat"
+      },
+      {
+        "value": 3,
+        "label": "Nu foarte apropriat"
+      },
+      {
+        "value": 4,
+        "label": "Deloc apropriat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Lume, în general",
+    "stem": "Oamenii au păreri diferite despre ei înșiși și despre lume. Folosind această cartelă, ați putea să îmi spuneți cât de apropriat(ă) vă simțiți de ...",
+    "item": "Lume, în general",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte apropriat"
+      },
+      {
+        "value": 2,
+        "label": "Apropriat"
+      },
+      {
+        "value": 3,
+        "label": "Nu foarte apropriat"
+      },
+      {
+        "value": 4,
+        "label": "Deloc apropriat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v170",
+    "text": "Cât de mândru vă simțiți că sunteţi cetățean al României?",
+    "stem": null,
+    "item": "Cât de mândru vă simțiți că sunteţi cetățean al României?",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mândru"
+      },
+      {
+        "value": 2,
+        "label": "Destul de mândru"
+      },
+      {
+        "value": 3,
+        "label": "Nu prea mândru"
+      },
+      {
+        "value": 4,
+        "label": "Deloc"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Cum ați evalua dvs. influenţa acestor oameni asupra dezvoltării României?",
+    "stem": "Am vrea acum să aflăm care este opinia dvs. despre oamenii din alte țări care vin să trăiască în România - imigranţii.",
+    "item": "Cum ați evalua dvs. influenţa acestor oameni asupra dezvoltării României?",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte rău"
+      },
+      {
+        "value": 2,
+        "label": "Destul de rău"
+      },
+      {
+        "value": 3,
+        "label": "nici rău, nici bun"
+      },
+      {
+        "value": 4,
+        "label": "destul de bun"
+      },
+      {
+        "value": 5,
+        "label": "foarte bun"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Imigranţii iau din locurile de muncă ale celor născuţi la noi în ţară",
+    "stem": "Ce părere aveți despre imigranţi (străinii care vin să trăiască în România)? Am să vă citesc câte două perechi de afirmații și o să vă rog să precizați cu care sunteți mai degrabă de acord, acordând note de la 1 la 10:",
+    "item": "Imigranţii iau din locurile de muncă ale celor născuţi la noi în ţară",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Imigranţii nu iau din locurile de muncă ale celor născuţi la noi în ţară"
+  },
+  {
+    "id": "v186",
+    "text": "Imigranţii sporesc criminalitatea",
+    "stem": "Ce părere aveți despre imigranţi (străinii care vin să trăiască în România)? Am să vă citesc câte două perechi de afirmații și o să vă rog să precizați cu care sunteți mai degrabă de acord, acordând note de la 1 la 10:",
+    "item": "Imigranţii sporesc criminalitatea",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Imigranţii nu sporesc criminalitatea"
+  },
+  {
+    "id": "v187",
+    "text": "Imigranţii reprezintă o povară pentru sistemul de protecţie socială",
+    "stem": "Ce părere aveți despre imigranţi (străinii care vin să trăiască în România)? Am să vă citesc câte două perechi de afirmații și o să vă rog să precizați cu care sunteți mai degrabă de acord, acordând note de la 1 la 10:",
+    "item": "Imigranţii reprezintă o povară pentru sistemul de protecţie socială",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Imigranţii nu reprezintă o povară pentru sistemul de protecţie socială"
+  },
+  {
+    "id": "v188",
+    "text": "Pentru binele societăţii este mai bine dacă imigranţii îşi menţin obiceiurile şi tradiţiile",
+    "stem": "Ce părere aveți despre imigranţi (străinii care vin să trăiască în România)? Am să vă citesc câte două perechi de afirmații și o să vă rog să precizați cu care sunteți mai degrabă de acord, acordând note de la 1 la 10:",
+    "item": "Pentru binele societăţii este mai bine dacă imigranţii îşi menţin obiceiurile şi tradiţiile",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Pentru binele societăţii este mai bine dacă imigranţii nu îşi menţin obiceiurile şi tradiţiile"
+  },
+  {
+    "id": "v189",
+    "text": "Să fii născut în România",
+    "stem": "Unii oameni spun că următoarele lucruri sunt importante pentru a fi cu adevărat român. Alții spun că ele nu sunt importante. Dvs. ce credeţi?",
+    "item": "Să fii născut în România",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Să respecţi instituţiile politice şi legile României",
+    "stem": "Unii oameni spun că următoarele lucruri sunt importante pentru a fi cu adevărat român. Alții spun că ele nu sunt importante. Dvs. ce credeţi?",
+    "item": "Să respecţi instituţiile politice şi legile României",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Să ai strămoşi români",
+    "stem": "Unii oameni spun că următoarele lucruri sunt importante pentru a fi cu adevărat român. Alții spun că ele nu sunt importante. Dvs. ce credeţi?",
+    "item": "Să ai strămoşi români",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Să ştii să vorbeşti limba română",
+    "stem": "Unii oameni spun că următoarele lucruri sunt importante pentru a fi cu adevărat român. Alții spun că ele nu sunt importante. Dvs. ce credeţi?",
+    "item": "Să ştii să vorbeşti limba română",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Să împărtășești cultura română",
+    "stem": "Unii oameni spun că următoarele lucruri sunt importante pentru a fi cu adevărat român. Alții spun că ele nu sunt importante. Dvs. ce credeţi?",
+    "item": "Să împărtășești cultura română",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "Să fii născut în Europa",
+    "stem": "Oamenii au păreri diferite despre ce înseamnă a fi European. În opinia dvs., cât de important este fiecare dintre următoarele pentru a fi European.",
+    "item": "Să fii născut în Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Să ai strămoși europeni",
+    "stem": "Oamenii au păreri diferite despre ce înseamnă a fi European. În opinia dvs., cât de important este fiecare dintre următoarele pentru a fi European.",
+    "item": "Să ai strămoși europeni",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "Să fii creştin",
+    "stem": "Oamenii au păreri diferite despre ce înseamnă a fi European. În opinia dvs., cât de important este fiecare dintre următoarele pentru a fi European.",
+    "item": "Să fii creştin",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v197",
+    "text": "Să împărtășești cultura europeană.",
+    "stem": "Oamenii au păreri diferite despre ce înseamnă a fi European. În opinia dvs., cât de important este fiecare dintre următoarele pentru a fi European.",
+    "item": "Să împărtășești cultura europeană.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "Extinderea Uniunii Europene ar trebui să continue",
+    "stem": "Unii oameni spun că extinderea Uniunii Europene ar trebui să continue. Alții spun că Uniunea Europeană deja s-a extins prea mult. Dvs. unde vă situaţi pe această scală, pe care 1 înseamnă că extinderea UE trebuie să continue și 10 înseamnă că UE s-a extins deja prea mult?",
+    "item": "Extinderea Uniunii Europene ar trebui să continue",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": "Uniunea Europeană s-a extins prea mult"
+  },
+  {
+    "id": "v199",
+    "text": "Aş da o parte din venituri dacă aş fi sigur că aceşti bani vor fi folosiţi pentru a preveni poluarea mediului",
+    "stem": "Vă voi citi o serie de afirmaţii despre mediul înconjurător. Pentru fiecare dintre ele vă rog să îmi spuneţi în ce măsură sunteţi de acord.",
+    "item": "Aş da o parte din venituri dacă aş fi sigur că aceşti bani vor fi folosiţi pentru a preveni poluarea mediului",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v200",
+    "text": "Este dificil pentru o persoană ca mine să contribuie la îmbunătățirea mediului înconjurător.",
+    "stem": "Vă voi citi o serie de afirmaţii despre mediul înconjurător. Pentru fiecare dintre ele vă rog să îmi spuneţi în ce măsură sunteţi de acord.",
+    "item": "Este dificil pentru o persoană ca mine să contribuie la îmbunătățirea mediului înconjurător.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "În viață sunt lucruri mai importante de făcut decât protejarea mediului",
+    "stem": "În ce măsură sunteți de acord?",
+    "item": "În viață sunt lucruri mai importante de făcut decât protejarea mediului",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "Are sens să fac ceva pentru protecția mediului doar dacă și alții fac acest lucru",
+    "stem": "În ce măsură sunteți de acord?",
+    "item": "Are sens să fac ceva pentru protecția mediului doar dacă și alții fac acest lucru",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Multe dintre presupusele amenințările la adresa mediului înconjurător sunt exagerate",
+    "stem": "În ce măsură sunteți de acord?",
+    "item": "Multe dintre presupusele amenințările la adresa mediului înconjurător sunt exagerate",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "cu totul de acord"
+      },
+      {
+        "value": 2,
+        "label": "de acord"
+      },
+      {
+        "value": 3,
+        "label": "nici de acord, nici împotrivă"
+      },
+      {
+        "value": 4,
+        "label": "mai mult împotrivă"
+      },
+      {
+        "value": 5,
+        "label": "cu totul împotrivă"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Protecţia mediului ar trebui să aibă prioritate, chiar dacă încetineşte creşterea economică şi duce la pierderea unor locuri de muncă",
+    "stem": "O să vă citesc două afirmaţii despre protecţia mediului și creşterea economică. Vă rog să îmi spuneți care dintre ele e mai apropiată de părerea dvs.",
+    "item": "Protecţia mediului ar trebui să aibă prioritate, chiar dacă încetineşte creşterea economică şi duce la pierderea unor locuri de muncă",
+    "response_type": "binary",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Să supravegheze video oamenii în spațiul public",
+    "stem": "Credeți că statul român ar trebui sau nu să aibă dreptul să facă următoarele",
+    "item": "Să supravegheze video oamenii în spațiul public",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Cu siguranţă da"
+      },
+      {
+        "value": 2,
+        "label": "Probabil da"
+      },
+      {
+        "value": 3,
+        "label": "Probabil nu"
+      },
+      {
+        "value": 4,
+        "label": "Cu siguranță nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Să monitorizeze toate e-mailurile şi orice alt schimb de informație realizat pe Internet.",
+    "stem": "Credeți că statul român ar trebui sau nu să aibă dreptul să facă următoarele",
+    "item": "Să monitorizeze toate e-mailurile şi orice alt schimb de informație realizat pe Internet.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Cu siguranţă da"
+      },
+      {
+        "value": 2,
+        "label": "Probabil da"
+      },
+      {
+        "value": 3,
+        "label": "Probabil nu"
+      },
+      {
+        "value": 4,
+        "label": "Cu siguranță nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Să colecteze informații despre orice persoană care trăiește în România fără ca aceasta să știe.",
+    "stem": "Credeți că statul român ar trebui sau nu să aibă dreptul să facă următoarele",
+    "item": "Să colecteze informații despre orice persoană care trăiește în România fără ca aceasta să știe.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Cu siguranţă da"
+      },
+      {
+        "value": 2,
+        "label": "Probabil da"
+      },
+      {
+        "value": 3,
+        "label": "Probabil nu"
+      },
+      {
+        "value": 4,
+        "label": "Cu siguranță nu"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v208",
+    "text": "la televizor",
+    "stem": "Cât de des urmăriți evenimentele politice?",
+    "item": "la televizor",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zilnic"
+      },
+      {
+        "value": 2,
+        "label": "aproape zilnic"
+      },
+      {
+        "value": 3,
+        "label": "o dată sau de două ori pe săptămână"
+      },
+      {
+        "value": 4,
+        "label": "mai rar"
+      },
+      {
+        "value": 5,
+        "label": "niciodată"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v209",
+    "text": "la radio",
+    "stem": "Cât de des urmăriți evenimentele politice?",
+    "item": "la radio",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zilnic"
+      },
+      {
+        "value": 2,
+        "label": "aproape zilnic"
+      },
+      {
+        "value": 3,
+        "label": "o dată sau de două ori pe săptămână"
+      },
+      {
+        "value": 4,
+        "label": "mai rar"
+      },
+      {
+        "value": 5,
+        "label": "niciodată"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v210",
+    "text": "în ziare",
+    "stem": "Cât de des urmăriți evenimentele politice?",
+    "item": "în ziare",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zilnic"
+      },
+      {
+        "value": 2,
+        "label": "aproape zilnic"
+      },
+      {
+        "value": 3,
+        "label": "o dată sau de două ori pe săptămână"
+      },
+      {
+        "value": 4,
+        "label": "mai rar"
+      },
+      {
+        "value": 5,
+        "label": "niciodată"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v211",
+    "text": "pe social media (pe rețele de socializare)",
+    "stem": "Cât de des urmăriți evenimentele politice?",
+    "item": "pe social media (pe rețele de socializare)",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zilnic"
+      },
+      {
+        "value": 2,
+        "label": "aproape zilnic"
+      },
+      {
+        "value": 3,
+        "label": "o dată sau de două ori pe săptămână"
+      },
+      {
+        "value": 4,
+        "label": "mai rar"
+      },
+      {
+        "value": 5,
+        "label": "niciodată"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "Vecinilor dvs.",
+    "stem": "Cât de mult sunteți îngrijorat de condițiile de viață ale",
+    "item": "Vecinilor dvs.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "Oamenilor din regiunea în care traiti",
+    "stem": "Cât de mult sunteți îngrijorat de condițiile de viață ale",
+    "item": "Oamenilor din regiunea în care traiti",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "Oamenilor din România",
+    "stem": "Cât de mult sunteți îngrijorat de condițiile de viață ale",
+    "item": "Oamenilor din România",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "Oamenilor din Europa",
+    "stem": "Cât de mult sunteți îngrijorat de condițiile de viață ale",
+    "item": "Oamenilor din Europa",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "Oamenilor din întreaga lume",
+    "stem": "Cât de mult sunteți îngrijorat de condițiile de viață ale",
+    "item": "Oamenilor din întreaga lume",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "Batrânilor din România",
+    "stem": "Cât de mult sunteti îngrijorat de conditiile de viata ale următoarelor grupuri care trăiesc în România",
+    "item": "Batrânilor din România",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "Şomerilor din România",
+    "stem": "Cât de mult sunteti îngrijorat de conditiile de viata ale următoarelor grupuri care trăiesc în România",
+    "item": "Şomerilor din România",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "Imigranţilor care trăiesc în România",
+    "stem": "Cât de mult sunteti îngrijorat de conditiile de viata ale următoarelor grupuri care trăiesc în România",
+    "item": "Imigranţilor care trăiesc în România",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "Bolnavilor grav şi handicapaților din România",
+    "stem": "Cât de mult sunteti îngrijorat de conditiile de viata ale următoarelor grupuri care trăiesc în România",
+    "item": "Bolnavilor grav şi handicapaților din România",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte mult"
+      },
+      {
+        "value": 2,
+        "label": "Mult"
+      },
+      {
+        "value": 3,
+        "label": "Nici mult, nici putin"
+      },
+      {
+        "value": 4,
+        "label": "Putin"
+      },
+      {
+        "value": 5,
+        "label": "Foarte putin"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "Să fie eliminate marile inegalitţăi dintre veniturile cetatenilor",
+    "stem": "Ce ar trebui să asigure o societate? Pentru fiecare afirmație spuneti-mi cât de important credeti că este ca:",
+    "item": "Să fie eliminate marile inegalitţăi dintre veniturile cetatenilor",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Societatea trebuie sa se asigure ca toata lumea îsi satisface nevoile de baza (are ce mânca, unde sta, are haine, poate merge la scoala si la doctor)",
+    "stem": "Ce ar trebui să asigure o societate? Pentru fiecare afirmație spuneti-mi cât de important credeti că este ca:",
+    "item": "Societatea trebuie sa se asigure ca toata lumea îsi satisface nevoile de baza (are ce mânca, unde sta, are haine, poate merge la scoala si la doctor)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Oamenii sa fie apreciati dupa meritele lor",
+    "stem": "Ce ar trebui să asigure o societate? Pentru fiecare afirmație spuneti-mi cât de important credeti că este ca:",
+    "item": "Oamenii sa fie apreciati dupa meritele lor",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Foarte important"
+      },
+      {
+        "value": 2,
+        "label": "Destul de important"
+      },
+      {
+        "value": 3,
+        "label": "Puţin important"
+      },
+      {
+        "value": 4,
+        "label": "Deloc important"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Protecție împotriva terorismului",
+    "stem": null,
+    "item": "Protecție împotriva terorismului",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      }
+    ],
+    "answer_cue": null
+  }
+]

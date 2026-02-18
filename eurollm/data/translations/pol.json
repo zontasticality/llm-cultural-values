@@ -1,0 +1,4742 @@
+[
+  {
+    "id": "P1",
+    "text": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?\nv1 praca",
+    "stem": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?",
+    "item": "v1 praca",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P1",
+    "text": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?\nv2 rodzina",
+    "stem": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?",
+    "item": "v2 rodzina",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P1",
+    "text": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?\nv3 przyjaciele i znajomi",
+    "stem": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?",
+    "item": "v3 przyjaciele i znajomi",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P1",
+    "text": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?\nv4 czas wolny",
+    "stem": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?",
+    "item": "v4 czas wolny",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P1",
+    "text": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?\nv5 polityka",
+    "stem": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?",
+    "item": "v5 polityka",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P1",
+    "text": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?\nv6 religia",
+    "stem": "Proszę powiedzieć, w jakim stopniu uważa Pan/i/ następujące sprawy za ważne w swoim życiu?",
+    "item": "v6 religia",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P2",
+    "text": "Czy ogólnie biorąc, powiedział/a/by Pan/i/, że jest:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo szczęśliwy/a/"
+      },
+      {
+        "value": 2,
+        "label": "raczej szczęśliwy/a/"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt szczęśliwy/a/"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie jestem szczęśliwy/a/"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P7",
+    "text": "Czy, ogólnie rzecz biorąc, uważa Pan/i/, że:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "większości ludzi można ufać"
+      },
+      {
+        "value": 2,
+        "label": "nigdy nie jest się zbyt ostrożnym w postępowaniu z ludźmi"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P8",
+    "text": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?\nv32 Swojej rodzinie",
+    "stem": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?",
+    "item": "v32 Swojej rodzinie",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "całkowicie ufam"
+      },
+      {
+        "value": 2,
+        "label": "raczej ufam"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie ufam"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ufam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P8",
+    "text": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?\nv33 Swoim sąsiadom",
+    "stem": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?",
+    "item": "v33 Swoim sąsiadom",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "całkowicie ufam"
+      },
+      {
+        "value": 2,
+        "label": "raczej ufam"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie ufam"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ufam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P8",
+    "text": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?\nv34 Ludziom, których zna Pan/i/ osobiście",
+    "stem": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?",
+    "item": "v34 Ludziom, których zna Pan/i/ osobiście",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "całkowicie ufam"
+      },
+      {
+        "value": 2,
+        "label": "raczej ufam"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie ufam"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ufam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P8",
+    "text": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?\nv35 Ludziom, których spotyka Pan/i/ po raz pierwszy",
+    "stem": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?",
+    "item": "v35 Ludziom, których spotyka Pan/i/ po raz pierwszy",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "całkowicie ufam"
+      },
+      {
+        "value": 2,
+        "label": "raczej ufam"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie ufam"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ufam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P8",
+    "text": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?\nv36 Ludziom innego wyznania",
+    "stem": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?",
+    "item": "v36 Ludziom innego wyznania",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "całkowicie ufam"
+      },
+      {
+        "value": 2,
+        "label": "raczej ufam"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie ufam"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ufam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P8",
+    "text": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?\nv37 Ludziom innej narodowości",
+    "stem": "Teraz chciał/a/bym zapytać, w jakim stopniu ufa Pan/i/ ludziom z różnych grup. W przypadku ludzi należących do każdej z tych grup proszę mi powiedzieć, czy całkowicie im Pan/i/ ufa, raczej im Pan/i/ ufa, raczej nie ufa, czy też w ogóle im Pan/i/ nie ufa?",
+    "item": "v37 Ludziom innej narodowości",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "całkowicie ufam"
+      },
+      {
+        "value": 2,
+        "label": "raczej ufam"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie ufam"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ufam"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P9",
+    "text": "Niektórzy ludzie uważają, że mają całkowicie wolny wybór i w pełni kontrolują sposób, w jaki układa się im życie, inni czują, że to co robią, nie ma żadnego realnego wpływu na to, co im się przydarza. Używając tej skali - na której 1 oznacza brak wpływu a 10 oznacza maksymalny wpływ - proszę powiedzieć jak Pan/i/ocenia swoje możliwości swobodnego układania sobie życia.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "P10",
+    "text": "Biorąc wszystko pod uwagę, na ile jest Pan/i/ zadowolony/a/ ostatnio ze swojego życia? Proszę użyć tej karty, by odpowiedzieć na to pytanie.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "P11",
+    "text": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.\nv40 A dobre zarobki",
+    "stem": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.",
+    "item": "v40 A dobre zarobki",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P11",
+    "text": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.\nv41 B wygodne godziny pracy",
+    "stem": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.",
+    "item": "v41 B wygodne godziny pracy",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P11",
+    "text": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.\nv42 C możliwość wykazania się inicjatywą",
+    "stem": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.",
+    "item": "v42 C możliwość wykazania się inicjatywą",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P11",
+    "text": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.\nv43 D długie urlopy",
+    "stem": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.",
+    "item": "v43 D długie urlopy",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P11",
+    "text": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.\nv44 E praca, w której czujesz, że możesz coś osiągnąć",
+    "stem": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.",
+    "item": "v44 E praca, w której czujesz, że możesz coś osiągnąć",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P11",
+    "text": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.\nv45 F praca odpowiedzialna",
+    "stem": "Oto lista cech wiązanych zwykle z pracą. Proszę na nią spojrzeć i powiedzieć, które z tych cech Pan/i/ osobiście uważa za ważne.",
+    "item": "v45 F praca odpowiedzialna",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P12",
+    "text": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?\nv46 Do tego, by człowiek mógł w pełni rozwinąć swoje talenty, potrzebna jest praca",
+    "stem": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?",
+    "item": "v46 Do tego, by człowiek mógł w pełni rozwinąć swoje talenty, potrzebna jest praca",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P12",
+    "text": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?\nv47 Otrzymywanie pieniędzy bez zapracowania na nie jest upokarzające",
+    "stem": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?",
+    "item": "v47 Otrzymywanie pieniędzy bez zapracowania na nie jest upokarzające",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P12",
+    "text": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?\nv48 Ludzie, którzy nie pracują, stają się leniwi",
+    "stem": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?",
+    "item": "v48 Ludzie, którzy nie pracują, stają się leniwi",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P12",
+    "text": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?\nv49 Praca jest obowiązkiem wobec społeczeństwa",
+    "stem": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?",
+    "item": "v49 Praca jest obowiązkiem wobec społeczeństwa",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P12",
+    "text": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?\nv50 Pracę powinno się zawsze stawiać na pierwszym miejscu, nawet jeśli to oznacza konieczność poświęcenia jej więcej czasu",
+    "stem": "Czy zgadza się Pan/i/ czy też nie z następującymi stwierdzeniami?",
+    "item": "v50 Pracę powinno się zawsze stawiać na pierwszym miejscu, nawet jeśli to oznacza konieczność poświęcenia jej więcej czasu",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P17",
+    "text": "Niezależnie od tego, czy chodzi Pan/i/ do kościoła czy nie, czy uważa Pan/i/ siebie za osobę:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "religijną"
+      },
+      {
+        "value": 2,
+        "label": "niereligijną"
+      },
+      {
+        "value": 3,
+        "label": "zdecydowanego ateistę"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P18",
+    "text": "Czy wierzy Pan/i/ w:\nv57 Boga",
+    "stem": "Czy wierzy Pan/i/ w:",
+    "item": "v57 Boga",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P18",
+    "text": "Czy wierzy Pan/i/ w:\nv58 życie po śmierci",
+    "stem": "Czy wierzy Pan/i/ w:",
+    "item": "v58 życie po śmierci",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P18",
+    "text": "Czy wierzy Pan/i/ w:\nv59 piekło",
+    "stem": "Czy wierzy Pan/i/ w:",
+    "item": "v59 piekło",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P18",
+    "text": "Czy wierzy Pan/i/ w:\nv60 niebo",
+    "stem": "Czy wierzy Pan/i/ w:",
+    "item": "v60 niebo",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P19",
+    "text": "Czy wierzy Pan/i/ w reinkarnację, tzn. w to, że znów się narodzimy na tym świecie/wędrówkę dusz?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P20",
+    "text": "Które z tych stwierdzeń jest najbliższe Pana/i/ przekonaniom?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "istnieje jeden osobowy Bóg."
+      },
+      {
+        "value": 2,
+        "label": "istnieje jakiś rodzaj ducha lub siły sprawczej w życiu"
+      },
+      {
+        "value": 3,
+        "label": "naprawdę nie wiem, co o tym myśleć."
+      },
+      {
+        "value": 4,
+        "label": "nie sądzę, aby istniał jakikolwiek duch, Bóg czy siła życiowa..."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "P21",
+    "text": "Na ile ważny jest Bóg w Pana/i/ życiu? Proszę użyć tej skali, by to określić - 10 znaczy, że Bóg jest w Pana/i/ życiu bardzo ważny, a 1 że jest w ogóle nieważny.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "P22",
+    "text": "Pomijając uczestnictwo w nabożeństwach, jak często modli się Pan/i/ do Boga?",
+    "stem": "Pomijając uczestnictwo w nabożeństwach, jak często modli się Pan/i/ do Boga?",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "codziennie"
+      },
+      {
+        "value": 2,
+        "label": "częściej niż raz w tygodniu"
+      },
+      {
+        "value": 3,
+        "label": "raz w tygodniu"
+      },
+      {
+        "value": 4,
+        "label": "przynajmniej raz w miesiącu"
+      },
+      {
+        "value": 5,
+        "label": "kilka razy do roku"
+      },
+      {
+        "value": 6,
+        "label": "jeszcze rzadziej"
+      },
+      {
+        "value": 7,
+        "label": "nigdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Pp22a",
+    "text": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące moralnych problemów i potrzeb jednostki?",
+    "stem": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące:",
+    "item": "moralnych problemów i potrzeb jednostki",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Pp22a",
+    "text": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące problemów życia rodzinnego?",
+    "stem": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące:",
+    "item": "problemów życia rodzinnego",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Pp22a",
+    "text": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące duchowych potrzeb człowieka?",
+    "stem": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące:",
+    "item": "duchowych potrzeb człowieka",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Pp22a",
+    "text": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące problemów społecznych i politycznych ważnych obecnie dla naszego kraju?",
+    "stem": "Ogólnie biorąc, czy uważa Pan/i/, że Kościół katolicki w Polsce daje właściwe odpowiedzi na pytania dotyczące:",
+    "item": "problemów społecznych i politycznych ważnych obecnie dla naszego kraju",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Pp22b",
+    "text": "Mam swoje sposoby komunikowania się z Bogiem, nie potrzebuję do tego Kościoła czy mszy.",
+    "stem": "Proszę użyć tej skali, aby określić na ile prawdziwe wydaje się Panu/i/ poniższe stwierdzenie:",
+    "item": "Mam swoje sposoby komunikowania się z Bogiem, nie potrzebuję do tego Kościoła czy mszy.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie nieprawdziwe"
+      },
+      {
+        "value": 5,
+        "label": "całkowicie prawdziwe"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v306",
+    "text": "Politycy, którzy nie wierzą w Boga, nie powinni zajmować stanowisk publicznych",
+    "stem": "W jakim stopniu zgadza się Pan/i/ lub nie zgadza z następującymi opiniami:",
+    "item": "Politycy, którzy nie wierzą w Boga, nie powinni zajmować stanowisk publicznych",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v307",
+    "text": "Kościół nie powinien wpływać na decyzje rządzących",
+    "stem": "W jakim stopniu zgadza się Pan/i/ lub nie zgadza z następującymi opiniami:",
+    "item": "Kościół nie powinien wpływać na decyzje rządzących",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v308",
+    "text": "Księża nie powinni ludziom mówić, jak mają głosować w wyborach",
+    "stem": "W jakim stopniu zgadza się Pan/i/ lub nie zgadza z następującymi opiniami:",
+    "item": "Księża nie powinni ludziom mówić, jak mają głosować w wyborach",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v309",
+    "text": "Byłoby lepiej dla Polski, gdyby więcej ludzi głęboko wierzących obejmowało urzędy państwowe",
+    "stem": "W jakim stopniu zgadza się Pan/i/ lub nie zgadza z następującymi opiniami:",
+    "item": "Byłoby lepiej dla Polski, gdyby więcej ludzi głęboko wierzących obejmowało urzędy państwowe",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Pp22d",
+    "text": "Czy sądzi Pan/i/, że Kościół ma wpływ na politykę w Polsce, czy też nie?",
+    "stem": "Czy sądzi Pan/i/, że Kościół ma wpływ na politykę w Polsce, czy też nie?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie tak"
+      },
+      {
+        "value": 2,
+        "label": "raczej tak"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v311",
+    "text": "Na ile zgadza się Pan/i/ z opinią A (Istnieją jasne i niepodważalne zasady, które pozwalają odróżnić dobro od zła. Zasady te stosuje się do każdego i w każdej sytuacji.) lub opinią B (Nie istnieją żadne raz na zawsze ustalone zasady pozwalające odróżnić dobro od zła. Co jest dobrem a co złem zależy całkowicie od sytuacji w danym momencie.)?",
+    "stem": "Na ile zgadza się Pan/i/ z opinią A (Istnieją jasne i niepodważalne zasady, które pozwalają odróżnić dobro od zła. Zasady te stosuje się do każdego i w każdej sytuacji.) lub opinią B (Nie istnieją żadne raz na zawsze ustalone zasady pozwalające odróżnić dobro od zła. Co jest dobrem a co złem zależy całkowicie od sytuacji w danym momencie.)?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "zgadzam się z opinią A"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się z opinią B"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v312",
+    "text": "Na tej karcie są opinie, które słyszy się czasem w rozmowach z ludźmi. Proszę wybrać tę spośród nich, która najlepiej odzwierciedla Pana/i/ pogląd.",
+    "stem": "Na tej karcie są opinie, które słyszy się czasem w rozmowach z ludźmi. Proszę wybrać tę spośród nich, która najlepiej odzwierciedla Pana/i/ pogląd.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Istnieje tylko jedna prawdziwa religia"
+      },
+      {
+        "value": 2,
+        "label": "Istnieje tylko jedna prawdziwa religia, ale inne religie też zawierają pewne podstawowe prawdy"
+      },
+      {
+        "value": 3,
+        "label": "Nie istnieje tylko jedna prawdziwa religia; wszystkie wielkie religie świata zawierają pewne podstawowe prawdy"
+      },
+      {
+        "value": 4,
+        "label": "Żadna z wielkich religii nie daje nam żadnych istotnych prawd"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v65",
+    "text": "wierność",
+    "stem": "Oto lista cech, które zdaniem niektórych ludzi przyczyniają się do udanego małżeństwa lub związku. O każdej z nich proszę powiedzieć, czy Pana/i/ zdaniem jest ona ważna czy też nieważna dla udanego małżeństwa lub związku.",
+    "item": "wierność",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważna"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważna"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt ważna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v66",
+    "text": "odpowiedni dochód",
+    "stem": "Oto lista cech, które zdaniem niektórych ludzi przyczyniają się do udanego małżeństwa lub związku. O każdej z nich proszę powiedzieć, czy Pana/i/ zdaniem jest ona ważna czy też nieważna dla udanego małżeństwa lub związku.",
+    "item": "odpowiedni dochód",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważna"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważna"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt ważna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v67",
+    "text": "dobre warunki mieszkaniowe",
+    "stem": "Oto lista cech, które zdaniem niektórych ludzi przyczyniają się do udanego małżeństwa lub związku. O każdej z nich proszę powiedzieć, czy Pana/i/ zdaniem jest ona ważna czy też nieważna dla udanego małżeństwa lub związku.",
+    "item": "dobre warunki mieszkaniowe",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważna"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważna"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt ważna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v68",
+    "text": "dzielenie obowiązków domowych",
+    "stem": "Oto lista cech, które zdaniem niektórych ludzi przyczyniają się do udanego małżeństwa lub związku. O każdej z nich proszę powiedzieć, czy Pana/i/ zdaniem jest ona ważna czy też nieważna dla udanego małżeństwa lub związku.",
+    "item": "dzielenie obowiązków domowych",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważna"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważna"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt ważna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v69",
+    "text": "posiadanie dzieci",
+    "stem": "Oto lista cech, które zdaniem niektórych ludzi przyczyniają się do udanego małżeństwa lub związku. O każdej z nich proszę powiedzieć, czy Pana/i/ zdaniem jest ona ważna czy też nieważna dla udanego małżeństwa lub związku.",
+    "item": "posiadanie dzieci",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważna"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważna"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt ważna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v70",
+    "text": "czas dla swoich własnych przyjaciół i osobistych zainteresowań i upodobań /hobby/",
+    "stem": "Oto lista cech, które zdaniem niektórych ludzi przyczyniają się do udanego małżeństwa lub związku. O każdej z nich proszę powiedzieć, czy Pana/i/ zdaniem jest ona ważna czy też nieważna dla udanego małżeństwa lub związku.",
+    "item": "czas dla swoich własnych przyjaciół i osobistych zainteresowań i upodobań /hobby/",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważna"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważna"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt ważna"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v71",
+    "text": "Czy zgadza się Pan/i/, czy też nie, z następującym poglądem: Małżeństwo jest instytucją przestarzałą?",
+    "stem": "Czy zgadza się Pan/i/, czy też nie, z następującym poglądem:",
+    "item": "Małżeństwo jest instytucją przestarzałą?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v72",
+    "text": "Gdy matka pracuje, dzieci na tym cierpią",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Gdy matka pracuje, dzieci na tym cierpią",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v73",
+    "text": "Kobiety mogą pracować, ale to czego większość z nich naprawdę chce, to dom i dzieci",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Kobiety mogą pracować, ale to czego większość z nich naprawdę chce, to dom i dzieci",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v74",
+    "text": "Ogólnie rzecz biorąc, gdy kobieta pracuje na pełnym etacie, cierpi na tym życie rodzinne",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Ogólnie rzecz biorąc, gdy kobieta pracuje na pełnym etacie, cierpi na tym życie rodzinne",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v75",
+    "text": "Zadaniem mężczyzn jest zarabiać pieniądze; zadaniem kobiet jest zajmowanie się domem i rodziną",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Zadaniem mężczyzn jest zarabiać pieniądze; zadaniem kobiet jest zajmowanie się domem i rodziną",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v76",
+    "text": "Ogólnie rzecz biorąc, mężczyźni są lepszymi przywódcami politycznymi niż kobiety",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Ogólnie rzecz biorąc, mężczyźni są lepszymi przywódcami politycznymi niż kobiety",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v77",
+    "text": "Wyższe wykształcenie jest ważniejsze dla chłopca niż dziewczynki",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Wyższe wykształcenie jest ważniejsze dla chłopca niż dziewczynki",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v78",
+    "text": "Ogólnie rzecz biorąc, mężczyźni lepiej zarządzają biznesem niż kobiety",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Ogólnie rzecz biorąc, mężczyźni lepiej zarządzają biznesem niż kobiety",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v79",
+    "text": "Jednym z głównych celów w moim życiu jest, żeby moi rodzice byli ze mnie dumni",
+    "stem": "Odczytam teraz Panu/i/ kilka opinii. Przy każdej z nich proszę powiedzieć, w jakim stopniu się Pan/i/ z nią zgadza lub nie zgadza. Czy zgadza się Pan/i/ zdecydowanie, zgadza, nie zgadza, zdecydowanie nie zgadza?",
+    "item": "Jednym z głównych celów w moim życiu jest, żeby moi rodzice byli ze mnie dumni",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v80",
+    "text": "Gdy brakuje miejsc pracy, powinni ją dostawać przede wszystkim Polacy, a nie cudzoziemcy",
+    "stem": "Czy zgadza się Pan/i/ czy nie zgadza z nastepującymi twierdzeniami?",
+    "item": "Gdy brakuje miejsc pracy, powinni ją dostawać przede wszystkim Polacy, a nie cudzoziemcy",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "Gdy brakuje miejsc pracy, mężczyźni powinni mieć większe prawo do pracy niż kobiety",
+    "stem": "Czy zgadza się Pan/i/ czy nie zgadza z nastepującymi twierdzeniami?",
+    "item": "Gdy brakuje miejsc pracy, mężczyźni powinni mieć większe prawo do pracy niż kobiety",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v82",
+    "text": "Pary homoseksualne są równie dobrymi rodzicami jak inne pary",
+    "stem": "Czy zgadza się Pan/i/ czy nie zgadza z nastepującymi twierdzeniami?",
+    "item": "Pary homoseksualne są równie dobrymi rodzicami jak inne pary",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v83",
+    "text": "Posiadanie dzieci jest obowiązkiem wobec społeczeństwa",
+    "stem": "Czy zgadza się Pan/i/ czy nie zgadza z nastepującymi twierdzeniami?",
+    "item": "Posiadanie dzieci jest obowiązkiem wobec społeczeństwa",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v84",
+    "text": "Dorosłe dzieci mają obowiązek zapewnienia rodzicom długotrwałej opieki",
+    "stem": "Czy zgadza się Pan/i/ czy nie zgadza z nastepującymi twierdzeniami?",
+    "item": "Dorosłe dzieci mają obowiązek zapewnienia rodzicom długotrwałej opieki",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v85",
+    "text": "dobre maniery",
+    "stem": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/ za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "item": "dobre maniery",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v86",
+    "text": "niezależność",
+    "stem": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/ za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "item": "niezależność",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v87",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "pracowitość",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v88",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "poczucie odpowiedzialności",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v89",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "wyobraźnia",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v90",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "tolerancja i szacunek dla innych ludzi",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v91",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "oszczędność, oszczędzanie pieniędzy i rzeczy",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v92",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "stanowczość, wytrwałość",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v93",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "religijność",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v94",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "bezinteresowność",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v95",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "posłuszeństwo",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v96",
+    "text": "Oto lista cech, do których uczenia się dzieci mogą być zachęcane w domu. Które z nich uważa Pan/i/za szczególnie ważne? Proszę wybrać najwyżej 5 odpowiedzi!",
+    "stem": "żadna z tych cech",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie wybrał/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v97",
+    "text": "Czy interesuje się Pan/i/ polityką czy też nie?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo się interesuję"
+      },
+      {
+        "value": 2,
+        "label": "raczej tak"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle się nie interesuję"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Proszę spojrzeć na tę listę. Są na niej wymienione różne formy działania politycznego. O każdej z nich proszę powiedzieć, czy uczestniczył/a/Pan/i/w którejś z nich, czy mógł/a/by Pan/i/ wziąć w nich udział, czy raczej nigdy by Pan/i/ tego nie zrobił/a/?",
+    "stem": "podpisywanie petycji",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "uczestniczył/a"
+      },
+      {
+        "value": 2,
+        "label": "mógł/a/by to zrobić"
+      },
+      {
+        "value": 3,
+        "label": "nigdy bym tego nie zrobił/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v99",
+    "text": "Proszę spojrzeć na tę listę. Są na niej wymienione różne formy działania politycznego. O każdej z nich proszę powiedzieć, czy uczestniczył/a/Pan/i/w którejś z nich, czy mógł/a/by Pan/i/ wziąć w nich udział, czy raczej nigdy by Pan/i/ tego nie zrobił/a/?",
+    "stem": "przyłączenie się do bojkotu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "uczestniczył/a"
+      },
+      {
+        "value": 2,
+        "label": "mógł/a/by to zrobić"
+      },
+      {
+        "value": 3,
+        "label": "nigdy bym tego nie zrobił/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v100",
+    "text": "Proszę spojrzeć na tę listę. Są na niej wymienione różne formy działania politycznego. O każdej z nich proszę powiedzieć, czy uczestniczył/a/Pan/i/w którejś z nich, czy mógł/a/by Pan/i/ wziąć w nich udział, czy raczej nigdy by Pan/i/ tego nie zrobił/a/?",
+    "stem": "udział w legalnych demonstracjach",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "uczestniczył/a"
+      },
+      {
+        "value": 2,
+        "label": "mógł/a/by to zrobić"
+      },
+      {
+        "value": 3,
+        "label": "nigdy bym tego nie zrobił/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v101",
+    "text": "Proszę spojrzeć na tę listę. Są na niej wymienione różne formy działania politycznego. O każdej z nich proszę powiedzieć, czy uczestniczył/a/Pan/i/w którejś z nich, czy mógł/a/by Pan/i/ wziąć w nich udział, czy raczej nigdy by Pan/i/ tego nie zrobił/a/?",
+    "stem": "udział w nielegalnym strajku",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "uczestniczył/a"
+      },
+      {
+        "value": 2,
+        "label": "mógł/a/by to zrobić"
+      },
+      {
+        "value": 3,
+        "label": "nigdy bym tego nie zrobił/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v102",
+    "text": "Dyskutując o polityce, ludzie mówią o “lewicy” i “prawicy”. Gdzie Pan/i/ umieścił/a/by swoje poglądy na tej skali?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "lewica"
+      },
+      {
+        "value": 10,
+        "label": "prawica"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "Na tej karcie przedstawione są przeciwne poglądy o różnych problemach. W którym miejscu na tej skali umieścił/a/by Pan/i/ swoje poglądy?",
+    "stem": "Ludzie powinni sami troszczyć się o zaspokojenie swoich potrzeb",
+    "item": "Państwo powinno troszczyć się o zaspokojenie potrzeb wszystkich swych obywateli",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "Na tej karcie przedstawione są przeciwne poglądy o różnych problemach. W którym miejscu na tej skali umieścił/a/by Pan/i/ swoje poglądy?",
+    "stem": "Ludzie, którzy nie mają pracy, powinni brać każdą pracę, która im się nadarza lub tracić zasiłek dla bezrobotnych",
+    "item": "Ludzie, którzy nie mają pracy, powinni mieć prawo odrzucenia pracy, której nie chcą",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "Na tej karcie przedstawione są przeciwne poglądy o różnych problemach. W którym miejscu na tej skali umieścił/a/by Pan/i/ swoje poglądy?",
+    "stem": "Konkurencja jest rzeczą dobrą",
+    "item": "Konkurencja jest szkodliwa",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "Na tej karcie przedstawione są przeciwne poglądy o różnych problemach. W którym miejscu na tej skali umieścił/a/by Pan/i/ swoje poglądy?",
+    "stem": "Dochody powinny być bardziej równe",
+    "item": "Dochody w większym stopniu powinny nagradzać indywidualny wysiłek",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "Na tej karcie przedstawione są przeciwne poglądy o różnych problemach. W którym miejscu na tej skali umieścił/a/by Pan/i/ swoje poglądy?",
+    "stem": "Prywatna własność zakładów przemysłowych i innych przedsiębiorstw powinna być rozszerzona",
+    "item": "Państwowa własność zakładów przemysłowych i innych przedsiębiorstw powinna być rozszerzona",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v112",
+    "text": "Oczywiście, wszyscy mamy nadzieję, że nie będzie następnej wojny, lecz gdyby do niej doszło, czy był/a/by Pan/i/ skłonny/a/ walczyć w obronie naszego kraju?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "tak"
+      },
+      {
+        "value": 2,
+        "label": "nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "A teraz przedstawię Panu/i/ różne zmiany, które mogą mieć miejsce w bliskiej przyszłości. Proszę powiedzieć, które z nich według Pana/i/ byłyby dobre, złe bądź obojętne?",
+    "stem": "Zmniejszenie roli pracy w naszym życiu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "dobre"
+      },
+      {
+        "value": 2,
+        "label": "złe"
+      },
+      {
+        "value": 3,
+        "label": "obojętne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "A teraz przedstawię Panu/i/ różne zmiany, które mogą mieć miejsce w bliskiej przyszłości. Proszę powiedzieć, które z nich według Pana/i/ byłyby dobre, złe bądź obojętne?",
+    "stem": "Zwiększenie szacunku dla władzy",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "dobre"
+      },
+      {
+        "value": 2,
+        "label": "złe"
+      },
+      {
+        "value": 3,
+        "label": "obojętne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Kościół",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v116",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Wojsko",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v117",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Szkolnictwo",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v118",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Prasa",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v119",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Związki zawodowe",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v120",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Policja",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v121",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Sejm",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v122",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Urzędy administracji państwowej",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v123",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "System ubezpieczeń społecznych",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v124",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Unia Europejska",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v125",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Organizacja Narodów Zjednoczonych",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v126",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Służba zdrowia",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v127",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Sądownictwo",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v128",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Największe firmy",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v129",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Organizacje ekologiczne",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v130",
+    "text": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "stem": "Partie polityczne",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v131",
+    "text": "Zaufanie do mediów społecznościowych",
+    "stem": "Teraz wymienię różne instytucje i organizacje. Proszę powiedzieć, w jakim stopniu darzy je Pan/i/ zaufaniem: w bardzo dużym stopniu, raczej w dużym stopniu, w niezbyt dużym stopniu, czy w ogóle nie darzy zaufaniem?",
+    "item": "Media społecznościowe",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v313",
+    "text": "Zaufanie do organizacji pozarządowych",
+    "stem": "A jeżeli chodzi o inne organizacje pozarządowe?",
+    "item": "Inne organizacje pozarządowe",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "raczej w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niezbyt dużym stopniu"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie darzę zaufaniem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v133",
+    "text": "Rząd nakłada podatki na bogatych i wspiera biednych",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Rząd nakłada podatki na bogatych i wspiera biednych",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v134",
+    "text": "Autorytety religijne mają wpływ na interpretację prawa",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Autorytety religijne mają wpływ na interpretację prawa",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v135",
+    "text": "Ludzie wybierają swoich przywódców politycznych w wolnych wyborach",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Ludzie wybierają swoich przywódców politycznych w wolnych wyborach",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v136",
+    "text": "Bezrobotni otrzymują pomoc od państwa",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Bezrobotni otrzymują pomoc od państwa",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v137",
+    "text": "Wojsko przejmuje władzę, jeśli rząd jest niekompetentny",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Wojsko przejmuje władzę, jeśli rząd jest niekompetentny",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v138",
+    "text": "Prawa obywatelskie chronią wolność ludzi",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Prawa obywatelskie chronią wolność ludzi",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v139",
+    "text": "Rząd wyrównuje dochody ludzi",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Rząd wyrównuje dochody ludzi",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v140",
+    "text": "Ludzie są posłuszni tym, którzy nimi rządzą",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Ludzie są posłuszni tym, którzy nimi rządzą",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v141",
+    "text": "Kobiety mają takie same prawa jak mężczyźni",
+    "stem": "Wiele cech może być pożądanych ale niekoniecznie są to podstawowe cechy demokracji. Proszę powiedzieć, do jakiego stopnia dana cecha jest Pana/i/zdaniem podstawowa dla demokracji. Proszę użyć skali na której 1 oznacza, że w ogóle nie jest to podstawowa cecha demokracji, a 10, że zdecydowanie jest to podstawowa cecha demokracji",
+    "item": "Kobiety mają takie same prawa jak mężczyźni",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Jest to sprzeczne z demokracją NIE CZYTAĆ"
+  },
+  {
+    "id": "v142",
+    "text": "Jak bardzo ważne jest dla Pana/i/, żeby kraj w którym Pan/i/ mieszka był rządzony w sposób demokratyczny?",
+    "stem": "Jak bardzo ważne jest dla Pana/i/, żeby kraj w którym Pan/i/ mieszka był rządzony w sposób demokratyczny? Proszę określić Pana/i/ opinię na skali, na której 1 oznacza “zupełnie nieważne”, a 10 “zdecydowanie ważne”.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v143",
+    "text": "Proszę powiedzieć, a na ile Pana/i/zdaniem Polska jest obecnie rządzona w sposób demokratyczny?",
+    "stem": "Proszę powiedzieć, a na ile Pana/i/zdaniem Polska jest obecnie rządzona w sposób demokratyczny? Proszę określić na skali, na której 1 oznacza \"zupełnie niedemokratyczny\", a 10 “całkowicie demokratyczny”.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v144",
+    "text": "A proszę teraz powiedzieć, na ile jest Pan/i/zadowolony/a/z tego, jak obecnie funkcjonuje system polityczny w naszym kraju?",
+    "stem": "A proszę teraz powiedzieć, na ile jest Pan/i/zadowolony/a/z tego, jak obecnie funkcjonuje system polityczny w naszym kraju? Proszę użyć skali, na której 1 oznacza “zupełnie niezadowolony/a”, a 10 “całkowicie zadowolony/a\"",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v145",
+    "text": "Władza silnego przywódcy, który nie musi liczyć się z parlamentem i wyborcami",
+    "stem": "Opiszę teraz różne typy systemów politycznych. Proszę powiedzieć, co Pan/i/myśli o każdym z nich jako o sposobie rządzenia naszym krajem. Czy uważał/a/by go Pan/i/ za bardzo dobry, raczej dobry, raczej zły, czy bardzo zły sposób rządzenia naszym krajem?",
+    "item": "Władza silnego przywódcy, który nie musi liczyć się z parlamentem i wyborcami",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo dobry"
+      },
+      {
+        "value": 2,
+        "label": "raczej dobry"
+      },
+      {
+        "value": 3,
+        "label": "raczej zły"
+      },
+      {
+        "value": 4,
+        "label": "bardzo zły"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Władza ekspertów z kół pozarządowych, którzy przy podejmowaniu decyzji kierują się tym, co ich zdaniem jest najlepsze dla kraju",
+    "stem": "Opiszę teraz różne typy systemów politycznych. Proszę powiedzieć, co Pan/i/myśli o każdym z nich jako o sposobie rządzenia naszym krajem. Czy uważał/a/by go Pan/i/ za bardzo dobry, raczej dobry, raczej zły, czy bardzo zły sposób rządzenia naszym krajem?",
+    "item": "Władza ekspertów z kół pozarządowych, którzy przy podejmowaniu decyzji kierują się tym, co ich zdaniem jest najlepsze dla kraju",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo dobry"
+      },
+      {
+        "value": 2,
+        "label": "raczej dobry"
+      },
+      {
+        "value": 3,
+        "label": "raczej zły"
+      },
+      {
+        "value": 4,
+        "label": "bardzo zły"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "Rządy wojskowych",
+    "stem": "Opiszę teraz różne typy systemów politycznych. Proszę powiedzieć, co Pan/i/myśli o każdym z nich jako o sposobie rządzenia naszym krajem. Czy uważał/a/by go Pan/i/ za bardzo dobry, raczej dobry, raczej zły, czy bardzo zły sposób rządzenia naszym krajem?",
+    "item": "Rządy wojskowych",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo dobry"
+      },
+      {
+        "value": 2,
+        "label": "raczej dobry"
+      },
+      {
+        "value": 3,
+        "label": "raczej zły"
+      },
+      {
+        "value": 4,
+        "label": "bardzo zły"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Demokratyczny system polityczny",
+    "stem": "Opiszę teraz różne typy systemów politycznych. Proszę powiedzieć, co Pan/i/myśli o każdym z nich jako o sposobie rządzenia naszym krajem. Czy uważał/a/by go Pan/i/ za bardzo dobry, raczej dobry, raczej zły, czy bardzo zły sposób rządzenia naszym krajem?",
+    "item": "Demokratyczny system polityczny",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo dobry"
+      },
+      {
+        "value": 2,
+        "label": "raczej dobry"
+      },
+      {
+        "value": 3,
+        "label": "raczej zły"
+      },
+      {
+        "value": 4,
+        "label": "bardzo zły"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Domaganie się od państwa świadczeń, do których nie jest się uprawnionym",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Domaganie się od państwa świadczeń, do których nie jest się uprawnionym",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v150",
+    "text": "Oszukiwanie na podatkach, jeśli ma się okazję",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Oszukiwanie na podatkach, jeśli ma się okazję",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v151",
+    "text": "Zażywanie narkotyków takich jak marihuana lub haszysz",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Zażywanie narkotyków takich jak marihuana lub haszysz",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v152",
+    "text": "Przyjmowanie łapówek przy wykonywaniu obowiązków służbowych",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Przyjmowanie łapówek przy wykonywaniu obowiązków służbowych",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v153",
+    "text": "Homoseksualizm",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Homoseksualizm",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v154",
+    "text": "Przerywanie ciąży",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Przerywanie ciąży",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v155",
+    "text": "Rozwód",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Rozwód",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v156",
+    "text": "Eutanazja (pozbawienie życia osoby nieuleczalnie chorej na jej prośbę)",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Eutanazja (pozbawienie życia osoby nieuleczalnie chorej na jej prośbę)",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v157",
+    "text": "Samobójstwo",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Samobójstwo",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v158",
+    "text": "Przypadkowe stosunki seksualne",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Przypadkowe stosunki seksualne",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v159",
+    "text": "Uchylanie się od opłat w środkach transportu publicznego",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Uchylanie się od opłat w środkach transportu publicznego",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v160",
+    "text": "Prostytucja",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Prostytucja",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v161",
+    "text": "Zapłodnienie sztuczne lub in-vitro",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Zapłodnienie sztuczne lub in-vitro",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v162",
+    "text": "Polityczna przemoc",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Polityczna przemoc",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v163",
+    "text": "Kara śmierci",
+    "stem": "Używając podanej skali, proszę powiedzieć, w jakim miejscu umieścił/a/by Pan/i/ na niej swoją opinię o danym zachowaniu, przyjmując, że 1 oznacza, że dane zachowanie nigdy nie może być usprawiedliwione, a 10, że zawsze można je usprawiedliwić.",
+    "item": "Kara śmierci",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v164",
+    "text": "Miejscowość, w której Pan/i/ mieszka",
+    "stem": "Jak silnie czuje się Pan/i/związany/a/ z tymi miejscami?",
+    "item": "Miejscowość, w której Pan/i/ mieszka",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo silnie"
+      },
+      {
+        "value": 2,
+        "label": "silnie"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt silnie"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie czuję się związany/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "Region kraju, w którym Pan/i/ mieszka",
+    "stem": "Jak silnie czuje się Pan/i/związany/a/ z tymi miejscami?",
+    "item": "Region kraju, w którym Pan/i/ mieszka",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo silnie"
+      },
+      {
+        "value": 2,
+        "label": "silnie"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt silnie"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie czuję się związany/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "Polska",
+    "stem": "Jak silnie czuje się Pan/i/związany/a/ z tymi miejscami?",
+    "item": "Polska",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo silnie"
+      },
+      {
+        "value": 2,
+        "label": "silnie"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt silnie"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie czuję się związany/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Europa",
+    "stem": "Jak silnie czuje się Pan/i/związany/a/ z tymi miejscami?",
+    "item": "Europa",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo silnie"
+      },
+      {
+        "value": 2,
+        "label": "silnie"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt silnie"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie czuję się związany/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Świat jako całość",
+    "stem": "Jak silnie czuje się Pan/i/związany/a/ z tymi miejscami?",
+    "item": "Świat jako całość",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo silnie"
+      },
+      {
+        "value": 2,
+        "label": "silnie"
+      },
+      {
+        "value": 3,
+        "label": "niezbyt silnie"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie czuję się związany/a"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v170",
+    "text": "Czy czuje się Pan/i/ dumny/a/ z tego, że jest Pan/i/ obywatelem/ką/ Polski?",
+    "stem": "Czy czuje się Pan/i/ dumny/a/ z tego, że jest Pan/i/ obywatelem/ką/ Polski?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie tak"
+      },
+      {
+        "value": 2,
+        "label": "raczej tak"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v174",
+    "text": "Która polityczna partia podoba się Panu/i/ najbardziej?",
+    "stem": "Która polityczna partia podoba się Panu/i/ najbardziej?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Prawo i Sprawiedliwość (PiS)"
+      },
+      {
+        "value": 2,
+        "label": "Platforma Obywatelska (PO)"
+      },
+      {
+        "value": 3,
+        "label": "Kukiz '15"
+      },
+      {
+        "value": 4,
+        "label": "Nowoczesna"
+      },
+      {
+        "value": 5,
+        "label": "Polskie Stronnictwo Ludowe (PSL)"
+      },
+      {
+        "value": 6,
+        "label": "Sojusz Lewicy Demokratycznej (SLD)"
+      },
+      {
+        "value": 7,
+        "label": "Wolność"
+      },
+      {
+        "value": 8,
+        "label": "Partia Razem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v175",
+    "text": "A czy jest jeszcze jakaś inna partia, która się Panu/i/ podoba?",
+    "stem": "A czy jest jeszcze jakaś inna partia, która się Panu/i/ podoba?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Prawo i Sprawiedliwość (PiS)"
+      },
+      {
+        "value": 2,
+        "label": "Platforma Obywatelska (PO)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v176",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Głosy są uczciwie liczone",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v177",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Kandydaci opozycji nie mogą startować w wyborach",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v178",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Wiadomości telewizyjne faworyzują rządzącą partię",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v179",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Wyborcy są przekupywani (obietnicami)",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v180",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Dziennikarze rzetelnie opisują przebieg wyborów",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v181",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Przedstawiciele komisji wyborczych są uczciwi",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v182",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Bogaci ludzie kupują sobie głosy wyborców",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v183",
+    "text": "Jak często, Pana/i/ zdaniem, w czasie wyborów w Polsce mają miejsce następujące sytuacje?",
+    "stem": "Zastrasza się wyborców w komisjach wyborczych",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo często"
+      },
+      {
+        "value": 2,
+        "label": "raczej często"
+      },
+      {
+        "value": 3,
+        "label": "raczej rzadko"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie, bardzo rzadko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Chcielibyśmy teraz dowiedzieć się, co Pan/i/ sądzi o ludziach z innych krajów, którzy przyjeżdżają na stałe do Polski - czyli o imigrantach. Jak by Pan/i/ ocenił/a/ wpływ tych ludzi na rozwój Polski? Czy sądzi Pan/i/, że jest on zdecydowanie korzystny, raczej korzystny, częściowo korzystny a częściowo szkodliwy, raczej szkodliwy czy zdecydowanie szkodliwy?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 5,
+        "label": "zdecydowanie korzystny"
+      },
+      {
+        "value": 4,
+        "label": "raczej korzystny"
+      },
+      {
+        "value": 3,
+        "label": "częściowo korzystny a częściowo szkodliwy"
+      },
+      {
+        "value": 2,
+        "label": "raczej szkodliwy"
+      },
+      {
+        "value": 1,
+        "label": "zdecydowanie szkodliwy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Proszę spojrzeć na poniższe stwierdzenia i wskazać, w którym miejscu skali umieścił/a/by Pan/i/ swoje poglądy.",
+    "stem": "Imigranci odbierają pracę Polakom",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Imigranci nie odbierają pracy Polakom"
+  },
+  {
+    "id": "v186",
+    "text": "Proszę spojrzeć na poniższe stwierdzenia i wskazać, w którym miejscu skali umieścił/a/by Pan/i/ swoje poglądy.",
+    "stem": "Imigranci zwiększają przestępczość",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Imigranci nie zwiększają przestępczości"
+  },
+  {
+    "id": "v187",
+    "text": "Proszę spojrzeć na poniższe stwierdzenia i wskazać, w którym miejscu skali umieścił/a/by Pan/i/ swoje poglądy.",
+    "stem": "Imigranci są obciążeniem dla systemu opieki społecznej w kraju",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Imigranci nie są obciążeniem dla systemu opieki społecznej w kraju"
+  },
+  {
+    "id": "v188",
+    "text": "Proszę spojrzeć na poniższe stwierdzenia i wskazać, w którym miejscu skali umieścił/a/by Pan/i/ swoje poglądy.",
+    "stem": "Lepiej jest, jeśli imigranci zachowują swoje odrębne zwyczaje i tradycje",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "Lepiej jest, jeśli imigranci nie zachowują odrębnych zwyczajów i tradycji"
+  },
+  {
+    "id": "v189",
+    "text": "Niektórzy ludzie twierdzą, że następujące sprawy są ważne, aby być prawdziwym Polakiem. Inni mówią, że nie są one ważne. Jak ważna jest, według Pana/i/, każda z następujących spraw?",
+    "stem": "Urodzenie się w Polsce",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Niektórzy ludzie twierdzą, że następujące sprawy są ważne, aby być prawdziwym Polakiem. Inni mówią, że nie są one ważne. Jak ważna jest, według Pana/i/, każda z następujących spraw?",
+    "stem": "Szanowanie polskich instytucji politycznych i praw",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Niektórzy ludzie twierdzą, że następujące sprawy są ważne, aby być prawdziwym Polakiem. Inni mówią, że nie są one ważne. Jak ważna jest, według Pana/i/, każda z następujących spraw?",
+    "stem": "Polskie pochodzenie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Niektórzy ludzie twierdzą, że następujące sprawy są ważne, aby być prawdziwym Polakiem. Inni mówią, że nie są one ważne. Jak ważna jest, według Pana/i/, każda z następujących spraw?",
+    "stem": "Umiejętność mówienia po polsku",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Niektórzy ludzie twierdzą, że następujące sprawy są ważne, aby być prawdziwym Polakiem. Inni mówią, że nie są one ważne. Jak ważna jest, według Pana/i/, każda z następujących spraw?",
+    "stem": "Korzystanie z polskiej kultury",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v314",
+    "text": "Niektórzy ludzie twierdzą, że następujące sprawy są ważne, aby być prawdziwym Polakiem. Inni mówią, że nie są one ważne. Jak ważna jest, według Pana/i/, każda z następujących spraw?",
+    "stem": "bycie katolikiem?",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "Ludzie różnią się pod względem opinii na temat tego, co to znaczy być Europejczykiem. Według Pana/i/, jak ważna jest każda z wymienionych spraw, aby być Europejczykiem?",
+    "stem": "Urodzenie się w Europie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Ludzie różnią się pod względem opinii na temat tego, co to znaczy być Europejczykiem. Według Pana/i/, jak ważna jest każda z wymienionych spraw, aby być Europejczykiem?",
+    "stem": "Posiadanie rodziców-Europejczyków",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "Ludzie różnią się pod względem opinii na temat tego, co to znaczy być Europejczykiem. Według Pana/i/, jak ważna jest każda z wymienionych spraw, aby być Europejczykiem?",
+    "stem": "Bycie chrześcijaninem",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v197",
+    "text": "Ludzie różnią się pod względem opinii na temat tego, co to znaczy być Europejczykiem. Według Pana/i/, jak ważna jest każda z wymienionych spraw, aby być Europejczykiem?",
+    "stem": "Korzystanie z europejskiej kultury",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nie ważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "Niektórzy uważają, że Unia Europejska powinna nadal się rozszerzać. Inni mówią, że już obecnie rozszerzenie zaszło za daleko. Proszę wybrać z tej karty liczbę, która najlepiej charakteryzuje Pana/i/ pogląd w tej sprawie. “1” oznacza “powinna nadal się rozszerzać”, “10” oznacza “rozszerzanie zaszło za daleko”.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": "powinna dalej się rozszerzać ... rozszerzanie zaszło za daleko"
+  },
+  {
+    "id": "v199",
+    "text": "Przeczytam teraz kilka stwierdzeń dotyczących środowiska naturalnego. Przy każdym z nich proszę powiedzieć, czy Pan/i/ z tym zgadza się zdecydowanie, zgadza się, nie zgadza się lub zdecydowanie się nie zgadza?",
+    "stem": "Oddał/a/bym część swoich zarobków, gdybym miał/a/ pewność, że te pieniądze będą przeznaczone na walkę z zanieczyszczeniem środowiska",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v200",
+    "text": "Przeczytam teraz kilka stwierdzeń dotyczących środowiska naturalnego. Przy każdym z nich proszę powiedzieć, czy Pan/i/ z tym zgadza się zdecydowanie, zgadza się, nie zgadza się lub zdecydowanie się nie zgadza?",
+    "stem": "Dla kogoś takiego jak ja, po prostu zbyt trudne jest zrobić coś dla środowiska",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "Przeczytam teraz kilka stwierdzeń dotyczących środowiska naturalnego. Przy każdym z nich proszę powiedzieć, czy Pan/i/ z tym zgadza się zdecydowanie, zgadza się, nie zgadza się lub zdecydowanie się nie zgadza?",
+    "stem": "W życiu są ważniejsze rzeczy do zrobienia niż ochrona środowiska",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "Przeczytam teraz kilka stwierdzeń dotyczących środowiska naturalnego. Przy każdym z nich proszę powiedzieć, czy Pan/i/ z tym zgadza się zdecydowanie, zgadza się, nie zgadza się lub zdecydowanie się nie zgadza?",
+    "stem": "Nie ma sensu, żebym ja robił/a/ co tylko się da dla środowiska, dopóki inni nie robią tego samego",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Przeczytam teraz kilka stwierdzeń dotyczących środowiska naturalnego. Przy każdym z nich proszę powiedzieć, czy Pan/i/ z tym zgadza się zdecydowanie, zgadza się, nie zgadza się lub zdecydowanie się nie zgadza?",
+    "stem": "Wiele twierdzeń na temat zagrożeń dla środowiska jest mocno przesadzonych",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie zgadzam się"
+      },
+      {
+        "value": 2,
+        "label": "zgadzam się"
+      },
+      {
+        "value": 3,
+        "label": "ani się zgadzam ani się nie zgadzam"
+      },
+      {
+        "value": 4,
+        "label": "nie zgadzam się"
+      },
+      {
+        "value": 5,
+        "label": "zdecydowanie nie zgadzam się"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Oto dwie opinie, które ludzie czasami wygłaszają, gdy dyskutują na temat środowiska i wzrostu gospodarczego. Która z nich jest bliższa Pana/i/ opinii?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Najważniejszą sprawa powinna być ochrona środowiska, nawet jeśli oznaczałoby to spowolnienie wzrostu gospodarczego i utratę pewnej liczby miejsc pracy"
+      },
+      {
+        "value": 2,
+        "label": "Najważniejszą sprawa powinien być wzrost gospodarczy i tworzenie miejsc pracy, nawet jeśli środowisko naturalne na tym by trochę ucierpiało"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Czy uważa Pan/i/, że polski rząd powinien mieć prawo czy też nie powinien mieć prawa do robienia następujących rzeczy:",
+    "stem": "Śledzenia obywateli w przestrzeni publicznej przy pomocy kamer",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie powinien mieć prawo"
+      },
+      {
+        "value": 2,
+        "label": "raczej powinien mieć prawo"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie powinien mieć prawa"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie powinien mieć prawa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Czy uważa Pan/i/, że polski rząd powinien mieć prawo czy też nie powinien mieć prawa do robienia następujących rzeczy:",
+    "stem": "Przeglądania poczty internetowej i innych informacji wymienianych za pośrednictwem internetu/w internecie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie powinien mieć prawo"
+      },
+      {
+        "value": 2,
+        "label": "raczej powinien mieć prawo"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie powinien mieć prawa"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie powinien mieć prawa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Czy uważa Pan/i/, że polski rząd powinien mieć prawo czy też nie powinien mieć prawa do robienia następujących rzeczy:",
+    "stem": "Zbierania informacji o każdym mieszkańcu Polski bez jego wiedzy",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "zdecydowanie powinien mieć prawo"
+      },
+      {
+        "value": 2,
+        "label": "raczej powinien mieć prawo"
+      },
+      {
+        "value": 3,
+        "label": "raczej nie powinien mieć prawa"
+      },
+      {
+        "value": 4,
+        "label": "zdecydowanie nie powinien mieć prawa"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v208",
+    "text": "Jak często śledzi Pan/i/ wydarzenia polityczne...",
+    "stem": "w telewizji",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "codziennie"
+      },
+      {
+        "value": 2,
+        "label": "kilka razy na tygodniu"
+      },
+      {
+        "value": 3,
+        "label": "raz czy dwa w tygodniu"
+      },
+      {
+        "value": 4,
+        "label": "rzadziej"
+      },
+      {
+        "value": 5,
+        "label": "nigdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v209",
+    "text": "Jak często śledzi Pan/i/ wydarzenia polityczne...",
+    "stem": "w radiu",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "codziennie"
+      },
+      {
+        "value": 2,
+        "label": "kilka razy na tygodniu"
+      },
+      {
+        "value": 3,
+        "label": "raz czy dwa w tygodniu"
+      },
+      {
+        "value": 4,
+        "label": "rzadziej"
+      },
+      {
+        "value": 5,
+        "label": "nigdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v210",
+    "text": "Jak często śledzi Pan/i/ wydarzenia polityczne...",
+    "stem": "w prasie codziennej",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "codziennie"
+      },
+      {
+        "value": 2,
+        "label": "kilka razy na tygodniu"
+      },
+      {
+        "value": 3,
+        "label": "raz czy dwa w tygodniu"
+      },
+      {
+        "value": 4,
+        "label": "rzadziej"
+      },
+      {
+        "value": 5,
+        "label": "nigdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v211",
+    "text": "Jak często śledzi Pan/i/ wydarzenia polityczne...",
+    "stem": "w mediach społecznościowych",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "codziennie"
+      },
+      {
+        "value": 2,
+        "label": "kilka razy na tygodniu"
+      },
+      {
+        "value": 3,
+        "label": "raz czy dwa w tygodniu"
+      },
+      {
+        "value": 4,
+        "label": "rzadziej"
+      },
+      {
+        "value": 5,
+        "label": "nigdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich żyją:",
+    "stem": "Ludzie z sąsiedztwa",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich żyją:",
+    "stem": "Ludzie z regionu, w którym Pan/i/ mieszka",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich żyją:",
+    "stem": "Pana/i/rodacy (tzn. Polacy)",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich żyją:",
+    "stem": "Europejczycy",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich żyją:",
+    "stem": "Wszyscy ludzie na całym świecie",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich w Polsce żyją:",
+    "stem": "Starsi ludzie",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich w Polsce żyją:",
+    "stem": "Bezrobotni",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich w Polsce żyją:",
+    "stem": "Imigranci",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "W jakim stopniu obchodzą Pana/ią/ warunki życia, w jakich w Polsce żyją:",
+    "stem": "Chorzy i niepełnosprawni",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "tylko do pewnego stopnia"
+      },
+      {
+        "value": 4,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 5,
+        "label": "wcale"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "Co Pana/i/ zdaniem powinno zapewniać społeczeństwo? Na tej karcie przedstawione są różne cele społeczne. Proszę powiedzieć przy każdym celu, czy jest on dla Pana/i/ ważny, czy też nie. Odpowiadając, proszę posłużyć się skalą.",
+    "stem": "Eliminowanie dużych nierówności w dochodach obywateli",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Co Pana/i/ zdaniem powinno zapewniać społeczeństwo? Na tej karcie przedstawione są różne cele społeczne. Proszę powiedzieć przy każdym celu, czy jest on dla Pana/i/ ważny, czy też nie. Odpowiadając, proszę posłużyć się skalą.",
+    "stem": "Zagwarantowanie zaspokojenia podstawowych potrzeb dla wszystkich (jedzenie, mieszkanie, ubranie, wykształcenie, opieka lekarska)",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Co Pana/i/ zdaniem powinno zapewniać społeczeństwo? Na tej karcie przedstawione są różne cele społeczne. Proszę powiedzieć przy każdym celu, czy jest on dla Pana/i/ ważny, czy też nie. Odpowiadając, proszę posłużyć się skalą.",
+    "stem": "Okazywanie ludziom uznania – w postaci szacunku i odpowiedniego wynagrodzenia – za ich zasługi",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Co Pana/i/ zdaniem powinno zapewniać społeczeństwo? Na tej karcie przedstawione są różne cele społeczne. Proszę powiedzieć przy każdym celu, czy jest on dla Pana/i/ ważny, czy też nie. Odpowiadając, proszę posłużyć się skalą.",
+    "stem": "Ochrona przed terroryzmem",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "bardzo ważne"
+      },
+      {
+        "value": 2,
+        "label": "raczej ważne"
+      },
+      {
+        "value": 3,
+        "label": "raczej nieważne"
+      },
+      {
+        "value": 4,
+        "label": "w ogóle nieważne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v317",
+    "text": "Proszę pomyśleć o osobach w wieku powyżej 65 lat. Czy, Pana/i/ zdaniem, ludzie w naszym kraju:",
+    "stem": "postrzegają osoby w wieku powyżej 65 lat jako przyjazne?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie ich tak nie postrzegają"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "bardzo często je tak postrzegają"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v318",
+    "text": "Proszę pomyśleć o osobach w wieku powyżej 65 lat. Czy, Pana/i/ zdaniem, ludzie w naszym kraju:",
+    "stem": "postrzegają osoby w wieku powyżej 65 lat jako kompetentne?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie ich tak nie postrzegają"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "bardzo często je tak postrzegają"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v319",
+    "text": "Proszę pomyśleć o osobach w wieku powyżej 65 lat. Czy, Pana/i/ zdaniem, ludzie w naszym kraju:",
+    "stem": "postrzegają osoby w wieku powyżej 65 lat jako godne szacunku?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie ich tak nie postrzegają"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "bardzo często je tak postrzegają"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v320",
+    "text": "Proszę teraz pomyśleć o osobach w wieku około 30 lat. Czy, Pana/i/ zdaniem, ludzie w naszym kraju:",
+    "stem": "postrzegają osoby w wieku około 30 lat jako przyjazne?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie ich tak nie postrzegają"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "bardzo często je tak postrzegają"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v321",
+    "text": "Proszę teraz pomyśleć o osobach w wieku około 30 lat. Czy, Pana/i/ zdaniem, ludzie w naszym kraju:",
+    "stem": "postrzegają osoby w wieku około 30 lat jako kompetentne?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie ich tak nie postrzegają"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "bardzo często je tak postrzegają"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v322",
+    "text": "Proszę teraz pomyśleć o osobach w wieku około 30 lat. Czy, Pana/i/ zdaniem, ludzie w naszym kraju:",
+    "stem": "postrzegają osoby w wieku około 30 lat jako godne szacunku?",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "zupełnie ich tak nie postrzegają"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "bardzo często je tak postrzegają"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v354",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "utrata pracy bądź niemożność znalezienia pracy",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v355",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "brak środków, żeby zapewnić dzieciom dobre wykształcenie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v356",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "wojna, w której bierze udział mój kraj",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v357",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "atak terrorystyczny",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v358",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "wojna domowa",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v359",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "brak środków, żeby godnie żyć po przejściu na emeryturę",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v360",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "postępujące zanieczyszczenie środowiska i jego skutki",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v361",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "stanie się ofiarą napaści na ulicy",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v362",
+    "text": "Do jakiego stopnia obawia się Pan/i/ następujących sytuacji:",
+    "stem": "długotrwała choroba",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "w bardzo dużym stopniu"
+      },
+      {
+        "value": 2,
+        "label": "w dużym stopniu"
+      },
+      {
+        "value": 3,
+        "label": "w niewielkim stopniu"
+      },
+      {
+        "value": 4,
+        "label": "zupełnie nie"
+      }
+    ],
+    "answer_cue": null
+  }
+]

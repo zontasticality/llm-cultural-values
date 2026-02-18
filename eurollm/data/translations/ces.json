@@ -1,0 +1,5950 @@
+[
+  {
+    "id": "Q1",
+    "text": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:\nPráce",
+    "stem": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:",
+    "item": "Práce",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:\nRodina",
+    "stem": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:",
+    "item": "Rodina",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:\nPřátelé a známí",
+    "stem": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:",
+    "item": "Přátelé a známí",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:\nVolný čas",
+    "stem": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:",
+    "item": "Volný čas",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:\nPolitika",
+    "stem": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:",
+    "item": "Politika",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q1",
+    "text": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:\nNáboženství",
+    "stem": "Prosím řekněte, pro každou z následujících skutečností, jak jsou ve Vašem životě důležité:",
+    "item": "Náboženství",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q2",
+    "text": "Když zvážíte všechny okolnosti, řekl(a) byste, že jste:\n1 - Velmi šťastný/á\n2 - Celkem šťastný/á\n3 - Ne moc šťastný/á\n4 - Vůbec ne šťastný/á",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 - Velmi šťastný/á"
+      },
+      {
+        "value": 2,
+        "label": "2 - Celkem šťastný/á"
+      },
+      {
+        "value": 3,
+        "label": "3 - Ne moc šťastný/á"
+      },
+      {
+        "value": 4,
+        "label": "4 - Vůbec ne šťastný/á"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q3",
+    "text": "Když zvážíte všechny okolnosti, jak byste popsal(a) svůj současný zdravotní stav? Řekl(a) byste, že je:\n1 - Velmi dobrý\n2 - Dobrý\n3 - Ucházející\n4 - Špatný\n5 – Velmi špatný",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 - Velmi dobrý"
+      },
+      {
+        "value": 2,
+        "label": "2 - Dobrý"
+      },
+      {
+        "value": 3,
+        "label": "3 - Ucházející"
+      },
+      {
+        "value": 4,
+        "label": "4 - Špatný"
+      },
+      {
+        "value": 5,
+        "label": "5 – Velmi špatný"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nNáboženské nebo církevní organizace",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Náboženské nebo církevní organizace",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nVzdělávací, umělecké, hudební nebo kulturní aktivity",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Vzdělávací, umělecké, hudební nebo kulturní aktivity",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nOdbory",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Odbory",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nPolitické strany nebo hnutí",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Politické strany nebo hnutí",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nOchrana životního prostředí, ekologická hnutí, práva zvířat",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Ochrana životního prostředí, ekologická hnutí, práva zvířat",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nSdružení podle povolání, profesní asociace",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Sdružení podle povolání, profesní asociace",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nSport nebo zábava",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Sport nebo zábava",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nHumanitární nebo charitativní organizace",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Humanitární nebo charitativní organizace",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nSpotřebitelské organizace (např. Sdružení obrany spotřebitelů)",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Spotřebitelské organizace (např. Sdružení obrany spotřebitelů)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nSkupiny svépomoci a vzájemné pomoci",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Skupiny svépomoci a vzájemné pomoci",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q4",
+    "text": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:\nJiné skupiny",
+    "stem": "Prosím prohlédněte si pečlivě seznam dobrovolných organizací a řekněte, ke kterým z nich náležíte:",
+    "item": "Jiné skupiny",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q5",
+    "text": "Dělal(a) jste dobrovolnou práci v posledních 6 měsících?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nLidé odlišné rasy",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Lidé odlišné rasy",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nTěžcí alkoholici",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Těžcí alkoholici",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nPřistěhovalci (imigranti) / cizí dělníci",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Přistěhovalci (imigranti) / cizí dělníci",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nLidé závislí na drogách",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Lidé závislí na drogách",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nHomosexuálové",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Homosexuálové",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nKřesťané",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Křesťané",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nMuslimové",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Muslimové",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nŽidé",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Židé",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?\nRomové",
+    "stem": "V tomto seznamu jsou různé skupiny lidí. Můžete prosím identifikovat všechny ty, které byste nechtěl(a) mít za sousedy?",
+    "item": "Romové",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "Mohl(a) byste říci podle svých životních zkušeností, že většině lidí je možno důvěřovat, anebo že člověk musí být ve styku s ostatními velmi opatrný?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Většině lidí je možno důvěřovat"
+      },
+      {
+        "value": 2,
+        "label": "Člověk musí být ve styku s ostatními velmi opatrný"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?\nVaše rodina",
+    "stem": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?",
+    "item": "Vaše rodina",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zcela věřím"
+      },
+      {
+        "value": 2,
+        "label": "Částečně věřím"
+      },
+      {
+        "value": 3,
+        "label": "Málo věřím"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec nevěřím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?\nLidé ve vašem sousedství",
+    "stem": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?",
+    "item": "Lidé ve vašem sousedství",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zcela věřím"
+      },
+      {
+        "value": 2,
+        "label": "Částečně věřím"
+      },
+      {
+        "value": 3,
+        "label": "Málo věřím"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec nevěřím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?\nLidé, které osobně znáte",
+    "stem": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?",
+    "item": "Lidé, které osobně znáte",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zcela věřím"
+      },
+      {
+        "value": 2,
+        "label": "Částečně věřím"
+      },
+      {
+        "value": 3,
+        "label": "Málo věřím"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec nevěřím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?\nLidé, s kterými jste se právě seznámil(a)",
+    "stem": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?",
+    "item": "Lidé, s kterými jste se právě seznámil(a)",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zcela věřím"
+      },
+      {
+        "value": 2,
+        "label": "Částečně věřím"
+      },
+      {
+        "value": 3,
+        "label": "Málo věřím"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec nevěřím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?\nLidé jiného vyznání",
+    "stem": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?",
+    "item": "Lidé jiného vyznání",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zcela věřím"
+      },
+      {
+        "value": 2,
+        "label": "Částečně věřím"
+      },
+      {
+        "value": 3,
+        "label": "Málo věřím"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec nevěřím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?\nLidé odlišné národnosti",
+    "stem": "Rád(a) bych se zeptal(a) do jaké míry věříte lidem z různých skupin. Mohl(a) byste mi říci, u každé z následujících skupin lidí, zda jim věříte zcela, částečně, málo, nebo vůbec?",
+    "item": "Lidé odlišné národnosti",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zcela věřím"
+      },
+      {
+        "value": 2,
+        "label": "Částečně věřím"
+      },
+      {
+        "value": 3,
+        "label": "Málo věřím"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec nevěřím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Někteří lidé mají pocit úplně svobodného rozhodování a kontroly nad svým životem a jiní mají pocit, že svůj život ovlivňovat nemohou, ať dělají, co dělají. Prosím Vás, vyjádřete na následující škále, nakolik podle Vás můžete ovlivňovat svůj život.",
+    "stem": "Někteří lidé mají pocit úplně svobodného rozhodování a kontroly nad svým životem a jiní mají pocit, že svůj život ovlivňovat nemohou, ať dělají, co dělají.",
+    "item": "Nakolik podle Vás můžete ovlivňovat svůj život.",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vůbec ne"
+      },
+      {
+        "value": 10,
+        "label": "Plně"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Když vezmete v úvahu všechny okolnosti, jak jste nyní spokojen(a) se svým životem? Prosím použijte tuto kartu, která Vám má pomoci s odpovědí.",
+    "stem": "Když vezmete v úvahu všechny okolnosti",
+    "item": "Jak jste nyní spokojen(a) se svým životem?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nespokojen(a)"
+      },
+      {
+        "value": 10,
+        "label": "Spokojen(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11A",
+    "text": "Zde je výčet toho, co lidé považují za důležité ve své práci. Prosím, prohlédněte si seznam a řekněte mi, co z něj Vy osobně považujete za důležité?",
+    "stem": "Zde je výčet toho, co lidé považují za důležité ve své práci.",
+    "item": "Dobrý plat",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11B",
+    "text": "Zde je výčet toho, co lidé považují za důležité ve své práci. Prosím, prohlédněte si seznam a řekněte mi, co z něj Vy osobně považujete za důležité?",
+    "stem": "Zde je výčet toho, co lidé považují za důležité ve své práci.",
+    "item": "Dobrá pracovní doba",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11C",
+    "text": "Zde je výčet toho, co lidé považují za důležité ve své práci. Prosím, prohlédněte si seznam a řekněte mi, co z něj Vy osobně považujete za důležité?",
+    "stem": "Zde je výčet toho, co lidé považují za důležité ve své práci.",
+    "item": "Příležitost uplatnit iniciativu",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11D",
+    "text": "Zde je výčet toho, co lidé považují za důležité ve své práci. Prosím, prohlédněte si seznam a řekněte mi, co z něj Vy osobně považujete za důležité?",
+    "stem": "Zde je výčet toho, co lidé považují za důležité ve své práci.",
+    "item": "Štědrá dovolená (dlouhá)",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11E",
+    "text": "Zde je výčet toho, co lidé považují za důležité ve své práci. Prosím, prohlédněte si seznam a řekněte mi, co z něj Vy osobně považujete za důležité?",
+    "stem": "Zde je výčet toho, co lidé považují za důležité ve své práci.",
+    "item": "Práce, ve které můžete něčeho dosáhnout",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11F",
+    "text": "Zde je výčet toho, co lidé považují za důležité ve své práci. Prosím, prohlédněte si seznam a řekněte mi, co z něj Vy osobně považujete za důležité?",
+    "stem": "Zde je výčet toho, co lidé považují za důležité ve své práci.",
+    "item": "Zodpovědná práce",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Jak moc souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "stem": null,
+    "item": "Člověk musí mít zaměstnání (práci), aby mohl plně rozvinout své vlohy.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Jak moc souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "stem": null,
+    "item": "Je ponižující dostávat peníze, aniž by si je člověk musel odpracovat",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Jak moc souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "stem": null,
+    "item": "Lidé, kteří nepracují, zleniví.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Jak moc souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "stem": null,
+    "item": "Pracovat je povinností vůči společnosti.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12",
+    "text": "Jak moc souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "stem": null,
+    "item": "Práce by měla mít vždy přednost, i když to znamená mít méně volného času.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q17",
+    "text": "Nezávisle na tom, zda chodíte do kostela nebo ne, mohl(a) byste říci, že jste ...",
+    "stem": "Nezávisle na tom, zda chodíte do kostela nebo ne",
+    "item": "Jste ...",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Věřící"
+      },
+      {
+        "value": 2,
+        "label": "Nevěřící"
+      },
+      {
+        "value": 3,
+        "label": "Přesvědčený ateista (to je člověk, který víru vědomě odmítá)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Věříte, že existuje:",
+    "stem": null,
+    "item": "Bůh",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Věříte, že existuje:",
+    "stem": null,
+    "item": "Posmrtný život",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Věříte, že existuje:",
+    "stem": null,
+    "item": "Peklo",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18",
+    "text": "Věříte, že existuje:",
+    "stem": null,
+    "item": "Nebe",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Věříte v převtělování, tedy že máme minulé životy a že se po smrti narodíme znovu na tomto světě?",
+    "stem": null,
+    "item": "Věříte v převtělování?",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q20",
+    "text": "Který z těchto výroků je nejblíže Vašemu přesvědčení?",
+    "stem": null,
+    "item": "Který z těchto výroků je nejblíže Vašemu přesvědčení?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Existuje Bůh jako Osoba"
+      },
+      {
+        "value": 2,
+        "label": "Existuje cosi jako duch nebo vyšší moc"
+      },
+      {
+        "value": 3,
+        "label": "Nevím, co si mám myslet"
+      },
+      {
+        "value": 4,
+        "label": "Skutečně si nemyslím, že existuje nějaký druh duchovní, božské nebo vyšší síly"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q21",
+    "text": "A jak důležitý je Bůh ve Vašem životě? Prosím použijte tuto kartu: 10 znamená velmi důležitý a 1 znamená vůbec ne důležitý.",
+    "stem": "A jak důležitý je Bůh ve Vašem životě?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Vůbec ne důležitý"
+      },
+      {
+        "value": 10,
+        "label": "Velmi důležitý"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q22",
+    "text": "Jak často se modlíte mimo církevní obřady? Mohl(a) byste říci, že ...",
+    "stem": null,
+    "item": "Jak často se modlíte mimo církevní obřady?",
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Každý den"
+      },
+      {
+        "value": 2,
+        "label": "Častěji než jednou za týden"
+      },
+      {
+        "value": 3,
+        "label": "Jednou za týden"
+      },
+      {
+        "value": 4,
+        "label": "Alespoň jednou za měsíc"
+      },
+      {
+        "value": 5,
+        "label": "Několikrát za rok"
+      },
+      {
+        "value": 6,
+        "label": "Méně často"
+      },
+      {
+        "value": 7,
+        "label": "Nikdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23A",
+    "text": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství. Prosím, řekněte mi pro každou z nich, zda ji považujete za velmi důležitou, spíše důležitou nebo nepříliš důležitou.",
+    "stem": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství.",
+    "item": "Věrnost",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Spíše důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23B",
+    "text": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství. Prosím, řekněte mi pro každou z nich, zda ji považujete za velmi důležitou, spíše důležitou nebo nepříliš důležitou.",
+    "stem": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství.",
+    "item": "Přiměřený příjem",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Spíše důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23C",
+    "text": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství. Prosím, řekněte mi pro každou z nich, zda ji považujete za velmi důležitou, spíše důležitou nebo nepříliš důležitou.",
+    "stem": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství.",
+    "item": "Dobré bydlení",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Spíše důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23D",
+    "text": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství. Prosím, řekněte mi pro každou z nich, zda ji považujete za velmi důležitou, spíše důležitou nebo nepříliš důležitou.",
+    "stem": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství.",
+    "item": "Sdílení domácích prací",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Spíše důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23E",
+    "text": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství. Prosím, řekněte mi pro každou z nich, zda ji považujete za velmi důležitou, spíše důležitou nebo nepříliš důležitou.",
+    "stem": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství.",
+    "item": "Děti",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Spíše důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23F",
+    "text": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství. Prosím, řekněte mi pro každou z nich, zda ji považujete za velmi důležitou, spíše důležitou nebo nepříliš důležitou.",
+    "stem": "Zde je seznam věcí, o nichž si někteří lidé myslí, že jsou nutné pro úspěšné manželství nebo partnerství.",
+    "item": "Mít nějaký čas pro své vlastní přátele a pro své vlastní koníčky/činnosti",
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Spíše důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Souhlasíte nebo nesouhlasíte s následujícím výrokem? Manželství je zastaralá instituce.",
+    "stem": null,
+    "item": "Manželství je zastaralá instituce.",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Souhlasí"
+      },
+      {
+        "value": 2,
+        "label": "Nesouhlasí"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Děti trpí, jestliže jejich matka je zaměstnaná.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Zaměstnání je dobrá věc, po čem však většina žen opravdu touží, je domov a děti.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Celkově vzato, rodinný život trpí, jestliže je žena zaměstnaná na plný úvazek",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Úkolem muže je vydělávat peníze, úkolem ženy je starat se o domácnost a rodinu.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Celkem vzato, muži jsou lepšími politickými vůdci, než ženy",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Vysokoškolské vzdělání je důležitější pro chlapce spíše než pro dívky",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Celkem vzato, muži jsou lepšími šéfy firem, než ženy",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25",
+    "text": "Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte:",
+    "stem": null,
+    "item": "Jeden z mých hlavních životních cílů je, aby na mně rodiče byli hrdí.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26A",
+    "text": "Souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "stem": null,
+    "item": "Když je nedostatek pracovních příležitostí, zaměstnavatelé by měli dát přednost Čechům před přistěhovalci.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v81",
+    "text": "Když je nedostatek pracovních příležitostí, muži mají na práci větší právo než ženy.",
+    "stem": "Souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "item": "Když je nedostatek pracovních příležitostí, muži mají na práci větší právo než ženy.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": "Souhlasíte nebo nesouhlasíte"
+  },
+  {
+    "id": "v82",
+    "text": "Homosexualní páry jsou stejnými dobrými rodiči jako jiné páry",
+    "stem": "Co si myslíte o následujících výrocích? Souhlasíte s nimi nebo nesouhlasíte?",
+    "item": "Homosexualní páry jsou stejnými dobrými rodiči jako jiné páry",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": "Souhlasíte nebo nesouhlasíte"
+  },
+  {
+    "id": "v83",
+    "text": "Mít děti je zodpovědnost vůči společnosti",
+    "stem": "Co si myslíte o následujících výrocích? Souhlasíte s nimi nebo nesouhlasíte?",
+    "item": "Mít děti je zodpovědnost vůči společnosti",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": "Souhlasíte nebo nesouhlasíte"
+  },
+  {
+    "id": "v84",
+    "text": "Když je rodič dlouhodobě nemocen, je povinností jeho dospělého dítěte postarat se o něj.",
+    "stem": "Co si myslíte o následujících výrocích? Souhlasíte s nimi nebo nesouhlasíte?",
+    "item": "Když je rodič dlouhodobě nemocen, je povinností jeho dospělého dítěte postarat se o něj.",
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": "Souhlasíte nebo nesouhlasíte"
+  },
+  {
+    "id": "v85",
+    "text": "Slušnost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Slušnost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v86",
+    "text": "Samostatnost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Samostatnost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v87",
+    "text": "Pracovitost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Pracovitost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v88",
+    "text": "Pocit odpovědnosti",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Pocit odpovědnosti",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v89",
+    "text": "Představivost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Představivost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v90",
+    "text": "Snášenlivost a ohleduplnost k jiným lidem",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Snášenlivost a ohleduplnost k jiným lidem",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v91",
+    "text": "Spořivost, šetrné hospodaření s penězi a věcmi",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Spořivost, šetrné hospodaření s penězi a věcmi",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v92",
+    "text": "Odhodlání, vytrvalost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Odhodlání, vytrvalost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v93",
+    "text": "Náboženská víra",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Náboženská víra",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v94",
+    "text": "Nesobeckost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Nesobeckost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v95",
+    "text": "Poslušnost",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Poslušnost",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v96",
+    "text": "Žádný",
+    "stem": "Zde je seznam vlastností, které mohou být v dětech doma pěstovány. Které z nich považujete za zvlášť žádoucí? Prosím vyberte nejvýše pět.",
+    "item": "Žádný",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zmínil(a)"
+      },
+      {
+        "value": 2,
+        "label": "Nezmínil(a)"
+      }
+    ],
+    "answer_cue": "Zmínil(a) nebo Nezmínil(a)"
+  },
+  {
+    "id": "v97",
+    "text": "Do jaké míry se zajímáte o politiku?",
+    "stem": null,
+    "item": "Do jaké míry se zajímáte o politiku?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velice se zajímám"
+      },
+      {
+        "value": 2,
+        "label": "Trochu se zajímám"
+      },
+      {
+        "value": 3,
+        "label": "Příliš se nezajímám"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec se nezajímám"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v98",
+    "text": "Podpis petice",
+    "stem": "Nyní se, prosím, podívejte na tuto kartu. Budu Vám číst různé formy politických činností, které mohou lidé vykonávat, a byl(a) bych rád(a), kdybyste mi řekl(a) pro každou z nich, zda jste ji již dělal(a), dělal(a) byste ji, nebo byste ji za žádných okolností nedělal(a).",
+    "item": "Podpis petice",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dělal(a) jsem"
+      },
+      {
+        "value": 2,
+        "label": "Dělal(a) bych"
+      },
+      {
+        "value": 3,
+        "label": "Nikdy bych nedělal(a)"
+      }
+    ],
+    "answer_cue": "Dělal(a) jsem, Dělal(a) bych, Nikdy bych nedělal(a)"
+  },
+  {
+    "id": "v99",
+    "text": "Účast na bojkotu",
+    "stem": "Nyní se, prosím, podívejte na tuto kartu. Budu Vám číst různé formy politických činností, které mohou lidé vykonávat, a byl(a) bych rád(a), kdybyste mi řekl(a) pro každou z nich, zda jste ji již dělal(a), dělal(a) byste ji, nebo byste ji za žádných okolností nedělal(a).",
+    "item": "Účast na bojkotu",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dělal(a) jsem"
+      },
+      {
+        "value": 2,
+        "label": "Dělal(a) bych"
+      },
+      {
+        "value": 3,
+        "label": "Nikdy bych nedělal(a)"
+      }
+    ],
+    "answer_cue": "Dělal(a) jsem, Dělal(a) bych, Nikdy bych nedělal(a)"
+  },
+  {
+    "id": "v100",
+    "text": "Účast na povolené demonstraci",
+    "stem": "Nyní se, prosím, podívejte na tuto kartu. Budu Vám číst různé formy politických činností, které mohou lidé vykonávat, a byl(a) bych rád(a), kdybyste mi řekl(a) pro každou z nich, zda jste ji již dělal(a), dělal(a) byste ji, nebo byste ji za žádných okolností nedělal(a).",
+    "item": "Účast na povolené demonstraci",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dělal(a) jsem"
+      },
+      {
+        "value": 2,
+        "label": "Dělal(a) bych"
+      },
+      {
+        "value": 3,
+        "label": "Nikdy bych nedělal(a)"
+      }
+    ],
+    "answer_cue": "Dělal(a) jsem, Dělal(a) bych, Nikdy bych nedělal(a)"
+  },
+  {
+    "id": "v101",
+    "text": "Účast v neoficiální stávce",
+    "stem": "Nyní se, prosím, podívejte na tuto kartu. Budu Vám číst různé formy politických činností, které mohou lidé vykonávat, a byl(a) bych rád(a), kdybyste mi řekl(a) pro každou z nich, zda jste ji již dělal(a), dělal(a) byste ji, nebo byste ji za žádných okolností nedělal(a).",
+    "item": "Účast v neoficiální stávce",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dělal(a) jsem"
+      },
+      {
+        "value": 2,
+        "label": "Dělal(a) bych"
+      },
+      {
+        "value": 3,
+        "label": "Nikdy bych nedělal(a)"
+      }
+    ],
+    "answer_cue": "Dělal(a) jsem, Dělal(a) bych, Nikdy bych nedělal(a)"
+  },
+  {
+    "id": "v102",
+    "text": "V politice se hovoří o “levici” a “pravici”. Obecně vzato, kam byste zařadil(a) své názory na této škále?",
+    "stem": null,
+    "item": "V politice se hovoří o “levici” a “pravici”. Obecně vzato, kam byste zařadil(a) své názory na této škále?",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Levice"
+      },
+      {
+        "value": 10,
+        "label": "Pravice"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v103",
+    "text": "Jednotlivci by měli převzít více odpovědnosti, aby se o sebe dokázali postarat",
+    "stem": "Teď bych byl(a) rád(a), kdybyste mi mohl(a) říci své názory na různá témata. Kam byste svůj názor umístil(a) na takovéto škále?",
+    "item": "Jednotlivci by měli převzít více odpovědnosti, aby se o sebe dokázali postarat",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Jednotlivci by měli převzít více odpovědnosti, aby se o sebe dokázali postarat"
+      },
+      {
+        "value": 10,
+        "label": "Stát by měl převzít více odpovědnosti a zajistit, aby bylo o každého postaráno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v104",
+    "text": "Nezaměstnaní by měli mít povinnost přijmout jakoukoli práci, která je k dispozici, nebo ztratit podporu v nezaměstnanosti",
+    "stem": "Teď bych byl(a) rád(a), kdybyste mi mohl(a) říci své názory na různá témata. Kam byste svůj názor umístil(a) na takovéto škále?",
+    "item": "Nezaměstnaní by měli mít povinnost přijmout jakoukoli práci, která je k dispozici, nebo ztratit podporu v nezaměstnanosti",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Nezaměstnaní by měli mít povinnost přijmout jakoukoli práci, která je k dispozici, nebo ztratit podporu v nezaměstnanosti"
+      },
+      {
+        "value": 10,
+        "label": "Nezaměstnaní by měli mít právo odmítnout zaměstnání, které nechtějí vykonávat"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v105",
+    "text": "Konkurence je dobrá",
+    "stem": "Teď bych byl(a) rád(a), kdybyste mi mohl(a) říci své názory na různá témata. Kam byste svůj názor umístil(a) na takovéto škále?",
+    "item": "Konkurence je dobrá",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Konkurence je dobrá"
+      },
+      {
+        "value": 10,
+        "label": "Konkurence je škodlivá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v106",
+    "text": "Příjmy by měly být vyrovnanější",
+    "stem": "Teď bych byl(a) rád(a), kdybyste mi mohl(a) říci své názory na různá témata. Kam byste svůj názor umístil(a) na takovéto škále?",
+    "item": "Příjmy by měly být vyrovnanější",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Příjmy by měly být vyrovnanější"
+      },
+      {
+        "value": 10,
+        "label": "Mělo by se více podnítit úsilí jednotlivce"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v107",
+    "text": "Soukromé vlastnictví obchodu a průmyslu by mělo vzrůst",
+    "stem": "Teď bych byl(a) rád(a), kdybyste mi mohl(a) říci své názory na různá témata. Kam byste svůj názor umístil(a) na takovéto škále?",
+    "item": "Soukromé vlastnictví obchodu a průmyslu by mělo vzrůst",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "Soukromé vlastnictví obchodu a průmyslu by mělo vzrůst"
+      },
+      {
+        "value": 10,
+        "label": "Státní vlastnictví obchodu a průmyslu by mělo vzrůst"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v108",
+    "text": "Vysoká míra ekonomického růstu",
+    "stem": "Hodně se dnes hovoří o tom, k jakým cílům by naše země měla směřovat v nejbližších deseti letech. Na tomto lístku jsou uvedeny některé z cílů, jimž by různí lidé dali přednost. Kdybyste si musel(a) vybrat, kterou ze snah na tomto lístku byste označil(a) za nejdůležitější?",
+    "item": "Vysoká míra ekonomického růstu",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v109",
+    "text": "Vysoká míra ekonomického růstu",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Vysoká míra ekonomického růstu",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v108",
+    "text": "Zajištění silné obranyschopnosti země",
+    "stem": "Hodně se dnes hovoří o tom, k jakým cílům by naše země měla směřovat v nejbližších deseti letech. Na tomto lístku jsou uvedeny některé z cílů, jimž by různí lidé dali přednost. Kdybyste si musel(a) vybrat, kterou ze snah na tomto lístku byste označil(a) za nejdůležitější?",
+    "item": "Zajištění silné obranyschopnosti země",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 2,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v109",
+    "text": "Zajištění silné obranyschopnosti země",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Zajištění silné obranyschopnosti země",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 2,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v108",
+    "text": "Dát lidem větší slovo v zaměstnání a komunitě",
+    "stem": "Hodně se dnes hovoří o tom, k jakým cílům by naše země měla směřovat v nejbližších deseti letech. Na tomto lístku jsou uvedeny některé z cílů, jimž by různí lidé dali přednost. Kdybyste si musel(a) vybrat, kterou ze snah na tomto lístku byste označil(a) za nejdůležitější?",
+    "item": "Dát lidem větší slovo v zaměstnání a komunitě",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 3,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v109",
+    "text": "Dát lidem větší slovo v zaměstnání a komunitě",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Dát lidem větší slovo v zaměstnání a komunitě",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 3,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v108",
+    "text": "Pokusit se zvelebit víc města a krajinu",
+    "stem": "Hodně se dnes hovoří o tom, k jakým cílům by naše země měla směřovat v nejbližších deseti letech. Na tomto lístku jsou uvedeny některé z cílů, jimž by různí lidé dali přednost. Kdybyste si musel(a) vybrat, kterou ze snah na tomto lístku byste označil(a) za nejdůležitější?",
+    "item": "Pokusit se zvelebit víc města a krajinu",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 4,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v109",
+    "text": "Pokusit se zvelebit víc města a krajinu",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Pokusit se zvelebit víc města a krajinu",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 4,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v110",
+    "text": "Udržet pořádek ve státě",
+    "stem": "Kdybyste mohl(a) vybrat, která z těchto věcí je podle vašeho názoru nejdůležitější?",
+    "item": "Udržet pořádek ve státě",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v111",
+    "text": "Udržet pořádek ve státě",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Udržet pořádek ve státě",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v110",
+    "text": "Dát lidem větší možnost hovořit do důležitých vládních rozhodnutí",
+    "stem": "Kdybyste mohl(a) vybrat, která z těchto věcí je podle vašeho názoru nejdůležitější?",
+    "item": "Dát lidem větší možnost hovořit do důležitých vládních rozhodnutí",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 2,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v111",
+    "text": "Dát lidem větší možnost hovořit do důležitých vládních rozhodnutí",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Dát lidem větší možnost hovořit do důležitých vládních rozhodnutí",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 2,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v110",
+    "text": "Bojovat proti růstu cen",
+    "stem": "Kdybyste mohl(a) vybrat, která z těchto věcí je podle vašeho názoru nejdůležitější?",
+    "item": "Bojovat proti růstu cen",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 3,
+        "label": "První volba"
+      }
+    ],
+    "answer_cue": "První volba"
+  },
+  {
+    "id": "v111",
+    "text": "Bojovat proti růstu cen",
+    "stem": "A která by byla druhá nejdůležitější?",
+    "item": "Bojovat proti růstu cen",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 3,
+        "label": "Druhá volba"
+      }
+    ],
+    "answer_cue": "Druhá volba"
+  },
+  {
+    "id": "v112",
+    "text": "Q36 Samozřejmě všichni věříme, že nebude další válka, ale kdyby se to stalo, byl(a) byste ochoten(a) bojovat za svoji zemi?",
+    "stem": "Samozřejmě všichni věříme, že nebude další válka, ale kdyby se to stalo, byl(a) byste ochoten(a) bojovat za svoji zemi?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ano"
+      },
+      {
+        "value": 2,
+        "label": "Ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v113",
+    "text": "Q37 Zde je seznam dvou změn v našem způsobu života, které by se mohly uskutečnit v blízké budoucnosti. Prosím, řekněte mi pro každou z nich, kdyby k ní došlo, zda ji považujete za dobrou, za špatnou, nebo je Vám to jedno?",
+    "stem": "Menší důraz na práci v našem životě",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dobrá"
+      },
+      {
+        "value": 2,
+        "label": "Špatná"
+      },
+      {
+        "value": 3,
+        "label": "Je mi to jedno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v114",
+    "text": "Q37 Zde je seznam dvou změn v našem způsobu života, které by se mohly uskutečnit v blízké budoucnosti. Prosím, řekněte mi pro každou z nich, kdyby k ní došlo, zda ji považujete za dobrou, za špatnou, nebo je Vám to jedno?",
+    "stem": "Větší respekt k autoritám",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Dobrá"
+      },
+      {
+        "value": 2,
+        "label": "Špatná"
+      },
+      {
+        "value": 3,
+        "label": "Je mi to jedno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v115",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Církev",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v116",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Ozbrojené síly",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v117",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Školství",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v118",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Tisk",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v119",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Odbory",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v120",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Policie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v121",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Poslanecká sněmovna",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v122",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Státní správa, úřady",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v123",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Systém sociálního zabezpečení",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v124",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Evropská unie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v125",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Organizace spojených národů (OSN)",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v126",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Systém zdravotní péče",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v127",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Právní systém",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v128",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Velké podniky a společnosti",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v129",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Ekologické organizace",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v130",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Politické strany",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v131",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Vláda",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v132",
+    "text": "Q38 Prosím podívejte se na tuto kartu a řekněte mi pro každou položku v seznamu, jak velkou v ni máte důvěru, velmi vysokou, vysokou, ne moc vysokou nebo vůbec žádnou.",
+    "stem": "Sociální sítě",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi vysokou"
+      },
+      {
+        "value": 2,
+        "label": "Vysokou"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc vysokou"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec žádnou"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v133",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Vlády zdaňují bohaté a podporují chudé",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v134",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Při výkladu práva mají hlavní slovo náboženské autority",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v135",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Lidé si volí ty, kdo je mají vést, ve svobodných volbách",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v136",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Lidé dostávají statní podporu v nezaměstnanosti",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v137",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Pokud je vláda neschopná, moc přebírá armáda",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v138",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Občanská práva chrání občany před útlakem státu",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v139",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Stát se stará, aby příjmy všech lidí byly stejné",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v140",
+    "text": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "stem": "Lidé poslouchají ty, kdo jim vládnou",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v141",
+    "text": "Ženy mají stejná práva jako muži",
+    "stem": "Q39 Mnoho věcí je žádoucích, ale jen některé z nich jsou úzce spojeny s demokracií. Řekněte mi pro každou z následujících věcí, o jak klíčovou charakteristiku demokracie podle vás jde. Použijte měřítko, kde 1 znamená, že \"nejde vůbec o klíčovou charakteristiku demokracie\" a 10 znamená \"že jde o zcela klíčovou charakteristiku demokracie\".",
+    "item": "Ženy mají stejná práva jako muži",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v142",
+    "text": "Jak důležité je pro Vás žít v zemi s demokratickou vládou?",
+    "stem": "Q40 Jak důležité je pro Vás žít v zemi s demokratickou vládou? Jakou pozici byste si vybral(a) na škále, kde 1 znamená \"zcela nedůležitý\" a 10 \"zcela důležitý\"?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v143",
+    "text": "A jak demokraticky se dnes vládne v naší zemi?",
+    "stem": "Q41 A jak demokraticky se dnes vládne v naší zemi? Opět použijte škálu od 1 do 10, kde 1 znamená \"vůbec ne demokraticky\" a 10 \"naprosto demokraticky\". Jakou pozici byste zvolil(a)?",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v144",
+    "text": "Na škále od 1 do 10, kde jedna znamená \"naprosto nespokojen\" a 10 \"zcela spokojen\", odpovězte na otázku, jak spokojen(a) jste se současným fungováním politického systému v naší zemi.",
+    "stem": "Q42 Na škále od 1 do 10, kde jedna znamená \"naprosto nespokojen\" a 10 \"zcela spokojen\", odpovězte na otázku, jak spokojen(a) jste se současným fungováním politického systému v naší zemi.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v145",
+    "text": "Přítomnost silného vůdce, který se nemusí starat o parlament a volby.",
+    "stem": "Q43 Teď popíšu různé typy politických systémů a zeptám se Vás, co si o každém z nich myslíte jako o způsobu řízení naší země. Mohl(a) byste u každého z nich říci, zda by šlo o velmi dobrý, poměrně dobrý, poměrně špatný nebo velmi špatný způsob řízení naší země?",
+    "item": "Přítomnost silného vůdce, který se nemusí starat o parlament a volby.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi dobrý"
+      },
+      {
+        "value": 2,
+        "label": "Poměrně dobrý"
+      },
+      {
+        "value": 3,
+        "label": "Poměrně špatný"
+      },
+      {
+        "value": 4,
+        "label": "Velmi špatný"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v146",
+    "text": "Experti, ne vláda, přijímají rozhodnutí podle svého přesvědčení o tom, co je pro zemi nejlepší.",
+    "stem": "Q43 Teď popíšu různé typy politických systémů a zeptám se Vás, co si o každém z nich myslíte jako o způsobu řízení naší země. Mohl(a) byste u každého z nich říci, zda by šlo o velmi dobrý, poměrně dobrý, poměrně špatný nebo velmi špatný způsob řízení naší země?",
+    "item": "Experti, ne vláda, přijímají rozhodnutí podle svého přesvědčení o tom, co je pro zemi nejlepší.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi dobrý"
+      },
+      {
+        "value": 2,
+        "label": "Poměrně dobrý"
+      },
+      {
+        "value": 3,
+        "label": "Poměrně špatný"
+      },
+      {
+        "value": 4,
+        "label": "Velmi špatný"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v147",
+    "text": "Zemi vládne armáda.",
+    "stem": "Q43 Teď popíšu různé typy politických systémů a zeptám se Vás, co si o každém z nich myslíte jako o způsobu řízení naší země. Mohl(a) byste u každého z nich říci, zda by šlo o velmi dobrý, poměrně dobrý, poměrně špatný nebo velmi špatný způsob řízení naší země?",
+    "item": "Zemi vládne armáda.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi dobrý"
+      },
+      {
+        "value": 2,
+        "label": "Poměrně dobrý"
+      },
+      {
+        "value": 3,
+        "label": "Poměrně špatný"
+      },
+      {
+        "value": 4,
+        "label": "Velmi špatný"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v148",
+    "text": "Země má demokratický politický systém.",
+    "stem": "Q43 Teď popíšu různé typy politických systémů a zeptám se Vás, co si o každém z nich myslíte jako o způsobu řízení naší země. Mohl(a) byste u každého z nich říci, zda by šlo o velmi dobrý, poměrně dobrý, poměrně špatný nebo velmi špatný způsob řízení naší země?",
+    "item": "Země má demokratický politický systém.",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi dobrý"
+      },
+      {
+        "value": 2,
+        "label": "Poměrně dobrý"
+      },
+      {
+        "value": 3,
+        "label": "Poměrně špatný"
+      },
+      {
+        "value": 4,
+        "label": "Velmi špatný"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v149",
+    "text": "Požadovat státní podporu a nemít na ni nárok",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Požadovat státní podporu a nemít na ni nárok",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v150",
+    "text": "Šidit na daních, když je příležitost",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Šidit na daních, když je příležitost",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v151",
+    "text": "Užívat drogy např. marihuanu nebo hašiš",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Užívat drogy např. marihuanu nebo hašiš",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v152",
+    "text": "Přijmout od někoho úplatek za výkon svých povinností",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Přijmout od někoho úplatek za výkon svých povinností",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v153",
+    "text": "Homosexualita",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Homosexualita",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v154",
+    "text": "Potrat",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Potrat",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v155",
+    "text": "Rozvod",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Rozvod",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v156",
+    "text": "Euthanasie (ukončení života nevyléčitelně nemocného)",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Euthanasie (ukončení života nevyléčitelně nemocného)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v157",
+    "text": "Sebevražda",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Sebevražda",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v158",
+    "text": "Příležitostný sex (sex na jednu noc)",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Příležitostný sex (sex na jednu noc)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v159",
+    "text": "Vyhnout se placení jízdného ve veřejné dopravě",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Vyhnout se placení jízdného ve veřejné dopravě",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v160",
+    "text": "Prostituce",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Prostituce",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v161",
+    "text": "Umělé oplodnění dárcem nebo oplodnění ze zkumavky (IVF)",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Umělé oplodnění dárcem nebo oplodnění ze zkumavky (IVF)",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v162",
+    "text": "Násilí k prosazení politických cílů",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Násilí k prosazení politických cílů",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v163",
+    "text": "Trest smrti",
+    "stem": "Q44 Prosím řekněte mi pro každý z následujících výroků, zda dané jednání je vždy ospravedlnitelné, není nikdy ospravedlnitelné, nebo něco mezi tím. Použijte stupnici této karty.",
+    "item": "Trest smrti",
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v164",
+    "text": "Lidé mají velmi rozdílné pohledy na sebe a svoje místo ve světě. Řekl(a) byste prosím s použitím této karty, jak blízká vám připadá...",
+    "stem": "Vaše obec či město",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velice blízká"
+      },
+      {
+        "value": 2,
+        "label": "Blízká"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc blízká"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec ne blízká"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v165",
+    "text": "Lidé mají velmi rozdílné pohledy na sebe a svoje místo ve světě. Řekl(a) byste prosím s použitím této karty, jak blízká vám připadá...",
+    "stem": "Váš kraj",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velice blízká"
+      },
+      {
+        "value": 2,
+        "label": "Blízká"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc blízká"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec ne blízká"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v166",
+    "text": "Lidé mají velmi rozdílné pohledy na sebe a svoje místo ve světě. Řekl(a) byste prosím s použitím této karty, jak blízká vám připadá...",
+    "stem": "Česká republika",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velice blízká"
+      },
+      {
+        "value": 2,
+        "label": "Blízká"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc blízká"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec ne blízká"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v167",
+    "text": "Lidé mají velmi rozdílné pohledy na sebe a svoje místo ve světě. Řekl(a) byste prosím s použitím této karty, jak blízká vám připadá...",
+    "stem": "Evropa",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velice blízká"
+      },
+      {
+        "value": 2,
+        "label": "Blízká"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc blízká"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec ne blízká"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v168",
+    "text": "Lidé mají velmi rozdílné pohledy na sebe a svoje místo ve světě. Řekl(a) byste prosím s použitím této karty, jak blízká vám připadá...",
+    "stem": "Svět",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velice blízká"
+      },
+      {
+        "value": 2,
+        "label": "Blízká"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc blízká"
+      },
+      {
+        "value": 4,
+        "label": "Vůbec ne blízká"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v176",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Sčítání hlasů je férové",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v177",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Opoziční kandidáti nemohou kandidovat",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v178",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Zprávy v televizi nadržují vládním stranám",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v179",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Dochází k podplácení voličů",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v180",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Volební zpravodajství je férové",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v181",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Volební komise jsou férové",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v182",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Bohatí lidé koupí volby",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v183",
+    "text": "Jak často se podle vás při volbách v Česku dějí následující věci?",
+    "stem": "Voličům se během voleb vyhrožuje násilím",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi často"
+      },
+      {
+        "value": 2,
+        "label": "Často"
+      },
+      {
+        "value": 3,
+        "label": "Ne moc často"
+      },
+      {
+        "value": 4,
+        "label": "Skoro vůbec"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v184",
+    "text": "Teď bychom chtěli znát váš názor na lidi z jiných zemí, kteří přicházejí do Česka, aby zde žili – imigranty.",
+    "stem": "Jak byste zhodnotil(a) jejich vliv na další rozvoj Česka?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi špatný"
+      },
+      {
+        "value": 2,
+        "label": "Dost špatný"
+      },
+      {
+        "value": 3,
+        "label": "Ani dobrý, ani špatný"
+      },
+      {
+        "value": 4,
+        "label": "Dost dobrý"
+      },
+      {
+        "value": 5,
+        "label": "Velmi dobrý"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v185",
+    "text": "Podívejte se prosím na následující výroky a vyznačte, kam byste na této škále umístil(a) svůj názor",
+    "stem": "Přistěhovalci berou Čechům práci",
+    "item": "Přistěhovalci neberou Čechům práci",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v186",
+    "text": "Podívejte se prosím na následující výroky a vyznačte, kam byste na této škále umístil(a) svůj názor",
+    "stem": "Přistěhovalci zhoršují problémy s kriminalitou",
+    "item": "Přistěhovalci nezhoršují problémy s kriminalitou",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v187",
+    "text": "Podívejte se prosím na následující výroky a vyznačte, kam byste na této škále umístil(a) svůj názor",
+    "stem": "Přistěhovalci zatěžují sociální systém země",
+    "item": "Přistěhovalci nezatěžují sociální systém země",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v188",
+    "text": "Podívejte se prosím na následující výroky a vyznačte, kam byste na této škále umístil(a) svůj názor",
+    "stem": "Je lepší, když si přistěhovalci udržují své typické zvyky a tradice",
+    "item": "Je lepší, když si přistěhovalci neudržují své typické zvyky a tradice",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v189",
+    "text": "Někteří lidé říkají, že aby mohl být člověk pravým Čechem, musí být splněny určité důležité skutečnosti. Jiní říkají, že tyto skutečnosti důležité nejsou.",
+    "stem": "Že se člověk narodil v České republice",
+    "item": "Nakolik je podle Vás každá z následujících věcí důležitá?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v190",
+    "text": "Někteří lidé říkají, že aby mohl být člověk pravým Čechem, musí být splněny určité důležité skutečnosti. Jiní říkají, že tyto skutečnosti důležité nejsou.",
+    "stem": "Že respektuje politické instituce a zákony České republiky",
+    "item": "Nakolik je podle Vás každá z následujících věcí důležitá?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v191",
+    "text": "Někteří lidé říkají, že aby mohl být člověk pravým Čechem, musí být splněny určité důležité skutečnosti. Jiní říkají, že tyto skutečnosti důležité nejsou.",
+    "stem": "Že má český původ (má předky z ČR)",
+    "item": "Nakolik je podle Vás každá z následujících věcí důležitá?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v192",
+    "text": "Někteří lidé říkají, že aby mohl být člověk pravým Čechem, musí být splněny určité důležité skutečnosti. Jiní říkají, že tyto skutečnosti důležité nejsou.",
+    "stem": "Že mluví česky",
+    "item": "Nakolik je podle Vás každá z následujících věcí důležitá?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v193",
+    "text": "Někteří lidé říkají, že aby mohl být člověk pravým Čechem, musí být splněny určité důležité skutečnosti. Jiní říkají, že tyto skutečnosti důležité nejsou.",
+    "stem": "Že sdílí zvyky a životní styl Čechů",
+    "item": "Nakolik je podle Vás každá z následujících věcí důležitá?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v194",
+    "text": "Lidé mají různé názory na to, co znamená být Evropanem.",
+    "stem": "Že se člověk narodil v Evropě",
+    "item": "Jak důležité jsou podle vás následující skutečnosti, aby byl člověk Evropanem?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v195",
+    "text": "Lidé mají různé názory na to, co znamená být Evropanem.",
+    "stem": "Že má předky z Evropy",
+    "item": "Jak důležité jsou podle vás následující skutečnosti, aby byl člověk Evropanem?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v196",
+    "text": "Lidé mají různé názory na to, co znamená být Evropanem.",
+    "stem": "Že je křesťan",
+    "item": "Jak důležité jsou podle vás následující skutečnosti, aby byl člověk Evropanem?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v197",
+    "text": "Lidé mají různé názory na to, co znamená být Evropanem.",
+    "stem": "Že sdílí zvyky a životní styl Evropanů",
+    "item": "Jak důležité jsou podle vás následující skutečnosti, aby byl člověk Evropanem?",
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitá"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitá"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitá"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitá"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v198",
+    "text": "Někteří lidé říkají, že rozšiřování Evropské unie by mělo pokračovat. Jiní říkají, že už zašlo příliš daleko.",
+    "stem": "Za použití této karty vyberte prosím číslo, které nejlépe vystihuje Váš postoj.",
+    "item": "'1' znamená, “mělo by pokračovat”, '10' znamená, “už zašlo příliš daleko”.",
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "v199",
+    "text": "Do jaké míry souhlasíte, nebo nesouhlasíte s následujícími výroky?",
+    "stem": "Dal(a) bych část svého příjmu, kdybych si byl(a) jistý(á), že tyto peníze budou použity k ochraně před znečišťováním životního prostředí",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v200",
+    "text": "Do jaké míry souhlasíte, nebo nesouhlasíte s následujícími výroky?",
+    "stem": "Pro člověka jako já je prostě příliš obtížné dělat něco pro životní prostředí",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v201",
+    "text": "Do jaké míry souhlasíte, nebo nesouhlasíte s následujícími výroky?",
+    "stem": "V životě jsou důležitější věcí, než chránit životní prostředí",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v202",
+    "text": "Do jaké míry souhlasíte, nebo nesouhlasíte s následujícími výroky?",
+    "stem": "Nemá smysl dělat, co můžu pro životní prostředí, dokud ostatní nedělají totéž",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v203",
+    "text": "Do jaké míry souhlasíte, nebo nesouhlasíte s následujícími výroky?",
+    "stem": "Mnoho tvrzení o ohrožení životního prostředí je přehnaných",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Ani souhlas ani nesouhlas"
+      },
+      {
+        "value": 4,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 5,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v204",
+    "text": "Zde jsou dva názory, které lidé vyjadřují v diskusích o životním prostředí a ekonomickém růstu.",
+    "stem": "Který z nich je bližší vašemu pohledu?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Ochrana životního prostředí by měla mít prioritu, i kdyby způsobovala pomalejší ekonomický růst a určitou ztrátu pracovních míst."
+      },
+      {
+        "value": 2,
+        "label": "Ekonomický růst a vytváření pracovních míst by měly mít prioritu, i kdyby životní prostředí do určité míry trpělo."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v205",
+    "text": "Myslíte, že vláda České republiky by měla, nebo neměla mít právo dělat následující věci?",
+    "stem": "Dohlížet na lidi prostřednictvím kamer na veřejných místech",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně by měla mít právo"
+      },
+      {
+        "value": 2,
+        "label": "Asi by měla mít právo"
+      },
+      {
+        "value": 3,
+        "label": "Asi by neměla mít právo"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně by neměla mít právo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v206",
+    "text": "Myslíte, že vláda České republiky by měla, nebo neměla mít právo dělat následující věci?",
+    "stem": "Monitorovat e-maily a všechny informace vyměňované na Internetu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně by měla mít právo"
+      },
+      {
+        "value": 2,
+        "label": "Asi by měla mít právo"
+      },
+      {
+        "value": 3,
+        "label": "Asi by neměla mít právo"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně by neměla mít právo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v207",
+    "text": "Myslíte, že vláda České republiky by měla, nebo neměla mít právo dělat následující věci?",
+    "stem": "Sbírat informace o komkoliv v České republice bez jeho vědomí",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně by měla mít právo"
+      },
+      {
+        "value": 2,
+        "label": "Asi by měla mít právo"
+      },
+      {
+        "value": 3,
+        "label": "Asi by neměla mít právo"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně by neměla mít právo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v208",
+    "text": "Jak často sledujete politiku...",
+    "stem": "v televizi",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Každý den"
+      },
+      {
+        "value": 2,
+        "label": "Několikrát týdně"
+      },
+      {
+        "value": 3,
+        "label": "Jednou nebo dvakrát týdně"
+      },
+      {
+        "value": 4,
+        "label": "Méně často"
+      },
+      {
+        "value": 5,
+        "label": "Nikdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v209",
+    "text": "Jak často sledujete politiku...",
+    "stem": "v rádiu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Každý den"
+      },
+      {
+        "value": 2,
+        "label": "Několikrát týdně"
+      },
+      {
+        "value": 3,
+        "label": "Jednou nebo dvakrát týdně"
+      },
+      {
+        "value": 4,
+        "label": "Méně často"
+      },
+      {
+        "value": 5,
+        "label": "Nikdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v210",
+    "text": "Jak často sledujete politiku...",
+    "stem": "v novinách",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Každý den"
+      },
+      {
+        "value": 2,
+        "label": "Několikrát týdně"
+      },
+      {
+        "value": 3,
+        "label": "Jednou nebo dvakrát týdně"
+      },
+      {
+        "value": 4,
+        "label": "Méně často"
+      },
+      {
+        "value": 5,
+        "label": "Nikdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v211",
+    "text": "Jak často sledujete politiku...",
+    "stem": "... na sociálních sítích",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "Každý den"
+      },
+      {
+        "value": 2,
+        "label": "Několikrát týdně"
+      },
+      {
+        "value": 3,
+        "label": "Jednou nebo dvakrát týdně"
+      },
+      {
+        "value": 4,
+        "label": "Méně často"
+      },
+      {
+        "value": 5,
+        "label": "Nikdy"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v212",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících lidí:",
+    "stem": "Lidé z okolí Vašeho bydliště",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v213",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících lidí:",
+    "stem": "Lidé z regionu (z oblasti), ve kterém žijete",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v214",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících lidí:",
+    "stem": "Obyvatelé našeho státu",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v215",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících lidí:",
+    "stem": "Evropané",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v216",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících lidí:",
+    "stem": "Všichni lidé na celém světě",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v217",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících osob v naší zemi:",
+    "stem": "Staří lidé",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v218",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících osob v naší zemi:",
+    "stem": "Nezaměstnaní",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v219",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících osob v naší zemi:",
+    "stem": "Přistěhovalci",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v220",
+    "text": "Do jaké míry Vám záleží na životních podmínkách následujících osob v naší zemi:",
+    "stem": "Nemocní a postižení lidé",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi mnoho záleží"
+      },
+      {
+        "value": 2,
+        "label": "Hodně záleží"
+      },
+      {
+        "value": 3,
+        "label": "Do jisté míry záleží"
+      },
+      {
+        "value": 4,
+        "label": "Moc nezáleží"
+      },
+      {
+        "value": 5,
+        "label": "Vůbec nezáleží"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v221",
+    "text": "Co by měla společnost poskytovat? Prosím řekněte mi u každého výroku, nakolik je to pro vás důležité, nebo nedůležité.",
+    "stem": "Zabránit velkým příjmovým nerovnostem mezi občany",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitý"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitý"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitý"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitý"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v222",
+    "text": "Co by měla společnost poskytovat? Prosím řekněte mi u každého výroku, nakolik je to pro vás důležité, nebo nedůležité.",
+    "stem": "Garantovat uspokojení základních potřeb všech obyvatel, s ohledem na potravu, bydlení, ošacení, vzdělání a zdraví",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitý"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitý"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitý"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitý"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v223",
+    "text": "Co by měla společnost poskytovat? Prosím řekněte mi u každého výroku, nakolik je to pro vás důležité, nebo nedůležité.",
+    "stem": "Oceňovat lidi za jejich výsledky",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitý"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitý"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitý"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitý"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "v224",
+    "text": "Co by měla společnost poskytovat? Prosím řekněte mi u každého výroku, nakolik je to pro vás důležité, nebo nedůležité.",
+    "stem": "Ochrana proti terorismu",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Velmi důležitý"
+      },
+      {
+        "value": 2,
+        "label": "Docela důležitý"
+      },
+      {
+        "value": 3,
+        "label": "Nepříliš důležitý"
+      },
+      {
+        "value": 4,
+        "label": "Zcela nedůležitý"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c4",
+    "text": "Lidé často hodnotí úlohu politických stran v životě české společnosti. Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte.",
+    "stem": "Politické strany poskytují lidem možnost účastnit se politické činnosti",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c5",
+    "text": "Lidé často hodnotí úlohu politických stran v životě české společnosti. Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte.",
+    "stem": "Politické strany kritizují jedna druhou, ve skutečnosti jsou ale všechny stejné",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c6",
+    "text": "Lidé často hodnotí úlohu politických stran v životě české společnosti. Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte.",
+    "stem": "Bez politických stran by nemohla být demokracie",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c7",
+    "text": "Lidé často hodnotí úlohu politických stran v životě české společnosti. Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte.",
+    "stem": "Politické strany pouze rozdělují veřejnost",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c8",
+    "text": "Lidé často hodnotí úlohu politických stran v životě české společnosti. Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte.",
+    "stem": "Politické strany jsou potřebné proto, že umožňují hájit zájmy různých skupin a sociálních tříd",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c9",
+    "text": "Lidé často hodnotí úlohu politických stran v životě české společnosti. Pro každý z následujících výroků, které Vám přečtu, mi řekněte, nakolik s ním souhlasíte nebo nesouhlasíte.",
+    "stem": "Politické strany nejsou užitečné",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "Rozhodně souhlasím"
+      },
+      {
+        "value": 2,
+        "label": "Souhlasím"
+      },
+      {
+        "value": 3,
+        "label": "Nesouhlasím"
+      },
+      {
+        "value": 4,
+        "label": "Rozhodně nesouhlasím"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c10",
+    "text": "Někteří lidé říkají, že pro dítě/děti je po rozvodu lepší být s jedním z rodičů, jiní jsou zase pro střídavou péči. Obecně vzato, jaký je váš názor na tyto možnosti?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zdá se mi lepší, když je dítě s jedním z rodičů."
+      },
+      {
+        "value": 2,
+        "label": "Zdá se mi lepší střídavá péče."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "c12",
+    "text": "Jak moc souhlasíte nebo nesouhlasíte s následujícím tvrzením: „Oficiální verze událostí, jak ji uvádí úřady, velmi často skrývá pravdu?\"",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  }
+]

@@ -1,0 +1,5353 @@
+[
+  {
+    "id": "Q1",
+    "text": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.\nv1 posao",
+    "stem": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.",
+    "item": "v1 posao",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      },
+      {
+        "value": 4,
+        "label": "posve nevažno"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": "Odgovorite"
+  },
+  {
+    "id": "Q1",
+    "text": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.\nv2 obitelj",
+    "stem": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.",
+    "item": "v2 obitelj",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      },
+      {
+        "value": 4,
+        "label": "posve nevažno"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": "Odgovorite"
+  },
+  {
+    "id": "Q1",
+    "text": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.\nv3 prijatelji i poznanici",
+    "stem": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.",
+    "item": "v3 prijatelji i poznanici",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      },
+      {
+        "value": 4,
+        "label": "posve nevažno"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": "Odgovorite"
+  },
+  {
+    "id": "Q1",
+    "text": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.\nv4 slobodno vrijeme",
+    "stem": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.",
+    "item": "v4 slobodno vrijeme",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      },
+      {
+        "value": 4,
+        "label": "posve nevažno"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": "Odgovorite"
+  },
+  {
+    "id": "Q1",
+    "text": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.\nv5 politika",
+    "stem": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.",
+    "item": "v5 politika",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      },
+      {
+        "value": 4,
+        "label": "posve nevažno"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": "Odgovorite"
+  },
+  {
+    "id": "Q1",
+    "text": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.\nv6 religija",
+    "stem": "Odgovorite, za svaki od dolje navedenih pojmova, koliku važnost zauzimaju u Vašem životu.",
+    "item": "v6 religija",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      },
+      {
+        "value": 4,
+        "label": "posve nevažno"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": "Odgovorite"
+  },
+  {
+    "id": "Q2",
+    "text": "Sveukupno uzevši, biste li rekli za sebe da ste:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma sretni"
+      },
+      {
+        "value": 2,
+        "label": "sretni"
+      },
+      {
+        "value": 3,
+        "label": "ne baš sretni"
+      },
+      {
+        "value": 4,
+        "label": "uopće nisam sretan"
+      },
+      {
+        "value": 8,
+        "label": "ne znam (spontano)"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora (spontano)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv22 A ljude druge rase",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v22 A ljude druge rase",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv23 B alkoholičare",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v23 B alkoholičare",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv24 C imigrante / strane radnike",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v24 C imigrante / strane radnike",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv25 D narkomane",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v25 D narkomane",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv26 E homoseksualce",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v26 E homoseksualce",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv27 F",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v27 F",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv28 G muslimane",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v28 G muslimane",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv29 H Židove",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v29 H Židove",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q6",
+    "text": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.\nv30 I Rome",
+    "stem": "Na ovoj listi su nabrojane različite skupine ljudi. Izaberite one koje ne biste željeli imati za susjede.",
+    "item": "v30 I Rome",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q7",
+    "text": "Općenito govoreći, biste li rekli da se većini ljudi može vjerovati ili da čovjek treba biti vrlo oprezan u odnosu prema ljudima?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "većini ljudi se može vjerovati"
+      },
+      {
+        "value": 2,
+        "label": "čovjek nikada nije dovoljno oprezan"
+      },
+      {
+        "value": 8,
+        "label": "ne znam (spontano)"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora (spontano)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?\nv32 vaša obitelj",
+    "stem": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?",
+    "item": "v32 vaša obitelj",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno"
+      },
+      {
+        "value": 2,
+        "label": "djelomično"
+      },
+      {
+        "value": 3,
+        "label": "ne previše"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?\nv33 ljudi u susjedstvu",
+    "stem": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?",
+    "item": "v33 ljudi u susjedstvu",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno"
+      },
+      {
+        "value": 2,
+        "label": "djelomično"
+      },
+      {
+        "value": 3,
+        "label": "ne previše"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?\nv34 ljudi koje poznajete osobno",
+    "stem": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?",
+    "item": "v34 ljudi koje poznajete osobno",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno"
+      },
+      {
+        "value": 2,
+        "label": "djelomično"
+      },
+      {
+        "value": 3,
+        "label": "ne previše"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?\nv35 ljudi koje srećete po prvi put",
+    "stem": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?",
+    "item": "v35 ljudi koje srećete po prvi put",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno"
+      },
+      {
+        "value": 2,
+        "label": "djelomično"
+      },
+      {
+        "value": 3,
+        "label": "ne previše"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?\nv36 ljudi druge religijske pripadnosti",
+    "stem": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?",
+    "item": "v36 ljudi druge religijske pripadnosti",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno"
+      },
+      {
+        "value": 2,
+        "label": "djelomično"
+      },
+      {
+        "value": 3,
+        "label": "ne previše"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q8",
+    "text": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?\nv37 ljudi druge nacionalnosti",
+    "stem": "Koliko se može vjerovati različitim ljudima? Možete li reći za svaku skupinu, može li im se vjerovati potpuno, djelomično, ne previše ili uopće ne?",
+    "item": "v37 ljudi druge nacionalnosti",
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno"
+      },
+      {
+        "value": 2,
+        "label": "djelomično"
+      },
+      {
+        "value": 3,
+        "label": "ne previše"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q9",
+    "text": "Neki ljudi osjećaju da imaju potpuno slobodu i kontrolu nad svojim životima, a drugi osjećaju da ono što čine nema nikakvog stvarnog utjecaja na ono što im se događa. Molim Vas, naznačite koliko slobode i kontrole mislite da imate nad svojim životom.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "uopće ne"
+      },
+      {
+        "value": 10,
+        "label": "najvećim dijelom"
+      },
+      {
+        "value": 88,
+        "label": "ne znam"
+      },
+      {
+        "value": 99,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q10",
+    "text": "Kad uzmete sve u obzir, koliko ste ovih dana zadovoljni sa svojim životom? Molimo koristite skalu kao pomoć u odgovaranju.",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nezadovoljan"
+      },
+      {
+        "value": 10,
+        "label": "zadovoljan"
+      },
+      {
+        "value": 88,
+        "label": "ne znam"
+      },
+      {
+        "value": 99,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?\nv40 A dobra plaća",
+    "stem": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?",
+    "item": "v40 A dobra plaća",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?\nv41 B povoljno radno vrijeme",
+    "stem": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?",
+    "item": "v41 B povoljno radno vrijeme",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?\nv42 C mogućnost inicijative",
+    "stem": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?",
+    "item": "v42 C mogućnost inicijative",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?\nv43 D dugi godišnji odmor",
+    "stem": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?",
+    "item": "v43 D dugi godišnji odmor",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?\nv44 E posao u kojem možete nešto postići",
+    "stem": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?",
+    "item": "v44 E posao u kojem možete nešto postići",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q11",
+    "text": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?\nv45 F odgovoran posao",
+    "stem": "Ovdje su nabrojana neka obilježja posla koja ljudi smatraju važnima. Molim, pogledajte ih i recite za koja osobno smatrate da su važna?",
+    "item": "v45 F odgovoran posao",
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      },
+      {
+        "value": 8,
+        "label": "ne znam"
+      },
+      {
+        "value": 9,
+        "label": "nema odgovora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12_v46",
+    "text": "Slažete li se ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Da biste potpuno razvili svoje talente morate imati posao.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12_v47",
+    "text": "Slažete li se ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Ponižavajuće je primati novac koji niste zaradili.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12_v48",
+    "text": "Slažete li se ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Ljudi koji ne rade postanu lijeni.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12_v49",
+    "text": "Slažete li se ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Rad je obveza prema društvu.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q12_v50",
+    "text": "Slažete li se ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Posao uvijek treba biti na prvom mjestu, pa i ako to znači manje slobodnog vremena.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q13",
+    "text": "Pripadate li nekoj vjerskoj zajednici?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q13a",
+    "text": "Kojoj vjerskoj zajednici pripadate?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "rimokatoličkoj"
+      },
+      {
+        "value": 2,
+        "label": "grkokatoličkoj"
+      },
+      {
+        "value": 3,
+        "label": "pravoslavnoj"
+      },
+      {
+        "value": 4,
+        "label": "židovskoj"
+      },
+      {
+        "value": 5,
+        "label": "evangeličkoj"
+      },
+      {
+        "value": 6,
+        "label": "pentekostalnoj"
+      },
+      {
+        "value": 7,
+        "label": "baptističkoj"
+      },
+      {
+        "value": 8,
+        "label": "adventističkoj"
+      },
+      {
+        "value": 9,
+        "label": "Jehovinim svjedocima"
+      },
+      {
+        "value": 10,
+        "label": "islamskoj"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q14",
+    "text": "Jeste li ikada pripadali nekoj vjerskoj zajednici?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q15",
+    "text": "Osim vjenčanja, pogreba i krštenja, koliko često pohađate vjerske obrede u posljednje vrijeme?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "više nego jednom tjedno"
+      },
+      {
+        "value": 2,
+        "label": "jednom tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom mjesečno"
+      },
+      {
+        "value": 4,
+        "label": "samo za vjerske blagdane"
+      },
+      {
+        "value": 5,
+        "label": "jednom godišnje"
+      },
+      {
+        "value": 6,
+        "label": "rjeđe"
+      },
+      {
+        "value": 7,
+        "label": "nikada, gotovo nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q16",
+    "text": "Osim vjenčanja, pogreba i krštenja, koliko često ste pohađali vjerske obrede kada ste imali 12 godina?",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "više nego jednom tjedno"
+      },
+      {
+        "value": 2,
+        "label": "jednom tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom mjesečno"
+      },
+      {
+        "value": 4,
+        "label": "samo za vjerske blagdane"
+      },
+      {
+        "value": 5,
+        "label": "jednom godišnje"
+      },
+      {
+        "value": 6,
+        "label": "rjeđe"
+      },
+      {
+        "value": 7,
+        "label": "nikada, gotovo nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q17",
+    "text": "Neovisno o tome idete li u crkvu ili ne, biste li se nazvali:",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "religioznom osobom"
+      },
+      {
+        "value": 2,
+        "label": "nereligioznom osobom"
+      },
+      {
+        "value": 3,
+        "label": "uvjerenim ateistom"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18_v57",
+    "text": "U što od dolje navedenog vjerujete?",
+    "stem": "Boga",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18_v58",
+    "text": "U što od dolje navedenog vjerujete?",
+    "stem": "život poslije smrti",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18_v59",
+    "text": "U što od dolje navedenog vjerujete?",
+    "stem": "pakao",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q18_v60",
+    "text": "U što od dolje navedenog vjerujete?",
+    "stem": "raj",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q19",
+    "text": "Vjerujete li u reinkarnaciju, tj. da smo prije živjeli i da se ponovno rađamo na ovom svijetu?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q20",
+    "text": "Koja se od ovih tvrdnji najviše slaže s Vašim uvjerenjima?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "postoji osobni Bog"
+      },
+      {
+        "value": 2,
+        "label": "postoji neka vrsta duha ili životne sile"
+      },
+      {
+        "value": 3,
+        "label": "ne znam što da mislim"
+      },
+      {
+        "value": 4,
+        "label": "ne mislim da postoji neka vrsta duha, Bog ili životna sila"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q21",
+    "text": "Koliko je Bog važan u Vašem životu?",
+    "stem": "Molimo da koristite skalu za označavanje. 10 znači veoma važno, 1 znači potpuno nevažno.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [],
+    "answer_cue": null
+  },
+  {
+    "id": "Q22",
+    "text": "Koliko često se molite Bogu izvan vjerskog obreda? Je li to:",
+    "stem": null,
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "svaki dan"
+      },
+      {
+        "value": 2,
+        "label": "više nego jednom tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom tjedno"
+      },
+      {
+        "value": 4,
+        "label": "barem jednom mjesečno"
+      },
+      {
+        "value": 5,
+        "label": "nekoliko puta godišnje"
+      },
+      {
+        "value": 6,
+        "label": "rjeđe"
+      },
+      {
+        "value": 7,
+        "label": "nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23_v65",
+    "text": "Ovdje su navedene neke stvari koje ljudi smatraju važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom.",
+    "stem": "vjernost",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23_v66",
+    "text": "Ovdje su navedene neke stvari koje ljudi smatraju važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom.",
+    "stem": "primjereni prihod",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23_v67",
+    "text": "Ovdje su navedene neke stvari koje ljudi smatraju važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom.",
+    "stem": "dobri stambeni uvjeti",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23_v68",
+    "text": "Ovdje su navedene neke stvari koje ljudi smatraju važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom.",
+    "stem": "zajedničko obavljanje kućanskih poslova",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23_v69",
+    "text": "Ovdje su navedene neke stvari koje ljudi smatraju važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom.",
+    "stem": "djeca",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q23_v70",
+    "text": "Ovdje su navedene neke stvari koje ljudi smatraju važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom.",
+    "stem": "imati vremena za osobne prijatelje i osobne hobije / aktivnosti",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q24",
+    "text": "Slažete li se ili ne sa sljedećom tvrdnjom: Brak je zastarjela institucija?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "slažem se"
+      },
+      {
+        "value": 2,
+        "label": "ne slažem se"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v72",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Ako je majka zaposlena, dijete pati.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v73",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Zaposlenje je u redu, ali većina žena zapravo želi dom i djecu.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v74",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Općenito, obiteljski život pati ako je majke zaposlena na puno radno vrijeme.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v75",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Posao muškarca je da zarađuje, posao žene je da se brine za dom i obitelj.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v76",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Općenito, muškarci su bolji politički vođe od žena.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v77",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Visoko/fakultetsko obrazovanje je važnije za dječake, nego za djevojčice.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v78",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Općenito, muškarci su bolji menadžeri od žena.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q25_v79",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Jedan od mojih važnijih ciljeva u životu je da se moji roditelji ponose sa mnom.",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26_v80",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Kada je poslova malo, poslodavci bi trebali prije zaposliti Hrvata nego imigranta.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q26_v81",
+    "text": "Za svaku od sljedećih tvrdnji koju pročitam, možete li mi reći koliko se s njom slažete ili ne slažete. Da li se potpuno slažete, slažete, ne slažete ili uopće ne slažete?",
+    "stem": "Kada je poslova malo, muškarci imaju veća prava na dobivanje posla nego žene.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27_v82",
+    "text": "Što mislite o sljedećim tvrdnjama? Slažete li se ili ne slažete s njima?",
+    "stem": "Homoseksualni parovi su jednako dobri roditelji kao i ostali parovi.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27_v83",
+    "text": "Što mislite o sljedećim tvrdnjama? Slažete li se ili ne slažete s njima?",
+    "stem": "Imati djecu je obveza prema društvu.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q27_v84",
+    "text": "Što mislite o sljedećim tvrdnjama? Slažete li se ili ne slažete s njima?",
+    "stem": "Odrasla se djeca trebaju skrbiti za svoje nemoćne roditelje.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti se ne slažem"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v85",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "lijepo vladanje (dobre manire)",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v86",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "neovisnost",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v87",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "marljivost u radu",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v88",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "osjećaj odgovornosti",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v89",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "maštu",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v90",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "toleranciju i poštivanje drugih",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v91",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "štedljivost, čuvanje novca i stvari",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v92",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "odlučnost, ustrajnost",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v93",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "vjeru",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v94",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "nesebičnost",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q28_v95",
+    "text": "Ovdje je lista osobina koje bi djecu trebalo učiti kod kuće. Navedite pet njih za koje smatrate da je najvažnije da ih djeca imaju:",
+    "stem": "poslušnost",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "spomenuto"
+      },
+      {
+        "value": 2,
+        "label": "nije spomenuto"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q29",
+    "text": "Koliko ste zainteresirani za politiku?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zainteresiran"
+      },
+      {
+        "value": 2,
+        "label": "donekle zainteresiran"
+      },
+      {
+        "value": 3,
+        "label": "ne baš zainteresiran"
+      },
+      {
+        "value": 4,
+        "label": "nisam uopće zainteresiran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v98",
+    "text": "Želio bih da pogledate ovu karticu. Pročitat ću neke različite oblike političke akcije koje ljudi mogu poduzeti i želio bih da odgovorite za svaku: poduzimate li ju već, biste li ju mogli poduzeti ili ju ne biste mogli poduzeti ni u kakvim okolnostima.",
+    "stem": "potpisati peticiju",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "činim, već sam to radio"
+      },
+      {
+        "value": 2,
+        "label": "mogao bih"
+      },
+      {
+        "value": 3,
+        "label": "nikada ne bih"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v99",
+    "text": "Želio bih da pogledate ovu karticu. Pročitat ću neke različite oblike političke akcije koje ljudi mogu poduzeti i želio bih da odgovorite za svaku: poduzimate li ju već, biste li ju mogli poduzeti ili ju ne biste mogli poduzeti ni u kakvim okolnostima.",
+    "stem": "pridružiti se bojkotima",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "činim, već sam to radio"
+      },
+      {
+        "value": 2,
+        "label": "mogao bih"
+      },
+      {
+        "value": 3,
+        "label": "nikada ne bih"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v100",
+    "text": "Želio bih da pogledate ovu karticu. Pročitat ću neke različite oblike političke akcije koje ljudi mogu poduzeti i želio bih da odgovorite za svaku: poduzimate li ju već, biste li ju mogli poduzeti ili ju ne biste mogli poduzeti ni u kakvim okolnostima.",
+    "stem": "sudjelovati na zakonski odobrenim demonstracijama",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "činim, već sam to radio"
+      },
+      {
+        "value": 2,
+        "label": "mogao bih"
+      },
+      {
+        "value": 3,
+        "label": "nikada ne bih"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q30_v101",
+    "text": "Želio bih da pogledate ovu karticu. Pročitat ću neke različite oblike političke akcije koje ljudi mogu poduzeti i želio bih da odgovorite za svaku: poduzimate li ju već, biste li ju mogli poduzeti ili ju ne biste mogli poduzeti ni u kakvim okolnostima.",
+    "stem": "pridružiti se neslužbenim štrajkovima",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "činim, već sam to radio"
+      },
+      {
+        "value": 2,
+        "label": "mogao bih"
+      },
+      {
+        "value": 3,
+        "label": "nikada ne bih"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q31",
+    "text": "U političkim pitanjima ljudi govore o „ljevici“ i „desnici“. Gdje biste se Vi s Vašim uvjerenjem smjestili na ovoj skali?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "lijevo"
+      },
+      {
+        "value": 10,
+        "label": "desno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32A",
+    "text": "Na ovoj kartici vidite više oprečnih viđenja različitih društvenih pitanja. Kako biste Vi odredili svoje poglede na ovoj skali?",
+    "stem": "Pojedinci trebaju preuzeti više odgovornosti da se brinu sami za sebe.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Država treba preuzeti više odgovornosti da svakome osigura što mu je potrebno."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32B",
+    "text": "Na ovoj kartici vidite više oprečnih viđenja različitih društvenih pitanja. Kako biste Vi odredili svoje poglede na ovoj skali?",
+    "stem": "Nezaposleni trebaju prihvatiti svaki raspoloživi posao ili im se treba oduzeti naknada za nezaposlenost.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Nezaposleni imaju pravo odbiti posao koji ne žele."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32C",
+    "text": "Na ovoj kartici vidite više oprečnih viđenja različitih društvenih pitanja. Kako biste Vi odredili svoje poglede na ovoj skali?",
+    "stem": "Natjecanje je dobro.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Natjecanje je štetno."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32D",
+    "text": "Na ovoj kartici vidite više oprečnih viđenja različitih društvenih pitanja. Kako biste Vi odredili svoje poglede na ovoj skali?",
+    "stem": "Plaće bi trebale biti što više izjednačene.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Razlike u plaćama bi trebale biti što veće, kako bi se potaknulo zalaganje pojedinaca."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q32E",
+    "text": "Na ovoj kartici vidite više oprečnih viđenja različitih društvenih pitanja. Kako biste Vi odredili svoje poglede na ovoj skali?",
+    "stem": "Treba povećati privatno vlasništvo nad poduzećima.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Treba povećati državno vlasništvo nad poduzećima."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q33",
+    "text": "Ljudi ponekad razgovaraju o tome koji bi trebali biti ciljevi ove zemlje u sljedećih deset godina. Na ovoj su kartici navedeni ciljevi kojima bi različiti ljudi dali prednost. Molim Vas da kažete koji Vi smatrate najvažnijim.",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "visoki ekonomski rast"
+      },
+      {
+        "value": 2,
+        "label": "osigurati da naša zemlja ima jake obrambene snage"
+      },
+      {
+        "value": 3,
+        "label": "vidjeti da se ljudi mogu izjasniti o tome kako se stvari odvijaju na njihovom poslu i u njihovoj lokalnoj zajednici"
+      },
+      {
+        "value": 4,
+        "label": "nastojati učiniti ljepšima naše gradove i sela"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q33a",
+    "text": "Koji bi bio sljedeći po važnosti?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "visoki ekonomski rast"
+      },
+      {
+        "value": 2,
+        "label": "osigurati da naša zemlja ima jake obrambene snage"
+      },
+      {
+        "value": 3,
+        "label": "vidjeti da se ljudi mogu izjasniti o tome kako se stvari odvijaju na njihovom poslu i u njihovoj lokalnoj zajednici"
+      },
+      {
+        "value": 4,
+        "label": "nastojati učiniti ljepšima naše gradove i sela"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q34",
+    "text": "Kada biste morali birati, koju biste od ovih aktivnosti označili kao najvažniju?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "održavanje reda u državi"
+      },
+      {
+        "value": 2,
+        "label": "davanje više prava ljudima da se izjasne o važnim vladinim odlukama"
+      },
+      {
+        "value": 3,
+        "label": "borba protiv rasta cijena"
+      },
+      {
+        "value": 4,
+        "label": "zaštita slobode govora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q35",
+    "text": "A koja bi bila sljedeća po važnosti?",
+    "stem": null,
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "održavanje reda u državi"
+      },
+      {
+        "value": 2,
+        "label": "davanje više prava ljudima da se izjasne o važnim vladinim odlukama"
+      },
+      {
+        "value": 3,
+        "label": "borba protiv rasta cijena"
+      },
+      {
+        "value": 4,
+        "label": "zaštita slobode govora"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q36",
+    "text": "Naravno, svi se nadamo da više neće biti rata, ali ako do toga dođe, biste li se borili za svoju zemlju?",
+    "stem": null,
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q37_v113",
+    "text": "Ovdje su dvije stvari u našem načinu života koje bi se mogle dogoditi u bliskoj budućnosti. Recite mi za svaku od njih, ukoliko se dogodi, bi li to bila dobra stvar, loša stvar, ili nebitna?",
+    "stem": "manja važnost rada u našim životima",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "dobro"
+      },
+      {
+        "value": 2,
+        "label": "loše"
+      },
+      {
+        "value": 3,
+        "label": "nebitno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q37_v114",
+    "text": "Ovdje su dvije stvari u našem načinu života koje bi se mogle dogoditi u bliskoj budućnosti. Recite mi za svaku od njih, ukoliko se dogodi, bi li to bila dobra stvar, loša stvar, ili nebitna?",
+    "stem": "veće poštivanje autoriteta",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "dobro"
+      },
+      {
+        "value": 2,
+        "label": "loše"
+      },
+      {
+        "value": 3,
+        "label": "nebitno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v115",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "crkvu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v116",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "vojsku",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v117",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "odgojno-obrazovni sustav",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v118",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "tisak",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v119",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "sindikate",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v120",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "policiju",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v121",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "Sabor",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v122",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "javne službe",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v123",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "sustav socijalnog osiguranja",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v124",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "Europsku Uniju",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q38_v125",
+    "text": "Molimo Vas, pogledajte ovu listu i recite mi za svaku od dolje navedenih stvari, koliko povjerenja u nju imate. Je li to povjerenje veoma veliko, veliko, ne baš veliko ili nikakvo?",
+    "stem": "UN (Ujedinjene narode)",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma veliko"
+      },
+      {
+        "value": 2,
+        "label": "veliko"
+      },
+      {
+        "value": 3,
+        "label": "ne baš veliko"
+      },
+      {
+        "value": 4,
+        "label": "nikakvo"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v133",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "vlade oporezuju bogate i pomažu siromašnima",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v134",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "vjerske vlasti daju konačno tumačenje zakona",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v135",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "ljudi biraju svoje vođe na slobodnim izborima",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v136",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "ljudi dobivaju pomoć države kad su nezaposleni",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v137",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "vojska preuzima vlast kada je vlada nekompetentna",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v138",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "građanska prava štite ljude od tlačenja države",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v139",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "država ujednačava prihode građana",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v140",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "ljudi su poslušni prema svojim vladarima",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q39_v141",
+    "text": "Mnoge su stvari poželjne, ali su samo neke od njih bitne osobine demokracije. Molim Vas da mi za svaku od narednih stvari navedete koliko su bitne kao osobine demokracije. Upotrijebite skalu gdje 1 znači „sasvim nebitna osobina demokracije“, a 10 da je definitivno „bitna osobina demokracije“.",
+    "stem": "žene imaju jednaka prava kao i muškarci",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q40",
+    "text": "Koliko je za Vas važno živjeti u zemlji kojom se upravlja demokratski? Na ovoj skali gdje 1 znači „potpuno nevažno“, a 10 znači „od najveće važnosti“ gdje biste se Vi s Vašim mišljenjem smjestili?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q41",
+    "text": "Koliko se demokratski upravlja ovom zemljom dana? Koristeći istu skalu od 1 do 10, gdje 1 znači „ni najmanje demokratski“, a 10 da „u potpunosti demokratski\" gdje biste se Vi s Vašim mišljenjem smjestili?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q42",
+    "text": "Na skali od 1 do 10, gdje 1 znači „potpuno nezadovoljan“, a 10 da „potpuno zadovoljan“, koliko ste zadovoljni s načinom kako politički sustav funkcionira u našoj zemlji danas?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v145",
+    "text": "Opisat ću različite tipove političkih sustava i molim da za svaki odgovorite što o njima mislite kao o načinu upravljanja ovom zemljom. Za svaki možete odgovoriti je li veoma dobar, dobar, loš, veoma loš.",
+    "stem": "Imati moćnog vođu koji se ne osvrće na vladu i izbore.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma dobar"
+      },
+      {
+        "value": 2,
+        "label": "dobar"
+      },
+      {
+        "value": 3,
+        "label": "loš"
+      },
+      {
+        "value": 4,
+        "label": "veoma loš"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v146",
+    "text": "Opisat ću različite tipove političkih sustava i molim da za svaki odgovorite što o njima mislite kao o načinu upravljanja ovom zemljom. Za svaki možete odgovoriti je li veoma dobar, dobar, loš, veoma loš.",
+    "stem": "Imati stručnjake, a ne vladu, koji bi donosili odluke prema tome što oni ocjenjuju kao najbolje za državu.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma dobar"
+      },
+      {
+        "value": 2,
+        "label": "dobar"
+      },
+      {
+        "value": 3,
+        "label": "loš"
+      },
+      {
+        "value": 4,
+        "label": "veoma loš"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v147",
+    "text": "Opisat ću različite tipove političkih sustava i molim da za svaki odgovorite što o njima mislite kao o načinu upravljanja ovom zemljom. Za svaki možete odgovoriti je li veoma dobar, dobar, loš, veoma loš.",
+    "stem": "Imati vojsku koja vlada državom.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma dobar"
+      },
+      {
+        "value": 2,
+        "label": "dobar"
+      },
+      {
+        "value": 3,
+        "label": "loš"
+      },
+      {
+        "value": 4,
+        "label": "veoma loš"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q43_v148",
+    "text": "Opisat ću različite tipove političkih sustava i molim da za svaki odgovorite što o njima mislite kao o načinu upravljanja ovom zemljom. Za svaki možete odgovoriti je li veoma dobar, dobar, loš, veoma loš.",
+    "stem": "Imati demokratski politički sustav.",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma dobar"
+      },
+      {
+        "value": 2,
+        "label": "dobar"
+      },
+      {
+        "value": 3,
+        "label": "loš"
+      },
+      {
+        "value": 4,
+        "label": "veoma loš"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v149",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "zahtijevati od države naknadu na koju nemate pravo",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v150",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "varati na porezu, ako postoji mogućnost",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v151",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "uzimati marihuanu ili hašiš",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v152",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "primiti mito na radnom mjestu",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v153",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "homoseksualnost",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v154",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "pobačaj",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v155",
+    "text": "Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "razvod",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "1"
+      },
+      {
+        "value": 2,
+        "label": "2"
+      },
+      {
+        "value": 3,
+        "label": "3"
+      },
+      {
+        "value": 4,
+        "label": "4"
+      },
+      {
+        "value": 5,
+        "label": "5"
+      },
+      {
+        "value": 6,
+        "label": "6"
+      },
+      {
+        "value": 7,
+        "label": "7"
+      },
+      {
+        "value": 8,
+        "label": "8"
+      },
+      {
+        "value": 9,
+        "label": "9"
+      },
+      {
+        "value": 10,
+        "label": "10"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v156",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "eutanazija (okončati život neizlječivo bolesnom)",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v157",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "samoubojstvo",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v158",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "imati usputni seks",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v159",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "izbjegavati plaćati kartu u javnom prijevozu",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v160",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "prostitucija",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v161",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "liječnički potpomognuto osjemenjivanje ili umjetna oplodnja",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v162",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "političko nasilje",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q44_v163",
+    "text": "POKAŽI KARTICU 44: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ44 Molim Vas da za sljedeće tvrdnje odgovorite mogu li uvijek biti opravdane, nikad ne mogu biti opravdane ili nešto između. Pri odgovaranju molim koristite karticu.",
+    "stem": "smrtna kazna",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "nikad"
+      },
+      {
+        "value": 10,
+        "label": "uvijek"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v164",
+    "text": "POKAŽI KARTICU 45: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ45 Ljudi imaju različite poglede o sebi i svom odnosu prema svijetu. Koristeći ovu karticu, možete li mi reći koliko se blisko osjećate prema:",
+    "stem": "svom mjestu ili gradu",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma blisko"
+      },
+      {
+        "value": 4,
+        "label": "uopće se ne osjećam blisko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v165",
+    "text": "POKAŽI KARTICU 45: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ45 Ljudi imaju različite poglede o sebi i svom odnosu prema svijetu. Koristeći ovu karticu, možete li mi reći koliko se blisko osjećate prema:",
+    "stem": "svojoj regiji",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma blisko"
+      },
+      {
+        "value": 4,
+        "label": "uopće se ne osjećam blisko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v166",
+    "text": "POKAŽI KARTICU 45: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ45 Ljudi imaju različite poglede o sebi i svom odnosu prema svijetu. Koristeći ovu karticu, možete li mi reći koliko se blisko osjećate prema:",
+    "stem": "Hrvatskoj",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma blisko"
+      },
+      {
+        "value": 4,
+        "label": "uopće se ne osjećam blisko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v167",
+    "text": "POKAŽI KARTICU 45: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ45 Ljudi imaju različite poglede o sebi i svom odnosu prema svijetu. Koristeći ovu karticu, možete li mi reći koliko se blisko osjećate prema:",
+    "stem": "Europi",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma blisko"
+      },
+      {
+        "value": 4,
+        "label": "uopće se ne osjećam blisko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q45_v168",
+    "text": "POKAŽI KARTICU 45: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ45 Ljudi imaju različite poglede o sebi i svom odnosu prema svijetu. Koristeći ovu karticu, možete li mi reći koliko se blisko osjećate prema:",
+    "stem": "svijetu",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma blisko"
+      },
+      {
+        "value": 4,
+        "label": "uopće se ne osjećam blisko"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q47",
+    "text": "Q47 Jeste li i koliko ponosni što ste hrvatski državljanin?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma ponosan"
+      },
+      {
+        "value": 4,
+        "label": "nisam uopće ponosan"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v176",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "glasovi se broje pošteno",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v177",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "oporbeni kandidati se sprečavaju da sudjeluju u izborima",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v178",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "televizijske vijesti favoriziraju vladajuću stranku",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v179",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "glasači su podmićeni",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v180",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "novinari pošteno prate izbore",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v181",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "izborna povjerenstva su poštena",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v182",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "bogati ljudi kupuju izbore",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q50_v183",
+    "text": "POKAŽI KARTICU 50: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ50 Prema Vašem mišljenju, koliko se često sljedeće stvari događaju na izborima u našoj zemlji?",
+    "stem": "glasači su ugroženi nasiljem na glasačkim mjestima",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma često"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q51",
+    "text": "Q51 Sada bismo željeli znati Vaše mišljenje o ljudima iz drugih zemalja koji dolaze živjeti u Hrvatsku – imigrantima. Kakav biste rekli da je njihov utjecaj na razvoj Hrvatske?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma dobar"
+      },
+      {
+        "value": 2,
+        "label": "dobar"
+      },
+      {
+        "value": 3,
+        "label": "ni dobar ni loš"
+      },
+      {
+        "value": 4,
+        "label": "loš"
+      },
+      {
+        "value": 5,
+        "label": "veoma loš"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52_A",
+    "text": "POKAŽI KARTICU 52: ČITAJ REDOM\nQ52 Molim Vas, pogledajte sljedeće tvrdnje i procijenite svoje stavove na ovoj skali.",
+    "stem": "Imigranti oduzimaju poslove Hrvatima.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Imigranti ne oduzimaju poslove Hrvatima."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52_B",
+    "text": "POKAŽI KARTICU 52: ČITAJ REDOM\nQ52 Molim Vas, pogledajte sljedeće tvrdnje i procijenite svoje stavove na ovoj skali.",
+    "stem": "Imigranti povećavaju probleme s kriminalom.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Imigranti ne povećavaju probleme s kriminalom."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52_C",
+    "text": "POKAŽI KARTICU 52: ČITAJ REDOM\nQ52 Molim Vas, pogledajte sljedeće tvrdnje i procijenite svoje stavove na ovoj skali.",
+    "stem": "Imigranti su opterećenje za socijalni sustav države.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Imigranti nisu opterećenje za socijalni sustav države."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q52_D",
+    "text": "POKAŽI KARTICU 52: ČITAJ REDOM\nQ52 Molim Vas, pogledajte sljedeće tvrdnje i procijenite svoje stavove na ovoj skali.",
+    "stem": "Za veće dobro društva bolje je da useljenici zadrže svoje posebne običaje i tradiciju.",
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": null
+      },
+      {
+        "value": 10,
+        "label": "Za veće dobro društva bolje je da useljenici ne zadržavaju svoje posebne običaje i tradiciju."
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v189",
+    "text": "POKAŽI KARTICU 53: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ53 Neki ljudi sljedeće karakteristike smatraju bitnima za opis istinskog hrvatskog državljanina, dok drugi misle da one nisu važne. Koliko važnom smatrate svaku od njih?",
+    "stem": "biti rođen u Hrvatskoj",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v190",
+    "text": "POKAŽI KARTICU 53: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ53 Neki ljudi sljedeće karakteristike smatraju bitnima za opis istinskog hrvatskog državljanina, dok drugi misle da one nisu važne. Koliko važnom smatrate svaku od njih?",
+    "stem": "poštovati političke institucije i zakone Hrvatske",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v191",
+    "text": "POKAŽI KARTICU 53: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ53 Neki ljudi sljedeće karakteristike smatraju bitnima za opis istinskog hrvatskog državljanina, dok drugi misle da one nisu važne. Koliko važnom smatrate svaku od njih?",
+    "stem": "imati hrvatsko podrijetlo",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v192",
+    "text": "POKAŽI KARTICU 53: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ53 Neki ljudi sljedeće karakteristike smatraju bitnima za opis istinskog hrvatskog državljanina, dok drugi misle da one nisu važne. Koliko važnom smatrate svaku od njih?",
+    "stem": "govoriti hrvatski jezik",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q53_v193",
+    "text": "POKAŽI KARTICU 53: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ53 Neki ljudi sljedeće karakteristike smatraju bitnima za opis istinskog hrvatskog državljanina, dok drugi misle da one nisu važne. Koliko važnom smatrate svaku od njih?",
+    "stem": "živjeti u skladu s hrvatskom kulturom",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v194",
+    "text": "POKAŽI KARTICU 54: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ54 Ljudi se razlikuju u stavovima o tome što znači biti Europljanin. Prema Vašem mišljenju, koliko je važno niže navedeno da bi netko bio Europljanin?",
+    "stem": "biti rođen u Europi",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v195",
+    "text": "POKAŽI KARTICU 54: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ54 Ljudi se razlikuju u stavovima o tome što znači biti Europljanin. Prema Vašem mišljenju, koliko je važno niže navedeno da bi netko bio Europljanin?",
+    "stem": "imati europsko podrijetlo",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v196",
+    "text": "POKAŽI KARTICU 54: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ54 Ljudi se razlikuju u stavovima o tome što znači biti Europljanin. Prema Vašem mišljenju, koliko je važno niže navedeno da bi netko bio Europljanin?",
+    "stem": "biti kršćanin",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q54_v197",
+    "text": "POKAŽI KARTICU 54: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ54 Ljudi se razlikuju u stavovima o tome što znači biti Europljanin. Prema Vašem mišljenju, koliko je važno niže navedeno da bi netko bio Europljanin?",
+    "stem": "živjeti u skladu s europskom kulturom",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q55",
+    "text": "Q55 Neki ljudi kažu da bi se Europska Unija trebala nastaviti širiti. Drugi kažu da se već previše proširila. Koristeći ovu skalu, koji broj najbolje opisuje Vaš stav?",
+    "stem": null,
+    "item": null,
+    "response_type": "likert10",
+    "options": [
+      {
+        "value": 1,
+        "label": "trebala bi se još proširiti"
+      },
+      {
+        "value": 10,
+        "label": "već se previše proširila"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v199",
+    "text": "POKAŽI KARTICU 56: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ56 Koliko se slažete ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Dao bih dio svog dohotka ako bih bio siguran da bi se novac koristio za sprječavanje zagađivanja okoliša.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v200",
+    "text": "POKAŽI KARTICU 56: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ56 Koliko se slažete ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Teško je nekome poput mene učiniti puno za okoliš.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q56_v201",
+    "text": "POKAŽI KARTICU 56: ČITAJ REDOM – IZABERI SAMO JEDAN ODGOVOR U SVAKOM RETKU\nQ56 Koliko se slažete ili ne slažete sa sljedećim tvrdnjama?",
+    "stem": "Ima važnijih stvari koje treba učiniti u životu od zaštite okoliša.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q57_v204",
+    "text": "Ovdje su navedene dvije tvrdnje koje ljudi ponekad izražavaju kada govore o okolišu i ekonomskom rastu. Koja j od njih bliža Vašem stajalištu?",
+    "stem": "Ovdje su navedene dvije tvrdnje koje ljudi ponekad izražavaju kada govore o okolišu i ekonomskom rastu. Koja j od njih bliža Vašem stajalištu?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "Zaštiti okoliša treba dati prioritet, čak i ako to uzrokuje sporiji ekonomski rast i gubitak nekih poslova."
+      },
+      {
+        "value": 2,
+        "label": "Ekonomski rast i stvaranje novih poslova trebaju imati najveći prioritet, čak i ako će okoliš zbog toga patiti u nekoj mjeri."
+      },
+      {
+        "value": 3,
+        "label": "neki drugi odgovor (UPISATI JEDINO AKO GA ISPITANIK SAM NAVEDE!)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_v205",
+    "text": "Mislite li da hrvatska vlada treba ili ne treba imati pravo raditi sljedeće: Nadzirati ljude kamerama na javnim mjestima",
+    "stem": "Nadzirati ljude kamerama na javnim mjestima",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "da, u potpunosti"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom da"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom ne"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_v206",
+    "text": "Mislite li da hrvatska vlada treba ili ne treba imati pravo raditi sljedeće: Nadzirati e-mailove i druge informacije koje se razmjenjuju na internetu",
+    "stem": "Nadzirati e-mailove i druge informacije koje se razmjenjuju na internetu",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "da, u potpunosti"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom da"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom ne"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q58_v207",
+    "text": "Mislite li da hrvatska vlada treba ili ne treba imati pravo raditi sljedeće: Sakupljati informacije o bilo kome tko živi u Hrvatskoj bez njihova znanja",
+    "stem": "Sakupljati informacije o bilo kome tko živi u Hrvatskoj bez njihova znanja",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "da, u potpunosti"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom da"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom ne"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v208",
+    "text": "Koliko često pratite politiku... na televiziji",
+    "stem": "... na televiziji",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "svaki dan"
+      },
+      {
+        "value": 2,
+        "label": "nekoliko puta tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom ili dvaput tjedno"
+      },
+      {
+        "value": 4,
+        "label": "rijetko"
+      },
+      {
+        "value": 5,
+        "label": "nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v209",
+    "text": "Koliko često pratite politiku... na radiju",
+    "stem": "... na radiju",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "svaki dan"
+      },
+      {
+        "value": 2,
+        "label": "nekoliko puta tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom ili dvaput tjedno"
+      },
+      {
+        "value": 4,
+        "label": "rijetko"
+      },
+      {
+        "value": 5,
+        "label": "nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v210",
+    "text": "Koliko često pratite politiku... u dnevnim novinama",
+    "stem": "... u dnevnim novinama",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "svaki dan"
+      },
+      {
+        "value": 2,
+        "label": "nekoliko puta tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom ili dvaput tjedno"
+      },
+      {
+        "value": 4,
+        "label": "rijetko"
+      },
+      {
+        "value": 5,
+        "label": "nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q59_v211",
+    "text": "Koliko često pratite politiku... na društvenim mrežama",
+    "stem": "... na društvenim mrežama",
+    "item": null,
+    "response_type": "frequency",
+    "options": [
+      {
+        "value": 1,
+        "label": "svaki dan"
+      },
+      {
+        "value": 2,
+        "label": "nekoliko puta tjedno"
+      },
+      {
+        "value": 3,
+        "label": "jednom ili dvaput tjedno"
+      },
+      {
+        "value": 4,
+        "label": "rijetko"
+      },
+      {
+        "value": 5,
+        "label": "nikada"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v212",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete: ljudi u Vašem susjedstvu",
+    "stem": "ljudi u Vašem susjedstvu",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v213",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete: ljudi iz regije u kojoj živite",
+    "stem": "ljudi iz regije u kojoj živite",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v214",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete: Vaših zemljaka",
+    "stem": "Vaših zemljaka",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v215",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete: Europljana",
+    "stem": "Europljana",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q60_v216",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete: svih ljudi na svijetu",
+    "stem": "svih ljudi na svijetu",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v217",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete sljedećih skupina ljudi koji žive u našoj zemlji: stariji ljudi",
+    "stem": "stariji ljudi",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v218",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete sljedećih skupina ljudi koji žive u našoj zemlji: nezaposleni",
+    "stem": "nezaposleni",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v219",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete sljedećih skupina ljudi koji žive u našoj zemlji: imigranti",
+    "stem": "imigranti",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q61_v220",
+    "text": "U kojoj mjeri ste zabrinuti za životne uvjete sljedećih skupina ljudi koji žive u našoj zemlji: bolesni i nemoćni",
+    "stem": "bolesni i nemoćni",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zabrinut"
+      },
+      {
+        "value": 2,
+        "label": "dosta zabrinut"
+      },
+      {
+        "value": 3,
+        "label": "do određene mjere"
+      },
+      {
+        "value": 4,
+        "label": "ne previše zabrinut"
+      },
+      {
+        "value": 5,
+        "label": "uopće nisam zabrinut"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v221",
+    "text": "Što bi društvo trebalo osigurati? Molim Vas da mi za svaku tvrdnju kažete koliko je važna ili nevažna za Vas: uklanjanje velikih nejednakosti u dohodcima između građana",
+    "stem": "uklanjanje velikih nejednakosti u dohodcima između građana",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom važno"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom nevažno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v222",
+    "text": "Što bi društvo trebalo osigurati? Molim Vas da mi za svaku tvrdnju kažete koliko je važna ili nevažna za Vas: osigurati da su podmirene osnovne potrebe sviju, u pogledu hrane, stanovanja, odjeće, obrazovanja i zdravlja",
+    "stem": "osigurati da su podmirene osnovne potrebe sviju, u pogledu hrane, stanovanja, odjeće, obrazovanja i zdravlja",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom važno"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom nevažno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v223",
+    "text": "Što bi društvo trebalo osigurati? Molim Vas da mi za svaku tvrdnju kažete koliko je važna ili nevažna za Vas: priznati ljudima njihove zasluge",
+    "stem": "priznati ljudima njihove zasluge",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom važno"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom nevažno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q62_v224",
+    "text": "Što bi društvo trebalo osigurati? Molim Vas da mi za svaku tvrdnju kažete koliko je važna ili nevažna za Vas: štititi od terorizma",
+    "stem": "štititi od terorizma",
+    "item": null,
+    "response_type": "likert4",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "uglavnom važno"
+      },
+      {
+        "value": 3,
+        "label": "uglavnom nevažno"
+      },
+      {
+        "value": 4,
+        "label": "uopće ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q113_v287",
+    "text": "Molim Vas, odaberite broj na kartici kako biste opisali koliko je ova tvrdnja točna po Vašem mišljenju: „Imam vlastiti način za uspostavu veze s božanskim bez crkve ili vjerskih obreda.\"",
+    "stem": "Imam vlastiti način za uspostavu veze s božanskim bez crkve ili vjerskih obreda.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "uopće se ne slažem"
+      },
+      {
+        "value": 2,
+        "label": null
+      },
+      {
+        "value": 3,
+        "label": null
+      },
+      {
+        "value": 4,
+        "label": null
+      },
+      {
+        "value": 5,
+        "label": "potpuno se slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q114_v288",
+    "text": "Bez obzira smatrate li se vjernikom ili ne, koliko duhovnom osobom se smatrate, to jest koliko ste zainteresirani za sveto ili nadnaravno?",
+    "stem": "Bez obzira smatrate li se vjernikom ili ne, koliko duhovnom osobom se smatrate, to jest koliko ste zainteresirani za sveto ili nadnaravno?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma zainteresiran"
+      },
+      {
+        "value": 2,
+        "label": "donekle zainteresiran"
+      },
+      {
+        "value": 3,
+        "label": "ne baš zainteresiran"
+      },
+      {
+        "value": 4,
+        "label": "nezainteresiran"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q115_v289",
+    "text": "Smatrate li da Vas vjera tješi i ohrabruje ili ne?",
+    "stem": "Smatrate li da Vas vjera tješi i ohrabruje ili ne?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "da"
+      },
+      {
+        "value": 2,
+        "label": "ne"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q116_v290",
+    "text": "Ako netko tvrdi da dijete treba i oca i majku da bi sretno odrastalo, biste li se složili ili ne?",
+    "stem": "Ako netko tvrdi da dijete treba i oca i majku da bi sretno odrastalo, biste li se složili ili ne?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "složio bih se"
+      },
+      {
+        "value": 2,
+        "label": "ne bih se složio"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q117_v291",
+    "text": "Mislite li da žena treba imati djecu da bi se osjećala ispunjenom ili to nije uvjet?",
+    "stem": "Mislite li da žena treba imati djecu da bi se osjećala ispunjenom ili to nije uvjet?",
+    "item": null,
+    "response_type": "binary",
+    "options": [
+      {
+        "value": 1,
+        "label": "treba imati djecu"
+      },
+      {
+        "value": 2,
+        "label": "nije neophodno"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q118_v292",
+    "text": "Ako žena želi imati dijete kao samohrana majka i ne želi stabilnu vezu s muškarcem, odobravate li joj to ili ne?",
+    "stem": "Ako žena želi imati dijete kao samohrana majka i ne želi stabilnu vezu s muškarcem, odobravate li joj to ili ne?",
+    "item": null,
+    "response_type": "categorical",
+    "options": [
+      {
+        "value": 1,
+        "label": "odobravam"
+      },
+      {
+        "value": 2,
+        "label": "ne odobravam"
+      },
+      {
+        "value": 3,
+        "label": "ovisi (spontano)"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q119_v293",
+    "text": "Što mislite o sljedećim tvrdnjama? Slažete li se s njima ili ne? Čovjek treba imati djecu da bi život imao smisla.",
+    "stem": "Čovjek treba imati djecu da bi život imao smisla.",
+    "item": null,
+    "response_type": "likert5",
+    "options": [
+      {
+        "value": 1,
+        "label": "potpuno se slažem"
+      },
+      {
+        "value": 2,
+        "label": "slažem se"
+      },
+      {
+        "value": 3,
+        "label": "niti se slažem, niti ne"
+      },
+      {
+        "value": 4,
+        "label": "ne slažem se"
+      },
+      {
+        "value": 5,
+        "label": "uopće se ne slažem"
+      }
+    ],
+    "answer_cue": null
+  },
+  {
+    "id": "Q120_v294",
+    "text": "Ovdje su navedene neke stvari koje ljudi drže važnima za uspješan brak ili partnerstvo. Za svaku od njih navedite smatrate li je veoma važnom, važnom ili nevažnom. biti istog socijalnog podrijetla",
+    "stem": "biti istog socijalnog podrijetla",
+    "item": null,
+    "response_type": "likert3",
+    "options": [
+      {
+        "value": 1,
+        "label": "veoma važno"
+      },
+      {
+        "value": 2,
+        "label": "važno"
+      },
+      {
+        "value": 3,
+        "label": "nevažno"
+      }
+    ],
+    "answer_cue": null
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "_comment": "Prompt format configuration. Optimized via grid search across all 44 model-lang pairs (Feb 2026). Overall #1 config by mean JSD to human data.",
+  "default": {
+    "cue_style": "lang",
+    "opt_format": "numbered_dot",
+    "scale_hint": true,
+    "embed_style": "separate",
+    "n_perms": 6
+  }
+}

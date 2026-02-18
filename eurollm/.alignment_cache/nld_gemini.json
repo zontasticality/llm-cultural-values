@@ -1,0 +1,517 @@
+{
+  "v32": {
+    "id": "Q8",
+    "item": "Uw familie",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor el"
+  },
+  "v33": {
+    "id": "Q8",
+    "item": "Uw buren",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor el"
+  },
+  "v34": {
+    "id": "Q8",
+    "item": "Mensen die u persoonlijk kent",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor el"
+  },
+  "v35": {
+    "id": "Q8",
+    "item": "Mensen die u voor het eerst ontmoet",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor el"
+  },
+  "v36": {
+    "id": "Q8",
+    "item": "Mensen van een andere religie",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor el"
+  },
+  "v37": {
+    "id": "Q8",
+    "item": "Mensen van een andere nationaliteit",
+    "text": "Ik zou u nu willen vragen in welke mate u mensen van verschillende groepen vertrouwt. Kunt u voor el"
+  },
+  "v47": {
+    "id": "Q12a",
+    "item": "Het is vernederend om geld te krijgen zonder ervoor te hoeven werken",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?"
+  },
+  "v48": {
+    "id": "Q12b",
+    "item": "Mensen die niet werken worden lui",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?"
+  },
+  "v49": {
+    "id": "Q12c",
+    "item": "Werken is een maatschappelijke plicht",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?"
+  },
+  "v50": {
+    "id": "Q12d",
+    "item": "Werk zou altijd op de eerste plaats moeten komen, zelfs als dat minder vrije tijd betekent",
+    "text": "Bent u het eens of oneens met de volgende uitspraken?"
+  },
+  "v58": {
+    "id": "Q18b",
+    "item": "Een leven na de dood",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft."
+  },
+  "v59": {
+    "id": "Q18c",
+    "item": "De hel",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft."
+  },
+  "v60": {
+    "id": "Q18d",
+    "item": "De hemel",
+    "text": "Wilt u aangeven waarin u wel of niet gelooft."
+  },
+  "v65": {
+    "id": "Q23a",
+    "item": "Trouw",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partner"
+  },
+  "v66": {
+    "id": "Q23b",
+    "item": "Een redelijk inkomen",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partner"
+  },
+  "v67": {
+    "id": "Q23c",
+    "item": "Goede huisvesting",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partner"
+  },
+  "v68": {
+    "id": "Q23d",
+    "item": "Verdelen van huishoudelijke taken",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partner"
+  },
+  "v69": {
+    "id": "Q23e",
+    "item": "Kinderen",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partner"
+  },
+  "v70": {
+    "id": "Q23f",
+    "item": "Tijd hebben voor eigen vrienden en persoonlijke hobbies/activiteiten",
+    "text": "Hier staat een lijst van dingen die volgens sommigen bijdragen tot een succesvol huwelijk of partner"
+  },
+  "v73": {
+    "id": "Q25b",
+    "item": "Een baan is prima maar wat de meeste vrouwen eigenlijk willen is een huis en kinderen",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v74": {
+    "id": "Q25c",
+    "item": "Over het algemeen lijdt het gezinsleven eronder wanneer de vrouw fulltime werkt",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v75": {
+    "id": "Q25d",
+    "item": "De man hoort het geld te verdienen, de vrouw hoort thuis",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v76": {
+    "id": "Q25e",
+    "item": "Over het geheel zijn mannen betere politieke leiders dan vrouwen",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v77": {
+    "id": "Q25f",
+    "item": "Een universitaire opleiding is belangrijker voor een jongen dan voor een meisje",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v78": {
+    "id": "Q25g",
+    "item": "Over het geheel zijn mannen betere topmanagers dan vrouwen",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v79": {
+    "id": "Q25h",
+    "item": "Een van mijn belangrijkste doelen was mijn ouders trots maken",
+    "text": "Wilt u van elke van de volgende uitspraken zeggen in hoeverre u het er mee eens of oneens bent?"
+  },
+  "v81": {
+    "id": "Q26b",
+    "item": "Wanneer banen schaars zijn, hebben mannen meer recht op een baan dan vrouwen",
+    "text": "In hoeverre bent u het eens of oneens met de volgende uitspraken?"
+  },
+  "v83": {
+    "id": "Q27b",
+    "item": "Het is een plicht tegenover de samenleving om kinderen te krijgen",
+    "text": "Wat vindt u van de volgende uitspraken?"
+  },
+  "v84": {
+    "id": "Q27c",
+    "item": "Volwassen kinderen hebben de plicht om langdurige zorg aan hun ouders te verlenen",
+    "text": "Wat vindt u van de volgende uitspraken?"
+  },
+  "v104": {
+    "id": "Q32B",
+    "item": null,
+    "text": "Werklozen moeten iedere beschikbare baan aannemen. Zo niet dan moet hun uitkering worden ingetrokken"
+  },
+  "v105": {
+    "id": "Q32C",
+    "item": null,
+    "text": "Onderlinge wedijver is goed"
+  },
+  "v106": {
+    "id": "Q32D",
+    "item": null,
+    "text": "Inkomens meer gelijk verdeeld worden"
+  },
+  "v107": {
+    "id": "Q32E",
+    "item": null,
+    "text": "Privébezit van ondernemingen moet worden vergroot"
+  },
+  "v116": {
+    "id": "Q38_De_kerk",
+    "item": null,
+    "text": "De kerk"
+  },
+  "v117": {
+    "id": "Q38_De_strijdkrachten",
+    "item": null,
+    "text": "De strijdkrachten"
+  },
+  "v118": {
+    "id": "Q38_Het_onderwijsstelsel",
+    "item": null,
+    "text": "Het onderwijsstelsel"
+  },
+  "v119": {
+    "id": "Q38_De_pers",
+    "item": null,
+    "text": "De pers"
+  },
+  "v120": {
+    "id": "Q38_Vakbonden",
+    "item": null,
+    "text": "Vakbonden"
+  },
+  "v121": {
+    "id": "Q38_De_politie",
+    "item": null,
+    "text": "De politie"
+  },
+  "v122": {
+    "id": "Q38_Het_parlement",
+    "item": null,
+    "text": "Het parlement"
+  },
+  "v123": {
+    "id": "Q38_Ambtenaren",
+    "item": null,
+    "text": "Ambtenaren"
+  },
+  "v124": {
+    "id": "Q38_Het_sociale_zekerheidsstelsel",
+    "item": null,
+    "text": "Het sociale zekerheidsstelsel"
+  },
+  "v125": {
+    "id": "Q38_De_Europese_Unie",
+    "item": null,
+    "text": "De Europese Unie"
+  },
+  "v126": {
+    "id": "Q38_De_Verenigde_Naties",
+    "item": null,
+    "text": "De Verenigde Naties"
+  },
+  "v127": {
+    "id": "Q38_Gezondheidszorg",
+    "item": null,
+    "text": "Gezondheidszorg"
+  },
+  "v128": {
+    "id": "Q38_Het_justitiële_apparaat",
+    "item": null,
+    "text": "Het justitiële apparaat"
+  },
+  "v129": {
+    "id": "Q38_De_grote_bedrijven",
+    "item": null,
+    "text": "De grote bedrijven"
+  },
+  "v130": {
+    "id": "Q38_Milieuorganisaties",
+    "item": null,
+    "text": "Milieuorganisaties"
+  },
+  "v131": {
+    "id": "Q38_Politieke_partijen",
+    "item": null,
+    "text": "Politieke partijen"
+  },
+  "v132": {
+    "id": "Q38_Overheid",
+    "item": null,
+    "text": "Overheid"
+  },
+  "v133": {
+    "id": "Q38_Sociale_media",
+    "item": null,
+    "text": "Sociale media"
+  },
+  "v134": {
+    "id": "Q39_Overheden_heffen_belasting_bij_de_rijken_en_subsidiëren_de_armen",
+    "item": null,
+    "text": "Overheden heffen belasting bij de rijken en subsidiëren de armen"
+  },
+  "v135": {
+    "id": "Q39_Religieuze_leiders_interpreteren_de_wet",
+    "item": null,
+    "text": "Religieuze leiders interpreteren de wet"
+  },
+  "v136": {
+    "id": "Q39_Mensen_kiezen_hun_leiders_in_vrije_verkiezingen",
+    "item": null,
+    "text": "Mensen kiezen hun leiders in vrije verkiezingen"
+  },
+  "v137": {
+    "id": "Q39_Mensen_ontvangen_hulp_van_de_staat_bij_werkloosheid",
+    "item": null,
+    "text": "Mensen ontvangen hulp van de staat bij werkloosheid"
+  },
+  "v138": {
+    "id": "Q39_Het_leger_neemt_het_over_als_de_overheid_onbekwaam_is",
+    "item": null,
+    "text": "Het leger neemt het over als de overheid onbekwaam is"
+  },
+  "v139": {
+    "id": "Q39_Burgerrechten_beschermen_de_vrijheid_van_mensen_tegen_onderdrukking_door_de_staat",
+    "item": null,
+    "text": "Burgerrechten beschermen de vrijheid van mensen tegen onderdrukking door de staat"
+  },
+  "v140": {
+    "id": "Q39_De_staat_zorgt_dat_mensen_gelijke_inkomens_hebben",
+    "item": null,
+    "text": "De staat zorgt dat mensen gelijke inkomens hebben"
+  },
+  "v171": {
+    "id": "Q48_gemeentelijk",
+    "item": "Gemeentelijk niveau",
+    "text": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen? Wilt u me dit voor elk va"
+  },
+  "v172": {
+    "id": "Q48_landelijk",
+    "item": "Landelijk niveau",
+    "text": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen? Wilt u me dit voor elk va"
+  },
+  "v173": {
+    "id": "Q48_europees",
+    "item": "Europees niveau",
+    "text": "Wanneer er verkiezingen zijn, gaat u dan altijd, meestal of nooit stemmen? Wilt u me dit voor elk va"
+  },
+  "v176": {
+    "id": "Q50_eerlijk_geteld",
+    "item": "Stemmen worden eerlijk geteld",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v177": {
+    "id": "Q50_oppositie_uitgesloten",
+    "item": "Kandidaten van de oppositie worden van deelname uitgesloten",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v178": {
+    "id": "Q50_tv_partij",
+    "item": "Het TV nieuws is op de hand van de regerende partij",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v179": {
+    "id": "Q50_omgekocht",
+    "item": "Stemmers worden omgekocht",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v180": {
+    "id": "Q50_eerlijke_weergave",
+    "item": "Journalisten geven een eerlijke weergave van de verkiezingen",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v181": {
+    "id": "Q50_eerlijk_functionarissen",
+    "item": "Verkiezingsfunctionarissen zijn eerlijk",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v182": {
+    "id": "Q50_kopen_uitslag",
+    "item": "Rijke mensen kopen de verkiezingsuitslag",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v183": {
+    "id": "Q50_bedreigd",
+    "item": "Stemmers worden bedreigd met geweld bij de verkiezingen",
+    "text": "Hoe vaak gebeuren volgens u de volgende dingen tijdens verkiezingen in dit land?"
+  },
+  "v184": {
+    "id": "Q51",
+    "item": null,
+    "text": "Nu willen we graag uw mening weten over mensen van andere landen die in Nederland komen wonen: immig"
+  },
+  "v186": {
+    "id": "Q52B",
+    "item": "Immigranten maken de criminaliteitsproblemen erger",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen"
+  },
+  "v187": {
+    "id": "Q52C",
+    "item": "Immigranten zetten de verzorgingsstaat in een land onder druk",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen"
+  },
+  "v188": {
+    "id": "Q52D",
+    "item": "Het is beter wanneer immigranten hun eigen gebruiken en tradities behouden",
+    "text": "Geef bij de volgende uitspraken aan waar u uw mening op de schaal zou willen plaatsen"
+  },
+  "v189": {
+    "id": "Q53_geboren_nederland",
+    "item": "Men moet geboren zijn in Nederland",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Andere"
+  },
+  "v190": {
+    "id": "Q53_politiek_respecteren",
+    "item": "Men moet het Nederlandse politieke systeem en zijn wetgeving respecteren",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Andere"
+  },
+  "v191": {
+    "id": "Q53_voorouders",
+    "item": "Men moet Nederlandse voorouders hebben",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Andere"
+  },
+  "v192": {
+    "id": "Q53_nederlands_spreken",
+    "item": "Men moet Nederlands kunnen spreken",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Andere"
+  },
+  "v193": {
+    "id": "Q53_cultuur_delen",
+    "item": "Men moet de Nederlandse cultuur delen",
+    "text": "Sommige mensen zeggen dat de volgende zaken belangrijk zijn om een echte Nederlander te zijn. Andere"
+  },
+  "v194": {
+    "id": "Q54_geboren_europa",
+    "item": "Men moet geboren zijn in Europa",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk "
+  },
+  "v195": {
+    "id": "Q54_europese_voorouders",
+    "item": "Men moet Europse voorouders hebben",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk "
+  },
+  "v196": {
+    "id": "Q54_christen",
+    "item": "Men moet een Christen zijn",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk "
+  },
+  "v197": {
+    "id": "Q54_europese_cultuur",
+    "item": "Men moet de Europese cultuur delen",
+    "text": "Mensen verschillen in wat ze belangrijk vinden om een Europeaan te zijn. Hoe belangrijk vindt u elk "
+  },
+  "v199": {
+    "id": "Q56_bereid_deel_inkomen_milieu",
+    "item": null,
+    "text": "Ik ben bereid een deel van mijn inkomen af te staan wanneer ik er zeker van zou zijn dat het geld zo"
+  },
+  "v200": {
+    "id": "Q56_moeilijk_veel_voor_milieu_doen",
+    "item": null,
+    "text": "Het is gewoon te moeilijk voor iemand als ik om veel voor het milieu te doen"
+  },
+  "v201": {
+    "id": "Q56_belangrijkere_dingen_dan_milieu",
+    "item": null,
+    "text": "Er zijn belangrijkere dingen in het leven dan het milieu beschermen"
+  },
+  "v202": {
+    "id": "Q56_geen_zin_inspannen_milieu",
+    "item": null,
+    "text": "Het heeft geen zin om me in te spannen voor het milieu als anderen niet hetzelfde doen"
+  },
+  "v203": {
+    "id": "Q56_veel_beweringen_overdreven",
+    "item": null,
+    "text": "Veel beweringen over het bedreigde milieu zijn overdreven"
+  },
+  "v205": {
+    "id": "Q58_cameratoezicht",
+    "item": null,
+    "text": "Mensen onder cameratoezicht houden in openbare ruimtes"
+  },
+  "v206": {
+    "id": "Q58_controleren_emails",
+    "item": null,
+    "text": "Het controleren van e-mails en andere informatie via het internet"
+  },
+  "v207": {
+    "id": "Q58_informatie_verzamelen",
+    "item": null,
+    "text": "Zonder zijn of haar medeweten informatie verzamelen over"
+  },
+  "v212": {
+    "id": "Q60_buurt",
+    "item": null,
+    "text": "Mensen uit uw buurt/omgeving"
+  },
+  "v213": {
+    "id": "Q60_regio",
+    "item": null,
+    "text": "Mensen in de regio waar u woont"
+  },
+  "v214": {
+    "id": "Q60_landgenoten",
+    "item": null,
+    "text": "Uw landgenoten"
+  },
+  "v215": {
+    "id": "Q60_europeanen",
+    "item": null,
+    "text": "Europeanen"
+  },
+  "v216": {
+    "id": "Q60_wereld",
+    "item": null,
+    "text": "Alle mensen over de hele wereld"
+  },
+  "v217": {
+    "id": "Q61_bejaarden",
+    "item": null,
+    "text": "De bejaarden"
+  },
+  "v218": {
+    "id": "Q61_werklozen",
+    "item": null,
+    "text": "De werklozen"
+  },
+  "v219": {
+    "id": "Q61_immigranten",
+    "item": null,
+    "text": "Immigranten"
+  },
+  "v220": {
+    "id": "Q61_zieken",
+    "item": null,
+    "text": "Zieken en gehandicapten"
+  },
+  "v221": {
+    "id": "Q62_inkomensverschillen",
+    "item": null,
+    "text": "Het opheffen van grote inkomensverschillen tussen burgers"
+  },
+  "v222": {
+    "id": "Q62_basisbehoeften",
+    "item": null,
+    "text": "Het garanderen dat de basisbehoeften van iedereen worden bevredigd: eten, huisvesting, kleding, onde"
+  },
+  "v223": {
+    "id": "Q62_erkenning_verdienste",
+    "item": null,
+    "text": "De erkenning van ieders verdienste"
+  },
+  "v224": {
+    "id": "Q62_bescherming_terrorisme",
+    "item": null,
+    "text": "De bescherming tegen terrorisme"
+  }
+}

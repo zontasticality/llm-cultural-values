@@ -1,0 +1,33 @@
+{
+  "default": {
+    "cue_style": "answer",
+    "opt_format": "bullet",
+    "scale_hint": "False",
+    "embed_style": "separate",
+    "n_perms": "6"
+  },
+  "overrides_by_response_type": {
+    "categorical": {
+      "cue_style": "none",
+      "opt_format": "numbered_dot",
+      "embed_style": "inline"
+    },
+    "frequency": {
+      "opt_format": "numbered_paren",
+      "n_perms": 2
+    },
+    "likert3": {
+      "cue_style": "none",
+      "opt_format": "numbered_paren",
+      "scale_hint": true,
+      "n_perms": 2
+    },
+    "likert4": {
+      "opt_format": "numbered_dot"
+    },
+    "likert5": {
+      "scale_hint": true,
+      "n_perms": 2
+    }
+  }
+}

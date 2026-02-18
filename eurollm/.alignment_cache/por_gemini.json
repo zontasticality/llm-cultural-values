@@ -1,0 +1,687 @@
+{
+  "v37": {
+    "id": "Q6",
+    "item": "Pessoas de outra raça",
+    "text": "Dos grupos de pessoas que se apresentam na seguinte lista, diga, por favor, aqueles que não gostaria"
+  },
+  "v47": {
+    "id": "V47",
+    "item": null,
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações."
+  },
+  "v48": {
+    "id": "V48",
+    "item": null,
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações."
+  },
+  "v49": {
+    "id": "V49",
+    "item": null,
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações."
+  },
+  "v50": {
+    "id": "V50",
+    "item": null,
+    "text": "Diga, por favor, em que medida concorda ou discorda com cada uma das seguintes afirmações."
+  },
+  "v57": {
+    "id": "V57",
+    "item": null,
+    "text": "Diga, por favor se acredita ou não:"
+  },
+  "v58": {
+    "id": "V58",
+    "item": null,
+    "text": "Diga, por favor se acredita ou não:"
+  },
+  "v59": {
+    "id": "V59",
+    "item": null,
+    "text": "Diga, por favor se acredita ou não:"
+  },
+  "v60": {
+    "id": "V60",
+    "item": null,
+    "text": "Diga, por favor se acredita ou não:"
+  },
+  "v65": {
+    "id": "V65",
+    "item": null,
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes p"
+  },
+  "v66": {
+    "id": "V66",
+    "item": null,
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes p"
+  },
+  "v67": {
+    "id": "V67",
+    "item": null,
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes p"
+  },
+  "v68": {
+    "id": "V68",
+    "item": null,
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes p"
+  },
+  "v69": {
+    "id": "V69",
+    "item": null,
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes p"
+  },
+  "v70": {
+    "id": "V70",
+    "item": null,
+    "text": "Seguidamente apresentamos uma lista com uma série de aspectos que muitas pessoas acham importantes p"
+  },
+  "v72": {
+    "id": "V72",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v73": {
+    "id": "V73",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v74": {
+    "id": "V74",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v75": {
+    "id": "V75",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v76": {
+    "id": "V76",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v77": {
+    "id": "V77",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v78": {
+    "id": "V78",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v79": {
+    "id": "V79",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com as seguintes afirmações. Concorda totalmente, concorda, disco"
+  },
+  "v80": {
+    "id": "V80",
+    "item": "Quando os empregos são poucos devia-se dar prioridade aos portugueses em relação aos imigrantes",
+    "text": "Quando os empregos são poucos devia-se dar prioridade aos portugueses em relação aos imigrantes"
+  },
+  "v81": {
+    "id": "V81",
+    "item": "Quando os empregos são poucos os homens têm mais direito ao trabalho do que as mulheres",
+    "text": "Quando os empregos são poucos os homens têm mais direito ao trabalho do que as mulheres"
+  },
+  "v82": {
+    "id": "V82",
+    "item": "Nos casais homossexuais, os pais ou mães são tão bons como nos outros casais",
+    "text": "Nos casais homossexuais, os pais ou mães são tão bons como nos outros casais"
+  },
+  "v83": {
+    "id": "V83",
+    "item": "Ter filhos é um dever para com a sociedade",
+    "text": "Ter filhos é um dever para com a sociedade"
+  },
+  "v84": {
+    "id": "V84",
+    "item": "Os filhos adultos têm o dever de prestar aos seus pais cuidados a longo prazo",
+    "text": "Os filhos adultos têm o dever de prestar aos seus pais cuidados a longo prazo"
+  },
+  "v85": {
+    "id": "V85",
+    "item": "Ter boas maneiras",
+    "text": "Ter boas maneiras"
+  },
+  "v86": {
+    "id": "V86",
+    "item": "Ser independente",
+    "text": "Ser independente"
+  },
+  "v87": {
+    "id": "V87",
+    "item": "Ser trabalhador",
+    "text": "Ser trabalhador"
+  },
+  "v88": {
+    "id": "V88",
+    "item": "Ter sentido de responsabilidade",
+    "text": "Ter sentido de responsabilidade"
+  },
+  "v89": {
+    "id": "V89",
+    "item": "Ter imaginação",
+    "text": "Ter imaginação"
+  },
+  "v90": {
+    "id": "V90",
+    "item": "Ser tolerante e respeitar os outros",
+    "text": "Ser tolerante e respeitar os outros"
+  },
+  "v91": {
+    "id": "V91",
+    "item": "Ser poupado com o dinheiro e as coisas",
+    "text": "Ser poupado com o dinheiro e as coisas"
+  },
+  "v92": {
+    "id": "V92",
+    "item": "Ser determinado e perseverante",
+    "text": "Ser determinado e perseverante"
+  },
+  "v93": {
+    "id": "V93",
+    "item": "Ter fé religiosa",
+    "text": "Ter fé religiosa"
+  },
+  "v94": {
+    "id": "V94",
+    "item": "Não ser egoísta",
+    "text": "Não ser egoísta"
+  },
+  "v97": {
+    "id": "Q29",
+    "item": "Qual o seu interesse pela política?",
+    "text": "Qual o seu interesse pela política?"
+  },
+  "v98": {
+    "id": "V98",
+    "item": "Assinar uma petição ou um abaixo-assinado",
+    "text": "Assinar uma petição ou um abaixo-assinado"
+  },
+  "v99": {
+    "id": "V99",
+    "item": "Participar em boicotes",
+    "text": "Participar em boicotes"
+  },
+  "v113": {
+    "id": "V113",
+    "item": "O trabalho ter menos importância nas nossas vidas",
+    "text": "O trabalho ter menos importância nas nossas vidas"
+  },
+  "v114": {
+    "id": "V114",
+    "item": "Mais respeito pela autoridade",
+    "text": "Mais respeito pela autoridade"
+  },
+  "v115": {
+    "id": "V115",
+    "item": "a igreja",
+    "text": "a igreja"
+  },
+  "v116": {
+    "id": "V116",
+    "item": "as forças armadas",
+    "text": "as forças armadas"
+  },
+  "v117": {
+    "id": "V117",
+    "item": "o sistema educativo",
+    "text": "o sistema educativo"
+  },
+  "v118": {
+    "id": "V118",
+    "item": "a comunicação social/imprensa",
+    "text": "a comunicação social/imprensa"
+  },
+  "v119": {
+    "id": "V119",
+    "item": "os sindicatos",
+    "text": "os sindicatos"
+  },
+  "v120": {
+    "id": "V120",
+    "item": "a polícia",
+    "text": "a polícia"
+  },
+  "v121": {
+    "id": "V121",
+    "item": "o parlamento",
+    "text": "o parlamento"
+  },
+  "v122": {
+    "id": "V122",
+    "item": "a administração pública",
+    "text": "a administração pública"
+  },
+  "v123": {
+    "id": "V123",
+    "item": "o sistema de segurança social",
+    "text": "o sistema de segurança social"
+  },
+  "v124": {
+    "id": "V124",
+    "item": "a união europeia",
+    "text": "a união europeia"
+  },
+  "v125": {
+    "id": "V125",
+    "item": "a organização das nações unidas (ONU)",
+    "text": "a organização das nações unidas (ONU)"
+  },
+  "v126": {
+    "id": "V126",
+    "item": "o sistema nacional de saúde",
+    "text": "o sistema nacional de saúde"
+  },
+  "v127": {
+    "id": "V127",
+    "item": "o sistema judicial/os tribunais",
+    "text": "o sistema judicial/os tribunais"
+  },
+  "v128": {
+    "id": "V128",
+    "item": "as grandes empresas",
+    "text": "as grandes empresas"
+  },
+  "v129": {
+    "id": "V129",
+    "item": "as organizações ambientalistas",
+    "text": "as organizações ambientalistas"
+  },
+  "v130": {
+    "id": "V130",
+    "item": "os partidos políticos",
+    "text": "os partidos políticos"
+  },
+  "v131": {
+    "id": "V131",
+    "item": "o governo",
+    "text": "o governo"
+  },
+  "v132": {
+    "id": "V132",
+    "item": "as redes sociais",
+    "text": "as redes sociais"
+  },
+  "v133": {
+    "id": "V133",
+    "item": "O Governo aplicar impostos aos ricos e dar subsídios os pobres",
+    "text": "O Governo aplicar impostos aos ricos e dar subsídios os pobres"
+  },
+  "v134": {
+    "id": "V134",
+    "item": "As autoridades religiosas terem a última palavra na interpretação das leis",
+    "text": "As autoridades religiosas terem a última palavra na interpretação das leis"
+  },
+  "v135": {
+    "id": "V135",
+    "item": "As pessoas escolherem os seus dirigentes políticos em eleições livres",
+    "text": "As pessoas escolherem os seus dirigentes políticos em eleições livres"
+  },
+  "v136": {
+    "id": "V136",
+    "item": "As pessoas receberem apoio do Estado quando estão desempregadas",
+    "text": "As pessoas receberem apoio do Estado quando estão desempregadas"
+  },
+  "v137": {
+    "id": "V137",
+    "item": "Os militares tomarem o poder quando o Governo é incompetente",
+    "text": "Os militares tomarem o poder quando o Governo é incompetente"
+  },
+  "v138": {
+    "id": "V138",
+    "item": "Os direitos cívicos protegerem as pessoas da opressão do Estado",
+    "text": "Os direitos cívicos protegerem as pessoas da opressão do Estado"
+  },
+  "v139": {
+    "id": "V139",
+    "item": "O Estado tornar os rendimentos das pessoas iguais",
+    "text": "O Estado tornar os rendimentos das pessoas iguais"
+  },
+  "v140": {
+    "id": "V140",
+    "item": "As pessoas obedecerem aos governantes",
+    "text": "As pessoas obedecerem aos governantes"
+  },
+  "v142": {
+    "id": "V142",
+    "item": "Em que medida é importante para si viver num país governado democraticamente?",
+    "text": "Em que medida é importante para si viver num país governado democraticamente?"
+  },
+  "v143": {
+    "id": "V143",
+    "item": "E em que medida acha que Portugal é governado de modo democrático?",
+    "text": "E em que medida acha que Portugal é governado de modo democrático?"
+  },
+  "v144": {
+    "id": "V144",
+    "item": "qual o seu grau de satisfação com o funcionamento actual do sistema político em Portugal?",
+    "text": "Numa escala de 1 a 10 em que 1 significa 'nada satisfeito/a' e 10 significa 'totalmente satisfeito/a"
+  },
+  "v145": {
+    "id": "V145",
+    "item": "Ter um líder forte que não tenha que se preocupar nem com o parlamento nem com as eleições",
+    "text": "Ter um líder forte que não tenha que se preocupar nem com o parlamento nem com as eleições"
+  },
+  "v146": {
+    "id": "V146",
+    "item": "Serem os especialistas e não os governantes a tomar as decisões de acordo com o que consideram ser melhor para o país.",
+    "text": "Serem os especialistas e não os governantes a tomar as decisões de acordo com o que consideram ser m"
+  },
+  "v147": {
+    "id": "V147",
+    "item": "Serem as Forças Armadas a governar o país",
+    "text": "Serem as Forças Armadas a governar o país"
+  },
+  "v148": {
+    "id": "V148",
+    "item": "Ter um sistema político democrático",
+    "text": "Ter um sistema político democrático"
+  },
+  "v149": {
+    "id": "V149",
+    "item": "Reivindicar benefícios do Estado a que não se tem direito",
+    "text": "Reivindicar benefícios do Estado a que não se tem direito"
+  },
+  "v150": {
+    "id": "V150",
+    "item": "Não pagar impostos se tiver oportunidade",
+    "text": "Não pagar impostos se tiver oportunidade"
+  },
+  "v151": {
+    "id": "V151",
+    "item": "Fumar marijuana ou haxixe",
+    "text": "Fumar marijuana ou haxixe"
+  },
+  "v152": {
+    "id": "V152",
+    "item": "Aceitar um suborno no cumprimento dos seus deveres",
+    "text": "Aceitar um suborno no cumprimento dos seus deveres"
+  },
+  "v153": {
+    "id": "V153",
+    "item": "Homossexualidade",
+    "text": "Homossexualidade"
+  },
+  "v154": {
+    "id": "V154",
+    "item": "Aborto",
+    "text": "Aborto"
+  },
+  "v155": {
+    "id": "V155",
+    "item": "Divórcio",
+    "text": "Divórcio"
+  },
+  "v156": {
+    "id": "V156",
+    "item": "Eutanásia (por termo à vida de um doente incurável)",
+    "text": "Eutanásia (por termo à vida de um doente incurável)"
+  },
+  "v157": {
+    "id": "V157",
+    "item": "Suicídio",
+    "text": "Suicídio"
+  },
+  "v158": {
+    "id": "V158",
+    "item": "Ter relações sexuais com parceiros ocasionais",
+    "text": "Ter relações sexuais com parceiros ocasionais"
+  },
+  "v159": {
+    "id": "V159",
+    "item": "Não pagar a tarifa num transporte público",
+    "text": "Não pagar a tarifa num transporte público"
+  },
+  "v160": {
+    "id": "V160",
+    "item": "Prostituição",
+    "text": "Prostituição"
+  },
+  "v161": {
+    "id": "V161",
+    "item": "Inseminação artificial ou fertilização in vitro",
+    "text": "Inseminação artificial ou fertilização in vitro"
+  },
+  "v162": {
+    "id": "V162",
+    "item": "Violência política",
+    "text": "Violência política"
+  },
+  "v163": {
+    "id": "V163",
+    "item": "Pena de morte",
+    "text": "Pena de morte"
+  },
+  "v164": {
+    "id": "V164",
+    "item": "da localidade ou cidade em que vive",
+    "text": "da localidade ou cidade em que vive"
+  },
+  "v165": {
+    "id": "V165",
+    "item": "da região do país em que vive",
+    "text": "da região do país em que vive"
+  },
+  "v166": {
+    "id": "V166",
+    "item": "de Portugal",
+    "text": "de Portugal"
+  },
+  "v167": {
+    "id": "V167",
+    "item": "da Europa",
+    "text": "da Europa"
+  },
+  "v168": {
+    "id": "V168",
+    "item": "do Mundo",
+    "text": "do Mundo"
+  },
+  "v170": {
+    "id": "V170",
+    "item": "Sente orgulho em ser português?",
+    "text": "Sente orgulho em ser português?"
+  },
+  "v176": {
+    "id": "V176",
+    "item": "A contagem dos votos ser justa",
+    "text": "A contagem dos votos ser justa"
+  },
+  "v177": {
+    "id": "V177",
+    "item": "Os candidatos da oposiçãoo serem impedidos de concorrer",
+    "text": "Os candidatos da oposiçãoo serem impedidos de concorrer"
+  },
+  "v178": {
+    "id": "V178",
+    "item": "Os noticiários da TV favorecerem o partido que dirige o Governo",
+    "text": "Os noticiários da TV favorecerem o partido que dirige o Governo"
+  },
+  "v179": {
+    "id": "V179",
+    "item": "Os eleitores serem subornados",
+    "text": "Os eleitores serem subornados"
+  },
+  "v180": {
+    "id": "V180",
+    "item": "Os jornalistas fazerem uma cobertura justa das eleições",
+    "text": "Os jornalistas fazerem uma cobertura justa das eleições"
+  },
+  "v181": {
+    "id": "V181",
+    "item": "As pessoas que supervisionam o processo eleitoral serem justas",
+    "text": "As pessoas que supervisionam o processo eleitoral serem justas"
+  },
+  "v182": {
+    "id": "V182",
+    "item": "Os ricos comprarem as eleições",
+    "text": "Os ricos comprarem as eleições"
+  },
+  "v183": {
+    "id": "V183",
+    "item": "Os eleitores serem ameaçados com violência quando vão votar",
+    "text": "Os eleitores serem ameaçados com violência quando vão votar"
+  },
+  "v184": {
+    "id": "V184",
+    "item": "Como é que avalia o impacto que essas pessoas têm no desenvolvimento do país?",
+    "text": "Como é que avalia o impacto que essas pessoas têm no desenvolvimento do país?"
+  },
+  "v185": {
+    "id": "V185",
+    "item": "Os imigrantes tiram trabalho aos portugueses.",
+    "text": "Os imigrantes tiram trabalho aos portugueses."
+  },
+  "v186": {
+    "id": "V186",
+    "item": "Os imigrantes contribuem para o aumento da criminalidade",
+    "text": "Os imigrantes contribuem para o aumento da criminalidade"
+  },
+  "v187": {
+    "id": "V187",
+    "item": "Os imigrantes são uma sobrecarga para a segurança social de um país",
+    "text": "Os imigrantes são uma sobrecarga para a segurança social de um país"
+  },
+  "v188": {
+    "id": "V188",
+    "item": "É melhor que os imigrantes mantenham os seus costumes e tradições.",
+    "text": "É melhor que os imigrantes mantenham os seus costumes e tradições."
+  },
+  "v189": {
+    "id": "V189",
+    "item": null,
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, p"
+  },
+  "v190": {
+    "id": "V190",
+    "item": null,
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, p"
+  },
+  "v191": {
+    "id": "V191",
+    "item": null,
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, p"
+  },
+  "v192": {
+    "id": "V192",
+    "item": null,
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, p"
+  },
+  "v193": {
+    "id": "V193",
+    "item": null,
+    "text": "Para se ser verdadeiramente português é importante possuir certas características. Também há quem, p"
+  },
+  "v194": {
+    "id": "V194",
+    "item": null,
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importân"
+  },
+  "v195": {
+    "id": "V195",
+    "item": null,
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importân"
+  },
+  "v196": {
+    "id": "V196",
+    "item": null,
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importân"
+  },
+  "v197": {
+    "id": "V197",
+    "item": null,
+    "text": "As pessoas têm diferentes opiniões sobre o que significa ser europeu. Na sua opinião qual a importân"
+  },
+  "v198": {
+    "id": "V198",
+    "item": null,
+    "text": "Algumas pessoas acham que a unificação da Europa devia ir mais longe. Outras pessoas acham que já fo"
+  },
+  "v199": {
+    "id": "V199",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?"
+  },
+  "v200": {
+    "id": "V200",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?"
+  },
+  "v201": {
+    "id": "V201",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?"
+  },
+  "v202": {
+    "id": "V202",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?"
+  },
+  "v203": {
+    "id": "V203",
+    "item": null,
+    "text": "Em que medida concorda ou discorda com cada uma das seguintes afirmações?"
+  },
+  "v204": {
+    "id": "V204",
+    "item": null,
+    "text": "Estas são duas afirmações que as pessoas por vezes fazem quando discutem sobre o ambiente e o cresci"
+  },
+  "v205": {
+    "id": "V205",
+    "item": null,
+    "text": "Acha que, em Portugal, o Governo deve ou não ter o direito de fazer cada uma das seguintes coisas?"
+  },
+  "v206": {
+    "id": "V206",
+    "item": null,
+    "text": "Acha que, em Portugal, o Governo deve ou não ter o direito de fazer cada uma das seguintes coisas?"
+  },
+  "v207": {
+    "id": "V207",
+    "item": null,
+    "text": "Acha que, em Portugal, o Governo deve ou não ter o direito de fazer cada uma das seguintes coisas?"
+  },
+  "v208": {
+    "id": "V208",
+    "item": null,
+    "text": "Com que frequência acompanha a política..."
+  },
+  "v209": {
+    "id": "V209",
+    "item": null,
+    "text": "Com que frequência acompanha a política..."
+  },
+  "v210": {
+    "id": "V210",
+    "item": null,
+    "text": "Com que frequência acompanha a política..."
+  },
+  "v211": {
+    "id": "V211",
+    "item": null,
+    "text": "Com que frequência acompanha a política..."
+  },
+  "v217": {
+    "id": "V217",
+    "item": null,
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal"
+  },
+  "v218": {
+    "id": "V218",
+    "item": null,
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal"
+  },
+  "v219": {
+    "id": "V219",
+    "item": null,
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal"
+  },
+  "v220": {
+    "id": "V220",
+    "item": null,
+    "text": "E em que medida se preocupa com as condições em que vivem os seguintes grupos de pessoas em Portugal"
+  }
+}

@@ -92,8 +92,8 @@ def load_all_results(results_dir: Path) -> pd.DataFrame:
     for path in sorted(results_dir.glob("*.parquet")):
         if "rephrase" in path.stem:
             continue  # skip rephrase experiment files
-        stem = path.stem  # e.g. "hplt2c_eng" or "eurollm22b_eng"
-        parts = stem.split("_", 1)
+        stem = path.stem  # e.g. "hplt2c_eng" or "gemma3_27b_pt_eng"
+        parts = stem.rsplit("_", 1)
         if len(parts) != 2:
             print(f"  Skipping {path.name}: unexpected filename format")
             continue
@@ -223,17 +223,20 @@ def compute_bias_report(df: pd.DataFrame, questions: dict) -> pd.DataFrame:
         print(f"  {rt:<14} mean={sub['position_bias'].mean():.3f}  "
               f"median={sub['position_bias'].median():.3f}")
 
-    # Statistical test: EuroLLM vs HPLT
-    euro = bias[bias["model_type"] == "eurollm22b"]["position_bias"]
-    hplt = bias[bias["model_type"] == "hplt2c"]["position_bias"]
-    if len(euro) > 0 and len(hplt) > 0:
+    # Statistical tests: pairwise Mann-Whitney U between all model types
+    model_type_names = sorted(bias["model_type"].unique())
+    if len(model_type_names) >= 2:
         from scipy.stats import mannwhitneyu
-        stat, pval = mannwhitneyu(euro, hplt, alternative="two-sided")
-        print(f"\nMann-Whitney U test (EuroLLM vs HPLT): U={stat:.0f}, p={pval:.2e}")
-        if euro.median() > hplt.median():
-            print("  → EuroLLM-22B shows MORE position bias than HPLT-2.15B")
-        else:
-            print("  → HPLT-2.15B shows MORE position bias than EuroLLM-22B")
+        from itertools import combinations
+        print("\nPairwise Mann-Whitney U tests (position bias):")
+        for mt_a, mt_b in combinations(model_type_names, 2):
+            data_a = bias[bias["model_type"] == mt_a]["position_bias"]
+            data_b = bias[bias["model_type"] == mt_b]["position_bias"]
+            if len(data_a) > 0 and len(data_b) > 0:
+                stat, pval = mannwhitneyu(data_a, data_b, alternative="two-sided")
+                higher = mt_a if data_a.median() > data_b.median() else mt_b
+                print(f"  {mt_a} vs {mt_b}: U={stat:.0f}, p={pval:.2e} "
+                      f"(higher bias: {higher})")
 
     return bias
 
@@ -437,15 +440,21 @@ def plot_jsd_heatmap(matrix: np.ndarray, labels: list[str], figures_dir: Path):
     np.fill_diagonal(mat_filled, 0)
 
     # Color labels by model type
-    model_types = [l.split("_")[0] for l in labels]
-    model_colors = {"hplt2c": "#1f77b4", "eurollm22b": "#ff7f0e", "qwen2572b": "#2ca02c"}
+    model_types = [l.rsplit("_", 1)[0] for l in labels]
+    model_colors = {
+        "hplt2c": "#1f77b4", "eurollm22b": "#ff7f0e", "qwen2572b": "#2ca02c",
+        "gemma3_27b_pt": "#e377c2", "gemma3_27b_it": "#bcbd22", "qwen3235b": "#17becf",
+    }
     row_colors = [model_colors.get(mt, "#999999") for mt in model_types]
 
     # Short labels with full language names
-    model_prefixes = {"hplt2c": "H", "eurollm22b": "E", "qwen2572b": "Q"}
+    model_prefixes = {
+        "hplt2c": "H", "eurollm22b": "E", "qwen2572b": "Q",
+        "gemma3_27b_pt": "G", "gemma3_27b_it": "Gi", "qwen3235b": "Q3",
+    }
 
     def _jsd_label(l):
-        parts = l.split("_", 1)
+        parts = l.rsplit("_", 1)
         mt, lang = parts[0], parts[1]
         prefix = model_prefixes.get(mt, mt[0].upper())
         name = LANG_NAMES.get(lang, lang)
@@ -485,12 +494,21 @@ def plot_pca_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Pa
     """Scatter plot of PC1 vs PC2, colored by cultural cluster, shaped by model type."""
     fig, ax = plt.subplots(figsize=(12, 9))
 
-    model_markers = {"hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s"}
-    model_sizes = {"hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90}
-    model_labels = {"hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B"}
+    model_markers = {
+        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
+        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
+    }
+    model_sizes = {
+        "hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90,
+        "gemma3_27b_pt": 90, "gemma3_27b_it": 90, "qwen3235b": 100,
+    }
+    model_labels = {
+        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
+        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
+    }
 
     for i, label in enumerate(labels):
-        parts = label.split("_", 1)
+        parts = label.rsplit("_", 1)
         mt, lang = parts[0], parts[1]
         cluster = LANG_TO_CLUSTER.get(lang, "Other")
         color = CLUSTER_COLORS.get(cluster, "#999999")
@@ -508,7 +526,7 @@ def plot_pca_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Pa
     cluster_handles = [mpatches.Patch(color=c, label=cl)
                        for cl, c in CLUSTER_COLORS.items()]
     # Model type legend — dynamic based on models present in data
-    present_models = sorted(set(l.split("_", 1)[0] for l in labels))
+    present_models = sorted(set(l.rsplit("_", 1)[0] for l in labels))
     model_handles = [
         plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
                    markerfacecolor="gray", markersize=8,
@@ -562,14 +580,23 @@ def compute_tsne_map(summary_df: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
 
 def plot_tsne_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Path):
     """Scatter plot of t-SNE dim1 vs dim2, colored by cultural cluster, shaped by model type."""
-    model_markers = {"hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s"}
-    model_sizes = {"hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90}
-    model_labels = {"hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B"}
+    model_markers = {
+        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
+        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
+    }
+    model_sizes = {
+        "hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90,
+        "gemma3_27b_pt": 90, "gemma3_27b_it": 90, "qwen3235b": 100,
+    }
+    model_labels = {
+        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
+        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
+    }
 
     fig, ax = plt.subplots(figsize=(12, 9))
 
     for i, label in enumerate(labels):
-        parts = label.split("_", 1)
+        parts = label.rsplit("_", 1)
         mt, lang = parts[0], parts[1]
         cluster = LANG_TO_CLUSTER.get(lang, "Other")
         color = CLUSTER_COLORS.get(cluster, "#999999")
@@ -585,7 +612,7 @@ def plot_tsne_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: P
 
     cluster_handles = [mpatches.Patch(color=c, label=cl)
                        for cl, c in CLUSTER_COLORS.items()]
-    present_models = sorted(set(l.split("_", 1)[0] for l in labels))
+    present_models = sorted(set(l.rsplit("_", 1)[0] for l in labels))
     model_handles = [
         plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
                    markerfacecolor="gray", markersize=8,
@@ -635,8 +662,14 @@ def plot_example_distributions(df: pd.DataFrame, questions: dict,
                     probs = probs / total
                 values = sub["response_value"].values
 
-                model_linestyles = {"hplt2c": "-", "eurollm22b": "--", "qwen2572b": ":"}
-                model_short = {"hplt2c": "H", "eurollm22b": "E", "qwen2572b": "Q"}
+                model_linestyles = {
+                    "hplt2c": "-", "eurollm22b": "--", "qwen2572b": ":",
+                    "gemma3_27b_pt": "-.", "gemma3_27b_it": (0, (3, 1, 1, 1)), "qwen3235b": (0, (5, 1)),
+                }
+                model_short = {
+                    "hplt2c": "H", "eurollm22b": "E", "qwen2572b": "Q",
+                    "gemma3_27b_pt": "G", "gemma3_27b_it": "Gi", "qwen3235b": "Q3",
+                }
                 linestyle = model_linestyles.get(mt, "-.")
                 display_name = LANG_NAMES.get(lang, lang)
                 label = f"{display_name} ({model_short.get(mt, mt[0].upper())})"
@@ -667,7 +700,7 @@ def load_rephrase_results(results_dir: Path) -> pd.DataFrame:
     frames = []
     for path in sorted(results_dir.glob("rephrase_test_*.parquet")):
         stem = path.stem  # e.g. "rephrase_test_hplt2c_eng"
-        parts = stem.replace("rephrase_test_", "").split("_", 1)
+        parts = stem.replace("rephrase_test_", "").rsplit("_", 1)
         if len(parts) != 2:
             print(f"  Skipping {path.name}: unexpected filename format")
             continue

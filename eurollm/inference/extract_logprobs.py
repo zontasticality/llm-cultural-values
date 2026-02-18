@@ -111,6 +111,7 @@ def extract_logprobs_for_question(
     tokenizer,
     token_map: TokenMap,
     formatted: dict,
+    chat_template: bool = False,
 ) -> tuple[dict[str, float], float]:
     """Extract logprobs for valid response tokens at the answer position.
 
@@ -119,6 +120,7 @@ def extract_logprobs_for_question(
         tokenizer: Corresponding tokenizer.
         token_map: Pre-computed token ID mappings.
         formatted: Output of format_prompt() with keys: prompt, valid_values, is_likert10.
+        chat_template: If True, wrap prompt with tokenizer.apply_chat_template().
 
     Returns:
         (logprobs, p_valid) where logprobs maps value string to log-probability,
@@ -128,7 +130,15 @@ def extract_logprobs_for_question(
     valid_values = formatted["valid_values"]
     is_likert10 = formatted["is_likert10"]
 
-    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    if chat_template:
+        inputs = tokenizer.apply_chat_template(
+            [{"role": "user", "content": prompt}],
+            add_generation_prompt=True,
+            return_tensors="pt",
+            return_dict=True,
+        ).to(model.device)
+    else:
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
     with torch.no_grad():
         outputs = model(**inputs)
     logits = outputs.logits[0, -1, :]
@@ -290,6 +300,7 @@ def process_question(
     lang: str,
     n_permutations: int = 2,
     prompt_config: dict | None = None,
+    chat_template: bool = False,
 ) -> list[dict]:
     """Process a single question with K-permutation debiasing.
 
@@ -319,7 +330,7 @@ def process_question(
             formatted = format_prompt_permuted(question, lang, perm)
 
         logprobs, p_valid = extract_logprobs_for_question(
-            model, tokenizer, token_map, formatted
+            model, tokenizer, token_map, formatted, chat_template=chat_template
         )
         probs_raw = renormalize(logprobs)
         probs = remap_reversed(probs_raw, formatted["value_map"])
@@ -377,7 +388,8 @@ def process_question(
     return rows
 
 
-def validate(model, tokenizer, token_map: TokenMap, questions: list[dict], lang: str):
+def validate(model, tokenizer, token_map: TokenMap, questions: list[dict], lang: str,
+             chat_template: bool = False):
     """Run validation mode: process 10 questions with detailed diagnostics."""
     print("=" * 70)
     print("VALIDATION MODE")
@@ -405,7 +417,7 @@ def validate(model, tokenizer, token_map: TokenMap, questions: list[dict], lang:
         fwd = format_prompt(q, lang, reverse=False)
         print(f"\nPrompt (forward):\n{fwd['prompt'][:200]}...")
         logprobs_fwd, p_valid_fwd = extract_logprobs_for_question(
-            model, tokenizer, token_map, fwd
+            model, tokenizer, token_map, fwd, chat_template=chat_template
         )
         probs_fwd = renormalize(logprobs_fwd)
         print(f"\nRaw logprobs (fwd): { {k: f'{v:.4f}' for k, v in sorted(logprobs_fwd.items())} }")
@@ -415,7 +427,7 @@ def validate(model, tokenizer, token_map: TokenMap, questions: list[dict], lang:
         # Reversed
         rev = format_prompt(q, lang, reverse=True)
         logprobs_rev, p_valid_rev = extract_logprobs_for_question(
-            model, tokenizer, token_map, rev
+            model, tokenizer, token_map, rev, chat_template=chat_template
         )
         probs_rev_raw = renormalize(logprobs_rev)
         probs_rev = remap_reversed(probs_rev_raw, rev["value_map"])
@@ -548,6 +560,10 @@ def main():
         "--dtype", default="bf16", choices=["bf16", "int8", "fp8"],
         help="Model precision: bf16 (default), int8, fp8"
     )
+    parser.add_argument(
+        "--chat-template", action="store_true",
+        help="Wrap prompts with tokenizer.apply_chat_template() (for instruction-tuned models)"
+    )
     args = parser.parse_args()
 
     # Load questions
@@ -583,7 +599,8 @@ def main():
     print(f"Token map built in {time.time() - t0:.1f}s")
 
     if args.validate:
-        validate(model, tokenizer, token_map, available, args.lang)
+        validate(model, tokenizer, token_map, available, args.lang,
+                 chat_template=args.chat_template)
         return
 
     # Full run
@@ -595,6 +612,7 @@ def main():
             model, tokenizer, token_map, q, args.lang,
             n_permutations=n_perms,
             prompt_config=prompt_config,
+            chat_template=args.chat_template,
         )
         all_rows.extend(rows)
         if i == 0:

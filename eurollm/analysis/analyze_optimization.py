@@ -48,7 +48,7 @@ def load_grid_results(results_dir: Path) -> pd.DataFrame:
         parts = stem.rsplit("_grid", 1)
         if len(parts) == 2:
             model_lang = parts[0]
-            ml_parts = model_lang.split("_", 1)
+            ml_parts = model_lang.rsplit("_", 1)
             if len(ml_parts) == 2:
                 df["model_type"] = ml_parts[0]
                 df["lang"] = ml_parts[1]

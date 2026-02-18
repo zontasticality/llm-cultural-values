@@ -5,9 +5,9 @@
 #SBATCH -G 4
 #SBATCH --constraint="a100"
 #SBATCH -t 08:00:00
-#SBATCH -o eurollm/logs/qwen235b_%j.out
-#SBATCH -e eurollm/logs/qwen235b_%j.err
-#SBATCH --job-name=evs-qwen235b
+#SBATCH -o eurollm/logs/qwen3235b_%j.out
+#SBATCH -e eurollm/logs/qwen3235b_%j.err
+#SBATCH --job-name=evs-qwen3235b
 
 # Qwen3-235B-A22B: MoE model, 235B total / 22B active params
 # Requires 4x A100 80GB with int8 quantization (~235GB weights)
@@ -24,7 +24,7 @@ export PYTHONPATH="${PYTHONPATH}:eurollm"
 LANG=$1
 CONFIG="eurollm/data/prompt_config.json"
 MODEL_ID="Qwen/Qwen3-235B-A22B"
-OUTPUT="eurollm/results/qwen235b_${LANG}.parquet"
+OUTPUT="eurollm/results/qwen3235b_${LANG}.parquet"
 
 echo "Qwen3-235B-A22B | Lang: $LANG | Output: $OUTPUT"
 echo "GPUs: $CUDA_VISIBLE_DEVICES"

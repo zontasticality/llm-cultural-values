@@ -72,12 +72,18 @@ MODEL_COLORS = {
     "hplt2c": "#1f77b4",
     "eurollm22b": "#ff7f0e",
     "qwen2572b": "#2ca02c",
+    "gemma3_27b_pt": "#e377c2",
+    "gemma3_27b_it": "#bcbd22",
+    "qwen3235b": "#17becf",
 }
 
 MODEL_LABELS = {
     "hplt2c": "HPLT-2.15B",
     "eurollm22b": "EuroLLM-22B",
     "qwen2572b": "Qwen2.5-72B",
+    "gemma3_27b_pt": "Gemma-3-27B",
+    "gemma3_27b_it": "Gemma-3-27B-IT",
+    "qwen3235b": "Qwen3-235B",
 }
 
 ORDINAL_TYPES = {"likert3", "likert4", "likert5", "likert10", "frequency"}
@@ -92,7 +98,7 @@ def load_llm_results(results_dir: Path) -> pd.DataFrame:
         if "rephrase" in path.stem or "validate" in path.stem:
             continue
         stem = path.stem
-        parts = stem.split("_", 1)
+        parts = stem.rsplit("_", 1)
         if len(parts) != 2:
             continue
         model_type, lang = parts

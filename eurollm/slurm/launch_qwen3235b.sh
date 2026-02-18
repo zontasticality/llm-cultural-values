@@ -10,7 +10,7 @@ LANGS="bul ces dan deu ell eng est fin fra hrv hun ita lit lvs nld pol por ron s
 COUNT=0
 
 for lang in $LANGS; do
-    sbatch eurollm/slurm/run_qwen235b.sh "$lang"
+    sbatch eurollm/slurm/run_qwen3235b.sh "$lang"
     COUNT=$((COUNT + 1))
 done
 

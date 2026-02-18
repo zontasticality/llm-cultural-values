@@ -1,0 +1,37 @@
+# Secrets
+eurollm/.env
+
+# Virtual environment
+eurollm/.venv/
+
+# Python bytecode
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Generated results (regenerate with SLURM jobs)
+eurollm/results/
+eurollm/figures/
+eurollm/figures copy/
+eurollm/human_comparison.parquet
+eurollm/jsd_matrix.npz
+eurollm/summary_stats.parquet
+
+# SLURM logs
+eurollm/logs/
+
+# User-downloaded data (requires GESIS registration)
+eurollm/human_data/data/
+
+# Debug artifacts
+eurollm/questionnaires/*.raw_response.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/

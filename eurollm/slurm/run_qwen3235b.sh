@@ -10,7 +10,7 @@
 #SBATCH --job-name=evs-qwen3235b
 
 # Qwen3-235B-A22B: MoE model, 235B total / 22B active params
-# Requires 4x A100 80GB with int8 quantization (~235GB weights)
+# Uses int4 (NF4) quantization (~120GB weights + buffers) → needs 4x A100 80GB
 # Uses device_map="auto" for tensor parallelism across GPUs
 
 module purge
@@ -36,4 +36,4 @@ eurollm/.venv/bin/python eurollm/inference/extract_logprobs.py \
     --output "$OUTPUT" \
     --permutations 6 \
     --prompt-config "$CONFIG" \
-    --dtype int8
+    --dtype int4

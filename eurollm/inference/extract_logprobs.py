@@ -482,7 +482,7 @@ def load_model(model_id: str, dtype: str = "bf16"):
 
     Args:
         model_id: HuggingFace model ID.
-        dtype: "bf16" (default), "int8" (bitsandbytes 8-bit), or "fp8" (8-bit proxy).
+        dtype: "bf16" (default), "int4" (4-bit NF4), "int8" (8-bit), or "fp8" (8-bit proxy).
 
     Returns:
         (model, tokenizer) tuple.
@@ -496,9 +496,24 @@ def load_model(model_id: str, dtype: str = "bf16"):
             dtype=torch.bfloat16,
             device_map="auto",
         )
+    elif dtype == "int4":
+        from transformers import BitsAndBytesConfig
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_quant_type="nf4",
+        )
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            quantization_config=quantization_config,
+            device_map="auto",
+        )
     elif dtype == "int8":
         from transformers import BitsAndBytesConfig
-        quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+        quantization_config = BitsAndBytesConfig(
+            load_in_8bit=True,
+            llm_int8_enable_fp32_cpu_offload=True,
+        )
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             quantization_config=quantization_config,
@@ -557,8 +572,8 @@ def main():
         help="Path to prompt_config.json for optimized prompt formatting"
     )
     parser.add_argument(
-        "--dtype", default="bf16", choices=["bf16", "int8", "fp8"],
-        help="Model precision: bf16 (default), int8, fp8"
+        "--dtype", default="bf16", choices=["bf16", "int4", "int8", "fp8"],
+        help="Model precision: bf16 (default), int4 (NF4), int8, fp8"
     )
     parser.add_argument(
         "--chat-template", action="store_true",

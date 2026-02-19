@@ -1069,6 +1069,280 @@ def cmd_pca(df, questions, figures_dir):
     plot_pca_cultural_map(coords, labels, figures_dir)
 
 
+def compute_umap_map(summary_df: pd.DataFrame, n_neighbors: int = 15,
+                     min_dist: float = 0.2) -> tuple[np.ndarray, list[str]]:
+    """UMAP cultural map from ordinal expected values."""
+    from umap import UMAP
+
+    ordinal = summary_df[summary_df["response_type"].isin(
+        {"likert3", "likert4", "likert5", "likert10", "frequency"}
+    )].copy()
+
+    ordinal["pair"] = ordinal["model_type"] + "_" + ordinal["lang"]
+    pivot = ordinal.pivot_table(
+        index="pair", columns="question_id", values="expected_value", aggfunc="first"
+    )
+
+    labels = list(pivot.index)
+    X = pivot.values
+
+    imputer = SimpleImputer(strategy="mean")
+    X_imputed = imputer.fit_transform(X)
+
+    reducer = UMAP(n_components=2, n_neighbors=n_neighbors, min_dist=min_dist,
+                   random_state=42)
+    coords = reducer.fit_transform(X_imputed)
+
+    print(f"\n=== UMAP Cultural Map ===")
+    print(f"Features: {X_imputed.shape[1]} ordinal questions, {len(labels)} points")
+    print(f"n_neighbors={n_neighbors}, min_dist={min_dist}")
+
+    return coords, labels
+
+
+def plot_umap_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Path):
+    """Scatter plot of UMAP dimensions, colored by cultural cluster, shaped by model type."""
+    model_markers = {
+        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
+        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
+    }
+    model_sizes = {
+        "hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90,
+        "gemma3_27b_pt": 90, "gemma3_27b_it": 90, "qwen3235b": 100,
+    }
+    model_labels = {
+        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
+        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
+    }
+
+    fig, ax = plt.subplots(figsize=(12, 9))
+
+    for i, label in enumerate(labels):
+        parts = label.rsplit("_", 1)
+        mt, lang = parts[0], parts[1]
+        cluster = LANG_TO_CLUSTER.get(lang, "Other")
+        color = CLUSTER_COLORS.get(cluster, "#999999")
+        marker = model_markers.get(mt, "D")
+        size = model_sizes.get(mt, 80)
+
+        ax.scatter(coords[i, 0], coords[i, 1], c=color, marker=marker,
+                   s=size, edgecolors="black", linewidths=0.5, zorder=3)
+        display_name = LANG_NAMES.get(lang, lang)
+        ax.annotate(display_name, (coords[i, 0], coords[i, 1]),
+                    textcoords="offset points", xytext=(5, 5),
+                    fontsize=7, alpha=0.8)
+
+    cluster_handles = [mpatches.Patch(color=c, label=cl)
+                       for cl, c in CLUSTER_COLORS.items()]
+    present_models = sorted(set(l.rsplit("_", 1)[0] for l in labels))
+    model_handles = [
+        plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
+                   markerfacecolor="gray", markersize=8,
+                   label=model_labels.get(mt, mt))
+        for mt in present_models
+    ]
+    leg1 = ax.legend(handles=cluster_handles, title="Cultural Cluster",
+                     loc="upper left", framealpha=0.9)
+    ax.add_artist(leg1)
+    ax.legend(handles=model_handles, title="Model Type",
+              loc="lower left", framealpha=0.9)
+
+    ax.set_xlabel("UMAP 1")
+    ax.set_ylabel("UMAP 2")
+    ax.set_title("UMAP Cultural Map of LLM Value Distributions")
+    ax.grid(True, alpha=0.3)
+    plt.tight_layout()
+    out = figures_dir / "umap_cultural_map.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
+def compute_combined_umap(
+    llm_summary: pd.DataFrame,
+    human_parquet: Path,
+    questions: dict,
+    n_neighbors: int = 15,
+    min_dist: float = 0.2,
+) -> tuple[np.ndarray, list[str], list[bool]]:
+    """UMAP embedding of both LLM and human ordinal expected values.
+
+    Returns (coords, labels, is_human) where is_human[i] is True for human points.
+    """
+    from umap import UMAP
+
+    ordinal_types = {"likert3", "likert4", "likert5", "likert10", "frequency"}
+
+    # LLM pivot: rows = model_lang, cols = question_id, values = expected_value
+    llm_ord = llm_summary[llm_summary["response_type"].isin(ordinal_types)].copy()
+    llm_ord["pair"] = llm_ord["model_type"] + "_" + llm_ord["lang"]
+    llm_pivot = llm_ord.pivot_table(
+        index="pair", columns="question_id", values="expected_value", aggfunc="first"
+    )
+
+    # Human pivot: compute expected values from human_distributions.parquet
+    hdf = pd.read_parquet(human_parquet)
+    rows = []
+    for (lang, qid), grp in hdf.groupby(["lang", "question_id"]):
+        rtype = questions.get(qid, {}).get("response_type", "unknown")
+        if rtype not in ordinal_types:
+            continue
+        grp_sorted = grp.sort_values("response_value")
+        probs = grp_sorted["prob_human"].values
+        total = probs.sum()
+        if total > 0:
+            probs = probs / total
+        values = grp_sorted["response_value"].values.astype(float)
+        ev = np.dot(values, probs)
+        rows.append({"pair": f"human_{lang}", "question_id": qid, "expected_value": ev})
+    human_ev = pd.DataFrame(rows)
+    human_pivot = human_ev.pivot_table(
+        index="pair", columns="question_id", values="expected_value", aggfunc="first"
+    )
+
+    # Align columns and concatenate
+    shared_qs = sorted(set(llm_pivot.columns) & set(human_pivot.columns))
+    llm_aligned = llm_pivot[shared_qs]
+    human_aligned = human_pivot[shared_qs]
+    combined = pd.concat([llm_aligned, human_aligned])
+
+    labels = list(combined.index)
+    is_human = [l.startswith("human_") for l in labels]
+
+    X = combined.values
+    imputer = SimpleImputer(strategy="mean")
+    X_imputed = imputer.fit_transform(X)
+
+    reducer = UMAP(n_components=2, n_neighbors=n_neighbors, min_dist=min_dist,
+                   random_state=42)
+    coords = reducer.fit_transform(X_imputed)
+
+    n_llm = sum(not h for h in is_human)
+    n_hum = sum(is_human)
+    print(f"\n=== Combined UMAP (Human + LLM) ===")
+    print(f"Points: {n_llm} LLM + {n_hum} human = {len(labels)} total")
+    print(f"Shared ordinal questions: {len(shared_qs)}")
+
+    return coords, labels, is_human
+
+
+def plot_combined_umap(coords: np.ndarray, labels: list[str], is_human: list[bool],
+                       figures_dir: Path):
+    """Combined UMAP: human points as large stars, LLM points as smaller markers."""
+    model_markers = {
+        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
+        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
+    }
+    model_sizes = {
+        "hplt2c": 60, "eurollm22b": 70, "qwen2572b": 65,
+        "gemma3_27b_pt": 65, "gemma3_27b_it": 65, "qwen3235b": 70,
+    }
+    model_labels_map = {
+        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
+        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
+    }
+
+    fig, ax = plt.subplots(figsize=(14, 10))
+
+    # Draw lines connecting human point to its LLM counterparts
+    human_coords = {}
+    for i, (label, hum) in enumerate(zip(labels, is_human)):
+        if hum:
+            lang = label.replace("human_", "")
+            human_coords[lang] = coords[i]
+
+    for i, (label, hum) in enumerate(zip(labels, is_human)):
+        if hum:
+            continue
+        parts = label.rsplit("_", 1)
+        mt, lang = parts[0], parts[1]
+        if lang in human_coords:
+            ax.plot([coords[i, 0], human_coords[lang][0]],
+                    [coords[i, 1], human_coords[lang][1]],
+                    color="#cccccc", linewidth=0.5, alpha=0.4, zorder=1)
+
+    # Plot LLM points
+    for i, (label, hum) in enumerate(zip(labels, is_human)):
+        if hum:
+            continue
+        parts = label.rsplit("_", 1)
+        mt, lang = parts[0], parts[1]
+        cluster = LANG_TO_CLUSTER.get(lang, "Other")
+        color = CLUSTER_COLORS.get(cluster, "#999999")
+        marker = model_markers.get(mt, "D")
+        size = model_sizes.get(mt, 60)
+        ax.scatter(coords[i, 0], coords[i, 1], c=color, marker=marker,
+                   s=size, edgecolors="black", linewidths=0.3, alpha=0.7, zorder=3)
+
+    # Plot human points as large stars
+    for i, (label, hum) in enumerate(zip(labels, is_human)):
+        if not hum:
+            continue
+        lang = label.replace("human_", "")
+        cluster = LANG_TO_CLUSTER.get(lang, "Other")
+        color = CLUSTER_COLORS.get(cluster, "#999999")
+        ax.scatter(coords[i, 0], coords[i, 1], c=color, marker="*",
+                   s=250, edgecolors="black", linewidths=0.8, zorder=5)
+        display_name = LANG_NAMES.get(lang, lang)
+        ax.annotate(display_name, (coords[i, 0], coords[i, 1]),
+                    textcoords="offset points", xytext=(7, 7),
+                    fontsize=8, fontweight="bold", alpha=0.9)
+
+    # Legends
+    cluster_handles = [mpatches.Patch(color=c, label=cl)
+                       for cl, c in CLUSTER_COLORS.items()]
+    present_models = sorted(set(
+        l.rsplit("_", 1)[0] for l, h in zip(labels, is_human) if not h
+    ))
+    model_handles = [
+        plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
+                   markerfacecolor="gray", markersize=7,
+                   label=model_labels_map.get(mt, mt))
+        for mt in present_models
+    ]
+    model_handles.append(
+        plt.Line2D([0], [0], marker="*", color="w",
+                   markerfacecolor="gray", markersize=12, markeredgecolor="black",
+                   label="Human (EVS)")
+    )
+
+    leg1 = ax.legend(handles=cluster_handles, title="Cultural Cluster",
+                     loc="upper left", framealpha=0.9)
+    ax.add_artist(leg1)
+    ax.legend(handles=model_handles, title="Source",
+              loc="lower left", framealpha=0.9)
+
+    ax.set_xlabel("UMAP 1")
+    ax.set_ylabel("UMAP 2")
+    ax.set_title("UMAP Cultural Map: Human Survey Data + LLM Distributions")
+    ax.grid(True, alpha=0.3)
+    plt.tight_layout()
+    out = figures_dir / "umap_combined.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
+def cmd_umap(df, questions, figures_dir):
+    print("\n── UMAP Cultural Maps ──")
+    summary = compute_summary_stats(df, questions)
+
+    # LLM-only UMAP
+    coords, labels = compute_umap_map(summary)
+    plot_umap_cultural_map(coords, labels, figures_dir)
+
+    # Combined human + LLM UMAP
+    PROJECT_ROOT = Path(__file__).resolve().parent.parent
+    human_path = PROJECT_ROOT / "human_data" / "data" / "human_distributions.parquet"
+    if human_path.exists():
+        coords_c, labels_c, is_human = compute_combined_umap(
+            summary, human_path, questions
+        )
+        plot_combined_umap(coords_c, labels_c, is_human, figures_dir)
+    else:
+        print(f"  Skipping combined UMAP: {human_path} not found")
+
+
 def cmd_tsne(df, questions, figures_dir):
     print("\n── t-SNE Cultural Map ──")
     summary = compute_summary_stats(df, questions)
@@ -1107,8 +1381,8 @@ def cmd_rephrase(results_dir, figures_dir, rephrasings_path):
 def main():
     parser = argparse.ArgumentParser(description="LLM Cultural Values Analysis")
     parser.add_argument("command", choices=[
-        "quality", "bias", "summary", "distance", "pca", "tsne", "examples",
-        "rephrase", "all",
+        "quality", "bias", "summary", "distance", "pca", "tsne", "umap",
+        "examples", "rephrase", "all",
     ])
     PROJECT_ROOT = Path(__file__).resolve().parent.parent
     parser.add_argument("--results-dir", type=Path,
@@ -1141,6 +1415,7 @@ def main():
         "distance": cmd_distance,
         "pca": cmd_pca,
         "tsne": cmd_tsne,
+        "umap": cmd_umap,
         "examples": cmd_examples,
     }
 

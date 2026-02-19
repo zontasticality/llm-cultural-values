@@ -2,14 +2,16 @@
 """Analysis pipeline for LLM cultural values extraction results.
 
 Usage:
-    python eurollm/analyze.py quality     # Quality report + P_valid heatmap
-    python eurollm/analyze.py bias        # Position bias analysis + figure
-    python eurollm/analyze.py summary     # Per-question summary stats
-    python eurollm/analyze.py distance    # 44×44 JSD matrix + clustered heatmap
-    python eurollm/analyze.py pca         # PCA cultural map
-    python eurollm/analyze.py examples    # Example distribution bar charts
-    python eurollm/analyze.py rephrase    # Prompt sensitivity experiment analysis
-    python eurollm/analyze.py all         # Run everything (except rephrase)
+    python analysis/analyze.py quality    # Quality report + P_valid heatmap
+    python analysis/analyze.py bias       # Position bias analysis + figure
+    python analysis/analyze.py summary    # Per-question summary stats
+    python analysis/analyze.py distance   # JSD matrix + clustered heatmap
+    python analysis/analyze.py pca        # PCA cultural map
+    python analysis/analyze.py tsne       # t-SNE cultural map
+    python analysis/analyze.py umap       # UMAP cultural maps (LLM + combined)
+    python analysis/analyze.py examples   # Example distribution bar charts
+    python analysis/analyze.py rephrase   # Prompt sensitivity experiment analysis
+    python analysis/analyze.py all        # Run everything (except rephrase)
 """
 
 import argparse
@@ -31,40 +33,14 @@ from sklearn.decomposition import PCA
 from sklearn.impute import SimpleImputer
 from sklearn.manifold import TSNE
 
+from analysis.constants import (
+    LANG_NAMES, CULTURAL_CLUSTERS, LANG_TO_CLUSTER, CLUSTER_COLORS,
+    MODEL_COLORS, MODEL_LABELS, MODEL_MARKERS, MODEL_SIZES, MODEL_SIZES_SMALL,
+    ORDINAL_TYPES,
+)
+
 
 # ── Constants ────────────────────────────────────────────────────────────────
-
-CULTURAL_CLUSTERS = {
-    "Nordic": ["dan", "fin", "swe"],
-    "Western": ["deu", "fra", "nld", "eng"],
-    "Mediterranean": ["ita", "spa", "por", "ell"],
-    "Central": ["ces", "hun", "pol", "slk", "slv"],
-    "Baltic": ["est", "lit", "lvs"],
-    "Southeast": ["bul", "hrv", "ron"],
-}
-
-LANG_TO_CLUSTER = {}
-for cluster, langs in CULTURAL_CLUSTERS.items():
-    for lang in langs:
-        LANG_TO_CLUSTER[lang] = cluster
-
-LANG_NAMES = {
-    "bul": "Bulgarian", "ces": "Czech", "dan": "Danish", "deu": "German",
-    "ell": "Greek", "eng": "English", "est": "Estonian", "fin": "Finnish",
-    "fra": "French", "hrv": "Croatian", "hun": "Hungarian", "ita": "Italian",
-    "lit": "Lithuanian", "lvs": "Latvian", "nld": "Dutch", "pol": "Polish",
-    "por": "Portuguese", "ron": "Romanian", "slk": "Slovak", "slv": "Slovenian",
-    "spa": "Spanish", "swe": "Swedish",
-}
-
-CLUSTER_COLORS = {
-    "Nordic": "#1f77b4",
-    "Western": "#ff7f0e",
-    "Mediterranean": "#2ca02c",
-    "Central": "#d62728",
-    "Baltic": "#9467bd",
-    "Southeast": "#8c564b",
-}
 
 EXAMPLE_QUESTIONS = [
     ("v198", "EU enlargement: further or too far?"),
@@ -266,8 +242,7 @@ def compute_summary_stats(df: pd.DataFrame, questions: dict) -> pd.DataFrame:
 
         # Expected value (only for ordinal types)
         rtype = questions.get(qid, {}).get("response_type", "unknown")
-        ordinal_types = {"likert3", "likert4", "likert5", "likert10", "frequency"}
-        if rtype in ordinal_types:
+        if rtype in ORDINAL_TYPES:
             expected = np.dot(values, probs_norm)
         else:
             expected = np.nan
@@ -441,11 +416,7 @@ def plot_jsd_heatmap(matrix: np.ndarray, labels: list[str], figures_dir: Path):
 
     # Color labels by model type
     model_types = [l.rsplit("_", 1)[0] for l in labels]
-    model_colors = {
-        "hplt2c": "#1f77b4", "eurollm22b": "#ff7f0e", "qwen2572b": "#2ca02c",
-        "gemma3_27b_pt": "#e377c2", "gemma3_27b_it": "#bcbd22", "qwen3235b": "#17becf",
-    }
-    row_colors = [model_colors.get(mt, "#999999") for mt in model_types]
+    row_colors = [MODEL_COLORS.get(mt, "#999999") for mt in model_types]
 
     # Short labels with full language names
     model_prefixes = {
@@ -480,7 +451,7 @@ def plot_jsd_heatmap(matrix: np.ndarray, labels: list[str], figures_dir: Path):
 
     # Legend for model types
     handles = [mpatches.Patch(color=c, label=mt)
-               for mt, c in model_colors.items()]
+               for mt, c in MODEL_COLORS.items()]
     g.ax_heatmap.legend(handles=handles, loc="upper left",
                         bbox_to_anchor=(1.05, 1.15), frameon=False)
 
@@ -494,26 +465,13 @@ def plot_pca_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Pa
     """Scatter plot of PC1 vs PC2, colored by cultural cluster, shaped by model type."""
     fig, ax = plt.subplots(figsize=(12, 9))
 
-    model_markers = {
-        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
-        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
-    }
-    model_sizes = {
-        "hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90,
-        "gemma3_27b_pt": 90, "gemma3_27b_it": 90, "qwen3235b": 100,
-    }
-    model_labels = {
-        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
-        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
-    }
-
     for i, label in enumerate(labels):
         parts = label.rsplit("_", 1)
         mt, lang = parts[0], parts[1]
         cluster = LANG_TO_CLUSTER.get(lang, "Other")
         color = CLUSTER_COLORS.get(cluster, "#999999")
-        marker = model_markers.get(mt, "D")
-        size = model_sizes.get(mt, 80)
+        marker = MODEL_MARKERS.get(mt, "D")
+        size = MODEL_SIZES.get(mt, 80)
 
         ax.scatter(coords[i, 0], coords[i, 1], c=color, marker=marker,
                    s=size, edgecolors="black", linewidths=0.5, zorder=3)
@@ -528,9 +486,9 @@ def plot_pca_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Pa
     # Model type legend — dynamic based on models present in data
     present_models = sorted(set(l.rsplit("_", 1)[0] for l in labels))
     model_handles = [
-        plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
+        plt.Line2D([0], [0], marker=MODEL_MARKERS.get(mt, "D"), color="w",
                    markerfacecolor="gray", markersize=8,
-                   label=model_labels.get(mt, mt))
+                   label=MODEL_LABELS.get(mt, mt))
         for mt in present_models
     ]
     leg1 = ax.legend(handles=cluster_handles, title="Cultural Cluster",
@@ -580,19 +538,6 @@ def compute_tsne_map(summary_df: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
 
 def plot_tsne_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Path):
     """Scatter plot of t-SNE dim1 vs dim2, colored by cultural cluster, shaped by model type."""
-    model_markers = {
-        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
-        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
-    }
-    model_sizes = {
-        "hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90,
-        "gemma3_27b_pt": 90, "gemma3_27b_it": 90, "qwen3235b": 100,
-    }
-    model_labels = {
-        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
-        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
-    }
-
     fig, ax = plt.subplots(figsize=(12, 9))
 
     for i, label in enumerate(labels):
@@ -600,8 +545,8 @@ def plot_tsne_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: P
         mt, lang = parts[0], parts[1]
         cluster = LANG_TO_CLUSTER.get(lang, "Other")
         color = CLUSTER_COLORS.get(cluster, "#999999")
-        marker = model_markers.get(mt, "D")
-        size = model_sizes.get(mt, 80)
+        marker = MODEL_MARKERS.get(mt, "D")
+        size = MODEL_SIZES.get(mt, 80)
 
         ax.scatter(coords[i, 0], coords[i, 1], c=color, marker=marker,
                    s=size, edgecolors="black", linewidths=0.5, zorder=3)
@@ -614,9 +559,9 @@ def plot_tsne_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: P
                        for cl, c in CLUSTER_COLORS.items()]
     present_models = sorted(set(l.rsplit("_", 1)[0] for l in labels))
     model_handles = [
-        plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
+        plt.Line2D([0], [0], marker=MODEL_MARKERS.get(mt, "D"), color="w",
                    markerfacecolor="gray", markersize=8,
-                   label=model_labels.get(mt, mt))
+                   label=MODEL_LABELS.get(mt, mt))
         for mt in present_models
     ]
     leg1 = ax.legend(handles=cluster_handles, title="Cultural Cluster",
@@ -1102,19 +1047,6 @@ def compute_umap_map(summary_df: pd.DataFrame, n_neighbors: int = 15,
 
 def plot_umap_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: Path):
     """Scatter plot of UMAP dimensions, colored by cultural cluster, shaped by model type."""
-    model_markers = {
-        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
-        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
-    }
-    model_sizes = {
-        "hplt2c": 80, "eurollm22b": 100, "qwen2572b": 90,
-        "gemma3_27b_pt": 90, "gemma3_27b_it": 90, "qwen3235b": 100,
-    }
-    model_labels = {
-        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
-        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
-    }
-
     fig, ax = plt.subplots(figsize=(12, 9))
 
     for i, label in enumerate(labels):
@@ -1122,8 +1054,8 @@ def plot_umap_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: P
         mt, lang = parts[0], parts[1]
         cluster = LANG_TO_CLUSTER.get(lang, "Other")
         color = CLUSTER_COLORS.get(cluster, "#999999")
-        marker = model_markers.get(mt, "D")
-        size = model_sizes.get(mt, 80)
+        marker = MODEL_MARKERS.get(mt, "D")
+        size = MODEL_SIZES.get(mt, 80)
 
         ax.scatter(coords[i, 0], coords[i, 1], c=color, marker=marker,
                    s=size, edgecolors="black", linewidths=0.5, zorder=3)
@@ -1136,9 +1068,9 @@ def plot_umap_cultural_map(coords: np.ndarray, labels: list[str], figures_dir: P
                        for cl, c in CLUSTER_COLORS.items()]
     present_models = sorted(set(l.rsplit("_", 1)[0] for l in labels))
     model_handles = [
-        plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
+        plt.Line2D([0], [0], marker=MODEL_MARKERS.get(mt, "D"), color="w",
                    markerfacecolor="gray", markersize=8,
-                   label=model_labels.get(mt, mt))
+                   label=MODEL_LABELS.get(mt, mt))
         for mt in present_models
     ]
     leg1 = ax.legend(handles=cluster_handles, title="Cultural Cluster",
@@ -1171,10 +1103,8 @@ def compute_combined_umap(
     """
     from umap import UMAP
 
-    ordinal_types = {"likert3", "likert4", "likert5", "likert10", "frequency"}
-
     # LLM pivot: rows = model_lang, cols = question_id, values = expected_value
-    llm_ord = llm_summary[llm_summary["response_type"].isin(ordinal_types)].copy()
+    llm_ord = llm_summary[llm_summary["response_type"].isin(ORDINAL_TYPES)].copy()
     llm_ord["pair"] = llm_ord["model_type"] + "_" + llm_ord["lang"]
     llm_pivot = llm_ord.pivot_table(
         index="pair", columns="question_id", values="expected_value", aggfunc="first"
@@ -1185,7 +1115,7 @@ def compute_combined_umap(
     rows = []
     for (lang, qid), grp in hdf.groupby(["lang", "question_id"]):
         rtype = questions.get(qid, {}).get("response_type", "unknown")
-        if rtype not in ordinal_types:
+        if rtype not in ORDINAL_TYPES:
             continue
         grp_sorted = grp.sort_values("response_value")
         probs = grp_sorted["prob_human"].values
@@ -1229,19 +1159,6 @@ def compute_combined_umap(
 def plot_combined_umap(coords: np.ndarray, labels: list[str], is_human: list[bool],
                        figures_dir: Path):
     """Combined UMAP: human points as large stars, LLM points as smaller markers."""
-    model_markers = {
-        "hplt2c": "o", "eurollm22b": "^", "qwen2572b": "s",
-        "gemma3_27b_pt": "D", "gemma3_27b_it": "p", "qwen3235b": "h",
-    }
-    model_sizes = {
-        "hplt2c": 60, "eurollm22b": 70, "qwen2572b": 65,
-        "gemma3_27b_pt": 65, "gemma3_27b_it": 65, "qwen3235b": 70,
-    }
-    model_labels_map = {
-        "hplt2c": "HPLT-2.15B", "eurollm22b": "EuroLLM-22B", "qwen2572b": "Qwen2.5-72B",
-        "gemma3_27b_pt": "Gemma-3-27B", "gemma3_27b_it": "Gemma-3-27B-IT", "qwen3235b": "Qwen3-235B",
-    }
-
     fig, ax = plt.subplots(figsize=(14, 10))
 
     # Draw lines connecting human point to its LLM counterparts
@@ -1269,8 +1186,8 @@ def plot_combined_umap(coords: np.ndarray, labels: list[str], is_human: list[boo
         mt, lang = parts[0], parts[1]
         cluster = LANG_TO_CLUSTER.get(lang, "Other")
         color = CLUSTER_COLORS.get(cluster, "#999999")
-        marker = model_markers.get(mt, "D")
-        size = model_sizes.get(mt, 60)
+        marker = MODEL_MARKERS.get(mt, "D")
+        size = MODEL_SIZES_SMALL.get(mt, 60)
         ax.scatter(coords[i, 0], coords[i, 1], c=color, marker=marker,
                    s=size, edgecolors="black", linewidths=0.3, alpha=0.7, zorder=3)
 
@@ -1295,9 +1212,9 @@ def plot_combined_umap(coords: np.ndarray, labels: list[str], is_human: list[boo
         l.rsplit("_", 1)[0] for l, h in zip(labels, is_human) if not h
     ))
     model_handles = [
-        plt.Line2D([0], [0], marker=model_markers.get(mt, "D"), color="w",
+        plt.Line2D([0], [0], marker=MODEL_MARKERS.get(mt, "D"), color="w",
                    markerfacecolor="gray", markersize=7,
-                   label=model_labels_map.get(mt, mt))
+                   label=MODEL_LABELS.get(mt, mt))
         for mt in present_models
     ]
     model_handles.append(
@@ -1426,6 +1343,10 @@ def main():
         cmd_distance(df, questions, args.figures_dir)
         cmd_pca(df, questions, args.figures_dir)
         cmd_tsne(df, questions, args.figures_dir)
+        try:
+            cmd_umap(df, questions, args.figures_dir)
+        except ImportError:
+            print("  Skipping UMAP: umap-learn not installed")
         cmd_examples(df, questions, args.figures_dir)
     else:
         result = commands[args.command](df, questions, args.figures_dir)

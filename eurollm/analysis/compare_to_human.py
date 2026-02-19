@@ -33,60 +33,10 @@ import seaborn as sns
 from scipy.spatial.distance import jensenshannon
 from scipy.stats import pearsonr, spearmanr
 
-
-# ── Constants ────────────────────────────────────────────────────────────────
-
-LANG_NAMES = {
-    "bul": "Bulgarian", "ces": "Czech", "dan": "Danish", "deu": "German",
-    "ell": "Greek", "eng": "English", "est": "Estonian", "fin": "Finnish",
-    "fra": "French", "hrv": "Croatian", "hun": "Hungarian", "ita": "Italian",
-    "lit": "Lithuanian", "lvs": "Latvian", "nld": "Dutch", "pol": "Polish",
-    "por": "Portuguese", "ron": "Romanian", "slk": "Slovak", "slv": "Slovenian",
-    "spa": "Spanish", "swe": "Swedish",
-}
-
-CULTURAL_CLUSTERS = {
-    "Nordic": ["dan", "fin", "swe"],
-    "Western": ["deu", "fra", "nld", "eng"],
-    "Mediterranean": ["ita", "spa", "por", "ell"],
-    "Central": ["ces", "hun", "pol", "slk", "slv"],
-    "Baltic": ["est", "lit", "lvs"],
-    "Southeast": ["bul", "hrv", "ron"],
-}
-
-LANG_TO_CLUSTER = {}
-for cluster, langs in CULTURAL_CLUSTERS.items():
-    for lang in langs:
-        LANG_TO_CLUSTER[lang] = cluster
-
-CLUSTER_COLORS = {
-    "Nordic": "#1f77b4",
-    "Western": "#ff7f0e",
-    "Mediterranean": "#2ca02c",
-    "Central": "#d62728",
-    "Baltic": "#9467bd",
-    "Southeast": "#8c564b",
-}
-
-MODEL_COLORS = {
-    "hplt2c": "#1f77b4",
-    "eurollm22b": "#ff7f0e",
-    "qwen2572b": "#2ca02c",
-    "gemma3_27b_pt": "#e377c2",
-    "gemma3_27b_it": "#bcbd22",
-    "qwen3235b": "#17becf",
-}
-
-MODEL_LABELS = {
-    "hplt2c": "HPLT-2.15B",
-    "eurollm22b": "EuroLLM-22B",
-    "qwen2572b": "Qwen2.5-72B",
-    "gemma3_27b_pt": "Gemma-3-27B",
-    "gemma3_27b_it": "Gemma-3-27B-IT",
-    "qwen3235b": "Qwen3-235B",
-}
-
-ORDINAL_TYPES = {"likert3", "likert4", "likert5", "likert10", "frequency"}
+from analysis.constants import (
+    LANG_NAMES, CULTURAL_CLUSTERS, LANG_TO_CLUSTER, CLUSTER_COLORS,
+    MODEL_COLORS, MODEL_LABELS, ORDINAL_TYPES,
+)
 
 
 # ── Data Loading ─────────────────────────────────────────────────────────────

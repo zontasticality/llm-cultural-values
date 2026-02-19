@@ -29,14 +29,11 @@ from inference.extract_logprobs import (
     renormalize,
     remap_reversed,
 )
-from prompting.prompt_templates import clean_label, clean_text
+from prompting.prompt_templates import format_prompt
 
 
 def build_prompt_from_variant(question: dict, variant_text: str, reverse: bool) -> dict:
     """Build a prompt using variant text but original options from questions.json.
-
-    Mirrors the logic of format_prompt() / _format_standard() / _format_likert10()
-    but substitutes variant_text for the original question text.
 
     Args:
         question: A question dict from questions.json (must have eng translation).
@@ -46,95 +43,8 @@ def build_prompt_from_variant(question: dict, variant_text: str, reverse: bool) 
     Returns:
         dict with keys: prompt, valid_values, value_map, is_likert10
     """
-    trans = question["translations"]["eng"]
-    answer_cue = trans.get("answer_cue", "Answer")
-    options = trans["options"]
-    is_likert10 = question["response_type"] == "likert10"
-    n = len(options)
-
-    # Clean the variant text the same way we clean original text
-    text = clean_text(variant_text)
-
-    if is_likert10:
-        return _build_likert10(text, answer_cue, options, reverse)
-    else:
-        return _build_standard(text, answer_cue, options, reverse, n)
-
-
-def _build_standard(text, answer_cue, options, reverse, n):
-    """Standard (non-likert10) prompt with numbered options."""
-    if reverse:
-        reversed_options = list(reversed(options))
-        value_map = {}
-        lines = []
-        for i, opt in enumerate(reversed_options, 1):
-            label = clean_label(opt["label"])
-            original_value = str(opt["value"])
-            value_map[str(i)] = original_value
-            if label:
-                lines.append(f"{i}. {label}")
-            else:
-                lines.append(f"{i}.")
-        valid_values = [str(i) for i in range(1, n + 1)]
-    else:
-        value_map = {}
-        lines = []
-        for opt in options:
-            pos = opt["value"]
-            label = clean_label(opt["label"])
-            value_map[str(pos)] = str(pos)
-            if label:
-                lines.append(f"{pos}. {label}")
-            else:
-                lines.append(f"{pos}.")
-        valid_values = [str(opt["value"]) for opt in options]
-
-    prompt = f"{text}\n" + "\n".join(lines) + f"\n{answer_cue}: "
-    return {
-        "prompt": prompt,
-        "valid_values": valid_values,
-        "value_map": value_map,
-        "is_likert10": False,
-    }
-
-
-def _build_likert10(text, answer_cue, options, reverse):
-    """Likert10 prompt with anchors at endpoints."""
-    opts_by_value = {opt["value"]: opt for opt in options}
-
-    left_anchor = ""
-    right_anchor = ""
-    left_label = clean_label(opts_by_value.get(1, {}).get("label", ""))
-    right_label = clean_label(opts_by_value.get(10, {}).get("label", ""))
-    if left_label and not left_label.isdigit():
-        left_anchor = left_label
-    if right_label and not right_label.isdigit():
-        right_anchor = right_label
-
-    if reverse:
-        left_anchor, right_anchor = right_anchor, left_anchor
-        value_map = {str(i): str(11 - i) for i in range(1, 11)}
-    else:
-        value_map = {str(i): str(i) for i in range(1, 11)}
-
-    lines = []
-    for i in range(1, 11):
-        if i == 1 and left_anchor:
-            lines.append(f"1. {left_anchor}")
-        elif i == 10 and right_anchor:
-            lines.append(f"10. {right_anchor}")
-        else:
-            lines.append(f"{i}.")
-
-    prompt = f"{text}\n" + "\n".join(lines) + f"\n{answer_cue}: "
-    valid_values = [str(i) for i in range(1, 11)]
-
-    return {
-        "prompt": prompt,
-        "valid_values": valid_values,
-        "value_map": value_map,
-        "is_likert10": True,
-    }
+    return format_prompt(question, lang="eng", reverse=reverse,
+                         text_override=variant_text)
 
 
 def process_variant(

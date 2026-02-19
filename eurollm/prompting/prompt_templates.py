@@ -60,7 +60,8 @@ def _is_anchor_label(label: str) -> bool:
     return True
 
 
-def format_prompt(question: dict, lang: str, reverse: bool = False) -> dict:
+def format_prompt(question: dict, lang: str, reverse: bool = False,
+                  text_override: str | None = None) -> dict:
     """Format a question from questions.json into a completion prompt.
 
     Args:
@@ -68,6 +69,8 @@ def format_prompt(question: dict, lang: str, reverse: bool = False) -> dict:
                   response_type, translations, etc.
         lang: Language code (e.g. "eng", "deu").
         reverse: If True, reverse the option ordering for position-bias control.
+        text_override: If provided, use this text instead of the question's
+                       translation text (for rephrase experiments).
 
     Returns:
         dict with keys:
@@ -77,7 +80,7 @@ def format_prompt(question: dict, lang: str, reverse: bool = False) -> dict:
             is_likert10: bool — whether two-step "10" resolution is needed
     """
     trans = question["translations"][lang]
-    text = clean_text(trans["text"])
+    text = clean_text(text_override) if text_override is not None else clean_text(trans["text"])
     answer_cue = trans.get("answer_cue", "Answer")
     options = trans["options"]
     is_likert10 = question["response_type"] == "likert10"

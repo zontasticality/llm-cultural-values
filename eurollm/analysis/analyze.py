@@ -8,7 +8,7 @@ Usage:
     python analysis/analyze.py distance   # JSD matrix + clustered heatmap
     python analysis/analyze.py pca        # PCA cultural map
     python analysis/analyze.py tsne       # t-SNE cultural map
-    python analysis/analyze.py umap       # UMAP cultural maps (LLM + combined)
+    python analysis/analyze.py umap       # UMAP cultural maps (LLM + human-only + combined)
     python analysis/analyze.py examples   # Example distribution bar charts
     python analysis/analyze.py rephrase   # Prompt sensitivity experiment analysis
     python analysis/analyze.py all        # Run everything (except rephrase)
@@ -1240,6 +1240,86 @@ def plot_combined_umap(coords: np.ndarray, labels: list[str], is_human: list[boo
     print(f"  Saved {out}")
 
 
+def compute_human_only_umap(
+    human_parquet: Path,
+    questions: dict,
+    n_neighbors: int = 10,
+    min_dist: float = 0.3,
+) -> tuple[np.ndarray, list[str]]:
+    """UMAP embedding of human-only ordinal expected values (21 countries).
+
+    Returns (coords, lang_codes) where lang_codes[i] is the ISO 639-3 code.
+    """
+    from umap import UMAP
+
+    hdf = pd.read_parquet(human_parquet)
+    rows = []
+    for (lang, qid), grp in hdf.groupby(["lang", "question_id"]):
+        rtype = questions.get(qid, {}).get("response_type", "unknown")
+        if rtype not in ORDINAL_TYPES:
+            continue
+        grp_sorted = grp.sort_values("response_value")
+        probs = grp_sorted["prob_human"].values
+        total = probs.sum()
+        if total > 0:
+            probs = probs / total
+        values = grp_sorted["response_value"].values.astype(float)
+        ev = np.dot(values, probs)
+        rows.append({"lang": lang, "question_id": qid, "expected_value": ev})
+
+    human_ev = pd.DataFrame(rows)
+    pivot = human_ev.pivot_table(
+        index="lang", columns="question_id", values="expected_value", aggfunc="first"
+    )
+
+    lang_codes = list(pivot.index)
+    X = pivot.values
+
+    imputer = SimpleImputer(strategy="mean")
+    X_imputed = imputer.fit_transform(X)
+
+    reducer = UMAP(n_components=2, n_neighbors=n_neighbors, min_dist=min_dist,
+                   random_state=42)
+    coords = reducer.fit_transform(X_imputed)
+
+    print(f"\n=== Human-Only UMAP ===")
+    print(f"Countries: {len(lang_codes)}, ordinal questions: {X_imputed.shape[1]}")
+    print(f"n_neighbors={n_neighbors}, min_dist={min_dist}")
+
+    return coords, lang_codes
+
+
+def plot_human_only_umap(coords: np.ndarray, lang_codes: list[str], figures_dir: Path):
+    """Scatter plot of human-only UMAP: 21 countries colored by cultural cluster."""
+    fig, ax = plt.subplots(figsize=(10, 8))
+
+    for i, lang in enumerate(lang_codes):
+        cluster = LANG_TO_CLUSTER.get(lang, "Other")
+        color = CLUSTER_COLORS.get(cluster, "#999999")
+        display_name = LANG_NAMES.get(lang, lang)
+
+        ax.scatter(coords[i, 0], coords[i, 1], c=color, marker="o",
+                   s=200, edgecolors="black", linewidths=0.8, zorder=3)
+        ax.annotate(display_name, (coords[i, 0], coords[i, 1]),
+                    textcoords="offset points", xytext=(8, 8),
+                    fontsize=9, fontweight="bold")
+
+    cluster_handles = [mpatches.Patch(color=c, label=cl)
+                       for cl, c in CLUSTER_COLORS.items()]
+    ax.legend(handles=cluster_handles, title="Cultural Cluster",
+              loc="best", framealpha=0.9, fontsize=10)
+
+    ax.set_xlabel("UMAP 1")
+    ax.set_ylabel("UMAP 2")
+    ax.set_title("UMAP Cultural Map: Human EVS Survey Data (21 Countries)")
+    ax.grid(True, alpha=0.3)
+    plt.tight_layout()
+    out = figures_dir / "umap_human_only.png"
+    fig.savefig(out, dpi=200)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
 def cmd_umap(df, questions, figures_dir):
     print("\n── UMAP Cultural Maps ──")
     summary = compute_summary_stats(df, questions)
@@ -1248,16 +1328,21 @@ def cmd_umap(df, questions, figures_dir):
     coords, labels = compute_umap_map(summary)
     plot_umap_cultural_map(coords, labels, figures_dir)
 
-    # Combined human + LLM UMAP
+    # Human-only UMAP + Combined human + LLM UMAP
     PROJECT_ROOT = Path(__file__).resolve().parent.parent
     human_path = PROJECT_ROOT / "human_data" / "data" / "human_distributions.parquet"
     if human_path.exists():
+        # Human-only
+        coords_h, langs_h = compute_human_only_umap(human_path, questions)
+        plot_human_only_umap(coords_h, langs_h, figures_dir)
+
+        # Combined
         coords_c, labels_c, is_human = compute_combined_umap(
             summary, human_path, questions
         )
         plot_combined_umap(coords_c, labels_c, is_human, figures_dir)
     else:
-        print(f"  Skipping combined UMAP: {human_path} not found")
+        print(f"  Skipping human UMAP maps: {human_path} not found")
 
 
 def cmd_tsne(df, questions, figures_dir):

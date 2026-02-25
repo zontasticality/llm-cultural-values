@@ -265,6 +265,26 @@ def _build_ev_matrix(dists: dict, group_type: str, questions: dict):
     return pivot
 
 
+def _quantile_normalize(human_pivot: pd.DataFrame, llm_pivot: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Per-question quantile normalization across human + LLM EVs.
+
+    For each question column, ranks all values (human + LLM) jointly
+    and maps to uniform quantiles on [0, 1]. Removes answer banding
+    while preserving rank order.
+    """
+    combined = pd.concat([human_pivot, llm_pivot])
+    normalized = combined.copy()
+    for col in combined.columns:
+        vals = combined[col].dropna()
+        if len(vals) > 1:
+            ranks = vals.rank(method="average")
+            quantiles = (ranks - 1) / (len(ranks) - 1)  # [0, 1]
+            normalized.loc[quantiles.index, col] = quantiles
+
+    n_human = len(human_pivot)
+    return normalized.iloc[:n_human], normalized.iloc[n_human:]
+
+
 def compute_human_fitted_umap(
     llm_dists: dict,
     human_dists: dict,
@@ -288,6 +308,9 @@ def compute_human_fitted_umap(
     shared_qs = sorted(set(human_pivot.columns) & set(llm_pivot.columns))
     human_aligned = human_pivot[shared_qs]
     llm_aligned = llm_pivot[shared_qs]
+
+    # Per-question quantile normalization to remove answer banding
+    human_aligned, llm_aligned = _quantile_normalize(human_aligned, llm_aligned)
 
     # Impute: fit on human, transform both
     imputer = SimpleImputer(strategy="mean")
@@ -450,15 +473,15 @@ def compute_iw_composites(
 
     ev_df["ev_flipped"] = ev_df.apply(flip_ev, axis=1)
 
-    # Z-score normalize per question across ALL (source, lang) jointly
+    # Per-question quantile normalization across all (source, lang) jointly
     for qid in ev_df["qid"].unique():
         mask = ev_df["qid"] == qid
         vals = ev_df.loc[mask, "ev_flipped"]
-        mu, sigma = vals.mean(), vals.std()
-        if sigma > 0:
-            ev_df.loc[mask, "ev_z"] = (vals - mu) / sigma
+        if len(vals) > 1:
+            ranks = vals.rank(method="average")
+            ev_df.loc[mask, "ev_z"] = (ranks - 1) / (len(ranks) - 1)
         else:
-            ev_df.loc[mask, "ev_z"] = 0.0
+            ev_df.loc[mask, "ev_z"] = 0.5
 
     # Average z-scores within each dimension
     result_rows = []

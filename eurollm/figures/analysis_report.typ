@@ -42,7 +42,7 @@ A 2D UMAP embedding fitted _only_ on human EVS country distributions, with LLM d
 
 == How it was calculated
 
-For each source (human country or LLM model-language pair) and each ordinal question, the expected value $EE[X] = sum_i x_i dot p(x_i)$ is computed. This yields a feature vector per source (one dimension per ordinal question). A `SimpleImputer` (mean strategy) is fit on the 21 human vectors, then applied to both human and LLM vectors. UMAP (`n_neighbors=10, min_dist=0.3`) is fit on the 21 human points, and LLM points are projected via `reducer.transform()`. This means the UMAP axes represent _human cultural variation_ rather than model-type artifacts.
+For each source (human country or LLM model-language pair) and each ordinal question, the expected value $EE[X] = sum_i x_i dot p(x_i)$ is computed. This yields a feature vector per source (one dimension per ordinal question). Before embedding, *per-question quantile normalization* is applied: for each question, all values (human + LLM) are ranked jointly and mapped to uniform quantiles on $[0, 1]$. This removes "answer banding"---the tendency for LLM expected values to compress toward scale midpoints---while preserving rank order across sources. A `SimpleImputer` (mean strategy) is fit on the 21 human vectors, then applied to both human and LLM vectors. UMAP (`n_neighbors=10, min_dist=0.3`) is fit on the 21 human points, and LLM points are projected via `reducer.transform()`. This means the UMAP axes represent _human cultural variation_ rather than model-type artifacts.
 
 == Key observations
 
@@ -79,7 +79,7 @@ Following Inglehart and Welzel's methodology, composite scores are computed from
 
 *Survival→Self-Expression*: life satisfaction (v39), interpersonal trust (v31, flipped), gay couples as parents (v82, flipped), homosexuality justifiability (v153), petition signing (v98, flipped).
 
-For each question, the expected value is computed from the probability distribution, polarity-flipped where needed (so higher = more secular/self-expression), then z-score normalized across all sources (human + LLM) jointly. Each dimension's score is the mean of its 5 z-scored items (requiring $>=3$ of 5 to be present).
+For each question, the expected value is computed from the probability distribution, polarity-flipped where needed (so higher = more secular/self-expression), then *quantile-normalized* across all sources (human + LLM) jointly: values are ranked and mapped to uniform quantiles on $[0, 1]$. This replaces z-scoring to prevent LLM answer banding from compressing the composite scores. Each dimension's score is the mean of its 5 quantile-normalized items (requiring $>=3$ of 5 to be present), yielding "mean quantile rank" scores where 0 = lowest across all sources, 0.5 = median, and 1 = highest.
 
 == Key observations
 

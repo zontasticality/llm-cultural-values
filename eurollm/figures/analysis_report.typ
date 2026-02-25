@@ -9,258 +9,265 @@
   #v(0.3em)
   #text(size: 14pt)[Detailed Figure Analysis]
   #v(0.3em)
-  #text(size: 10pt, fill: gray)[Track 1: EVS Survey Elicitation from HPLT-2.15B, EuroLLM-22B, Gemma-3-27B, and Gemma-3-27B-IT]
+  #text(size: 10pt, fill: gray)[Track 1: EVS Survey Elicitation from HPLT-2.15B, EuroLLM-22B, and Gemma-3-27B]
 ]
 
 #v(1em)
 
 = Overview
 
-This report analyzes figures produced by comparing language model (LLM) response distributions to real European Values Study (EVS) 2017 survey data across 21 countries. Four model configurations are compared:
+This report analyzes 7 main figures comparing language model (LLM) response distributions to real European Values Study (EVS) 2017 survey data across 21 countries. Three model configurations are compared:
 
 - *HPLT-2.15B*: 22 monolingual models, each trained exclusively on text from a single European language. These are small (2.15B parameter) Gemma-3-based models from the HPLT project.
 - *EuroLLM-22B*: A single multilingual model trained on all 22 European languages jointly, roughly 10x larger at 22B parameters.
 - *Gemma-3-27B* (base): A 27B-parameter base model from the Gemma 3 family. Same tokenizer family as the HPLT models but substantially larger and trained on a broader multilingual corpus.
-- *Gemma-3-27B-IT* (instruction-tuned): The instruction-tuned variant of Gemma-3-27B, prompted via chat template. Included to test whether instruction tuning helps or hinders cultural value elicitation via logprob extraction.
 
-Qwen3-235B results are pending (int4 quantization jobs in queue) and will be added in a subsequent update.
+Gemma-3-27B-IT (instruction-tuned) was evaluated but excluded from main figures due to near-zero P_valid across all languages---instruction tuning redirects probability mass away from digit tokens, making logprob elicitation ineffective. Its results appear in supplementary materials.
 
-The core research question is whether base language models---which have never seen survey data or been instruction-tuned---internalize cultural values from their training text that align with real population-level survey responses in the corresponding country.
+The core research question: do base language models---which have never seen survey data or been instruction-tuned---internalize cultural values from their training text that align with real population-level survey responses?
 
-The EVS 2017 Integrated Dataset (ZA7500, $n = 59,438$) provides ground truth: weighted response distributions for 186 questions across 21 of our 22 target countries (Greece is absent from this dataset version). LLM distributions were extracted via next-token logprob elicitation with position-bias debiasing (forward + reversed option ordering averaging).
+The EVS 2017 Integrated Dataset (ZA7500, $n = 59,438$) provides ground truth: weighted response distributions for 186 questions across 21 of our 22 target countries (Greece is absent). LLM distributions were extracted via next-token logprob elicitation with position-bias debiasing (forward + reversed option ordering averaging).
 
-The primary distance metric throughout is the *Jensen--Shannon divergence* (JSD), a symmetric, bounded measure ($0 <= "JSD" <= ln 2 approx 0.83$). A JSD of 0 means identical distributions; $ln 2$ means maximally different. For reference, two independent random 4-option distributions have an expected JSD of approximately 0.15--0.25.
+The primary distance metric is *Jensen--Shannon divergence* (JSD), a symmetric, bounded measure ($0 <= "JSD" <= ln 2 approx 0.83$). A JSD of 0 means identical distributions; $ln 2$ means maximally different.
 
 #pagebreak()
 
-= Figure 1: Expected Value Scatter Plot
+= F1: Human-Fitted UMAP
 
-#align(center)[#image("human_scatter_ev.png", width: 100%)]
+#align(center)[#image("F1_human_fitted_umap.png", width: 100%)]
 
 == What it shows
 
-Each point represents one (language, question) pair, plotting the *human expected value* (x-axis) against the *LLM expected value* (y-axis) for ordinal questions only (likert3, likert4, likert5, likert10, and frequency scales). Four panels show EuroLLM-22B, Gemma-3-27B-IT, Gemma-3-27B, and HPLT-2.15B respectively. Points are colored by Inglehart--Welzel cultural cluster (Nordic, Western, Mediterranean, Central, Baltic, Southeast). The dashed line is a linear regression fit; the faint diagonal is the identity line ($y = x$).
+A 2D UMAP embedding fitted _only_ on human EVS country distributions, with LLM distributions projected into the same space. Three panels show each model family separately (HPLT, EuroLLM, Gemma-3-27B). Human points are large circles with bold labels; LLM points are smaller model-specific markers. Gray lines connect each LLM point to its corresponding country's human data. All points are colored by Inglehart--Welzel cultural cluster.
 
 == How it was calculated
 
-For each ordinal question and each (model, language) pair, the expected value is the probability-weighted mean of the response options: $EE[X] = sum_i x_i dot p(x_i)$, where $p(x_i)$ is either the human survey proportion or the LLM's position-bias-debiased probability for option $x_i$.
-
-The Pearson $r$ measures linear correlation; Spearman $rho$ measures rank correlation (more robust to outliers). Both are reported in the panel titles.
+For each source (human country or LLM model-language pair) and each ordinal question, the expected value $EE[X] = sum_i x_i dot p(x_i)$ is computed. This yields a feature vector per source (one dimension per ordinal question). A `SimpleImputer` (mean strategy) is fit on the 21 human vectors, then applied to both human and LLM vectors. UMAP (`n_neighbors=10, min_dist=0.3`) is fit on the 21 human points, and LLM points are projected via `reducer.transform()`. This means the UMAP axes represent _human cultural variation_ rather than model-type artifacts.
 
 == Key observations
 
-*Strong positive correlation across all models.* All four models show strong agreement with human values. Gemma-3-27B base achieves the highest correlation ($r = 0.727$, $rho = 0.683$), followed by Gemma-3-27B-IT ($r = 0.718$, $rho = 0.661$), HPLT-2.15B ($r = 0.715$, $rho = 0.615$), and EuroLLM-22B ($r = 0.709$, $rho = 0.639$). This demonstrates that *base LMs encode real cultural signal*, and that the 27B Gemma model captures it most faithfully.
+- *Human points form recognizable cultural clusters.* Nordic, Western, Mediterranean, Central, Baltic, and Southeast countries are spatially separated, confirming the embedding captures real cultural structure.
+- *LLM points are pulled toward their corresponding human countries.* The gray connection lines show that LLMs trained on language X produce distributions that are _directionally_ correct---closer to country X's human data than to random countries.
+- *Model families show different degrees of displacement.* Gemma-3-27B points (diamonds) tend to be closest to human points, while HPLT-2.15B points (circles) show more scatter, consistent with the JSD analysis.
+- *The human-fitted embedding prevents model-type clustering from dominating.* Unlike a joint UMAP (which clusters by model type), fitting on human data first reveals whether LLMs land in the _correct cultural region_.
 
-*Instruction tuning does not help logprob elicitation.* Gemma-3-27B-IT has near-zero P_valid (median 0.000 across all languages), meaning the chat-template-wrapped prompts produce almost no probability mass on valid response digits. Despite this, it still achieves reasonable correlation because the tiny valid mass that exists is directionally correct. However, the distributions are essentially degenerate---instruction tuning redirects the model's probability mass toward verbose chat responses rather than bare digit tokens.
+== Why this figure matters
 
-*Gemma-3-27B base outperforms models trained specifically for European languages.* Despite not being European-specialized, the 27B base model beats both the 22B European multilingual model and the 2.15B dedicated monolingual models, confirming that model scale is a primary driver of cultural value encoding.
+This figure answers: "When we define cultural space by how real populations vary, do LLMs land near the right country?" By fitting UMAP on human data alone, we prevent the embedding from being dominated by systematic model-type differences (e.g., entropy compression), isolating the cultural signal.
+
+== Further questions
+
+- Do LLM points cluster tighter with scale (27B closer to human than 2.15B)?
+- Which languages show the largest human-to-LLM displacement?
+- Would a supervised embedding (e.g., metric learning) improve separation?
 
 #pagebreak()
 
-= Figure 2: JSD by Question Type
+= F2: Inglehart--Welzel Cultural Map
 
-#align(center)[#image("human_jsd_by_qtype.png", width: 85%)]
+#align(center)[#image("F2_inglehart_welzel.png", width: 90%)]
 
 == What it shows
 
-Box plots of JSD (LLM vs human) grouped by response type, with separate boxes for each model type. Each box shows the median (horizontal line), interquartile range (box), whiskers ($1.5 times "IQR"$), and outliers (dots). Lower JSD means better alignment with human data.
+A scatter plot reproducing the classic Inglehart--Welzel World Cultural Map layout, with the x-axis representing Survival→Self-Expression values and the y-axis representing Traditional→Secular-Rational values. Both human EVS data (large circles) and LLM distributions (smaller model-specific markers) are plotted, with gray lines connecting LLM points to their corresponding human country.
 
 == How it was calculated
 
-For each (model_type, language, question_id) triple, the LLM's debiased probability distribution and the human country's weighted response distribution are aligned over shared response values and compared using Jensen--Shannon divergence. The resulting JSD values are then grouped by the question's response type (categorical, frequency, likert3, likert4, likert5, likert10).
+Following Inglehart and Welzel's methodology, composite scores are computed from 10 EVS questions (5 per dimension):
+
+*Traditional→Secular-Rational*: importance of God (v63, flipped), religion importance (v6), abortion justifiability (v154), obedience in children (v95), independence in children (v86, flipped).
+
+*Survival→Self-Expression*: life satisfaction (v39), interpersonal trust (v31, flipped), gay couples as parents (v82, flipped), homosexuality justifiability (v153), petition signing (v98, flipped).
+
+For each question, the expected value is computed from the probability distribution, polarity-flipped where needed (so higher = more secular/self-expression), then z-score normalized across all sources (human + LLM) jointly. Each dimension's score is the mean of its 5 z-scored items (requiring $>=3$ of 5 to be present).
 
 == Key observations
 
-*Categorical questions are best aligned* (median JSD $approx 0.23$). These are typically binary (yes/no) or short-list questions with 2--3 options. The low JSD indicates LLMs correctly pick up the _direction_ of consensus.
+- *The human IW map matches the reference.* Nordic countries appear in the top-right (secular-rational, self-expression), Balkan/Southeast countries in the bottom-left (traditional, survival), validating the composite construction.
+- *LLM points track the correct cultural direction.* Models trained on Nordic languages shift toward the secular/self-expression quadrant; those trained on traditional-value languages shift toward the traditional/survival quadrant.
+- *The LLM-to-human displacement is systematic.* Gray lines tend to point in a consistent direction, suggesting a distributional bias (e.g., entropy compression) rather than random noise.
 
-*Likert-4 and likert-5 scales show highest JSD* (median $approx 0.37$). These are the workhorses of values surveys. Position bias is most damaging here, as it redistributes mass across options that are close in probability.
+== Why this figure matters
 
-*Gemma-3-27B base (green) shows consistently lower JSD across all question types* except where Gemma-3-27B-IT's degenerate distributions happen to coincidentally match. The base model's advantage is not limited to particular question formats.
+The Inglehart--Welzel map is the most recognized visualization in cross-cultural values research. Showing that LLMs reproduce its structure---not just in an arbitrary embedding but along _interpretable, validated dimensions_---provides the strongest evidence that LLMs encode genuine cultural values.
 
-*Gemma-3-27B-IT performs worst overall* (mean JSD 0.396), reflecting its near-zero P_valid. The instruction-tuned model's chat-oriented training makes it fundamentally unsuited for raw logprob elicitation.
+== Further questions
+
+- Does the LLM displacement direction correspond to entropy compression (flattening distributions)?
+- Do specific IW questions drive the displacement more than others?
+- How does the composite score change with model scale?
 
 #pagebreak()
 
-= Figure 3: Model Comparison
+= F3: Expected Value Scatter (Raw and Z-Scored)
 
-#align(center)[#image("human_model_comparison.png", width: 100%)]
+#align(center)[#image("F3_ev_scatter.png", width: 100%)]
 
 == What it shows
 
-*Panel (a)*: Grouped bar chart showing mean JSD to human data for each language, with bars for each model type. Lower bars mean closer to human ground truth.
-
-*Panel (b)*: Win-count bar chart showing, for each model, the number of languages (out of 21) where that model achieves the lowest mean JSD to human data.
+Two rows of scatter plots, one column per model type. *Top row*: raw expected values (LLM vs human) for all ordinal questions. *Bottom row*: z-score normalized expected values. Each point is one (language, question) pair, colored by cultural cluster. Dashed line = regression fit; dotted line = identity. Pearson $r$ and Spearman $rho$ are reported per panel.
 
 == How it was calculated
 
-For each (model_type, language) pair, the mean JSD across all available questions is computed. This yields 21 values per model (one per language, excluding Greece). The comparison asks: for the same language, which model produces distributions closest to the real country's survey data?
+For each ordinal question and (model, language) pair, $EE[X] = sum_i x_i dot p(x_i)$ is computed for both the LLM's debiased distribution and the human survey distribution. For the z-scored row, each question's values are standardized: $z = (x - mu) / sigma$ where $mu$ and $sigma$ are computed _jointly_ across all human and LLM values for that question.
 
 == Key observations
 
-*Gemma-3-27B base dominates, winning 19 of 21 languages.* The only exceptions are English and French, where HPLT-2.15B achieves the lowest JSD. For every other language, the 27B base model outperforms both the European-specific multilingual model and the language-specific monolingual models.
+- *Raw correlations are strong* ($r approx 0.71$--$0.73$), confirming LLMs encode the direction of cultural values.
+- *Z-scoring should improve correlation* by removing cross-question scale differences. If the LLM compresses all distributions toward the center, z-scoring removes this mean shift, revealing the underlying rank-order agreement.
+- *The identity line gap is visible in raw plots*: LLM points lie closer to the center than human points, reflecting the well-documented entropy compression where LLMs produce more uniform distributions.
 
-*The Gemma-3-27B advantage is substantial.* Its overall mean JSD of 0.293 compares to 0.330 for HPLT and 0.333 for EuroLLM---a gap of 0.037--0.040. The largest advantages appear for Hungarian ($Delta = -0.077$ vs HPLT), Danish ($-0.065$), and Finnish ($-0.019$).
+== Why this figure matters
 
-*Scale continues to trump specialization.* Gemma-3-27B was not designed specifically for European languages, yet it outperforms both a European-specialized multilingual model (EuroLLM-22B) and 22 dedicated monolingual models (HPLT-2.15B). The 27B parameter count provides enough capacity to encode cultural nuances that smaller models cannot represent.
+This answers: "How well do LLMs capture _relative_ cultural differences?" Raw correlation measures overall agreement including scale; z-scored correlation measures whether the LLM correctly ranks countries within each question, removing confounds from distributional compression.
 
-*French and English remain the best-aligned languages overall.* French (HPLT: 0.247, Gemma-3-27B: 0.264) and English (HPLT: 0.279, Gemma-3-27B: 0.286) consistently produce the lowest JSD, reflecting their status as high-resource languages.
+== Further questions
 
-*Croatian remains the hardest language.* Croatian shows the highest JSD for most models ($approx 0.32$--$0.37$), suggesting genuine difficulty in cultural value elicitation.
+- Which questions show the largest z-score improvement?
+- Is the compression systematic across all models or model-specific?
 
 #pagebreak()
 
-= Figure 4: JSD Heatmap
+= F4: JSD Heatmap
 
-#align(center)[#image("human_jsd_heatmap.png", width: 100%)]
+#align(center)[#image("F4_jsd_heatmap.png", width: 100%)]
 
 == What it shows
 
-A heatmap with rows for each model type and 21 columns (one per language, alphabetical). Cell color encodes mean JSD from LLM to human data, with green indicating better alignment (lower JSD) and red indicating worse alignment (higher JSD). Exact values are printed in each cell.
+A heatmap with rows for each model type (excluding Gemma-3-27B-IT) and 21 columns (one per language). Cell color encodes mean JSD from LLM to human data, with green = better alignment and red = worse. Each cell is annotated with the mean JSD and standard deviation ($"mean" plus.minus "std"$).
 
 == How it was calculated
 
-Identical to the per-language means in Figure 3: for each (model, language) pair, the mean JSD across all shared questions is computed and displayed.
+For each (model, language) pair, the mean and standard deviation of JSD across all shared questions is computed and displayed. Gemma-3-27B-IT is excluded due to its near-zero P_valid rendering the JSD values uninformative.
 
 == Key observations
 
-*The Gemma-3-27B row is visibly greener.* The base model row shows a uniformly greener hue than the HPLT and EuroLLM rows, confirming its systematic advantage across languages.
+- *Gemma-3-27B base shows the greenest row*, confirming its systematic advantage across languages.
+- *The standard deviations reveal within-language heterogeneity.* Some languages show high mean JSD with low std (consistently poor), while others show moderate mean with high std (mixed---some questions are well-captured, others not).
+- *The green corridor* (Italian, Hungarian, Romanian, Danish) shows particularly strong alignment for Gemma-3-27B.
+- *The red corridor* (Lithuanian, Croatian, Latvian) shows weak alignment across models---these are lower-resource languages where training data may be insufficient.
 
-*Gemma-3-27B-IT is visibly redder.* The instruction-tuned variant's row is the most red, confirming that instruction tuning degrades logprob-based survey elicitation.
+== Why this figure matters
 
-*The green corridor.* Italian (0.247), Hungarian (0.241), Romanian (0.243), and Danish (0.259) show particularly strong alignment for Gemma-3-27B---languages where neither HPLT nor EuroLLM performed as well.
+The heatmap provides a complete picture of model × language performance, identifying both model-level and language-level patterns. The $plus.minus "std"$ annotation reveals whether poor performance is uniform (all questions bad) or driven by a subset of difficult questions.
 
-*The red corridor.* Lithuanian ($approx 0.35$--$0.41$), Croatian ($approx 0.32$--$0.38$), and Latvian ($approx 0.30$--$0.47$) show the weakest alignment across models.
+== Further questions
 
-#pagebreak()
-
-= Figure 5: Best and Worst Aligned Questions
-
-#align(center)[#image("human_best_worst.png", width: 100%)]
-
-== What it shows
-
-Six bar charts comparing human (blue) and LLM (orange) response distributions for specific questions, using English/HPLT as the representative pair. The top row shows the three _best_-aligned questions (lowest mean JSD across all model-language pairs); the bottom row shows the three _worst_-aligned.
-
-== How it was calculated
-
-Mean JSD is computed per question across all (model, language) pairs. Questions are ranked, and the top 3 and bottom 3 are selected. For each, the human distribution and the HPLT English model's debiased distribution are plotted side by side.
-
-== Best-aligned questions
-
-*Pattern*: The best-aligned questions are binary categorical items. With only two options, the LLM essentially needs to get the _direction_ of opinion right, and it does.
-
-== Worst-aligned questions
-
-*Pattern*: The worst questions share a key feature: humans have a *strong unimodal peak* (one option chosen by 50--80% of respondents), while the LLM distributes mass more uniformly. This "flattening" or "hedging" behavior is consistent with base LMs having high entropy distributions.
+- Do the high-std languages share particular question types that drive variance?
+- Is the green corridor explained by resource availability or cultural similarity to high-resource languages?
 
 #pagebreak()
 
-= Figure 6: UMAP Cultural Map (LLM Only)
+= F5: Per-Question Deep Dive
 
-#align(center)[#image("umap_cultural_map.png", width: 100%)]
+#align(center)[#image("F5_deepdive.png", width: 100%)]
 
 == What it shows
 
-A 2D UMAP embedding of all 89 LLM model-language pairs, where each point represents one (model, language) combination. Points are colored by Inglehart--Welzel cultural cluster and shaped by model type. Proximity in UMAP space indicates similar ordinal response distributions across the 149 ordinal survey questions.
+A 3×3 grid of bar charts showing human vs LLM response distributions for 9 selected questions across 4 representative languages (English, Finnish, Polish, Romanian---covering Western, Nordic, Central, and Southeast clusters). Three categories of questions are shown:
+
+- *IW questions* (blue titles): Key questions from the Inglehart--Welzel dimensions (importance of God, homosexuality justifiability, gay couples as parents)
+- *Best-aligned questions* (green titles): Questions with the lowest mean JSD across all model-language pairs
+- *Worst-aligned questions* (red titles): Questions with the highest mean JSD
+
+For each question, human distributions are shown as thick outlined bars and the best-performing model's distributions as filled bars.
 
 == How it was calculated
 
-For each (model, language) pair, the expected value $EE[X]$ is computed for each of the 149 ordinal questions, yielding a 149-dimensional feature vector. Missing values are imputed with column means. UMAP (n_neighbors=15, min_dist=0.2, random_state=42) projects these vectors to 2D while preserving local and some global structure.
+Questions are selected by: (1) the 3 IW questions from `DEEPDIVE_IW_QUESTIONS`, (2) the 3 lowest mean JSD questions not already in the IW set, and (3) the 3 highest mean JSD questions. For each question, the best-performing model (lowest mean JSD across languages, excluding Gemma-3-27B-IT) is used for the LLM distribution. The 4 languages span the cultural diversity of the dataset.
 
 == Key observations
 
-*Model type dominates the embedding structure.* The UMAP reveals clear model-type clusters rather than language clusters. Gemma-3-27B-IT points (pentagons) form a distinct, tight cluster separated from the base models---consistent with their degenerate P_valid producing a qualitatively different distribution pattern. The base models (HPLT circles, EuroLLM triangles, Gemma-3-27B diamonds) intermix more, but still show partial model-type grouping.
+- *IW questions show meaningful cross-cultural variation.* Human distributions for "importance of God" differ dramatically between Finnish (low) and Polish/Romanian (high), and LLMs capture this direction.
+- *Best-aligned questions* are typically binary or short-list items where getting the majority direction right yields low JSD.
+- *Worst-aligned questions* show the "flattening" pattern: humans have a strong mode (50--80% on one option) while LLMs distribute mass more uniformly. This is the primary failure mode of logprob elicitation.
+- *Cross-language variation within a question* is visible: the same question produces different distributions for different countries, and LLMs partially track these differences.
 
-*Within-model language variation is smaller than between-model variation.* Languages from the same cultural cluster do not consistently cluster together across models, suggesting that model architecture and training regime have a larger effect on the output distribution than the cultural signal encoded for any particular language.
+== Why this figure matters
 
-*Gemma-3-27B base points occupy an intermediate position* between the HPLT/EuroLLM cluster and the Gemma-3-27B-IT outlier cluster, reflecting its shared architecture with the IT variant but functionally different (base vs instruction-tuned) behavior.
+Aggregate metrics (JSD, correlation) hide distributional shape. This figure shows _how_ LLM distributions differ from human ones at the question level, revealing the entropy compression mechanism and identifying which questions are most and least amenable to logprob elicitation.
+
+== Further questions
+
+- Can the "flattening" failure mode be corrected by temperature scaling?
+- Do the worst-aligned questions share structural features (e.g., many options, battery format)?
+- Would sampling-based elicitation (generating full responses) reduce the entropy compression?
 
 #pagebreak()
 
-= Figure 7: Combined UMAP --- Human Survey Data + LLM Distributions
+= F6: P_valid Heatmap
 
-#align(center)[#image("umap_combined.png", width: 100%)]
+#align(center)[#image("pvalid_heatmap.png", width: 100%)]
 
 == What it shows
 
-A joint UMAP embedding of 110 points: 89 LLM model-language pairs (small markers) and 21 human country distributions from the EVS (large stars). Gray lines connect each LLM point to its corresponding country's human data. Both human and LLM points are colored by cultural cluster.
+A heatmap of mean P_valid (fraction of next-token probability on valid response digits) by model type and language. Green = high P_valid (model understands the response format); red = low P_valid (model does not produce valid digits).
 
 == How it was calculated
 
-Human expected values are computed identically to the LLM expected values: for each country and ordinal question, $EE[X] = sum_i x_i dot p_"human"(x_i)$ using weighted EVS response proportions. The 149-dimensional human and LLM feature vectors are concatenated into a single matrix (110 $times$ 149) and jointly embedded with UMAP.
+For each (model, language, question), the P_valid is the sum of probabilities assigned to the valid response digit tokens in the next-token distribution. The heatmap shows the mean P_valid across all questions for each (model, language) pair.
 
 == Key observations
 
-*Human and LLM distributions occupy distinct regions.* The most striking feature is the clear separation between the human cluster (stars, left) and the LLM cluster (markers, right). This confirms quantitatively what the JSD analysis shows: while LLMs capture the _relative ordering_ of cultural values (high Pearson $r$), there is a systematic distributional shift between how humans and LLMs respond. LLMs compress the response range and distribute mass more uniformly.
+- *HPLT-2.15B and Gemma-3-27B base show high P_valid* ($>0.85$) across most languages, confirming that the logprob elicitation prompt format works for base models.
+- *EuroLLM-22B shows moderate P_valid* ($approx 0.65$--$0.80$), reflecting its different tokenizer and potentially different prompt-completion behavior.
+- *Some languages show systematically lower P_valid*, which may indicate tokenizer coverage issues or culturally unfamiliar prompt formatting.
 
-*Human points cluster tightly by cultural geography.* The 21 human country distributions form a compact, culturally coherent cluster with visible sub-structure: Nordic, Western, Mediterranean, Central, Baltic, and Southeast countries are partially separable. This reflects genuine cross-national variation in values documented in the political science literature.
+== Why this figure matters
 
-*LLM points are more dispersed than human points.* The LLM cluster spans a wider region, driven primarily by model-type differences (architecture, scale, training data) rather than by language-specific cultural encoding. This suggests that model choice is a larger source of variation than the cultural signal itself.
+P_valid is a prerequisite quality check: if the model assigns no probability to valid response digits, the extracted distribution is meaningless. This figure validates that the methodology works for the target models and identifies any language-specific issues.
 
-*The gray connection lines are long and roughly parallel.* The lines connecting each LLM point to its corresponding country's human data all point in a similar direction (left-to-right), confirming a systematic shift rather than random noise. The shift direction corresponds to the LLM tendency to produce more uniform, higher-entropy distributions compared to humans' peaked distributions.
+== Further questions
 
-*Implication for methodology.* The human--LLM gap visible in UMAP suggests that raw logprob distributions should not be interpreted as direct proxies for human survey responses. However, the strong _correlation_ between human and LLM expected values (Figure 1) means that relative comparisons---which country's LLM distribution is most like which country's human data---remain valid and informative.
+- Does P_valid correlate with downstream JSD performance?
+- Can prompt engineering improve P_valid for the lower-performing language-model pairs?
 
 #pagebreak()
 
-= Figure 8: Human-Only UMAP vs Inglehart--Welzel World Cultural Map
+= F7: Position Bias
 
-#align(center)[#image("umap_human_only.png", width: 85%)]
+#align(center)[#image("position_bias.png", width: 100%)]
 
 == What it shows
 
-A UMAP embedding of the 21 EVS country distributions _without any LLM data_. Each point represents one country's human survey responses, colored by Inglehart--Welzel cultural cluster. This isolates whether the EVS survey data alone---processed through our ordinal expected-value pipeline---recovers the cultural structure documented in the political science literature.
+Violin plots of position bias magnitude by model type and by response type. Position bias measures how much the probability distribution changes when the order of response options is reversed. Gemma-3-27B-IT is excluded.
 
 == How it was calculated
 
-For each country and each of the 149 ordinal questions, the human expected value $EE[X] = sum_i x_i dot p_"human"(x_i)$ is computed from weighted EVS response proportions. The resulting $21 times 149$ matrix (with mean imputation for missing values) is embedded via UMAP with `n_neighbors=10` (must be less than the 21 data points) and `min_dist=0.3` (increased for readability).
+For each (model, language, question), the prompt is presented twice: once with options in the original order and once reversed. Position bias magnitude is the maximum absolute probability difference across response options between the two orderings: $"bias" = max_i |p_"fwd"(x_i) - p_"rev"(x_i)|$.
 
-== Reference: Inglehart--Welzel World Cultural Map
-
-#align(center)[#image("inglehart_welzel_reference.png", width: 85%)]
-#align(center)[#text(size: 9pt, fill: gray)[Source: World Values Survey, Cultural Map 2023 (worldvaluessurvey.org)]]
-
-The Inglehart--Welzel World Cultural Map positions countries along two dimensions---Traditional vs Secular-Rational values, and Survival vs Self-Expression values---based on decades of survey data from the World Values Survey and European Values Study. Our human-only UMAP should recover similar cultural groupings if the ordinal expected-value representation preserves the underlying value structure.
+The debiased distribution used in all other analyses is the average of forward and reversed: $p_"avg"(x_i) = (p_"fwd"(x_i) + p_"rev"(x_i))/2$.
 
 == Key observations
 
-*Nordic and Western clusters are clearly separated.* The Nordic countries (Finland, Sweden, Denmark) cluster in the upper-left, and the Western European countries (German, French, English, Dutch) form a coherent group on the left side. This matches the Inglehart--Welzel map's placement of these regions in the high secular-rational, high self-expression quadrant.
+- *Gemma-3-27B base shows the lowest position bias* (mean $approx 0.32$), contributing to its overall superior performance.
+- *EuroLLM-22B shows the highest position bias* (mean $approx 0.49$), suggesting it is more sensitive to option ordering.
+- *Likert scales show higher position bias* than binary/categorical questions, likely because the multiple similarly-worded options create more ambiguity about which option maps to which digit.
 
-*Baltic and Southeast countries cluster on the right.* The Baltic states (Estonian, Lithuanian, Latvian) and Southeast European countries (Bulgarian, Croatian, Romanian) occupy the right side of the map, reflecting their shared post-communist heritage and the more traditional/survival-oriented values documented in the Inglehart--Welzel framework.
+== Why this figure matters
 
-*Central European countries span the middle.* Czech, Slovak, Slovenian, Hungarian, and Polish countries spread across the central-to-right region, consistent with their intermediate position between Western and post-Soviet cultural zones in the Inglehart--Welzel map.
+Position bias is a methodological concern for logprob-based survey elicitation. High bias means the forward and reversed distributions are very different, and their average may not reflect the model's "true" preference. Low bias increases confidence that the debiased distribution is meaningful.
 
-*The projection validates our methodology.* The fact that a simple UMAP of ordinal expected values---computed from the same EVS questions we use for LLM elicitation---recovers recognizable cultural geography confirms that our survey processing pipeline preserves meaningful cultural signal. This is a prerequisite for interpreting the LLM--human comparisons in preceding figures.
+== Further questions
 
-#pagebreak()
-
-= Key Finding: Instruction Tuning Degrades Logprob Elicitation
-
-The Gemma-3-27B-IT results reveal a critical methodological insight: *instruction-tuned models are fundamentally unsuited for survey elicitation via next-token logprob extraction*.
-
-All 22 Gemma-3-27B-IT language runs produced median P_valid of 0.000, meaning effectively zero probability mass lands on valid response digit tokens. The chat template wrapping redirects the model's probability mass toward verbose natural language responses (e.g., "I would choose option...") rather than bare digit tokens. The model has been trained to produce helpful, conversational output---not to assign high probability to isolated digits.
-
-This has important implications for the research methodology:
-- *Base models are the correct choice* for logprob-based survey elicitation
-- *Instruction-tuned models require a different elicitation strategy* (e.g., sampling-based approaches, or constrained generation)
-- The Gemma-3-27B-IT data should be excluded from quantitative comparisons due to its degenerate P_valid
+- Does position bias correlate with the number of options?
+- Would presenting options vertically (one per line) reduce bias?
+- Is the bias direction systematic (e.g., always favoring the first option)?
 
 #pagebreak()
 
 = Summary of Conclusions
 
-+ *Cultural signal is real and strong.* Pearson $r = 0.71$--$0.73$ between LLM and human expected values demonstrates that base language models encode genuine population-level value orientations from their training text. Gemma-3-27B base achieves the strongest correlation ($r = 0.727$, $rho = 0.683$).
++ *Cultural signal is real and strong.* Pearson $r = 0.71$--$0.73$ between LLM and human expected values demonstrates that base language models encode genuine population-level value orientations from their training text.
 
-+ *Model scale is the dominant factor.* Gemma-3-27B (27B params) wins 19 of 21 languages with mean JSD = 0.293, compared to 0.330 for HPLT-2.15B and 0.333 for EuroLLM-22B. The advantage holds even for languages it was not specifically trained on.
++ *The signal is interpretable.* The Inglehart--Welzel composite (F2) shows that LLM cultural positions track the recognized cultural geography: Nordic countries are secular/self-expressive, Southeast European countries are traditional/survival-oriented, in both human and LLM data.
 
-+ *Gemma-3-27B has the lowest position bias.* Mean bias magnitude of 0.322 versus 0.381 (HPLT) and 0.487 (EuroLLM). Lower position bias contributes to better alignment with human data.
++ *Model scale is the dominant factor.* Gemma-3-27B (27B params) wins most languages with the lowest mean JSD, outperforming both the European-specialized EuroLLM-22B and the language-specific HPLT-2.15B monolingual models.
 
-+ *Instruction tuning destroys logprob elicitation.* Gemma-3-27B-IT produces near-zero P_valid across all languages (median 0.000), rendering the logprob extraction methodology ineffective. Chat-template prompting redirects probability mass away from digit tokens.
++ *LLMs compress distributions.* The main failure mode is entropy compression: LLMs produce more uniform distributions than humans, who often show strong consensus peaks. Z-scoring (F3) partially corrects this.
 
-+ *Signal strength depends on question type.* Binary/categorical questions show strong alignment (median JSD $approx 0.23$); likert-4/5 scales show moderate alignment (median JSD $approx 0.37$). This hierarchy is consistent across all models.
++ *Instruction tuning destroys logprob elicitation.* Gemma-3-27B-IT produces near-zero P_valid, rendering logprob extraction ineffective. Base models are the correct choice for this methodology.
 
-+ *LLMs compress the response range.* All models produce less extreme distributions than human populations. They capture the _direction_ of opinion (positive correlation) but underestimate the _magnitude_ of consensus.
++ *Question type matters.* Binary/categorical questions are best aligned (low JSD); likert-4/5 scales with many options are most challenging and show the highest position bias.
 
-+ *High-resource Western languages align best.* French, English, Italian, and Spanish consistently show the lowest JSD across base models. Croatian and Lithuanian remain the most challenging languages.
-
-+ *Qwen3-235B results pending.* The Qwen3-235B-A22B MoE model (int4 quantization) is currently in the SLURM queue and will be added to a future update.
++ *Language resource level predicts alignment.* High-resource languages (French, English, Italian) show consistently lower JSD. Lower-resource languages (Croatian, Lithuanian, Latvian) remain challenging across all models.

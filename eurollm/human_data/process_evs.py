@@ -260,9 +260,21 @@ def main():
         default=str(PROJECT_ROOT / "human_data" / "data" / "human_distributions.parquet"),
         help="Output parquet path"
     )
+    parser.add_argument(
+        "--db", default=None,
+        help="Path to survey.db (also write human data to DB)"
+    )
     args = parser.parse_args()
 
     process_evs(args.input, args.questions, args.output)
+
+    if args.db:
+        from db.populate import populate_human_data
+        from db.schema import get_connection
+        print(f"\nImporting to database: {args.db}")
+        conn = get_connection(args.db)
+        populate_human_data(conn, args.output)
+        conn.close()
 
 
 if __name__ == "__main__":

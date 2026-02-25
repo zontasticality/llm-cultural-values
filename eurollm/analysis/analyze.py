@@ -36,7 +36,7 @@ from sklearn.manifold import TSNE
 from analysis.constants import (
     LANG_NAMES, CULTURAL_CLUSTERS, LANG_TO_CLUSTER, CLUSTER_COLORS,
     MODEL_COLORS, MODEL_LABELS, MODEL_MARKERS, MODEL_SIZES, MODEL_SIZES_SMALL,
-    ORDINAL_TYPES,
+    ORDINAL_TYPES, MODELS_EXCLUDE,
 )
 
 
@@ -62,8 +62,14 @@ ISSUE_TYPE_COLORS = {
 
 # ── Data Loading ─────────────────────────────────────────────────────────────
 
-def load_all_results(results_dir: Path) -> pd.DataFrame:
-    """Load all parquet files from results_dir, adding model_type and lang columns."""
+def load_all_results(results_dir: Path, db_path: str | None = None) -> pd.DataFrame:
+    """Load results, from DB if db_path given, else from parquet files."""
+    if db_path:
+        from db.load import load_results
+        df = load_results(db_path)
+        print(f"Loaded {len(df)} rows from {db_path}")
+        return df
+
     frames = []
     for path in sorted(results_dir.glob("*.parquet")):
         if "rephrase" in path.stem:
@@ -420,7 +426,7 @@ def plot_jsd_heatmap(matrix: np.ndarray, labels: list[str], figures_dir: Path):
 
     # Short labels with full language names
     model_prefixes = {
-        "hplt2c": "H", "eurollm22b": "E", "qwen2572b": "Q",
+        "hplt2c": "H", "eurollm22b": "E",
         "gemma3_27b_pt": "G", "gemma3_27b_it": "Gi", "qwen3235b": "Q3",
     }
 
@@ -608,12 +614,14 @@ def plot_example_distributions(df: pd.DataFrame, questions: dict,
                 values = sub["response_value"].values
 
                 model_linestyles = {
-                    "hplt2c": "-", "eurollm22b": "--", "qwen2572b": ":",
-                    "gemma3_27b_pt": "-.", "gemma3_27b_it": (0, (3, 1, 1, 1)), "qwen3235b": (0, (5, 1)),
+                    "hplt2c": "-", "eurollm22b": "--",
+                    "gemma3_27b_pt": "-.", "gemma3_27b_it": (0, (3, 1, 1, 1)),
+                    "qwen3235b": (0, (5, 1)),
                 }
                 model_short = {
-                    "hplt2c": "H", "eurollm22b": "E", "qwen2572b": "Q",
-                    "gemma3_27b_pt": "G", "gemma3_27b_it": "Gi", "qwen3235b": "Q3",
+                    "hplt2c": "H", "eurollm22b": "E",
+                    "gemma3_27b_pt": "G", "gemma3_27b_it": "Gi",
+                    "qwen3235b": "Q3",
                 }
                 linestyle = model_linestyles.get(mt, "-.")
                 display_name = LANG_NAMES.get(lang, lang)
@@ -984,7 +992,8 @@ def cmd_quality(df, questions, figures_dir):
 
 def cmd_bias(df, questions, figures_dir):
     print("\n── Position Bias Analysis ──")
-    bias = compute_bias_report(df, questions)
+    df_filtered = df[~df["model_type"].isin(MODELS_EXCLUDE)]
+    bias = compute_bias_report(df_filtered, questions)
     plot_bias_distribution(bias, figures_dir)
 
 
@@ -1384,7 +1393,7 @@ def main():
     parser = argparse.ArgumentParser(description="LLM Cultural Values Analysis")
     parser.add_argument("command", choices=[
         "quality", "bias", "summary", "distance", "pca", "tsne", "umap",
-        "examples", "rephrase", "all",
+        "examples", "rephrase", "figures", "all",
     ])
     PROJECT_ROOT = Path(__file__).resolve().parent.parent
     parser.add_argument("--results-dir", type=Path,
@@ -1395,18 +1404,36 @@ def main():
                         default=PROJECT_ROOT / "figures")
     parser.add_argument("--rephrasings", type=Path,
                         default=PROJECT_ROOT / "data" / "rephrasings.json")
+    parser.add_argument("--db", type=str, default=None,
+                        help="Path to survey.db (loads from DB instead of parquet files)")
     args = parser.parse_args()
 
     args.figures_dir.mkdir(parents=True, exist_ok=True)
 
     # The rephrase command has its own data loading path
     if args.command == "rephrase":
-        cmd_rephrase(args.results_dir, args.figures_dir, args.rephrasings)
+        if args.db:
+            from db.load import load_rephrase_results as load_rephrase_db
+            rdf = load_rephrase_db(args.db)
+            if rdf.empty:
+                print("ERROR: No rephrase results in DB")
+                return
+            meta = load_rephrasings_metadata(args.rephrasings)
+            metrics = compute_rephrase_metrics(rdf, meta)
+            if metrics.empty:
+                print("ERROR: No metrics computed")
+                return
+            print_rephrase_summary(metrics)
+            plot_rephrase_jsd(metrics, args.figures_dir)
+            plot_rephrase_pvalid(metrics, args.figures_dir)
+        else:
+            cmd_rephrase(args.results_dir, args.figures_dir, args.rephrasings)
         print("\nDone!")
         return
 
-    print(f"Loading data from {args.results_dir}...")
-    df = load_all_results(args.results_dir)
+    source = args.db or args.results_dir
+    print(f"Loading data from {source}...")
+    df = load_all_results(args.results_dir, db_path=args.db)
     questions = load_question_metadata(args.questions)
     print(f"Loaded metadata for {len(questions)} questions")
 
@@ -1421,9 +1448,12 @@ def main():
         "examples": cmd_examples,
     }
 
-    if args.command == "all":
-        df = cmd_quality(df, questions, args.figures_dir)
-        cmd_bias(df, questions, args.figures_dir)
+    if args.command == "figures":
+        # Run only the 7 main figures (F1-F5 from compare_to_human, F6-F7 from here)
+        _run_main_figures(df, questions, args)
+    elif args.command == "all":
+        _run_main_figures(df, questions, args)
+        # Supplementary
         cmd_summary(df, questions, args.figures_dir)
         cmd_distance(df, questions, args.figures_dir)
         cmd_pca(df, questions, args.figures_dir)
@@ -1438,7 +1468,100 @@ def main():
         if args.command == "quality" and result is not None:
             df = result
 
+    # Organize into subdirectories
+    _organize_figures(args.figures_dir)
+
     print("\nDone!")
+
+
+def _run_main_figures(df, questions, args):
+    """Run the 7 main paper figures."""
+    import shutil
+
+    # F1-F5: from compare_to_human
+    from analysis.compare_to_human import (
+        load_llm_results, load_question_metadata as load_qmeta_ch,
+        build_distributions, compute_jsd_per_question, run_figure,
+    )
+    if args.db:
+        from db.load import load_human_distributions
+        human_df = load_human_distributions(args.db)
+    else:
+        PROJECT_ROOT = Path(__file__).resolve().parent.parent
+        human_path = PROJECT_ROOT / "human_data" / "data" / "human_distributions.parquet"
+        human_df = pd.read_parquet(human_path)
+
+    llm_dists = build_distributions(
+        df, "prob_averaged", ["model_type", "lang", "question_id"]
+    )
+    human_dists = build_distributions(
+        human_df, "prob_human", ["lang", "question_id"]
+    )
+
+    jsd_df = compute_jsd_per_question(llm_dists, human_dists, questions)
+    print(f"\n  Computed {len(jsd_df)} JSD values for main figures")
+
+    run_figure("all", jsd_df, llm_dists, human_dists, questions, args.figures_dir)
+
+    # F6: P_valid heatmap
+    print("\n── F6: P_valid Heatmap ──")
+    df_q = cmd_quality(df, questions, args.figures_dir)
+
+    # F7: Position bias (filtered)
+    print("\n── F7: Position Bias ──")
+    cmd_bias(df_q if df_q is not None else df, questions, args.figures_dir)
+
+
+def _organize_figures(figures_dir: Path):
+    """Copy generated figures into main/supplementary/diagnostic subdirectories."""
+    import shutil
+
+    main_dir = figures_dir / "main"
+    supp_dir = figures_dir / "supplementary"
+    diag_dir = figures_dir / "diagnostic"
+    main_dir.mkdir(exist_ok=True)
+    supp_dir.mkdir(exist_ok=True)
+    diag_dir.mkdir(exist_ok=True)
+
+    # Main figures (F1-F7)
+    main_files = {
+        "F1_human_fitted_umap.png": "F1_human_fitted_umap.png",
+        "F2_inglehart_welzel.png": "F2_inglehart_welzel.png",
+        "F3_ev_scatter.png": "F3_ev_scatter.png",
+        "F4_jsd_heatmap.png": "F4_jsd_heatmap.png",
+        "F5_deepdive.png": "F5_deepdive.png",
+        "pvalid_heatmap.png": "F6_pvalid_heatmap.png",
+        "position_bias.png": "F7_position_bias.png",
+    }
+    for src_name, dst_name in main_files.items():
+        src = figures_dir / src_name
+        if src.exists():
+            shutil.copy2(src, main_dir / dst_name)
+
+    # Supplementary
+    supp_files = [
+        "rephrase_jsd.png", "rephrase_pvalid.png",
+        "human_jsd_by_qtype.png", "human_model_comparison.png",
+        "jsd_heatmap.png", "umap_human_only.png",
+        "umap_combined.png", "umap_cultural_map.png",
+        "human_best_worst.png", "human_scatter_ev.png",
+    ]
+    for name in supp_files:
+        src = figures_dir / name
+        if src.exists():
+            shutil.copy2(src, supp_dir / name)
+
+    # Diagnostic
+    diag_files = [
+        "pca_cultural_map.png", "tsne_cultural_map.png",
+        "example_distributions.png",
+    ]
+    for name in diag_files:
+        src = figures_dir / name
+        if src.exists():
+            shutil.copy2(src, diag_dir / name)
+
+    print(f"\n  Organized figures into main/, supplementary/, diagnostic/")
 
 
 if __name__ == "__main__":

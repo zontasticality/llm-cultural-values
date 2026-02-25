@@ -11,7 +11,9 @@ eurollm/.venv/
 
 # Generated results (regenerate with SLURM jobs)
 eurollm/results/
-eurollm/figures/
+# Figures: ignore flat-dir generated PNGs, keep organized subdirs + report
+eurollm/figures/*.png
+!eurollm/figures/inglehart_welzel_reference.png
 eurollm/figures copy/
 eurollm/human_comparison.parquet
 eurollm/jsd_matrix.npz

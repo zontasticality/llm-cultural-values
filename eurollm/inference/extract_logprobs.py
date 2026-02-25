@@ -539,20 +539,156 @@ def load_model(model_id: str, dtype: str = "bf16"):
     return model, tokenizer
 
 
+def run_from_db(
+    model_id: str,
+    model_hf_id: str,
+    db_path: str,
+    dtype: str = "bf16",
+    batch_size: int = 50,
+    limit: int | None = None,
+    lang: str | None = None,
+    config: str | None = None,
+):
+    """Run inference using prompts from the SQLite database.
+
+    Queries unevaluated prompts for the given model, runs logprob extraction,
+    and writes results back to the evaluations table. Commits every batch_size
+    prompts for resumability on preemption.
+
+    Args:
+        model_id: Model ID as registered in the models table.
+        model_hf_id: HuggingFace model ID for loading.
+        db_path: Path to survey.db.
+        dtype: Model precision.
+        batch_size: Commit interval (prompts between commits).
+        limit: Max prompts to process (None = all).
+        lang: Filter to specific language (None = all).
+        config: Filter to specific prompt config (None = all).
+    """
+    from db.schema import get_connection
+    from db.load import load_unevaluated_prompts
+
+    # Check if model is registered
+    conn = get_connection(db_path)
+    model_row = conn.execute(
+        "SELECT chat_template FROM models WHERE model_id = ?", (model_id,)
+    ).fetchone()
+    if model_row is None:
+        print(f"ERROR: model_id '{model_id}' not found in models table. "
+              f"Register it first via db.populate.register_model().")
+        conn.close()
+        return
+    use_chat_template = bool(model_row[0])
+    conn.close()
+
+    # Load unevaluated prompts (don't filter by chat_template — that's a model
+    # concern applied at runtime, not a prompt property)
+    unevaluated = load_unevaluated_prompts(
+        db_path, model_id, lang=lang, config=config,
+    )
+    total = len(unevaluated)
+    if total == 0:
+        print(f"No unevaluated prompts for model '{model_id}'")
+        return
+    if limit:
+        unevaluated = unevaluated.head(limit)
+    print(f"Found {total} unevaluated prompts for '{model_id}'"
+          f"{f' (processing first {limit})' if limit else ''}")
+
+    # Load model
+    model, tokenizer = load_model(model_hf_id, dtype)
+    t0 = time.time()
+    token_map = TokenMap.from_tokenizer(tokenizer)
+    print(f"Token map built in {time.time() - t0:.1f}s")
+
+    # Process prompts — accumulate results in memory, then batch-write.
+    # This keeps the DB write lock held only during the brief INSERT+COMMIT,
+    # not during slow GPU compute, allowing concurrent writers.
+    conn = get_connection(db_path)
+    processed = 0
+    batch_results = []
+    t_start = time.time()
+
+    for idx, row in unevaluated.iterrows():
+        prompt_id = row["prompt_id"]
+        valid_values = json.loads(row["valid_values"])
+        value_map = json.loads(row["value_map"])
+        is_likert10 = bool(row["is_likert10"])
+
+        formatted = {
+            "prompt": row["prompt_text"],
+            "valid_values": valid_values,
+            "value_map": value_map,
+            "is_likert10": is_likert10,
+        }
+
+        logprobs, p_valid = extract_logprobs_for_question(
+            model, tokenizer, token_map, formatted,
+            chat_template=use_chat_template,
+        )
+        probs_raw = renormalize(logprobs)
+        probs = remap_reversed(probs_raw, value_map)
+
+        # Accumulate results in memory (no DB lock held)
+        for val_str, prob in probs.items():
+            batch_results.append(
+                (prompt_id, model_id, int(val_str), prob, p_valid)
+            )
+
+        processed += 1
+        if processed == 1:
+            print(f"  First prompt took {time.time() - t_start:.2f}s")
+        if processed % batch_size == 0:
+            # Brief DB write — lock held only for milliseconds
+            conn.executemany(
+                """INSERT OR IGNORE INTO evaluations
+                   (prompt_id, model_id, response_value, prob, p_valid)
+                   VALUES (?, ?, ?, ?, ?)""",
+                batch_results,
+            )
+            conn.commit()
+            batch_results.clear()
+            elapsed = time.time() - t_start
+            rate = processed / elapsed
+            remaining = len(unevaluated) - processed
+            eta = remaining / rate if rate > 0 else 0
+            print(f"  Processed {processed}/{len(unevaluated)} prompts "
+                  f"({elapsed:.0f}s elapsed, {rate:.1f} p/s, ETA {eta:.0f}s) "
+                  f"[committed]")
+
+    # Flush remaining results
+    if batch_results:
+        conn.executemany(
+            """INSERT OR IGNORE INTO evaluations
+               (prompt_id, model_id, response_value, prob, p_valid)
+               VALUES (?, ?, ?, ?, ?)""",
+            batch_results,
+        )
+        conn.commit()
+    conn.close()
+
+    elapsed = time.time() - t_start
+    print(f"\nProcessed {processed} prompts in {elapsed:.0f}s "
+          f"({processed / elapsed:.1f} p/s)")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Extract survey response distributions from a base LM"
     )
+    subparsers = parser.add_subparsers(dest="subcommand")
+
+    # Legacy subcommand (default when no subcommand given)
     parser.add_argument(
-        "--model_id", required=True,
+        "--model_id",
         help="HuggingFace model ID (e.g. HPLT/hplt2c_eng_checkpoints)"
     )
     parser.add_argument(
-        "--lang", required=True,
+        "--lang",
         help="Language code (e.g. eng, deu)"
     )
     parser.add_argument(
-        "--output", required=True,
+        "--output",
         help="Output parquet file path"
     )
     parser.add_argument(
@@ -579,7 +715,60 @@ def main():
         "--chat-template", action="store_true",
         help="Wrap prompts with tokenizer.apply_chat_template() (for instruction-tuned models)"
     )
+
+    # DB subcommand
+    db_parser = subparsers.add_parser("db", help="Run inference from SQLite database")
+    db_parser.add_argument(
+        "--model_id", required=True,
+        help="Model ID as registered in DB (e.g. hplt2c_eng)"
+    )
+    db_parser.add_argument(
+        "--model_hf_id", required=True,
+        help="HuggingFace model ID for loading"
+    )
+    db_parser.add_argument(
+        "--db", required=True,
+        help="Path to survey.db"
+    )
+    db_parser.add_argument(
+        "--dtype", default="bf16", choices=["bf16", "int4", "int8", "fp8"],
+        help="Model precision"
+    )
+    db_parser.add_argument(
+        "--batch-size", type=int, default=50,
+        help="Commit interval (default: 50 prompts)"
+    )
+    db_parser.add_argument(
+        "--limit", type=int, default=None,
+        help="Max prompts to process (default: all)"
+    )
+    db_parser.add_argument(
+        "--lang", default=None,
+        help="Filter to specific language"
+    )
+    db_parser.add_argument(
+        "--config", default=None,
+        help="Filter to specific prompt config name"
+    )
+
     args = parser.parse_args()
+
+    if args.subcommand == "db":
+        run_from_db(
+            model_id=args.model_id,
+            model_hf_id=args.model_hf_id,
+            db_path=args.db,
+            dtype=args.dtype,
+            batch_size=args.batch_size,
+            limit=args.limit,
+            lang=args.lang,
+            config=args.config,
+        )
+        return
+
+    # Legacy mode — require --model_id, --lang, --output
+    if not args.model_id or not args.lang or not args.output:
+        parser.error("Legacy mode requires --model_id, --lang, and --output")
 
     # Load questions
     PROJECT_ROOT = Path(__file__).resolve().parent.parent

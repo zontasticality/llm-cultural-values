@@ -19,6 +19,9 @@ eurollm/human_comparison.parquet
 eurollm/jsd_matrix.npz
 eurollm/summary_stats.parquet
 
+# CSV exports (regenerate from survey.db)
+eurollm/data/exports/
+
 # SLURM logs
 eurollm/logs/
 

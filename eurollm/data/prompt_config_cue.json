@@ -1,0 +1,10 @@
+{
+  "_comment": "Cue-hint config: native-language 'Answer with a number from 1-N' as answer cue",
+  "default": {
+    "cue_style": "lang",
+    "opt_format": "numbered_dot",
+    "scale_hint": "cue",
+    "embed_style": "separate",
+    "n_perms": 6
+  }
+}

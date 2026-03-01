@@ -284,10 +284,18 @@ def get_format_kwargs(prompt_config: dict, response_type: str) -> dict:
     cfg.update(overrides)
     # Remove n_perms — handled separately
     cfg.pop("n_perms", None)
+    # Normalize scale_hint: bool/str → canonical str
+    raw_hint = cfg.get("scale_hint", False)
+    if raw_hint is True or raw_hint == "True":
+        scale_hint = "english"
+    elif raw_hint is False or raw_hint == "False":
+        scale_hint = "none"
+    else:
+        scale_hint = str(raw_hint)  # "english", "cue", "none" passthrough
     return {
         "cue_style": cfg.get("cue_style", "lang"),
         "opt_format": cfg.get("opt_format", "numbered_dot"),
-        "scale_hint": cfg.get("scale_hint", False),
+        "scale_hint": scale_hint,
         "embed_style": cfg.get("embed_style", "separate"),
     }
 

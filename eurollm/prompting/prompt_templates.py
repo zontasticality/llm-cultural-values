@@ -9,6 +9,34 @@ import re
 from pathlib import Path
 
 # Patterns to strip from question text
+# Native-language "Answer with a number from 1 to {n}:" translations
+# Used by scale_hint="cue" mode to replace the answer cue line
+ANSWER_NUMBER_CUES = {
+    "bul": "Отговорете с число от 1 до {n}",
+    "ces": "Odpovězte číslem od 1 do {n}",
+    "dan": "Svar med et tal fra 1 til {n}",
+    "deu": "Antworten Sie mit einer Zahl von 1 bis {n}",
+    "ell": "Απαντήστε με έναν αριθμό από 1 έως {n}",
+    "eng": "Answer with a number from 1 to {n}",
+    "est": "Vastake arvuga 1 kuni {n}",
+    "fin": "Vastaa numerolla 1–{n}",
+    "fra": "Répondez avec un nombre de 1 à {n}",
+    "hrv": "Odgovorite brojem od 1 do {n}",
+    "hun": "Válaszoljon egy számmal 1-től {n}-ig",
+    "ita": "Rispondi con un numero da 1 a {n}",
+    "lit": "Atsakykite skaičiumi nuo 1 iki {n}",
+    "lvs": "Atbildiet ar skaitli no 1 līdz {n}",
+    "nld": "Antwoord met een getal van 1 tot {n}",
+    "pol": "Odpowiedz liczbą od 1 do {n}",
+    "por": "Responda com um número de 1 a {n}",
+    "ron": "Răspundeți cu un număr de la 1 la {n}",
+    "slk": "Odpovedzte číslom od 1 do {n}",
+    "slv": "Odgovorite s številko od 1 do {n}",
+    "spa": "Responda con un número del 1 al {n}",
+    "swe": "Svara med ett tal från 1 till {n}",
+}
+
+# Patterns to strip from question text
 _INTERVIEWER_PATTERNS = [
     r"\bREAD\s*OUT\b[^.]*\.?",
     r"\bSHOWCARD\b[^.]*\.?",
@@ -289,14 +317,21 @@ def _build_prompt(
     opt_lines: list[str],
     cue_style: str,
     answer_cue: str,
-    scale_hint: bool,
+    scale_hint: str,
     embed_style: str,
     n: int,
+    lang: str = "eng",
 ) -> str:
-    """Assemble prompt from components with configurable formatting."""
+    """Assemble prompt from components with configurable formatting.
+
+    Args:
+        scale_hint: "english" (prepend "On a scale of 1 to N:"),
+                    "cue" (native-language answer cue replaces answer_cue),
+                    "none" (no hint).
+    """
     parts = []
 
-    if scale_hint:
+    if scale_hint == "english":
         parts.append(f"On a scale of 1 to {n}:")
 
     if embed_style == "inline":
@@ -308,7 +343,11 @@ def _build_prompt(
 
     body = "\n".join(parts)
 
-    if cue_style == "answer":
+    if scale_hint == "cue":
+        # Native-language answer cue with number range
+        cue_text = ANSWER_NUMBER_CUES.get(lang, ANSWER_NUMBER_CUES["eng"])
+        return body + f"\n{cue_text.format(n=n)}: "
+    elif cue_style == "answer":
         return body + "\nAnswer: "
     elif cue_style == "none":
         return body + "\n"
@@ -322,7 +361,7 @@ def format_prompt_custom(
     permutation: list[int],
     cue_style: str = "lang",
     opt_format: str = "numbered_dot",
-    scale_hint: bool = False,
+    scale_hint: str = "none",
     embed_style: str = "separate",
 ) -> dict:
     """Format prompt with configurable format dimensions for optimization.
@@ -334,7 +373,8 @@ def format_prompt_custom(
         cue_style: "answer" ("Answer: "), "none" (newline only), "lang" (translated cue).
         opt_format: "numbered_dot" ("1. Label"), "numbered_paren" ("1) Label"),
                     "bullet" ("- Label").
-        scale_hint: If True, prepend "On a scale of 1 to N:".
+        scale_hint: "english" (prepend "On a scale of 1 to N:"),
+                    "cue" (native-language answer cue), "none" (no hint).
         embed_style: "separate" (options on own lines) or "inline" (in parentheses).
 
     Returns same dict as format_prompt: {prompt, valid_values, value_map, is_likert10}
@@ -369,7 +409,7 @@ def format_prompt_custom(
 
     valid_values = [str(i) for i in range(1, n + 1)]
     prompt = _build_prompt(text, opt_lines, cue_style, answer_cue,
-                           scale_hint, embed_style, n)
+                           scale_hint, embed_style, n, lang=lang)
 
     return {
         "prompt": prompt,

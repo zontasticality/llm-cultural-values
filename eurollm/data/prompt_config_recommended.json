@@ -2,9 +2,9 @@
   "default": {
     "cue_style": "answer",
     "opt_format": "bullet",
-    "scale_hint": "False",
+    "scale_hint": false,
     "embed_style": "separate",
-    "n_perms": "6"
+    "n_perms": 6
   },
   "overrides_by_response_type": {
     "categorical": {

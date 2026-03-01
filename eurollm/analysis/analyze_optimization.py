@@ -12,6 +12,7 @@ Usage:
 """
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -365,7 +366,6 @@ def main():
 
     rec_path = args.figures_dir.parent / "data" / "prompt_config_recommended.json"
     rec_path.parent.mkdir(parents=True, exist_ok=True)
-    import json
     with open(rec_path, "w") as f:
         json.dump(recommendation, f, indent=2, default=str)
     print(f"\nSaved recommended config to {rec_path}")

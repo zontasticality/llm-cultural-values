@@ -17,6 +17,7 @@ Usage:
 
 import argparse
 import json
+import math
 import random
 import sys
 import time
@@ -243,7 +244,6 @@ def generate_permutations(n_options: int, k: int, question_id: str) -> list[list
     Additional permutations are random but deterministic per question.
     If n_options! < k, returns all n_options! unique permutations (capped).
     """
-    import math
     identity = list(range(n_options))
     reversed_perm = list(reversed(identity))
     perms = [identity, reversed_perm]

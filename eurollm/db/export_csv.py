@@ -23,6 +23,62 @@ from db.schema import get_connection
 from analysis.constants import LANG_NAMES
 
 
+def _build_human_rows(db_path: str) -> list[dict]:
+    """Build CSV rows from human_distributions, matching the LLM row schema.
+
+    Variance uses the multinomial sampling formula: Var(p̂) = p(1-p)/n.
+    """
+    conn = get_connection(db_path)
+    human = pd.read_sql_query(
+        """SELECT h.*, q.response_type
+           FROM human_distributions h
+           JOIN questions q ON h.question_id = q.question_id""",
+        conn,
+    )
+    conn.close()
+
+    if human.empty:
+        return []
+
+    rows = []
+    for (lang, qid), grp in human.groupby(["lang", "question_id"]):
+        lang_name = LANG_NAMES.get(lang, lang)
+        n_valid = grp["n_valid"].iloc[0]
+        n_respondents = grp["n_respondents"].iloc[0]
+
+        response_type = grp["response_type"].iloc[0]
+
+        row = {
+            "question_id": qid,
+            "response_type": response_type,
+            "lang": lang_name,
+            "lang_code": lang,
+            "config": "human_evs",
+            "model_id": "human_evs",
+            "model_family": "human",
+            "n_permutations": n_valid,  # sample size (meaningful analog)
+            "p_valid_mean": 1.0,
+            "p_valid_var": 0.0,
+            "prompt_text_perm0": f"EVS survey, n_respondents={n_respondents}, n_valid={n_valid}",
+        }
+
+        for i in range(1, 11):
+            match = grp[grp.response_value == i]
+            if len(match) > 0:
+                p = float(match["prob_human"].iloc[0])
+                row[f"opt{i}_val"] = i
+                row[f"opt{i}_prob_mean"] = p
+                row[f"opt{i}_prob_var"] = p * (1 - p) / n_valid if n_valid > 0 else 0.0
+            else:
+                row[f"opt{i}_val"] = None
+                row[f"opt{i}_prob_mean"] = None
+                row[f"opt{i}_prob_var"] = None
+
+        rows.append(row)
+
+    return rows
+
+
 def export_debiased_csv(
     db_path: str,
     output_path: str,
@@ -41,12 +97,14 @@ def export_debiased_csv(
 
     query = """
         SELECT
-            p.question_id, p.lang, p.config, e.model_id, m.model_family,
+            p.question_id, q.response_type, p.lang, p.config,
+            e.model_id, m.model_family,
             p.permutation_idx, e.response_value, e.prob, e.p_valid,
             p.prompt_text
         FROM evaluations e
         JOIN prompts p ON e.prompt_id = p.prompt_id
         JOIN models m ON e.model_id = m.model_id
+        JOIN questions q ON p.question_id = q.question_id
         WHERE p.variant_id IS NULL
     """
     params: list = []
@@ -75,10 +133,10 @@ def export_debiased_csv(
 
     # Aggregate across permutations per (question, lang, model, config)
     rows = []
-    group_cols = ["question_id", "lang", "config", "model_id", "model_family"]
+    group_cols = ["question_id", "response_type", "lang", "config", "model_id", "model_family"]
 
     for group_key, grp in raw.groupby(group_cols):
-        qid, lang, config, model_id, model_family = group_key
+        qid, response_type, lang, config, model_id, model_family = group_key
         n_perms = grp["permutation_idx"].nunique()
 
         # Prompt text from identity permutation
@@ -103,6 +161,7 @@ def export_debiased_csv(
 
         row = {
             "question_id": qid,
+            "response_type": response_type,
             "lang": lang_name,
             "lang_code": lang,
             "config": config,
@@ -128,7 +187,14 @@ def export_debiased_csv(
         rows.append(row)
 
     df = pd.DataFrame(rows)
-    df = df.sort_values(["config", "question_id", "lang", "model_id"]).reset_index(drop=True)
+
+    # Append human survey data as a pseudo-model
+    human_rows = _build_human_rows(db_path)
+    if human_rows:
+        df = pd.concat([df, pd.DataFrame(human_rows)], ignore_index=True)
+        print(f"  + {len(human_rows):,} human survey rows")
+
+    df = df.sort_values(["lang", "response_type", "question_id", "config", "model_id"]).reset_index(drop=True)
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)

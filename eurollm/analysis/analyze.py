@@ -1523,13 +1523,14 @@ def _organize_figures(figures_dir: Path):
     supp_dir.mkdir(exist_ok=True)
     diag_dir.mkdir(exist_ok=True)
 
-    # Main figures (F1-F7)
+    # Main figures (report figures + F6/F7 from analyze.py)
     main_files = {
-        "F1_human_fitted_umap.png": "F1_human_fitted_umap.png",
         "F2_inglehart_welzel.png": "F2_inglehart_welzel.png",
         "F3_ev_scatter.png": "F3_ev_scatter.png",
         "F4_jsd_heatmap.png": "F4_jsd_heatmap.png",
+        "F4_jsd_distribution.png": "F4_jsd_distribution.png",
         "F5_deepdive.png": "F5_deepdive.png",
+        "F5_umap_grid.png": "F5_umap_grid.png",
         "pvalid_heatmap.png": "F6_pvalid_heatmap.png",
         "position_bias.png": "F7_position_bias.png",
     }
@@ -1544,7 +1545,7 @@ def _organize_figures(figures_dir: Path):
         "human_jsd_by_qtype.png", "human_model_comparison.png",
         "jsd_heatmap.png", "umap_human_only.png",
         "umap_combined.png", "umap_cultural_map.png",
-        "human_best_worst.png", "human_scatter_ev.png",
+        "human_scatter_ev.png",
     ]
     for name in supp_files:
         src = figures_dir / name

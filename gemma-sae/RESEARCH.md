@@ -1,75 +1,41 @@
 # Gemma SAE — Culture vs Language Feature Isolation
 
-## Background: What Gemma Scope Is
+## Background: Gemma Scope 2
 
-Gemma Scope is a suite of >400 pretrained JumpReLU Sparse Autoencoders (SAEs) covering every layer and sublayer of Gemma 2 (2B, 9B, 27B). SAEs decompose model activations into sparse, overcomplete feature sets — each feature ideally captures a single interpretable concept (monosemantic).
+Gemma Scope 2 (Dec 2025) is a comprehensive open interpretability suite for all **Gemma 3** models (270M, 1B, 4B, 12B, 27B), with SAEs and transcoders on every layer of both pretrained and instruction-tuned variants.
 
-- Paper: https://arxiv.org/abs/2408.05147
-- Weights: https://huggingface.co/google/gemma-scope
-- Interactive explorer: https://neuronpedia.org/gemma-scope
-- Tutorial notebook: https://colab.research.google.com/drive/17dQFYUYnuKnP6OwQPH9v_GSYUW5aj-Rp
+Key improvements over Gemma Scope 1:
+- **Matryoshka training** — SAEs detect more useful concepts, resolves flaws from Gemma Scope 1
+- **Transcoders & skip-transcoders** — decode multi-step computations across layers
+- **Cross-layer transcoders** — for 270M and 1B models
+- **Partial residual stream crosscoders** — for all base models
 
-### Available SAE Weight Repos
+Resources:
+- Technical paper: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/Gemma_Scope_2_Technical_Paper.pdf
+- Blog: https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/
+- Weights: https://huggingface.co/google/gemma-scope-2
+- Interactive explorer: https://www.neuronpedia.org/gemma-scope-2
+- Gemma Scope 1 paper (background): https://arxiv.org/abs/2408.05147
 
-| Repo | Model | Component |
-|------|-------|-----------|
-| `google/gemma-scope-2b-pt-res` | 2B base | Residual stream |
-| `google/gemma-scope-2b-pt-mlp` | 2B base | MLP |
-| `google/gemma-scope-2b-pt-att` | 2B base | Attention |
-| `google/gemma-scope-9b-pt-res` | 9B base | Residual stream |
-| `google/gemma-scope-9b-pt-mlp` | 9B base | MLP |
-| `google/gemma-scope-9b-pt-att` | 9B base | Attention |
-| `google/gemma-scope-27b-pt-res` | 27B base | Residual stream |
-| `google/gemma-scope-9b-it-res` | 9B instruct | Residual stream |
+### Available Gemma Scope 2 Repos (Gemma 3)
 
-Weight path format: `layer_{N}/width_{W}/average_l0_{sparsity}/params.npz`
-Width options: 16k, 32k, 65k, 131k, 262k, 524k, 1M
+| Repo | Model | Notes |
+|------|-------|-------|
+| `google/gemma-scope-2-27b-pt` | 27B base | Primary target |
+| `google/gemma-scope-2-27b-it` | 27B instruct | |
+| `google/gemma-scope-2-12b-pt` | 12B base | |
+| `google/gemma-scope-2-12b-it` | 12B instruct | |
+| `google/gemma-scope-2-4b-pt` | 4B base | Size-matched comparison |
+| `google/gemma-scope-2-4b-it` | 4B instruct | |
+| `google/gemma-scope-2-1b-pt` | 1B base | Size-matched comparison |
+| `google/gemma-scope-2-1b-it` | 1B instruct | |
 
-### Loading SAE Weights (Python)
+**Layer coverage options** (for 27B):
+- `resid_post`, `attn_out`, `mlp_out` — SAEs at 4 layers (25%, 50%, 65%, 85% depth), multiple widths & L0
+- `resid_post_all`, `attn_out_all`, `mlp_out_all`, `transcoder_all` — all layers, fewer width/L0 combos
 
-```python
-import torch
-import numpy as np
-from huggingface_hub import hf_hub_download
-
-# Download SAE params
-path = hf_hub_download(
-    repo_id="google/gemma-scope-9b-pt-res",
-    filename="layer_20/width_16k/average_l0_71/params.npz",
-    force_download=False,
-)
-params = np.load(path)
-# params contains: W_enc, W_dec, b_enc, b_dec, threshold
-
-# JumpReLU SAE
-class JumpReLUSAE(torch.nn.Module):
-    def __init__(self, d_model, d_sae):
-        super().__init__()
-        self.W_enc = torch.nn.Parameter(torch.zeros(d_model, d_sae))
-        self.W_dec = torch.nn.Parameter(torch.zeros(d_sae, d_model))
-        self.threshold = torch.nn.Parameter(torch.zeros(d_sae))
-        self.b_enc = torch.nn.Parameter(torch.zeros(d_sae))
-        self.b_dec = torch.nn.Parameter(torch.zeros(d_model))
-
-    def encode(self, input_acts):
-        pre_acts = input_acts @ self.W_enc + self.b_enc
-        mask = (pre_acts > self.threshold)
-        acts = mask * torch.nn.functional.relu(pre_acts)
-        return acts
-
-    def decode(self, acts):
-        return acts @ self.W_dec + self.b_dec
-
-    def forward(self, acts):
-        acts = self.encode(acts)
-        recon = self.decode(acts)
-        return recon
-
-# Load weights
-pt_params = {k: torch.from_numpy(v) for k, v in params.items()}
-sae = JumpReLUSAE(pt_params['W_enc'].shape[0], pt_params['W_enc'].shape[1])
-sae.load_state_dict(pt_params)
-```
+**SAE widths**: 16k, 64k, 256k, 1M
+**Target L0**: "small" (10-20), "medium" (30-60), "large" (60-150)
 
 ## Existing Work Directly Relevant to Our Intuition
 
@@ -147,70 +113,359 @@ To generate text with culture C in language L':
 h_steered = h_base + α·culture_vector(C) + β·language_vector(L') - β·language_vector(L_original)
 ```
 
-### Proposed Method
+---
 
-**Step 1: Identify language-specific features**
-- Use the monolinguality metric from Deng et al. (ACL 2025)
-- Feed parallel text in N languages through Gemma 2
-- For each SAE feature, compute ν_s^L = μ_s^L - γ_s^L
-- Features with high ν for any language → language features
+# Implementation Plan: "I Am" Cultural Completion Comparison
 
-**Step 2: Identify culture-specific features**
-- Feed culturally-loaded text (WVS question completions, cultural narratives, proverbs, value statements) in multiple languages
-- For each SAE feature, compute a "monoculturality" metric analogous to monolinguality:
-  - Group inputs by culture (not language)
-  - ν_s^C = μ_s^C - γ_s^C (mean activation for culture C minus mean across other cultures)
-- Key challenge: need same-culture content in multiple languages to disentangle
-  - Use WVS response patterns as culture labels
-  - Use translated cultural proverbs/sayings
-  - Use culturally-specific but translatable scenarios
+## Overview
 
-**Step 3: Averaging for robust signals**
-- Your intuition about averaging is sound and supported by the literature
-- CAA (Contrastive Activation Addition) already does this: v = mean(h_positive) - mean(h_negative)
-- The more diverse items you average over for a given culture, the more the language/topic noise cancels out, leaving the "pure culture" signal
-- This is analogous to how fMRI researchers average over many trials to isolate neural responses
+A systematic comparison framework that measures how different models complete culturally diagnostic sentence stems (starting with "I am") across languages, then compares the resulting cultural profiles against each other and against WVS/EVS human data.
 
-**Step 4: Subtraction and transfer**
-- Given culture_vector(Japanese) computed from Japanese-language text:
-  - Subtract language_vector(Japanese) → culture-only vector
-  - Add language_vector(English) → should produce "Japanese cultural style in English"
-- Validate by checking if generated text reflects Japanese values on WVS items
+The framework serves two purposes:
+1. **Standalone**: Compare cultural self-concept across models and languages
+2. **Validation harness for SAE steering**: Once culture vectors are extracted (Phase 3), test whether SAE-steered completions match naturally-cultured model behavior
 
-**Step 5: Dimensionality reduction of culture vectors**
-- Collect culture-only vectors for N cultures
-- Stack into matrix R^{N × d_sae}
-- Apply PCA, t-SNE, or UMAP
-- Hypothesis: the resulting map should resemble the Inglehart-Welzel cultural map
-  - Dimension 1 ≈ Traditional vs Secular-rational values
-  - Dimension 2 ≈ Survival vs Self-expression values
-- If this works, it would be strong evidence that LLMs have learned a structured cultural representation
+## Models
 
-## Feasibility Assessment
+| Model | Size | Languages | Role |
+|-------|------|-----------|------|
+| HPLT monolingual (`HPLT/hplt2c_{lang}`) | 2.15B | 22 European | Monolingual cultural baseline |
+| EuroLLM-22B (`utter-project/EuroLLM-22B-2512`) | 22B | 22 European | Multilingual European baseline |
+| Gemma 3 27B PT (`google/gemma-3-27b-pt`) | 27B | 22 European + 5 expanded | Primary multilingual model |
+| Gemma 3 4B PT (`google/gemma-3-4b-pt`) | 4B | 22 European + 5 expanded | Size-matched comparison to HPLT |
+| Gemma 3 1B PT (`google/gemma-3-1b-pt`) | 1B | 22 European + 5 expanded | Size-matched comparison to HPLT |
+| Gemma 3 27B PT + SAE steering | 27B | 22 European + 5 expanded | Culture-steered (Phase 3) |
 
-### What makes this tractable:
-- Gemma Scope SAEs already exist and are free to download (CC-BY-4.0)
-- Gemma 2 9B is runnable on a single A100 or even 2x A6000
-- The language-feature identification method is proven (ACL 2025)
-- WVS provides standardized cultural measurement across 80+ countries
-- Cultural steering vectors are proven to be conserved across languages (April 2025 paper)
+**Explicit model-size comparison axis**: By including Gemma 3 at 1B, 4B, and 27B, we can distinguish cultural signal from model capability effects. HPLT 2.15B sits between 1B and 4B.
 
-### Key challenges:
-- **Data**: Need culturally-loaded parallel corpora. WVS translations help but are limited to survey items. May need to supplement with translated cultural texts.
-- **Confounds**: Culture and language are deeply entangled. "Japanese culture" items in English may not activate the same features as in Japanese. The averaging-and-subtracting approach partially addresses this but may not fully separate them.
-- **Granularity**: SAE features may not cleanly decompose into language/culture. Some features may be "Japanese formal register" — both language and culture simultaneously.
-- **Validation**: Hard to ground-truth "culture-only" vectors without circular reasoning.
+## Languages
 
-### Recommended starting point:
-1. Load Gemma 2 9B + Gemma Scope residual SAEs (layers 19-28, where cultural localization concentrates)
-2. Replicate the language-feature identification from Deng et al. using Flores-10 parallel data
-3. Feed WVS questions in 5+ languages, collect SAE activations
-4. Compute culture-specific features using the monoculturality metric
-5. Build culture-only vectors via subtraction
-6. PCA on the culture-only vectors — see if Inglehart-Welzel structure emerges
+### European (22) — available for all models
+bul, ces, dan, deu, ell, eng, est, fin, fra, hrv, hun, ita, lit, lvs, nld, pol, por, ron, slk, slv, spa, swe
+
+### Expanded (5) — Gemma 3 models only
+zho (Chinese), jpn (Japanese), ara (Arabic), hin (Hindi), tur (Turkish)
+
+Rationale: The strongest cultural contrasts in the TST literature are Western vs East Asian / Middle Eastern. All 22 European languages are relatively culturally similar. Adding these 5 provides much stronger signal for the individualism-collectivism and traditional-secular axes. HPLT monolingual models only cover European languages, so the expanded set runs on Gemma 3 only — this is itself a useful comparison (European-only vs global language set).
+
+### Cultural Clusters
+
+```
+European:
+  Nordic:        dan, fin, swe
+  Western:       deu, fra, nld, eng
+  Mediterranean: ita, spa, por, ell
+  Central:       ces, hun, pol, slk, slv
+  Baltic:        est, lit, lvs
+  Southeast:     bul, hrv, ron
+
+Expanded:
+  East Asian:    zho, jpn
+  South Asian:   hin
+  Middle Eastern: ara, tur
+```
+
+## Prompt Design
+
+### Phase 1 stem: "I am"
+
+The prompt is the translation of "I am" in each language, formatted as a bare completion prompt (no system prompt, no instructions):
+
+```
+English:  "I am"
+German:   "Ich bin"
+French:   "Je suis"
+Chinese:  "我是"
+Japanese: "私は"
+Arabic:   "أنا"
+Hindi:    "मैं"
+Turkish:  "Ben"
+...
+```
+
+The model completes the sentence. We measure what it produces.
+
+**Note on grammar**: Some languages require different forms. "I am" may be "I am a ___" in languages with articles. The translations should be natural sentence-start fragments that elicit self-description — not word-for-word translations. Specifically:
+- Languages with copula + indefinite article (English, German, French): "I am a" / "Ich bin ein" / "Je suis un"
+- Languages without articles (Chinese, Japanese, Turkish, most Slavic): "I am" / "我是" / "私は" / "Ben"
+- Consider both "I am" and "I am a" variants for languages where both are natural
+
+### Future stems (not in scope for Phase 1, but reserve the infrastructure)
+- "The most important thing in life is"
+- "A good person"
+- "Children should"
+- "When I am old"
+- "My country"
+
+## Method: Logprob Extraction Over Category Tokens
+
+### Approach
+
+For each (model, language, prompt), compute the probability of culturally diagnostic continuation sequences using **autoregressive logprob extraction**:
+
+```
+P("a father" | "I am") = P("a" | "I am") × P("father" | "I am a")
+```
+
+This requires multiple forward passes per category item (one per token in the continuation), but is exact and deterministic.
+
+### Implementation
+
+For each category item C = [t_1, t_2, ..., t_k] (tokenized continuation):
+1. Start with prompt tokens
+2. For each token t_i in C:
+   - Run forward pass on prompt + [t_1, ..., t_{i-1}]
+   - Extract logprob of t_i at the next-token position
+3. P(C | prompt) = exp(Σ logprobs)
+
+With KV caching, this is efficient: one initial forward pass for the prompt, then incremental passes for each continuation token. Batch across category items that share prefixes (e.g., "a father" and "a friend" share the "a" prefix).
+
+### Comprehensive category taxonomy
+
+Aim for **comprehensive coverage** — include many items per category even if some seem unlikely. The logprob approach is cheap per item (single token lookup with KV cache), so we can afford breadth.
+
+```
+IDENTITY CATEGORIES:
+
+family_role:
+  father, mother, son, daughter, husband, wife, brother, sister,
+  parent, child, grandparent, grandmother, grandfather, uncle, aunt
+
+occupation:
+  teacher, doctor, engineer, student, worker, professor, lawyer,
+  farmer, soldier, artist, scientist, businessman, nurse, driver,
+  cook, writer, musician, politician, priest, craftsman
+
+personality_trait:
+  happy, sad, strong, kind, honest, brave, intelligent, creative,
+  patient, generous, proud, humble, curious, careful, hardworking,
+  friendly, quiet, independent, loyal, optimistic
+
+religious:
+  Christian, Muslim, Catholic, Orthodox, believer, faithful,
+  Buddhist, Hindu, Jewish, religious, spiritual, devout
+
+national_ethnic:
+  [per-language: demonym for the language's primary country]
+  e.g., English→"American"/"British", German→"German", Chinese→"Chinese"
+
+relational:
+  friend, neighbor, citizen, member, colleague, companion,
+  teammate, partner, volunteer, leader, follower
+
+abstract_universal:
+  human, person, man, woman, alive, free, mortal, individual,
+  being, soul, nobody, somebody, part of something
+
+material_physical:
+  rich, poor, young, old, healthy, sick, tall, short,
+  tired, hungry, alone, lucky, unlucky
+```
+
+Each of these must be translated per language. Translation approach:
+- Use the existing translation infrastructure from Track 1 (Gemini Flash extraction) or batch-translate via an LLM
+- Manual review for high-value items (family_role, occupation, personality_trait)
+- Store as `data/i_am_categories/{lang}.json`
+
+### Normalization
+
+After extracting P(item | prompt) for all items:
+1. **Within-category normalization**: P(father | family_role) = P(father) / Σ_{i ∈ family_role} P(i)
+2. **Cross-category distribution**: P(family_role) = Σ_{i ∈ family_role} P(i) / Σ_{all items} P(all)
+3. The cross-category distribution is the primary cultural signal (e.g., 40% family vs 25% occupation vs 15% trait...)
+
+### Fallback: Temperature Sampling
+
+> **NOTE**: If logprob extraction does not yield clear cultural differentiation (e.g., all models produce similar distributions, or the probability mass is too spread out), fall back to **temperature sampling**:
+> - Generate N=200 completions per (model, language) at temperature 0.7-1.0
+> - Truncate at first sentence boundary
+> - Classify each completion into the category taxonomy (via LLM classifier or embedding similarity)
+> - Build empirical distributions
+>
+> This is slower and noisier but captures the full generative distribution rather than only pre-specified items. The two methods should be compared if both are run.
+
+## Human Comparison: WVS/EVS Proxy
+
+No open cross-cultural dataset exists for the "I am" completion task specifically. Instead, use WVS/EVS data as **proxy ground truth** for the individualism-collectivism axis:
+
+### Relevant WVS/EVS items
+
+Map WVS questions to the "I am" category dimensions:
+
+| WVS item | Maps to | Dimension |
+|----------|---------|-----------|
+| Importance of family (V4) | family_role weight | Traditional |
+| Importance of work (V5) | occupation weight | Secular |
+| Importance of religion (V6) | religious weight | Traditional |
+| Importance of friends (V7) | relational weight | Self-expression |
+| Child qualities: independence (V12) | personality_trait weight | Secular |
+| Child qualities: obedience (V16) | family_role weight | Traditional |
+| National pride (V211) | national_ethnic weight | Traditional |
+
+For each country/language, the WVS human distribution over these items gives an expected cultural profile. Compare against the model's cross-category distribution from "I am" completions.
+
+**Metric**: Rank correlation between the model's category weights and the WVS-derived expected weights per language. This is not an exact comparison (different instruments) but tests whether the same cultural axes emerge.
+
+### Inglehart-Welzel positioning
+
+The cross-category distributions can also be projected onto Inglehart-Welzel axes:
+- **Traditional–Secular**: (family_role + religious + national_ethnic) vs (occupation + personality_trait + abstract)
+- **Survival–Self-expression**: (material_physical + occupation) vs (personality_trait + relational + abstract)
+
+This produces a 2D cultural position per (model, language) that can be plotted alongside WVS country positions.
+
+## Analysis Plan
+
+### Primary comparisons
+
+1. **Within-language, across-model**: For each language L, compare category distributions from HPLT_L vs EuroLLM_L vs Gemma3_27B_L vs Gemma3_4B_L vs Gemma3_1B_L
+   - JSD between distribution pairs
+   - Does model size or architecture matter more than language?
+
+2. **Within-model, across-language**: For each multilingual model, compare category distributions across languages
+   - Do languages cluster by cultural cluster?
+   - UMAP of category distributions colored by cluster
+
+3. **European vs expanded languages**: Do the 5 expanded languages (zho, jpn, ara, hin, tur) show stronger cultural differentiation than intra-European variation?
+
+4. **Model size effect**: For Gemma 3 at 1B/4B/27B, does cultural differentiation increase with size? (Hypothesis: larger models have richer cultural representations)
+
+5. **Monolingual vs multilingual**: Do HPLT monolingual models show stronger cultural signal than multilingual models prompted in the same language?
+
+6. **Human alignment**: Rank correlation of model category profiles with WVS-derived profiles per country
+
+### Visualizations
+
+- Heatmap: models × languages, colored by dominant category
+- UMAP/PCA of category distributions (one point per model-language pair)
+- Inglehart-Welzel plot with model positions alongside WVS country positions
+- Bar charts: category distribution per language for a single model (e.g., Gemma 3 27B)
+- Model-size scaling plot: cultural differentiation metric vs parameter count
+
+## Phased Implementation
+
+### Phase 1: Base infrastructure & "I am" completions (no SAE)
+
+**Goal**: Build the comparison framework and run all non-SAE models.
+
+1. **Translate "I am" prompts** for all 27 languages
+   - Store in `data/i_am_prompts.json` (lang → prompt string)
+   - Include both "I am" and "I am a" variants where applicable
+
+2. **Build category taxonomy** with per-language translations
+   - Store in `data/i_am_categories/{lang}.json`
+   - ~100-150 items per language across all categories
+   - Translate via LLM, manually review family/occupation/trait categories
+
+3. **Implement logprob extraction** for open-ended stems
+   - Extend or adapt `eurollm/inference/extract_logprobs.py`
+   - Input: prompt + list of candidate continuations
+   - Output: P(continuation | prompt) for each continuation
+   - Handle multi-token continuations via autoregressive logprob accumulation
+   - KV-cache optimization for shared prefixes
+
+4. **Run on all models**
+   - 22 HPLT models × 22 European languages (= 22 runs, one lang per model)
+   - EuroLLM-22B × 22 European languages (= 22 runs)
+   - Gemma 3 27B × 27 languages (= 27 runs)
+   - Gemma 3 4B × 27 languages (= 27 runs)
+   - Gemma 3 1B × 27 languages (= 27 runs)
+   - SLURM job scripts for cluster execution
+
+5. **Build analysis pipeline**
+   - Category distribution computation & normalization
+   - JSD matrices, UMAP, Inglehart-Welzel projection
+   - WVS/EVS human comparison
+
+### Phase 2: Analysis & iteration
+
+**Goal**: Analyze Phase 1 results, identify whether the signal is there.
+
+- If logprob extraction gives flat/indistinguishable distributions → try temperature sampling fallback
+- If European languages are too similar → the expanded languages become the primary analysis
+- If model size dominates cultural signal → focus on same-size comparisons
+- Refine category taxonomy based on which items carry the most cross-cultural variance
+
+### Phase 3: SAE culture vector extraction & steering
+
+**Goal**: Use Gemma Scope 2 SAEs to extract culture vectors and add SAE-steered Gemma 3 27B to the comparison.
+
+> This phase builds on the RESEARCH.md background and the method from Deng et al. (ACL 2025) and the CAA cultural steering work. It requires the Phase 1 infrastructure to be in place as the evaluation harness.
+
+1. **Load Gemma 3 27B + Gemma Scope 2 residual SAEs**
+   - Focus on layers at 50-85% depth (where cultural localization concentrates per prior work)
+   - Start with `resid_post` SAEs, width 64k or 256k
+
+2. **Identify language-specific features**
+   - Replicate Deng et al. monolinguality metric ν_s^L on parallel text (Flores or similar)
+   - Feed same content in all 27 languages, compute per-feature activation stats
+   - Threshold for language-specific features
+
+3. **Identify culture-specific features**
+   - Feed culturally-loaded text (WVS completions + Phase 1 "I am" completions from HPLT models as proxy for "natural culture")
+   - Compute monoculturality metric ν_s^C grouped by cultural cluster
+   - Features with high ν for any culture cluster → culture features
+
+4. **Build culture vectors via subtraction**
+   - culture_only(C) = mean activations for culture C − projection onto language features
+   - Validate: culture vectors from different languages for same cultural cluster should be similar
+
+5. **Steer Gemma 3 27B and evaluate**
+   - For each cultural cluster C and language L:
+     - h_steered = h_base + α·culture_vector(C)
+     - Run "I am" completion with steering
+     - Compare against HPLT model for cluster C's languages
+   - **Key test**: steer toward culture C while prompting in language L' ≠ L
+     - e.g., Bulgarian culture vector + English prompt → do completions shift toward collectivist?
+
+6. **Dimensionality reduction of culture vectors**
+   - PCA/UMAP on culture-only vectors for all clusters
+   - Compare against Inglehart-Welzel map
+   - Compare against Phase 1 UMAP of category distributions
+
+## Output Data Format
+
+### Per-run output: `results/{model_type}_{lang}.parquet`
+
+| Column | Type | Description |
+|--------|------|-------------|
+| prompt_variant | str | "i_am" or "i_am_a" |
+| category | str | e.g., "family_role", "occupation" |
+| item | str | e.g., "father", "teacher" |
+| item_tokens | str | Tokenized form (for reproducibility) |
+| n_tokens | int | Number of tokens in continuation |
+| logprob_sum | float | Σ log P(t_i | prefix) |
+| prob | float | exp(logprob_sum) = joint probability |
+
+### Aggregated output: `results/category_distributions.parquet`
+
+| Column | Type | Description |
+|--------|------|-------------|
+| model_type | str | e.g., "hplt2c", "gemma3_27b_pt" |
+| lang | str | Language code |
+| category | str | Category name |
+| prob_category | float | Normalized probability mass for this category |
+| top_item | str | Highest-probability item in category |
+| entropy | float | Entropy of within-category distribution |
 
 ## Hardware Requirements
-- Gemma 2 9B: ~18GB in fp16, ~9GB in int8
-- SAE inference adds minimal overhead (single matrix multiply)
-- Can run on 1x A100 40GB or 2x consumer GPUs with model parallelism
-- Batch processing WVS items is cheap (250 questions × N languages × N runs)
+
+- **Gemma 3 27B**: ~54GB bf16, ~27GB int8 → A100 80GB or H100
+- **Gemma 3 4B**: ~8GB bf16 → any modern GPU
+- **Gemma 3 1B**: ~2GB bf16 → any GPU
+- **HPLT 2.15B**: ~5GB bf16 → any GPU
+- **EuroLLM-22B**: ~45GB bf16 → A100 80GB or H100
+- **SAE inference**: minimal overhead (single matmul per layer per token)
+- **Per-model run time**: ~100-150 category items × 27 languages × ~3 tokens avg = ~12K forward passes (incremental with KV cache) — minutes per model on GPU
+
+## Key Risks & Mitigations
+
+| Risk | Mitigation |
+|------|------------|
+| Logprob distributions too flat / uninformative | Fall back to temperature sampling (Phase 2) |
+| European languages too culturally similar | Expanded language set provides stronger contrast |
+| Model size confounds cultural signal | Explicit size comparison (1B/4B/27B) |
+| Category taxonomy misses important dimensions | Start broad, refine based on variance analysis |
+| "I am" stem too short / ambiguous | Reserve infrastructure for additional stems |
+| SAE features don't cleanly separate culture/language | This is a genuine open question — negative result is publishable |
+| No human TST data for direct comparison | WVS proxy comparison on matched dimensions |

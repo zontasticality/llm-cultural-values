@@ -415,6 +415,376 @@ def plot_human_fitted_umap(
     print(f"  Saved {out}")
 
 
+# ── F1: Geometry-of-Variation UMAP (centered + correlation) ─────────────────
+
+def _prepare_ev_matrices(llm_dists, human_dists, questions, exclude_qs=None):
+    """Shared data prep for UMAP variants: build & align EV matrices, impute."""
+    human_pivot = _build_ev_matrix(human_dists, "human", questions)
+    llm_pivot = _build_ev_matrix(llm_dists, "llm", questions)
+
+    llm_pivot = llm_pivot[
+        ~llm_pivot.index.str.startswith(tuple(f"{m}_" for m in MODELS_EXCLUDE))
+    ]
+
+    shared_qs = sorted(set(human_pivot.columns) & set(llm_pivot.columns))
+    if exclude_qs:
+        shared_qs = [q for q in shared_qs if q not in exclude_qs]
+    human_aligned = human_pivot[shared_qs]
+    llm_aligned = llm_pivot[shared_qs]
+
+    imputer = SimpleImputer(strategy="mean")
+    X_human = pd.DataFrame(
+        imputer.fit_transform(human_aligned.values),
+        index=human_aligned.index, columns=shared_qs,
+    )
+    X_llm = pd.DataFrame(
+        imputer.transform(llm_aligned.values),
+        index=llm_aligned.index, columns=shared_qs,
+    )
+    return X_human, X_llm, shared_qs
+
+
+def _get_outlier_questions(jsd_df: pd.DataFrame, threshold: float = 0.35) -> set:
+    """Identify questions with mean JSD above the given threshold.
+
+    These are questions where LLMs systematically fail — high mean JSD
+    across all (model, language) pairs. Removing them isolates the
+    cultural signal from questions where the methodology works.
+    """
+    filtered = jsd_df[~jsd_df["model_type"].isin(MODELS_EXCLUDE)]
+    q_jsd = filtered.groupby("question_id")["jsd"].mean()
+    outliers = set(q_jsd[q_jsd > threshold].index)
+    print(f"  JSD threshold: {threshold:.2f}, "
+          f"excluding {len(outliers)}/{len(q_jsd)} questions")
+    return outliers
+
+
+def compute_centered_umap(llm_dists, human_dists, questions, exclude_qs=None):
+    """Per-source centered UMAP: subtract group means, joint Euclidean UMAP."""
+    from umap import UMAP
+
+    X_human, X_llm, shared_qs = _prepare_ev_matrices(
+        llm_dists, human_dists, questions, exclude_qs=exclude_qs
+    )
+
+    # Per-source centering
+    X_human_c = X_human - X_human.mean(axis=0)
+
+    llm_labels = list(X_llm.index)
+    model_types = {}
+    for label in llm_labels:
+        mt = label.rsplit("_", 1)[0]
+        model_types.setdefault(mt, []).append(label)
+
+    X_llm_c = X_llm.copy()
+    for mt, labels in model_types.items():
+        group = X_llm.loc[labels]
+        X_llm_c.loc[labels] = (group - group.mean(axis=0)).values
+
+    X_all = np.vstack([X_human_c.values, X_llm_c.values])
+    reducer = UMAP(n_components=2, n_neighbors=10, min_dist=0.3, random_state=42)
+    coords = reducer.fit_transform(X_all)
+
+    n_h = len(X_human_c)
+    print(f"  Centered UMAP: {n_h} human, {len(llm_labels)} LLM, "
+          f"{len(shared_qs)} questions")
+    return coords[:n_h], coords[n_h:], list(X_human_c.index), llm_labels
+
+
+def compute_centered_correlation_umap(llm_dists, human_dists, questions, exclude_qs=None):
+    """Per-source centering + correlation distance UMAP.
+
+    First removes group-level question offsets (like centered UMAP),
+    then uses correlation distance which additionally normalizes each
+    point's cross-question pattern (removes per-point mean and scale).
+    These operate on different axes and are complementary.
+    """
+    from umap import UMAP
+
+    X_human, X_llm, shared_qs = _prepare_ev_matrices(
+        llm_dists, human_dists, questions, exclude_qs=exclude_qs
+    )
+
+    # Per-source centering (same as centered UMAP)
+    X_human_c = X_human - X_human.mean(axis=0)
+
+    llm_labels = list(X_llm.index)
+    model_types = {}
+    for label in llm_labels:
+        mt = label.rsplit("_", 1)[0]
+        model_types.setdefault(mt, []).append(label)
+
+    X_llm_c = X_llm.copy()
+    for mt, labels in model_types.items():
+        group = X_llm.loc[labels]
+        X_llm_c.loc[labels] = (group - group.mean(axis=0)).values
+
+    # Then correlation distance on the centered residuals
+    X_all = np.vstack([X_human_c.values, X_llm_c.values])
+    reducer = UMAP(
+        n_components=2, n_neighbors=10, min_dist=0.3,
+        metric="correlation", random_state=42,
+    )
+    coords = reducer.fit_transform(X_all)
+
+    n_h = len(X_human_c)
+    print(f"  Centered+Correlation UMAP: {n_h} human, {len(llm_labels)} LLM, "
+          f"{len(shared_qs)} questions")
+    return coords[:n_h], coords[n_h:], list(X_human_c.index), llm_labels
+
+
+def _plot_umap_panel(
+    ax,
+    human_coords: np.ndarray,
+    llm_coords: np.ndarray,
+    human_labels: list[str],
+    llm_labels: list[str],
+    title: str,
+):
+    """Plot a single combined UMAP panel with all models."""
+    human_by_lang = {lang: human_coords[i] for i, lang in enumerate(human_labels)}
+
+    # Gray lines LLM→human
+    for i, label in enumerate(llm_labels):
+        lang = label.rsplit("_", 1)[1]
+        if lang in human_by_lang:
+            ax.plot(
+                [llm_coords[i, 0], human_by_lang[lang][0]],
+                [llm_coords[i, 1], human_by_lang[lang][1]],
+                color="#cccccc", linewidth=0.6, alpha=0.4, zorder=1,
+            )
+
+    # Human points
+    for i, lang in enumerate(human_labels):
+        cluster = LANG_TO_CLUSTER.get(lang, "Other")
+        color = CLUSTER_COLORS.get(cluster, "#999999")
+        ax.scatter(human_coords[i, 0], human_coords[i, 1], c=color,
+                   s=200, edgecolors="black", linewidths=1.2, zorder=5,
+                   marker="o")
+        ax.annotate(LANG_NAMES.get(lang, lang),
+                    (human_coords[i, 0], human_coords[i, 1]),
+                    textcoords="offset points", xytext=(7, 7),
+                    fontsize=7, fontweight="bold", alpha=0.9)
+
+    # LLM points — all models on same panel, with language labels
+    for i, label in enumerate(llm_labels):
+        mt = label.rsplit("_", 1)[0]
+        lang = label.rsplit("_", 1)[1]
+        cluster = LANG_TO_CLUSTER.get(lang, "Other")
+        color = CLUSTER_COLORS.get(cluster, "#999999")
+        marker = MODEL_MARKERS.get(mt, "D")
+        ax.scatter(llm_coords[i, 0], llm_coords[i, 1], c=color,
+                   s=60, marker=marker, edgecolors="black",
+                   linewidths=0.5, alpha=0.7, zorder=3)
+        ax.annotate(LANG_NAMES.get(lang, lang),
+                    (llm_coords[i, 0], llm_coords[i, 1]),
+                    textcoords="offset points", xytext=(4, 4),
+                    fontsize=4, alpha=0.6, zorder=4)
+
+    ax.set_title(title, fontsize=13, fontweight="bold")
+    ax.set_xlabel("UMAP 1")
+    ax.set_ylabel("UMAP 2")
+    ax.grid(True, alpha=0.2)
+
+
+def plot_umap_comparison(
+    centered_results: tuple,
+    correlation_results: tuple,
+    figures_dir: Path,
+):
+    """F1: Side-by-side centered vs correlation UMAP, all models on one plot each."""
+    fig, axes = plt.subplots(1, 2, figsize=(16, 8))
+
+    _plot_umap_panel(axes[0], *centered_results, title="(a) Per-Source Centered (Euclidean)")
+    _plot_umap_panel(axes[1], *correlation_results, title="(b) Per-Source Centered (Correlation)")
+
+    # Shared legend
+    cluster_handles = [mpatches.Patch(color=c, label=cl)
+                       for cl, c in CLUSTER_COLORS.items()]
+
+    # Model source handles
+    source_handles = [
+        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor="gray",
+                   markersize=11, markeredgecolor="black", label="Human (EVS)"),
+    ]
+    # Add one handle per model type present
+    all_llm_labels = centered_results[3]
+    seen_mt = {}
+    for label in all_llm_labels:
+        mt = label.rsplit("_", 1)[0]
+        if mt not in seen_mt:
+            seen_mt[mt] = MODEL_MARKERS.get(mt, "D")
+    for mt, marker in sorted(seen_mt.items()):
+        source_handles.append(
+            plt.Line2D([0], [0], marker=marker, color="w", markerfacecolor="gray",
+                       markersize=7, markeredgecolor="black",
+                       label=MODEL_LABELS.get(mt, mt))
+        )
+
+    fig.legend(handles=cluster_handles + source_handles,
+               loc="lower center", ncol=len(cluster_handles) + len(source_handles),
+               fontsize=8, framealpha=0.9)
+
+    plt.suptitle("F1: Geometry-of-Variation UMAP — Euclidean vs Correlation Distance",
+                 fontsize=14, fontweight="bold")
+    plt.tight_layout(rect=[0, 0.07, 1, 0.95])
+    out = figures_dir / "F1_umap_comparison.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
+def plot_umap_filtered_progression(
+    results_list: list[tuple],
+    labels: list[str],
+    figures_dir: Path,
+):
+    """F1c: Progressive JSD filtering — one panel per threshold."""
+    n_panels = len(results_list)
+    fig, axes = plt.subplots(1, n_panels, figsize=(7 * n_panels, 7), squeeze=False)
+
+    for idx, (result, label) in enumerate(zip(results_list, labels)):
+        _plot_umap_panel(axes[0, idx], *result, title=label)
+
+    # Shared legend
+    cluster_handles = [mpatches.Patch(color=c, label=cl)
+                       for cl, c in CLUSTER_COLORS.items()]
+    source_handles = [
+        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor="gray",
+                   markersize=11, markeredgecolor="black", label="Human (EVS)"),
+    ]
+    all_llm_labels = results_list[0][3]
+    seen_mt = {}
+    for label_str in all_llm_labels:
+        mt = label_str.rsplit("_", 1)[0]
+        if mt not in seen_mt:
+            seen_mt[mt] = MODEL_MARKERS.get(mt, "D")
+    for mt, marker in sorted(seen_mt.items()):
+        source_handles.append(
+            plt.Line2D([0], [0], marker=marker, color="w", markerfacecolor="gray",
+                       markersize=7, markeredgecolor="black",
+                       label=MODEL_LABELS.get(mt, mt))
+        )
+
+    fig.legend(handles=cluster_handles + source_handles,
+               loc="lower center", ncol=len(cluster_handles) + len(source_handles),
+               fontsize=8, framealpha=0.9)
+
+    plt.suptitle("F1c: Effect of Progressive JSD Filtering on Cultural UMAP",
+                 fontsize=14, fontweight="bold")
+    plt.tight_layout(rect=[0, 0.07, 1, 0.95])
+    out = figures_dir / "F1c_umap_filtered.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
+def plot_umap_grid(
+    llm_dists, human_dists, questions, jsd_df, figures_dir: Path,
+):
+    """F5: 2×3 UMAP grid — columns: Euclidean/Correlation, rows: filter levels."""
+    from umap import UMAP  # noqa: F811 — ensure import error propagates
+
+    thresholds = [None, 0.35, 0.25]
+    _, _, all_qs = _prepare_ev_matrices(llm_dists, human_dists, questions)
+    all_qs_set = set(all_qs)
+
+    fig, axes = plt.subplots(3, 2, figsize=(16, 22))
+
+    for row_idx, thresh in enumerate(thresholds):
+        if thresh is None:
+            exclude = None
+            n_kept = len(all_qs)
+            row_label = f"No filter ({n_kept} questions)"
+        else:
+            exclude = _get_outlier_questions(jsd_df, threshold=thresh)
+            n_kept = len(all_qs) - len(exclude & all_qs_set)
+            row_label = f"JSD < {thresh} ({n_kept} questions)"
+
+        # Column 0: Euclidean
+        euc_res = compute_centered_umap(
+            llm_dists, human_dists, questions, exclude_qs=exclude
+        )
+        _plot_umap_panel(
+            axes[row_idx, 0], *euc_res,
+            title=f"Centered Euclidean — {row_label}",
+        )
+
+        # Column 1: Correlation
+        corr_res = compute_centered_correlation_umap(
+            llm_dists, human_dists, questions, exclude_qs=exclude
+        )
+        _plot_umap_panel(
+            axes[row_idx, 1], *corr_res,
+            title=f"Centered Correlation — {row_label}",
+        )
+
+    # Shared legend
+    cluster_handles = [mpatches.Patch(color=c, label=cl)
+                       for cl, c in CLUSTER_COLORS.items()]
+    source_handles = [
+        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor="gray",
+                   markersize=11, markeredgecolor="black", label="Human (EVS)"),
+    ]
+    # Grab model types from the last Euclidean run
+    all_llm_labels = euc_res[3]
+    seen_mt = {}
+    for label in all_llm_labels:
+        mt = label.rsplit("_", 1)[0]
+        if mt not in seen_mt:
+            seen_mt[mt] = MODEL_MARKERS.get(mt, "D")
+    for mt, marker in sorted(seen_mt.items()):
+        source_handles.append(
+            plt.Line2D([0], [0], marker=marker, color="w", markerfacecolor="gray",
+                       markersize=7, markeredgecolor="black",
+                       label=MODEL_LABELS.get(mt, mt))
+        )
+
+    fig.legend(handles=cluster_handles + source_handles,
+               loc="lower center", ncol=len(cluster_handles) + len(source_handles),
+               fontsize=8, framealpha=0.9)
+
+    plt.suptitle("F5: Cultural Geography UMAP — Distance Metric × JSD Filtering",
+                 fontsize=15, fontweight="bold")
+    plt.tight_layout(rect=[0, 0.04, 1, 0.96])
+    out = figures_dir / "F5_umap_grid.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
+def plot_jsd_distribution(jsd_df: pd.DataFrame, figures_dir: Path):
+    """F4: Per-question JSD histogram with threshold lines."""
+    filtered = jsd_df[~jsd_df["model_type"].isin(MODELS_EXCLUDE)]
+    q_jsd = filtered.groupby("question_id")["jsd"].mean().sort_values()
+
+    fig, ax = plt.subplots(figsize=(10, 5))
+    ax.hist(q_jsd.values, bins=40, color="#4a90d9", edgecolor="black",
+            linewidth=0.5, alpha=0.85)
+
+    # Threshold lines
+    for thresh, color, style in [
+        (0.35, "#cc3333", "--"),
+        (0.25, "#33aa33", "-."),
+    ]:
+        n_below = (q_jsd < thresh).sum()
+        ax.axvline(thresh, color=color, linestyle=style, linewidth=2,
+                   label=f"JSD = {thresh} ({n_below}/{len(q_jsd)} questions retained)")
+
+    ax.set_xlabel("Mean JSD (across all models and languages)", fontsize=12)
+    ax.set_ylabel("Number of Questions", fontsize=12)
+    ax.set_title("F4: Per-Question JSD Distribution with Filtering Thresholds",
+                 fontsize=13, fontweight="bold")
+    ax.legend(fontsize=10, framealpha=0.9)
+    ax.grid(True, alpha=0.3, axis="y")
+
+    plt.tight_layout()
+    out = figures_dir / "F4_jsd_distribution.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
 # ── F2: Inglehart-Welzel Composite ──────────────────────────────────────────
 
 def compute_iw_composites(
@@ -1089,14 +1459,65 @@ def run_figure(
 ):
     """Dispatch to individual figure generators."""
     if figure in ("all", "umap"):
-        print("\n  Generating F1: Human-Fitted UMAP...")
+        print("\n  Generating F1: Geometry-of-Variation UMAP (centered + correlation)...")
+        try:
+            centered = compute_centered_umap(llm_dists, human_dists, questions)
+            centered_corr = compute_centered_correlation_umap(llm_dists, human_dists, questions)
+            plot_umap_comparison(centered, centered_corr, figures_dir)
+        except ImportError:
+            print("  Skipping F1: umap-learn not installed")
+
+    if figure in ("all", "umap_filtered"):
+        print("\n  Generating F1c: Progressive JSD-Filtered UMAPs...")
+        try:
+            thresholds = [None, 0.35, 0.25]  # no filter, moderate, aggressive
+            results_list = []
+            panel_labels = []
+            _, _, all_qs = _prepare_ev_matrices(llm_dists, human_dists, questions)
+            all_qs_set = set(all_qs)
+
+            for thresh in thresholds:
+                if thresh is None:
+                    res = compute_centered_umap(llm_dists, human_dists, questions)
+                    panel_labels.append(f"(a) No filter ({len(all_qs)} questions)")
+                else:
+                    outlier_qs = _get_outlier_questions(jsd_df, threshold=thresh)
+                    res = compute_centered_umap(
+                        llm_dists, human_dists, questions, exclude_qs=outlier_qs
+                    )
+                    n_kept = len(all_qs) - len(outlier_qs & all_qs_set)
+                    letter = chr(ord('a') + len(results_list))
+                    panel_labels.append(
+                        f"({letter}) JSD < {thresh} ({n_kept} questions)"
+                    )
+                results_list.append(res)
+
+            plot_umap_filtered_progression(
+                results_list, panel_labels, figures_dir
+            )
+        except ImportError:
+            print("  Skipping F1c: umap-learn not installed")
+
+    if figure in ("all", "umap_grid"):
+        print("\n  Generating F5: UMAP Grid (2×3: metric × filter)...")
+        try:
+            plot_umap_grid(llm_dists, human_dists, questions, jsd_df, figures_dir)
+        except ImportError:
+            print("  Skipping F5 grid: umap-learn not installed")
+
+    if figure in ("all", "jsd_dist"):
+        print("\n  Generating F4: JSD Distribution...")
+        plot_jsd_distribution(jsd_df, figures_dir)
+
+    if figure in ("all", "umap_human_fitted"):
+        print("\n  Generating F1 (legacy): Human-Fitted UMAP...")
         try:
             h_coords, l_coords, h_labels, l_labels = compute_human_fitted_umap(
                 llm_dists, human_dists, questions
             )
             plot_human_fitted_umap(h_coords, l_coords, h_labels, l_labels, figures_dir)
         except ImportError:
-            print("  Skipping F1: umap-learn not installed")
+            print("  Skipping F1 legacy: umap-learn not installed")
 
     if figure in ("all", "iw"):
         print("\n  Generating F2: Inglehart-Welzel Composite...")
@@ -1142,7 +1563,7 @@ def main():
     parser.add_argument("--db", type=str, default=None,
                         help="Path to survey.db (loads LLM + human data from DB)")
     parser.add_argument("--figure", type=str, default="all",
-                        choices=["all", "umap", "iw", "scatter", "heatmap", "deepdive"],
+                        choices=["all", "umap", "umap_filtered", "umap_grid", "umap_human_fitted", "iw", "scatter", "heatmap", "jsd_dist", "deepdive"],
                         help="Which figure to generate (default: all)")
     args = parser.parse_args()
 

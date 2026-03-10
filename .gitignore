@@ -19,8 +19,10 @@ eurollm/human_comparison.parquet
 eurollm/jsd_matrix.npz
 eurollm/summary_stats.parquet
 
-# SQLite database (regenerate via db.populate)
-eurollm/data/survey.db
+# SQLite database (tracked via git-lfs)
+# eurollm/data/survey.db
+eurollm/data/survey.db-shm
+eurollm/data/survey.db-wal
 
 # Gemini alignment cache
 eurollm/.alignment_cache/

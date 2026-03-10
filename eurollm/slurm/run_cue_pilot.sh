@@ -17,20 +17,20 @@ export HF_HOME=/scratch4/workspace/zevwilson_umass_edu-culture-llm/.hf_cache
 export PYTHONPATH="${PYTHONPATH}:eurollm"
 export PYTHONUNBUFFERED=1
 
-echo "=== Cue-hint A/B pilot: 22 HPLT models × 300 prompts ==="
+echo "=== Cue-hint full run: 22 HPLT models (native lang only) ==="
 echo "Start: $(date)"
 
 for lang in bul ces dan deu ell eng est fin fra hrv hun ita lit lvs nld pol por ron slk slv spa swe; do
     echo ""
-    echo "--- hplt2c_${lang} ($(date)) ---"
+    echo "--- hplt2c_${lang} / ${lang} ($(date)) ---"
     eurollm/.venv/bin/python eurollm/inference/extract_logprobs.py db \
         --model_id "hplt2c_${lang}" \
         --model_hf_id "HPLT/hplt2c_${lang}_checkpoints" \
         --db eurollm/data/survey.db \
         --config cue_hint \
-        --limit 300
+        --lang "${lang}"
     echo "--- hplt2c_${lang} done ($(date)) ---"
 done
 
 echo ""
-echo "=== Cue-hint pilot complete: $(date) ==="
+echo "=== Cue-hint HPLT complete: $(date) ==="

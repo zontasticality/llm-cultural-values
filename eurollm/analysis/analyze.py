@@ -1530,9 +1530,20 @@ def _organize_figures(figures_dir: Path):
         "F4_jsd_heatmap.png": "F4_jsd_heatmap.png",
         "F4_jsd_distribution.png": "F4_jsd_distribution.png",
         "F5_deepdive.png": "F5_deepdive.png",
-        "F5_umap_grid.png": "F5_umap_grid.png",
+        "F5_umap_uncentered.png": "F5_umap_uncentered.png",
+        "F5_umap_nofilter.png": "F5_umap_nofilter.png",
+        "F5_umap_jsd035.png": "F5_umap_jsd035.png",
+        "F5_umap_jsd025.png": "F5_umap_jsd025.png",
+        "F5_umap_legend.png": "F5_umap_legend.png",
+        "F5_pca_nofilter.png": "F5_pca_nofilter.png",
+        "F5_pca_q1.png": "F5_pca_q1.png",
+        "F5_pca_q2.png": "F5_pca_q2.png",
+        "F5_pca_q3.png": "F5_pca_q3.png",
+        "F5_pca_scree.png": "F5_pca_scree.png",
         "pvalid_heatmap.png": "F6_pvalid_heatmap.png",
         "position_bias.png": "F7_position_bias.png",
+        "jsd_vs_bias.png": "jsd_vs_bias.png",
+        "umap_sensitivity.png": "umap_sensitivity.png",
     }
     for src_name, dst_name in main_files.items():
         src = figures_dir / src_name
@@ -1546,6 +1557,7 @@ def _organize_figures(figures_dir: Path):
         "jsd_heatmap.png", "umap_human_only.png",
         "umap_combined.png", "umap_cultural_map.png",
         "human_scatter_ev.png",
+        "jsd_vs_bias.png", "umap_sensitivity.png",
     ]
     for name in supp_files:
         src = figures_dir / name

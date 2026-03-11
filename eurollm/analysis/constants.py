@@ -10,12 +10,11 @@ LANG_NAMES = {
 }
 
 CULTURAL_CLUSTERS = {
-    "Nordic": ["dan", "fin", "swe"],
-    "Western": ["deu", "fra", "nld", "eng"],
-    "Mediterranean": ["ita", "spa", "por", "ell"],
-    "Central": ["ces", "hun", "pol", "slk", "slv"],
+    "Protestant Europe": ["dan", "fin", "swe", "nld", "deu"],
+    "Catholic Europe": ["fra", "ita", "spa", "por", "ces", "hun", "pol", "slk", "slv", "hrv"],
+    "English-speaking": ["eng"],
+    "Orthodox": ["bul", "ron", "ell"],
     "Baltic": ["est", "lit", "lvs"],
-    "Southeast": ["bul", "hrv", "ron"],
 }
 
 LANG_TO_CLUSTER = {}
@@ -24,16 +23,17 @@ for _cluster, _langs in CULTURAL_CLUSTERS.items():
         LANG_TO_CLUSTER[_lang] = _cluster
 
 CLUSTER_COLORS = {
-    "Nordic": "#1f77b4",
-    "Western": "#ff7f0e",
-    "Mediterranean": "#2ca02c",
-    "Central": "#d62728",
+    "Protestant Europe": "#1f77b4",
+    "Catholic Europe": "#2ca02c",
+    "English-speaking": "#ff7f0e",
+    "Orthodox": "#d62728",
     "Baltic": "#9467bd",
-    "Southeast": "#8c564b",
 }
 
 MODEL_COLORS = {
     "hplt2c": "#1f77b4",
+    "hplt2c_cue": "#1f77b4",
+    "hplt2c_opt": "#aec7e8",
     "eurollm22b": "#ff7f0e",
     "gemma3_27b_pt": "#e377c2",
     "gemma3_27b_it": "#bcbd22",
@@ -42,6 +42,8 @@ MODEL_COLORS = {
 
 MODEL_LABELS = {
     "hplt2c": "HPLT-2.15B",
+    "hplt2c_cue": "HPLT-2.15B (cue)",
+    "hplt2c_opt": "HPLT-2.15B (opt)",
     "eurollm22b": "EuroLLM-22B",
     "gemma3_27b_pt": "Gemma-3-27B",
     "gemma3_27b_it": "Gemma-3-27B-IT",
@@ -50,6 +52,8 @@ MODEL_LABELS = {
 
 MODEL_MARKERS = {
     "hplt2c": "o",
+    "hplt2c_cue": "o",
+    "hplt2c_opt": "s",
     "eurollm22b": "^",
     "gemma3_27b_pt": "D",
     "gemma3_27b_it": "p",
@@ -58,6 +62,8 @@ MODEL_MARKERS = {
 
 MODEL_SIZES = {
     "hplt2c": 80,
+    "hplt2c_cue": 80,
+    "hplt2c_opt": 80,
     "eurollm22b": 100,
     "gemma3_27b_pt": 90,
     "gemma3_27b_it": 90,
@@ -67,6 +73,8 @@ MODEL_SIZES = {
 # Smaller sizes for the combined UMAP plot (human stars are larger)
 MODEL_SIZES_SMALL = {
     "hplt2c": 60,
+    "hplt2c_cue": 60,
+    "hplt2c_opt": 60,
     "eurollm22b": 70,
     "gemma3_27b_pt": 65,
     "gemma3_27b_it": 65,
@@ -101,4 +109,4 @@ DEEPDIVE_IW_QUESTIONS = [
     ("v153", "Can homosexuality be justified?"),
     ("v82",  "Gay couples can be as good parents as others"),
 ]
-DEEPDIVE_LANGS = ["eng", "fin", "pol", "ron"]  # Western, Nordic, Central, Southeast
+DEEPDIVE_LANGS = ["eng", "fin", "pol", "ron"]  # English-speaking, Protestant, Catholic, Orthodox

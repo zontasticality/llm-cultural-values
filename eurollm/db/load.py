@@ -42,7 +42,8 @@ def load_results(
             e.p_valid,
             p.prompt_text,
             p.question_text,
-            p.value_map
+            p.value_map,
+            p.config
         FROM evaluations e
         JOIN prompts p ON e.prompt_id = p.prompt_id
         JOIN models m ON e.model_id = m.model_id
@@ -79,13 +80,41 @@ def load_results(
     return _aggregate_permutations(raw)
 
 
+CONFIG_SUFFIXES = {
+    "cue_hint": "cue",
+    "optimized_v1": "opt",
+}
+
+
 def _aggregate_permutations(raw: pd.DataFrame) -> pd.DataFrame:
-    """Aggregate per-permutation data into forward/reversed/averaged format."""
+    """Aggregate per-permutation data into forward/reversed/averaged format.
+
+    Groups by config to prevent data mixing when a model has evaluations
+    on multiple prompt configs. Model families with multiple configs get
+    a suffix (e.g. hplt2c_cue, hplt2c_opt); single-config models keep
+    their original name.
+    """
+    # Determine which model families have multiple configs
+    multi_config = set()
+    if "config" in raw.columns:
+        config_counts = raw.groupby("model_type")["config"].nunique()
+        multi_config = set(config_counts[config_counts > 1].index)
+
     rows = []
     group_cols = ["model_type", "lang", "question_id", "response_type"]
+    if "config" in raw.columns:
+        group_cols = ["model_type", "config", "lang", "question_id", "response_type"]
 
     for group_key, grp in raw.groupby(group_cols):
-        model_type, lang, qid, rtype = group_key
+        if "config" in raw.columns:
+            base_model_type, config, lang, qid, rtype = group_key
+            if base_model_type in multi_config:
+                suffix = CONFIG_SUFFIXES.get(config, config)
+                model_type = f"{base_model_type}_{suffix}"
+            else:
+                model_type = base_model_type
+        else:
+            model_type, lang, qid, rtype = group_key
         n_perms = grp["permutation_idx"].nunique()
 
         # Get per-permutation data for each response value
@@ -126,11 +155,11 @@ def _aggregate_permutations(raw: pd.DataFrame) -> pd.DataFrame:
                 "question_id": qid,
                 "response_type": rtype,
                 "response_value": rv,
-                "prob_forward": prob_fwd,
-                "prob_reversed": prob_rev,
-                "prob_averaged": avg,
-                "p_valid_forward": p_valid_fwd,
-                "p_valid_reversed": p_valid_rev,
+                "prob_forward": min(max(prob_fwd, 0.0), 1.0),
+                "prob_reversed": min(max(prob_rev, 0.0), 1.0),
+                "prob_averaged": min(max(avg, 0.0), 1.0),
+                "p_valid_forward": min(max(p_valid_fwd, 0.0), 1.0),
+                "p_valid_reversed": min(max(p_valid_rev, 0.0), 1.0),
                 "position_bias_magnitude": pos_bias,
                 "n_permutations": n_perms,
                 "question_text": question_text,
@@ -321,11 +350,11 @@ def load_rephrase_results(db_path: str) -> pd.DataFrame:
                 "variant_id": vid,
                 "variant_type": vtype,
                 "response_value": rv,
-                "prob_forward": prob_fwd,
-                "prob_reversed": prob_rev,
-                "prob_averaged": avg,
-                "p_valid_forward": p_valid_fwd,
-                "p_valid_reversed": p_valid_rev,
+                "prob_forward": min(max(prob_fwd, 0.0), 1.0),
+                "prob_reversed": min(max(prob_rev, 0.0), 1.0),
+                "prob_averaged": min(max(avg, 0.0), 1.0),
+                "p_valid_forward": min(max(p_valid_fwd, 0.0), 1.0),
+                "p_valid_reversed": min(max(p_valid_rev, 0.0), 1.0),
                 "position_bias_magnitude": pos_bias,
             })
 

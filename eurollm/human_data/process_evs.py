@@ -67,10 +67,23 @@ def find_country_variable(columns: list[str]) -> str:
 
 
 def find_weight_variable(columns: list[str]) -> str | None:
-    """Find the recommended weight variable. Returns None if no weights found."""
-    for candidate in ["gweight", "dweight", "w_EVS5"]:
+    """Find the recommended weight variable. Returns None if no weights found.
+
+    Priority: dweight (design weight for within-country distributions) first,
+    then w_EVS5. Explicitly avoids gweight (cross-national population weight)
+    which distorts within-country distributions.
+    """
+    for candidate in ["dweight", "w_EVS5"]:
         if candidate in columns:
             return candidate
+    if "gweight" in columns:
+        import warnings
+        warnings.warn(
+            "Only gweight (population weight) found — this is a cross-national "
+            "weight and may distort within-country distributions. Prefer dweight.",
+            stacklevel=2,
+        )
+        return "gweight"
     return None
 
 

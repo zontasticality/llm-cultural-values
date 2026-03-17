@@ -501,7 +501,7 @@ def load_model(model_id: str, dtype: str = "bf16"):
     if dtype == "bf16":
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            dtype=torch.bfloat16,
+            torch_dtype=torch.bfloat16,
             device_map="auto",
         )
     elif dtype == "int4":

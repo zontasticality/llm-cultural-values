@@ -143,11 +143,19 @@ def _aggregate_permutations(raw: pd.DataFrame) -> pd.DataFrame:
 
         for rv in all_values:
             probs_by_perm = perm_data[rv]
-            prob_fwd = probs_by_perm.get(0, (0.0, 0.0))[0]
-            prob_rev = probs_by_perm.get(1, (0.0, 0.0))[0]
-            p_valid_fwd = probs_by_perm.get(0, (0.0, 0.0))[1]
-            p_valid_rev = probs_by_perm.get(1, (0.0, 0.0))[1]
+            # Use NaN for missing permutations so they don't corrupt averages
+            _nan = (np.nan, np.nan)
+            prob_fwd = probs_by_perm.get(0, _nan)[0]
+            prob_rev = probs_by_perm.get(1, _nan)[0]
+            p_valid_fwd = probs_by_perm.get(0, _nan)[1]
+            p_valid_rev = probs_by_perm.get(1, _nan)[1]
+            # Average only over permutations that were actually evaluated
             avg = np.mean([p[0] for p in probs_by_perm.values()])
+
+            def _clamp(v):
+                if np.isnan(v):
+                    return np.nan
+                return min(max(v, 0.0), 1.0)
 
             rows.append({
                 "model_type": model_type,
@@ -155,11 +163,11 @@ def _aggregate_permutations(raw: pd.DataFrame) -> pd.DataFrame:
                 "question_id": qid,
                 "response_type": rtype,
                 "response_value": rv,
-                "prob_forward": min(max(prob_fwd, 0.0), 1.0),
-                "prob_reversed": min(max(prob_rev, 0.0), 1.0),
-                "prob_averaged": min(max(avg, 0.0), 1.0),
-                "p_valid_forward": min(max(p_valid_fwd, 0.0), 1.0),
-                "p_valid_reversed": min(max(p_valid_rev, 0.0), 1.0),
+                "prob_forward": _clamp(prob_fwd),
+                "prob_reversed": _clamp(prob_rev),
+                "prob_averaged": _clamp(avg),
+                "p_valid_forward": _clamp(p_valid_fwd),
+                "p_valid_reversed": _clamp(p_valid_rev),
                 "position_bias_magnitude": pos_bias,
                 "n_permutations": n_perms,
                 "question_text": question_text,

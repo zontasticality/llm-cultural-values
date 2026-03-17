@@ -155,7 +155,7 @@ def plot_best_by_qtype(best_df: pd.DataFrame, agg: pd.DataFrame, figures_dir: Pa
     baseline_mask = (
         (agg["cue_style"] == "lang") &
         (agg["opt_format"] == "numbered_dot") &
-        (~agg["scale_hint"]) &
+        (agg["scale_hint"].isin([False, "none"])) &
         (agg["embed_style"] == "separate") &
         (agg["n_perms"] == 2)
     )
@@ -212,7 +212,7 @@ def plot_heatmap(agg: pd.DataFrame, figures_dir: Path):
                                 config_jsd["n_perms"].astype(str))
     config_jsd["col_label"] = (config_jsd["opt_format"] + " / " +
                                 config_jsd["embed_style"] +
-                                config_jsd["scale_hint"].map({True: " +hint", False: ""}))
+                                config_jsd["scale_hint"].map({"english": " +hint", "none": "", True: " +hint", False: ""}))
 
     pivot = config_jsd.pivot_table(
         index="row_label", columns="col_label", values="mean_jsd"

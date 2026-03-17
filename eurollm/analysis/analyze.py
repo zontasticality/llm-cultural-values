@@ -111,9 +111,12 @@ def apply_quality_filter(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
 
     Returns (filtered_df, report_df with flagged info).
     """
-    # Per-question P_valid stats across model-lang pairs
-    p_valid_avg = df.groupby(["model_type", "lang", "question_id"]).agg(
-        p_valid=("p_valid_forward", "mean")
+    # Per-question P_valid stats across model-lang pairs (average of fwd + rev)
+    grp = df.groupby(["model_type", "lang", "question_id"])
+    p_valid_avg = grp.apply(
+        lambda g: pd.Series({
+            "p_valid": g[["p_valid_forward", "p_valid_reversed"]].mean(axis=1).mean()
+        })
     ).reset_index()
 
     # Questions where P_valid < 0.10 for >50% of model-lang pairs
@@ -284,21 +287,22 @@ def compute_jsd_matrix(df: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
     labels = [f"{mt}_{lang}" for mt, lang in pairs]
     n = len(labels)
 
-    # Pre-compute distributions per pair
+    # Pre-compute distributions per pair, keyed by (response_value -> prob)
     distributions = {}
     for mt, lang in pairs:
         key = (mt, lang)
         sub = df[(df["model_type"] == mt) & (df["lang"] == lang)]
         distributions[key] = {}
         for qid, grp in sub.groupby("question_id"):
-            probs = grp.sort_values("response_value")["prob_averaged"].values
-            total = probs.sum()
+            dist = dict(zip(grp["response_value"], grp["prob_averaged"]))
+            total = sum(dist.values())
             if total > 0:
-                distributions[key][qid] = probs / total
+                distributions[key][qid] = {k: v / total for k, v in dist.items()}
             else:
-                distributions[key][qid] = np.ones(len(probs)) / len(probs)
+                n_vals = len(dist)
+                distributions[key][qid] = {k: 1.0 / n_vals for k in dist}
 
-    # Compute pairwise JSD
+    # Compute pairwise JSD with proper alignment of distributions
     matrix = np.zeros((n, n))
     for i in range(n):
         for j in range(i + 1, n):
@@ -310,10 +314,13 @@ def compute_jsd_matrix(df: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
                 continue
             jsds = []
             for qid in shared_qs:
-                p = distributions[key_i][qid]
-                q = distributions[key_j][qid]
-                if len(p) == len(q):
-                    jsds.append(jensenshannon(p, q))
+                d_i = distributions[key_i][qid]
+                d_j = distributions[key_j][qid]
+                # Align on the union of response values, inserting 0 for missing
+                all_vals = sorted(set(d_i.keys()) | set(d_j.keys()))
+                p = np.array([d_i.get(v, 0.0) for v in all_vals])
+                q = np.array([d_j.get(v, 0.0) for v in all_vals])
+                jsds.append(jensenshannon(p, q))
             if jsds:
                 matrix[i, j] = matrix[j, i] = np.nanmean(jsds)
             else:
@@ -1500,6 +1507,25 @@ def _run_main_figures(df, questions, args):
 
     jsd_df = compute_jsd_per_question(llm_dists, human_dists, questions)
     print(f"\n  Computed {len(jsd_df)} JSD values for main figures")
+
+    # Add bias_weight from LLM data (needed by scatter and heatmap plots)
+    if "position_bias_magnitude" in df.columns:
+        df["_p_valid_avg"] = df[["p_valid_forward", "p_valid_reversed"]].mean(axis=1)
+        quality_df = df.groupby(
+            ["model_type", "lang", "question_id"]
+        ).agg(
+            position_bias_magnitude=("position_bias_magnitude", "first"),
+            p_valid_mean=("_p_valid_avg", "mean"),
+        ).reset_index()
+        jsd_df = jsd_df.merge(
+            quality_df, on=["model_type", "lang", "question_id"], how="left"
+        )
+        jsd_df["bias_weight"] = 1.0 - jsd_df["position_bias_magnitude"].fillna(0).clip(0, 1)
+        jsd_df["p_valid_mean"] = jsd_df["p_valid_mean"].fillna(0.0)
+    else:
+        jsd_df["position_bias_magnitude"] = 0.0
+        jsd_df["bias_weight"] = 1.0
+        jsd_df["p_valid_mean"] = 1.0
 
     run_figure("all", jsd_df, llm_dists, human_dists, questions, args.figures_dir)
 

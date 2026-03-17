@@ -47,7 +47,7 @@ from inference.extract_logprobs import (
 GRID = {
     "cue_style": ["answer", "none", "lang"],
     "opt_format": ["numbered_dot", "numbered_paren", "bullet"],
-    "scale_hint": [False, True],
+    "scale_hint": ["none", "english"],
     "embed_style": ["separate", "inline"],
     "n_perms": [2, 6],
 }

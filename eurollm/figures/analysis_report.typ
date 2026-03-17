@@ -54,9 +54,10 @@ For each (model, language, question), the P_valid is the sum of probabilities as
 
 === Key observations
 
-- *HPLT-2.15B and Gemma-3-27B base show high P_valid* ($>0.85$) across most languages, confirming that the logprob elicitation prompt format works for base models.
-- *EuroLLM-22B shows moderate P_valid* ($approx 0.65$--$0.80$), reflecting its different tokenizer and potentially different prompt-completion behavior.
-- *Some languages show systematically lower P_valid*, which may indicate tokenizer coverage issues or culturally unfamiliar prompt formatting.
+- *EuroLLM-22B shows the highest P_valid* ($approx 0.82$--$0.96$), suggesting its tokenizer and multilingual training produce the strongest format compliance.
+- *Gemma-3-27B base shows high P_valid* ($approx 0.77$--$0.92$) across most languages, confirming that the logprob elicitation prompt format works well for large base models.
+- *HPLT-2.15B shows more variable P_valid.* The optimized variant (opt) ranges from $approx 0.71$--$0.94$, while the cue variant is lower ($approx 0.64$--$0.95$), with notable weakness for Croatian ($0.65$) and Lithuanian ($0.64$).
+- *Some languages show systematically lower P_valid* (Croatian, Lithuanian, Latvian), which may indicate tokenizer coverage issues or culturally unfamiliar prompt formatting.
 
 === Why this figure comes first
 
@@ -80,9 +81,10 @@ The debiased distribution used in all other analyses is the average of forward a
 
 === Key observations
 
-- *Gemma-3-27B base shows the lowest position bias* (mean $approx 0.32$), contributing to its overall superior performance.
-- *EuroLLM-22B shows the highest position bias* (mean $approx 0.49$), suggesting it is more sensitive to option ordering.
-- *Likert scales show higher position bias* than binary/categorical questions, likely because the multiple similarly-worded options create more ambiguity about which option maps to which digit.
+- *Gemma-3-27B base shows the lowest position bias* (mean $= 0.31$, median $= 0.27$), contributing to its overall superior performance.
+- *HPLT-2.15B (cue) shows the highest position bias* (mean $= 0.64$, median $= 0.67$), likely reflecting both the smaller model size and the cue-style prompt being more ambiguous. The optimized variant (opt) is substantially lower (mean $= 0.43$, median $= 0.42$).
+- *EuroLLM-22B falls in between* (mean $= 0.39$, median $= 0.36$).
+- *Likert-3 shows the highest position bias by response type* (median $= 0.52$), followed by Likert-4 ($0.44$) and Likert-5 ($0.41$). Likert-10 is moderate ($0.35$) and categorical/frequency are lowest ($0.36$--$0.43$).
 
 === Why this matters
 
@@ -107,10 +109,10 @@ For each (model, language) pair, a *bias-weighted* mean JSD across all shared qu
 === Key observations
 
 - *Gemma-3-27B base shows the greenest row*, confirming its systematic advantage across languages.
-- *Bias weighting slightly reduces aggregate JSD* for models with high position bias (especially EuroLLM-22B), since their worst JSD questions tend to also have the highest bias.
+- *Bias weighting slightly reduces aggregate JSD* for models with high position bias (especially HPLT-2.15B), since their worst JSD questions tend to also have the highest bias.
 - *The standard deviations reveal within-language heterogeneity.* Some languages show high mean JSD with low std (consistently poor), while others show moderate mean with high std (mixed---some questions are well-captured, others not).
-- *The green corridor* (Italian, Hungarian, Romanian, Danish) shows particularly strong alignment for Gemma-3-27B.
-- *The red corridor* (Lithuanian, Croatian, Latvian) shows weak alignment across models---these are lower-resource languages where training data may be insufficient.
+- *The green corridor* (Spanish, French, Italian, Hungarian, Danish) shows particularly strong alignment for Gemma-3-27B, with JSD values in the $0.22$--$0.24$ range.
+- *Croatian stands out as the most challenging language* across all models, with JSD values reaching $0.41$ for HPLT (cue). Lithuanian and Latvian show moderate difficulty but are not as consistently poor as Croatian.
 
 === Why this figure matters
 
@@ -128,18 +130,18 @@ Two rows of scatter plots, one column per model type. *Top row*: raw expected va
 
 === How it was calculated
 
-For each ordinal question and (model, language) pair, $EE[X] = sum_i x_i dot p(x_i)$ is computed for both the LLM's debiased distribution and the human survey distribution. For the z-scored row, each question's values are standardized: $z = (x - mu) / sigma$ where $mu$ and $sigma$ are computed _jointly_ across all human and LLM values for that question.
+For each ordinal question and (model, language) pair, $EE[X] = sum_i x_i dot p(x_i)$ is computed for both the LLM's debiased distribution and the human survey distribution. For the z-scored row, each question's values are standardized using *human-only reference statistics*: $z = (x - mu_h) / sigma_h$ where $mu_h$ and $sigma_h$ are the mean and standard deviation of the human expected values for that question across countries. Both human and LLM values are mapped into this human-defined reference frame, allowing direct comparison of where each source falls relative to human cross-country variation.
 
 === Key observations
 
-- *Raw correlations are strong* ($r approx 0.71$--$0.73$), confirming LLMs encode the direction of cultural values.
-- *Z-scoring substantially reduces correlation* ($r approx 0.42$--$0.47$), contrary to the expectation that removing cross-question scale differences would reveal stronger within-question agreement. This indicates that _most_ of the raw correlation is driven by cross-question scale structure (e.g., both humans and LLMs agree that 1--10 scales produce higher means than 1--3 scales), not by within-question cultural sensitivity. The Spearman $rho$ also drops by a similar magnitude, ruling out non-linearity as the sole explanation.
+- *Raw correlations are moderate to strong* ($r approx 0.67$--$0.72$), with Gemma-3-27B ($r = 0.72$) and EuroLLM-22B ($r = 0.72$) outperforming HPLT-2.15B ($r approx 0.67$--$0.70$).
+- *Z-scoring collapses the correlation to zero.* After normalizing each question using human-only statistics, $r approx 0.00$ ($-0.007$ to $+0.008$) and $rho approx -0.03$ across all models. This reveals that the entire raw correlation was driven by cross-question scale structure (e.g., both humans and LLMs agree that 1--10 scales produce higher means than 1--3 scales). There is no detectable within-question cultural signal: LLMs do not capture which countries score above or below the cross-country mean on any given question.
 - *The identity line gap is visible in raw plots*: LLM points lie closer to the center than human points, reflecting the well-documented entropy compression where LLMs produce more uniform distributions.
-- *This decomposition is informative*: the gap between raw and z-scored correlations quantifies how much of the apparent alignment is "trivial" scale agreement vs.\ genuine cultural signal. A z-scored $r approx 0.45$ still represents a statistically significant cultural signal, but it is substantially weaker than the raw figures suggest.
+- *The z-scored panels show extreme outliers* (LLM z-scores up to $20$+) for questions where human cross-country variance is small ($sigma_h approx 0$), inflating LLM z-scores. These outliers do not drive the near-zero correlation, which persists in the bulk of the data.
 
 === Why this figure matters
 
-This answers: "How well do LLMs capture _relative_ cultural differences?" Raw correlation measures overall agreement including scale; z-scored correlation isolates within-question relative variation. The drop from $r approx 0.72$ to $r approx 0.45$ upon z-scoring is an important calibration: the headline correlation overstates cultural sensitivity by roughly 60%, with the majority of the raw signal attributable to scale structure rather than genuine cross-country differentiation.
+This is the most important diagnostic in the report. Raw correlation measures overall agreement including scale; z-scored correlation isolates within-question relative variation. The complete collapse from $r approx 0.70$ to $r approx 0.00$ upon z-scoring means that LLMs reproduce the overall statistical properties of each response scale (mean, range) but do not differentiate between countries _within_ any given question. The apparent cultural alignment in raw correlations is entirely an artifact of scale structure.
 
 #pagebreak()
 
@@ -188,9 +190,9 @@ For each of the 149 ordinal questions, the mean JSD is computed across all non-e
 
 == Key observations
 
-- *The distribution has a main body centered around 0.20--0.30*, with a sparse tail extending to $approx 0.52$. Most questions fall in a moderate JSD range.
-- *The 0.35 threshold* sits at the transition from the main body to the tail, removing $approx 27$ questions where LLMs systematically produce the most divergent distributions (159 of 186 retained overall; 122 of 149 ordinal questions used in the UMAP).
-- *The 0.25 threshold* cuts into the main body, retaining only the best-aligned questions (55 of 186 overall; 29 of 149 ordinal questions used in the UMAP).
+- *The distribution has a main body centered around 0.25--0.32*, with a sparse tail extending to $approx 0.52$. Most questions fall in a moderate JSD range.
+- *The 0.35 threshold* sits at the transition from the main body to the tail, retaining 158 of 186 questions overall.
+- *The 0.25 threshold* cuts into the main body, retaining only the 57 best-aligned questions of 186 overall.
 
 == Why this figure matters
 
@@ -239,11 +241,11 @@ The first principal component captures $approx 55%$ of human cultural variance. 
 
 == Key observations
 
-- *The PCA-first approach is necessary.* Direct UMAP on the full 149-dimensional expected-value space places LLM and human data in separate regions regardless of centering, because the per-question signal ($r approx 0.45$) is too noisy for UMAP to detect in high dimensions. PCA preprocessing extracts the dominant human cultural dimensions, and variance matching corrects for LLM entropy compression.
+- *The PCA-first approach is necessary.* Direct UMAP on the full 149-dimensional expected-value space places LLM and human data in separate regions regardless of centering, because the per-question cultural signal is near zero ($r approx 0.00$ after z-scoring) and too noisy for UMAP to detect in high dimensions. PCA preprocessing extracts the dominant human cultural dimensions, and variance matching corrects for LLM entropy compression.
 - *Human cultural cluster structure is visible.* In most panels, Protestant European countries (Danish, Swedish, Finnish, Dutch, German) cluster together, and Orthodox/traditional countries (Bulgarian, Romanian, Croatian, Polish) form a separate group, consistent with the Inglehart--Welzel cultural map.
-- *LLM points do not consistently land near their corresponding human countries.* While LLM model families form their own clusters in the variance-matched space, individual language points are often far from their human counterpart. This is consistent with the z-scored correlation finding ($r approx 0.45$): there is per-question cultural signal, but it does not aggregate into reliable country-level spatial correspondence.
+- *LLM points do not consistently land near their corresponding human countries.* While LLM model families form their own clusters in the variance-matched space, individual language points are often far from their human counterpart. This is consistent with the z-scored correlation finding ($r approx 0.00$): there is no detectable per-question cultural signal, so country-level spatial correspondence is not expected.
 - *Stricter quality filtering modestly improves structure.* Trustworthiness increases from $T = 0.915$ (no filter) to $T = 0.943$ (strict), but the improvement is gradual rather than transformative.
-- *Formal alignment tests (Procrustes, RSA Mantel test) do not reach statistical significance.* With only 21 countries and 5 PCA dimensions, neither rotation-based alignment nor distance-matrix correlation yields $p < 0.05$ for any model family or quality filter level. The per-question signal exists but is too weak and noisy to aggregate into detectable country-level geometry given the sample size.
+- *Formal alignment tests (Procrustes, RSA Mantel test) do not reach statistical significance.* With only 21 countries and 5 PCA dimensions, neither rotation-based alignment nor distance-matrix correlation yields $p < 0.05$ for any model family or quality filter level. Given the absence of within-question cultural signal ($r approx 0.00$), this null result is expected.
 
 #pagebreak()
 
@@ -267,30 +269,32 @@ For each question, the expected value is computed from the probability distribut
 
 == Key observations
 
-- *The human IW map matches the reference.* Protestant European countries appear in the top-right (secular-rational, self-expression), Orthodox countries in the bottom-left (traditional, survival), validating the composite construction. Cultural clusters follow the official Inglehart--Welzel World Cultural Map classification (Protestant Europe, Catholic Europe, English-speaking, Orthodox, Baltic).
-- *LLM points track the correct cultural direction.* Models trained on Protestant European languages shift toward the secular/self-expression quadrant; those trained on traditional-value languages shift toward the traditional/survival quadrant.
-- *The LLM-to-human displacement is systematic.* Gray lines tend to point in a consistent direction, suggesting a distributional bias (e.g., entropy compression) rather than random noise.
+- *The human IW map matches the reference.* Protestant European countries appear in the top-right (secular-rational, self-expression), Orthodox countries in the bottom-left (traditional, survival), validating the composite construction. Cultural clusters follow the official Inglehart--Welzel World Cultural Map classification (Protestant Europe, Catholic Europe, English-speaking, Orthodox, Baltic). Note: Greek is absent due to missing EVS coverage.
+- *LLM points cluster tightly near the center of the plot.* Due to entropy compression, LLM expected values have less cross-country variance than humans, and the quantile normalization maps this compressed range to intermediate ranks. The between-language variation in LLM composites is small relative to the human spread.
+- *Within the LLM cluster, there is modest directional structure.* Models trained on Protestant European languages sit slightly higher/right-er than those trained on Orthodox/traditional languages, preserving the broad rank ordering of cultural clusters. However, the effect size is small.
+- *Gray lines radiate outward from the LLM center to the human periphery*, reflecting entropy compression (all LLM points pulled toward the center) rather than a consistent directional shift.
+- *Quantile normalization inflates apparent alignment.* Because values are ranked jointly across human and LLM sources, even LLMs with near-constant expected values receive spread-out quantile ranks. This prevents assessment of absolute effect size.
 
 == Why this figure matters
 
-After the data-driven UMAP (F5), this figure grounds the findings in the most recognized framework in cross-cultural values research. The Inglehart--Welzel map shows that LLMs reproduce cultural structure not just in an arbitrary embedding but along _interpretable, validated dimensions_. This provides the strongest evidence that LLMs encode genuine cultural values, and connects the UMAP findings to decades of established cross-cultural theory.
+After the data-driven UMAP (F5), this figure tests whether LLMs reproduce cultural structure along _interpretable, validated dimensions_. The human IW map is well-reproduced, and LLM points show weak but directionally correct rank ordering across cultural clusters. However, the result should be interpreted cautiously: the quantile normalization guarantees some spread, and the LLM-to-human gap (entropy compression) is much larger than the between-language LLM variation. This figure demonstrates that LLMs preserve a coarse _rank ordering_ of cultural clusters on curated questions, but not the magnitude of cultural differentiation.
 
 #pagebreak()
 
 = Summary of Conclusions
 
-+ *Cultural signal exists but is weaker than raw correlations suggest.* Raw Pearson $r = 0.71$--$0.73$ between LLM and human expected values (F2b) includes a large contribution from cross-question scale structure. Z-scoring reduces this to $r approx 0.42$--$0.47$, indicating that roughly 60% of the raw correlation reflects scale agreement (e.g., 1--10 scales produce higher means than 1--3 scales) rather than genuine within-question cultural differentiation.
++ *The apparent cultural signal is driven entirely by scale structure.* Raw Pearson $r = 0.67$--$0.72$ between LLM and human expected values (F2b) drops to $r approx 0.00$ (range $-0.007$ to $+0.008$) after z-scoring with human-only reference statistics. This means the raw correlation reflects cross-question scale agreement (e.g., 1--10 scales produce higher means than 1--3 scales) rather than genuine within-question cultural sensitivity. LLMs do not capture cross-country variation within individual questions---they merely reproduce the overall shape of each scale.
 
-+ *The methodology works but has clear limitations.* High P_valid ($> 0.85$) confirms that logprob elicitation produces valid responses for base models (F1a), and position bias debiasing controls ordering effects (F1b). However, the HPLT-2.15B (cue) variant shows systematically lower P_valid than the optimized variant, and mean position bias across all models is substantial ($approx 0.43$). Instruction-tuned models (Gemma-3-27B-IT) fail entirely with near-zero P_valid. Note: all JSD values in this report are Jensen--Shannon _distances_ ($sqrt("JSD"_"div")$), bounded by $sqrt(ln 2) approx 0.83$.
++ *The methodology works but has clear limitations.* EuroLLM-22B shows the highest P_valid ($approx 0.82$--$0.96$), followed by Gemma-3-27B ($approx 0.78$--$0.92$) and HPLT-2.15B ($approx 0.64$--$0.95$, with the cue variant showing more weakness). Position bias is substantial: HPLT-2.15B (cue) has the highest (median $= 0.67$), while Gemma-3-27B has the lowest (median $= 0.27$). Instruction-tuned models (Gemma-3-27B-IT) fail entirely with near-zero P_valid. Note: all JSD values in this report are Jensen--Shannon _distances_ ($sqrt("JSD"_"div")$), bounded by $sqrt(ln 2) approx 0.83$.
 
 + *Model scale dominates over language specificity.* Gemma-3-27B (27B params, general multilingual) achieves the lowest mean JSD across nearly every language (F2a), outperforming both the European-specialized EuroLLM-22B and the language-specific HPLT-2.15B monolingual models. This suggests that model capacity for understanding the question format matters more than language-specific training data for this methodology.
 
 + *LLMs compress distributions.* The primary failure mode is entropy compression: LLMs produce more uniform distributions than humans, who often show strong consensus peaks. This compression dominates the JSD and manifests as systematically reduced variance in PCA space, requiring explicit variance matching for spatial analysis (F5).
 
-+ *Country-level cultural geography does not reach statistical significance.* While human points in the PCA-based UMAP show recognizable Inglehart--Welzel cluster structure (Protestant Europe, Catholic Europe, Orthodox), LLM points do not consistently land near their corresponding human countries (F5). Formal tests (Procrustes alignment, RSA Mantel test) fail to reach significance ($p > 0.05$) for any model family, across multiple quality filter levels and PCA dimensionalities. The per-question signal ($r approx 0.45$) is real but insufficient to aggregate into detectable country-level geometry with only 21 data points.
++ *Country-level cultural geography does not reach statistical significance.* While human points in the PCA-based UMAP show recognizable Inglehart--Welzel cluster structure (Protestant Europe, Catholic Europe, Orthodox), LLM points do not consistently land near their corresponding human countries (F5). Formal tests (Procrustes alignment, RSA Mantel test) fail to reach significance ($p > 0.05$) for any model family. Given that the within-question cultural signal is effectively zero ($r approx 0.00$ after z-scoring), the absence of country-level geometry is expected rather than a power issue.
 
-+ *The Inglehart--Welzel composite provides the strongest spatial result.* By aggregating across only 10 carefully chosen questions with known cultural valence (F6), the IW composite scores show LLM points tracking the recognized cultural map: Nordic countries appear secular/self-expressive and Southeast European countries appear traditional/survival-oriented. This hand-curated aggregation succeeds where the data-driven approach (149 questions $arrow$ PCA $arrow$ UMAP) does not, suggesting that question selection is critical and most survey questions contribute noise rather than cultural signal to spatial analysis.
++ *The Inglehart--Welzel composite provides partial spatial structure.* By aggregating across only 10 carefully chosen questions with known cultural valence (F6), the IW composite scores show LLM points broadly tracking the recognized cultural map: Nordic countries appear more secular/self-expressive and Southeast European countries appear more traditional/survival-oriented. However, LLM points cluster tightly in the center of the plot due to entropy compression, and quantile normalization (used to counteract this compression) inflates apparent alignment by spreading near-constant values across the rank scale. This result demonstrates that LLMs preserve _rank ordering_ of countries on curated cultural dimensions, but not the magnitude of cultural differences.
 
-+ *Question type matters.* Binary/categorical questions are best aligned (low JSD); likert-4/5 scales with many options are most challenging and show the highest position bias. The per-question JSD distribution (F4) reveals a natural break between well-captured and poorly-captured questions.
++ *Question type matters.* Binary/categorical questions are best aligned (low JSD); Likert-4 and Likert-10 scales are the most challenging and show the highest position bias. Likert-3 and Likert-5 are comparable to categorical questions. The per-question JSD distribution (F4) reveals a natural break between well-captured and poorly-captured questions.
 
-+ *Language resource level predicts alignment.* High-resource languages (French, English, Italian) show consistently lower JSD. Lower-resource languages (Croatian, Lithuanian, Latvian) remain challenging across all models. This pattern is consistent across model families, suggesting it reflects training data coverage rather than model architecture.
++ *Language resource level predicts alignment, driven mainly by Croatian.* High-resource languages (French, Spanish, Italian) show consistently lower JSD. Croatian stands out as the most challenging language across all models. Lithuanian and Latvian show moderate difficulty but are not as consistently poor. This pattern is consistent across model families, suggesting it reflects training data coverage rather than model architecture.

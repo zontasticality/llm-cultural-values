@@ -870,18 +870,16 @@ def plot_scatter_ev(jsd_df: pd.DataFrame, figures_dir: Path):
     n_models = len(model_types)
     fig, axes = plt.subplots(2, n_models, figsize=(7 * n_models, 11), squeeze=False)
 
-    # Compute z-scores per question (jointly across all sources)
+    # Compute z-scores per question using human-only reference statistics.
+    # This avoids artifacts from joint pooling where LLM entropy compression
+    # distorts the shared mean/std and can invert correlation signs.
     ordinal = ordinal.copy()
     for qid in ordinal["question_id"].unique():
         mask = ordinal["question_id"] == qid
-        # Pool human and LLM values for z-scoring
-        all_vals = pd.concat([
-            ordinal.loc[mask, "expected_human"],
-            ordinal.loc[mask, "expected_llm"],
-        ])
-        mu, sigma = all_vals.mean(), all_vals.std()
+        human_vals = ordinal.loc[mask, "expected_human"]
+        mu, sigma = human_vals.mean(), human_vals.std()
         if sigma > 0:
-            ordinal.loc[mask, "z_human"] = (ordinal.loc[mask, "expected_human"] - mu) / sigma
+            ordinal.loc[mask, "z_human"] = (human_vals - mu) / sigma
             ordinal.loc[mask, "z_llm"] = (ordinal.loc[mask, "expected_llm"] - mu) / sigma
         else:
             ordinal.loc[mask, "z_human"] = 0.0

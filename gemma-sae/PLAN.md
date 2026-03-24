@@ -4,9 +4,59 @@
 
 DB-backed pipeline for cultural completion comparison via temperature sampling + LLM classification. Mirrors eurollm/ architecture (SQLite/WAL, resumable SLURM jobs, batch commits).
 
-Two decoupled stages: **sampling** (GPU-bound, generates completions) → **classification** (tags completions on cultural dimensions, can use API or separate GPU).
+Two decoupled stages: **sampling** (GPU-bound, Unity SLURM cluster) → **classification** (API-based: GPT-4.1 mini batch or Claude Haiku 4.5 batch).
+
+**Development workflow**: Edit locally → rsync to Unity → sbatch → poll → rsync results back. Classification runs via API from local machine.
 
 See `RESEARCH.md` for scientific motivation, literature review, and the Phase 3 SAE hypothesis.
+
+---
+
+## Pilot-First Strategy
+
+Iterate on a small slice before scaling to the full matrix. The pilot tests the full pipeline end-to-end: sampling → extraction → filtering → classification → analysis.
+
+### Pilot Slice
+
+| Model | Langs | Templates | Samples/each | Completions |
+|-------|-------|-----------|-------------|-------------|
+| Gemma 3 27B PT | eng, fin, pol, ron, zho | self_concept, values | 50 | 500 |
+| Gemma 3 12B PT | eng, fin, pol, ron, zho | self_concept, values | 50 | 500 |
+| EuroLLM-22B | eng, fin, pol, ron | self_concept, values | 50 | 400 |
+| HPLT 2.15B × 4 | eng, fin, pol, ron (1 each) | self_concept, values | 50 | 400 |
+| **Total** | | | | **1,800** |
+
+After filtering (~85% survive) → ~1,530 completions for classification.
+
+### Classifier Comparison
+
+Run **both** classifiers on all pilot completions:
+
+| Classifier | Est. cost | Notes |
+|------------|-----------|-------|
+| GPT-4.1 mini batch | ~$0.13 | Native JSON schema constraints, 24h async SLA |
+| Claude Haiku 4.5 batch | ~$0.35 | High quality, 50% batch discount |
+
+Hand-label ~50 completions (10/lang), compute Cohen's κ against each classifier, pick the winner.
+
+### Pilot Go/No-Go
+
+1. **Classification quality**: κ > 0.7 on content categories vs hand-labels for at least one classifier
+2. **Cultural signal**: χ² p < 0.01 for content category distributions between any two IW clusters, OR Cohen's d > 0.3 for fin vs ron on trad_secular
+3. **Pipeline health**: filter rate < 30% for 27B, all models produce completions in all target langs
+
+If gates fail: iterate prompts/classifier/templates before scaling. **Phase 3 code should NOT be written until pilot passes.**
+
+### Compute & Cost
+
+| Item | Where | Cost |
+|------|-------|------|
+| Pilot sampling (~30 min A100) | Unity SLURM | $0 |
+| Full sampling (~13h A100) | Unity SLURM | $0 |
+| Pilot classification (both classifiers) | API | ~$0.48 |
+| Full classification (winner) | API | $96 (mini) or $270 (haiku) |
+| **Pilot total** | | **~$0.48** |
+| **Full run total** | | **$96–$270** |
 
 ---
 
@@ -243,13 +293,13 @@ Filtered completions are stored (`completion_raw` preserved) but excluded from c
 
 ### Temperature strategy
 
-**Default: T=1.0 for large models (27B, 22B), T=0.8 for small models (1B, 4B, HPLT 2.15B). Top-p=0.95 throughout.**
+**Default: T=1.0 for large models (27B, 22B, 12B), T=0.8 for small models (4B, HPLT 2.15B). Top-p=0.95 throughout.**
 
 **Rationale**: T=1.0 samples from the model's learned distribution — the theoretically correct choice for measuring "what cultural patterns did pretraining encode." Lower temperatures sharpen the distribution, which systematically suppresses minority cultural patterns: a Finnish-specific completion at 3% probability under T=1.0 drops to ~0.5% at T=0.5. Since the training data is English-dominated, low-T biases all languages toward Western/English cultural modes. This is the opposite of what we want.
 
 The concern that T=1.0 is "too noisy" is addressed by N=200: the standard error of the mean on a 1-5 Likert scale is at most 1.15/√200 ≈ 0.08, giving 95% CIs of ±0.16 points — tight enough to detect cross-cultural differences (typical IW effect sizes are 0.5-1.5 scale points).
 
-Small models (1B, 4B, HPLT 2.15B) use T=0.8 because they degrade faster at high temperature (Li et al. 2025 — larger models have higher "mutation temperature" thresholds). T=0.8 is a 1.25× logit amplification, enough to reduce incoherent completions without heavy cultural bias.
+Small models (4B, HPLT 2.15B) use T=0.8 because they degrade faster at high temperature (Li et al. 2025 — larger models have higher "mutation temperature" thresholds). T=0.8 is a 1.25× logit amplification, enough to reduce incoherent completions without heavy cultural bias.
 
 Top-p=0.95 acts as a safety net across all temperatures, trimming the extreme tail without materially affecting the distribution.
 
@@ -376,11 +426,19 @@ This document serves as a pre-registered prediction and a diagnostic reference f
 |---|---|---|---|---|
 | hplt2c_{lang} × 22 | HPLT/hplt2c_{lang}_checkpoints | 2.15B | Monolingual | 1 each |
 | eurollm22b | utter-project/EuroLLM-22B-2512 | 22B | Multilingual EU | 22 EU |
-| gemma3_1b_pt | google/gemma-3-1b-pt | 1B | Multilingual | All 27 |
-| gemma3_4b_pt | google/gemma-3-4b-pt | 4B | Multilingual | All 27 |
+| gemma3_12b_pt | google/gemma-3-12b-pt | 12B | Multilingual | All 27 |
 | gemma3_27b_pt | google/gemma-3-27b-pt | 27B | Multilingual | All 27 |
 
 Phase 3 adds: Gemma 3 27B PT + SAE steering (same model, `steering_config` column distinguishes).
+
+### Classifiers (API-based)
+
+| Classifier | API | Pricing (batch) | Notes |
+|------------|-----|-----------------|-------|
+| gpt-4.1-mini | OpenAI Batch API | $0.20/$0.80 per M tok | Native JSON schema constraints |
+| claude-haiku-4.5 | Anthropic Batch API | $0.50/$2.50 per M tok | 50% batch discount |
+
+Pilot runs both; full run uses the winner.
 
 ---
 
@@ -407,27 +465,62 @@ zho, jpn, ara, hin, tur
 
 ---
 
-## SLURM Jobs
+## SLURM Jobs (Unity Cluster)
+
+Development is local; sampling runs on Unity via SSH. Classification is API-based (runs locally).
+
+### Remote workflow
+
+```bash
+# One-time: set up SSH multiplexing in ~/.ssh/config
+# Host unity
+#     ControlMaster auto
+#     ControlPath ~/.ssh/sockets/%r@%h-%p
+#     ControlPersist 600
+
+# Push code → submit → poll → pull results
+make push              # rsync gemma-sae/ to unity
+make submit-pilot      # sbatch pilot jobs
+make status            # squeue check
+make pull              # rsync culture.db back
+```
 
 ### `slurm/run_sample.sh`
 
 Parameterized by `MODEL_ID`, `MODEL_HF_ID`, `DB_PATH`, `EXTRA_ARGS`. Same env setup as eurollm (CUDA 12.6, HF_HOME, PYTHONPATH).
 
-### `slurm/launch_sample.sh [--dry-run]`
+### `slurm/launch_pilot.sh [--dry-run]`
 
-Submits ~26 jobs:
+Submits pilot sampling jobs (2 templates × 5 langs × 50 samples):
+
+| Model | Jobs | Mem | Time | GPU constraint |
+|---|---|---|---|---|
+| Gemma 3 27B PT | 1 | 96G | 1h | a100 |
+| Gemma 3 12B PT | 1 | 48G | 30m | a100\|l40s |
+| EuroLLM-22B | 1 | 48G | 30m | a100\|h100 |
+| HPLT 2.15B × 4 | 4 (eng, fin, pol, ron) | 32G | 15m | any |
+
+### `slurm/launch_full.sh [--dry-run]`
+
+Full sampling matrix (~25 jobs):
 
 | Model | Jobs | Mem | Time | GPU constraint |
 |---|---|---|---|---|
 | HPLT 2.15B × 22 | 22 (one per lang) | 32G | 1h | any |
 | EuroLLM-22B | 1 | 48G | 4h | a100\|h100 |
-| Gemma 3 1B | 1 | 32G | 2h | any |
-| Gemma 3 4B | 1 | 32G | 2h | any |
-| Gemma 3 27B | 1 | 96G | 4h | a100 |
+| Gemma 3 12B PT | 1 | 48G | 2h | a100\|l40s |
+| Gemma 3 27B PT | 1 | 96G | 4h | a100 |
 
-### `slurm/run_classify.sh` + `slurm/launch_classify.sh`
+### Classification (API-based, runs locally)
 
-Single classification job using Gemma 3 27B IT as classifier (48G, 8h, a100). Processes all unclassified completions.
+```bash
+python -m classify.classify \
+    --db data/culture.db \
+    --classifier gpt-4.1-mini \
+    --batch-mode                   # Submit to OpenAI/Anthropic Batch API
+```
+
+No SLURM needed — classification happens via API from local machine.
 
 ---
 
@@ -449,7 +542,7 @@ PYTHONPATH=gemma-sae python -m analysis.analyze {subcommand} \
 | stability | Cross-prompt Spearman correlation per (model, lang) — low = grammatical artifact |
 | temp_sensitivity | Cultural profiles at T=0.7 vs T=1.0 vs T=1.3 for pilot subset — Spearman rank correlation of language orderings per dimension |
 | categories | Content category distributions: stacked bars per lang, chi-square tests |
-| size_effect | Cultural differentiation vs model size (Gemma 3 1B/4B/27B) |
+| size_effect | Cultural differentiation vs model size (Gemma 3 12B/27B + HPLT 2.15B + EuroLLM-22B) |
 | all | Run all of the above |
 
 **Primary outcome: content categories.** Content category distributions (family_social, occupation_achievement, etc.) are categorical, objective, and less susceptible to classifier Likert bias than the 1-5 cultural dimensions. If Chinese completions of "I am" skew 40% family_social vs English at 15%, that's a clear finding regardless of Likert dimension noise. The `categories` subcommand is the most likely to produce positive results and should be treated as the anchor behavioral finding. The three Likert cultural dimensions are secondary/exploratory.
@@ -469,9 +562,10 @@ If neither gate passes on the pilot, revise prompts/classifier before scaling. *
 | Templates | 8 | — |
 | Prompts (pilot: 5 langs) | ~52 | — |
 | Prompts (full: 27 langs) | ~280 | — |
-| Completions (pilot: 1 model × 52 prompts × 200) | 10,400 | ~10 MB (raw + extracted text) |
-| Completions (full: 26 models × 280 prompts × 200) | 1,456,000 | ~1.4 GB (128-tok raw + extracted) |
-| Classifications (~85% of completions survive filtering) | ~1,240,000 | ~200 MB |
+| **Pilot completions** (4 model groups × ~10 prompts × 50) | **1,800** | ~2 MB |
+| **Pilot classifications** (×2 classifiers) | **~3,060** | ~0.5 MB |
+| Completions (full: 25 models × 280 prompts × 200) | ~1,400,000 | ~1.4 GB |
+| Classifications (~85% survive, 1 classifier) | ~1,190,000 | ~200 MB |
 | **Total DB (full)** | | **~1.7 GB** |
 
 ---
@@ -491,17 +585,18 @@ If neither gate passes on the pilot, revise prompts/classifier before scaling. *
 
 | Step | What | Depends on |
 |------|------|------------|
-| 0 | Scaffolding: dirs, `__init__.py`, venv | — |
-| 1 | `db/schema.py` + `db/populate.py` + `prompt_templates.json` + `eng.json` | 0 |
+| 0 | Scaffolding: dirs, `__init__.py`, venv, Makefile | — |
+| 1 | `db/schema.py` + `db/populate.py` + `analysis/constants.py` | 0 |
 | 2 | ~~Translations for pilot langs (fin, pol, ron, zho)~~ **DONE** — see `data/translations/` + `completion_dynamics.md` | 1 |
-| 3 | `inference/sample.py` + `db/load.py:load_unsampled_prompts` | 1 |
-| 4 | `classify/prompts.py` + `classify/classify.py` + `db/load.py:load_unclassified` | 1 |
-| 5 | SLURM scripts (run_sample, run_classify, launch_sample, launch_classify) | 3, 4 |
-| 6 | **Pilot run**: Gemma 3 27B × 5 pilot langs, sample + classify | 2, 3, 4 |
-| 7 | `analysis/constants.py` + `analyze.py` (quality, profiles, known_groups) | 6 |
-| 8 | Classifier validation: hand-label 200, measure Cohen's κ, iterate prompt | 6 |
-| 9 | Full translations (27 langs), full sampling + classification matrix | 7, 8 |
-| 10 | Remaining analysis subcommands + human IW comparison | 9 |
+| 3 | `inference/sample.py` + `db/load.py` | 1 |
+| 4 | `classify/prompts.py` + `classify/classify.py` (API-based: GPT-4.1 mini + Haiku 4.5 batch) | 1 |
+| 5 | SLURM scripts + Makefile targets (push/submit-pilot/status/pull) | 3 |
+| 6 | **Pilot sampling** on Unity: 4 model groups × 2 templates × 5 langs × 50 samples | 2, 5 |
+| 7 | **Pilot classification**: run both classifiers on all ~1,530 completions | 4, 6 |
+| 8 | Hand-label ~50, compute κ, pick winning classifier, check go/no-go | 7 |
+| 9 | `analysis/constants.py` + `analyze.py` (quality, categories, known_groups) on pilot data | 8 |
+| 10 | Full translations (27 langs), full sampling + classification matrix | 8, 9 |
+| 11 | Remaining analysis subcommands + human IW comparison | 10 |
 
 ---
 
@@ -510,9 +605,10 @@ If neither gate passes on the pilot, revise prompts/classifier before scaling. *
 - **Step 1**: `python -m db.populate --db data/culture.db` → DB with 8 templates, prompts, models
 - **Step 3**: `python -m inference.sample --validate` → coherent completions with both `completion_raw` and `completion_text` populated; filter rate < 30% for 27B model; kill + restart resumes
 - **Step 4**: `python -m classify.classify --validate` → valid JSON classifications; only classifies `filter_status = 'ok'` rows
-- **Step 6**: `SELECT COUNT(*) FROM completions` ≈ 10,400; `SELECT COUNT(*) FROM completions WHERE filter_status = 'ok'` ≈ 8,500+; classifications count matches ok-filtered completions
-- **Step 7**: `python -m analysis.analyze known_groups` → Cohen's d > 0.3 for fin vs ron on trad_secular
-- **Step 8**: Classifier κ > 0.7 on content categories vs hand-labels
+- **Step 6**: Pilot: `SELECT COUNT(*) FROM completions` ≈ 1,800; filter rate < 30% for 27B
+- **Step 7**: Both classifiers return valid JSON for all pilot completions; no systematic failures per language
+- **Step 8**: κ > 0.7 for at least one classifier; go/no-go gates checked
+- **Step 9**: `python -m analysis.analyze categories` → χ² significant or Cohen's d > 0.3
 
 ---
 
@@ -531,7 +627,7 @@ The schema already supports Phase 3 via `completions.steering_config` (`"none"` 
 3. **Expect a spectrum, not a clean partition**: Feature hedging merges correlated culture/language features at narrow widths. The culture-language boundary will be fuzzy.
 4. **~25% of active features are task-relevant**: Permutation null distributions + cross-source validation are required to control false discovery rate.
 5. **Linear probe baseline is diagnostic**: A logistic regression probe trained on the same activations (sklearn, minutes to run) answers "does the model encode cultural information at this layer?" independently of whether SAEs can decompose it. If the probe separates IW clusters but SAEs don't → information exists but SAEs can't extract it (a claim about SAEs). If neither works → information doesn't exist at that layer (a claim about the model). This distinction is essential for interpreting Phase 3 results.
-5. **1B is a negative control**: Too small for abstract cultural representations. If 1B shows cultural features comparable to 27B, methodology is broken.
+5. **12B is a size control**: Should show fewer cultural features than 27B. Gemma Scope 2 covers both (`google/gemma-scope-2-12b-pt`, `google/gemma-scope-2-27b-pt`).
 
 ### Starting SAE Configuration
 
@@ -639,9 +735,9 @@ Classify validated features into a spectrum (not a clean partition):
 | Culture-language entangled | High on both | 30-50% |
 | Non-specific | Low on both | 20-40% |
 
-#### Step 3B.5: 1B negative control
+#### Step 3B.5: Size control (12B vs 27B)
 
-Repeat 3B.1-3B.4 for Gemma 3 1B PT. Expected: language features present, few/no validated cultural features. If 1B matches 27B, methodology is suspect.
+Repeat 3B.1-3B.4 for Gemma 3 12B PT. Expected: fewer validated cultural features than 27B. Gemma Scope 2 has SAEs for 12B (`google/gemma-scope-2-12b-pt`).
 
 **SLURM**: CPU-only, 16GB RAM, 2-4h per layer.
 
@@ -806,12 +902,11 @@ If residual SAE results are promising, use crosscoders at {16, 31, 40, 53} to ch
 - Do cultural features persist from layer 31 (detection) to layer 53 (output)?
 - Features that bridge detection→output are the strongest candidates for interpretable steering
 
-#### Step 3E.5: Size gradient (1B / 4B / 27B)
+#### Step 3E.5: Size gradient (12B / 27B)
 
 | Model | Expected cultural features | Expected steering effect |
 |-------|--------------------------|------------------------|
-| 1B | None (negative control) | None |
-| 4B | Weak | Weak |
+| 12B | Fewer / weaker | Weaker |
 | 27B | Strongest | Strongest |
 
 If gradient doesn't appear, methodology has a problem.
@@ -869,7 +964,7 @@ If gradient doesn't appear, methodology has a problem.
 - **3A.2**: `--validate` → activation sparsity ~L0=50 nonzeros per token
 - **3B.1**: Top monolinguality features for eng/fin/zho are distinct; ν > 10 for top-1
 - **3B.2**: >90% of 256k features non-significant; <1% significant after FDR correction
-- **3B.3**: 1B has ≥5× fewer validated cultural features than 27B
+- **3B.3**: 12B has fewer validated cultural features than 27B
 - **3B.5.1**: Linear probe on Flores-200 with language labels achieves >90% balanced accuracy (positive control); probe on wiki_culture with IW cluster labels achieves >45% (above 8-class chance = 12.5%) for 27B layer 40
 - **3C.1**: CAA vectors for Protestant vs Orthodox have cosine similarity < 0.9
 - **3C.4**: Steered completions at best α are coherent (PPL ratio < 2.0)
@@ -889,6 +984,6 @@ If gradient doesn't appear, methodology has a problem.
 | SAE steering outperforms CAA | Low | DeepMind negative results + input/output feature split |
 | FGAA competitive with CAA while interpretable | Moderate | Published 2-3× improvement over raw SAE steering |
 | Cross-language cultural transfer | Moderate | CAA vectors shown language-agnostic; SAE-based unproven |
-| 1B effective as negative control | High | 1B likely too small for abstract cultural representations |
+| 12B shows fewer cultural features than 27B | Moderate-high | Smaller capacity, less cultural exposure in training |
 
 **A negative result is publishable**: The first systematic attempt to disentangle culture from language using SAEs, with well-characterized failure modes, would be a significant contribution regardless of outcome.

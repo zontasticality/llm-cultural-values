@@ -10,8 +10,8 @@
 
 # Overridable via sbatch flags: --mem, --constraint, -t, etc.
 
-module purge
-module load cuda/12.6
+# Load CUDA if module system is available (not all nodes have it)
+module purge 2>/dev/null && module load cuda/12.6 2>/dev/null || true
 
 cd /scratch4/workspace/zevwilson_umass_edu-culture-llm/llm-cultural-values
 

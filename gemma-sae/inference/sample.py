@@ -284,7 +284,7 @@ def main():
             ("This is a normal sentence. And another one follows.", "ok"),
             ("", "degenerate"),
             ("ab", "too_short"),
-            ("{{{{{}}}}}<<<>>>=====;;/////", "non_text"),
+            ("{} = {} <> {} // {} {} <> {} = {} <> {}", "non_text"),
             ("The quick brown fox jumps over the lazy dog today.", "ok"),
         ]
         is_stub = not hasattr(tokenizer, "vocab_size")

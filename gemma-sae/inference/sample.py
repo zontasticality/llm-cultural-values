@@ -69,16 +69,29 @@ CLAUSE_BOUNDARY = re.compile(r"[,;:—–]\s+")
 CODE_CHARS = set("{}[]<>=;//")
 
 
-def extract_first_sentence(raw: str, tokenizer, max_extract_tokens: int = 80) -> str | None:
-    """Extract the first sentence/clause from raw generation."""
+def extract_first_sentence(raw: str, tokenizer, max_extract_tokens: int = 80,
+                           min_extract_words: int = 3) -> str | None:
+    """Extract the first meaningful chunk from raw generation.
+
+    If the first sentence is very short (< min_extract_words), extend to the
+    next sentence boundary so we capture "family. No matter what..." rather
+    than just "family."
+    """
     text = raw.strip()
     if not text:
         return None
 
     # Try sentence boundary
     m = SENTENCE_BOUNDARY.search(text)
-    if m and len(tokenizer.encode(text[:m.start() + 1])) <= max_extract_tokens:
-        return text[:m.start() + 1].strip()
+    if m:
+        candidate = text[:m.start() + 1].strip()
+        # If first sentence is too short, try extending to next boundary
+        if len(candidate.split()) < min_extract_words:
+            m2 = SENTENCE_BOUNDARY.search(text, m.end())
+            if m2 and len(tokenizer.encode(text[:m2.start() + 1])) <= max_extract_tokens:
+                candidate = text[:m2.start() + 1].strip()
+        if len(tokenizer.encode(candidate)) <= max_extract_tokens:
+            return candidate
 
     # Try clause boundary
     m = CLAUSE_BOUNDARY.search(text)
@@ -105,8 +118,9 @@ def classify_filter(raw: str, extracted: str | None) -> str:
             if ngrams[ng] >= 3:
                 return "repetition"
 
-    # Too short
-    if len(words) < 3:
+    # Too short — single word with no content (articles, fragments)
+    # Note: 1-2 word completions like "family" or "my health" are valid for TST
+    if len(words) < 1 or (len(words) == 1 and len(words[0]) <= 2):
         return "too_short"
 
     # Non-text: >50% code/markup characters

@@ -17,9 +17,6 @@ import re
 import time
 from pathlib import Path
 
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
-
 from db.load import load_unsampled_prompts
 from db.schema import get_connection, init_db
 
@@ -28,6 +25,9 @@ from db.schema import get_connection, init_db
 
 def load_model(model_id: str, dtype: str = "bf16"):
     """Load model and tokenizer with configurable precision."""
+    import torch
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+
     print(f"Loading model: {model_id} (dtype={dtype})")
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
@@ -141,6 +141,8 @@ def sample_prompt(
     batch_size: int,
 ) -> list[dict]:
     """Generate n_samples completions for a single prompt."""
+    import torch
+
     results = []
 
     for batch_start in range(0, n_samples, batch_size):
@@ -237,6 +239,8 @@ def main():
     parser.add_argument("--template", type=str, default=None)
     parser.add_argument("--validate", action="store_true",
                         help="Process 2 prompts, print first 5 completions each, then exit")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Test DB queries, extraction, filtering — no model loading")
     args = parser.parse_args()
 
     conn = get_connection(args.db)
@@ -251,6 +255,92 @@ def main():
         print("All prompts fully sampled. Nothing to do.")
         return
 
+    print(f"Found {len(prompts)} prompts needing samples "
+          f"(total needed: {sum(p['needed'] for p in prompts)})")
+    for p in prompts[:5]:
+        print(f"  {p['lang']}:{p['template_id']} "
+              f"need={p['needed']} text={p['prompt_text']!r}")
+    if len(prompts) > 5:
+        print(f"  ... and {len(prompts) - 5} more")
+
+    # ── Dry run: test extraction/filtering on synthetic text ─────
+    if args.dry_run:
+        print("\n=== DRY RUN: testing extraction & filtering ===")
+
+        # Use a simple stub tokenizer for local testing if transformers unavailable
+        try:
+            from transformers import AutoTokenizer
+            print(f"Loading tokenizer: {args.model_hf_id}")
+            tokenizer = AutoTokenizer.from_pretrained(args.model_hf_id)
+        except ImportError:
+            print("  transformers not installed — using stub tokenizer")
+            class _StubTokenizer:
+                """Whitespace tokenizer for dry-run without transformers."""
+                def encode(self, text, **kw): return text.split()
+                def decode(self, tokens, **kw): return " ".join(tokens)
+            tokenizer = _StubTokenizer()
+
+        test_cases = [
+            ("This is a normal sentence. And another one follows.", "ok"),
+            ("", "degenerate"),
+            ("ab", "too_short"),
+            ("{{{{{}}}}}<<<>>>=====;;/////", "non_text"),
+            ("The quick brown fox jumps over the lazy dog today.", "ok"),
+        ]
+        is_stub = not hasattr(tokenizer, "vocab_size")
+        print(f"\nExtraction + filter tests{' (stub tokenizer — some may differ)' if is_stub else ''}:")
+        all_pass = True
+        for raw, expected_filter in test_cases:
+            extracted = extract_first_sentence(raw, tokenizer)
+            status = classify_filter(raw, extracted)
+            match = status == expected_filter
+            ok = "PASS" if match else ("STUB" if is_stub else "FAIL")
+            if not match and not is_stub:
+                all_pass = False
+            print(f"  [{ok}] raw={raw!r:.60s}... → extracted={extracted!r:.40s} status={status} (expected {expected_filter})")
+
+        print(f"\nSeed test:")
+        s1 = make_seed(args.model_id, 1, 0)
+        s2 = make_seed(args.model_id, 1, 1)
+        s3 = make_seed(args.model_id, 1, 0)
+        print(f"  seed(pid=1, idx=0) = {s1}")
+        print(f"  seed(pid=1, idx=1) = {s2}")
+        print(f"  seed(pid=1, idx=0) = {s3} (should match first: {s1 == s3})")
+
+        print(f"\nDB insert test (fake completion):")
+        test_comp = [{
+            "prompt_id": prompts[0]["prompt_id"],
+            "model_id": args.model_id,
+            "sample_idx": 99999,
+            "completion_raw": "DRY_RUN_TEST",
+            "completion_text": "DRY_RUN_TEST",
+            "n_tokens_raw": 1,
+            "n_tokens": 1,
+            "filter_status": "ok",
+            "temperature": args.temperature,
+            "top_p": args.top_p,
+            "seed": 0,
+            "steering_config": "none",
+        }]
+        insert_completions(conn, test_comp)
+        row = conn.execute(
+            "SELECT * FROM completions WHERE completion_raw = 'DRY_RUN_TEST'"
+        ).fetchone()
+        if row:
+            print(f"  INSERT + SELECT: PASS (completion_id={row[0]})")
+            conn.execute("DELETE FROM completions WHERE completion_raw = 'DRY_RUN_TEST'")
+            conn.commit()
+            print(f"  Cleaned up test row.")
+        else:
+            print(f"  INSERT + SELECT: FAIL")
+            all_pass = False
+
+        print(f"\n{'='*60}")
+        print(f"Dry run {'PASSED' if all_pass else 'FAILED'}")
+        conn.close()
+        return
+
+    # ── Real run ─────────────────────────────────────────────────
     print(f"Loading model: {args.model_hf_id}")
     model, tokenizer = load_model(args.model_hf_id, dtype=args.dtype)
 

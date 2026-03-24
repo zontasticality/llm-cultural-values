@@ -71,15 +71,60 @@ classify-anthropic:
 	cd $(LOCAL_DIR) && PYTHONPATH=. python -m classify.classify \
 		--db data/culture.db --classifier claude-haiku-4.5 --batch-mode
 
-# ── Validate (quick smoke tests) ────────────────────────────────
+# ── Local validation (no GPU) ────────────────────────────────────
 
-.PHONY: validate-sample validate-classify
+.PHONY: dry-run dry-run-all validate-classify
 
-validate-sample:
+# Test DB queries, extraction, filtering — downloads tokenizer only, no model
+dry-run:
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m inference.sample \
+		--model_id gemma3_27b_pt --model_hf_id google/gemma-3-27b-pt \
+		--db data/culture.db --dry-run --n-samples 50
+
+# Dry-run all model configs
+dry-run-all:
+	@echo "=== gemma3_27b_pt ==="
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m inference.sample \
+		--model_id gemma3_27b_pt --model_hf_id google/gemma-3-27b-pt \
+		--db data/culture.db --dry-run --n-samples 50
+	@echo "\n=== gemma3_12b_pt ==="
 	cd $(LOCAL_DIR) && PYTHONPATH=. python -m inference.sample \
 		--model_id gemma3_12b_pt --model_hf_id google/gemma-3-12b-pt \
-		--db data/culture.db --validate --n-samples 5
+		--db data/culture.db --dry-run --n-samples 50
+	@echo "\n=== eurollm22b ==="
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m inference.sample \
+		--model_id eurollm22b --model_hf_id utter-project/EuroLLM-22B-2512 \
+		--db data/culture.db --dry-run --n-samples 50
+	@echo "\n=== hplt2c_eng ==="
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m inference.sample \
+		--model_id hplt2c_eng --model_hf_id HPLT/hplt2c_eng_checkpoints \
+		--db data/culture.db --dry-run --n-samples 50 --lang eng
 
 validate-classify:
 	cd $(LOCAL_DIR) && PYTHONPATH=. python -m classify.classify \
 		--db data/culture.db --classifier gpt-4.1-mini --validate
+
+# ── Remote interactive validation (GPU, one model at a time) ─────
+
+.PHONY: interactive remote-validate
+
+# Open an interactive GPU session on Unity (30 min, smallest useful GPU)
+interactive: push
+	@echo "Requesting interactive GPU session on Unity..."
+	@echo "Once inside, run: cd $(REMOTE_BASE) && PYTHONPATH=gemma-sae gemma-sae/.venv/bin/python -m inference.sample --model_id hplt2c_eng --model_hf_id HPLT/hplt2c_eng_checkpoints --db gemma-sae/data/culture.db --validate --n-samples 3"
+	ssh -t $(REMOTE) 'srun --gres=gpu:1 --mem=32G -p gpu-preempt -t 00:30:00 --pty bash'
+
+# Push + run --validate for the smallest model via srun (blocks until GPU allocated + test done)
+remote-validate: push
+	@echo "Running HPLT validation via srun (will queue for GPU)..."
+	ssh $(REMOTE) 'srun --gres=gpu:1 --mem=32G -p gpu-preempt -t 00:10:00 \
+		bash -c "cd $(REMOTE_BASE) && \
+		module load cuda/12.6 && \
+		export HF_HOME=/scratch4/workspace/zevwilson_umass_edu-culture-llm/.hf_cache && \
+		export PYTHONPATH=gemma-sae && \
+		export PYTHONUNBUFFERED=1 && \
+		gemma-sae/.venv/bin/python -m inference.sample \
+			--model_id hplt2c_eng \
+			--model_hf_id HPLT/hplt2c_eng_checkpoints \
+			--db gemma-sae/data/culture.db \
+			--validate --n-samples 3 --temperature 0.8"'

@@ -1,0 +1,42 @@
+[
+  {
+    "template_id": "self_concept",
+    "template_name": "Self-Concept",
+    "cultural_target": "identity"
+  },
+  {
+    "template_id": "values",
+    "template_name": "Core Values",
+    "cultural_target": "values"
+  },
+  {
+    "template_id": "moral",
+    "template_name": "Moral Norms",
+    "cultural_target": "moral_norms"
+  },
+  {
+    "template_id": "childrearing",
+    "template_name": "Childrearing",
+    "cultural_target": "socialization"
+  },
+  {
+    "template_id": "family",
+    "template_name": "Family Values",
+    "cultural_target": "family"
+  },
+  {
+    "template_id": "success",
+    "template_name": "Achievement",
+    "cultural_target": "achievement"
+  },
+  {
+    "template_id": "decision",
+    "template_name": "Decision-Making",
+    "cultural_target": "agency"
+  },
+  {
+    "template_id": "belief",
+    "template_name": "Worldview",
+    "cultural_target": "worldview"
+  }
+]

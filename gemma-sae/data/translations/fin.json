@@ -1,0 +1,13 @@
+{
+  "lang": "fin",
+  "prompts": [
+    {"template_id": "self_concept", "variant_idx": 0, "prompt_text": "Olen", "is_control": false},
+    {"template_id": "values", "variant_idx": 0, "prompt_text": "Elämässä tärkeintä on", "is_control": false},
+    {"template_id": "moral", "variant_idx": 0, "prompt_text": "Hyvä ihminen on sellainen, joka", "is_control": false},
+    {"template_id": "childrearing", "variant_idx": 0, "prompt_text": "Lasten pitäisi oppia", "is_control": false},
+    {"template_id": "family", "variant_idx": 0, "prompt_text": "Meidän perheessä tärkeintä on", "is_control": false},
+    {"template_id": "success", "variant_idx": 0, "prompt_text": "Menestys tarkoittaa", "is_control": false},
+    {"template_id": "decision", "variant_idx": 0, "prompt_text": "Kun teen vaikean päätöksen,", "is_control": false},
+    {"template_id": "belief", "variant_idx": 0, "prompt_text": "Uskon, että", "is_control": false}
+  ]
+}

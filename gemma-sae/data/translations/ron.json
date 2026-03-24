@@ -1,0 +1,13 @@
+{
+  "lang": "ron",
+  "prompts": [
+    {"template_id": "self_concept", "variant_idx": 0, "prompt_text": "Sunt", "is_control": false},
+    {"template_id": "values", "variant_idx": 0, "prompt_text": "Cel mai important lucru în viață este", "is_control": false},
+    {"template_id": "moral", "variant_idx": 0, "prompt_text": "Un om bun este cel care", "is_control": false},
+    {"template_id": "childrearing", "variant_idx": 0, "prompt_text": "Copiii ar trebui să învețe să", "is_control": false},
+    {"template_id": "family", "variant_idx": 0, "prompt_text": "În familia mea, cel mai important lucru este", "is_control": false},
+    {"template_id": "success", "variant_idx": 0, "prompt_text": "Succesul înseamnă", "is_control": false},
+    {"template_id": "decision", "variant_idx": 0, "prompt_text": "Când trebuie să iau o decizie dificilă,", "is_control": false},
+    {"template_id": "belief", "variant_idx": 0, "prompt_text": "Cred că", "is_control": false}
+  ]
+}

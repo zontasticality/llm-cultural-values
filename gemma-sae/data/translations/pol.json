@@ -1,0 +1,13 @@
+{
+  "lang": "pol",
+  "prompts": [
+    {"template_id": "self_concept", "variant_idx": 0, "prompt_text": "Jestem", "is_control": false},
+    {"template_id": "values", "variant_idx": 0, "prompt_text": "Najważniejszą rzeczą w życiu jest", "is_control": false},
+    {"template_id": "moral", "variant_idx": 0, "prompt_text": "Dobry człowiek to ktoś, kto", "is_control": false},
+    {"template_id": "childrearing", "variant_idx": 0, "prompt_text": "Dzieci powinny uczyć się", "is_control": false},
+    {"template_id": "family", "variant_idx": 0, "prompt_text": "W mojej rodzinie najważniejsze jest", "is_control": false},
+    {"template_id": "success", "variant_idx": 0, "prompt_text": "Sukces to", "is_control": false},
+    {"template_id": "decision", "variant_idx": 0, "prompt_text": "Podejmując trudną decyzję,", "is_control": false},
+    {"template_id": "belief", "variant_idx": 0, "prompt_text": "Wierzę, że", "is_control": false}
+  ]
+}

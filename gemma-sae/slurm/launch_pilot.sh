@@ -2,7 +2,7 @@
 # Launch pilot sampling jobs on Unity.
 # Usage: bash gemma-sae/slurm/launch_pilot.sh [--dry-run]
 
-set -euo pipefail
+set -uo pipefail
 
 DRY_RUN=false
 if [[ "${1:-}" == "--dry-run" ]]; then
@@ -19,7 +19,7 @@ submit() {
     shift 4
     local cmd="sbatch --job-name=$name --mem=$mem -t $time"
     if [[ -n "$constraint" ]]; then
-        cmd="$cmd --constraint=$constraint"
+        cmd="$cmd --constraint=\"$constraint\""
     fi
     cmd="$cmd $SCRIPT $@"
 

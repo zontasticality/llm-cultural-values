@@ -645,19 +645,41 @@ The schema already supports Phase 3 via `completions.steering_config` (`"none"` 
 
 **Goal**: Collect SAE activation vectors for carefully chosen probe texts.
 
-#### 3 probe corpora
+#### 4 probe corpora
 
 | Probe Set | Purpose | Content | Size | Variable |
 |-----------|---------|---------|------|----------|
 | `flores_200` | Language feature ID | Flores-200 devtest (parallel text) | ~1012 sentences × 27 langs | Language varies, content held constant |
-| `wiki_culture` | Cultural feature ID | Wikipedia passages on cultural practices per IW cluster, **in each of the 27 languages** | ~100 passages × 8 clusters × 27 langs | Cultural content varies; language varies independently |
-| `wvs_stems` | Entangled signal | Top-50 Phase 2 completions per (lang, template) | ~10,800 texts | Both language and culture vary |
+| `wiki_culture` | Cultural topic features | Wikipedia passages on cultural practices per IW cluster, translated into all 27 langs | ~100 passages × 8 clusters × 27 langs | Cultural topic varies; language varies independently |
+| `literary_corpus` | Cultural voice features | Native literary texts per language (novels, essays, folk tales) | ~200 passages × 27 langs | Both language and culture vary (authentically) |
+| `wvs_stems` | Entangled signal | Top-50 Phase 2 completions per (lang, template) | ~10,800 texts | Both language and culture vary (model-generated) |
 
-**Why three**: `flores_200` isolates language (same content, different languages). `wiki_culture` varies culture **and** language independently (same cultural topics translated into all 27 languages — a feature must activate for "Protestant practices" regardless of whether the text is in Finnish, Arabic, or English). `wvs_stems` captures the natural entanglement. Cross-source validation (a feature must be significant in both `wvs_stems` AND `wiki_culture`) filters spurious correlations.
+**Why four**: Each probe set controls different confounds:
+- `flores_200` isolates **language** (same content, different languages → pure language features)
+- `wiki_culture` isolates **cultural topic** (same topics translated into all languages → features that respond to "Protestant practices" regardless of language). But these are encyclopedic descriptions *about* a culture, not text *from* it.
+- `literary_corpus` captures **cultural voice** — the style, framing, assumptions, and values embedded in authentic native text. A Finnish novel carries Finnish cultural priors in *how* it frames family and duty, not just *whether* it mentions them. Language and culture are fully confounded, but this is the most naturalistic signal.
+- `wvs_stems` captures **model-generated** cultural signal from Phase 2 completions.
+
+**Cross-source validation** is now a 3-way intersection: a feature is "validated cultural" only if significant in at least 2 of {`wvs_stems`, `wiki_culture`, `literary_corpus`}. Features found in all 3 are highest confidence. Features found only in `literary_corpus` + `wvs_stems` but not `wiki_culture` are likely culture-language entangled (the feature responds to cultural voice but not encyclopedic cultural topics).
 
 **`wiki_culture` construction**: Curate ~100 English Wikipedia passages per IW cluster describing culturally distinctive practices (e.g., Protestant work ethic, Orthodox religious traditions, Confucian family values). Translate each passage into all 27 languages using an MT model or API. Monoculturality on `wiki_culture` is then computed by grouping activations by IW cluster label, **averaging across languages within each cluster**. This ensures a feature scored as "monocultural" responds to the cultural *content*, not the language it's written in.
 
-**Why not English-only**: An English-only `wiki_culture` probe would identify features responding to "English descriptions of cultural practices" — semantic/topic features, not the deep cultural representations that manifest in multilingual generation. The multilingual design ensures cross-source validation with `wvs_stems` tests whether the same features activate for cultural content regardless of language.
+**`literary_corpus` construction**: ~200 native passages per language sourced from:
+- Project Gutenberg (public domain novels/essays — good coverage for major EU languages + English + Chinese)
+- National digital libraries (e.g., Kansalliskirjasto for Finnish, Polona for Polish)
+- OPUS/InterCorp parallel literary corpora (useful for finding comparable literary works across languages, though we use the native text, not translations)
+- Folk tale collections (culturally grounded narratives, available for most languages)
+
+Selection criteria: passages should be ~100-300 words, from works written originally in the target language (not translations), spanning genres (novels, essays, folk tales, religious texts) and time periods. No MT involved — this is the key advantage over `wiki_culture`.
+
+**Interpreting disagreements between probe sets:**
+
+| `wiki_culture` | `literary_corpus` | Interpretation |
+|---|---|---|
+| Significant | Significant | **High-confidence cultural feature** — responds to both cultural topics and cultural voice |
+| Significant | Not significant | **Topic feature** — responds to encyclopedic cultural content but not authentic cultural expression |
+| Not significant | Significant | **Culture-language entangled** — responds to authentic cultural voice but can't separate culture from language |
+| Not significant | Not significant | Not cultural (discard) |
 
 #### Activation extraction (`steering/extract_activations.py`)
 
@@ -688,9 +710,9 @@ params = dict(np.load(path))
 # W_enc, W_dec, b_enc, b_dec, threshold (JumpReLU)
 ```
 
-**Data volume**: ~80GB total across all (layer, probe_set, lang) combos. Sparse storage (L0≈50 nonzeros per token out of 256k) keeps this manageable. The multilingual `wiki_culture` increases volume vs English-only but reuses the same extraction pipeline.
+**Data volume**: ~110GB total across all (layer, probe_set, lang) combos. Sparse storage (L0≈50 nonzeros per token out of 256k) keeps this manageable.
 
-**SLURM**: One job per (layer, probe_set, lang). 3 layers × (27 flores + 27 wiki_culture + 27 wvs_stems) = 243 jobs. 1× A100 80GB, ~1h each.
+**SLURM**: One job per (layer, probe_set, lang). 3 layers × (27 flores + 27 wiki_culture + 27 literary + 27 wvs_stems) = 324 jobs. 1× A100 80GB, ~1h each.
 
 ---
 
@@ -720,9 +742,9 @@ Computed separately on `wvs_stems` (entangled) and `wiki_culture` (language-cont
 
 1. Randomly shuffle language/cluster labels 1000 times, recompute ν → null distribution
 2. Benjamini-Hochberg FDR correction at q < 0.01
-3. **Cross-source validation**: feature is "validated cultural" only if significant in BOTH `wvs_stems` AND `wiki_culture` (where `wiki_culture` monoculturality is computed across all 27 languages, grouped by IW cluster — so a feature must respond to cultural content regardless of language)
+3. **Cross-source validation**: feature is "validated cultural" only if significant in at least 2 of {`wvs_stems`, `wiki_culture`, `literary_corpus`}. Features significant in all 3 are highest confidence. `wiki_culture` monoculturality is computed across all 27 languages, grouped by IW cluster. `literary_corpus` monoculturality is grouped by language-to-cluster mapping (language confounded, but authentic).
 
-**Expected yield**: ~dozens to low hundreds of validated cultural features per cluster (after FDR + cross-source filtering). The multilingual `wiki_culture` design makes cross-source validation stricter but more meaningful than English-only would be.
+**Expected yield**: ~dozens to low hundreds of validated cultural features per cluster (after FDR + cross-source filtering). The 3-way validation is stricter but produces more interpretable feature categories (topic-only, voice-only, both).
 
 #### Step 3B.4: Feature partition
 

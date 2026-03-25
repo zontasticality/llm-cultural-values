@@ -34,20 +34,39 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 # ── Classifier dispatch ──────────────────────────────────────────
 
 SUPPORTED_CLASSIFIERS = {
+    # Direct APIs
     "gpt-4.1-mini": {"provider": "openai", "model": "gpt-4.1-mini"},
     "gpt-4.1-nano": {"provider": "openai", "model": "gpt-4.1-nano"},
     "claude-haiku-4.5": {"provider": "anthropic", "model": "claude-haiku-4-5-20251001"},
+    # OpenRouter (OpenAI-compatible, uses OPENROUTER_API_KEY)
+    "or-gpt-4.1-mini": {"provider": "openrouter", "model": "openai/gpt-4.1-mini"},
+    "or-haiku-4.5": {"provider": "openrouter", "model": "anthropic/claude-haiku-4-5"},
+    "or-gemma-27b-it": {"provider": "openrouter", "model": "google/gemma-3-27b-it:free"},
 }
+
+
+def _make_openai_client(provider: str):
+    """Create an OpenAI-compatible client for direct or OpenRouter APIs."""
+    import os
+    from openai import OpenAI
+
+    if provider == "openrouter":
+        api_key = os.environ.get("OPENROUTER_API_KEY")
+        if not api_key:
+            raise RuntimeError("OPENROUTER_API_KEY not set")
+        return OpenAI(base_url="https://openrouter.ai/api/v1", api_key=api_key)
+    else:
+        return OpenAI()
 
 
 def classify_openai_interactive(
     completions: list[dict],
     model: str,
     batch_size: int = 20,
+    provider: str = "openai",
 ) -> list[dict]:
-    """Classify completions one-by-one using OpenAI API (for pilot/debugging)."""
-    from openai import OpenAI
-    client = OpenAI()
+    """Classify completions one-by-one using OpenAI-compatible API."""
+    client = _make_openai_client(provider)
     results = []
 
     for i, comp in enumerate(completions):
@@ -55,22 +74,28 @@ def classify_openai_interactive(
             comp["completion_text"], comp["lang"], comp["template_id"],
         )
         try:
-            response = client.chat.completions.create(
+            kwargs = dict(
                 model=model,
                 messages=[
                     {"role": "system", "content": CLASSIFIER_SYSTEM},
                     {"role": "user", "content": user_msg},
                 ],
-                response_format={
+                temperature=0,
+            )
+            # Strict JSON schema only works on native OpenAI API
+            if provider == "openai":
+                kwargs["response_format"] = {
                     "type": "json_schema",
                     "json_schema": {
                         "name": "classification",
                         "strict": True,
                         "schema": CLASSIFICATION_SCHEMA,
                     },
-                },
-                temperature=0,
-            )
+                }
+            else:
+                # OpenRouter: request JSON but rely on prompt + parsing
+                kwargs["response_format"] = {"type": "json_object"}
+            response = client.chat.completions.create(**kwargs)
             raw = response.choices[0].message.content
             parsed = parse_classification(raw)
             if parsed:
@@ -342,8 +367,12 @@ def main():
         completions = completions[:10]
         print(f"Validate mode: classifying {len(completions)} samples")
 
-    # Batch mode: submit and exit
+    # Batch mode: submit and exit (not supported for OpenRouter)
     if args.batch_mode:
+        if config["provider"] == "openrouter":
+            print("ERROR: Batch mode not supported for OpenRouter. Use interactive mode.")
+            conn.close()
+            return
         if config["provider"] == "openai":
             batch_id = submit_openai_batch(completions, config["model"], args.db)
         else:
@@ -356,8 +385,9 @@ def main():
 
     # Interactive mode
     t0 = time.time()
-    if config["provider"] == "openai":
-        results = classify_openai_interactive(completions, config["model"])
+    if config["provider"] in ("openai", "openrouter"):
+        results = classify_openai_interactive(
+            completions, config["model"], provider=config["provider"])
     else:
         results = classify_anthropic_interactive(completions, config["model"])
 

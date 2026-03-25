@@ -64,9 +64,13 @@ CREATE INDEX IF NOT EXISTS idx_prompt_template_lang ON prompts(template_id, lang
 
 
 def get_connection(db_path: str | Path) -> sqlite3.Connection:
-    """Open a SQLite connection with WAL mode, foreign keys, and busy timeout."""
+    """Open a SQLite connection with foreign keys and busy timeout.
+
+    WAL mode is set once during init_db(), not on every connection.
+    Re-issuing PRAGMA journal_mode=WAL from multiple processes simultaneously
+    on a network filesystem can corrupt the DB.
+    """
     conn = sqlite3.connect(str(db_path))
-    conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
     conn.execute("PRAGMA busy_timeout=120000")
     return conn
@@ -79,9 +83,13 @@ def create_tables(conn: sqlite3.Connection):
 
 
 def init_db(db_path: str | Path) -> sqlite3.Connection:
-    """Create database file and tables (idempotent)."""
+    """Create database file and tables (idempotent). Sets WAL mode once."""
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = get_connection(db_path)
+    conn.execute("PRAGMA journal_mode=WAL")
     create_tables(conn)
+    # Force WAL checkpoint so the file is in a clean state before
+    # concurrent SLURM jobs open it
+    conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
     return conn

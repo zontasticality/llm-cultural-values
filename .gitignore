@@ -39,6 +39,18 @@ eurollm/human_data/data/
 # Debug artifacts
 eurollm/questionnaires/*.raw_response.txt
 
+# gemma-sae: generated data (rebuild with `make populate-full`)
+gemma-sae/data/culture.db
+gemma-sae/data/culture.db-shm
+gemma-sae/data/culture.db-wal
+gemma-sae/data/batch_requests.jsonl
+gemma-sae/data/sae_cache/
+gemma-sae/data/probes/
+gemma-sae/logs/
+
+# gemma-sae: virtual environment
+gemma-sae/.venv/
+
 # Jupyter
 .ipynb_checkpoints/
 

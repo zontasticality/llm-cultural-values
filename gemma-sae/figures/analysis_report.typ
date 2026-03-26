@@ -58,7 +58,7 @@ For each (language, template) pair, 50 completions were generated, extracted to 
 === Key observations
 
 - *Polish and Chinese show the highest `emotional_state`* ($approx 22$% and $10$% respectively), while Romanian is lowest ($11$%).
-- *Romanian stands out with the most `physical_attribute`* ($12$%) and the most `spiritual_religious`* ($6$%) --- consistent with Orthodox cultural emphasis on embodiment and faith.
+- *Romanian stands out with the most `physical_attribute`* ($12$%) and the most *`spiritual_religious`* ($6$%) --- consistent with Orthodox cultural emphasis on embodiment and faith.
 - *Polish has the least `personality_trait`* ($12$% vs $24$% for English and Finnish) --- compensated by higher `emotional_state` and `material_practical`.
 - *Finnish has the least `occupation_achievement`* ($17$% vs $25$% for English) --- consistent with Protestant European de-emphasis on career identity.
 - *Chinese shows the most balanced distribution* across categories, with slightly elevated `personality_trait` ($25$%).
@@ -78,7 +78,7 @@ Content category distributions are the primary outcome variable. These distribut
 
 - *Much sharper contrasts than Gemma 3 27B.* Finnish is dominated by `other` ($42$%), suggesting EuroLLM produces harder-to-classify Finnish completions (possibly code-switching or domain confusion --- confirmed by manual inspection showing Latin species names and single-word fragments).
 - *Polish shows the highest `family_social`* ($27$%) --- consistent with Catholic cultural emphasis on family.
-- *Romanian has high `physical_attribute`* ($14$%) and elevated `personality_trait`* ($21$%).
+- *Romanian has high `physical_attribute`* ($14$%) and elevated *`personality_trait`* ($21$%).
 - *English is the most `personality_trait`-heavy* ($24$%) and `emotional_state`-heavy ($21$%).
 - *The `other` category is a diagnostic*: high `other` rates indicate the model produces text that doesn't fit the classification schema, often due to language confusion, code-switching, or degenerate output. Finnish EuroLLM completions should be investigated for quality issues.
 

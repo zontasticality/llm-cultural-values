@@ -9,7 +9,10 @@ data/vectors/
 data/probes/flores_200/
 data/probes/cultural_wikipedia/
 logs/
-figures/
+figures/diagnostic/
+figures/main/
+figures/supplementary/
+!figures/analysis_report.typ
 .venv/
 __pycache__/
 *.pyc

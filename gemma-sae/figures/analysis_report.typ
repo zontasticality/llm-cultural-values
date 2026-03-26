@@ -39,6 +39,46 @@ This report analyzes the pilot run of the cultural completion comparison pipelin
 
 *Primary outcome*: content categories (categorical, objective) rather than Likert dimensions (subjective, noisy).
 
+#v(1em)
+
+= Statistical Methods
+
+Two statistical tests are used throughout this report, chosen to match the two types of outcome variables.
+
+== Chi-Square Test of Independence ($chi^2$)
+
+The chi-square test asks: _are two categorical variables independent?_ In our case: is the distribution of content categories (family\_social, occupation\_achievement, etc.) independent of cultural cluster membership (Protestant, Orthodox, etc.)?
+
+*How it works*: Given a contingency table of observed counts $O_(i j)$ (rows = cultural clusters, columns = content categories), the test computes what the counts _would_ be if cluster and category were independent:
+
+$ E_(i j) = (sum_k O_(i k) dot sum_k O_(k j)) / N $
+
+The test statistic is:
+
+$ chi^2 = sum_(i,j) (O_(i j) - E_(i j))^2 / E_(i j) $
+
+Large $chi^2$ means the observed counts deviate far from what independence predicts --- i.e., the category distributions _do_ differ across clusters. The $p$-value gives the probability of seeing a $chi^2$ this large under the null hypothesis of independence, computed from the chi-squared distribution with $(r - 1)(c - 1)$ degrees of freedom (where $r$ = number of rows, $c$ = number of columns).
+
+*Interpretation*: $p < 0.01$ means there is less than a 1% chance that the observed cross-cluster differences arose by random sampling alone. This is our Gate 2 threshold. We also report pairwise $chi^2$ tests between every pair of clusters to identify which specific contrasts drive the overall significance.
+
+*Limitation*: The chi-square test detects _any_ distributional difference, not a specific culturally meaningful one. A significant result could be driven by one category (e.g., Romanian having more `spiritual_religious`) or by a diffuse pattern across all categories. The stacked bar charts (Section 2) provide the qualitative interpretation.
+
+== Cohen's $d$ (Standardized Mean Difference)
+
+Cohen's $d$ measures the _size_ of a difference between two groups on a continuous scale, expressed in standard deviation units. In our case: how far apart are two languages on a cultural dimension (e.g., Traditional $arrow.r$ Secular)?
+
+*How it works*: Given two groups with means $overline(x)_1, overline(x)_2$ and sample variances $s_1^2, s_2^2$:
+
+$ d = (overline(x)_1 - overline(x)_2) / s_"pooled" , quad "where" quad s_"pooled" = sqrt(((n_1 - 1)s_1^2 + (n_2 - 1)s_2^2)/(n_1 + n_2 - 2)) $
+
+The pooled standard deviation $s_"pooled"$ averages the within-group variability, giving a common yardstick. A positive $d$ means group 1 scores higher; negative means group 2 scores higher.
+
+*Conventional thresholds* (Cohen, 1988): $|d| = 0.2$ is "small," $0.5$ is "medium," $0.8$ is "large." Our go/no-go threshold of $d > 0.3$ is between small and medium --- a deliberately lenient bar, since we are looking for _any_ detectable cultural signal in model-generated text, not a strong effect.
+
+*Why we use it*: Unlike a $p$-value, Cohen's $d$ is independent of sample size. A tiny effect can be "significant" with enough data; $d$ tells you whether the effect is _meaningful_. With $N = 50$--$100$ completions per group, our 95% confidence interval on $d$ is roughly $plus.minus 0.3$, so effects below $|d| = 0.3$ are not reliably distinguishable from zero.
+
+*Limitation for Likert dimensions*: Our Likert scores (1--5) are assigned by an LLM classifier, not by human raters. The classifier may have systematic biases (e.g., defaulting to "3" for ambiguous completions) that compress the variance and reduce $d$. This is why content categories (analyzed via $chi^2$) are the primary outcome and Likert dimensions (analyzed via Cohen's $d$) are secondary.
+
 #pagebreak()
 
 = F1: Content Category Distributions

@@ -64,56 +64,95 @@ def classify_openai_interactive(
     model: str,
     batch_size: int = 20,
     provider: str = "openai",
+    concurrency: int = 20,
+    conn=None,
+    classifier_name: str | None = None,
 ) -> list[dict]:
-    """Classify completions one-by-one using OpenAI-compatible API."""
-    client = _make_openai_client(provider)
-    results = []
+    """Classify completions concurrently using OpenAI-compatible API.
 
-    for i, comp in enumerate(completions):
+    Writes to DB every batch_size completions if conn and classifier_name provided.
+    """
+    import asyncio
+    from openai import AsyncOpenAI
+    import os
+
+    if provider == "openrouter":
+        api_key = os.environ.get("OPENROUTER_API_KEY")
+        if not api_key:
+            raise RuntimeError("OPENROUTER_API_KEY not set")
+        client = AsyncOpenAI(base_url="https://openrouter.ai/api/v1", api_key=api_key)
+    else:
+        client = AsyncOpenAI()
+
+    use_strict = provider == "openai"
+    all_results = []
+    failed = 0
+
+    async def classify_one(comp: dict, semaphore: asyncio.Semaphore) -> dict | None:
         user_msg = make_classifier_prompt(
             comp["completion_text"], comp["lang"], comp["template_id"],
         )
-        try:
-            kwargs = dict(
-                model=model,
-                messages=[
-                    {"role": "system", "content": CLASSIFIER_SYSTEM},
-                    {"role": "user", "content": user_msg},
-                ],
-                temperature=0,
-            )
-            # Strict JSON schema only works on native OpenAI API
-            if provider == "openai":
-                kwargs["response_format"] = {
-                    "type": "json_schema",
-                    "json_schema": {
-                        "name": "classification",
-                        "strict": True,
-                        "schema": CLASSIFICATION_SCHEMA,
-                    },
-                }
-            else:
-                # OpenRouter: request JSON but rely on prompt + parsing
-                kwargs["response_format"] = {"type": "json_object"}
-            response = client.chat.completions.create(**kwargs)
-            raw = response.choices[0].message.content
-            parsed = parse_classification(raw)
-            if parsed:
-                results.append({
-                    "completion_id": comp["completion_id"],
-                    "raw_response": raw,
-                    **parsed,
-                })
-            else:
-                print(f"  WARN: failed to parse response for completion {comp['completion_id']}")
+        kwargs = dict(
+            model=model,
+            messages=[
+                {"role": "system", "content": CLASSIFIER_SYSTEM},
+                {"role": "user", "content": user_msg},
+            ],
+            temperature=0,
+        )
+        if use_strict:
+            kwargs["response_format"] = {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "classification",
+                    "strict": True,
+                    "schema": CLASSIFICATION_SCHEMA,
+                },
+            }
+        else:
+            kwargs["response_format"] = {"type": "json_object"}
 
-        except Exception as e:
-            print(f"  ERROR: {e} for completion {comp['completion_id']}")
+        async with semaphore:
+            try:
+                response = await client.chat.completions.create(**kwargs)
+                raw = response.choices[0].message.content
+                parsed = parse_classification(raw)
+                if parsed:
+                    return {"completion_id": comp["completion_id"], "raw_response": raw, **parsed}
+                else:
+                    return None
+            except Exception as e:
+                print(f"  ERROR: {e} for completion {comp['completion_id']}")
+                return None
 
-        if (i + 1) % 50 == 0:
-            print(f"  Classified {i+1}/{len(completions)}")
+    async def run_batches():
+        nonlocal failed
+        semaphore = asyncio.Semaphore(concurrency)
+        t0 = time.time()
 
-    return results
+        for batch_start in range(0, len(completions), batch_size):
+            batch = completions[batch_start:batch_start + batch_size]
+            tasks = [classify_one(comp, semaphore) for comp in batch]
+            results = await asyncio.gather(*tasks)
+
+            batch_results = [r for r in results if r is not None]
+            failed += sum(1 for r in results if r is None)
+            all_results.extend(batch_results)
+
+            # Write to DB incrementally
+            if conn and classifier_name and batch_results:
+                insert_classifications(conn, classifier_name, batch_results)
+
+            elapsed = time.time() - t0
+            done = batch_start + len(batch)
+            rate = done / elapsed if elapsed > 0 else 0
+            eta = (len(completions) - done) / rate if rate > 0 else 0
+            print(f"  {done}/{len(completions)} classified "
+                  f"({len(all_results)} ok, {failed} failed, "
+                  f"{rate:.1f}/s, ETA {eta:.0f}s)")
+
+    asyncio.run(run_batches())
+    return all_results
 
 
 def classify_anthropic_interactive(
@@ -385,11 +424,16 @@ def main():
 
     # Interactive mode
     t0 = time.time()
+    # Pass conn for incremental DB writes (not in validate mode)
+    db_conn = None if args.validate else conn
     if config["provider"] in ("openai", "openrouter"):
         results = classify_openai_interactive(
-            completions, config["model"], provider=config["provider"])
+            completions, config["model"], provider=config["provider"],
+            conn=db_conn, classifier_name=args.classifier)
     else:
         results = classify_anthropic_interactive(completions, config["model"])
+        if not args.validate:
+            insert_classifications(conn, args.classifier, results)
 
     elapsed = time.time() - t0
 
@@ -402,7 +446,6 @@ def main():
             print(f"    → {r['content_category']} | IC={r['dim_indiv_collect']} "
                   f"TS={r['dim_trad_secular']} SS={r['dim_surv_selfexpr']}")
     else:
-        insert_classifications(conn, args.classifier, results)
         print(f"\nDone. Classified {len(results)}/{len(completions)} in {elapsed:.1f}s")
         print(f"  Success rate: {len(results)/len(completions)*100:.1f}%")
 

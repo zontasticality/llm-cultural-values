@@ -1,90 +1,85 @@
 {
-  "lang": "eng",
+  "lang": "tur",
   "prompts": [
     {
       "template_id": "self_concept",
       "variant_idx": 0,
-      "prompt_text": "I am "
+      "prompt_text": "Ben "
     },
     {
       "template_id": "self_concept",
       "variant_idx": 1,
-      "prompt_text": "I am a "
+      "prompt_text": "Ben bir "
     },
     {
       "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "The most important thing in life is "
+      "prompt_text": "Hayatta en önemli şey "
     },
     {
       "template_id": "values",
       "variant_idx": 1,
-      "prompt_text": "What matters most in life is "
-    },
-    {
-      "template_id": "values",
-      "variant_idx": 2,
-      "prompt_text": "Above all else, I value "
+      "prompt_text": "Hayatta en çok önem verdiğim şey "
     },
     {
       "template_id": "moral",
       "variant_idx": 0,
-      "prompt_text": "A good person is someone who "
+      "prompt_text": "İyi bir insan "
     },
     {
       "template_id": "moral",
       "variant_idx": 1,
-      "prompt_text": "What makes someone a good person is "
+      "prompt_text": "İyi insanı iyi yapan şey "
     },
     {
       "template_id": "childrearing",
       "variant_idx": 0,
-      "prompt_text": "Children should learn to "
+      "prompt_text": "Çocuklar öğrenmeli "
     },
     {
       "template_id": "childrearing",
       "variant_idx": 1,
-      "prompt_text": "The most important thing for children to learn is "
+      "prompt_text": "Çocukların öğrenmesi gereken en önemli şey "
     },
     {
       "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "In my family, the most important thing is "
+      "prompt_text": "Benim ailemde en önemli şey "
     },
     {
       "template_id": "family",
       "variant_idx": 1,
-      "prompt_text": "What my family values most is "
+      "prompt_text": "Ailemizin en çok önem verdiği şey "
     },
     {
       "template_id": "success",
       "variant_idx": 0,
-      "prompt_text": "Success means "
+      "prompt_text": "Başarı demek "
     },
     {
       "template_id": "success",
       "variant_idx": 1,
-      "prompt_text": "To be successful is to "
+      "prompt_text": "Başarılı olmak demek "
     },
     {
       "template_id": "decision",
       "variant_idx": 0,
-      "prompt_text": "When making a difficult decision, I "
+      "prompt_text": "Zor bir karar vermem gerektiğinde, "
     },
     {
       "template_id": "decision",
       "variant_idx": 1,
-      "prompt_text": "Faced with a tough choice, I "
+      "prompt_text": "Zor bir seçimle karşılaştığımda, "
     },
     {
       "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "I believe that "
+      "prompt_text": "İnanıyorum ki "
     },
     {
       "template_id": "belief",
       "variant_idx": 1,
-      "prompt_text": "I am convinced that "
+      "prompt_text": "Bence "
     }
   ]
 }

@@ -1,50 +1,45 @@
 {
-  "lang": "ron",
+  "lang": "bul",
   "prompts": [
     {
       "template_id": "self_concept",
       "variant_idx": 0,
-      "prompt_text": "Sunt "
-    },
-    {
-      "template_id": "self_concept",
-      "variant_idx": 1,
-      "prompt_text": "Eu sunt "
+      "prompt_text": "Аз съм "
     },
     {
       "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "Cel mai important lucru în viață este "
+      "prompt_text": "Най-важното нещо в живота е "
     },
     {
       "template_id": "moral",
       "variant_idx": 0,
-      "prompt_text": "Un om bun este cel care "
+      "prompt_text": "Добър човек е този, който "
     },
     {
       "template_id": "childrearing",
       "variant_idx": 0,
-      "prompt_text": "Copiii ar trebui să învețe să "
+      "prompt_text": "Децата трябва да се научат да "
     },
     {
       "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "În familia mea, cel mai important lucru este "
+      "prompt_text": "В моето семейство най-важното е "
     },
     {
       "template_id": "success",
       "variant_idx": 0,
-      "prompt_text": "Succesul înseamnă "
+      "prompt_text": "Успехът означава "
     },
     {
       "template_id": "decision",
       "variant_idx": 0,
-      "prompt_text": "Când trebuie să iau o decizie dificilă, "
+      "prompt_text": "Когато трябва да взема трудно решение, "
     },
     {
       "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Cred că "
+      "prompt_text": "Вярвам, че "
     }
   ]
 }

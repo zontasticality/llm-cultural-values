@@ -1,90 +1,85 @@
 {
-  "lang": "eng",
+  "lang": "fra",
   "prompts": [
     {
       "template_id": "self_concept",
       "variant_idx": 0,
-      "prompt_text": "I am "
+      "prompt_text": "Je suis "
     },
     {
       "template_id": "self_concept",
       "variant_idx": 1,
-      "prompt_text": "I am a "
+      "prompt_text": "Je suis quelqu'un qui "
     },
     {
       "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "The most important thing in life is "
+      "prompt_text": "La chose la plus importante dans la vie, c'est "
     },
     {
       "template_id": "values",
       "variant_idx": 1,
-      "prompt_text": "What matters most in life is "
-    },
-    {
-      "template_id": "values",
-      "variant_idx": 2,
-      "prompt_text": "Above all else, I value "
+      "prompt_text": "Ce qui compte le plus dans la vie, c'est "
     },
     {
       "template_id": "moral",
       "variant_idx": 0,
-      "prompt_text": "A good person is someone who "
+      "prompt_text": "Une bonne personne est quelqu'un qui "
     },
     {
       "template_id": "moral",
       "variant_idx": 1,
-      "prompt_text": "What makes someone a good person is "
+      "prompt_text": "Ce qui fait de quelqu'un une bonne personne, c'est "
     },
     {
       "template_id": "childrearing",
       "variant_idx": 0,
-      "prompt_text": "Children should learn to "
+      "prompt_text": "Les enfants devraient apprendre à "
     },
     {
       "template_id": "childrearing",
       "variant_idx": 1,
-      "prompt_text": "The most important thing for children to learn is "
+      "prompt_text": "Ce que les enfants doivent apprendre, c'est "
     },
     {
       "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "In my family, the most important thing is "
+      "prompt_text": "Dans ma famille, le plus important, c'est "
     },
     {
       "template_id": "family",
       "variant_idx": 1,
-      "prompt_text": "What my family values most is "
+      "prompt_text": "Ce que ma famille valorise le plus, c'est "
     },
     {
       "template_id": "success",
       "variant_idx": 0,
-      "prompt_text": "Success means "
+      "prompt_text": "Le succès, c'est "
     },
     {
       "template_id": "success",
       "variant_idx": 1,
-      "prompt_text": "To be successful is to "
+      "prompt_text": "Réussir dans la vie, c'est "
     },
     {
       "template_id": "decision",
       "variant_idx": 0,
-      "prompt_text": "When making a difficult decision, I "
+      "prompt_text": "Quand je dois prendre une décision difficile, "
     },
     {
       "template_id": "decision",
       "variant_idx": 1,
-      "prompt_text": "Faced with a tough choice, I "
+      "prompt_text": "Face à un choix difficile, je "
     },
     {
       "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "I believe that "
+      "prompt_text": "Je crois que "
     },
     {
       "template_id": "belief",
       "variant_idx": 1,
-      "prompt_text": "I am convinced that "
+      "prompt_text": "Je pense que "
     }
   ]
 }

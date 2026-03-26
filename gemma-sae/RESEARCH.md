@@ -602,12 +602,11 @@ The framework serves two purposes:
 |-------|------|-----------|------|
 | HPLT monolingual (`HPLT/hplt2c_{lang}`) | 2.15B | 22 European | Monolingual cultural baseline |
 | EuroLLM-22B (`utter-project/EuroLLM-22B-2512`) | 22B | 22 European | Multilingual European baseline |
+| Gemma 3 12B PT (`google/gemma-3-12b-pt`) | 12B | 22 European + 5 expanded | Size comparison (pilot confirmed: 12B lacks cultural signal, 27B has it) |
 | Gemma 3 27B PT (`google/gemma-3-27b-pt`) | 27B | 22 European + 5 expanded | Primary multilingual model |
-| Gemma 3 4B PT (`google/gemma-3-4b-pt`) | 4B | 22 European + 5 expanded | Size-matched comparison to HPLT |
-| Gemma 3 1B PT (`google/gemma-3-1b-pt`) | 1B | 22 European + 5 expanded | Size-matched comparison to HPLT |
 | Gemma 3 27B PT + SAE steering | 27B | 22 European + 5 expanded | Culture-steered (Phase 3) |
 
-**Explicit model-size comparison axis**: By including Gemma 3 at 1B, 4B, and 27B, we can distinguish cultural signal from model capability effects. HPLT 2.15B sits between 1B and 4B.
+**Explicit model-size comparison axis**: Gemma 3 12B vs 27B establishes the size threshold for cultural encoding. The pilot confirmed 12B does not reach significance on cross-cluster chi-square (p=0.11), while 27B does (p=1.2×10⁻⁶). HPLT 2.15B monolingual models provide a lower bound.
 
 ## Languages
 
@@ -756,7 +755,7 @@ Track 1's WVS logprob extraction works well for binary/categorical questions (me
 
 3. **Cross-prompt stability**: For each (model, language), how consistent are cultural profiles across the 6–8 prompt templates? Report stability coefficients. Prompt-specific outliers indicate grammatical confounds.
 
-4. **Model size effect**: For Gemma 3 at 1B/4B/27B, does cultural differentiation increase with size? Compare cross-language variance in cultural dimension scores.
+4. **Model size effect**: Gemma 3 12B vs 27B — does cultural differentiation require scale? The pilot already showed 12B fails (χ² p=0.11) while 27B succeeds (p=1.2×10⁻⁶). The full run confirms this across all 27 languages.
 
 5. **Monolingual vs multilingual**: Do HPLT monolingual models show stronger cultural signal than multilingual models prompted in the same language? This tests whether monolingual training data produces stronger cultural encoding.
 
@@ -768,7 +767,7 @@ Track 1's WVS logprob extraction works well for binary/categorical questions (me
 - **UMAP of behavioral profiles**: one point per (model, language), colored by IW cluster
 - **Known-group effect size plot**: bar chart of Cohen's d for each contrast × dimension
 - **Cross-prompt stability heatmap**: languages × prompt templates, colored by consistency
-- **Model-size scaling plot**: cultural differentiation metric vs parameter count
+- **Model-size scaling plot**: cultural differentiation metric for 12B vs 27B (+ HPLT 2.15B monolingual)
 - **Content category distributions**: stacked bar charts per language for a single model
 
 ## Phased Implementation
@@ -813,10 +812,9 @@ Track 1's WVS logprob extraction works well for binary/categorical questions (me
 2. **Run full matrix**
    - 22 HPLT models × 22 European languages (22 runs, one per model)
    - EuroLLM-22B × 22 European languages
+   - Gemma 3 12B PT × 27 languages (size comparison — expected null)
    - Gemma 3 27B PT × 27 languages
-   - Gemma 3 4B PT × 27 languages
-   - Gemma 3 1B PT × 27 languages
-   - Total: ~125 model-language configurations × 6 templates × 200 samples
+   - Total: ~93 model-language configurations × 8 templates × 200 samples
 
 3. **Classify all completions** (batch job, can run in parallel with sampling)
 
@@ -923,13 +921,12 @@ Each line is a JSON object:
 ## Hardware Requirements
 
 - **Gemma 3 27B**: ~54GB bf16, ~27GB int8 → A100 80GB or H100
-- **Gemma 3 4B**: ~8GB bf16 → any modern GPU
-- **Gemma 3 1B**: ~2GB bf16 → any GPU
+- **Gemma 3 12B**: ~24GB bf16 → A100 or L40S
 - **HPLT 2.15B**: ~5GB bf16 → any GPU
 - **EuroLLM-22B**: ~45GB bf16 → A100 80GB or H100
 - **SAE inference**: minimal overhead (single matmul per layer per token)
-- **Sampling throughput**: ~200 completions × 50 tokens × 6 templates ≈ 60K tokens per (model, language). At ~500 tok/s on A100, each config takes ~2 min. Full matrix of 125 configs ≈ 4 GPU-hours.
-- **Classification**: ~162K completions × ~200 classifier tokens ≈ 32M tokens. Via API or batched local inference.
+- **Sampling throughput**: ~200 completions × 50 tokens × 8 templates ≈ 80K tokens per (model, language). At ~500 tok/s on A100, each config takes ~3 min. Full matrix of ~93 configs ≈ 5 GPU-hours.
+- **Classification**: ~150K completions × ~200 classifier tokens ≈ 30M tokens. Via API or batched local inference.
 
 ## Key Risks & Mitigations
 
@@ -939,7 +936,7 @@ Each line is a JSON object:
 | LLM classifier imposes its own cultural biases | Validate on hand-labeled data; use multiple classifier models; report raw completions alongside classifications |
 | European languages too culturally similar | Expanded language set (zho, jpn, ara, hin, tur) provides strong contrasts; if intra-European variation is undetectable, focus on expanded set |
 | Grammatical structure dominates cultural signal | Cross-prompt stability metric explicitly measures this; multiple rephrasings per template; if stability is low, the signal is grammatical |
-| Model size confounds cultural signal | Explicit size comparison (1B/4B/27B) controls for this |
+| Model size confounds cultural signal | Explicit size comparison (12B/27B) controls for this; pilot already confirmed the threshold |
 | Temperature sampling not deterministic | Use fixed seeds per configuration for reproducibility; N=200 samples gives sufficient statistical power |
 | SAE features don't cleanly separate culture/language | This is a genuine open question — negative result is publishable |
 | Phase 3 chicken-and-egg (need cultural signal to identify cultural features) | Use two independent source texts (WVS translations + English Wikipedia about different cultures) to break circularity |

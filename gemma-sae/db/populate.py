@@ -41,10 +41,10 @@ def upsert_prompts(conn: sqlite3.Connection, pilot: bool = False):
                 continue
             conn.execute(
                 "INSERT OR IGNORE INTO prompts "
-                "(template_id, lang, variant_idx, prompt_text, is_control) "
-                "VALUES (?, ?, ?, ?, ?)",
+                "(template_id, lang, variant_idx, prompt_text) "
+                "VALUES (?, ?, ?, ?)",
                 (p["template_id"], lang, p["variant_idx"],
-                 p["prompt_text"], int(p.get("is_control", False))),
+                 p["prompt_text"]),
             )
             count += 1
     conn.commit()

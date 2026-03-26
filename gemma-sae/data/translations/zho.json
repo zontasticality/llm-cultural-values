@@ -1,29 +1,125 @@
 {
   "lang": "zho",
   "prompts": [
-    {"template_id": "self_concept", "variant_idx": 0, "prompt_text": "我是", "is_control": false},
-    {"template_id": "self_concept", "variant_idx": 1, "prompt_text": "我是那种", "is_control": true},
-    {"template_id": "self_concept", "variant_idx": 2, "prompt_text": "作为一个", "is_control": true},
-    {"template_id": "values", "variant_idx": 0, "prompt_text": "人生中最重要的是", "is_control": false},
-    {"template_id": "values", "variant_idx": 1, "prompt_text": "人这一辈子，最重要的就是", "is_control": true},
-    {"template_id": "values", "variant_idx": 2, "prompt_text": "生活中最重要的事情是", "is_control": true},
-    {"template_id": "moral", "variant_idx": 0, "prompt_text": "一个好人，是那种", "is_control": false},
-    {"template_id": "moral", "variant_idx": 1, "prompt_text": "做一个好人，就要", "is_control": true},
-    {"template_id": "moral", "variant_idx": 2, "prompt_text": "真正的好人是", "is_control": true},
-    {"template_id": "childrearing", "variant_idx": 0, "prompt_text": "孩子应该从小学会", "is_control": false},
-    {"template_id": "childrearing", "variant_idx": 1, "prompt_text": "教育孩子，最重要的是让他们学会", "is_control": true},
-    {"template_id": "childrearing", "variant_idx": 2, "prompt_text": "孩子小时候就要学会", "is_control": true},
-    {"template_id": "family", "variant_idx": 0, "prompt_text": "在我们家，最重要的是", "is_control": false},
-    {"template_id": "family", "variant_idx": 1, "prompt_text": "家庭中最重要的是", "is_control": true},
-    {"template_id": "family", "variant_idx": 2, "prompt_text": "对一个家庭来说，最重要的事情是", "is_control": true},
-    {"template_id": "success", "variant_idx": 0, "prompt_text": "成功就是", "is_control": false},
-    {"template_id": "success", "variant_idx": 1, "prompt_text": "成功，对我来说就是", "is_control": true},
-    {"template_id": "success", "variant_idx": 2, "prompt_text": "一个人真正的成功，是", "is_control": true},
-    {"template_id": "decision", "variant_idx": 0, "prompt_text": "面对艰难的选择时，我", "is_control": false},
-    {"template_id": "decision", "variant_idx": 1, "prompt_text": "每次遇到难以抉择的事情，我都会", "is_control": true},
-    {"template_id": "decision", "variant_idx": 2, "prompt_text": "做重大决定的时候，我一般会", "is_control": true},
-    {"template_id": "belief", "variant_idx": 0, "prompt_text": "我相信", "is_control": false},
-    {"template_id": "belief", "variant_idx": 1, "prompt_text": "我一直觉得", "is_control": true},
-    {"template_id": "belief", "variant_idx": 2, "prompt_text": "我始终认为", "is_control": true}
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "我是"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 1,
+      "prompt_text": "我是那种"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 2,
+      "prompt_text": "作为一个"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "人生中最重要的是"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 1,
+      "prompt_text": "人这一辈子，最重要的就是"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 2,
+      "prompt_text": "生活中最重要的事情是"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "一个好人，是那种"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 1,
+      "prompt_text": "做一个好人，就要"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 2,
+      "prompt_text": "真正的好人是"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 0,
+      "prompt_text": "孩子应该从小学会"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 1,
+      "prompt_text": "教育孩子，最重要的是让他们学会"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 2,
+      "prompt_text": "孩子小时候就要学会"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 0,
+      "prompt_text": "在我们家，最重要的是"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 1,
+      "prompt_text": "家庭中最重要的是"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 2,
+      "prompt_text": "对一个家庭来说，最重要的事情是"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "成功就是"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 1,
+      "prompt_text": "成功，对我来说就是"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 2,
+      "prompt_text": "一个人真正的成功，是"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 0,
+      "prompt_text": "面对艰难的选择时，我"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 1,
+      "prompt_text": "每次遇到难以抉择的事情，我都会"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 2,
+      "prompt_text": "做重大决定的时候，我一般会"
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 0,
+      "prompt_text": "我相信"
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 1,
+      "prompt_text": "我一直觉得"
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 2,
+      "prompt_text": "我始终认为"
+    }
   ]
 }

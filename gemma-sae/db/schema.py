@@ -16,7 +16,6 @@ CREATE TABLE IF NOT EXISTS prompts (
     lang            TEXT NOT NULL,
     variant_idx     INTEGER NOT NULL DEFAULT 0,
     prompt_text     TEXT NOT NULL,
-    is_control      INTEGER NOT NULL DEFAULT 0,
     UNIQUE(template_id, lang, variant_idx)
 );
 

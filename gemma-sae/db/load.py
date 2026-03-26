@@ -90,7 +90,7 @@ def load_results(
     sql = """
         SELECT c.completion_id, c.model_id, c.completion_text, c.filter_status,
                c.temperature, c.steering_config,
-               p.template_id, p.lang, p.prompt_text, p.is_control,
+               p.template_id, p.lang, p.prompt_text, p.variant_idx,
                cl.classifier_model, cl.content_category,
                cl.dim_indiv_collect, cl.dim_trad_secular, cl.dim_surv_selfexpr
         FROM completions c

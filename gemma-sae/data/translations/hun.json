@@ -1,50 +1,45 @@
 {
-  "lang": "ron",
+  "lang": "hun",
   "prompts": [
     {
       "template_id": "self_concept",
       "variant_idx": 0,
-      "prompt_text": "Sunt "
-    },
-    {
-      "template_id": "self_concept",
-      "variant_idx": 1,
-      "prompt_text": "Eu sunt "
+      "prompt_text": "Én "
     },
     {
       "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "Cel mai important lucru în viață este "
+      "prompt_text": "Az életben a legfontosabb dolog "
     },
     {
       "template_id": "moral",
       "variant_idx": 0,
-      "prompt_text": "Un om bun este cel care "
+      "prompt_text": "Egy jó ember az, aki "
     },
     {
       "template_id": "childrearing",
       "variant_idx": 0,
-      "prompt_text": "Copiii ar trebui să învețe să "
+      "prompt_text": "A gyerekeknek meg kell tanulniuk "
     },
     {
       "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "În familia mea, cel mai important lucru este "
+      "prompt_text": "A családomban a legfontosabb "
     },
     {
       "template_id": "success",
       "variant_idx": 0,
-      "prompt_text": "Succesul înseamnă "
+      "prompt_text": "A siker azt jelenti, hogy "
     },
     {
       "template_id": "decision",
       "variant_idx": 0,
-      "prompt_text": "Când trebuie să iau o decizie dificilă, "
+      "prompt_text": "Amikor nehéz döntést kell hoznom, "
     },
     {
       "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Cred că "
+      "prompt_text": "Hiszem, hogy "
     }
   ]
 }

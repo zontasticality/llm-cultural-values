@@ -141,9 +141,8 @@ CREATE TABLE IF NOT EXISTS prompts (
     prompt_id       INTEGER PRIMARY KEY AUTOINCREMENT,
     template_id     TEXT NOT NULL REFERENCES templates(template_id),
     lang            TEXT NOT NULL,           -- ISO 639-3
-    variant_idx     INTEGER NOT NULL DEFAULT 0,  -- 0=primary, 1+=grammatical controls
+    variant_idx     INTEGER NOT NULL DEFAULT 0,  -- 0=primary, 1+=grammatical variants
     prompt_text     TEXT NOT NULL,           -- Actual text fed to model
-    is_control      INTEGER NOT NULL DEFAULT 0,
     UNIQUE(template_id, lang, variant_idx)
 );
 
@@ -395,14 +394,14 @@ Per-language translations. Format:
 {
   "lang": "fin",
   "prompts": [
-    {"template_id": "self_concept", "variant_idx": 0, "prompt_text": "Minä olen", "is_control": false},
-    {"template_id": "values", "variant_idx": 0, "prompt_text": "Elämässä tärkeintä on", "is_control": false},
-    {"template_id": "values", "variant_idx": 1, "prompt_text": "Eniten elämässä merkitsee", "is_control": true}
+    {"template_id": "self_concept", "variant_idx": 0, "prompt_text": "Olen "},
+    {"template_id": "self_concept", "variant_idx": 1, "prompt_text": "Minä olen "},
+    {"template_id": "values", "variant_idx": 0, "prompt_text": "Elämässä tärkeintä on "}
   ]
 }
 ```
 
-- Grammatical control variants (variant_idx > 0, is_control=true) only for 5 control languages: eng, deu, fra, zho, tur
+- Grammatical variants (variant_idx > 0) for control languages: eng, deu, fra, zho, tur, fin, ron
 - All translations should be natural sentence-start fragments, not word-for-word translations
 - Native speaker review for 10 core languages before full run
 

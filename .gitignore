@@ -1,5 +1,6 @@
 # Secrets
 eurollm/.env
+gemma-sae/.env
 
 # Virtual environment
 eurollm/.venv/
@@ -44,6 +45,7 @@ gemma-sae/data/culture.db
 gemma-sae/data/culture.db-shm
 gemma-sae/data/culture.db-wal
 gemma-sae/data/batch_requests.jsonl
+gemma-sae/data/job_dbs/
 gemma-sae/data/sae_cache/
 gemma-sae/data/probes/
 gemma-sae/logs/

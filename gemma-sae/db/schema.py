@@ -82,13 +82,14 @@ def create_tables(conn: sqlite3.Connection):
 
 
 def init_db(db_path: str | Path) -> sqlite3.Connection:
-    """Create database file and tables (idempotent). Sets WAL mode once."""
+    """Create database file and tables (idempotent).
+
+    Uses DELETE journal mode (not WAL) for NFS compatibility.
+    Each SLURM job works on a local copy; results are merged afterward.
+    """
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = get_connection(db_path)
-    conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute("PRAGMA journal_mode=DELETE")
     create_tables(conn)
-    # Force WAL checkpoint so the file is in a clean state before
-    # concurrent SLURM jobs open it
-    conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
     return conn

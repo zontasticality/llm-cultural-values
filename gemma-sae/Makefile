@@ -7,6 +7,8 @@
 #   make status           # Check SLURM job status
 #   make pull             # Pull DB + logs back
 #   make classify-pilot   # Run both classifiers on pilot data (API, local)
+#   make submit-full      # Submit full 27-language sampling run
+#   make classify-full    # Run classifier on all completions (batch API)
 
 REMOTE := unity
 REMOTE_BASE := /scratch4/workspace/zevwilson_umass_edu-culture-llm/llm-cultural-values
@@ -39,8 +41,9 @@ push:
 	rsync -avz $(DB) $(REMOTE):$(REMOTE_DIR)/data/culture.db
 
 pull:
-	@echo "==> Pulling DB from $(REMOTE)..."
-	rsync -avz $(REMOTE):$(REMOTE_DIR)/data/culture.db $(DB)
+	@echo "==> Pulling job DBs from $(REMOTE)..."
+	mkdir -p $(LOCAL_DIR)/data/job_dbs
+	rsync -avz $(REMOTE):$(REMOTE_DIR)/data/job_dbs/ $(LOCAL_DIR)/data/job_dbs/ 2>/dev/null || true
 	@echo "==> Pulling logs..."
 	rsync -avz $(REMOTE):$(REMOTE_DIR)/logs/ $(LOCAL_DIR)/logs/ 2>/dev/null || true
 
@@ -49,13 +52,19 @@ status:
 
 # ── SLURM submission ─────────────────────────────────────────────
 
-.PHONY: submit-pilot submit-pilot-dry
+.PHONY: submit-pilot submit-pilot-dry submit-full submit-full-dry
 
 submit-pilot: push
 	ssh $(REMOTE) 'cd $(REMOTE_BASE) && bash gemma-sae/slurm/launch_pilot.sh'
 
 submit-pilot-dry:
 	ssh $(REMOTE) 'cd $(REMOTE_BASE) && bash gemma-sae/slurm/launch_pilot.sh --dry-run'
+
+submit-full: push
+	ssh $(REMOTE) 'cd $(REMOTE_BASE) && bash gemma-sae/slurm/launch_full.sh'
+
+submit-full-dry:
+	ssh $(REMOTE) 'cd $(REMOTE_BASE) && bash gemma-sae/slurm/launch_full.sh --dry-run'
 
 # ── Classification (API, runs locally) ───────────────────────────
 
@@ -70,6 +79,27 @@ classify-openai:
 classify-anthropic:
 	cd $(LOCAL_DIR) && PYTHONPATH=. python -m classify.classify \
 		--db data/culture.db --classifier claude-haiku-4.5 --batch-mode
+
+classify-full:
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m classify.classify \
+		--db data/culture.db --classifier gpt-4.1-mini --batch-mode
+
+.PHONY: submit-classify
+
+submit-classify: push
+	ssh $(REMOTE) 'cd $(REMOTE_BASE) && sbatch gemma-sae/slurm/run_classify.sh gemma-sae/data/culture.db'
+
+# ── Merge per-job DBs after sampling ─────────────────────────────
+
+.PHONY: merge merge-dry
+
+merge:
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m db.merge \
+		--target data/culture.db --job-dir data/job_dbs
+
+merge-dry:
+	cd $(LOCAL_DIR) && PYTHONPATH=. python -m db.merge \
+		--target data/culture.db --job-dir data/job_dbs --dry-run
 
 # ── Local validation (no GPU) ────────────────────────────────────
 

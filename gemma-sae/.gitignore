@@ -2,6 +2,7 @@ data/culture.db
 data/culture.db-wal
 data/culture.db-shm
 data/batch_requests.jsonl
+data/*.csv
 data/sae_cache/
 data/activations/
 data/feature_scores/

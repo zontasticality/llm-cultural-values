@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -c 2
+#SBATCH -c 4
 #SBATCH --mem=96G
 #SBATCH -p gpu-preempt
 #SBATCH --gres=gpu:1
@@ -33,7 +33,7 @@ cleanup() {
     echo "Copying classified DB back to NFS..."
     mkdir -p "$OUTDIR"
     cp "$LOCAL_DB" "$OUTFILE" 2>/dev/null && echo "Saved to $OUTFILE" || echo "Copy failed"
-    rm -f "$LOCAL_DB"
+    rm -f "$LOCAL_DB" "${LOCAL_DB}-wal" "${LOCAL_DB}-shm"
 }
 trap cleanup EXIT
 
@@ -43,4 +43,4 @@ gemma-sae/.venv/bin/python -m classify.classify_local \
     --db "$LOCAL_DB" \
     --model "$MODEL" \
     --classifier-name "$CLASSIFIER" \
-    --batch-size 4
+    --batch-size 256

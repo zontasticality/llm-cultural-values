@@ -42,6 +42,7 @@ SUPPORTED_CLASSIFIERS = {
     "or-gpt-4.1-mini": {"provider": "openrouter", "model": "openai/gpt-4.1-mini"},
     "or-haiku-4.5": {"provider": "openrouter", "model": "anthropic/claude-haiku-4-5"},
     "or-gemma-27b-it": {"provider": "openrouter", "model": "google/gemma-3-27b-it:free"},
+    "or-gemma-27b-it-paid": {"provider": "openrouter", "model": "google/gemma-3-27b-it"},
 }
 
 
@@ -113,17 +114,21 @@ def classify_openai_interactive(
             kwargs["response_format"] = {"type": "json_object"}
 
         async with semaphore:
-            try:
-                response = await client.chat.completions.create(**kwargs)
-                raw = response.choices[0].message.content
-                parsed = parse_classification(raw)
-                if parsed:
-                    return {"completion_id": comp["completion_id"], "raw_response": raw, **parsed}
-                else:
+            for attempt in range(5):
+                try:
+                    response = await client.chat.completions.create(**kwargs)
+                    raw = response.choices[0].message.content
+                    parsed = parse_classification(raw)
+                    if parsed:
+                        return {"completion_id": comp["completion_id"], "raw_response": raw, **parsed}
+                    else:
+                        return None
+                except Exception as e:
+                    if "429" in str(e) and attempt < 4:
+                        await asyncio.sleep(2 ** attempt)
+                        continue
+                    print(f"  ERROR: {e} for completion {comp['completion_id']}")
                     return None
-            except Exception as e:
-                print(f"  ERROR: {e} for completion {comp['completion_id']}")
-                return None
 
     async def run_batches():
         nonlocal failed
@@ -427,9 +432,12 @@ def main():
     # Pass conn for incremental DB writes (not in validate mode)
     db_conn = None if args.validate else conn
     if config["provider"] in ("openai", "openrouter"):
+        # Lower concurrency for OpenRouter to respect rate limits
+        conc = 5 if config["provider"] == "openrouter" else 20
         results = classify_openai_interactive(
             completions, config["model"], provider=config["provider"],
-            conn=db_conn, classifier_name=args.classifier)
+            conn=db_conn, classifier_name=args.classifier,
+            concurrency=conc)
     else:
         results = classify_anthropic_interactive(completions, config["model"])
         if not args.validate:

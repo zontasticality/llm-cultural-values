@@ -53,7 +53,21 @@ CREATE TABLE IF NOT EXISTS classifications (
     dim_trad_secular    INTEGER NOT NULL,
     dim_surv_selfexpr   INTEGER NOT NULL,
     raw_response        TEXT,
+    dim_ic_probs        TEXT,           -- JSON [p1,p2,p3,p4,p5] from logprobs (NULL for API classifiers)
+    dim_ts_probs        TEXT,           -- JSON [p1,p2,p3,p4,p5] from logprobs
+    dim_ss_probs        TEXT,           -- JSON [p1,p2,p3,p4,p5] from logprobs
+    cat_probs           TEXT,           -- JSON {"category": prob, ...} from logprobs
     UNIQUE(completion_id, classifier_model)
+);
+
+CREATE TABLE IF NOT EXISTS prompt_metrics (
+    prompt_id       INTEGER NOT NULL REFERENCES prompts(prompt_id),
+    model_id        TEXT NOT NULL REFERENCES models(model_id),
+    prompt_ppl      REAL NOT NULL,
+    prompt_logprob  REAL NOT NULL,
+    prompt_n_tokens INTEGER NOT NULL,
+    next_token_entropy REAL,
+    UNIQUE(prompt_id, model_id)
 );
 
 CREATE INDEX IF NOT EXISTS idx_comp_model_prompt ON completions(model_id, prompt_id);
@@ -81,6 +95,15 @@ def create_tables(conn: sqlite3.Connection):
     conn.commit()
 
 
+def migrate_classifications_probs(conn: sqlite3.Connection):
+    """Add logprob probability columns if they don't exist yet (idempotent)."""
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(classifications)")}
+    for col in ["dim_ic_probs", "dim_ts_probs", "dim_ss_probs", "cat_probs"]:
+        if col not in existing:
+            conn.execute(f"ALTER TABLE classifications ADD COLUMN {col} TEXT")
+    conn.commit()
+
+
 def init_db(db_path: str | Path) -> sqlite3.Connection:
     """Create database file and tables (idempotent).
 
@@ -92,4 +115,5 @@ def init_db(db_path: str | Path) -> sqlite3.Connection:
     conn = get_connection(db_path)
     conn.execute("PRAGMA journal_mode=DELETE")
     create_tables(conn)
+    migrate_classifications_probs(conn)
     return conn

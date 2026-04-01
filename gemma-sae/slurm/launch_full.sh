@@ -50,9 +50,9 @@ submit "full-g12b" "48G" "08:00:00" "a100|l40s" \
     $N_SAMPLES --temperature 1.0
 
 echo "=== EuroLLM-22B (all langs — expanded langs will produce junk, filtered in analysis) ==="
-submit "full-euro" "48G" "08:00:00" "a100|h100" \
+submit "full-euro" "48G" "04:00:00" "a100|h100" \
     eurollm22b utter-project/EuroLLM-22B-2512 "$DB" \
-    $N_SAMPLES --temperature 1.0
+    $N_SAMPLES --temperature 1.0 --backend vllm
 
 # ── HPLT monolingual models ─────────────────────────────────────
 

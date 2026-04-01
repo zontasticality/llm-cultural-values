@@ -5,7 +5,7 @@ Usage:
         --model_id gemma3_27b_pt \
         --model_hf_id google/gemma-3-27b-pt \
         --db data/culture.db \
-        [--dtype bf16] [--n-samples 50] [--batch-size 16] \
+        [--backend hf|vllm] [--dtype bf16] [--n-samples 50] [--batch-size 16] \
         [--max-new-tokens 128] [--temperature 1.0] [--top-p 0.95] \
         [--lang fin] [--template self_concept] \
         [--validate]
@@ -139,7 +139,7 @@ def make_seed(model_id: str, prompt_id: int, sample_idx: int) -> int:
     return int(hashlib.sha256(key.encode()).hexdigest(), 16) & 0xFFFFFFFF
 
 
-# ── Core sampling loop ───────────────────────────────────────────
+# ── Core sampling loop (HuggingFace) ─────────────────────────────
 
 def sample_prompt(
     model,
@@ -154,7 +154,7 @@ def sample_prompt(
     max_new_tokens: int,
     batch_size: int,
 ) -> list[dict]:
-    """Generate n_samples completions for a single prompt."""
+    """Generate n_samples completions for a single prompt (HF backend)."""
     import torch
 
     results = []
@@ -223,6 +223,114 @@ def sample_prompt(
     return results
 
 
+# ── vLLM backend ─────────────────────────────────────────────────
+
+def load_model_vllm(model_hf_id: str, dtype: str = "bf16"):
+    """Load model with vLLM for high-throughput sampling."""
+    from vllm import LLM
+
+    vllm_dtype = {"bf16": "bfloat16", "int8": "auto", "int4": "auto"}[dtype]
+    llm = LLM(
+        model=model_hf_id,
+        dtype=vllm_dtype,
+        max_model_len=512,
+        gpu_memory_utilization=0.90,
+    )
+    tokenizer = llm.get_tokenizer()
+    return llm, tokenizer
+
+
+def sample_all_vllm(
+    llm,
+    tokenizer,
+    prompts: list[dict],
+    model_id: str,
+    n_samples: int,
+    temperature: float,
+    top_p: float,
+    max_new_tokens: int,
+    conn,
+    commit_every: int = 1000,
+) -> tuple[int, dict[str, int]]:
+    """Generate all completions via vLLM. Returns (total, filter_counts)."""
+    from vllm import SamplingParams
+
+    # Build flat list of (prompt_text, metadata) for all needed samples
+    work: list[dict] = []
+    for p in prompts:
+        start_idx = n_samples - p["needed"]
+        for i in range(p["needed"]):
+            idx = start_idx + i
+            work.append({
+                "prompt_text": p["prompt_text"],
+                "prompt_id": p["prompt_id"],
+                "sample_idx": idx,
+                "seed": make_seed(model_id, p["prompt_id"], idx),
+                "lang": p["lang"],
+                "template_id": p["template_id"],
+            })
+
+    print(f"Submitting {len(work)} generations to vLLM...")
+
+    total_done = 0
+    filter_counts: dict[str, int] = {}
+    t0 = time.time()
+
+    for chunk_start in range(0, len(work), commit_every):
+        chunk = work[chunk_start : chunk_start + commit_every]
+
+        texts = [w["prompt_text"] for w in chunk]
+        params_list = [
+            SamplingParams(
+                temperature=temperature,
+                top_p=top_p,
+                max_tokens=max_new_tokens,
+                seed=w["seed"],
+            )
+            for w in chunk
+        ]
+
+        outputs = llm.generate(texts, params_list)
+
+        completions = []
+        for w, out in zip(chunk, outputs):
+            raw_text = out.outputs[0].text
+            n_tokens_raw = len(out.outputs[0].token_ids)
+
+            extracted = extract_first_sentence(raw_text, tokenizer)
+            status = classify_filter(raw_text, extracted)
+            if status != "ok":
+                extracted = None
+            n_tokens = len(tokenizer.encode(extracted)) if extracted else None
+
+            completions.append({
+                "prompt_id": w["prompt_id"],
+                "model_id": model_id,
+                "sample_idx": w["sample_idx"],
+                "completion_raw": raw_text,
+                "completion_text": extracted,
+                "n_tokens_raw": n_tokens_raw,
+                "n_tokens": n_tokens,
+                "filter_status": status,
+                "temperature": temperature,
+                "top_p": top_p,
+                "seed": w["seed"],
+                "steering_config": "none",
+            })
+            filter_counts[status] = filter_counts.get(status, 0) + 1
+
+        insert_completions(conn, completions)
+        total_done += len(chunk)
+
+        elapsed = time.time() - t0
+        rate = total_done / elapsed if elapsed > 0 else 0
+        remaining = len(work) - total_done
+        eta = remaining / rate if rate > 0 else 0
+        print(f"  [{total_done}/{len(work)}] {rate:.1f} samples/s, ETA {eta:.0f}s")
+
+    return total_done, filter_counts
+
+
 def insert_completions(conn, completions: list[dict]):
     """Batch insert completions, ignoring duplicates."""
     conn.executemany(
@@ -243,6 +351,7 @@ def main():
     parser.add_argument("--model_id", required=True)
     parser.add_argument("--model_hf_id", required=True)
     parser.add_argument("--db", required=True)
+    parser.add_argument("--backend", default="hf", choices=["hf", "vllm"])
     parser.add_argument("--dtype", default="bf16", choices=["bf16", "int4", "int8"])
     parser.add_argument("--n-samples", type=int, default=50)
     parser.add_argument("--batch-size", type=int, default=16)
@@ -355,62 +464,75 @@ def main():
         return
 
     # ── Real run ─────────────────────────────────────────────────
-    print(f"Loading model: {args.model_hf_id}")
-    model, tokenizer = load_model(args.model_hf_id, dtype=args.dtype)
-
-    # Ensure pad token
-    if tokenizer.pad_token_id is None:
-        tokenizer.pad_token_id = tokenizer.eos_token_id
-
     total_prompts = len(prompts)
     if args.validate:
         prompts = prompts[:2]
 
-    total_completions = 0
-    filter_counts: dict[str, int] = {}
-    t0 = time.time()
+    if args.backend == "vllm":
+        print(f"Loading model with vLLM: {args.model_hf_id}")
+        llm, tokenizer = load_model_vllm(args.model_hf_id, dtype=args.dtype)
 
-    for i, prompt in enumerate(prompts):
-        needed = prompt["needed"]
-        start_idx = args.n_samples - needed
-
-        print(f"\n[{i+1}/{len(prompts)}] {prompt['lang']}:{prompt['template_id']} "
-              f"({needed} needed, starting at idx {start_idx})")
-        print(f"  Prompt: {prompt['prompt_text']!r}")
-
-        completions = sample_prompt(
-            model, tokenizer,
-            prompt_text=prompt["prompt_text"],
-            n_samples=needed,
+        total_completions, filter_counts = sample_all_vllm(
+            llm, tokenizer, prompts,
             model_id=args.model_id,
-            prompt_id=prompt["prompt_id"],
-            start_idx=start_idx,
+            n_samples=args.n_samples,
             temperature=args.temperature,
             top_p=args.top_p,
             max_new_tokens=args.max_new_tokens,
-            batch_size=args.batch_size,
+            conn=conn,
         )
+    else:
+        print(f"Loading model: {args.model_hf_id}")
+        model, tokenizer = load_model(args.model_hf_id, dtype=args.dtype)
 
-        insert_completions(conn, completions)
-        total_completions += len(completions)
+        if tokenizer.pad_token_id is None:
+            tokenizer.pad_token_id = tokenizer.eos_token_id
 
-        for c in completions:
-            filter_counts[c["filter_status"]] = filter_counts.get(c["filter_status"], 0) + 1
+        total_completions = 0
+        filter_counts: dict[str, int] = {}
+        t0 = time.time()
 
-        if args.validate:
-            print(f"\n  === Validate: first 5 completions ===")
-            for c in completions[:5]:
-                print(f"  [{c['filter_status']}] {c['completion_text']!r}")
+        for i, prompt in enumerate(prompts):
+            needed = prompt["needed"]
+            start_idx = args.n_samples - needed
 
-        elapsed = time.time() - t0
-        rate = total_completions / elapsed if elapsed > 0 else 0
-        remaining = sum(p["needed"] for p in prompts[i+1:])
-        eta = remaining / rate if rate > 0 else 0
-        print(f"  Progress: {total_completions} done, {rate:.1f} samples/s, ETA {eta:.0f}s")
+            print(f"\n[{i+1}/{len(prompts)}] {prompt['lang']}:{prompt['template_id']} "
+                  f"({needed} needed, starting at idx {start_idx})")
+            print(f"  Prompt: {prompt['prompt_text']!r}")
 
-    elapsed = time.time() - t0
+            completions = sample_prompt(
+                model, tokenizer,
+                prompt_text=prompt["prompt_text"],
+                n_samples=needed,
+                model_id=args.model_id,
+                prompt_id=prompt["prompt_id"],
+                start_idx=start_idx,
+                temperature=args.temperature,
+                top_p=args.top_p,
+                max_new_tokens=args.max_new_tokens,
+                batch_size=args.batch_size,
+            )
+
+            insert_completions(conn, completions)
+            total_completions += len(completions)
+
+            for c in completions:
+                filter_counts[c["filter_status"]] = filter_counts.get(c["filter_status"], 0) + 1
+
+            if args.validate:
+                print(f"\n  === Validate: first 5 completions ===")
+                for c in completions[:5]:
+                    print(f"  [{c['filter_status']}] {c['completion_text']!r}")
+
+            elapsed = time.time() - t0
+            rate = total_completions / elapsed if elapsed > 0 else 0
+            remaining = sum(p["needed"] for p in prompts[i+1:])
+            eta = remaining / rate if rate > 0 else 0
+            print(f"  Progress: {total_completions} done, {rate:.1f} samples/s, ETA {eta:.0f}s")
+
+    elapsed = time.time() - t0 if args.backend != "vllm" else 0
     print(f"\n{'='*60}")
-    print(f"Done. {total_completions} completions in {elapsed:.1f}s")
+    print(f"Done. {total_completions} completions")
     print(f"Filter distribution: {filter_counts}")
     if not args.validate:
         print(f"Remaining prompts: {total_prompts - len(prompts)} already complete")

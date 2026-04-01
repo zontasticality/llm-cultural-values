@@ -278,12 +278,18 @@ def main():
     parser.add_argument("--db", required=True)
     parser.add_argument("--classifier", default="gpt-4.1-mini")
     parser.add_argument("--figure-dir", default="figures/diagnostic")
+    parser.add_argument("--trimmed-only", action="store_true",
+                        help="Only include trimmed prompts (variant_idx >= 100)")
     args = parser.parse_args()
 
     fig_dir = Path(args.figure_dir)
     fig_dir.mkdir(parents=True, exist_ok=True)
 
     df = load_pilot_data(args.db, classifier=args.classifier)
+
+    if args.trimmed_only:
+        df = df[df["variant_idx"] >= 100].copy()
+        print(f"Filtered to trimmed prompts: {len(df)} rows")
 
     if args.subcommand == "all":
         for name, fn in SUBCOMMANDS.items():

@@ -23,7 +23,7 @@ LANG_TO_FLORES = {
     "deu": "deu_Latn",
     "ell": "ell_Grek",
     "eng": "eng_Latn",
-    "est": "est_Latn",
+    "est": "ekk_Latn",  # Estonian is 'ekk' in Flores+
     "fin": "fin_Latn",
     "fra": "fra_Latn",
     "hrv": "hrv_Latn",
@@ -49,23 +49,35 @@ LANG_TO_FLORES = {
 
 def download_lang(lang: str, flores_config: str, output_dir: Path, split: str = "devtest"):
     """Download one language from Flores+ and save as JSONL."""
-    from datasets import load_dataset
+    import shutil
+    from huggingface_hub import hf_hub_download
 
-    ds = load_dataset("openlanguagedata/flores_plus", flores_config, split=split)
+    # Download the JSONL file directly from the repo
+    src_path = hf_hub_download(
+        repo_id="openlanguagedata/flores_plus",
+        filename=f"{split}/{flores_config}.jsonl",
+        repo_type="dataset",
+    )
 
     out_path = output_dir / f"{lang}.jsonl"
-    with open(out_path, "w", encoding="utf-8") as f:
-        for row in ds:
+
+    # Read source, re-emit with our lang code and consistent fields
+    n = 0
+    with open(src_path, encoding="utf-8") as fin, \
+         open(out_path, "w", encoding="utf-8") as fout:
+        for line in fin:
+            row = json.loads(line)
             record = {
-                "id": row["id"],
+                "id": row.get("id", n),
                 "text": row["text"],
                 "lang": lang,
                 "topic": row.get("topic", ""),
             }
-            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            fout.write(json.dumps(record, ensure_ascii=False) + "\n")
+            n += 1
 
-    print(f"  {lang} ({flores_config}): {len(ds)} sentences -> {out_path}")
-    return len(ds)
+    print(f"  {lang} ({flores_config}): {n} sentences -> {out_path}")
+    return n
 
 
 def main():

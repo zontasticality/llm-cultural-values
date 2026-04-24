@@ -1,19 +1,33 @@
+# Database (large, derived from translations + sampling jobs)
 data/culture.db
 data/culture.db-wal
 data/culture.db-shm
+data/job_dbs/
 data/batch_requests.jsonl
 data/*.csv
+
+# Generated reports (rebuild from .typ source + data JSON)
+data/sampling_report.pdf
+figures/**/*.pdf
+
+# Generated figures (rebuild from scripts)
+figures/**/*.png
+
+# SAE / steering data (large, generated)
 data/sae_cache/
 data/activations/
 data/feature_scores/
 data/vectors/
-data/probes/flores_200/
-data/probes/cultural_wikipedia/
-logs/
-figures/diagnostic/
-figures/main/
-figures/supplementary/
-!figures/analysis_report.typ
+data/probes/
+
+# Accidental nested subdir from make -C
+gemma-sae/
+
+# Archived old figures
+figures/_archive/
+
+# Environment
 .venv/
 __pycache__/
 *.pyc
+logs/

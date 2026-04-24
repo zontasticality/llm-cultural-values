@@ -2,19 +2,14 @@
   "lang": "dan",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Jeg er "
+      "prompt_text": "Jeg tror, at "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Det vigtigste i livet er "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Et godt menneske er en, der "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Jeg tror, at"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Børn bør lære at "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "I min familie er det vigtigste "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Succes betyder "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Børn bør lære at"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Når jeg skal træffe en svær beslutning, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Når jeg skal træffe en svær beslutning,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Jeg tror, at "
+      "prompt_text": "I min familie er det vigtigste "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "I min familie er det vigtigste"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Et godt menneske er en, der "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Et godt menneske er en, der"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Jeg er "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Jeg er"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Succes betyder "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Succes betyder"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Det vigtigste i livet er "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Det vigtigste i livet er"
     }
   ]
 }

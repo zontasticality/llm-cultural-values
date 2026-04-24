@@ -2,19 +2,14 @@
   "lang": "por",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Eu sou "
+      "prompt_text": "Eu acredito que "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "A coisa mais importante na vida é "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Uma boa pessoa é alguém que "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Eu acredito que"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "As crianças devem aprender a "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Na minha família, o mais importante é "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "O sucesso significa "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "As crianças devem aprender a"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Quando preciso tomar uma decisão difícil, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Quando preciso tomar uma decisão difícil,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Eu acredito que "
+      "prompt_text": "Na minha família, o mais importante é "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Na minha família, o mais importante é"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Uma boa pessoa é alguém que "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Uma boa pessoa é alguém que"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Eu sou "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Eu sou"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "O sucesso significa "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "O sucesso significa"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "A coisa mais importante na vida é "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "A coisa mais importante na vida é"
     }
   ]
 }

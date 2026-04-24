@@ -2,19 +2,14 @@
   "lang": "lit",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Aš esu "
+      "prompt_text": "Tikiu, kad "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Svarbiausias dalykas gyvenime yra "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Geras žmogus yra tas, kuris "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Tikiu, kad"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Vaikai turėtų išmokti "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Mano šeimoje svarbiausia yra "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Sėkmė reiškia "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Vaikai turėtų išmokti"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "Kai reikia priimti sunkų sprendimą, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Kai reikia priimti sunkų sprendimą,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Tikiu, kad "
+      "prompt_text": "Mano šeimoje svarbiausia yra "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Mano šeimoje svarbiausia yra"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Geras žmogus yra tas, kuris "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Geras žmogus yra tas, kuris"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Aš esu "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Aš esu"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Kaip žmogus, aš esu"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Apie save galiu pasakyti, kad aš esu"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Sėkmė reiškia "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Sėkmė reiškia"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Svarbiausias dalykas gyvenime yra "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Svarbiausias dalykas gyvenime yra"
     }
   ]
 }

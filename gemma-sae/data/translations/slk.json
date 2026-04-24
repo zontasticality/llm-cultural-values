@@ -2,19 +2,14 @@
   "lang": "slk",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Som "
+      "prompt_text": "Verím, že "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Najdôležitejšia vec v živote je "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Dobrý človek je ten, kto "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Verím, že"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Deti by sa mali naučiť "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "V našej rodine je najdôležitejšie "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Úspech znamená "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Deti by sa mali naučiť"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "Keď musím urobiť ťažké rozhodnutie, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Keď musím urobiť ťažké rozhodnutie,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Verím, že "
+      "prompt_text": "V našej rodine je najdôležitejšie "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "V našej rodine je najdôležitejšie"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Dobrý človek je ten, kto "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Dobrý človek je ten, kto"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Som "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Som"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Ako človek som"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Keď hovorím o sebe, som"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Úspech znamená "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Úspech znamená"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Najdôležitejšia vec v živote je "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Najdôležitejšia vec v živote je"
     }
   ]
 }

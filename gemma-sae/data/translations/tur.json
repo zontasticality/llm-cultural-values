@@ -2,34 +2,34 @@
   "lang": "tur",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Ben "
+      "prompt_text": "İnanıyorum ki "
     },
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 1,
-      "prompt_text": "Ben bir "
+      "prompt_text": "Bence "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Hayatta en önemli şey "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "İnanıyorum ki"
     },
     {
-      "template_id": "values",
-      "variant_idx": 1,
-      "prompt_text": "Hayatta en çok önem verdiğim şey "
+      "template_id": "belief",
+      "variant_idx": 101,
+      "prompt_text": "Bence"
     },
     {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "İyi bir insan "
+      "template_id": "belief",
+      "variant_idx": 200,
+      "prompt_text": "Bence hayatta en önemli şey"
     },
     {
-      "template_id": "moral",
-      "variant_idx": 1,
-      "prompt_text": "İyi insanı iyi yapan şey "
+      "template_id": "belief",
+      "variant_idx": 201,
+      "prompt_text": "Bana göre"
     },
     {
       "template_id": "childrearing",
@@ -42,24 +42,14 @@
       "prompt_text": "Çocukların öğrenmesi gereken en önemli şey "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Benim ailemde en önemli şey "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Çocuklar öğrenmeli"
     },
     {
-      "template_id": "family",
-      "variant_idx": 1,
-      "prompt_text": "Ailemizin en çok önem verdiği şey "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Başarı demek "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 1,
-      "prompt_text": "Başarılı olmak demek "
+      "template_id": "childrearing",
+      "variant_idx": 101,
+      "prompt_text": "Çocukların öğrenmesi gereken en önemli şey"
     },
     {
       "template_id": "decision",
@@ -72,14 +62,124 @@
       "prompt_text": "Zor bir seçimle karşılaştığımda, "
     },
     {
-      "template_id": "belief",
-      "variant_idx": 0,
-      "prompt_text": "İnanıyorum ki "
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Zor bir karar vermem gerektiğinde,"
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 101,
+      "prompt_text": "Zor bir seçimle karşılaştığımda,"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 0,
+      "prompt_text": "Benim ailemde en önemli şey "
+    },
+    {
+      "template_id": "family",
       "variant_idx": 1,
-      "prompt_text": "Bence "
+      "prompt_text": "Ailemizin en çok önem verdiği şey "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Benim ailemde en önemli şey"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 101,
+      "prompt_text": "Ailemizin en çok önem verdiği şey"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "İyi bir insan "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 1,
+      "prompt_text": "İyi insanı iyi yapan şey "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "İyi bir insan"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 101,
+      "prompt_text": "İyi insanı iyi yapan şey"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Ben "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 1,
+      "prompt_text": "Ben bir "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Ben"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 101,
+      "prompt_text": "Ben bir"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Kendimi şöyle tanımlarım: ben"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Bir insan olarak ben"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Başarı demek "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 1,
+      "prompt_text": "Başarılı olmak demek "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Başarı demek"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 101,
+      "prompt_text": "Başarılı olmak demek"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Hayatta en önemli şey "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 1,
+      "prompt_text": "Hayatta en çok önem verdiğim şey "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Hayatta en önemli şey"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 101,
+      "prompt_text": "Hayatta en çok önem verdiğim şey"
     }
   ]
 }

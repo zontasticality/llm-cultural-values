@@ -2,19 +2,24 @@
   "lang": "hrv",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Ja sam "
+      "prompt_text": "Vjerujem da "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Najvažnija stvar u životu je "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Vjerujem da"
     },
     {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Dobar čovjek je onaj koji "
+      "template_id": "belief",
+      "variant_idx": 200,
+      "prompt_text": "Osobno vjerujem da"
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 201,
+      "prompt_text": "Moje je uvjerenje da"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +27,9 @@
       "prompt_text": "Djeca bi trebala naučiti "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "U mojoj obitelji najvažnije je "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Uspjeh znači "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Djeca bi trebala naučiti"
     },
     {
       "template_id": "decision",
@@ -37,9 +37,59 @@
       "prompt_text": "Kada moram donijeti tešku odluku, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Kada moram donijeti tešku odluku,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Vjerujem da "
+      "prompt_text": "U mojoj obitelji najvažnije je "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "U mojoj obitelji najvažnije je"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Dobar čovjek je onaj koji "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Dobar čovjek je onaj koji"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Ja sam "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Ja sam"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Uspjeh znači "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Uspjeh znači"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Najvažnija stvar u životu je "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Najvažnija stvar u životu je"
     }
   ]
 }

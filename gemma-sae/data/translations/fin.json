@@ -2,6 +2,56 @@
   "lang": "fin",
   "prompts": [
     {
+      "template_id": "belief",
+      "variant_idx": 0,
+      "prompt_text": "Uskon, että "
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Uskon, että"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 0,
+      "prompt_text": "Lasten pitäisi oppia "
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Lasten pitäisi oppia"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 0,
+      "prompt_text": "Kun teen vaikean päätöksen, "
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Kun teen vaikean päätöksen,"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 0,
+      "prompt_text": "Meidän perheessä tärkeintä on "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Meidän perheessä tärkeintä on"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Hyvä ihminen on sellainen, joka "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Hyvä ihminen on sellainen, joka"
+    },
+    {
       "template_id": "self_concept",
       "variant_idx": 0,
       "prompt_text": "Olen "
@@ -12,24 +62,24 @@
       "prompt_text": "Minä olen "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Elämässä tärkeintä on "
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Olen"
     },
     {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Hyvä ihminen on sellainen, joka "
+      "template_id": "self_concept",
+      "variant_idx": 101,
+      "prompt_text": "Minä olen"
     },
     {
-      "template_id": "childrearing",
-      "variant_idx": 0,
-      "prompt_text": "Lasten pitäisi oppia "
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Ihmisenä olen"
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Meidän perheessä tärkeintä on "
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Itsestäni voin sanoa, että olen"
     },
     {
       "template_id": "success",
@@ -37,14 +87,19 @@
       "prompt_text": "Menestys tarkoittaa "
     },
     {
-      "template_id": "decision",
-      "variant_idx": 0,
-      "prompt_text": "Kun teen vaikean päätöksen, "
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Menestys tarkoittaa"
     },
     {
-      "template_id": "belief",
+      "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "Uskon, että "
+      "prompt_text": "Elämässä tärkeintä on "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Elämässä tärkeintä on"
     }
   ]
 }

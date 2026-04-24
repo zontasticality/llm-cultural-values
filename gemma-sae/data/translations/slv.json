@@ -2,19 +2,14 @@
   "lang": "slv",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Sem "
+      "prompt_text": "Verjamem, da "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Najpomembnejša stvar v življenju je "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Dober človek je tisti, ki "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Verjamem, da"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Otroci bi se morali naučiti "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "V moji družini je najpomembnejše "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Uspeh pomeni "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Otroci bi se morali naučiti"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "Ko moram sprejeti težko odločitev, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Ko moram sprejeti težko odločitev,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Verjamem, da "
+      "prompt_text": "V moji družini je najpomembnejše "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "V moji družini je najpomembnejše"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Dober človek je tisti, ki "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Dober človek je tisti, ki"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Sem "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Sem"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Kot oseba sem"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "O sebi lahko rečem, da sem"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Uspeh pomeni "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Uspeh pomeni"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Najpomembnejša stvar v življenju je "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Najpomembnejša stvar v življenju je"
     }
   ]
 }

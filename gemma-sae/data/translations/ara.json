@@ -2,19 +2,14 @@
   "lang": "ara",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "أنا "
+      "prompt_text": "أؤمن بأن "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "أهم شيء في الحياة هو "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "الإنسان الصالح هو من "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "أؤمن بأن"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "يجب على الأطفال أن يتعلموا "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "في عائلتي، أهم شيء هو "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "النجاح يعني "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "يجب على الأطفال أن يتعلموا"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "عندما أواجه قراراً صعباً، "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "عندما أواجه قراراً صعباً،"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "أؤمن بأن "
+      "prompt_text": "في عائلتي، أهم شيء هو "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "في عائلتي، أهم شيء هو"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "الإنسان الصالح هو من "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "الإنسان الصالح هو من"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "أنا "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "أنا"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "كشخص، أنا"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "عن نفسي، أنا"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "النجاح يعني "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "النجاح يعني"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "أهم شيء في الحياة هو "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "أهم شيء في الحياة هو"
     }
   ]
 }

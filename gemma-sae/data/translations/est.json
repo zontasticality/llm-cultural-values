@@ -2,19 +2,14 @@
   "lang": "est",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Ma olen "
+      "prompt_text": "Ma usun, et "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Kõige tähtsam asi elus on "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Hea inimene on see, kes "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Ma usun, et"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Lapsed peaksid õppima "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Meie perekonnas on kõige tähtsam "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Edu tähendab "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Lapsed peaksid õppima"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Kui pean tegema raske otsuse, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Kui pean tegema raske otsuse,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Ma usun, et "
+      "prompt_text": "Meie perekonnas on kõige tähtsam "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Meie perekonnas on kõige tähtsam"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Hea inimene on see, kes "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Hea inimene on see, kes"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Ma olen "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Ma olen"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Edu tähendab "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Edu tähendab"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Kõige tähtsam asi elus on "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Kõige tähtsam asi elus on"
     }
   ]
 }

@@ -2,19 +2,14 @@
   "lang": "hun",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Én "
+      "prompt_text": "Hiszem, hogy "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Az életben a legfontosabb dolog "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Egy jó ember az, aki "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Hiszem, hogy"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "A gyerekeknek meg kell tanulniuk "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "A családomban a legfontosabb "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "A siker azt jelenti, hogy "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "A gyerekeknek meg kell tanulniuk"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "Amikor nehéz döntést kell hoznom, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Amikor nehéz döntést kell hoznom,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Hiszem, hogy "
+      "prompt_text": "A családomban a legfontosabb "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "A családomban a legfontosabb"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Egy jó ember az, aki "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Egy jó ember az, aki"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Én "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Én"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Mint ember, én"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Magamról annyit mondhatok, hogy én"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "A siker azt jelenti, hogy "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "A siker azt jelenti, hogy"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Az életben a legfontosabb dolog "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Az életben a legfontosabb dolog"
     }
   ]
 }

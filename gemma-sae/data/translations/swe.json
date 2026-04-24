@@ -2,19 +2,14 @@
   "lang": "swe",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Jag är "
+      "prompt_text": "Jag tror att "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Det viktigaste i livet är "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "En bra människa är en som "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Jag tror att"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Barn bör lära sig att "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "I min familj är det viktigaste "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Framgång betyder "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Barn bör lära sig att"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "När jag måste fatta ett svårt beslut, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "När jag måste fatta ett svårt beslut,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Jag tror att "
+      "prompt_text": "I min familj är det viktigaste "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "I min familj är det viktigaste"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "En bra människa är en som "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "En bra människa är en som"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Jag är "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Jag är"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Som person är jag"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Om mig själv: jag är"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Framgång betyder "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Framgång betyder"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Det viktigaste i livet är "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Det viktigaste i livet är"
     }
   ]
 }

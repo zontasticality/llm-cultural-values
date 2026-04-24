@@ -2,6 +2,56 @@
   "lang": "ron",
   "prompts": [
     {
+      "template_id": "belief",
+      "variant_idx": 0,
+      "prompt_text": "Cred că "
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Cred că"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 0,
+      "prompt_text": "Copiii ar trebui să învețe să "
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Copiii ar trebui să învețe să"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 0,
+      "prompt_text": "Când trebuie să iau o decizie dificilă, "
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Când trebuie să iau o decizie dificilă,"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 0,
+      "prompt_text": "În familia mea, cel mai important lucru este "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "În familia mea, cel mai important lucru este"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Un om bun este cel care "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Un om bun este cel care"
+    },
+    {
       "template_id": "self_concept",
       "variant_idx": 0,
       "prompt_text": "Sunt "
@@ -12,24 +62,24 @@
       "prompt_text": "Eu sunt "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Cel mai important lucru în viață este "
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Sunt"
     },
     {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Un om bun este cel care "
+      "template_id": "self_concept",
+      "variant_idx": 101,
+      "prompt_text": "Eu sunt"
     },
     {
-      "template_id": "childrearing",
-      "variant_idx": 0,
-      "prompt_text": "Copiii ar trebui să învețe să "
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "Ca persoană, sunt"
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "În familia mea, cel mai important lucru este "
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Despre mine pot spune că sunt"
     },
     {
       "template_id": "success",
@@ -37,14 +87,19 @@
       "prompt_text": "Succesul înseamnă "
     },
     {
-      "template_id": "decision",
-      "variant_idx": 0,
-      "prompt_text": "Când trebuie să iau o decizie dificilă, "
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Succesul înseamnă"
     },
     {
-      "template_id": "belief",
+      "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "Cred că "
+      "prompt_text": "Cel mai important lucru în viață este "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Cel mai important lucru în viață este"
     }
   ]
 }

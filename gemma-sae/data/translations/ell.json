@@ -2,19 +2,14 @@
   "lang": "ell",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Είμαι "
+      "prompt_text": "Πιστεύω ότι "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Το πιο σημαντικό πράγμα στη ζωή είναι "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Ένας καλός άνθρωπος είναι αυτός που "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Πιστεύω ότι"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Τα παιδιά πρέπει να μάθουν να "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Στην οικογένειά μου, το πιο σημαντικό είναι "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Η επιτυχία σημαίνει "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Τα παιδιά πρέπει να μάθουν να"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Όταν πρέπει να πάρω μια δύσκολη απόφαση, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Όταν πρέπει να πάρω μια δύσκολη απόφαση,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Πιστεύω ότι "
+      "prompt_text": "Στην οικογένειά μου, το πιο σημαντικό είναι "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Στην οικογένειά μου, το πιο σημαντικό είναι"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Ένας καλός άνθρωπος είναι αυτός που "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Ένας καλός άνθρωπος είναι αυτός που"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Είμαι "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Είμαι"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Η επιτυχία σημαίνει "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Η επιτυχία σημαίνει"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Το πιο σημαντικό πράγμα στη ζωή είναι "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Το πιο σημαντικό πράγμα στη ζωή είναι"
     }
   ]
 }

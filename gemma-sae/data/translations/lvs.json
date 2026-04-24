@@ -2,19 +2,14 @@
   "lang": "lvs",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Es esmu "
+      "prompt_text": "Es ticu, ka "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Vissvarīgākais dzīvē ir "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Labs cilvēks ir tas, kurš "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Es ticu, ka"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Bērniem vajadzētu iemācīties "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "Manā ģimenē vissvarīgākais ir "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Panākumi nozīmē "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Bērniem vajadzētu iemācīties"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Kad man jāpieņem grūts lēmums, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Kad man jāpieņem grūts lēmums,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Es ticu, ka "
+      "prompt_text": "Manā ģimenē vissvarīgākais ir "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "Manā ģimenē vissvarīgākais ir"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Labs cilvēks ir tas, kurš "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Labs cilvēks ir tas, kurš"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Es esmu "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Es esmu"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Panākumi nozīmē "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Panākumi nozīmē"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Vissvarīgākais dzīvē ir "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Vissvarīgākais dzīvē ir"
     }
   ]
 }

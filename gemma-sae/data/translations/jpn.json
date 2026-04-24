@@ -2,19 +2,9 @@
   "lang": "jpn",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "私は"
-    },
-    {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "人生で一番大切なことは"
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "良い人というのは"
+      "prompt_text": "私が信じていることは"
     },
     {
       "template_id": "childrearing",
@@ -22,9 +12,24 @@
       "prompt_text": "子どもが学ぶべきことは"
     },
     {
+      "template_id": "decision",
+      "variant_idx": 0,
+      "prompt_text": "難しい決断を迫られたとき、私は"
+    },
+    {
       "template_id": "family",
       "variant_idx": 0,
       "prompt_text": "私の家族にとって一番大切なのは"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "良い人というのは"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "私は"
     },
     {
       "template_id": "success",
@@ -32,14 +37,9 @@
       "prompt_text": "成功とは"
     },
     {
-      "template_id": "decision",
+      "template_id": "values",
       "variant_idx": 0,
-      "prompt_text": "難しい決断を迫られたとき、私は"
-    },
-    {
-      "template_id": "belief",
-      "variant_idx": 0,
-      "prompt_text": "私が信じていることは"
+      "prompt_text": "人生で一番大切なことは"
     }
   ]
 }

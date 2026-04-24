@@ -2,19 +2,14 @@
   "lang": "nld",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Ik ben "
+      "prompt_text": "Ik geloof dat "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Het belangrijkste in het leven is "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Een goed mens is iemand die "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Ik geloof dat"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Kinderen moeten leren om "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "In mijn familie is het belangrijkste "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Succes betekent "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Kinderen moeten leren om"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Als ik een moeilijke beslissing moet nemen, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Als ik een moeilijke beslissing moet nemen,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Ik geloof dat "
+      "prompt_text": "In mijn familie is het belangrijkste "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "In mijn familie is het belangrijkste"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Een goed mens is iemand die "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Een goed mens is iemand die"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Ik ben "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Ik ben"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Succes betekent "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Succes betekent"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Het belangrijkste in het leven is "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Het belangrijkste in het leven is"
     }
   ]
 }

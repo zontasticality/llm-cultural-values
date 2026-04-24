@@ -2,19 +2,14 @@
   "lang": "hin",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "मैं "
+      "prompt_text": "मेरा मानना है कि "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "ज़िंदगी में सबसे ज़रूरी चीज़ "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "एक अच्छा इंसान वह होता है जो "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "मेरा मानना है कि"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "बच्चों को सीखना चाहिए "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "मेरे परिवार में सबसे ज़रूरी बात "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "सफलता का मतलब है "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "बच्चों को सीखना चाहिए"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,69 @@
       "prompt_text": "जब मुझे कोई मुश्किल फ़ैसला लेना होता है, तो मैं "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "जब मुझे कोई मुश्किल फ़ैसला लेना होता है, तो मैं"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "मेरा मानना है कि "
+      "prompt_text": "मेरे परिवार में सबसे ज़रूरी बात "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "मेरे परिवार में सबसे ज़रूरी बात"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "एक अच्छा इंसान वह होता है जो "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "एक अच्छा इंसान वह होता है जो"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "मैं "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "मैं"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "एक व्यक्ति के रूप में मैं"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "अपने बारे में कहूं तो मैं"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "सफलता का मतलब है "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "सफलता का मतलब है"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "ज़िंदगी में सबसे ज़रूरी चीज़ "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "ज़िंदगी में सबसे ज़रूरी चीज़"
     }
   ]
 }

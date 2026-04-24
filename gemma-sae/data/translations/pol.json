@@ -2,19 +2,14 @@
   "lang": "pol",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Jestem "
+      "prompt_text": "Wierzę, że "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Najważniejszą rzeczą w życiu jest "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Dobry człowiek to ktoś, kto "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Wierzę, że"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Dzieci powinny uczyć się "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "W mojej rodzinie najważniejsze jest "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Sukces to "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Dzieci powinny uczyć się"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Podejmując trudną decyzję, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Podejmując trudną decyzję,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Wierzę, że "
+      "prompt_text": "W mojej rodzinie najważniejsze jest "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "W mojej rodzinie najważniejsze jest"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Dobry człowiek to ktoś, kto "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Dobry człowiek to ktoś, kto"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Jestem "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Jestem"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Sukces to "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Sukces to"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Najważniejszą rzeczą w życiu jest "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Najważniejszą rzeczą w życiu jest"
     }
   ]
 }

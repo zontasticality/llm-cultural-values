@@ -2,6 +2,106 @@
   "lang": "eng",
   "prompts": [
     {
+      "template_id": "belief",
+      "variant_idx": 0,
+      "prompt_text": "I believe that "
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 1,
+      "prompt_text": "I am convinced that "
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "I believe that"
+    },
+    {
+      "template_id": "belief",
+      "variant_idx": 101,
+      "prompt_text": "I am convinced that"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 0,
+      "prompt_text": "Children should learn to "
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 1,
+      "prompt_text": "The most important thing for children to learn is "
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Children should learn to"
+    },
+    {
+      "template_id": "childrearing",
+      "variant_idx": 101,
+      "prompt_text": "The most important thing for children to learn is"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 0,
+      "prompt_text": "When making a difficult decision, I "
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 1,
+      "prompt_text": "Faced with a tough choice, I "
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "When making a difficult decision, I"
+    },
+    {
+      "template_id": "decision",
+      "variant_idx": 101,
+      "prompt_text": "Faced with a tough choice, I"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 0,
+      "prompt_text": "In my family, the most important thing is "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 1,
+      "prompt_text": "What my family values most is "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "In my family, the most important thing is"
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 101,
+      "prompt_text": "What my family values most is"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "A good person is someone who "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 1,
+      "prompt_text": "What makes someone a good person is "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "A good person is someone who"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 101,
+      "prompt_text": "What makes someone a good person is"
+    },
+    {
       "template_id": "self_concept",
       "variant_idx": 0,
       "prompt_text": "I am "
@@ -10,6 +110,46 @@
       "template_id": "self_concept",
       "variant_idx": 1,
       "prompt_text": "I am a "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "I am"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 101,
+      "prompt_text": "I am a"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 200,
+      "prompt_text": "As a person, I am"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 201,
+      "prompt_text": "Speaking about myself, I am"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Success means "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 1,
+      "prompt_text": "To be successful is to "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Success means"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 101,
+      "prompt_text": "To be successful is to"
     },
     {
       "template_id": "values",
@@ -27,64 +167,19 @@
       "prompt_text": "Above all else, I value "
     },
     {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "A good person is someone who "
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "The most important thing in life is"
     },
     {
-      "template_id": "moral",
-      "variant_idx": 1,
-      "prompt_text": "What makes someone a good person is "
+      "template_id": "values",
+      "variant_idx": 101,
+      "prompt_text": "What matters most in life is"
     },
     {
-      "template_id": "childrearing",
-      "variant_idx": 0,
-      "prompt_text": "Children should learn to "
-    },
-    {
-      "template_id": "childrearing",
-      "variant_idx": 1,
-      "prompt_text": "The most important thing for children to learn is "
-    },
-    {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "In my family, the most important thing is "
-    },
-    {
-      "template_id": "family",
-      "variant_idx": 1,
-      "prompt_text": "What my family values most is "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Success means "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 1,
-      "prompt_text": "To be successful is to "
-    },
-    {
-      "template_id": "decision",
-      "variant_idx": 0,
-      "prompt_text": "When making a difficult decision, I "
-    },
-    {
-      "template_id": "decision",
-      "variant_idx": 1,
-      "prompt_text": "Faced with a tough choice, I "
-    },
-    {
-      "template_id": "belief",
-      "variant_idx": 0,
-      "prompt_text": "I believe that "
-    },
-    {
-      "template_id": "belief",
-      "variant_idx": 1,
-      "prompt_text": "I am convinced that "
+      "template_id": "values",
+      "variant_idx": 102,
+      "prompt_text": "Above all else, I value"
     }
   ]
 }

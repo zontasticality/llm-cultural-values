@@ -2,19 +2,14 @@
   "lang": "ces",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Jsem "
+      "prompt_text": "Věřím, že "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Nejdůležitější věc v životě je "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Dobrý člověk je ten, kdo "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Věřím, že"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Děti by se měly naučit "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "V naší rodině je nejdůležitější "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Úspěch znamená "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Děti by se měly naučit"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Když musím udělat těžké rozhodnutí, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Když musím udělat těžké rozhodnutí,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Věřím, že "
+      "prompt_text": "V naší rodině je nejdůležitější "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "V naší rodině je nejdůležitější"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Dobrý člověk je ten, kdo "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Dobrý člověk je ten, kdo"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Jsem "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Jsem"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Úspěch znamená "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Úspěch znamená"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Nejdůležitější věc v životě je "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Nejdůležitější věc v životě je"
     }
   ]
 }

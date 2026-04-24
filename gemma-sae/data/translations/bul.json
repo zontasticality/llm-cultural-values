@@ -2,19 +2,14 @@
   "lang": "bul",
   "prompts": [
     {
-      "template_id": "self_concept",
+      "template_id": "belief",
       "variant_idx": 0,
-      "prompt_text": "Аз съм "
+      "prompt_text": "Вярвам, че "
     },
     {
-      "template_id": "values",
-      "variant_idx": 0,
-      "prompt_text": "Най-важното нещо в живота е "
-    },
-    {
-      "template_id": "moral",
-      "variant_idx": 0,
-      "prompt_text": "Добър човек е този, който "
+      "template_id": "belief",
+      "variant_idx": 100,
+      "prompt_text": "Вярвам, че"
     },
     {
       "template_id": "childrearing",
@@ -22,14 +17,9 @@
       "prompt_text": "Децата трябва да се научат да "
     },
     {
-      "template_id": "family",
-      "variant_idx": 0,
-      "prompt_text": "В моето семейство най-важното е "
-    },
-    {
-      "template_id": "success",
-      "variant_idx": 0,
-      "prompt_text": "Успехът означава "
+      "template_id": "childrearing",
+      "variant_idx": 100,
+      "prompt_text": "Децата трябва да се научат да"
     },
     {
       "template_id": "decision",
@@ -37,9 +27,59 @@
       "prompt_text": "Когато трябва да взема трудно решение, "
     },
     {
-      "template_id": "belief",
+      "template_id": "decision",
+      "variant_idx": 100,
+      "prompt_text": "Когато трябва да взема трудно решение,"
+    },
+    {
+      "template_id": "family",
       "variant_idx": 0,
-      "prompt_text": "Вярвам, че "
+      "prompt_text": "В моето семейство най-важното е "
+    },
+    {
+      "template_id": "family",
+      "variant_idx": 100,
+      "prompt_text": "В моето семейство най-важното е"
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 0,
+      "prompt_text": "Добър човек е този, който "
+    },
+    {
+      "template_id": "moral",
+      "variant_idx": 100,
+      "prompt_text": "Добър човек е този, който"
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 0,
+      "prompt_text": "Аз съм "
+    },
+    {
+      "template_id": "self_concept",
+      "variant_idx": 100,
+      "prompt_text": "Аз съм"
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 0,
+      "prompt_text": "Успехът означава "
+    },
+    {
+      "template_id": "success",
+      "variant_idx": 100,
+      "prompt_text": "Успехът означава"
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 0,
+      "prompt_text": "Най-важното нещо в живота е "
+    },
+    {
+      "template_id": "values",
+      "variant_idx": 100,
+      "prompt_text": "Най-важното нещо в живота е"
     }
   ]
 }

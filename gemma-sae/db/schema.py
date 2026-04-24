@@ -104,6 +104,30 @@ def migrate_classifications_probs(conn: sqlite3.Connection):
     conn.commit()
 
 
+def migrate_prompts_quality(conn: sqlite3.Connection):
+    """Add quality_score (REAL, 0-1) and quality_notes (TEXT) columns to prompts."""
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(prompts)")}
+    if "quality_score" not in existing:
+        conn.execute("ALTER TABLE prompts ADD COLUMN quality_score REAL")
+    if "quality_notes" not in existing:
+        conn.execute("ALTER TABLE prompts ADD COLUMN quality_notes TEXT")
+    conn.commit()
+
+
+def migrate_completions_lang(conn: sqlite3.Connection):
+    """Add language-detection columns to completions.
+
+    - detected_lang: ISO 639-3 code (matches prompts.lang), NULL if not run
+    - detected_lang_conf: 0.0-1.0 detector confidence (top-1 probability)
+    """
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(completions)")}
+    if "detected_lang" not in existing:
+        conn.execute("ALTER TABLE completions ADD COLUMN detected_lang TEXT")
+    if "detected_lang_conf" not in existing:
+        conn.execute("ALTER TABLE completions ADD COLUMN detected_lang_conf REAL")
+    conn.commit()
+
+
 def init_db(db_path: str | Path) -> sqlite3.Connection:
     """Create database file and tables (idempotent).
 
@@ -116,4 +140,6 @@ def init_db(db_path: str | Path) -> sqlite3.Connection:
     conn.execute("PRAGMA journal_mode=DELETE")
     create_tables(conn)
     migrate_classifications_probs(conn)
+    migrate_prompts_quality(conn)
+    migrate_completions_lang(conn)
     return conn

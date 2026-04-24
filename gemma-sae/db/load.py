@@ -5,6 +5,8 @@ All functions take a sqlite3.Connection and return lists of dicts or Row objects
 
 import sqlite3
 
+from analysis.constants import TRIMMED_VARIANT_MIN
+
 
 def load_unsampled_prompts(
     conn: sqlite3.Connection,
@@ -85,20 +87,37 @@ def load_results(
     langs: list[str] | None = None,
     template_ids: list[str] | None = None,
     classifier_model: str | None = None,
+    include_logprobs: bool = False,
+    trimmed_only: bool = False,
+    lang_match: bool = False,
 ) -> list[dict]:
-    """Load classified completions joined with prompt/template metadata."""
-    sql = """
-        SELECT c.completion_id, c.model_id, c.completion_text, c.filter_status,
+    """Load classified completions joined with prompt/template metadata.
+
+    lang_match: if True, keep only rows whose detected_lang matches prompts.lang
+        (or is NULL — too short to detect). Requires detect_lang.py to have
+        been run. Drops silent language-drift contamination (~2.6% of trimmed).
+    """
+    cols = """c.completion_id, c.model_id, c.completion_text, c.filter_status,
                c.temperature, c.steering_config,
+               c.detected_lang, c.detected_lang_conf,
                p.template_id, p.lang, p.prompt_text, p.variant_idx,
                cl.classifier_model, cl.content_category,
-               cl.dim_indiv_collect, cl.dim_trad_secular, cl.dim_surv_selfexpr
+               cl.dim_indiv_collect, cl.dim_trad_secular, cl.dim_surv_selfexpr"""
+    if include_logprobs:
+        cols += """,
+               cl.dim_ic_probs, cl.dim_ts_probs, cl.dim_ss_probs, cl.cat_probs"""
+    sql = f"""
+        SELECT {cols}
         FROM completions c
         JOIN prompts p ON c.prompt_id = p.prompt_id
         JOIN classifications cl ON c.completion_id = cl.completion_id
         WHERE 1=1
     """
     params: list = []
+    if trimmed_only:
+        sql += f" AND p.variant_idx >= {TRIMMED_VARIANT_MIN}"
+    if lang_match:
+        sql += " AND (c.detected_lang IS NULL OR c.detected_lang = p.lang)"
     if model_ids:
         placeholders = ",".join("?" * len(model_ids))
         sql += f" AND c.model_id IN ({placeholders})"

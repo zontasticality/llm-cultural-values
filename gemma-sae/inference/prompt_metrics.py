@@ -22,6 +22,7 @@ import torch
 import numpy as np
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from analysis.constants import TRIMMED_VARIANT_MIN
 from db.schema import get_connection, create_tables
 
 
@@ -92,7 +93,7 @@ def main():
     parser.add_argument("--dtype", default="bf16", choices=["bf16", "int4", "int8"])
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--trimmed-only", action="store_true",
-                        help="Only compute metrics for trimmed prompts (variant_idx >= 100)")
+                        help=f"Only compute metrics for trimmed prompts (variant_idx >= {TRIMMED_VARIANT_MIN})")
     parser.add_argument("--validate", action="store_true",
                         help="Process 5 prompts per model, print results, don't save")
     args = parser.parse_args()
@@ -103,7 +104,7 @@ def main():
     # Load prompts
     where = ""
     if args.trimmed_only:
-        where = " WHERE variant_idx >= 100"
+        where = f" WHERE variant_idx >= {TRIMMED_VARIANT_MIN}"
     prompts = conn.execute(
         f"SELECT prompt_id, template_id, lang, prompt_text FROM prompts{where} ORDER BY prompt_id"
     ).fetchall()

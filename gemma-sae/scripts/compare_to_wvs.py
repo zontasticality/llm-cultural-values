@@ -23,51 +23,11 @@ import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
 
-# Inglehart-Welzel dimension definitions (same as eurollm/analysis/constants.py)
-IW_TRADITIONAL_SECULAR = {
-    "v63":  {"flip": True,  "max_val": 11, "label": "Importance of God"},
-    "v6":   {"flip": False, "max_val": None, "label": "Religion importance"},
-    "v154": {"flip": False, "max_val": None, "label": "Abortion justifiable"},
-    "v95":  {"flip": False, "max_val": None, "label": "Obedience in children"},
-    "v86":  {"flip": True,  "max_val": 3,   "label": "Independence in children"},
-}
-
-IW_SURVIVAL_SELFEXPR = {
-    "v39":  {"flip": False, "max_val": None, "label": "Life satisfaction"},
-    "v31":  {"flip": True,  "max_val": 3,   "label": "Interpersonal trust"},
-    "v82":  {"flip": True,  "max_val": 6,   "label": "Gay couples as parents"},
-    "v153": {"flip": False, "max_val": None, "label": "Homosexuality justifiable"},
-    "v98":  {"flip": True,  "max_val": 4,   "label": "Petition signing"},
-}
-
-LANG_NAMES = {
-    "bul": "Bulgaria", "ces": "Czechia", "dan": "Denmark", "deu": "Germany",
-    "ell": "Greece", "eng": "England", "est": "Estonia", "fin": "Finland",
-    "fra": "France", "hrv": "Croatia", "hun": "Hungary", "ita": "Italy",
-    "lit": "Lithuania", "lvs": "Latvia", "nld": "Netherlands", "pol": "Poland",
-    "por": "Portugal", "ron": "Romania", "slk": "Slovakia", "slv": "Slovenia",
-    "spa": "Spain", "swe": "Sweden",
-}
-
-CLUSTER_COLORS = {
-    "Protestant Europe": "#1f77b4",
-    "Catholic Europe": "#2ca02c",
-    "English-speaking": "#ff7f0e",
-    "Orthodox": "#d62728",
-    "Baltic": "#9467bd",
-}
-
-LANG_TO_CLUSTER = {
-    "dan": "Protestant Europe", "fin": "Protestant Europe", "swe": "Protestant Europe",
-    "nld": "Protestant Europe", "deu": "Protestant Europe",
-    "fra": "Catholic Europe", "ita": "Catholic Europe", "spa": "Catholic Europe",
-    "por": "Catholic Europe", "ces": "Catholic Europe", "hun": "Catholic Europe",
-    "pol": "Catholic Europe", "slk": "Catholic Europe", "slv": "Catholic Europe",
-    "hrv": "Catholic Europe",
-    "eng": "English-speaking",
-    "bul": "Orthodox", "ron": "Orthodox", "ell": "Orthodox",
-    "est": "Baltic", "lit": "Baltic", "lvs": "Baltic",
-}
+from analysis.constants import (
+    EVS_COUNTRY_NAMES, LANG_TO_CLUSTER, CLUSTER_COLORS,
+    IW_TRADITIONAL_SECULAR, IW_SURVIVAL_SELFEXPR, TRIMMED_VARIANT_MIN,
+    MODEL_LABELS,
+)
 
 
 def compute_human_iw(human_db_path: str) -> pd.DataFrame:
@@ -79,7 +39,7 @@ def compute_human_iw(human_db_path: str) -> pd.DataFrame:
     for (lang, qid), info in [
         ((lang, qid), info)
         for qid, info in all_iw_qs.items()
-        for lang in LANG_NAMES.keys()
+        for lang in EVS_COUNTRY_NAMES.keys()
     ]:
         rows = db.execute(
             "SELECT response_value, prob_human FROM human_distributions "
@@ -113,7 +73,7 @@ def compute_human_iw(human_db_path: str) -> pd.DataFrame:
 
     # Average z-scores per dimension
     result = []
-    for lang in LANG_NAMES.keys():
+    for lang in EVS_COUNTRY_NAMES.keys():
         ldf = ev_df[ev_df["lang"] == lang]
 
         ts_qs = ldf[ldf["qid"].isin(IW_TRADITIONAL_SECULAR)]
@@ -128,14 +88,16 @@ def compute_human_iw(human_db_path: str) -> pd.DataFrame:
 
 
 def compute_llm_iw(llm_db_path: str, classifier: str, trimmed_only: bool,
-                    model_id: str = "gemma3_27b_pt") -> pd.DataFrame:
+                    model_id: str = "gemma3_27b_pt", lang_match: bool = False) -> pd.DataFrame:
     """Compute mean LLM dimension scores per language."""
     db = sqlite3.connect(llm_db_path)
 
     where = "cl.classifier_model = ? AND c.model_id = ?"
     params = [classifier, model_id]
     if trimmed_only:
-        where += " AND p.variant_idx >= 100"
+        where += f" AND p.variant_idx >= {TRIMMED_VARIANT_MIN}"
+    if lang_match:
+        where += " AND (c.detected_lang IS NULL OR c.detected_lang = p.lang)"
 
     rows = db.execute(f"""
         SELECT p.lang,
@@ -159,6 +121,8 @@ def main():
     parser.add_argument("--human-db", required=True)
     parser.add_argument("--classifier", default="gemma3_27b_it")
     parser.add_argument("--trimmed-only", action="store_true")
+    parser.add_argument("--lang-match", action="store_true",
+                        help="Drop completions whose detected_lang != prompts.lang")
     parser.add_argument("--output", default="figures/trimmed/iw_comparison.png")
     args = parser.parse_args()
 
@@ -167,17 +131,13 @@ def main():
     print(f"  {len(human)} languages with human IW scores")
 
     models = ["gemma3_27b_pt", "gemma3_12b_pt", "eurollm22b"]
-    model_labels = {
-        "gemma3_27b_pt": "Gemma-3-27B",
-        "gemma3_12b_pt": "Gemma-3-12B",
-        "eurollm22b": "EuroLLM-22B",
-    }
 
     fig, axes = plt.subplots(2, 3, figsize=(18, 11))
 
     for col, model_id in enumerate(models):
         print(f"\nComputing LLM IW scores for {model_id}...")
-        llm = compute_llm_iw(args.llm_db, args.classifier, args.trimmed_only, model_id)
+        llm = compute_llm_iw(args.llm_db, args.classifier, args.trimmed_only, model_id,
+                             lang_match=args.lang_match)
 
         # Merge on lang (only EU languages with human data)
         merged = human.merge(llm, on="lang", how="inner")
@@ -199,7 +159,7 @@ def main():
         rho_ts, p_ts = spearmanr(merged["human_ts"], merged["llm_ts"])
         ax_ts.set_xlabel("Human EVS (z-scored)")
         ax_ts.set_ylabel("LLM classifier (mean 1-5)")
-        ax_ts.set_title(f"{model_labels[model_id]}\nTraditional ↔ Secular\n"
+        ax_ts.set_title(f"{MODEL_LABELS.get(model_id, model_id)}\nTraditional ↔ Secular\n"
                        f"ρ = {rho_ts:.3f} (p = {p_ts:.3e})")
 
         # Fit line

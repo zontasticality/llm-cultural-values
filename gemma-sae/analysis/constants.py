@@ -112,6 +112,47 @@ MODEL_MARKERS = {
     "gemma3": "D",
 }
 
+# ── Trimming ────────────────────────────────────────────────────
+
+TRIMMED_VARIANT_MIN = 100  # variant_idx threshold for trimmed (no trailing space) prompts
+
+# ── EVS Country Names (for scatter plot labels) ─────────────────
+
+EVS_COUNTRY_NAMES = {
+    "bul": "Bulgaria", "ces": "Czechia", "dan": "Denmark", "deu": "Germany",
+    "ell": "Greece", "eng": "England", "est": "Estonia", "fin": "Finland",
+    "fra": "France", "hrv": "Croatia", "hun": "Hungary", "ita": "Italy",
+    "lit": "Lithuania", "lvs": "Latvia", "nld": "Netherlands", "pol": "Poland",
+    "por": "Portugal", "ron": "Romania", "slk": "Slovakia", "slv": "Slovenia",
+    "spa": "Spain", "swe": "Sweden",
+}
+
+# ── Inglehart-Welzel Dimension Weights ─────────────────────────
+
+IW_TRADITIONAL_SECULAR = {
+    "v63":  {"flip": True,  "max_val": 11, "label": "Importance of God"},
+    "v6":   {"flip": False, "max_val": None, "label": "Religion importance"},
+    "v154": {"flip": False, "max_val": None, "label": "Abortion justifiable"},
+    "v95":  {"flip": False, "max_val": None, "label": "Obedience in children"},
+    "v86":  {"flip": True,  "max_val": 3,   "label": "Independence in children"},
+}
+
+IW_SURVIVAL_SELFEXPR = {
+    "v39":  {"flip": False, "max_val": None, "label": "Life satisfaction"},
+    "v31":  {"flip": True,  "max_val": 3,   "label": "Interpersonal trust"},
+    "v82":  {"flip": True,  "max_val": 6,   "label": "Gay couples as parents"},
+    "v153": {"flip": False, "max_val": None, "label": "Homosexuality justifiable"},
+    "v98":  {"flip": True,  "max_val": 4,   "label": "Petition signing"},
+}
+
+# ── Logprob Column Mapping ─────────────────────────────────────
+
+LOGPROB_DIMS = {
+    "dim_indiv_collect": "dim_ic_probs",
+    "dim_trad_secular":  "dim_ts_probs",
+    "dim_surv_selfexpr": "dim_ss_probs",
+}
+
 # ── Content Categories ───────────────────────────────────────────
 
 CONTENT_CATEGORIES = [

@@ -18,6 +18,8 @@ import csv
 import sqlite3
 import shutil
 
+from analysis.constants import TRIMMED_VARIANT_MIN
+
 
 def export_db_copy(src: str, dst: str):
     conn = sqlite3.connect(src)
@@ -67,23 +69,23 @@ def export_csv(src: str, dst: str, trimmed_only: bool = False, clean: bool = Fal
     """
     params: list = []
     if trimmed_only:
-        sql += " AND p.variant_idx >= 100"
+        sql += f" AND p.variant_idx >= {TRIMMED_VARIANT_MIN}"
     if clean:
-        # Trimmed prompts (variant_idx >= 100) for languages that had the
-        # trailing-space tokenization issue, plus originals (variant_idx < 100)
+        # Trimmed prompts (variant_idx >= TRIMMED_VARIANT_MIN) for languages that had the
+        # trailing-space tokenization issue, plus originals (variant_idx < TRIMMED_VARIANT_MIN)
         # for languages whose prompts never had trailing spaces (jpn, zho).
-        spaceless_langs = [r[0] for r in conn.execute("""
+        spaceless_langs = [r[0] for r in conn.execute(f"""
             SELECT DISTINCT lang FROM prompts
-            WHERE variant_idx < 100
+            WHERE variant_idx < {TRIMMED_VARIANT_MIN}
             GROUP BY lang
             HAVING SUM(prompt_text LIKE '%% ') = 0
         """).fetchall()]
         if spaceless_langs:
             ph = ",".join("?" * len(spaceless_langs))
-            sql += f" AND ((p.variant_idx >= 100) OR (p.variant_idx < 100 AND p.lang IN ({ph})))"
+            sql += f" AND ((p.variant_idx >= {TRIMMED_VARIANT_MIN}) OR (p.variant_idx < {TRIMMED_VARIANT_MIN} AND p.lang IN ({ph})))"
             params.extend(spaceless_langs)
         else:
-            sql += " AND p.variant_idx >= 100"
+            sql += f" AND p.variant_idx >= {TRIMMED_VARIANT_MIN}"
     if langs:
         placeholders = ",".join("?" * len(langs))
         sql += f" AND p.lang IN ({placeholders})"
@@ -109,7 +111,7 @@ if __name__ == "__main__":
     parser.add_argument("dst", help="Destination path (.db or .csv)")
     parser.add_argument("--csv", action="store_true", help="Export as CSV instead of DB copy")
     parser.add_argument("--trimmed-only", action="store_true",
-                        help="Only include trimmed prompts (variant_idx >= 100)")
+                        help=f"Only include trimmed prompts (variant_idx >= {TRIMMED_VARIANT_MIN})")
     parser.add_argument("--clean", action="store_true",
                         help="Trimmed prompts + originals for spaceless languages (jpn, zho)")
     parser.add_argument("--langs", nargs="+", default=None,

@@ -21,6 +21,7 @@ from scipy.stats import chi2_contingency
 from analysis.constants import (
     LANG_NAMES, CULTURAL_CLUSTERS, LANG_TO_CLUSTER, CLUSTER_COLORS,
     MODEL_LABELS, CONTENT_CATEGORIES, CULTURAL_DIMENSIONS, PILOT_LANGS,
+    TRIMMED_VARIANT_MIN,
 )
 from db.load import load_results
 from db.schema import get_connection
@@ -279,7 +280,9 @@ def main():
     parser.add_argument("--classifier", default="gpt-4.1-mini")
     parser.add_argument("--figure-dir", default="figures/diagnostic")
     parser.add_argument("--trimmed-only", action="store_true",
-                        help="Only include trimmed prompts (variant_idx >= 100)")
+                        help=f"Only include trimmed prompts (variant_idx >= {TRIMMED_VARIANT_MIN})")
+    parser.add_argument("--lang-match", action="store_true",
+                        help="Drop completions whose detected_lang != prompts.lang")
     args = parser.parse_args()
 
     fig_dir = Path(args.figure_dir)
@@ -288,8 +291,14 @@ def main():
     df = load_pilot_data(args.db, classifier=args.classifier)
 
     if args.trimmed_only:
-        df = df[df["variant_idx"] >= 100].copy()
+        df = df[df["variant_idx"] >= TRIMMED_VARIANT_MIN].copy()
         print(f"Filtered to trimmed prompts: {len(df)} rows")
+
+    if args.lang_match:
+        before = len(df)
+        mask = df["detected_lang"].isna() | (df["detected_lang"] == df["lang"])
+        df = df[mask].copy()
+        print(f"Lang-match filter: {before} → {len(df)} rows ({before-len(df)} dropped)")
 
     if args.subcommand == "all":
         for name, fn in SUBCOMMANDS.items():

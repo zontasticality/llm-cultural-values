@@ -91,7 +91,7 @@ def classify_openai_interactive(
 
     async def classify_one(comp: dict, semaphore: asyncio.Semaphore) -> dict | None:
         user_msg = make_classifier_prompt(
-            comp["completion_text"], comp["lang"], comp["template_id"],
+            comp["completion_text"], comp["lang"],
         )
         kwargs = dict(
             model=model,
@@ -171,7 +171,7 @@ def classify_anthropic_interactive(
 
     for i, comp in enumerate(completions):
         user_msg = make_classifier_prompt(
-            comp["completion_text"], comp["lang"], comp["template_id"],
+            comp["completion_text"], comp["lang"],
         )
         try:
             response = client.messages.create(
@@ -213,7 +213,7 @@ def submit_openai_batch(completions: list[dict], model: str, db_path: str) -> st
     with open(batch_file, "w") as f:
         for comp in completions:
             user_msg = make_classifier_prompt(
-                comp["completion_text"], comp["lang"], comp["template_id"],
+                comp["completion_text"], comp["lang"],
             )
             request = {
                 "custom_id": str(comp["completion_id"]),
@@ -300,7 +300,7 @@ def submit_anthropic_batch(completions: list[dict], model: str, db_path: str) ->
     requests = []
     for comp in completions:
         user_msg = make_classifier_prompt(
-            comp["completion_text"], comp["lang"], comp["template_id"],
+            comp["completion_text"], comp["lang"],
         )
         requests.append({
             "custom_id": str(comp["completion_id"]),

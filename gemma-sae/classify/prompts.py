@@ -1,4 +1,24 @@
-"""Classifier prompt template and JSON response parsing."""
+"""Classifier prompt template and JSON response parsing.
+
+CLASSIFIER VERSION HISTORY
+==========================
+Map of DB `classifications.classifier_model` name → prompt configuration.
+The classifier_model column bundles (model, prompt_version) by convention;
+this docstring is the canonical mapping. When you change CLASSIFIER_SYSTEM
+or make_classifier_prompt, bump the version suffix and add an entry below.
+
+  gemma3_27b_it     (Mar 2026): user message included "Prompt type: {template_id}".
+                                Has the B6 template→category leak documented in
+                                ANALYSIS_ACTIVE_PLAN.md and analysis_report.typ §F2
+                                (e.g. classifier near-deterministically maps
+                                template_id=family → category=family_social).
+                                Kept in DB for comparison but DO NOT use for new
+                                analyses.
+
+  gemma3_27b_it_v2  (Apr 2026): same system prompt; user message drops the
+                                "Prompt type:" line. Default for new
+                                classification runs.
+"""
 
 import json
 
@@ -32,11 +52,17 @@ Respond with this exact JSON schema:
 {"content_category": "<category>", "dim_indiv_collect": <1-5>, "dim_trad_secular": <1-5>, "dim_surv_selfexpr": <1-5>}"""
 
 
-def make_classifier_prompt(completion_text: str, lang: str, template_id: str) -> str:
-    """Build the user message for classification."""
+def make_classifier_prompt(completion_text: str, lang: str) -> str:
+    """Build the user message for classification.
+
+    The template_id is intentionally NOT passed to the classifier — including it
+    creates a strong template→category prior (B6 in the ablation analysis), e.g.
+    classifier near-deterministically maps `template_id=family` to category
+    `family_social`. Language is kept because the classifier needs it to
+    interpret non-English completions correctly.
+    """
     return (
         f"Language: {lang}\n"
-        f"Prompt type: {template_id}\n"
         f"Completion: {completion_text}\n\n"
         f"Classify this completion."
     )

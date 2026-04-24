@@ -181,7 +181,7 @@ def build_prompts(completions: list[dict], tokenizer) -> list[str]:
     prompts = []
     for comp in completions:
         user_msg = make_classifier_prompt(
-            comp["completion_text"], comp["lang"], comp["template_id"],
+            comp["completion_text"], comp["lang"],
         )
         messages = [
             {"role": "user", "content": CLASSIFIER_SYSTEM + "\n\n" + user_msg},
@@ -271,7 +271,12 @@ def main():
     parser = argparse.ArgumentParser(description="Local vLLM classification with logprob extraction")
     parser.add_argument("--db", required=True)
     parser.add_argument("--model", default="google/gemma-3-27b-it")
-    parser.add_argument("--classifier-name", default="gemma3_27b_it")
+    # Naming convention:
+    #   gemma3_27b_it     — original classifier; user message included template_id (B6 leak)
+    #   gemma3_27b_it_v2  — post-B6-fix; template_id stripped from user message
+    # If you re-run classification after editing classify/prompts.py, bump the
+    # version so old and new classifications stay distinguishable in the DB.
+    parser.add_argument("--classifier-name", default="gemma3_27b_it_v2")
     parser.add_argument("--dtype", default="bf16", choices=["bf16", "int4", "int8"])
     parser.add_argument("--batch-size", type=int, default=256,
                         help="Completions per vLLM batch (vLLM handles internal scheduling)")

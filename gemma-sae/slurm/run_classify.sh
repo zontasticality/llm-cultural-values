@@ -3,7 +3,7 @@
 #SBATCH --mem=96G
 #SBATCH -p gpu-preempt
 #SBATCH --gres=gpu:1
-#SBATCH --constraint=a100
+#SBATCH --constraint=a100-80g|h100
 #SBATCH -t 24:00:00
 #SBATCH -o gemma-sae/logs/classify_%j.out
 #SBATCH -e gemma-sae/logs/classify_%j.err
@@ -19,7 +19,9 @@ export PYTHONUNBUFFERED=1
 
 DB_PATH=${1:-gemma-sae/data/culture.db}
 MODEL=${2:-google/gemma-3-27b-it}
-CLASSIFIER=${3:-gemma3_27b_it}
+# v2 = post-B6-fix (template_id stripped from user message).
+# Old classifications under "gemma3_27b_it" remain in the DB for comparison.
+CLASSIFIER=${3:-gemma3_27b_it_v2}
 
 echo "DB: $DB_PATH | Model: $MODEL | Classifier: $CLASSIFIER"
 echo "GPU: $(nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null || echo 'none')"

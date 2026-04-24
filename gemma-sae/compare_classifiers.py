@@ -22,7 +22,7 @@ def main():
     sem = asyncio.Semaphore(5)
 
     async def call(client, model, r, max_tokens=200):
-        msg = make_classifier_prompt(r['completion_text'], r['lang'], r['template_id'])
+        msg = make_classifier_prompt(r['completion_text'], r['lang'])
         async with sem:
             for attempt in range(5):
                 try:
